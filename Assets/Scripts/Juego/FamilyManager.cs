@@ -1,33 +1,24 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class FamilyManager : MonoBehaviour
 {
-    public GameObject levelMenuCanvas;
     public GameObject completeCanvas;
-    public CardSpawner cardSpawner;
+    public FirstPersonController playerController;
+    public CameraController cameraController;
+
     public int totalModelsToCollect = 4;
     private int collectedModels = 0;
-
     private bool levelCompleted = false;
-    public Button level1Button;
+    public Button level2Button;
 
     void Start()
     {
-        level1Button.onClick.AddListener(() => StartLevel1());
-        Debug.Log("boton click");
-        completeCanvas.SetActive(false);
-    }
+        // Cargar progreso del jugador
+        int level2Unlocked = PlayerPrefs.GetInt("Level2Unlocked", 0);
+        level2Button.interactable = (level2Unlocked == 1); // Desactivar el botón del nivel 2 si no está desbloqueado
 
-    public void StartLevel1()
-    {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        Debug.Log("Método StartLevel1 llamado");
-        levelMenuCanvas.SetActive(false);
-        cardSpawner.ActivateSpawning();
     }
 
     // Llamar a este método cuando se recolecte un modelo
@@ -35,7 +26,6 @@ public class FamilyManager : MonoBehaviour
     {
         collectedModels++;
         Debug.Log("Modelo recolectado: " + collectedModels);
-
 
         if (collectedModels >= totalModelsToCollect && !levelCompleted)
         {
@@ -49,9 +39,12 @@ public class FamilyManager : MonoBehaviour
         Debug.Log("¡Nivel completado!");
         levelCompleted = true;
         completeCanvas.SetActive(true);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+
+        // Desbloquear el nivel 2
+        PlayerPrefs.SetInt("Level2Unlocked", 1);
+        level2Button.interactable = true; // Habilitar el botón del nivel 2
     }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -60,6 +53,4 @@ public class FamilyManager : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
-
-
 }
