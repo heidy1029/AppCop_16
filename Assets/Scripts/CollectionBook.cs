@@ -1,27 +1,28 @@
+// Assets/Scripts/Juego/CollectionBook.cs
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
 
 public class CollectionBook : MonoBehaviour
 {
-    public GameObject collectionPagePrefab; // Prefab para una página de colección
-    public Transform collectionContent; // Contenedor para las páginas en el libro
-    private List<Sprite> collectedImages = new List<Sprite>();
+    public Image[] collectionImages; // Array de imágenes en el libro de colección
 
-    public void AddImageToCollection(Sprite modelImage)
+    /// <summary>
+    /// Agrega una imagen a la colección.
+    /// </summary>
+    /// <param name="image">Sprite de la imagen a agregar.</param>
+    public void AddImageToCollection(Sprite image)
     {
-        // Verifica si ya se ha añadido la imagen
-        if (!collectedImages.Contains(modelImage))
+        foreach (Image img in collectionImages)
         {
-            collectedImages.Add(modelImage);
-
-            // Instancia una nueva página de colección y agrega la imagen
-            GameObject newPage = Instantiate(collectionPagePrefab, collectionContent);
-            Image imageComponent = newPage.GetComponentInChildren<Image>();
-            if (imageComponent != null)
+            if (img.sprite == null)
             {
-                imageComponent.sprite = modelImage;
+                img.sprite = image;
+                img.gameObject.SetActive(true);
+                return;
             }
         }
+
+        Debug.LogWarning("La colección de imágenes está completa.");
     }
 }
