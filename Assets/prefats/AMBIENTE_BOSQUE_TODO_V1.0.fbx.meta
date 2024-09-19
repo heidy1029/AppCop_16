@@ -3,7 +3,37 @@ guid: 1bd3cbaea90adc64d9ca62a4d28c6a10
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TEX_AMBIENTE_PISO
+    second: {fileID: 2100000, guid: 637d0d90f6533e345a299ef77b12030c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TEX_HOJAS_VERDES
+    second: {fileID: 2100000, guid: ae713a3ecd2781848952088864fe4f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TEX_MADERA
+    second: {fileID: 2100000, guid: 1fc86cb2db958064cacab6053d9fb3be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TEX_PISO_PARQUE.001
+    second: {fileID: 2100000, guid: e86cd203213ecfa428b21588e2f05ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stones1
+    second: {fileID: 2100000, guid: 04f3dfa98e8c1314aa4266b45913ec5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stones2
+    second: {fileID: 2100000, guid: d174f607298316849bc75e82a0d49ca1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

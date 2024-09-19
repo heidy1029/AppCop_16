@@ -352,11 +352,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1376272180}
+  - {fileID: 1318512672}
   - {fileID: 976117691}
   - {fileID: 1900318993}
   - {fileID: 581744372}
   - {fileID: 532142715}
-  - {fileID: 1318512672}
   - {fileID: 1417328230}
   - {fileID: 824155187}
   - {fileID: 854214117}
@@ -941,8 +941,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: 828}
-  m_SizeDelta: {x: 662.9584, y: 146.69}
+  m_AnchoredPosition: {x: 7, y: 836.43774}
+  m_SizeDelta: {x: 662.9584, y: 129.8145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854214118
 MonoBehaviour:
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4723ae892817f0347a315db7f047a6e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f501e6c225231a74fbdd2381afdefb00, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1084,7 +1084,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.590881, y: 50.166992}
+  m_AnchoredPosition: {x: -2, y: 50.166992}
   m_SizeDelta: {x: 1378.6821, y: 251.2703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &976117692
@@ -1388,7 +1388,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.79629517, y: -578}
-  m_SizeDelta: {x: 350.297, y: 95.988}
+  m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318512673
 MonoBehaviour:
@@ -1434,7 +1434,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 306299078}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
@@ -1443,7 +1443,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MainScene
+          m_StringArgument: LoginScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1318512674
@@ -1988,7 +1988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.666656, y: 613}
+  m_AnchoredPosition: {x: 48, y: 613}
   m_SizeDelta: {x: 373.294, y: 91.318}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1454036886

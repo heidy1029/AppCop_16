@@ -42,13 +42,15 @@ public class CameraController : MonoBehaviour
             float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
             float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
+            // Rotación vertical (movimiento hacia arriba y hacia abajo)
             rotationX -= mouseY;
+            rotationX = Mathf.Clamp(rotationX, -90f, 90f); // Limitar la rotación vertical
+
+            // Rotación horizontal (movimiento de izquierda a derecha)
             rotationY += mouseX;
 
-            // Limitar la rotación vertical para evitar que la cámara gire completamente
-            rotationX = Mathf.Clamp(rotationX, -90f, 90f);
-            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
-            transform.localRotation = Quaternion.Euler(0f, rotationY, 0f);
+            // Aplicar la rotación en los ejes correspondientes
+            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, rotationY, 0f);
 
             // Control de Zoom
             if (isZoomed)
@@ -88,5 +90,4 @@ public class CameraController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
-
 }

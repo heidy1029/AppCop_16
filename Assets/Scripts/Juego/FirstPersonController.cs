@@ -8,6 +8,9 @@ public class FirstPersonController : MonoBehaviour
     // Sensibilidad del mouse
     public float mouseSensitivity = 100f;
 
+    // Referencia a la cámara
+    public Camera playerCamera; // Agrega una referencia a la cámara aquí
+
     // Variable para controlar si el jugador puede moverse
     public bool canMove = true;
 
@@ -29,6 +32,9 @@ public class FirstPersonController : MonoBehaviour
     private float sprintCooldownReset;
 
     public bool enableJump = true;
+    public float mouseSensitivityX = 100f; // Sensibilidad para el movimiento horizontal
+    public float mouseSensitivityY = 100f; // Sensibilidad para el movimiento vertical
+
     public KeyCode jumpKey = KeyCode.Space;
     public float jumpPower = 5f;
     private bool isGrounded = false;
@@ -51,6 +57,17 @@ public class FirstPersonController : MonoBehaviour
         {
             sprintRemaining = sprintDuration;
             sprintCooldownReset = sprintCooldown;
+        }
+
+        // Asegúrate de que playerCamera esté asignada
+        if (playerCamera == null)
+        {
+            playerCamera = Camera.main; // Si no está asignada, busca la cámara principal
+        }
+
+        if (playerCamera == null)
+        {
+            Debug.LogError("No se encontró la cámara principal. Asigna la cámara manualmente en el Inspector.");
         }
     }
 
@@ -135,19 +152,26 @@ public class FirstPersonController : MonoBehaviour
             }
         }
     }
-
     private void HandleMouseLook()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
+
+        if (playerCamera == null)
+        {
+            return; // Si la cámara no está asignada, no intentamos rotarla
+        }
+
+        // Rotación horizontal (control del personaje)
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivityX * Time.deltaTime;
+        transform.Rotate(Vector3.up * mouseX);
+
+        // Rotación vertical (control de la cámara)
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivityY * Time.deltaTime;
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        transform.Rotate(Vector3.up * mouseX);
+        playerCamera.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
     }
-
     private void Crouch()
     {
         transform.localScale = new Vector3(originalScale.x, crouchHeight, originalScale.z);
@@ -218,8 +242,4 @@ public class FirstPersonController : MonoBehaviour
     {
         isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f);
     }
-
 }
-
-
-
