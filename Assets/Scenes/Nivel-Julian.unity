@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 83ebf4bf4ffee6b43ac39127d6649636, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -5988,6 +5988,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1077159152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1077159154}
+  - component: {fileID: 1077159153}
+  m_Layer: 0
+  m_Name: TestEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1077159153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077159152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e46d2f461ab7145db971510a9da3a32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1077159154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077159152}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1096861902
 GameObject:
   m_ObjectHideFlags: 0
@@ -7189,11 +7233,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e93dda4d47e0c443bddb5dbc8db2e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skyboxDay: {fileID: 2100000, guid: 83ebf4bf4ffee6b43ac39127d6649636, type: 2}
-  skyboxEvening: {fileID: 2100000, guid: 47da5f200cd8d9a4f8b5b45215939a49, type: 2}
-  skyboxNight: {fileID: 2100000, guid: d03737d12f6c14f4688254cd0ad2bc33, type: 2}
-  changeInterval: 10
   directionalLight: {fileID: 861003216}
+  skyboxMaterial: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
+  timeOfDay: 12
+  dayDuration: 120
+  morningLightColor: {r: 1, g: 0.95, b: 0.8, a: 1}
+  afternoonLightColor: {r: 1, g: 0.9, b: 0.7, a: 1}
+  nightLightColor: {r: 0.2, g: 0.2, b: 0.35, a: 1}
+  morningLightIntensity: 1
+  afternoonLightIntensity: 1.2
+  nightLightIntensity: 0.2
+  morningExposure: 1
+  afternoonExposure: 0.7
+  nightExposure: 0.3
+  transitionSpeed: 0.5
 --- !u!4 &1289506903
 Transform:
   m_ObjectHideFlags: 0
@@ -7575,15 +7628,40 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6487354601268843728, guid: 2091c2fc393a71445b05365c98717cff,
+        type: 3}
+      propertyPath: m_TagString
+      value: LockedPlane
+      objectReference: {fileID: 0}
     - target: {fileID: -5825301122328541086, guid: 2091c2fc393a71445b05365c98717cff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5825301122328541086, guid: 2091c2fc393a71445b05365c98717cff,
+        type: 3}
+      propertyPath: m_TagString
+      value: LockedPlane
+      objectReference: {fileID: 0}
+    - target: {fileID: -5522214312273188141, guid: 2091c2fc393a71445b05365c98717cff,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5522214312273188141, guid: 2091c2fc393a71445b05365c98717cff,
         type: 3}
+      propertyPath: m_TagString
+      value: LockedPlane
+      objectReference: {fileID: 0}
+    - target: {fileID: -4988511041003066170, guid: 2091c2fc393a71445b05365c98717cff,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4988511041003066170, guid: 2091c2fc393a71445b05365c98717cff,
+        type: 3}
+      propertyPath: m_TagString
+      value: UnlockedPlane
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2091c2fc393a71445b05365c98717cff,
         type: 3}
@@ -7600,15 +7678,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3639291064527070944, guid: 2091c2fc393a71445b05365c98717cff,
+        type: 3}
+      propertyPath: m_TagString
+      value: LockedPlane
+      objectReference: {fileID: 0}
     - target: {fileID: 6224075271512038834, guid: 2091c2fc393a71445b05365c98717cff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224075271512038834, guid: 2091c2fc393a71445b05365c98717cff,
+        type: 3}
+      propertyPath: m_TagString
+      value: LockedPlane
+      objectReference: {fileID: 0}
+    - target: {fileID: 8617412453355245429, guid: 2091c2fc393a71445b05365c98717cff,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8617412453355245429, guid: 2091c2fc393a71445b05365c98717cff,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_TagString
+      value: LockedPlane
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10551,7 +10644,7 @@ PrefabInstance:
     - target: {fileID: 5996993512107542422, guid: be13eb11deeae344f89426772fdebb33,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.963
+      value: -51.8
       objectReference: {fileID: 0}
     - target: {fileID: 5996993512107542422, guid: be13eb11deeae344f89426772fdebb33,
         type: 3}
@@ -14042,3 +14135,4 @@ SceneRoots:
   - {fileID: 1592191547}
   - {fileID: 1428437904}
   - {fileID: 861003217}
+  - {fileID: 1077159154}
