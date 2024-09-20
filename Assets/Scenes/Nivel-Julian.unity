@@ -800,12 +800,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!4 &143707984 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5996993512107542422, guid: be13eb11deeae344f89426772fdebb33,
-    type: 3}
-  m_PrefabInstance: {fileID: 1864527035}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &165976629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4004,12 +3998,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623461752}
   m_CullTransparentMesh: 1
---- !u!20 &629444057 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 3209007117738558705, guid: be13eb11deeae344f89426772fdebb33,
-    type: 3}
-  m_PrefabInstance: {fileID: 1864527035}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &653596218
 GameObject:
   m_ObjectHideFlags: 0
@@ -10632,31 +10620,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstPersonController
       objectReference: {fileID: 0}
-    - target: {fileID: 406843935804685563, guid: be13eb11deeae344f89426772fdebb33,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3472630239076863220, guid: be13eb11deeae344f89426772fdebb33,
-        type: 3}
-      propertyPath: m_TagString
-      value: MainCamera
-      objectReference: {fileID: 0}
-    - target: {fileID: 3666655774154111839, guid: be13eb11deeae344f89426772fdebb33,
-        type: 3}
-      propertyPath: sprintSpeed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3666655774154111839, guid: be13eb11deeae344f89426772fdebb33,
-        type: 3}
-      propertyPath: playerCamera
-      value: 
-      objectReference: {fileID: 629444057}
-    - target: {fileID: 3666655774154111839, guid: be13eb11deeae344f89426772fdebb33,
-        type: 3}
-      propertyPath: cameraTransform
-      value: 
-      objectReference: {fileID: 143707984}
     - target: {fileID: 5996993512107542422, guid: be13eb11deeae344f89426772fdebb33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10709,21 +10672,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7627545592093809911, guid: be13eb11deeae344f89426772fdebb33,
         type: 3}
-      propertyPath: playerBody
-      value: 
-      objectReference: {fileID: 143707984}
-    - target: {fileID: 7627545592093809911, guid: be13eb11deeae344f89426772fdebb33,
-        type: 3}
       propertyPath: CanvasTrivia
       value: 
       objectReference: {fileID: 8844242405588151428}
-    - target: {fileID: 7627545592093809911, guid: be13eb11deeae344f89426772fdebb33,
-        type: 3}
-      propertyPath: mouseSensitivity
-      value: 150
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1333660294874005556, guid: be13eb11deeae344f89426772fdebb33, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

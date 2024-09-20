@@ -15,14 +15,13 @@ GameObject:
   - component: {fileID: 6906341605356286882}
   - component: {fileID: 3666655774154111839}
   - component: {fileID: 7627545592093809911}
-  - component: {fileID: 1333660294874005556}
   m_Layer: 0
   m_Name: FirstPersonController
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5996993512107542422
 Transform:
   m_ObjectHideFlags: 0
@@ -151,26 +150,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77b80a5df3f81d849a75686e732e33fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 2
+  playerCamera: {fileID: 3209007117738558705}
   canMove: 1
   walkSpeed: 5
-  maxVelocityChange: 10
-  enableSprint: 1
-  unlimitedSprint: 0
-  sprintKey: 304
   sprintSpeed: 7
-  sprintDuration: 5
-  sprintCooldown: 0.5
-  sprintFOV: 80
-  sprintFOVStepTime: 10
-  enableJump: 1
+  sprintKey: 304
   jumpKey: 32
   jumpPower: 5
-  enableCrouch: 1
-  holdToCrouch: 1
-  crouchKey: 306
-  crouchHeight: 0.75
-  speedReduction: 0.5
+  enableSprint: 1
+  sprintDuration: 5
+  sprintCooldown: 0.5
 --- !u!114 &7627545592093809911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,28 +173,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 3209007117738558705}
-  mouseSensitivity: 2
+  mouseSensitivity: 150
   defaultFOV: 60
   isZoomed: 0
   CanvasTrivia: {fileID: 0}
-  canRotate: 1
-  isMenuActive: 1
---- !u!114 &1333660294874005556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406843935804685563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfbe97460f8acd1488a82178305cdf59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reflectionPlane: {fileID: 5996993512107542422}
-  outputTexture: {fileID: 8400000, guid: 4ae8ae7350b67b44785d874c413a2e03, type: 2}
-  copyCameraParamerers: 1
-  verticalOffset: 0
 --- !u!1 &3472630239076863220
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +190,7 @@ GameObject:
   - component: {fileID: 8109480533415355665}
   m_Layer: 0
   m_Name: PlayerCamara
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -270,7 +241,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 1000
   field of view: 60
   orthographic: 0
