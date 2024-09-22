@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SkyboxChanger : MonoBehaviour
@@ -75,5 +76,11 @@ public class SkyboxChanger : MonoBehaviour
         // Rotate the sun/moon based on the time of day
         float sunRotation = (timeOfDay / 24f) * 360f - 90f;
         directionalLight.transform.rotation = Quaternion.Euler(sunRotation, 170f, 0f);
+    }
+
+    private void OnDestroy()
+    {
+        // Reset skybox
+        skyboxMaterial.SetFloat("_Exposure", morningExposure);
     }
 }
