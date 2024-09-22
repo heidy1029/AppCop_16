@@ -2561,18 +2561,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &803157813 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1145435303027011730, guid: 9dd2214ca392d844781b989dcffc3d8b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7020223877180612365}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &804853947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,9 +2929,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 329bb2fe9f2313345b9f13b687de5167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  birdNameText: {fileID: 803157813}
+  birdNameText: {fileID: 0}
   speciesText: {fileID: 144849243}
-  descriptionText: {fileID: 1720388223}
+  descriptionText: {fileID: 0}
   mainImage: {fileID: 1283036258}
   habitatText: {fileID: 2013357852}
   dietText: {fileID: 359369302}
@@ -5931,18 +5919,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625001318}
   m_CullTransparentMesh: 1
---- !u!114 &1720388223 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1115668739287842976, guid: 9dd2214ca392d844781b989dcffc3d8b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7020223877180612365}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1760149999
 GameObject:
   m_ObjectHideFlags: 0
