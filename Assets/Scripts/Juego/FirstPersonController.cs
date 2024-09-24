@@ -41,6 +41,22 @@ public class FirstPersonController : MonoBehaviour
         sprintRemaining = sprintDuration;
     }
 
+    private void Start()
+    {
+        EventController.OnTriviaStarted += OnTriviaStarted;
+        EventController.OnTriviaCompleted += OnTriviaCompleted;
+    }
+
+    private void OnTriviaStarted(int triviaId)
+    {
+        canMove = false;
+    }
+
+    private void OnTriviaCompleted(int triviaId)
+    {
+        canMove = true;
+    }
+
     private void Update()
     {
         if (canMove)
@@ -167,5 +183,11 @@ private void OnDrawGizmos()
     {
         isSprinting = false;
         sprintRemaining = Mathf.Clamp(sprintRemaining + sprintCooldown, 0, sprintDuration);
+    }
+
+    private void OnDestroy()
+    {
+        EventController.OnTriviaStarted -= OnTriviaStarted;
+        EventController.OnTriviaCompleted -= OnTriviaCompleted;
     }
 }

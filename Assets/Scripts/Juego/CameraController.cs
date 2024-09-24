@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    [SerializeField] private FirstPersonController _firstPersonController;
     public Camera playerCamera;
     public float mouseSensitivity = 2f;
     public float defaultFOV = 60f;
     public bool isZoomed = false;
-    public GameObject CanvasTrivia;
-    private GameObject player;
 
     private float rotationX = 0f;
     private float rotationY = 0f;
@@ -20,23 +19,13 @@ public class CameraController : MonoBehaviour
         }
 
         playerCamera.fieldOfView = defaultFOV;
-
-        // Ocultar y bloquear el cursor en el centro de la pantalla
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-
-        if (CanvasTrivia != null)
-        {
-            CanvasTrivia.SetActive(false); // Inicia con el Canvas desactivado
-        }
-
-        player = GameObject.FindWithTag("Player");
     }
 
     void Update()
     {
-        // Solo permite el control de la cámara si el Canvas de Trivia está inactivo
-        if (!CanvasTrivia.activeSelf && player != null)
+        if (_firstPersonController == null) return;
+
+        if (_firstPersonController.canMove)
         {
             // Movimiento de la cámara usando el mouse
             float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
@@ -62,32 +51,5 @@ public class CameraController : MonoBehaviour
                 playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, defaultFOV, Time.deltaTime * 10);
             }
         }
-        else
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
-    }
-
-    // Método para finalizar la trivia y reactivar el control del jugador
-    public void EndTrivia()
-    {
-        if (CanvasTrivia != null)
-        {
-            CanvasTrivia.SetActive(false);
-        }
-
-        if (player != null)
-        {
-            FirstPersonController controller = player.GetComponent<FirstPersonController>();
-            if (controller != null)
-            {
-                controller.canMove = true;
-            }
-        }
-
-        // Restaurar el control del cursor y ocultarlo
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 }

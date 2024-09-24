@@ -83,6 +83,8 @@ public class TriviaManager : MonoBehaviour
             return;
         }
 
+        EventController.Instance.SetTriviaStarted(modelIndex);
+
         ModelQuestions modelQuestions = example.allModelQuestions.Find(m => m.modelIndex == modelIndex);
 
         if (modelQuestions != null && modelQuestions.questions.Count > 0)
@@ -213,6 +215,9 @@ public class TriviaManager : MonoBehaviour
     {
         Debug.Log("Trivia completada");
 
+        // Llama el evento donde se este escuchando, ver ejemplo en LevelManager.cs
+        //EventController.Instance.SetTriviaCompleted(modelIndex);
+
         ShowBirdInfo(modelIndex);
     }
 
@@ -234,6 +239,7 @@ public class TriviaManager : MonoBehaviour
         {
             // Actualizar la información en el canvas
             birdInfoCanvas.UpdateBirdInfo(
+                modelIndex,
                 currentBirdInfo.birdName,
                 currentBirdInfo.species,
                 currentBirdInfo.description,

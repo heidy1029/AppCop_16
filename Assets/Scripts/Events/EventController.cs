@@ -24,12 +24,20 @@ public class EventController : MonoBehaviour
         }
     }
 
+    public delegate void TriviaStarted(int triviaId);
+    public static event TriviaStarted OnTriviaStarted;
+
     public delegate void TriviaCompleted(int triviaId);
     public static event TriviaCompleted OnTriviaCompleted;
 
     private List<int> completedTrivias = new List<int>();
 
     public int currentTrivia { get; private set; } = 0;
+
+    public void SetTriviaStarted(int triviaId)
+    {
+        OnTriviaStarted?.Invoke(triviaId);
+    }
 
     public void SetTriviaCompleted(int triviaId)
     {

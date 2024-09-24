@@ -5,6 +5,8 @@ using TMPro; // Si usas TextMeshPro
 
 public class BirdInfoCanvas : MonoBehaviour
 {
+    public GameObject canvas;
+    public Button buttonClose;
     public TextMeshProUGUI birdNameText;
     public TextMeshProUGUI speciesText;
     public TextMeshProUGUI descriptionText;
@@ -19,8 +21,16 @@ public class BirdInfoCanvas : MonoBehaviour
     public TextMeshProUGUI locationText;
     public TextMeshProUGUI bibliographyText;
 
-    public void UpdateBirdInfo(string birdName, string species, string description, Sprite mainImageSprite, string habitat, string diet, string reproduction, string size, string funFact1, string funFact2, Sprite secondaryImageSprite, string location, string bibliography)
+    private int currentTriviaId;
+
+    private void Start()
     {
+        buttonClose.onClick.AddListener(OnBackButtonPressed);
+    }
+
+    public void UpdateBirdInfo(int triviaId, string birdName, string species, string description, Sprite mainImageSprite, string habitat, string diet, string reproduction, string size, string funFact1, string funFact2, Sprite secondaryImageSprite, string location, string bibliography)
+    {
+        currentTriviaId = triviaId;
         birdNameText.text = birdName;
         speciesText.text = species;
         descriptionText.text = description;
@@ -34,6 +44,13 @@ public class BirdInfoCanvas : MonoBehaviour
         secondaryImage.sprite = secondaryImageSprite;
         locationText.text = location;
         bibliographyText.text = bibliography;
+
+        ShowCanvas(true);
+    }
+
+    public void ShowCanvas(bool isActive)
+    {
+        canvas.SetActive(isActive);
     }
 
     /// <summary>
@@ -41,15 +58,16 @@ public class BirdInfoCanvas : MonoBehaviour
     /// </summary>
     public void OnBackButtonPressed()
     {
-        // Desactivar el canvas de información del ave
-        this.gameObject.SetActive(false);
+        ShowCanvas(false);
+        // Llama el evento donde se este escuchando, ver ejemplo en LevelManager.cs
+        EventController.Instance.SetTriviaCompleted(currentTriviaId);
 
         // Activar el canvas de trivia si es necesario
         // Puedes hacerlo referenciando directamente al TriviaManager o usando otro método
         TriviaManager triviaManager = FindObjectOfType<TriviaManager>();
-        if (triviaManager != null && triviaManager.triviaCanvas != null)
+        /*if (triviaManager != null && triviaManager.triviaCanvas != null)
         {
             triviaManager.triviaCanvas.SetActive(true);
-        }
+        }*/
     }
 }
