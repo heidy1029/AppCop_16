@@ -33,5 +33,7 @@ sysinfo.txt
 # Builds
 *.apk
 .DS_Store
-
 Logs/*.log
+Logs/*.prev.log
+Logs/shadercompiler-*.log
+UserSettings/
