@@ -30,7 +30,11 @@ EditorUserSettings:
       value: 0602070755540c5a0f0c5572432007444415192e747c7561787e4c63b4b4623b
       flags: 0
     RecentlyUsedSceneGuid-8:
+<<<<<<< HEAD
       value: 070507055553510c59595a21437708444f16407d7d2d27347b7d1866b4b2626c
+=======
+      value: 02075605060c0d5d085d5f20492106444e164b7c757e7e677a2a4460b4b4353b
+>>>>>>> 62ef6dd (Updated GameMenu)
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 54090d535d0c5b0a555a597043745a444f151d7f2e7f76347c7d4a66e1b0606d
