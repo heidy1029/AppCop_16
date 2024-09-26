@@ -289,7 +289,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7bc458bb9f5aa6f4bb53c75b6c86e151,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.46
+      value: -5.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bc458bb9f5aa6f4bb53c75b6c86e151,
         type: 3}
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fdd42b0133c82449e52008001cc1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _modelId: 1
+  _birdType: 1
   _modelIndex: 3
   modelImage: {fileID: 21300000, guid: 8eefad70712073e4394a8349de84c7a3, type: 3}
 --- !u!1 &124371097
@@ -1575,8 +1575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b1e89756ebbbe04293dfdb79b65a918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  birdInfos: []
-  allModelQuestions: []
 --- !u!4 &333232818
 Transform:
   m_ObjectHideFlags: 0
@@ -3961,7 +3959,7 @@ GameObject:
   - component: {fileID: 1109865927}
   - component: {fileID: 1109865926}
   m_Layer: 5
-  m_Name: Regresar
+  m_Name: ButtonNextLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6072,7 +6070,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7bc458bb9f5aa6f4bb53c75b6c86e151,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.46
+      value: -5.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bc458bb9f5aa6f4bb53c75b6c86e151,
         type: 3}
@@ -6210,7 +6208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fdd42b0133c82449e52008001cc1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _modelId: 1
+  _birdType: 1
   _modelIndex: 1
   modelImage: {fileID: 21300000, guid: 73beae46d0c1ba842b9ba32690ece7a6, type: 3}
 --- !u!1 &1625001318
@@ -7266,7 +7264,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7bc458bb9f5aa6f4bb53c75b6c86e151,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.46
+      value: -5.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bc458bb9f5aa6f4bb53c75b6c86e151,
         type: 3}
@@ -7404,7 +7402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fdd42b0133c82449e52008001cc1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _modelId: 1
+  _birdType: 1
   _modelIndex: 2
   modelImage: {fileID: 21300000, guid: de2e5669a21a68449965dd79f03a2e2b, type: 3}
 --- !u!1 &1852792925
@@ -7621,7 +7619,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7bc458bb9f5aa6f4bb53c75b6c86e151,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.46
+      value: -5.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bc458bb9f5aa6f4bb53c75b6c86e151,
         type: 3}
@@ -7742,7 +7740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fdd42b0133c82449e52008001cc1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _modelId: 1
+  _birdType: 1
   _modelIndex: 0
   modelImage: {fileID: 21300000, guid: 166175d5c9e559141aff2ef50e2f2795, type: 3}
 --- !u!1001 &1895679494
@@ -27463,7 +27461,8 @@ MonoBehaviour:
   - {fileID: 432357428}
   _originalMaterial: {fileID: 2100000, guid: b5610d24442024f4087aaacbf85617c6, type: 2}
   _lockedMaterial: {fileID: 2100000, guid: 4859e9f264397dd409322c175bc8e28d, type: 2}
-  _resetUnlockedAmbientId: 1
+  _canvasLevelCompleted: {fileID: 1076346583}
+  _buttonNextLevel: {fileID: 1109865926}
 --- !u!4 &2138695472
 Transform:
   m_ObjectHideFlags: 0

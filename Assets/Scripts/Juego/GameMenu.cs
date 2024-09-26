@@ -5,20 +5,26 @@ using UnityEngine.SceneManagement;
 public class GameMenu : MonoBehaviour
 {
     [SerializeField] private Button[] _buttons;
-    [SerializeField] private int[] _buttonIds;
+    [SerializeField] private int[] _birdTypes;
 
     private void Start()
     {
         for (int i = 0; i < _buttons.Length; i++)
         {
-            int buttonId = _buttonIds[i];
-            _buttons[i].onClick.AddListener(() => OnButtonPressed(buttonId));
+            int birdType = _birdTypes[i];
+            _buttons[i].onClick.AddListener(() => OnButtonPressed(birdType));
+
+            // Si el botón está bloqueado, activarlo
+            if (birdType > EventController.Instance.GetCurrentBirdType())
+            {
+                _buttons[i].interactable = true;
+            }
         }
     }
 
-    private void OnButtonPressed(int buttonId)
+    private void OnButtonPressed(int birdType)
     {
-        EventController.Instance.SetTriviaStarted(buttonId);
+        EventController.Instance.SetTriviaStarted(birdType);
 
         SceneManager.LoadScene("Nivel 1");
     }

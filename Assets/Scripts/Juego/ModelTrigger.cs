@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class ModelTrigger : MonoBehaviour
 {
-    [SerializeField] private int _modelId;
+    [SerializeField] private int _birdType;
     [SerializeField] private int _modelIndex;
     public Sprite modelImage; // Imagen del modelo para el libro
 
     private void Start()
     {
-        TriviaManager.Instance.AddModel(_modelId, _modelIndex); // Agrega el modelo al diccionario
+        TriviaManager.Instance.AddModel(_birdType); // Agrega el modelo al diccionario
     }
 
     private void OnTriggerEnter(Collider other)
@@ -16,7 +16,7 @@ public class ModelTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Destroy(this.gameObject); // Destruye el trigger
-            TriviaManager.Instance.LoadQuestions(_modelId, _modelIndex); // Inicia la trivia con el modelIndex correcto
+            TriviaManager.Instance.LoadQuestions(_modelIndex); // Inicia la trivia con el modelIndex correcto
         }
     }
 

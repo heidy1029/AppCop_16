@@ -30,19 +30,19 @@ public class EventController : MonoBehaviour
     public delegate void TriviaAnswered(int triviaId);
     public static event TriviaAnswered OnTriviaAnswered;
 
-    public delegate void TriviaCompleted(int modelId);
+    public delegate void TriviaCompleted(int birdType);
     public static event TriviaCompleted OnTriviaCompleted;
 
-    private int _currentModelId;
+    private int _currentBirdType = 1; // Default to 1
 
-    public int GetCurrentModelId()
+    public int GetCurrentBirdType()
     {
-        return _currentModelId;
+        return _currentBirdType;
     }
 
-    public void SetCurrentModelId(int modelId)
+    public void SetCurrentBirdType(int birdType)
     {
-        _currentModelId = modelId;
+        _currentBirdType = birdType;
     }
 
     public void SetTriviaStarted(int triviaId)
@@ -55,9 +55,9 @@ public class EventController : MonoBehaviour
         OnTriviaAnswered?.Invoke(triviaId);
     }
 
-    public void SetTriviaCompleted(int modelId)
+    public void SetTriviaCompleted(int birdType)
     {
-        OnTriviaCompleted?.Invoke(modelId);
+        OnTriviaCompleted?.Invoke(birdType);
     }
 
     private void Awake()

@@ -204,41 +204,6 @@
             }
           }
         ]
-      },
-      {
-        "birdTypeId": 2,
-        "allModelQuestions": [
-          {
-            "modelIndex": 0,
-            "questions": [
-              {
-                "questionText": " ",
-                "answers": [
-                  "A) ",
-                  "B) ",
-                  "C) ",
-                  "D) "
-                ],
-                "correctAnswerIndex": 1
-              }
-            ],
-            "birdInfo": {
-              "birdName": "",
-              "species": "",
-              "description": "",
-              "mainImage": "Images/",
-              "habitat": "",
-              "diet": "",
-              "reproduction": "",
-              "size": "",
-              "funFact1": "",
-              "funFact2": "",
-              "secondaryImage": "Images/",
-              "location": "",
-              "bibliography": ""
-            }
-          }
-        ]
       }
     ]
   }

@@ -69,18 +69,9 @@ public class Data : MonoBehaviour
         return birdType.AllModelQuestions;
     }
 
-    /// <summary>
-    /// Obtiene la información del ave basada en el modelIndex.
-    /// </summary>
-    /// <param name="modelIndex">Índice del modelo.</param>
-    /// <returns>Objeto BirdInfo correspondiente.</returns>
     public BirdInfo GetBirdInfo(int modelIndex)
     {
-        BirdInfo birdInfo = birdInfos.Find(b => b.ModelIndex == modelIndex);
-        if (birdInfo == null)
-        {
-            Debug.LogWarning($"BirdInfo with modelIndex {modelIndex} not found.");
-        }
+        var birdInfo = birdInfos.Find(bi => bi.ModelIndex == modelIndex);
         return birdInfo;
     }
 }

@@ -27,46 +27,45 @@ public class TriviaManager : MonoBehaviour
     public TextMeshProUGUI questionText; // Asigna en el Inspector
     public Button[] answerButtons; // Asigna en el Inspector
 
-    private int modelIndex; // Índice del modelo actual
+    private int currentTriviaId; // Índice del modelo actual
     private List<Question> currentQuestions;
 
-    private int _currentModelId;
     private int currentQuestionIndex = 0;
 
-    private class Model
+    private List<bool> _triviaCompleted = new List<bool>();
+
+    // Agregar una nueva key birdType si no existe y agregar en esa key nuevo modelo con el índice del modelo
+    public void AddModel(int birdType)
     {
-        public int modelIndex;
-        public bool isChecked;
+        if (birdType == EventController.Instance.GetCurrentBirdType())
+        {
+            _triviaCompleted.Add(false);
+        }
     }
 
-    private Hashtable _models = new Hashtable();
-
-    // Agregar un modelo si no existe al diccionario en la key modelId
-    public void AddModel(int modelId, int modelIndex)
+    public void SetModelChecked(int triviaId)
     {
-        if (!_models.ContainsKey(modelId))
+        _triviaCompleted[triviaId] = true;
+
+        foreach (var trivia in _triviaCompleted)
         {
-            Model model = new Model();
-            model.modelIndex = modelIndex;
-            model.isChecked = false;
-            _models.Add(modelId, model);
+            Debug.Log(trivia);
         }
     }
 
     // Comprobar si todos los modelos del modelId ya fueron recolectados
-    public bool CheckAllModels(int modelId)
+    public bool CheckAllModels()
     {
-        foreach (DictionaryEntry model in _models)
+        var completed = true;
+        foreach (var trivia in _triviaCompleted)
         {
-            if ((int)model.Key == modelId)
+            if (!trivia)
             {
-                if (!((Model)model.Value).isChecked)
-                {
-                    return false;
-                }
+                completed = false;
+                break;
             }
         }
-        return true;
+        return completed;
     }
 
     private void Start()
@@ -104,11 +103,9 @@ public class TriviaManager : MonoBehaviour
     /// Carga las preguntas para un modelo específico.
     /// </summary>
     /// <param name="modelIndex">Índice del modelo.</param>
-    public void LoadQuestions(int modelId, int modelIndex)
+    public void LoadQuestions(int modelIndex)
     {
-        _currentModelId = modelId;
-
-        var model = data.GetModelQuestions(modelId);
+        var model = data.GetModelQuestions(EventController.Instance.GetCurrentBirdType());
 
         if (model == null || model.Count == 0)
         {
@@ -122,9 +119,10 @@ public class TriviaManager : MonoBehaviour
 
         if (modelQuestions != null && modelQuestions.Questions.Count > 0)
         {
-            Debug.Log($"Preguntas cargadas correctamente para el modelIndex: {modelIndex}");
+            //Debug.Log($"Preguntas cargadas correctamente para el modelIndex: {modelIndex}");
             currentQuestions = modelQuestions.Questions;
             currentQuestionIndex = 0;
+            currentTriviaId = modelIndex;
 
             // Activar el canvas de trivia
             if (triviaCanvas != null)
@@ -150,7 +148,7 @@ public class TriviaManager : MonoBehaviour
             }
 
             // Opcional: Mostrar información del ave directamente si no hay preguntas
-            ShowBirdInfo(modelIndex);
+            ShowBirdInfo();
         }
     }
 
@@ -162,13 +160,6 @@ public class TriviaManager : MonoBehaviour
         if (currentQuestions == null || currentQuestions.Count == 0)
         {
             Debug.LogError("No hay preguntas para mostrar.");
-            EndTrivia();
-            return;
-        }
-
-        if (currentQuestionIndex >= currentQuestions.Count)
-        {
-            Debug.LogWarning("Índice de pregunta fuera de rango.");
             EndTrivia();
             return;
         }
@@ -188,7 +179,7 @@ public class TriviaManager : MonoBehaviour
                 answerButtons[i].onClick.RemoveAllListeners();
                 answerButtons[i].onClick.AddListener(() =>
                 {
-                    Debug.Log($"Botón {answerIndex} presionado");
+                    //Debug.Log($"Botón {answerIndex} presionado");
                     CheckAnswer(answerIndex);
                 });
             }
@@ -205,7 +196,7 @@ public class TriviaManager : MonoBehaviour
     /// <param name="selectedAnswerIndex">Índice de la respuesta seleccionada.</param>
     private void CheckAnswer(int selectedAnswerIndex)
     {
-        Debug.Log($"Revisando respuesta: {selectedAnswerIndex}");
+        // Debug.Log($"Revisando respuesta: {selectedAnswerIndex}");
 
         if (currentQuestions == null || currentQuestions.Count == 0)
         {
@@ -213,30 +204,24 @@ public class TriviaManager : MonoBehaviour
             return;
         }
 
-        if (currentQuestionIndex >= currentQuestions.Count)
-        {
-            Debug.LogError("Índice de pregunta actual fuera de rango.");
-            return;
-        }
-
         if (selectedAnswerIndex == currentQuestions[currentQuestionIndex].CorrectAnswerIndex)
         {
-            Debug.Log("Respuesta correcta");
-            currentQuestionIndex++;
-
-            if (currentQuestionIndex < currentQuestions.Count)
+            //Debug.Log("Respuesta correcta");
+           
+            if (currentQuestionIndex < currentQuestions.Count - 1)
             {
+                currentQuestionIndex++;
                 ShowNextQuestion();
             }
             else
             {
                 EndTrivia(); // Finalizar la trivia
-                Debug.Log("Trivia completada");
+                //Debug.Log("Trivia completada");
             }
         }
         else
         {
-            Debug.Log("Respuesta incorrecta");
+            //Debug.Log("Respuesta incorrecta");
             // Opcional: Manejar lógica de respuesta incorrecta (ej. mostrar mensaje, restar puntos, etc.)
         }
     }
@@ -246,33 +231,34 @@ public class TriviaManager : MonoBehaviour
     /// </summary>
     public void EndTrivia()
     {
-        Debug.Log("Trivia completada");
+        //Debug.Log("Trivia completada");
 
         // Llama el evento donde se este escuchando, ver ejemplo en LevelManager.cs
         //EventController.Instance.SetTriviaCompleted(modelIndex);
 
-        ShowBirdInfo(modelIndex);
+        ShowBirdInfo();
     }
 
     /// <summary>
     /// Muestra la información del ave en el canvas correspondiente.
     /// </summary>
-    /// <param name="modelIndex">Índice del modelo del ave.</param>
-    private void ShowBirdInfo(int modelIndex)
+    private void ShowBirdInfo()
     {
+        SetModelChecked(currentTriviaId);
+
         if (data == null)
         {
             Debug.LogError("Referencia a Data no asignada.");
             return;
         }
 
-        BirdInfo currentBirdInfo = data.GetBirdInfo(modelIndex);
+        BirdInfo currentBirdInfo = data.GetBirdInfo(currentTriviaId);
 
         if (currentBirdInfo != null)
         {
             // Actualizar la información en el canvas
             birdInfoCanvas.UpdateBirdInfo(
-                modelIndex,
+                currentTriviaId,
                 currentBirdInfo.BirdName,
                 currentBirdInfo.Species,
                 currentBirdInfo.Description,
@@ -302,19 +288,20 @@ public class TriviaManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError($"No se encontró información para el modelIndex: {modelIndex}");
+            Debug.LogError($"No se encontró información para el modelIndex: {currentTriviaId}");
         }
     }
 
     private void OnTriviaAnswered(int triviaId)
     {
-        var checkedAllModels = CheckAllModels(triviaId);
-        Debug.Log($"Modelo ID: {_currentModelId} Trivia respondida: {triviaId}");
+        var birtType = EventController.Instance.GetCurrentBirdType();
+        var checkedAllModels = CheckAllModels();
+        //Debug.Log($"Modelo ID: {birtType} Trivia respondida: {triviaId}");
 
         if (checkedAllModels)
         {
-            Debug.Log($"Todos los modelos con el ID {_currentModelId} han sido recolectados.");
-            EventController.Instance.SetTriviaCompleted(_currentModelId);
+            //Debug.Log($"Todos los modelos con el ID {birtType} han sido recolectados.");
+            EventController.Instance.SetTriviaCompleted(birtType);
         }
     }
 

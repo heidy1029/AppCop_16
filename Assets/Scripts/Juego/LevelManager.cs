@@ -1,15 +1,17 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] private Ambient[] _ambients;
     [SerializeField] private Material _originalMaterial;
     [SerializeField] private Material _lockedMaterial;
-    [SerializeField] private bool _resetUnlockedAmbientId;
+    [SerializeField] private GameObject _canvasLevelCompleted;
+    [SerializeField] private Button _buttonNextLevel;
 
     private Dictionary<int, Ambient> _ambientDictionary;
-    private int _highestUnlockedTriviaId;
 
     private void Awake()
     {
@@ -33,19 +35,14 @@ public class LevelManager : MonoBehaviour
             }
         }
 
-        if (_resetUnlockedAmbientId)
-        {
-            PlayerPrefs.SetInt("HighestUnlockedTriviaId", 1); // Reset and save it
-        }
-
-        // Load the highest unlocked trivia index from PlayerPrefs (default to 1)
-        if (PlayerPrefs.HasKey("HighestUnlockedTriviaId"))
-        {
-            _highestUnlockedTriviaId = PlayerPrefs.GetInt("HighestUnlockedTriviaId", 1);
-        }
 
         // Unlock all ambients up to the highest unlocked trivia index
-        UnlockAmbientsUpTo(_highestUnlockedTriviaId);
+        UnlockAmbientsUpTo(EventController.Instance.GetCurrentBirdType() - 1);
+
+        _buttonNextLevel.onClick.AddListener(() =>
+        {
+            SceneManager.LoadScene("Game");
+        });
 
         // Subscribe to the event
         EventController.OnTriviaStarted += OnTriviaStarted;
@@ -55,34 +52,34 @@ public class LevelManager : MonoBehaviour
 
     private void OnTriviaStarted(int triviaId)
     {
-        Debug.Log("Started");
+        //Debug.Log("Started");
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 
     private void OnTriviaAnswered(int triviaId)
     {
-        Debug.Log("Answered");
+        //Debug.Log("Answered");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
-    private void OnTriviaCompleted(int modelId)
+    private void OnTriviaCompleted(int birdType)
     {
-        Debug.Log("Completed");
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Debug.Log("Completed");
+         Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
         // Unlock the next trivia in sequence if it exists
-        int nextModelId = modelId + 1;
-        if (_ambientDictionary.TryGetValue(nextModelId, out var nextAmbient))
+        int nextBirdType = birdType + 1;
+        EventController.Instance.SetCurrentBirdType(nextBirdType);
+
+        _canvasLevelCompleted.SetActive(true);
+
+        if (_ambientDictionary.TryGetValue(nextBirdType, out var nextAmbient))
         {
             nextAmbient.gameObject.GetComponent<MeshRenderer>().material = _originalMaterial;
-            nextAmbient.UnlockedAmbient(nextModelId);
-
-            // Update the highest unlocked trivia index
-            _highestUnlockedTriviaId = Mathf.Max(_highestUnlockedTriviaId, nextModelId);
-            PlayerPrefs.SetInt("HighestUnlockedTriviaId", _highestUnlockedTriviaId); // Save it
+            nextAmbient.UnlockedAmbient(nextBirdType);
         }
     }
 

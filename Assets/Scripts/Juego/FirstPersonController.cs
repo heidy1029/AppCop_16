@@ -58,7 +58,7 @@ public class FirstPersonController : MonoBehaviour
         canMove = true;
     }
 
-    private void OnTriviaCompleted(int modelId)
+    private void OnTriviaCompleted(int birdType)
     {
         
     }
