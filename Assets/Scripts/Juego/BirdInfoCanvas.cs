@@ -28,22 +28,59 @@ public class BirdInfoCanvas : MonoBehaviour
         buttonClose.onClick.AddListener(OnBackButtonPressed);
     }
 
-    public void UpdateBirdInfo(int triviaId, string birdName, string species, string description, Sprite mainImageSprite, string habitat, string diet, string reproduction, string size, string funFact1, string funFact2, Sprite secondaryImageSprite, string location, string bibliography)
+    /// <summary>
+    /// Actualiza la información del ave en el canvas.
+    /// </summary>
+    public void UpdateBirdInfo(
+        int modelIndex,
+        string birdName,
+        string species,
+        string description,
+        string mainImagePath,
+        string habitat,
+        string diet,
+        string reproduction,
+        string size,
+        string funFact1,
+        string funFact2,
+        string secondaryImagePath,
+        string location,
+        string bibliography)
     {
-        currentTriviaId = triviaId;
+        currentTriviaId = modelIndex;
         birdNameText.text = birdName;
         speciesText.text = species;
         descriptionText.text = description;
-        mainImage.sprite = mainImageSprite;
         habitatText.text = habitat;
         dietText.text = diet;
         reproductionText.text = reproduction;
         sizeText.text = size;
         funFact1Text.text = funFact1;
         funFact2Text.text = funFact2;
-        secondaryImage.sprite = secondaryImageSprite;
         locationText.text = location;
         bibliographyText.text = bibliography;
+
+        // Cargar y asignar los sprites desde la carpeta de recursos
+        Sprite mainImageSprite = Resources.Load<Sprite>(mainImagePath);
+        Sprite secondaryImageSprite = Resources.Load<Sprite>(secondaryImagePath);
+
+        if (mainImageSprite != null)
+        {
+            mainImage.sprite = mainImageSprite;
+        }
+        else
+        {
+            Debug.LogWarning($"No se pudo cargar la imagen principal desde la ruta: {mainImagePath}");
+        }
+
+        if (secondaryImageSprite != null)
+        {
+            secondaryImage.sprite = secondaryImageSprite;
+        }
+        else
+        {
+            Debug.LogWarning($"No se pudo cargar la imagen secundaria desde la ruta: {secondaryImagePath}");
+        }
 
         ShowCanvas(true);
     }
@@ -61,13 +98,5 @@ public class BirdInfoCanvas : MonoBehaviour
         ShowCanvas(false);
         // Llama el evento donde se este escuchando, ver ejemplo en LevelManager.cs
         EventController.Instance.SetTriviaAnswered(currentTriviaId);
-
-        // Activar el canvas de trivia si es necesario
-        // Puedes hacerlo referenciando directamente al TriviaManager o usando otro método
-        TriviaManager triviaManager = FindObjectOfType<TriviaManager>();
-        /*if (triviaManager != null && triviaManager.triviaCanvas != null)
-        {
-            triviaManager.triviaCanvas.SetActive(true);
-        }*/
     }
 }

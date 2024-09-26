@@ -22,7 +22,7 @@ public class TriviaManager : MonoBehaviour
 
     [Header("Referencias del UI")]
     public BirdInfoCanvas birdInfoCanvas; // Asigna en el Inspector
-    public Example example; // Asigna en el Inspector o se buscará automáticamente
+    public Data example; // Asigna en el Inspector o se buscará automáticamente
     public GameObject triviaCanvas; // Asigna en el Inspector
     public TextMeshProUGUI questionText; // Asigna en el Inspector
     public Button[] answerButtons; // Asigna en el Inspector
@@ -41,10 +41,10 @@ public class TriviaManager : MonoBehaviour
 
     private Hashtable _models = new Hashtable();
 
-    //Agregar un modelo si no existe al diccionario en la key modelId
+    // Agregar un modelo si no existe al diccionario en la key modelId
     public void AddModel(int modelId, int modelIndex)
     {
-        if(!_models.ContainsKey(modelId))
+        if (!_models.ContainsKey(modelId))
         {
             Model model = new Model();
             model.modelIndex = modelIndex;
@@ -53,14 +53,14 @@ public class TriviaManager : MonoBehaviour
         }
     }
 
-    //Comprobar si todos los modelos del modelId ya fueron recolectados
+    // Comprobar si todos los modelos del modelId ya fueron recolectados
     public bool CheckAllModels(int modelId)
     {
-        foreach(DictionaryEntry model in _models)
+        foreach (DictionaryEntry model in _models)
         {
-            if((int)model.Key == modelId)
+            if ((int)model.Key == modelId)
             {
-                if(!((Model)model.Value).isChecked)
+                if (!((Model)model.Value).isChecked)
                 {
                     return false;
                 }
@@ -75,10 +75,10 @@ public class TriviaManager : MonoBehaviour
 
         if (example == null)
         {
-            example = FindObjectOfType<Example>();
+            example = FindObjectOfType<Data>();
             if (example == null)
             {
-                Debug.LogError("No se encontró el script Example en la escena.");
+                Debug.LogError("No se encontró el script Data en la escena.");
             }
         }
 
@@ -119,18 +119,18 @@ public class TriviaManager : MonoBehaviour
 
         if (example.allModelQuestions == null || example.allModelQuestions.Count == 0)
         {
-            Debug.LogError("La lista allModelQuestions en Example está vacía.");
+            Debug.LogError("La lista allModelQuestions en Data está vacía.");
             return;
         }
 
         EventController.Instance.SetTriviaStarted(modelIndex);
 
-        ModelQuestions modelQuestions = example.allModelQuestions.Find(m => m.modelIndex == modelIndex);
+        ModelQuestion modelQuestions = example.allModelQuestions.Find(m => m.ModelIndex == modelIndex);
 
-        if (modelQuestions != null && modelQuestions.questions.Count > 0)
+        if (modelQuestions != null && modelQuestions.Questions.Count > 0)
         {
             Debug.Log($"Preguntas cargadas correctamente para el modelIndex: {modelIndex}");
-            currentQuestions = modelQuestions.questions;
+            currentQuestions = modelQuestions.Questions;
             currentQuestionIndex = 0;
 
             // Activar el canvas de trivia
@@ -181,14 +181,14 @@ public class TriviaManager : MonoBehaviour
         }
 
         Question currentQuestion = currentQuestions[currentQuestionIndex];
-        questionText.text = currentQuestion.questionText;
+        questionText.text = currentQuestion.QuestionText;
 
         for (int i = 0; i < answerButtons.Length; i++)
         {
-            if (i < currentQuestion.answers.Count)
+            if (i < currentQuestion.Answers.Count)
             {
                 answerButtons[i].gameObject.SetActive(true);
-                answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = currentQuestion.answers[i];
+                answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = currentQuestion.Answers[i];
 
                 // Capturar el índice correctamente usando una variable temporal
                 int answerIndex = i;
@@ -226,7 +226,7 @@ public class TriviaManager : MonoBehaviour
             return;
         }
 
-        if (selectedAnswerIndex == currentQuestions[currentQuestionIndex].correctAnswerIndex)
+        if (selectedAnswerIndex == currentQuestions[currentQuestionIndex].CorrectAnswerIndex)
         {
             Debug.Log("Respuesta correcta");
             currentQuestionIndex++;
@@ -269,7 +269,7 @@ public class TriviaManager : MonoBehaviour
     {
         if (example == null)
         {
-            Debug.LogError("Referencia a Example no asignada.");
+            Debug.LogError("Referencia a Data no asignada.");
             return;
         }
 
@@ -280,19 +280,19 @@ public class TriviaManager : MonoBehaviour
             // Actualizar la información en el canvas
             birdInfoCanvas.UpdateBirdInfo(
                 modelIndex,
-                currentBirdInfo.birdName,
-                currentBirdInfo.species,
-                currentBirdInfo.description,
-                currentBirdInfo.mainImage,
-                currentBirdInfo.habitat,
-                currentBirdInfo.diet,
-                currentBirdInfo.reproduction,
-                currentBirdInfo.size,
-                currentBirdInfo.funFact1,
-                currentBirdInfo.funFact2,
-                currentBirdInfo.secondaryImage,
-                currentBirdInfo.location,
-                currentBirdInfo.bibliography
+                currentBirdInfo.BirdName,
+                currentBirdInfo.Species,
+                currentBirdInfo.Description,
+                currentBirdInfo.MainImage,
+                currentBirdInfo.Habitat,
+                currentBirdInfo.Diet,
+                currentBirdInfo.Reproduction,
+                currentBirdInfo.Size,
+                currentBirdInfo.FunFact1,
+                currentBirdInfo.FunFact2,
+                currentBirdInfo.SecondaryImage,
+                currentBirdInfo.Location,
+                currentBirdInfo.Bibliography
             );
 
             // Desactivar el canvas de trivia

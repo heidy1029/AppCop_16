@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class BirdInfo
+public class BirdInfo2
 {
     public int modelIndex;
     public string birdName;

@@ -33,6 +33,18 @@ public class EventController : MonoBehaviour
     public delegate void TriviaCompleted(int modelId);
     public static event TriviaCompleted OnTriviaCompleted;
 
+    private int _currentModelId;
+
+    public int GetCurrentModelId()
+    {
+        return _currentModelId;
+    }
+
+    public void SetCurrentModelId(int modelId)
+    {
+        _currentModelId = modelId;
+    }
+
     public void SetTriviaStarted(int triviaId)
     {
         OnTriviaStarted?.Invoke(triviaId);
