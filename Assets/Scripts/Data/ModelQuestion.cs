@@ -88,6 +88,6 @@ public class BirdType
 [Serializable]
 public class Root
 {
-    [JsonProperty("birdType")]
-    public BirdType BirdType { get; set; }
+    [JsonProperty("birdTypes")]
+    public List<BirdType> BirdTypes { get; set; }
 }

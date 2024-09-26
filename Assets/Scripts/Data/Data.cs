@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Data : MonoBehaviour
 {
-    public List<BirdInfo> birdInfos = new List<BirdInfo>();
-    public List<ModelQuestion> allModelQuestions = new List<ModelQuestion>();
+    private Root root;
+    private List<BirdInfo> birdInfos = new List<BirdInfo>();
+    private List<ModelQuestion> allModelQuestions = new List<ModelQuestion>();
 
     private JsonReader jsonReader;
 
@@ -15,7 +16,7 @@ public class Data : MonoBehaviour
 
         if (jsonReader != null)
         {
-            Root root = jsonReader.ReadJson();
+            root = jsonReader.ReadJson();
             InitializeData(root);
         }
         else
@@ -29,20 +30,43 @@ public class Data : MonoBehaviour
     /// </summary>
     private void InitializeData(Root root)
     {
-        if (root != null && root.BirdType != null)
+        if (root != null && root.BirdTypes != null)
         {
             birdInfos = new List<BirdInfo>();
-            allModelQuestions = root.BirdType.AllModelQuestions;
+            allModelQuestions = new List<ModelQuestion>();
 
-            foreach (var modelQuestion in root.BirdType.AllModelQuestions)
+            foreach (var birdType in root.BirdTypes)
             {
-                birdInfos.Add(modelQuestion.BirdInfo);
+                if (birdType.AllModelQuestions != null)
+                {
+                    allModelQuestions.AddRange(birdType.AllModelQuestions);
+
+                    foreach (var modelQuestion in birdType.AllModelQuestions)
+                    {
+                        birdInfos.Add(modelQuestion.BirdInfo);
+                    }
+                }
             }
         }
         else
         {
             Debug.LogError("Invalid JSON data!");
         }
+    }
+
+    // Método actualizado para obtener preguntas por birdTypeId
+    public List<ModelQuestion> GetModelQuestions(int birdTypeId)
+    {
+        // Usa el root deserializado para buscar el birdType con el birdTypeId especificado
+        BirdType birdType = root.BirdTypes.Find(bt => bt.BirdTypeId == birdTypeId);
+        if (birdType == null)
+        {
+            Debug.LogWarning($"BirdType with birdTypeId {birdTypeId} not found.");
+            return null;
+        }
+
+        // Devuelve las preguntas asociadas con el birdTypeId
+        return birdType.AllModelQuestions;
     }
 
     /// <summary>

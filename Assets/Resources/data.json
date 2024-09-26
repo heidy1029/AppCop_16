@@ -1,207 +1,244 @@
 {
-    "birdType": {
-      "birdTypeId": 1,
-      "allModelQuestions": [
-        {
-          "modelIndex": 0,
-          "questions": [
-            {
-              "questionText": "¿Cuál es una característica distintiva del macho de la especie Green-crowned Woodnymph (Thalurania fannyi)?",
-              "answers": [
-                "A) La corona del macho es de un verde brillante",
-                "B) La cola del macho es completamente negra",
-                "C) El pecho del macho es de color rojo brillante",
-                "D) La garganta del macho es de color gris"
-              ],
-              "correctAnswerIndex": 0
-            },
-            {
-              "questionText": "¿Dónde suelen habitar las ninfas del bosque (Thalurania)?",
-              "answers": [
-                "A) En áreas abiertas y con matorrales",
-                "B) En el sotobosque de bosques húmedos de tierras bajas y en bosques secundarios avanzados adyacentes",
-                "C) En desiertos y áreas áridas",
-                "D) En regiones montañosas y áreas secas"
-              ],
-              "correctAnswerIndex": 1
-            },
-            {
-              "questionText": "¿Qué tipo de dieta tienen las ninfas del bosque (Thalurania)?",
-              "answers": [
-                "A) Se alimentan principalmente de insectos y frutas",
-                "B) Prefieren flores de una amplia variedad de epífitas, arbustos y árboles pequeños, y ocasionalmente recogen artrópodos",
-                "C) Se alimentan exclusivamente de néctar de flores grandes como Heliconia y Costus",
-                "D) Consumen solo néctar de flores de grandes árboles como Inga"
-              ],
-              "correctAnswerIndex": 2
+    "birdTypes": [
+      {
+        "birdTypeId": 1,
+        "allModelQuestions": [
+          {
+            "modelIndex": 0,
+            "questions": [
+              {
+                "questionText": "¿Cuál es una característica distintiva del macho de la especie Green-crowned Woodnymph (Thalurania fannyi)?",
+                "answers": [
+                  "A) La corona del macho es de un verde brillante",
+                  "B) La cola del macho es completamente negra",
+                  "C) El pecho del macho es de color rojo brillante",
+                  "D) La garganta del macho es de color gris"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "¿Dónde suelen habitar las ninfas del bosque (Thalurania)?",
+                "answers": [
+                  "A) En áreas abiertas y con matorrales",
+                  "B) En el sotobosque de bosques húmedos de tierras bajas y en bosques secundarios avanzados adyacentes",
+                  "C) En desiertos y áreas áridas",
+                  "D) En regiones montañosas y áreas secas"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "¿Qué tipo de dieta tienen las ninfas del bosque (Thalurania)?",
+                "answers": [
+                  "A) Se alimentan principalmente de insectos y frutas",
+                  "B) Prefieren flores de una amplia variedad de epífitas, arbustos y árboles pequeños, y ocasionalmente recogen artrópodos",
+                  "C) Se alimentan exclusivamente de néctar de flores grandes como Heliconia y Costus",
+                  "D) Consumen solo néctar de flores de grandes árboles como Inga"
+                ],
+                "correctAnswerIndex": 2
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Colibrí Esmeralda",
+              "species": "Chlorostilbon canivetii",
+              "description": "Un pequeño y colorido pájaro conocido por su capacidad de volar hacia atrás.",
+              "mainImage": "Images/colibri_esmeralda",
+              "habitat": "Bosques tropicales",
+              "diet": "Néctar y pequeños insectos",
+              "reproduction": "Anidan en árboles pequeños, con nidos de hojas y musgo",
+              "size": "3-4 pulgadas",
+              "funFact1": "Los colibríes baten sus alas hasta 80 veces por segundo.",
+              "funFact2": "Son las únicas aves que pueden volar hacia atrás.",
+              "secondaryImage": "Images/colibri_habitat",
+              "location": "Centroamérica y el sur de México",
+              "bibliography": "National Geographic, 2020"
             }
-          ],
-          "birdInfo": {
-            "birdName": "Colibrí Esmeralda",
-            "species": "Chlorostilbon canivetii",
-            "description": "Un pequeño y colorido pájaro conocido por su capacidad de volar hacia atrás.",
-            "mainImage": "Images/colibri_esmeralda",
-            "habitat": "Bosques tropicales",
-            "diet": "Néctar y pequeños insectos",
-            "reproduction": "Anidan en árboles pequeños, con nidos de hojas y musgo",
-            "size": "3-4 pulgadas",
-            "funFact1": "Los colibríes baten sus alas hasta 80 veces por segundo.",
-            "funFact2": "Son las únicas aves que pueden volar hacia atrás.",
-            "secondaryImage": "Images/colibri_habitat",
-            "location": "Centroamérica y el sur de México",
-            "bibliography": "National Geographic, 2020"
-          }
-        },
-        {
-          "modelIndex": 1,
-          "questions": [
-            {
-              "questionText": "¿Cuál es la característica distintiva del colibrí pecho leonado que lo diferencia de otros colibríes de tamaño similar?",
-              "answers": [
-                "A) Es completamente verde por encima y beige por debajo",
-                "B) Tiene un color rojo intenso por debajo y verde en la parte superior",
-                "C) Su pecho es de color rosa brillante",
-                "D) Su pico es más largo y curvo que el de otros colibríes"
-              ],
-              "correctAnswerIndex": 0
-            },
-            {
-              "questionText": "¿En qué tipo de hábitat es más común encontrar al colibrí pecho leonado?",
-              "answers": [
-                "A) En los bordes de los bosques abiertos.",
-                "B) En los bosques secos y áridos",
-                "C) En los bosques húmedos de montaña",
-                "D) En los campos de cultivo y praderas"
-              ],
-              "correctAnswerIndex": 2
-            },
-            {
-              "questionText": "¿Qué característica específica en la garganta del macho adulto del colibrí pecho leonado puede ayudar a identificarlo?",
-              "answers": [
-                "A) Una mancha rosada en el centro de la garganta",
-                "B) Una mancha negra en la garganta",
-                "C) Un color verde brillante en la garganta",
-                "D) Una banda blanca en la garganta"
-              ],
-              "correctAnswerIndex": 0
+          },
+          {
+            "modelIndex": 1,
+            "questions": [
+              {
+                "questionText": "¿Cuál es la característica distintiva del colibrí pecho leonado que lo diferencia de otros colibríes de tamaño similar?",
+                "answers": [
+                  "A) Es completamente verde por encima y beige por debajo",
+                  "B) Tiene un color rojo intenso por debajo y verde en la parte superior",
+                  "C) Su pecho es de color rosa brillante",
+                  "D) Su pico es más largo y curvo que el de otros colibríes"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "¿En qué tipo de hábitat es más común encontrar al colibrí pecho leonado?",
+                "answers": [
+                  "A) En los bordes de los bosques abiertos.",
+                  "B) En los bosques secos y áridos",
+                  "C) En los bosques húmedos de montaña",
+                  "D) En los campos de cultivo y praderas"
+                ],
+                "correctAnswerIndex": 2
+              },
+              {
+                "questionText": "¿Qué característica específica en la garganta del macho adulto del colibrí pecho leonado puede ayudar a identificarlo?",
+                "answers": [
+                  "A) Una mancha rosada en el centro de la garganta",
+                  "B) Una mancha negra en la garganta",
+                  "C) Un color verde brillante en la garganta",
+                  "D) Una banda blanca en la garganta"
+                ],
+                "correctAnswerIndex": 0
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Águila Calva",
+              "species": "Haliaeetus leucocephalus",
+              "description": "El símbolo nacional de los Estados Unidos, conocido por su cabeza blanca.",
+              "mainImage": "Images/aguila_calva",
+              "habitat": "Bosques y costas",
+              "diet": "Peces y pequeños mamíferos",
+              "reproduction": "Anidan en grandes árboles, con nidos de ramas",
+              "size": "28-40 pulgadas",
+              "funFact1": "Pueden alcanzar velocidades de 100 km/h en vuelo.",
+              "funFact2": "Viven hasta 20 años en la naturaleza.",
+              "secondaryImage": "Images/aguila_habitat",
+              "location": "América del Norte",
+              "bibliography": "Smithsonian Institution, 2018"
             }
-          ],
-          "birdInfo": {
-            "birdName": "Águila Calva",
-            "species": "Haliaeetus leucocephalus",
-            "description": "El símbolo nacional de los Estados Unidos, conocido por su cabeza blanca.",
-            "mainImage": "Images/aguila_calva",
-            "habitat": "Bosques y costas",
-            "diet": "Peces y pequeños mamíferos",
-            "reproduction": "Anidan en grandes árboles, con nidos de ramas",
-            "size": "28-40 pulgadas",
-            "funFact1": "Pueden alcanzar velocidades de 100 km/h en vuelo.",
-            "funFact2": "Viven hasta 20 años en la naturaleza.",
-            "secondaryImage": "Images/aguila_habitat",
-            "location": "América del Norte",
-            "bibliography": "Smithsonian Institution, 2018"
-          }
-        },
-        {
-          "modelIndex": 2,
-          "questions": [
-            {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
-              "answers": [
-                "A) En el suelo y en áreas abiertas",
-                "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales",
-                "C) En los matorrales y arbustos bajos",
-                "D) En las áreas rocosas cerca de corrientes de agua"
-              ],
-              "correctAnswerIndex": 1
-            },
-            {
-              "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
-              "answers": [
-                "A) Tienen una cola recta y sin bifurcar",
-                "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo",
-                "C) Su garganta es de color verde brillante.",
-                "D) El pecho es de color rojo intenso"
-              ],
-              "correctAnswerIndex": 1
-            },
-            {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
-              "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
-                "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
-              ],
-              "correctAnswerIndex": 1
+          },
+          {
+            "modelIndex": 2,
+            "questions": [
+              {
+                "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+                "answers": [
+                  "A) En el suelo y en áreas abiertas",
+                  "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales",
+                  "C) En los matorrales y arbustos bajos",
+                  "D) En las áreas rocosas cerca de corrientes de agua"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
+                "answers": [
+                  "A) Tienen una cola recta y sin bifurcar",
+                  "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo",
+                  "C) Su garganta es de color verde brillante.",
+                  "D) El pecho es de color rojo intenso"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+                "answers": [
+                  "A) Es una estructura grande y abierta hecha de ramitas.",
+                  "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
+                  "C) Es un nido colgante hecho de hojas y ramitas.",
+                  "D) Es una cavidad en un tronco de árbol."
+                ],
+                "correctAnswerIndex": 1
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Colibrí de Garganta Púrpura",
+              "species": "Archilochus colubris",
+              "description": "Conocido por su brillante garganta púrpura y comportamiento territorial.",
+              "mainImage": "Images/colibri_garganta_purpura",
+              "habitat": "Bosques y jardines floridos",
+              "diet": "Néctar, insectos y arañas",
+              "reproduction": "Anidan en pequeñas cavidades o colgantes hechas de fibras finas",
+              "size": "3 pulgadas",
+              "funFact1": "Puede batir sus alas hasta 80 veces por segundo.",
+              "funFact2": "Tiene un pico largo y delgado adaptado para alimentarse de néctar.",
+              "secondaryImage": "Images/colibri_garganta_purpura_habitat",
+              "location": "América del Norte",
+              "bibliography": "BirdLife International, 2019"
             }
-          ],
-          "birdInfo": {
-            "birdName": "Colibrí de Garganta Púrpura",
-            "species": "Archilochus colubris",
-            "description": "Conocido por su brillante garganta púrpura y comportamiento territorial.",
-            "mainImage": "Images/colibri_garganta_purpura",
-            "habitat": "Bosques y jardines floridos",
-            "diet": "Néctar, insectos y arañas",
-            "reproduction": "Anidan en pequeñas cavidades o colgantes hechas de fibras finas",
-            "size": "3 pulgadas",
-            "funFact1": "Puede batir sus alas hasta 80 veces por segundo.",
-            "funFact2": "Tiene un pico largo y delgado adaptado para alimentarse de néctar.",
-            "secondaryImage": "Images/colibri_garganta_purpura_habitat",
-            "location": "América del Norte",
-            "bibliography": "BirdLife International, 2019"
-          }
-        },
-        {
-          "modelIndex": 3,
-          "questions": [
-            {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
-              "answers": [
-                "A) En el suelo y en áreas abiertas.",
-                "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales.",
-                "C) En los matorrales y arbustos bajos.",
-                "D) En las áreas rocosas cerca de corrientes de agua"
-              ],
-              "correctAnswerIndex": 1
-            },
-            {
-              "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
-              "answers": [
-                "A) Tienen una cola recta y sin bifurcar.",
-                "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo.",
-                "C) Su garganta es de color verde brillante.",
-                "D) El pecho es de color rojo intenso"
-              ],
-              "correctAnswerIndex": 1
-            },
-            {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
-              "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
-                "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
-              ],
-              "correctAnswerIndex": 1
+          },
+          {
+            "modelIndex": 3,
+            "questions": [
+              {
+                "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+                "answers": [
+                  "A) En el suelo y en áreas abiertas.",
+                  "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales.",
+                  "C) En los matorrales y arbustos bajos.",
+                  "D) En las áreas rocosas cerca de corrientes de agua"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
+                "answers": [
+                  "A) Tienen una cola recta y sin bifurcar.",
+                  "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo.",
+                  "C) Su garganta es de color verde brillante.",
+                  "D) El pecho es de color rojo intenso"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+                "answers": [
+                  "A) Es una estructura grande y abierta hecha de ramitas.",
+                  "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
+                  "C) Es un nido colgante hecho de hojas y ramitas.",
+                  "D) Es una cavidad en un tronco de árbol."
+                ],
+                "correctAnswerIndex": 1
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Colibrí Pecho Leonado",
+              "species": "Selasphorus platycercus",
+              "description": "Destaca por su pecho de color leonado y su vuelo ágil.",
+              "mainImage": "Images/colibri_pecho_leonado",
+              "habitat": "Bosques templados y jardines",
+              "diet": "Néctar de flores y pequeños insectos",
+              "reproduction": "Construye nidos de forma de copa usando fibras finas y telarañas",
+              "size": "3.5 pulgadas",
+              "funFact1": "Es uno de los colibríes más comunes en América del Norte.",
+              "funFact2": "Puede entrar en estado de torpor durante la noche para conservar energía.",
+              "secondaryImage": "Images/colibri_pecho_leonado_habitat",
+              "location": "América del Norte y Central",
+              "bibliography": "Cornell Lab of Ornithology, 2021"
             }
-          ],
-          "birdInfo": {
-            "birdName": "Colibrí Pecho Leonado",
-            "species": "Selasphorus platycercus",
-            "description": "Destaca por su pecho de color leonado y su vuelo ágil.",
-            "mainImage": "Images/colibri_pecho_leonado",
-            "habitat": "Bosques templados y jardines",
-            "diet": "Néctar de flores y pequeños insectos",
-            "reproduction": "Construye nidos de forma de copa usando fibras finas y telarañas",
-            "size": "3.5 pulgadas",
-            "funFact1": "Es uno de los colibríes más comunes en América del Norte.",
-            "funFact2": "Puede entrar en estado de torpor durante la noche para conservar energía.",
-            "secondaryImage": "Images/colibri_pecho_leonado_habitat",
-            "location": "América del Norte y Central",
-            "bibliography": "Cornell Lab of Ornithology, 2021"
           }
-        }
-      ]
-    }
+        ]
+      },
+      {
+        "birdTypeId": 2,
+        "allModelQuestions": [
+          {
+            "modelIndex": 0,
+            "questions": [
+              {
+                "questionText": " ",
+                "answers": [
+                  "A) ",
+                  "B) ",
+                  "C) ",
+                  "D) "
+                ],
+                "correctAnswerIndex": 1
+              }
+            ],
+            "birdInfo": {
+              "birdName": "",
+              "species": "",
+              "description": "",
+              "mainImage": "Images/",
+              "habitat": "",
+              "diet": "",
+              "reproduction": "",
+              "size": "",
+              "funFact1": "",
+              "funFact2": "",
+              "secondaryImage": "Images/",
+              "location": "",
+              "bibliography": ""
+            }
+          }
+        ]
+      }
+    ]
   }

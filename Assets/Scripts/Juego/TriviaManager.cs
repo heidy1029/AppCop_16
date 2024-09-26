@@ -108,7 +108,9 @@ public class TriviaManager : MonoBehaviour
     {
         _currentModelId = modelId;
 
-        if (data.allModelQuestions == null || data.allModelQuestions.Count == 0)
+        var model = data.GetModelQuestions(modelId);
+
+        if (model == null || model.Count == 0)
         {
             Debug.LogError("La lista allModelQuestions en Data está vacía.");
             return;
@@ -116,7 +118,7 @@ public class TriviaManager : MonoBehaviour
 
         EventController.Instance.SetTriviaStarted(modelIndex);
 
-        ModelQuestion modelQuestions = data.allModelQuestions.Find(m => m.ModelIndex == modelIndex);
+        ModelQuestion modelQuestions = model.Find(m => m.ModelIndex == modelIndex);
 
         if (modelQuestions != null && modelQuestions.Questions.Count > 0)
         {
