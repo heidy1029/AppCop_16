@@ -60,7 +60,7 @@ public class BirdInfoCanvas : MonoBehaviour
     {
         ShowCanvas(false);
         // Llama el evento donde se este escuchando, ver ejemplo en LevelManager.cs
-        EventController.Instance.SetTriviaCompleted(currentTriviaId);
+        EventController.Instance.SetTriviaAnswered(currentTriviaId);
 
         // Activar el canvas de trivia si es necesario
         // Puedes hacerlo referenciando directamente al TriviaManager o usando otro método

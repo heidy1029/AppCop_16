@@ -44,6 +44,7 @@ public class FirstPersonController : MonoBehaviour
     private void Start()
     {
         EventController.OnTriviaStarted += OnTriviaStarted;
+        EventController.OnTriviaAnswered += OnTriviaAnswered;
         EventController.OnTriviaCompleted += OnTriviaCompleted;
     }
 
@@ -52,9 +53,14 @@ public class FirstPersonController : MonoBehaviour
         canMove = false;
     }
 
-    private void OnTriviaCompleted(int triviaId)
+    private void OnTriviaAnswered(int triviaId)
     {
         canMove = true;
+    }
+
+    private void OnTriviaCompleted(int modelId)
+    {
+        
     }
 
     private void Update()
@@ -188,6 +194,7 @@ private void OnDrawGizmos()
     private void OnDestroy()
     {
         EventController.OnTriviaStarted -= OnTriviaStarted;
+        EventController.OnTriviaAnswered -= OnTriviaAnswered;
         EventController.OnTriviaCompleted -= OnTriviaCompleted;
     }
 }

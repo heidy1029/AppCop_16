@@ -3,9 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 
 public class TriviaManager : MonoBehaviour
 {
+    private static TriviaManager _instance;
+    public static TriviaManager Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType<TriviaManager>();
+            }
+            return _instance;
+        }
+    }
+
     [Header("Referencias del UI")]
     public BirdInfoCanvas birdInfoCanvas; // Asigna en el Inspector
     public Example example; // Asigna en el Inspector o se buscará automáticamente
@@ -15,10 +29,50 @@ public class TriviaManager : MonoBehaviour
 
     private int modelIndex; // Índice del modelo actual
     private List<Question> currentQuestions;
+
+    private int _currentModelId;
     private int currentQuestionIndex = 0;
+
+    private class Model
+    {
+        public int modelIndex;
+        public bool isChecked;
+    }
+
+    private Hashtable _models = new Hashtable();
+
+    //Agregar un modelo si no existe al diccionario en la key modelId
+    public void AddModel(int modelId, int modelIndex)
+    {
+        if(!_models.ContainsKey(modelId))
+        {
+            Model model = new Model();
+            model.modelIndex = modelIndex;
+            model.isChecked = false;
+            _models.Add(modelId, model);
+        }
+    }
+
+    //Comprobar si todos los modelos del modelId ya fueron recolectados
+    public bool CheckAllModels(int modelId)
+    {
+        foreach(DictionaryEntry model in _models)
+        {
+            if((int)model.Key == modelId)
+            {
+                if(!((Model)model.Value).isChecked)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 
     private void Start()
     {
+        EventController.OnTriviaAnswered += OnTriviaAnswered;
+
         if (example == null)
         {
             example = FindObjectOfType<Example>();
@@ -56,27 +110,13 @@ public class TriviaManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Inicia la trivia para un modelo específico.
-    /// </summary>
-    /// <param name="selectedModelIndex">Índice del modelo seleccionado.</param>
-    public void StartTrivia(int selectedModelIndex)
-    {
-        if (example == null)
-        {
-            Debug.LogError("Referencia a Example no asignada.");
-            return;
-        }
-
-        modelIndex = selectedModelIndex; // Asigna el modelIndex
-        LoadQuestions(modelIndex); // Carga las preguntas correspondientes
-    }
-
-    /// <summary>
     /// Carga las preguntas para un modelo específico.
     /// </summary>
     /// <param name="modelIndex">Índice del modelo.</param>
-    public void LoadQuestions(int modelIndex)
+    public void LoadQuestions(int modelId, int modelIndex)
     {
+        _currentModelId = modelId;
+
         if (example.allModelQuestions == null || example.allModelQuestions.Count == 0)
         {
             Debug.LogError("La lista allModelQuestions en Example está vacía.");
@@ -273,49 +313,20 @@ public class TriviaManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Maneja la lógica cuando un modelo es recolectado.
-    /// </summary>
-    /// <param name="modelIndex">Índice del modelo recolectado.</param>
-    public void OnModelCollected(int modelIndex)
+    private void OnTriviaAnswered(int triviaId)
     {
-        Debug.Log("Modelo recogido: " + modelIndex);
+        var checkedAllModels = CheckAllModels(triviaId);
+        Debug.Log($"Modelo ID: {_currentModelId} Trivia respondida: {triviaId}");
 
-        CollectionBook collectionBook = FindObjectOfType<CollectionBook>();
-        if (collectionBook != null)
+        if (checkedAllModels)
         {
-            Sprite modelImage = GetModelImage(modelIndex);
-            if (modelImage != null)
-            {
-                collectionBook.AddImageToCollection(modelImage);
-            }
-            else
-            {
-                Debug.LogError($"No se pudo obtener la imagen para el modelIndex: {modelIndex}");
-            }
+            Debug.Log($"Todos los modelos con el ID {_currentModelId} han sido recolectados.");
+            EventController.Instance.SetTriviaCompleted(_currentModelId);
         }
-        else
-        {
-            Debug.LogError("No se encontró el componente CollectionBook en la escena.");
-        }
-
-        // Opcional: Desbloquear el siguiente nivel aquí si lo deseas
-        // UnlockNextLevel();
     }
 
-    /// <summary>
-    /// Obtiene la imagen del modelo desde el script Example.
-    /// </summary>
-    /// <param name="modelIndex">Índice del modelo.</param>
-    /// <returns>Sprite de la imagen del modelo.</returns>
-    private Sprite GetModelImage(int modelIndex)
+    private void OnDestroy()
     {
-        if (example == null)
-        {
-            Debug.LogError("Referencia a Example no asignada.");
-            return null;
-        }
-
-        return example.GetModelImage(modelIndex);
+        EventController.OnTriviaAnswered -= OnTriviaAnswered;
     }
 }

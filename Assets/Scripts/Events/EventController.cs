@@ -27,42 +27,25 @@ public class EventController : MonoBehaviour
     public delegate void TriviaStarted(int triviaId);
     public static event TriviaStarted OnTriviaStarted;
 
-    public delegate void TriviaCompleted(int triviaId);
+    public delegate void TriviaAnswered(int triviaId);
+    public static event TriviaAnswered OnTriviaAnswered;
+
+    public delegate void TriviaCompleted(int modelId);
     public static event TriviaCompleted OnTriviaCompleted;
-
-    private List<int> completedTrivias = new List<int>();
-
-    public int currentTrivia { get; private set; } = 0;
 
     public void SetTriviaStarted(int triviaId)
     {
         OnTriviaStarted?.Invoke(triviaId);
     }
 
-    public void SetTriviaCompleted(int triviaId)
+    public void SetTriviaAnswered(int triviaId)
     {
-        if (!completedTrivias.Contains(triviaId))
-        {
-            completedTrivias.Add(triviaId);
-            Debug.Log("Trivia " + triviaId + " completed.");
-        }
-
-        currentTrivia = triviaId;
-
-        // Trigger the even
-        OnTriviaCompleted?.Invoke(triviaId);
+        OnTriviaAnswered?.Invoke(triviaId);
     }
 
-    // Method to check if a trivia has been completed
-    public bool IsTriviaCompleted(int triviaId)
+    public void SetTriviaCompleted(int modelId)
     {
-        return completedTrivias.Contains(triviaId);
-    }
-
-    // Method to obtain completed trivia
-    public List<int> GetCompletedTrivias()
-    {
-        return new List<int>(completedTrivias);
+        OnTriviaCompleted?.Invoke(modelId);
     }
 
     private void Awake()

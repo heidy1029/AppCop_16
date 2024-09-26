@@ -35,13 +35,13 @@ public class LevelManager : MonoBehaviour
 
         if (_resetUnlockedAmbientId)
         {
-            PlayerPrefs.SetInt("HighestUnlockedTriviaId", 0); // Reset and save it
+            PlayerPrefs.SetInt("HighestUnlockedTriviaId", 1); // Reset and save it
         }
 
-        // Load the highest unlocked trivia index from PlayerPrefs (default to 0)
+        // Load the highest unlocked trivia index from PlayerPrefs (default to 1)
         if (PlayerPrefs.HasKey("HighestUnlockedTriviaId"))
         {
-            _highestUnlockedTriviaId = PlayerPrefs.GetInt("HighestUnlockedTriviaId", 0);
+            _highestUnlockedTriviaId = PlayerPrefs.GetInt("HighestUnlockedTriviaId", 1);
         }
 
         // Unlock all ambients up to the highest unlocked trivia index
@@ -49,6 +49,7 @@ public class LevelManager : MonoBehaviour
 
         // Subscribe to the event
         EventController.OnTriviaStarted += OnTriviaStarted;
+        EventController.OnTriviaAnswered += OnTriviaAnswered;
         EventController.OnTriviaCompleted += OnTriviaCompleted;
     }
 
@@ -59,21 +60,28 @@ public class LevelManager : MonoBehaviour
         Cursor.visible = true;
     }
 
-    private void OnTriviaCompleted(int triviaId)
+    private void OnTriviaAnswered(int triviaId)
+    {
+        Debug.Log("Answered");
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    private void OnTriviaCompleted(int modelId)
     {
         Debug.Log("Completed");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
         // Unlock the next trivia in sequence if it exists
-        int nextTriviaId = triviaId + 1;
-        if (_ambientDictionary.TryGetValue(nextTriviaId, out var nextAmbient))
+        int nextModelId = modelId + 1;
+        if (_ambientDictionary.TryGetValue(nextModelId, out var nextAmbient))
         {
             nextAmbient.gameObject.GetComponent<MeshRenderer>().material = _originalMaterial;
-            nextAmbient.UnlockedAmbient(nextTriviaId);
+            nextAmbient.UnlockedAmbient(nextModelId);
 
             // Update the highest unlocked trivia index
-            _highestUnlockedTriviaId = Mathf.Max(_highestUnlockedTriviaId, nextTriviaId);
+            _highestUnlockedTriviaId = Mathf.Max(_highestUnlockedTriviaId, nextModelId);
             PlayerPrefs.SetInt("HighestUnlockedTriviaId", _highestUnlockedTriviaId); // Save it
         }
     }
