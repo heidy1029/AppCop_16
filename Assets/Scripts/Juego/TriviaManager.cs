@@ -22,7 +22,7 @@ public class TriviaManager : MonoBehaviour
 
     [Header("Referencias del UI")]
     public BirdInfoCanvas birdInfoCanvas; // Asigna en el Inspector
-    public Data example; // Asigna en el Inspector o se buscará automáticamente
+    public Data data; // Asigna en el Inspector o se buscará automáticamente
     public GameObject triviaCanvas; // Asigna en el Inspector
     public TextMeshProUGUI questionText; // Asigna en el Inspector
     public Button[] answerButtons; // Asigna en el Inspector
@@ -73,15 +73,6 @@ public class TriviaManager : MonoBehaviour
     {
         EventController.OnTriviaAnswered += OnTriviaAnswered;
 
-        if (example == null)
-        {
-            example = FindObjectOfType<Data>();
-            if (example == null)
-            {
-                Debug.LogError("No se encontró el script Data en la escena.");
-            }
-        }
-
         if (birdInfoCanvas == null)
         {
             birdInfoCanvas = FindObjectOfType<BirdInfoCanvas>();
@@ -117,7 +108,7 @@ public class TriviaManager : MonoBehaviour
     {
         _currentModelId = modelId;
 
-        if (example.allModelQuestions == null || example.allModelQuestions.Count == 0)
+        if (data.allModelQuestions == null || data.allModelQuestions.Count == 0)
         {
             Debug.LogError("La lista allModelQuestions en Data está vacía.");
             return;
@@ -125,7 +116,7 @@ public class TriviaManager : MonoBehaviour
 
         EventController.Instance.SetTriviaStarted(modelIndex);
 
-        ModelQuestion modelQuestions = example.allModelQuestions.Find(m => m.ModelIndex == modelIndex);
+        ModelQuestion modelQuestions = data.allModelQuestions.Find(m => m.ModelIndex == modelIndex);
 
         if (modelQuestions != null && modelQuestions.Questions.Count > 0)
         {
@@ -267,13 +258,13 @@ public class TriviaManager : MonoBehaviour
     /// <param name="modelIndex">Índice del modelo del ave.</param>
     private void ShowBirdInfo(int modelIndex)
     {
-        if (example == null)
+        if (data == null)
         {
             Debug.LogError("Referencia a Data no asignada.");
             return;
         }
 
-        BirdInfo currentBirdInfo = example.GetBirdInfo(modelIndex);
+        BirdInfo currentBirdInfo = data.GetBirdInfo(modelIndex);
 
         if (currentBirdInfo != null)
         {

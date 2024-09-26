@@ -1555,8 +1555,9 @@ GameObject:
   m_Component:
   - component: {fileID: 333232818}
   - component: {fileID: 333232817}
+  - component: {fileID: 333232819}
   m_Layer: 0
-  m_Name: Preguntasnivel1
+  m_Name: Preguntas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1575,114 +1576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   birdInfos: []
-  allModelQuestions:
-  - modelIndex: 0
-    questions:
-    - questionText: "\xBFCu\xE1l es una caracter\xEDstica distintiva del macho de
-        la especie Green-crowned Woodnymph (Thalurania fannyi)?"
-      answers:
-      - A) La corona del macho es de un verde brillante
-      - B) La cola del macho es completamente negra
-      - C) El pecho del macho es de color rojo brillante
-      - D) La garganta del macho es de color gris
-      correctAnswerIndex: 0
-    - questionText: "\xBFD\xF3nde suelen habitar las ninfas del bosque (Thalurania)?"
-      answers:
-      - "A) En \xE1reas abiertas y con matorrales"
-      - "B) En el sotobosque de bosques h\xFAmedos de tierras bajas y en bosques
-        secundarios avanzados adyacentes"
-      - "C) En desiertos y \xE1reas \xE1ridas"
-      - "D) En regiones monta\xF1osas y \xE1reas secas"
-      correctAnswerIndex: 1
-    - questionText: "\xBFQu\xE9 tipo de dieta tienen las ninfas del bosque (Thalurania)?"
-      answers:
-      - A) Se alimentan principalmente de insectos y frutas
-      - "B) Prefieren flores de una amplia variedad de ep\xEDfitas, arbustos y \xE1rboles
-        peque\xF1os, y ocasionalmente recogen artr\xF3podos"
-      - "C) Se alimentan exclusivamente de n\xE9ctar de flores grandes como Heliconia
-        y Costus"
-      - "D) Consumen solo n\xE9ctar de flores de grandes \xE1rboles como Inga"
-      correctAnswerIndex: 2
-  - modelIndex: 1
-    questions:
-    - questionText: "\xBFCu\xE1l es la caracter\xEDstica distintiva del colibr\xED
-        pecho leonado que lo diferencia de otros colibr\xEDes de tama\xF1o similar?"
-      answers:
-      - A) Es completamente verde por encima y beige por debajo
-      - B) Tiene un color rojo intenso por debajo y verde en la parte superior
-      - C) Su pecho es de color rosa brillante
-      - "D) Su pico es m\xE1s largo y curvo que el de otros colibr\xEDes"
-      correctAnswerIndex: 0
-    - questionText: "\xBFEn qu\xE9 tipo de h\xE1bitat es m\xE1s com\xFAn encontrar
-        al colibr\xED pecho leonado?"
-      answers:
-      - A) En los bordes de los bosques abiertos.
-      - "B) En los bosques secos y \xE1ridos"
-      - "C) En los bosques h\xFAmedos de monta\xF1a"
-      - D) En los campos de cultivo y praderas
-      correctAnswerIndex: 2
-    - questionText: "\xBFQu\xE9 caracter\xEDstica espec\xEDfica en la garganta del
-        macho adulto del colibr\xED pecho leonado puede ayudar a identificarlo?"
-      answers:
-      - A) Una mancha rosada en el centro de la garganta
-      - B) Una mancha negra en la garganta
-      - C) Un color verde brillante en la garganta
-      - D) Una banda blanca en la garganta
-      correctAnswerIndex: 0
-  - modelIndex: 2
-    questions:
-    - questionText: "\xBFD\xF3nde suelen buscar alimento los colibr\xEDes de garganta
-        p\xFArpura?"
-      answers:
-      - "A) En el suelo y en \xE1reas abiertas"
-      - "B) En las copas de los \xE1rboles en flor, donde los machos defienden los
-        territorios florales"
-      - C) En los matorrales y arbustos bajos
-      - "D) En las \xE1reas rocosas cerca de corrientes de agua"
-      correctAnswerIndex: 1
-    - questionText: "\xBFCu\xE1l es una caracter\xEDstica distintiva de los machos
-        de colibr\xED de garganta p\xFArpura en vuelo?"
-      answers:
-      - A) Tienen una cola recta y sin bifurcar
-      - B) Presentan manchas blancas en los flancos que se pueden ver en vuelo
-      - C) Su garganta es de color verde brillante.
-      - D) El pecho es de color rojo intenso
-      correctAnswerIndex: 1
-    - questionText: "C\xF3mo es el nido de los colibr\xEDes de garganta p\xFArpura?"
-      answers:
-      - A) Es una estructura grande y abierta hecha de ramitas.
-      - "B) Es un nido en forma de copa hecho de fibra fina y telara\xF1a, ubicado
-        sobre ramas gruesas de \xE1rboles altos."
-      - C) Es un nido colgante hecho de hojas y ramitas.
-      - "D) Es una cavidad en un tronco de \xE1rbol."
-      correctAnswerIndex: 1
-  - modelIndex: 3
-    questions:
-    - questionText: "\xBFD\xF3nde suelen buscar alimento los colibr\xEDes de garganta
-        p\xFArpura?"
-      answers:
-      - "A) En el suelo y en \xE1reas abiertas."
-      - "B) En las copas de los \xE1rboles en flor, donde los machos defienden los
-        territorios florales."
-      - C) En los matorrales y arbustos bajos.
-      - "D) En las \xE1reas rocosas cerca de corrientes de agua"
-      correctAnswerIndex: 1
-    - questionText: "\xBFCu\xE1l es una caracter\xEDstica distintiva de los machos
-        de colibr\xED de garganta p\xFArpura en vuelo?"
-      answers:
-      - A) Tienen una cola recta y sin bifurcar.
-      - B) Presentan manchas blancas en los flancos que se pueden ver en vuelo.
-      - C) Su garganta es de color verde brillante.
-      - D) El pecho es de color rojo intenso
-      correctAnswerIndex: 1
-    - questionText: "\xBF\xF3mo es el nido de los colibr\xEDes de garganta p\xFArpura?"
-      answers:
-      - A) Es una estructura grande y abierta hecha de ramitas.
-      - "B) Es un nido en forma de copa hecho de fibra fina y telara\xF1a, ubicado
-        sobre ramas gruesas de \xE1rboles altos."
-      - C) Es un nido colgante hecho de hojas y ramitas.
-      - "D) Es una cavidad en un tronco de \xE1rbol"
-      correctAnswerIndex: 1
+  allModelQuestions: []
 --- !u!4 &333232818
 Transform:
   m_ObjectHideFlags: 0
@@ -1698,6 +1592,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &333232819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333232816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0845100ded6aa4aa19110448ce8194, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: data
 --- !u!114 &359369302 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6808088495493722241, guid: 9dd2214ca392d844781b989dcffc3d8b,
@@ -6974,7 +6881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   birdInfoCanvas: {fileID: 860875233}
-  example: {fileID: 333232817}
+  data: {fileID: 333232817}
   triviaCanvas: {fileID: 553425536}
   questionText: {fileID: 1520049537}
   answerButtons:
