@@ -8,7 +8,7 @@ public class ModelTrigger : MonoBehaviour
 
     private void Start()
     {
-        TriviaManager.Instance.AddModel(_birdType); // Agrega el modelo al diccionario
+        TriviaManager.Instance.AddModel(_birdType, _modelIndex); // Agrega el modelo al diccionario
     }
 
     private void OnTriggerEnter(Collider other)

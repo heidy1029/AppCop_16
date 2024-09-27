@@ -72,6 +72,7 @@ public class Data : MonoBehaviour
     public BirdInfo GetBirdInfo(int modelIndex)
     {
         var birdInfo = birdInfos.Find(bi => bi.ModelIndex == modelIndex);
+   
         return birdInfo;
     }
 }

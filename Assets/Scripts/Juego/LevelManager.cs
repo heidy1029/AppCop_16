@@ -13,11 +13,6 @@ public class LevelManager : MonoBehaviour
 
     private Dictionary<int, Ambient> _ambientDictionary;
 
-    private void Awake()
-    {
-        var i = EventController.Instance;
-    }
-
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -34,7 +29,6 @@ public class LevelManager : MonoBehaviour
                 _ambientDictionary.Add(ambient.Id, ambient);
             }
         }
-
 
         // Unlock all ambients up to the highest unlocked trivia index
         UnlockAmbientsUpTo(EventController.Instance.GetCurrentBirdType() - 1);
@@ -104,6 +98,7 @@ public class LevelManager : MonoBehaviour
     private void OnDestroy()
     {
         EventController.OnTriviaStarted -= OnTriviaStarted;
+        EventController.OnTriviaAnswered -= OnTriviaAnswered;
         EventController.OnTriviaCompleted -= OnTriviaCompleted;
     }
 }
