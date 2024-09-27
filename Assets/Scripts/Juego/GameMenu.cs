@@ -14,8 +14,7 @@ public class GameMenu : MonoBehaviour
             int birdType = _birdTypes[i];
             _buttons[i].onClick.AddListener(() => OnButtonPressed(birdType));
 
-            // Si el botón está bloqueado, activarlo
-            if (birdType > EventController.Instance.GetCurrentBirdType())
+            if (birdType <= EventController.Instance.GetCurrentBirdType())
             {
                 _buttons[i].interactable = true;
             }

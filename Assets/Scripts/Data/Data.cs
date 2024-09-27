@@ -1,12 +1,15 @@
-// Assets/Scripts/Juego/Example.cs
+// Assets/Scripts/Juego/Data.cs
 using System.Collections.Generic;
+using Newtonsoft.Json;
 using UnityEngine;
 
 public class Data : MonoBehaviour
 {
     private Root root;
-    private List<BirdInfo> birdInfos = new List<BirdInfo>();
-    private List<ModelQuestion> allModelQuestions = new List<ModelQuestion>();
+
+    private Dictionary<int, Dictionary<int, ModelQuestion>> modelQuestionsByBirdType = new Dictionary<int, Dictionary<int, ModelQuestion>>();
+
+    private Dictionary<int, Dictionary<int, BirdInfo>> birdInfosByBirdType = new Dictionary<int, Dictionary<int, BirdInfo>>();
 
     private JsonReader jsonReader;
 
@@ -18,6 +21,8 @@ public class Data : MonoBehaviour
         {
             root = jsonReader.ReadJson();
             InitializeData(root);
+
+            //PrintAllBirdInfoAsJson();
         }
         else
         {
@@ -25,25 +30,29 @@ public class Data : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Inicializa los datos a partir del objeto Root deserializado.
-    /// </summary>
     private void InitializeData(Root root)
     {
         if (root != null && root.BirdTypes != null)
         {
-            birdInfos = new List<BirdInfo>();
-            allModelQuestions = new List<ModelQuestion>();
+            modelQuestionsByBirdType = new Dictionary<int, Dictionary<int, ModelQuestion>>();
+            birdInfosByBirdType = new Dictionary<int, Dictionary<int, BirdInfo>>();
 
             foreach (var birdType in root.BirdTypes)
             {
                 if (birdType.AllModelQuestions != null)
                 {
-                    allModelQuestions.AddRange(birdType.AllModelQuestions);
+                    modelQuestionsByBirdType[birdType.BirdTypeId] = new Dictionary<int, ModelQuestion>();
+                    birdInfosByBirdType[birdType.BirdTypeId] = new Dictionary<int, BirdInfo>();
 
                     foreach (var modelQuestion in birdType.AllModelQuestions)
                     {
-                        birdInfos.Add(modelQuestion.BirdInfo);
+                        modelQuestionsByBirdType[birdType.BirdTypeId][modelQuestion.ModelIndex] = modelQuestion;
+
+                        if (modelQuestion.BirdInfo != null)
+                        {
+                            modelQuestion.BirdInfo.ModelIndex = modelQuestion.ModelIndex;
+                            birdInfosByBirdType[birdType.BirdTypeId][modelQuestion.ModelIndex] = modelQuestion.BirdInfo;
+                        }
                     }
                 }
             }
@@ -54,25 +63,36 @@ public class Data : MonoBehaviour
         }
     }
 
-    // Método actualizado para obtener preguntas por birdTypeId
     public List<ModelQuestion> GetModelQuestions(int birdTypeId)
     {
-        // Usa el root deserializado para buscar el birdType con el birdTypeId especificado
-        BirdType birdType = root.BirdTypes.Find(bt => bt.BirdTypeId == birdTypeId);
-        if (birdType == null)
+        if (modelQuestionsByBirdType.TryGetValue(birdTypeId, out var questionsByIndex))
         {
-            Debug.LogWarning($"BirdType with birdTypeId {birdTypeId} not found.");
-            return null;
+            return new List<ModelQuestion>(questionsByIndex.Values);
         }
-
-        // Devuelve las preguntas asociadas con el birdTypeId
-        return birdType.AllModelQuestions;
+        Debug.LogWarning($"No ModelQuestions found for BirdTypeId {birdTypeId}.");
+        return new List<ModelQuestion>(); 
     }
 
-    public BirdInfo GetBirdInfo(int modelIndex)
+    public BirdInfo GetBirdInfo(int birdTypeId, int modelIndex)
     {
-        var birdInfo = birdInfos.Find(bi => bi.ModelIndex == modelIndex);
-   
-        return birdInfo;
+        if (birdInfosByBirdType.TryGetValue(birdTypeId, out var birdInfoByIndex) && birdInfoByIndex.TryGetValue(modelIndex, out var birdInfo))
+        {
+            return birdInfo;
+        }
+        Debug.LogWarning($"BirdInfo not found for BirdTypeId {birdTypeId} and ModelIndex {modelIndex}.");
+        return null;
+    }
+
+    public void PrintAllBirdInfoAsJson()
+    {
+        foreach (var entry in birdInfosByBirdType)
+        {
+            int birdTypeId = entry.Key;
+            Dictionary<int, BirdInfo> birdInfoDict = entry.Value;
+
+            string birdInfoJson = JsonConvert.SerializeObject(birdInfoDict, Formatting.Indented);
+
+            Debug.Log($"BirdTypeId: {birdTypeId} - BirdInfo JSON: {birdInfoJson}");
+        }
     }
 }

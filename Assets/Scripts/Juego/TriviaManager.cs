@@ -30,7 +30,6 @@ public class TriviaManager : MonoBehaviour
 
     private int currentTriviaId; // Índice del modelo actual
     private int currentQuestionIndex = 0;
-    private int[] keyButton = { 0, 1, 2, 3 };
 
     private Dictionary<int, bool> _triviaCompleted = new Dictionary<int, bool>();
 
@@ -51,7 +50,6 @@ public class TriviaManager : MonoBehaviour
         if (_triviaCompleted.ContainsKey(triviaId))
         {
             _triviaCompleted[triviaId] = true;
-            Debug.Log($"Modelo {triviaId} completado.");
         }
     }
 
@@ -60,7 +58,6 @@ public class TriviaManager : MonoBehaviour
     {
         foreach (var model in _triviaCompleted)
         {
-            Debug.Log($"Modelo {model.Key} completado: {model.Value}");
             if (!model.Value)
             {
                 return false;
@@ -71,8 +68,6 @@ public class TriviaManager : MonoBehaviour
 
     private void Start()
     {
-        EventController.OnTriviaAnswered += OnTriviaAnswered;
-
         if (birdInfoCanvas == null)
         {
             birdInfoCanvas = FindObjectOfType<BirdInfoCanvas>();
@@ -126,13 +121,11 @@ public class TriviaManager : MonoBehaviour
 
         if (modelQuestions != null && modelQuestions.Questions.Count > 0)
         {
-            //Debug.Log($"Preguntas cargadas correctamente para el modelIndex: {modelIndex}");
             currentQuestions = modelQuestions.Questions;
             currentQuestionIndex = 0;
-            currentTriviaId = triviaId;
+            currentTriviaId = triviaId; // Aquí se actualiza el currentTriviaId
 
             triviaCanvas.SetActive(true);
-
             birdInfoCanvas.gameObject.SetActive(false);
 
             ShowNextQuestion();
@@ -141,7 +134,6 @@ public class TriviaManager : MonoBehaviour
         {
             Debug.LogWarning($"No se encontraron preguntas para el modelIndex: {triviaId}");
             triviaCanvas.SetActive(false);
-
             ShowBirdInfo();
         }
     }
@@ -173,7 +165,6 @@ public class TriviaManager : MonoBehaviour
 
     private void CheckAnswer(int selectedAnswerIndex)
     {
-        Debug.Log($"Respuesta seleccionada: {selectedAnswerIndex}");
         if (selectedAnswerIndex == currentQuestions[currentQuestionIndex].CorrectAnswerIndex)
         {
             if (currentQuestionIndex < currentQuestions.Count - 1)
@@ -203,7 +194,7 @@ public class TriviaManager : MonoBehaviour
             return;
         }
 
-        BirdInfo currentBirdInfo = data.GetBirdInfo(currentTriviaId);
+        BirdInfo currentBirdInfo = data.GetBirdInfo(EventController.Instance.GetCurrentBirdType(), currentTriviaId);
 
         if (currentBirdInfo != null)
         {
@@ -225,30 +216,18 @@ public class TriviaManager : MonoBehaviour
             );
 
             triviaCanvas.SetActive(false);
-
             birdInfoCanvas.gameObject.SetActive(true);
         }
         else
         {
-            Debug.LogError($"No se encontró información para el modelIndex: {currentTriviaId}");
+            Debug.LogError($"No se encontró información para el modelIndex: {currentTriviaId} en el birdTypeId {EventController.Instance.GetCurrentBirdType()}");
         }
     }
 
-    private void OnTriviaAnswered(int triviaId)
+    public void SetTriviaAnswered(int triviaId)
     {
-        var birtType = EventController.Instance.GetCurrentBirdType();
         var checkedAllModels = CheckAllModels();
-        //Debug.Log($"Modelo ID: {birtType} Trivia respondida: {triviaId}");
 
-        if (checkedAllModels)
-        {
-            //Debug.Log($"Todos los modelos con el ID {birtType} han sido recolectados.");
-            EventController.Instance.SetTriviaCompleted(birtType);
-        }
-    }
-
-    private void OnDestroy()
-    {
-        EventController.OnTriviaAnswered -= OnTriviaAnswered;
+        EventController.Instance.SetTriviaCompleted(triviaId, checkedAllModels);
     }
 }

@@ -96,7 +96,6 @@ public class BirdInfoCanvas : MonoBehaviour
     public void OnBackButtonPressed()
     {
         ShowCanvas(false);
-        // Llama el evento donde se este escuchando, ver ejemplo en LevelManager.cs
-        EventController.Instance.SetTriviaAnswered(currentTriviaId);
+        TriviaManager.Instance.SetTriviaAnswered(currentTriviaId);
     }
 }
