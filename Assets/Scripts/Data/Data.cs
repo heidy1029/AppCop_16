@@ -83,6 +83,15 @@ public class Data : MonoBehaviour
         return null;
     }
 
+    public List<BirdInfo> GetBirdInfos(int birdTypeId)
+    {
+        if (birdInfosByBirdType.TryGetValue(birdTypeId, out var birdInfoByIndex))
+        {
+            return new List<BirdInfo>(birdInfoByIndex.Values);
+        }
+        return new List<BirdInfo>();
+    }
+
     public void PrintAllBirdInfoAsJson()
     {
         foreach (var entry in birdInfosByBirdType)

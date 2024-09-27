@@ -10,6 +10,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Material _lockedMaterial;
     [SerializeField] private GameObject _canvasLevelCompleted;
     [SerializeField] private Button _buttonNextLevel;
+    [SerializeField] private GameObject _prefabCard;
+    [SerializeField] private Data _data;
 
     private Dictionary<int, Ambient> _ambientDictionary;
 
@@ -30,6 +32,45 @@ public class LevelManager : MonoBehaviour
             }
         }
 
+        int currentBirdTypeId = EventController.Instance.GetCurrentBirdType();
+
+        Ambient selectedAmbient = null;
+        foreach (var ambient in _ambients)
+        {
+            if (ambient.Id == currentBirdTypeId)
+            {
+                selectedAmbient = ambient;
+                break;
+            }
+        }
+
+        if (selectedAmbient == null)
+        {
+            Debug.LogWarning($"No se encontró un ambiente con el ID {currentBirdTypeId}.");
+            return; // Salir si no se encuentra el ambiente
+        }
+
+        List<BirdInfo> currentBirdInfos = _data.GetBirdInfos(EventController.Instance.GetCurrentBirdType());
+
+        foreach (var info in currentBirdInfos)
+        {
+            Vector3 randomPosition = GetRandomPositionOnPlane(selectedAmbient.gameObject.transform); // Obtener posición aleatoria en el plano
+
+            // Realizar un raycast para determinar la altura del plano
+            RaycastHit hit;
+            if (Physics.Raycast(randomPosition + Vector3.up * 100, Vector3.down, out hit, Mathf.Infinity))
+            {
+                // Posicionar la tarjeta 1 metro sobre el plano
+                randomPosition.y = hit.point.y + 1f;
+
+                // Instanciar la tarjeta
+                var model = Instantiate(_prefabCard, randomPosition, Quaternion.Euler(0, 0, 90));
+                var card = model.GetComponent<ModelTrigger>();
+                var image = Resources.Load<Sprite>(info.MainImage);
+                card.Configure(image, EventController.Instance.GetCurrentBirdType(), info.ModelIndex);
+            }
+        }
+
         // Unlock all ambients up to the highest unlocked trivia index
         UnlockAmbientsUpTo();
 
@@ -42,6 +83,37 @@ public class LevelManager : MonoBehaviour
         EventController.OnTriviaStarted += OnTriviaStarted;
         EventController.OnTriviaCompleted += OnTriviaCompleted;
     }
+
+    private Vector3 GetRandomPositionOnPlane(Transform ambientTransform)
+    {
+        // Asegúrate de que el plano tenga un collider
+        Collider planeCollider = ambientTransform.GetComponent<Collider>();
+
+        if (planeCollider != null)
+        {
+            // Obtener los límites del collider
+            Bounds bounds = planeCollider.bounds;
+
+            // Definir el margen de 5 metros
+            float margin = 2f;
+
+            // Calcular los nuevos límites ajustados con el margen
+            float minX = bounds.min.x + margin;
+            float maxX = bounds.max.x - margin;
+            float minZ = bounds.min.z + margin;
+            float maxZ = bounds.max.z - margin;
+
+            // Generar una posición aleatoria dentro de esos límites ajustados
+            float randomX = Random.Range(minX, maxX);
+            float randomZ = Random.Range(minZ, maxZ);
+
+            return new Vector3(randomX, 0, randomZ); // Y se ajustará después con el raycast
+        }
+
+        Debug.LogWarning("El collider no se encontró en el ambiente.");
+        return Vector3.zero; // Retorna un vector cero si no se puede calcular la posición
+    }
+
 
     private void OnTriviaStarted(int triviaId)
     {
@@ -71,12 +143,12 @@ public class LevelManager : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-        } 
+        }
     }
 
     private void UnlockAmbientsUpTo()
     {
-        foreach( var plane in _ambients)
+        foreach (var plane in _ambients)
         {
             plane.GetComponent<MeshRenderer>().material = _lockedMaterial;
         }
