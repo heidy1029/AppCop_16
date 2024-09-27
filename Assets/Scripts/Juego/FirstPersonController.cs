@@ -73,6 +73,11 @@ public class FirstPersonController : MonoBehaviour
         {
             HandleMovement();
         }
+        else
+        {
+            // Frenar suavemente
+            rb.velocity = Vector3.Lerp(rb.velocity, Vector3.zero, Time.deltaTime * 5f);
+        }
     }
 
     private void HandleInput()
