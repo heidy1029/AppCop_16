@@ -7,10 +7,6 @@ public class CollectionBook : MonoBehaviour
 {
     public Image[] collectionImages; // Array de imágenes en el libro de colección
 
-    /// <summary>
-    /// Agrega una imagen a la colección.
-    /// </summary>
-    /// <param name="image">Sprite de la imagen a agregar.</param>
     public void AddImageToCollection(Sprite image)
     {
         foreach (Image img in collectionImages)
@@ -19,6 +15,7 @@ public class CollectionBook : MonoBehaviour
             {
                 img.sprite = image;
                 img.gameObject.SetActive(true);
+                Debug.Log("Imagen agregada al catálogo de colección.");
                 return;
             }
         }

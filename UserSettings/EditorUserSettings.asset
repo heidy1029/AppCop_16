@@ -14,6 +14,7 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-2:
       value: 5657550255060d0b0e5a5e2643720f44154f1c29282b71332f7b4562bab2376f
       flags: 0
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-3:
       value: 5b5405045754500d0c585f7a46255a444116407f747070632e2a4b60e4e16c6b
       flags: 0
@@ -22,6 +23,16 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-5:
       value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+=======
+    RecentlyUsedSceneGuid-5:
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5b5405045754500d0c585f7a46255a444116407f747070632e2a4b60e4e16c6b
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 01010502535158025b5b5a7b15205e4442154d7a2a7175692b7f446abae5673b
+>>>>>>> 57da23a (Info ficha ,Trivias  y inicio del catalogo)
       flags: 0
     RecentlyUsedSceneGuid-6:
       value: 02075605060c0d5d085d5f20492106444e164b7c757e7e677a2a4460b4b4353b

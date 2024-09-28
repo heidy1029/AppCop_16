@@ -7,34 +7,34 @@
           "modelIndex": 0,
           "questions": [
             {
-              "questionText": "¿Cuál es una característica distintiva del macho de la especie Green-crowned Woodnymph (Thalurania fannyi)?",
+              "questionText": " ¿Cuál es una característica distintiva del pico de las aves del orden Anseriformes?",
               "answers": [
-                "A) La corona del macho es de un verde brillante",
-                "B) La cola del macho es completamente negra",
-                "C) El pecho del macho es de color rojo brillante",
-                "D) La garganta del macho es de color gris"
+                "A) Pico puntiagudo",
+                "B) Pico en forma de gancho",
+                "C) Pico plano y ancho",
+                "D) Pico "
               ],
-              "correctAnswerIndex": 0
+              "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Dónde suelen habitar las ninfas del bosque (Thalurania)?",
+              "questionText": "¿En qué tipo de hábitat se pueden encontrar las aves del orden Anseriformes?  ",
               "answers": [
-                "A) En áreas abiertas y con matorrales",
-                "B) En el sotobosque de bosques húmedos de tierras bajas y en bosques secundarios avanzados adyacentes",
-                "C) En desiertos y áreas áridas",
-                "D) En regiones montañosas y áreas secas"
+                "A) Plumaje ligero y transitable",
+                "B) Plumaje denso e impermeable",
+                "C) Plumaje colorido y brillante",
+                "D) Plumaje denso y brillante"
               ],
               "correctAnswerIndex": 1
             },
             {
-              "questionText": "¿Qué tipo de dieta tienen las ninfas del bosque (Thalurania)?",
+              "questionText": "En qué tipo de hábitat se pueden encontrar las aves del orden Anseriformes? ",
               "answers": [
-                "A) Se alimentan principalmente de insectos y frutas",
-                "B) Prefieren flores de una amplia variedad de epífitas, arbustos y árboles pequeños, y ocasionalmente recogen artrópodos",
-                "C) Se alimentan exclusivamente de néctar de flores grandes como Heliconia y Costus",
-                "D) Consumen solo néctar de flores de grandes árboles como Inga"
+                "A) En cuerpos de agua dulce y salada ",
+                "B) Solo en bosques tropicales",
+                "C) Exclusivamente en desiertos",
+                "D) falta"
               ],
-              "correctAnswerIndex": 2
+              "correctAnswerIndex": 0
             }
           ],
           "birdInfo": {
@@ -56,38 +56,38 @@
           "modelIndex": 1,
           "questions": [
             {
-              "questionText": "¿Cuál es la característica distintiva del colibrí pecho leonado que lo diferencia de otros colibríes de tamaño similar?",
+              "questionText": "¿Qué adaptación permite a las aves anseriformes nadar con facilidad?",
               "answers": [
-                "A) Es completamente verde por encima y beige por debajo",
-                "B) Tiene un color rojo intenso por debajo y verde en la parte superior",
-                "C) Su pecho es de color rosa brillante",
-                "D) Su pico es más largo y curvo que el de otros colibríes"
+                "A) Cuerpos aerodinámicos",
+                "B) Plumaje impermeable",
+                "C) Alas fuertes",
+                "D) Patas palmeadas"
+              ],
+              "correctAnswerIndex": 3
+            },
+            {
+              "questionText": "¿Qué tipo de plumaje ayuda a las aves anseriformes a mantenerse secas?",
+              "answers": [
+                "A) Plumaje aceitoso impermeable.",
+                "B) Plumaje denso",
+                "C) Plumaje esponjoso",
+                "D) Plumaje brillante"
               ],
               "correctAnswerIndex": 0
             },
             {
-              "questionText": "¿En qué tipo de hábitat es más común encontrar al colibrí pecho leonado?",
+              "questionText": "¿Cómo es la dieta de la mayoría de las aves anseriformes?",
               "answers": [
-                "A) En los bordes de los bosques abiertos.",
-                "B) En los bosques secos y áridos",
-                "C) En los bosques húmedos de montaña",
-                "D) En los campos de cultivo y praderas"
-              ],
-              "correctAnswerIndex": 2
-            },
-            {
-              "questionText": "¿Qué característica específica en la garganta del macho adulto del colibrí pecho leonado puede ayudar a identificarlo?",
-              "answers": [
-                "A) Una mancha rosada en el centro de la garganta",
-                "B) Una mancha negra en la garganta",
-                "C) Un color verde brillante en la garganta",
-                "D) Una banda blanca en la garganta"
+                "A) Omnívora",
+                "B) Solo carnívora",
+                "C) Solo herbívora",
+                "D) Solo frugívora"
               ],
               "correctAnswerIndex": 0
             }
           ],
           "birdInfo": {
-            "birdName": "Sirirí pardo",
+            "birdName": "Sirirí Colorado",
             "species": "Dendrocygna bicolor",
             "description": "Es una especie de ave acuática que habita en humedales, lagunas y áreas de agua dulce de América y África. Su plumaje es marrón con tonos claros y patas largas, lo que facilita su desplazamiento en el agua.",
             "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
@@ -106,38 +106,38 @@
           "modelIndex": 2,
           "questions": [
             {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+              "questionText": "¿Qué tipo de dieta suelen tener las aves del orden Anseriformes?",
               "answers": [
-                "A) En el suelo y en áreas abiertas",
+                "A) Exclusivamente insectívora",
                 "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales",
-                "C) En los matorrales y arbustos bajos",
-                "D) En las áreas rocosas cerca de corrientes de agua"
+                "C) Principalmente herbívora, pero también omnívora",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
+              "questionText": "¿Cómo utilizan los gansos su sistema de llamadas durante las migraciones?",
               "answers": [
-                "A) Tienen una cola recta y sin bifurcar",
-                "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo",
-                "C) Su garganta es de color verde brillante.",
-                "D) El pecho es de color rojo intenso"
+                "A) Para coordinar los movimientos y mantener la formación en V",
+                "B) Para atraer a sus presas",
+                "C) Para comunicarse con otras especies",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 0
             },
             {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+              "questionText": "¿Qué adaptación tiene el pico de los patos dentro de las aves Anseriformes? ",
               "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
-                "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
+                "A) Adaptado para filtrar pequeños organismos del agua",
+                "B) Adaptado para capturar peces",
+                "C) Adaptado para perforar insectos",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 0
             }
           ],
           "birdInfo": {
-            "birdName": "Sirirí Cariblanco ",
+            "birdName": "Sirirí Pamba ",
             "species": "Dendrocygna viduata",
             "description": "Es un ave acuática su característica más notable es su cabeza blanca contrastando con su cuerpo marrón y negro.",
             "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
@@ -155,41 +155,41 @@
           "modelIndex": 3,
           "questions": [
             {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+              "questionText": "¿Cuál de los siguientes ecosistemas es un hábitat común para las aves anseriformes?",
               "answers": [
-                "A) En el suelo y en áreas abiertas.",
-                "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales.",
-                "C) En los matorrales y arbustos bajos.",
-                "D) En las áreas rocosas cerca de corrientes de agua"
+                "A) Desiertos",
+                "B) Bosques tropicales",
+                "C) Tundra",
+                "D) Humedales"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 3
             },
             {
-              "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
+              "questionText": "Qué ecosistema es ideal para las anseriformes que prefieren la mezcla de agua dulce y salada?",
               "answers": [
-                "A) Tienen una cola recta y sin bifurcar.",
-                "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo.",
-                "C) Su garganta es de color verde brillante.",
-                "D) El pecho es de color rojo intenso"
+                "A) Lagos de montaña",
+                "B) Ríos y arroyos",
+                "C) Praderas",
+                "D) Estuarios"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 3
             },
             {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+              "questionText": "¿Dónde suelen reproducirse las anseriformes?",
               "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
-                "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
+                "A) Cerca de cuerpos de agua",
+                "B) Zonas desérticas",
+                "C) Praderas",
+                "D) Selvas densas"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 0
             }
           ],
           "birdInfo": {
             "birdName": "Sirirí colorado",
             "species": "Dendrocygna autumnalis",
             "description": "Destaca por su pecho de color leonado y su vuelo ágil.",
-            "mainImage": "Images/colibri_pecho_leonado",
+            "mainImage":"Images/Interfaz/Cartas/Acuaticas/siririPiquirojo",
             "habitat": "Bosques templados y jardines",
             "diet": "Es variada, incluyendo plantas acuáticas, semillas, y pequeños invertebrados, lo que lo convierte en un contribuyente importante al control de la vegetación acuática y la dispersión de semillas en su entorno",
             "reproduction": "Anida en árboles como en el suelo cercano a cuerpos de agua, y pone entre 10 y 16 huevos. Ambos padres cuidan a las crías, que son capaces de nadar y alimentarse poco después de nacer",
@@ -204,12 +204,12 @@
           "modelIndex": 4,
           "questions": [
             {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+              "questionText": "¿Qué papel juegan las aves anseriformes en la dispersión de plantas?",
               "answers": [
-                "A) En el suelo y en áreas abiertas",
-                "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales",
-                "C) En los matorrales y arbustos bajos",
-                "D) En las áreas rocosas cerca de corrientes de agua"
+                "A) Polinizan las flores",
+                "B) Dispersan semillas a través de su alimentación",
+                "C) Cortan plantas para construir nidos",
+                "D) Destruyen plantas al alimentarse"
               ],
               "correctAnswerIndex": 1
             },
@@ -224,14 +224,14 @@
               "correctAnswerIndex": 1
             },
             {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+              "questionText": "¿Cómo contribuyen las anseriformes al reciclaje de nutrientes en su hábitat?",
               "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
-                "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
+                "A) Comiendo invertebrados",
+                "B) Al construir nidos",
+                "C) A través de sus excrementos",
+                "D) Comiendo peces pequeños"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 2
             }
           ],
           "birdInfo": {
@@ -253,34 +253,34 @@
           "modelIndex": 5,
           "questions": [
             {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+              "questionText": "¿Qué efecto tienen las aves anseriformes sobre las poblaciones de invertebrados acuáticos?",
               "answers": [
-                "A) En el suelo y en áreas abiertas",
-                "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales",
-                "C) En los matorrales y arbustos bajos",
-                "D) En las áreas rocosas cerca de corrientes de agua"
+                "A) Las aumentan al dispersar huevos",
+                "B) No tienen ningún efecto",
+                "C)Las reducen al alimentarse de ellos",
+                "D) Les brindan protección"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
+              "questionText": "¿Cuál es un dato curioso sobre la migración de los cisnes cantores?",
               "answers": [
-                "A) Tienen una cola recta y sin bifurcar",
-                "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo",
-                "C) Su garganta es de color verde brillante.",
-                "D) El pecho es de color rojo intenso"
+                "A) Migran desde sus áreas de cría en el Ártico hasta el sur de Europa y Asia",
+                "B) No migran y permanecen en el mismo hábitat todo el año",
+                "C) Migran desde América del Sur hasta el Ártico",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+              "questionText": "¿ ¿Qué tipo de vocalizaciones son capaces de producir los cisnes?",
               "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
-                "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
+                "A) Gruñidos, silbidos y trompetas",
+                "B) Solo cantan melodías suaves",
+                "C) Solo emiten sonidos agudos",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 0
             }
           ],
           "birdInfo": {
@@ -302,34 +302,34 @@
           "modelIndex": 6,
           "questions": [
             {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+              "questionText": " ¿Qué comportamiento social es característico de los gansos?",
               "answers": [
-                "A) En el suelo y en áreas abiertas",
-                "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales",
-                "C) En los matorrales y arbustos bajos",
-                "D) En las áreas rocosas cerca de corrientes de agua"
+                "A) Forman grupos familiares duraderos y migran en formaciones en V",
+                "B) Viven solitarios y migran de forma independiente",
+                "C) Cambian de pareja frecuentemente durante la migración",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 0
             },
             {
-              "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
+              "questionText": "¿Qué hace que las crías de anseriformes sean diferentes de las crías de otras aves?",
               "answers": [
-                "A) Tienen una cola recta y sin bifurcar",
-                "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo",
-                "C) Su garganta es de color verde brillante.",
-                "D) El pecho es de color rojo intenso"
+                "A)  Nacen sin plumas",
+                "B) No pueden moverse hasta que pasan varias semanas",
+                "C) Dependen completamente de sus padres para alimentarse durante meses",
+                "D) Pueden caminar, nadar y alimentarse por sí mismas poco después de nacer"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 3
             },
             {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+              "questionText": "Además de los clásicos graznidos, ¿qué otro tipo de sonidos pueden emitir algunas aves anseriformes?",
               "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
-                "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
+                "A) Rugidos y zumbidos",
+                "B) Cánticos melodiosos",
+                "C) Silbidos y otros sonidos peculiares",
+                "D) Sonidos ultrasónicos inaudibles para el ser humano"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 2
             }
           ],
           "birdInfo": {
@@ -357,32 +357,32 @@
           "modelIndex": 0,
           "questions": [
             {
-              "questionText": "¿Cuál es la característica distintiva del colibrí pecho leonado que lo diferencia de otros colibríes de tamaño similar?",
+              "questionText": "¿Cuál de las siguientes adaptaciones es común en las aves de vuelo intenso?",
               "answers": [
-                "A) Es completamente verde por encima y beige por debajo",
-                "B) Tiene un color rojo intenso por debajo y verde en la parte superior",
-                "C) Su pecho es de color rosa brillante",
-                "D) Su pico es más largo y curvo que el de otros colibríes"
+                "A) Cuerpos pesados y alas cortas",
+                "B) Cuerpos aerodinámicos y alas largas y estrechas",
+                "C) Patas largas para caminar",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 0
+              "correctAnswerIndex": 1
             },
             {
-              "questionText": "¿En qué tipo de hábitat es más común encontrar al colibrí pecho leonado?",
+              "questionText": "¿Qué papel juegan las aves de vuelo intenso en el ecosistema? ",
               "answers": [
-                "A) En los bordes de los bosques abiertos.",
-                "B) En los bosques secos y áridos",
-                "C) En los bosques húmedos de montaña",
-                "D) En los campos de cultivo y praderas"
+                "A) Solo son responsables de la dispersión de semillas",
+                "B) Principalmente se alimentan de plantas",
+                "C) Contribuyen al control de insectos y la dispersión de semillas y polen",
+                "D) Todas las anteriores"
               ],
               "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Qué característica específica en la garganta del macho adulto del colibrí pecho leonado puede ayudar a identificarlo?",
+              "questionText": "¿Cuál es una amenaza significativa para las aves de vuelo intenso en las ciudades? ",
               "answers": [
-                "A) Una mancha rosada en el centro de la garganta",
-                "B) Una mancha negra en la garganta",
-                "C) Un color verde brillante en la garganta",
-                "D) Una banda blanca en la garganta"
+                "A) La pérdida de hábitat debido a la expansión urbana ",
+                "B) La falta de alimento en áreas urbanas",
+                "C) La competencia con otras especies de aves",
+                "D) Todas las anteriores"
               ],
               "correctAnswerIndex": 0
             }
@@ -391,7 +391,7 @@
             "birdName": "Colibri NuquiBlanco",
             "species": "Eutoxeres aquila",
             "description": "Su característica más sobresaliente es su largo pico extremadamente curvado, en forma de hoz, que le permite alimentarse de flores con corolas igualmente curvas. Su plumaje es mayormente verde y marrón oscuro, con una garganta iridiscente y un vientre pálido, adaptado para mezclarse en su entorno selvático. Al alimentarse de flores con corolas largas y curvadas, poliniza una variedad de plantas que dependen de él y de su habilidad para alcanzar el néctar que otros colibríes no pueden acceder. Así, este colibrí contribuye significativamente al mantenimiento de la biodiversidad en los ecosistemas de selva tropical.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
+            "mainImage": "Images/Interfaz/Cartas/Acuaticas/ColibriNuquiBlanco",
             "habitat": "habita en los bosques húmedos y tropicales de montaña, desde Costa Rica hasta el norte de Perú, a altitudes que van desde los 400 a los 1,500 metros sobre el nivel del mar. Prefiere áreas sombreadas y densamente vegetadas, como el sotobosque de selvas montanas y bosques nubosos, donde encuentra plantas con flores en forma de tubo que le brindan néctar.",
             "diet": "Se alimenta principalmente del néctar de flores con corolas largas y curvas, como las de la familia de las Heliconiaceae. También consume insectos y arañas como fuente adicional de proteínas. Su pico extremadamente curvado está diseñado para acceder a néctar inaccesible para otras aves, lo que lo convierte en un especialista en su nicho ecológico.",
             "reproduction": "Construyen nidos en forma de taza, utilizando fibras vegetales, musgo y telarañas, generalmente en pendientes rocosas o en ramas cubiertas de vegetación densa. Ponen dos huevos, y la hembra es la encargada de incubarlos durante unos 16 a 19 días. Las crías son alimentadas por la madre hasta que están listas para volar.",
@@ -407,41 +407,41 @@
           "modelIndex": 2,
           "questions": [
             {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+              "questionText": " ¿Cuál es una estrategia para proteger los hábitats de las aves de vuelo intenso?",
               "answers": [
-                "A) En el suelo y en áreas abiertas",
-                "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales",
-                "C) En los matorrales y arbustos bajos",
-                "D) En las áreas rocosas cerca de corrientes de agua"
+                "A) Establecer reservas naturales y parques nacionales ",
+                "B) Expandir áreas urbanas para el desarrollo",
+                "C) Reducir la cantidad de vegetación en áreas urbanas",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 0
             },
             {
-              "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
+              "questionText": "Qué es un corredor biológico y por qué es importante para las aves de vuelo intenso?",
               "answers": [
-                "A) Tienen una cola recta y sin bifurcar",
-                "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo",
-                "C) Su garganta es de color verde brillante.",
-                "D) El pecho es de color rojo intenso"
+                "A) Un área que conecta diferentes ecosistemas, permitiendo el desplazamiento seguro de aves",
+                "B) Un espacio verde en la ciudad para paseos",
+                "C)  Un área de cultivo agrícola",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 0
             },
             {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+              "questionText": "¿Cómo puede la educación ambiental ayudar en la conservación de las aves de vuelo intenso?",
               "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
-                "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
+                "A) Promoviendo la caza regulada",
+                "B) Incrementando el uso de pesticidas",
+                "C) Enseñando a las personas la importancia de estas aves y fomentando su participación en la conservación",
+                "D) Todas las anteriores"
               ],
               "correctAnswerIndex": 1
             }
           ],
           "birdInfo": {
-            "birdName": "Sirirí Cariblanco ",
+            "birdName": "Garrapatero Común ",
             "species": "Dendrocygna viduata",
             "description": "Es un ave acuática su característica más notable es su cabeza blanca contrastando con su cuerpo marrón y negro.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
+            "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarrapateroComun",
             "habitat": "Habita en humedales, lagunas y áreas de agua dulce en América del Sur, el Caribe y África.",
             "diet": "Se basa en plantas acuáticas, semillas, pequeños invertebrados y crustáceos. ",
             "reproduction": "Construyen sus nidos en la vegetación cercana al agua o en árboles bajos. Ponen entre 6 y 12 huevos, y ambos padres se encargan de la incubación y cuidado de los polluelos, que son precoces y nadan poco después de nacer.",
@@ -456,41 +456,41 @@
           "modelIndex": 3,
           "questions": [
             {
-              "questionText": "¿Dónde suelen buscar alimento los colibríes de garganta púrpura?",
+              "questionText": "¿Qué medida se puede tomar para reducir las colisiones de aves de vuelo intenso con estructuras humanas? ",
               "answers": [
-                "A) En el suelo y en áreas abiertas.",
-                "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales.",
-                "C) En los matorrales y arbustos bajos.",
-                "D) En las áreas rocosas cerca de corrientes de agua"
+                "A) Construir más edificios altos",
+                "B) Reducir el tamaño de los edificios",
+                "C) Usar vidrios tratados para evitar reflejos ",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Cuál es una característica distintiva de los machos de colibrí de garganta púrpura en vuelo?",
+              "questionText": " ¿Por qué es importante monitorear las poblaciones de aves de vuelo intenso?",
               "answers": [
-                "A) Tienen una cola recta y sin bifurcar.",
-                "B) Presentan manchas blancas en los flancos que se pueden ver en vuelo.",
-                "C) Su garganta es de color verde brillante.",
-                "D) El pecho es de color rojo intenso"
+                "A)  Para aumentar la caza deportiva",
+                "B) Para promover la expansión urbana",
+                "C) Para identificar cambios en sus patrones de comportamiento, reproducción y migración",
+                "D) Todas las anteriores"
               ],
-              "correctAnswerIndex": 1
+              "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Cómo es el nido de los colibríes de garganta púrpura?",
+              "questionText": "¿Cuál es una de las acciones propuestas para mitigar la contaminación que afecta a las aves de vuelo intenso? ",
               "answers": [
-                "A) Es una estructura grande y abierta hecha de ramitas.",
-                "B) Es un nido en forma de copa hecho de fibra fina y telaraña, ubicado sobre ramas gruesas de árboles altos.",
+                "A) Incrementar el uso de productos químicos",
+                "B) Construir más fábricas cerca de sus hábitats",
                 "C) Es un nido colgante hecho de hojas y ramitas.",
-                "D) Es una cavidad en un tronco de árbol."
+                "D) Disminuir la contaminación del aire y el agua en sus hábitats."
               ],
               "correctAnswerIndex": 1
             }
           ],
           "birdInfo": {
-            "birdName": "Sirirí colorado",
+            "birdName": "Garrapatero Mayor ",
             "species": "Dendrocygna autumnalis",
             "description": "Destaca por su pecho de color leonado y su vuelo ágil.",
-            "mainImage": "Images/colibri_pecho_leonado",
+            "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarrapateroMayor",
             "habitat": "Bosques templados y jardines",
             "diet": "Es variada, incluyendo plantas acuáticas, semillas, y pequeños invertebrados, lo que lo convierte en un contribuyente importante al control de la vegetación acuática y la dispersión de semillas en su entorno",
             "reproduction": "Anida en árboles como en el suelo cercano a cuerpos de agua, y pone entre 10 y 16 huevos. Ambos padres cuidan a las crías, que son capaces de nadar y alimentarse poco después de nacer",

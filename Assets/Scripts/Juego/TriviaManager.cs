@@ -22,6 +22,7 @@ public class TriviaManager : MonoBehaviour
 
     [Header("Referencias del UI")]
     public BirdInfoCanvas birdInfoCanvas; // Asigna en el Inspector
+    public CollectionBook collectionBook;
     public Data data; // Asigna en el Inspector o se buscará automáticamente
     public GameObject triviaCanvas; // Asigna en el Inspector
     public TextMeshProUGUI questionText; // Asigna en el Inspector
@@ -198,12 +199,13 @@ public class TriviaManager : MonoBehaviour
 
         if (currentBirdInfo != null)
         {
+            // Actualizar la información del ave en el canvas
             birdInfoCanvas.UpdateBirdInfo(
                 currentTriviaId,
                 currentBirdInfo.BirdName,
                 currentBirdInfo.Species,
                 currentBirdInfo.Description,
-                currentBirdInfo.MainImage,
+                currentBirdInfo.MainImage, // Imagen principal
                 currentBirdInfo.Habitat,
                 currentBirdInfo.Diet,
                 currentBirdInfo.Reproduction,
@@ -215,8 +217,12 @@ public class TriviaManager : MonoBehaviour
                 currentBirdInfo.Bibliography
             );
 
-            triviaCanvas.SetActive(false);
+
             birdInfoCanvas.gameObject.SetActive(true);
+            triviaCanvas.SetActive(false);
+
+            // Guardar la imagen principal en el catálogo de colección
+            collectionBook.AddImageToCollection(currentBirdInfo.MainImage);
         }
         else
         {
