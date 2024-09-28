@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 59
+  controlID: 60
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 82
+  controlID: 131
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 83
+  controlID: 59
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -528,23 +528,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7e0a0d00
-      m_LastClickedID: 854654
-      m_ExpandedIDs: 107dfbff54f7fbff1069fcff14e2fcffe4e3fcff1ce8fcff067bfdfff27cfdff8e7ffdff0a3cfeff5e59feff7859feff4e5afeffd2d3feff444fffff9270fffff6faffff72f200000ef80000ccf90000f8f9000086bf0600b2bf06004ac106008234080044350800
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Joystick
-        m_OriginalName: Joystick
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -204330
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 3}
       m_SearchString: 
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0769359, y: -0.099442825, z: 0.0077088736, w: -0.992038}
     speed: 2
-    m_Value: {x: -0.076935634, y: -0.09944248, z: 0.007708847, w: -0.99203455}
+    m_Value: {x: -0.0769359, y: -0.099442825, z: 0.007708874, w: -0.992038}
   m_Size:
     m_Target: 684.84686
     speed: 2
@@ -1090,9 +1090,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 129}
-    m_SelectedIDs: 34ea0000
-    m_LastClickedID: 59956
-    m_ExpandedIDs: 0000000032ea000034ea000036ea000038ea00003aea00003cea00003eea0000b2ec0000d2ec000000ca9a3b
+    m_SelectedIDs: 8aea0000
+    m_LastClickedID: 60042
+    m_ExpandedIDs: 0000000088ea00008aea00008cea00008eea000090ea000092ea000094ea000096ea000098ea000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1120,7 +1120,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000032ea000034ea000036ea000038ea00003aea00003cea00003eea0000
+    m_ExpandedIDs: 0000000088ea00008aea00008cea00008eea000090ea000092ea000094ea000096ea000098ea0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
