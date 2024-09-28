@@ -4,11 +4,11 @@ using UnityEngine.UI;
 public class Radar : MonoBehaviour
 {
     public Transform player; // Referencia al jugador
-    public float radarRange = 50f; // El rango del radar
+    public float radarRange = 15f; // El rango del radar
     public RectTransform radarPanel; // Panel del radar en el Canvas
     public GameObject radarIconPrefab; // Prefab del icono verde que representa los objetos
     public GameObject playerIcon; // Imagen azul que representa al jugador en el radar
-    public float radarIconSize = 20f; // Tamaño del icono en el radar
+    public float radarIconSize = 10; // Tamaño del icono en el radar
 
     private void Start()
     {
