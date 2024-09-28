@@ -11,8 +11,6 @@ public class FirstPersonController : MonoBehaviour
     #region Movement Variables
     public float walkSpeed = 5f;
     public float sprintSpeed = 7f;
-    public KeyCode sprintKey = KeyCode.LeftShift;
-    public KeyCode jumpKey = KeyCode.Space;
     public float jumpPower = 5f;
 
     private bool isSprinting = false;
@@ -27,6 +25,20 @@ public class FirstPersonController : MonoBehaviour
 
     private Vector3 lastGroundedPosition;
     private float groundCheckRadius = 0.7f;
+
+    public KeyCode sprintKeyDesktop = KeyCode.LeftShift;
+    public KeyCode jumpKeyDesktop = KeyCode.Space;
+
+    // Joystick variables
+    public string horizontalAxis = "Horizontal";
+    public string verticalAxis = "Vertical";
+    public string sprintKey = "Fire3";
+    public string jumpButton = "Jump";
+
+    public string mouseHorizontalAxis = "Mouse X";
+    public string mouseVerticalAxis = "Mouse Y";
+
+    private bool _isMobile;
 
     private void Awake()
     {
@@ -43,6 +55,8 @@ public class FirstPersonController : MonoBehaviour
 
     private void Start()
     {
+        _isMobile = LevelManager.Instance.IsMobile;
+
         EventController.OnTriviaStarted += OnTriviaStarted;
         EventController.OnTriviaCompleted += OnTriviaCompleted;
     }
@@ -55,6 +69,54 @@ public class FirstPersonController : MonoBehaviour
     private void OnTriviaCompleted(int triviaId, bool visibleCursor)
     {
         canMove = !visibleCursor;
+    }
+
+    private Vector3 GetAxisInput()
+    {
+        if(_isMobile)
+        {
+            return new Vector3(SimpleInput.GetAxis(horizontalAxis), 0, SimpleInput.GetAxis(verticalAxis));
+        }
+        else
+        {
+            return new Vector3(Input.GetAxis(horizontalAxis), 0, Input.GetAxis(verticalAxis));
+        }
+    }
+
+    private bool GetSprintInput(bool isDown)
+    {
+        if (_isMobile)
+        {
+            return isDown ? SimpleInput.GetButton(sprintKey) : SimpleInput.GetButtonUp(sprintKey);
+        }
+        else
+        {
+            return isDown ? Input.GetKey(sprintKeyDesktop) : Input.GetKeyUp(sprintKeyDesktop);
+        }
+    }
+
+    private bool GetJumpInput()
+    {
+        if (_isMobile)
+        {
+            return SimpleInput.GetButtonDown(jumpButton);
+        }
+        else
+        {
+            return Input.GetKeyDown(jumpKeyDesktop);
+        }
+    }
+
+    private Vector2 GetMouseInput()
+    {
+        if (_isMobile)
+        {
+            return new Vector2(SimpleInput.GetAxis(mouseHorizontalAxis), SimpleInput.GetAxis(mouseVerticalAxis));
+        }
+        else
+        {
+            return new Vector2(Input.GetAxis(mouseHorizontalAxis), Input.GetAxis(mouseVerticalAxis));
+        }
     }
 
     private void Update()
@@ -82,83 +144,76 @@ public class FirstPersonController : MonoBehaviour
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(jumpKey) && IsGrounded()) Jump();
+        if(GetJumpInput() && IsGrounded()) Jump();
 
         if (enableSprint)
         {
-            if (Input.GetKey(sprintKey) && !isSprinting && sprintRemaining > 0 && !isSprintCooldown) StartSprint();
-            if (Input.GetKeyUp(sprintKey)) StopSprint();
+            if (GetSprintInput(true) && !isSprinting && sprintRemaining > 0 && !isSprintCooldown) StartSprint();
+            if (GetSprintInput(false)) StopSprint();
         }
 
         HandleMouseLook();
     }
 
     private void HandleMovement()
-{
-    float moveX = Input.GetAxis("Horizontal");
-    float moveZ = Input.GetAxis("Vertical");
-
-    Vector3 moveDirection = transform.TransformDirection(new Vector3(moveX, 0, moveZ));
-
-    Vector3 obstacleCheckPosition = GetGroundCheckPosition + moveDirection * 0.5f;
-    bool isBlocked = Physics.CheckSphere(obstacleCheckPosition, groundCheckRadius, LayerMask.GetMask("LockedPlane"));
-
-    if (isBlocked)
     {
-        moveX = 0f;
-        moveZ = 0f;
-        Debug.Log("Cannot advance into locked plane!");
-    }
-    else
-    {
-        if (IsGrounded()) // Update last grounded position only if the player is on the ground
+        float moveX = GetAxisInput().x;
+        float moveZ = GetAxisInput().z;
+
+        Vector3 moveDirection = transform.TransformDirection(new Vector3(moveX, 0, moveZ));
+
+        Vector3 obstacleCheckPosition = GetGroundCheckPosition + moveDirection * 0.5f;
+        bool isBlocked = Physics.CheckSphere(obstacleCheckPosition, groundCheckRadius, LayerMask.GetMask("LockedPlane"));
+
+        if (isBlocked)
         {
-            lastGroundedPosition = transform.position;
+            moveX = 0f;
+            moveZ = 0f;
+            Debug.Log("Cannot advance into locked plane!");
+        }
+        else
+        {
+            if (IsGrounded()) // Update last grounded position only if the player is on the ground
+            {
+                lastGroundedPosition = transform.position;
+            }
+        }
+
+        Vector3 targetVelocity = transform.TransformDirection(new Vector3(moveX, 0, moveZ)) * (isSprinting ? sprintSpeed : walkSpeed);
+        Vector3 velocityChange = targetVelocity - rb.velocity;
+        velocityChange.y = 0;
+        rb.AddForce(Vector3.ClampMagnitude(velocityChange, 10f), ForceMode.VelocityChange);
+    }
+
+    private void Jump()
+    {
+        rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z); // Reset vertical velocity
+        rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+    }
+
+    private void CheckIfBlockedAfterJump()
+    {
+        bool isBlocked = Physics.CheckSphere(GetGroundCheckPosition, groundCheckRadius, LayerMask.GetMask("LockedPlane"));
+
+        if (isBlocked)
+        {
+            transform.position = lastGroundedPosition; // Respawn to last grounded position
+            Debug.Log("Respawned to last grounded position!");
         }
     }
 
-    Vector3 targetVelocity = transform.TransformDirection(new Vector3(moveX, 0, moveZ)) * (isSprinting ? sprintSpeed : walkSpeed);
-    Vector3 velocityChange = targetVelocity - rb.velocity;
-    velocityChange.y = 0;
-    rb.AddForce(Vector3.ClampMagnitude(velocityChange, 10f), ForceMode.VelocityChange);
-}
+    private Vector3 GetGroundCheckPosition => transform.position + Vector3.down * (groundCheckRadius - 0.1f);
 
-private void Jump()
-{
-    rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z); // Reset vertical velocity
-    rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
-}
-
-private void CheckIfBlockedAfterJump()
-{
-    bool isBlocked = Physics.CheckSphere(GetGroundCheckPosition, groundCheckRadius, LayerMask.GetMask("LockedPlane"));
-
-    if (isBlocked)
+    private bool IsGrounded()
     {
-        transform.position = lastGroundedPosition; // Respawn to last grounded position
-        Debug.Log("Respawned to last grounded position!");
+        int layerMask = LayerMask.GetMask("Ground", "UnlockedPlane", "LockedPlane");
+        return Physics.CheckSphere(GetGroundCheckPosition, groundCheckRadius, layerMask);
     }
-}
-
-private Vector3 GetGroundCheckPosition => transform.position + Vector3.down * (groundCheckRadius - 0.1f);
-
-private bool IsGrounded()
-{
-    int layerMask = LayerMask.GetMask("Ground", "UnlockedPlane", "LockedPlane");
-    return Physics.CheckSphere(GetGroundCheckPosition, groundCheckRadius, layerMask);
-}
-
-private void OnDrawGizmos()
-{
-    Gizmos.color = Color.red;
-    
-    Gizmos.DrawSphere(GetGroundCheckPosition, groundCheckRadius);
-}
 
     private void HandleMouseLook()
     {
-        float mouseX = Input.GetAxis("Mouse X") * 100f * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * 100f * Time.deltaTime;
+        float mouseX = GetMouseInput().x * 100f * Time.deltaTime;
+        float mouseY = GetMouseInput().y * 100f * Time.deltaTime;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);

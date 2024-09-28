@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    private static LevelManager _instance;
+    public static LevelManager Instance => _instance;
+
     [SerializeField] private Ambient[] _ambients;
     [SerializeField] private Material _originalMaterial;
     [SerializeField] private Material _lockedMaterial;
@@ -12,13 +15,40 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Button _buttonNextLevel;
     [SerializeField] private GameObject _prefabCard;
     [SerializeField] private Data _data;
+    [SerializeField] private bool _isMobile;
+    [SerializeField] private GameObject _mobileUI;
 
     private Dictionary<int, Ambient> _ambientDictionary;
 
+    public bool IsMobile => _isMobile;
+
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+    #if !UNITY_EDITOR
+        _isMobile = Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer;
+    #endif
+    }
+
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if(!_isMobile)
+        {
+            _mobileUI.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }else
+        {
+            _mobileUI.SetActive(true);
+        }
 
         // Initialize the dictionary
         _ambientDictionary = new Dictionary<int, Ambient>();
@@ -117,16 +147,22 @@ public class LevelManager : MonoBehaviour
 
     private void OnTriviaStarted(int triviaId)
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        if (!_isMobile)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     private void OnTriviaCompleted(int triviaId, bool visibleCursor)
     {
         if (visibleCursor)
         {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            if (!_isMobile)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
 
             int nextBirdType = EventController.Instance.GetCurrentBirdType() + 1;
             EventController.Instance.SetCurrentBirdType(nextBirdType);
@@ -141,8 +177,11 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+            if (!_isMobile)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
         }
     }
 

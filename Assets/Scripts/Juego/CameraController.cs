@@ -23,7 +23,7 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        if (_firstPersonController == null) return;
+        /* if (_firstPersonController == null) return;
 
         if (_firstPersonController.canMove)
         {
@@ -50,6 +50,6 @@ public class CameraController : MonoBehaviour
             {
                 playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, defaultFOV, Time.deltaTime * 10);
             }
-        }
+        } */
     }
 }
