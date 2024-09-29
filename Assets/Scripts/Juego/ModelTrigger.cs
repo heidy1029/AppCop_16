@@ -32,12 +32,12 @@ public class ModelTrigger : MonoBehaviour
         }
     }
 
-    public void OnTriviaCompleted()
-    {
-        CollectionBook collectionBook = FindObjectOfType<CollectionBook>();
-        if (collectionBook != null && _modelImage != null)
-        {
-            collectionBook.AddImageToCollection(_modelImage.sprite);
-        }
-    }
+    /* public void OnTriviaCompleted()
+     {
+         CollectionBook collectionBook = FindObjectOfType<CollectionBook>();
+         if (collectionBook != null && _modelImage != null)
+         {
+             collectionBook.AddImageToCollection(_modelImage.sprite);
+         }
+     }*/
 }
