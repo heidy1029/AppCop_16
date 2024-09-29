@@ -221,7 +221,6 @@ public class TriviaManager : MonoBehaviour
             birdInfoCanvas.gameObject.SetActive(true);
             triviaCanvas.SetActive(false);
 
-            // Guardar la imagen principal en el catálogo de colección
             collectionBook.AddImageToCollection(currentBirdInfo.MainImage);
         }
         else
