@@ -43,6 +43,12 @@ public class SettingsMenu : MonoBehaviour
     // Pausa el juego y muestra el menú
     public void PauseGame()
     {
+        if(!LevelManager.Instance.IsMobile)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
         settingsMenuUI.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
@@ -51,6 +57,12 @@ public class SettingsMenu : MonoBehaviour
 
     public void ResumeGame()
     {
+        if(!LevelManager.Instance.IsMobile)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        
         settingsMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;

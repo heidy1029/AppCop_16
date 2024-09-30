@@ -53,6 +53,20 @@ public class CollectionBook : MonoBehaviour
     public void ToggleCollectionBook()
     {
         isCatalogVisible = !isCatalogVisible;
+
+        if(!LevelManager.Instance.IsMobile)
+        {
+            if(isCatalogVisible)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+        }
+
         collectionBookPanel.SetActive(isCatalogVisible);
     }
 

@@ -19,16 +19,8 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Title: Hierarchy
-=======
-  m_Title: Game
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
   m_Title: Project
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
-  m_RootView: {fileID: 6}
+  m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -47,40 +39,44 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 539
+    x: 590
     y: 0
-    width: 907
-    height: 780
-=======
-    x: 1013
-=======
-    x: 1023
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-    x: 615
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-    y: 0
-    width: 800
-    height: 651
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    x: 551
-    y: 0
-    width: 864
-    height: 662
->>>>>>> 84dcbc6 (arreglo interfaz)
+    width: 825
+    height: 506
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 441
+    width: 1415
+    height: 506
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 7315
+  draggingID: 0
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,29 +93,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 333
-    height: 780
-=======
-    width: 389
-=======
     width: 308
-<<<<<<< HEAD
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-    height: 651
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    height: 662
->>>>>>> 84dcbc6 (arreglo interfaz)
+    height: 441
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &4
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,49 +115,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 11}
-  - {fileID: 2}
+  - {fileID: 4}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1446
-<<<<<<< HEAD
-    height: 780
-  m_MinSize: {x: 300, y: 50}
-  m_MaxSize: {x: 24288, y: 8096}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 52
-=======
-=======
     width: 1415
-<<<<<<< HEAD
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-    height: 651
-=======
-    height: 662
->>>>>>> 84dcbc6 (arreglo interfaz)
-  m_MinSize: {x: 300, y: 50}
-  m_MaxSize: {x: 24288, y: 8096}
+    height: 441
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 51
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-  controlID: 60
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-  controlID: 62
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-  controlID: 64
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
+  controlID: 55
   draggingID: 0
---- !u!114 &5
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,25 +147,16 @@ MonoBehaviour:
     y: 0
     width: 505
     height: 947
-<<<<<<< HEAD
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-<<<<<<< HEAD
-  m_ActualView: {fileID: 21}
-=======
-=======
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-  m_ActualView: {fileID: 22}
->>>>>>> 62ef6dd (Updated GameMenu)
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 23}
+  - {fileID: 15}
   - {fileID: 14}
-  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &6
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,9 +169,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 9}
   - {fileID: 8}
+  - {fileID: 10}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -239,7 +184,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &7
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,7 +206,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -282,52 +227,6 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1920
-    height: 947
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 32384, y: 16192}
-  vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 50
-=======
-  controlID: 118
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-  controlID: 130
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-  controlID: 121
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-  controlID: 60
->>>>>>> 84dcbc6 (arreglo interfaz)
-=======
-  controlID: 62
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
-  draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -341,36 +240,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
-  - {fileID: 12}
+  - {fileID: 11}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 133
+  draggingID: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1415
     height: 947
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 51
-=======
-  controlID: 50
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-  controlID: 59
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-  controlID: 61
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-  controlID: 63
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
+  controlID: 54
   draggingID: 0
---- !u!114 &11
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,34 +294,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 333
-    y: 0
-    width: 206
-    height: 780
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
-=======
-    x: 389
-=======
     x: 308
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
     y: 0
-    width: 243
-    height: 662
+    width: 1107
+    height: 441
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
->>>>>>> 62ef6dd (Updated GameMenu)
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 15}
   - {fileID: 16}
-  - {fileID: 18}
+  - {fileID: 17}
+  - {fileID: 20}
   m_Selected: 2
   m_LastSelected: 2
---- !u!114 &12
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -428,30 +323,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 780
-    width: 1446
-    height: 167
-=======
-    y: 651
-    width: 1415
-    height: 296
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    y: 662
-    width: 1415
-    height: 285
->>>>>>> 84dcbc6 (arreglo interfaz)
+    y: 0
+    width: 590
+    height: 506
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 19}
-  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,7 +369,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -521,7 +404,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -558,20 +441,8 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LastSelectedObjectID: 28302
-=======
-  m_LastSelectedObjectID: 27970
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-  m_LastSelectedObjectID: 28320
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-  m_LastSelectedObjectID: 28326
->>>>>>> 84dcbc6 (arreglo interfaz)
---- !u!114 &16
+  m_LastSelectedObjectID: 63350
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -644,7 +515,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -653,8 +524,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-=======
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -667,10 +536,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 551
-    y: 73
-    width: 862
-    height: 641
+    x: 590
+    y: 514
+    width: 823
+    height: 485
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -687,7 +556,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1080, y: 1920}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -696,16 +565,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 07000000000000000000000006000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 08000000000000000000000006000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -540
-    m_HBaseRangeMax: 540
-    m_VBaseRangeMin: -960
-    m_VBaseRangeMax: 960
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -723,29 +592,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 862
-      height: 620
-    m_Scale: {x: 0.32291666, y: 0.32291666}
-    m_Translation: {x: 431, y: 310}
+      width: 823
+      height: 464
+    m_Scale: {x: 0.42864582, y: 0.42864582}
+    m_Translation: {x: 411.5, y: 232}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1334.7097
-      y: -960
-      width: 2669.4194
-      height: 1920
+      x: -960.00006
+      y: -541.2394
+      width: 1920.0001
+      height: 1082.4788
     m_MinimalGUI: 1
-  m_defaultScale: 0.32291666
-  m_LastWindowPixelSize: {x: 862, y: 641}
+  m_defaultScale: 0.42864582
+  m_LastWindowPixelSize: {x: 823, y: 485}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -754,7 +623,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
->>>>>>> 62ef6dd (Updated GameMenu)
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -769,21 +637,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 332
-    height: 759
-=======
-    width: 388
-=======
     width: 307
-<<<<<<< HEAD
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-    height: 630
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    height: 641
->>>>>>> 84dcbc6 (arreglo interfaz)
+    height: 420
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -797,55 +652,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_SelectedIDs: 8e6e0000
-      m_LastClickedID: 28302
-      m_ExpandedIDs: b0faffffd86e0000
-=======
-      m_SelectedIDs: 44760000
+      m_SelectedIDs: bcf40000
       m_LastClickedID: 0
-      m_ExpandedIDs: e2e2ffff96faffff
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: dad9feffaefafeffb0fafeff782effff0030ffff56faffff706e00008c6e0000
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-      m_SelectedIDs: 026e0000
-      m_LastClickedID: 28162
-      m_ExpandedIDs: 186affff2afbffff286d00007e6d00008c6d00001c6e0000706e0000846e0000a06e0000026f0000466f00006e6f0000806f0000
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-      m_SelectedIDs: a629ffff
-      m_LastClickedID: -54874
-      m_ExpandedIDs: 5a7cffff747effff2afbffffa66e0000ae6f0000
->>>>>>> 84dcbc6 (arreglo interfaz)
-=======
-      m_SelectedIDs: 6cf20000
-      m_LastClickedID: 0
-      m_ExpandedIDs: ea74ffff62f2ffff
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
+      m_ExpandedIDs: 9e84f8ffa885f8fff4d1f9fffed1f9ff08d2f9ff10d2f9ff1ad2f9ff7e1efbff881efbff921efbff9a1efbff3addfeff6eddfeff74ddfeff0a6fffff126fffff146fffff1e6fffff286fffff326fffff4870ffff5670ffff7070ffff4471ffffecedfffffef5000058f6000082f60000ccf50100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: TARJETA_ANIMADA (1)
+        m_OriginalName: TARJETA_ANIMADA (1)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 128354
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 3}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -853,7 +678,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &18
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -874,26 +699,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 333
-    y: 73
-    width: 204
-    height: 759
-=======
-    x: 389
-=======
     x: 308
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
     y: 73
-<<<<<<< HEAD
-    width: 305
-    height: 630
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    width: 241
-    height: 641
->>>>>>> 84dcbc6 (arreglo interfaz)
+    width: 1105
+    height: 420
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1181,7 +990,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 48, y: 10}
+      snapOffset: {x: 0, y: 10}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -1265,31 +1074,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -43.38786, y: 5.1378593, z: 20.775486}
+    m_Target: {x: 958.64734, y: 668.777, z: 718.442}
     speed: 2
-    m_Value: {x: -43.38786, y: 5.1378593, z: 20.775486}
-=======
-    m_Target: {x: -47.30083, y: 1.1818017, z: 19.55125}
-    speed: 2
-    m_Value: {x: -47.30083, y: 1.1818017, z: 19.55125}
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    m_Target: {x: 858.3913, y: 581.2286, z: -303.25604}
-    speed: 2
-    m_Value: {x: 858.3913, y: 581.2286, z: -303.25604}
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-    m_Target: {x: 726.8059, y: 299.1574, z: -320.40588}
-=======
-    m_Target: {x: -43.38786, y: 5.1378593, z: 20.775486}
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
-    speed: 2
-    m_Value: {x: 726.8059, y: 299.1574, z: -320.40588}
->>>>>>> 84dcbc6 (arreglo interfaz)
+    m_Value: {x: 958.64734, y: 668.777, z: 718.442}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1335,47 +1122,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -0.18754093, y: 0.71906924, z: -0.21255402, w: -0.6345248}
+    m_Target: {x: -0.09900514, y: -0.053114455, z: 0.005292135, w: -0.9936545}
     speed: 2
-    m_Value: {x: -0.18753782, y: 0.7190573, z: -0.2125505, w: -0.63451433}
+    m_Value: {x: -0.09900512, y: -0.053114444, z: 0.0052921334, w: -0.99365425}
   m_Size:
-    m_Target: 40.5799
+    m_Target: 2339.332
     speed: 2
-    m_Value: 40.5799
-=======
-    m_Target: {x: 0.16365072, y: 0.013913157, z: -0.002459861, w: 0.9864828}
-=======
-    m_Target: {x: -0.0348012, y: -0.009581227, z: 0.00033912208, w: -0.9993546}
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-    m_Target: {x: -0.18754093, y: 0.71906924, z: -0.21255402, w: -0.6345248}
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
-    speed: 2
-    m_Value: {x: -0.0348012, y: -0.009581228, z: 0.00033912208, w: -0.9993546}
-  m_Size:
-    m_Target: 40.5799
-    speed: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Value: 2.927821
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    m_Value: 833.9843
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-    m_Value: 311.6915
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-    m_Value: 261.1788
->>>>>>> 84dcbc6 (arreglo interfaz)
+    m_Value: 2339.332
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1.06047
     m_SpeedNormalized: 0.53
@@ -1389,14 +1146,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.0026403954, y: -0.9939675, z: 0.10926629, w: 0.019382311}
+  m_LastSceneViewRotation: {x: 0.069196105, y: 0.9003588, z: -0.1571079, w: 0.4002153}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1418,21 +1175,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 853
-    width: 1445
-    height: 146
-=======
-    y: 724
-    width: 1414
-    height: 275
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    y: 735
-    width: 1414
-    height: 264
->>>>>>> 84dcbc6 (arreglo interfaz)
+    y: 514
+    width: 589
+    height: 485
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1454,23 +1199,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets/Materials
-=======
-    - Assets/Resources/Images/Interfaz/Configuracion
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-    - Assets/Resources/Images/Interfaz/Cartas/Acuaticas
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-    - Assets/Scripts/Juego
->>>>>>> 84dcbc6 (arreglo interfaz)
-=======
     - Assets/Scenes
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1478,67 +1207,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Assets/Materials
-=======
-  - Assets/Resources/Images/Interfaz/Configuracion
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-  - Assets/Resources/Images/Interfaz/Cartas/Acuaticas
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-  - Assets/Scripts/Juego
->>>>>>> 84dcbc6 (arreglo interfaz)
-=======
   - Assets/Scenes
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Projects\Unity\AppCop_16
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 86ed0000
-    m_LastClickedID: 60806
-    m_ExpandedIDs: 0000000008eb00000aeb00000ceb00000eeb000010eb000012eb000014eb000016eb000000ca9a3b
-=======
-    scrollPos: {x: 0, y: 117}
-    m_SelectedIDs: 3a710000
-    m_LastClickedID: 28986
-    m_ExpandedIDs: 00000000387100003a7100003e7100004071000042710000447100004671000000ca9a3b
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    scrollPos: {x: 0, y: 175}
-    m_SelectedIDs: 58ed0000
-    m_LastClickedID: 60760
-    m_ExpandedIDs: 00000000c0ea000024ed000028ed00004ced000050ed0000
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0ced0400
-    m_LastClickedID: 322828
-    m_ExpandedIDs: 00000000cced00000aee00000eee00001cf10000faec0400feec0400
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-    scrollPos: {x: 0, y: 144}
-    m_SelectedIDs: 9aee0000
-    m_LastClickedID: 61082
-    m_ExpandedIDs: 0000000024ee000042ee000046ee000050ee000052ee000054ee0000
->>>>>>> 84dcbc6 (arreglo interfaz)
-=======
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 42f20000
-    m_LastClickedID: 62018
-    m_ExpandedIDs: 0000000018f200001af200001cf200001ef2000020f2000022f2000024f2000026f2000000ca9a3b
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
+    m_SelectedIDs: 9cf40000
+    m_LastClickedID: 62620
+    m_ExpandedIDs: 000000006cf400006ef4000070f4000072f4000074f4000076f4000078f400007af4000098f4000070d2070000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1554,7 +1232,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 13}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1566,27 +1244,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 0000000008eb00000aeb00000ceb00000eeb000010eb000012eb000014eb000016eb0000
-=======
-    m_ExpandedIDs: 00000000387100003a7100003c7100003e71000040710000427100004471000046710000
->>>>>>> 62ef6dd (Updated GameMenu)
-=======
-    m_ExpandedIDs: 00000000c0ea0000
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-=======
-    m_ExpandedIDs: 00000000cced0000
->>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
-=======
-    m_ExpandedIDs: 0000000024ee0000
->>>>>>> 84dcbc6 (arreglo interfaz)
-=======
-    m_ExpandedIDs: 0000000018f200001af200001cf200001ef2000020f2000022f2000024f2000026f20000
->>>>>>> 18f82f0 (Clone Nivel 1, UI)
+    m_ExpandedIDs: 000000006cf400006ef4000070f4000072f4000074f4000076f4000078f400007af40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1613,29 +1271,24 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-<<<<<<< HEAD
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000ba6f0000e66b0000fe640000f672000048620000e8790000f4790000cc960200323f0100387000007473010036740000000000002ced0000
-=======
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ba6f0000e66b0000fe640000f672000048620000e8790000f4790000cc960200323f010038700000747301003674000000000000768e0000
->>>>>>> 84dcbc6 (arreglo interfaz)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Nivel_heidy
-      m_OriginalName: Nivel_heidy
+      m_Name: MisEspecies
+      m_OriginalName: MisEspecies
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 62060
+      m_UserData: 62646
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1647,7 +1300,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &20
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1669,13 +1322,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 724
-<<<<<<< HEAD
-    width: 1445
-=======
+    y: 735
     width: 1414
->>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
-    height: 275
+    height: 264
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1686,7 +1335,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &21
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1728,110 +1377,9 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 298
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &22
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 539
-    y: 73
-    width: 905
-    height: 759
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SerializedViewNames:
-  - UnityEditor.DeviceSimulation.SimulatorWindow
-  m_SerializedViewValues:
-  - D:\Projects\Unity\AppCop_16\Library\PlayModeViewStates\8ce893b805351f145a01e04c0dbf32d2
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1080, y: 1920}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 07000000000000000000000007000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -540
-    m_HBaseRangeMax: 540
-    m_VBaseRangeMin: -960
-    m_VBaseRangeMax: 960
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 905
-      height: 738
-    m_Scale: {x: 0.384375, y: 0.384375}
-    m_Translation: {x: 452.5, y: 369}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -1177.2357
-      y: -960
-      width: 2354.4714
-      height: 1920
-    m_MinimalGUI: 1
-  m_defaultScale: 0.384375
-  m_LastWindowPixelSize: {x: 905, y: 759}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000001000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
