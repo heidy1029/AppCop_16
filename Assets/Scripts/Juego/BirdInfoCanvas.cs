@@ -17,7 +17,6 @@ public class BirdInfoCanvas : MonoBehaviour
     public TextMeshProUGUI sizeText;
     public TextMeshProUGUI funFact1Text;
     public TextMeshProUGUI funFact2Text;
-    public Image secondaryImage;
     public TextMeshProUGUI locationText;
     public TextMeshProUGUI bibliographyText;
 
@@ -43,7 +42,6 @@ public class BirdInfoCanvas : MonoBehaviour
         string size,
         string funFact1,
         string funFact2,
-        string secondaryImagePath,
         string location,
         string bibliography)
     {
@@ -62,7 +60,6 @@ public class BirdInfoCanvas : MonoBehaviour
 
         // Cargar y asignar los sprites desde la carpeta de recursos
         Sprite mainImageSprite = Resources.Load<Sprite>(mainImagePath);
-        Sprite secondaryImageSprite = Resources.Load<Sprite>(secondaryImagePath);
 
         if (mainImageSprite != null)
         {
@@ -71,15 +68,6 @@ public class BirdInfoCanvas : MonoBehaviour
         else
         {
             Debug.LogWarning($"No se pudo cargar la imagen principal desde la ruta: {mainImagePath}");
-        }
-
-        if (secondaryImageSprite != null)
-        {
-            secondaryImage.sprite = secondaryImageSprite;
-        }
-        else
-        {
-            Debug.LogWarning($"No se pudo cargar la imagen secundaria desde la ruta: {secondaryImagePath}");
         }
 
         ShowCanvas(true);

@@ -212,7 +212,6 @@ public class TriviaManager : MonoBehaviour
                 currentBirdInfo.Size,
                 currentBirdInfo.FunFact1,
                 currentBirdInfo.FunFact2,
-                currentBirdInfo.SecondaryImage,
                 currentBirdInfo.Location,
                 currentBirdInfo.Bibliography
             );
