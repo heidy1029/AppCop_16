@@ -20,10 +20,14 @@ MonoBehaviour:
     height: 997
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Hierarchy
 =======
   m_Title: Game
 >>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
+=======
+  m_Title: Project
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -142,6 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 52
 =======
 =======
@@ -165,6 +170,9 @@ MonoBehaviour:
 =======
   controlID: 62
 >>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
+=======
+  controlID: 64
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -302,6 +310,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 50
 =======
   controlID: 118
@@ -315,6 +324,9 @@ MonoBehaviour:
 =======
   controlID: 60
 >>>>>>> 84dcbc6 (arreglo interfaz)
+=======
+  controlID: 62
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -343,6 +355,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 51
 =======
   controlID: 50
@@ -353,6 +366,9 @@ MonoBehaviour:
 =======
   controlID: 61
 >>>>>>> e2eda8d (Catalogo Mecanica Finalizado y musica)
+=======
+  controlID: 63
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -671,7 +687,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1920, y: 1080}
+  m_TargetSize: {x: 1080, y: 1920}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -686,10 +702,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
+    m_HBaseRangeMin: -540
+    m_HBaseRangeMax: 540
+    m_VBaseRangeMin: -960
+    m_VBaseRangeMax: 960
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -709,7 +725,7 @@ MonoBehaviour:
       y: 21
       width: 862
       height: 620
-    m_Scale: {x: 0.44895834, y: 0.44895834}
+    m_Scale: {x: 0.32291666, y: 0.32291666}
     m_Translation: {x: 431, y: 310}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -717,12 +733,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960
-      y: -690.48724
-      width: 1920
-      height: 1380.9745
+      x: -1334.7097
+      y: -960
+      width: 2669.4194
+      height: 1920
     m_MinimalGUI: 1
-  m_defaultScale: 0.44895834
+  m_defaultScale: 0.32291666
   m_LastWindowPixelSize: {x: 862, y: 641}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -785,6 +801,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 8e6e0000
       m_LastClickedID: 28302
       m_ExpandedIDs: b0faffffd86e0000
@@ -808,6 +825,11 @@ MonoBehaviour:
       m_LastClickedID: -54874
       m_ExpandedIDs: 5a7cffff747effff2afbffffa66e0000ae6f0000
 >>>>>>> 84dcbc6 (arreglo interfaz)
+=======
+      m_SelectedIDs: 6cf20000
+      m_LastClickedID: 0
+      m_ExpandedIDs: ea74ffff62f2ffff
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1246,6 +1268,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -43.38786, y: 5.1378593, z: 20.775486}
     speed: 2
     m_Value: {x: -43.38786, y: 5.1378593, z: 20.775486}
@@ -1261,6 +1284,9 @@ MonoBehaviour:
 >>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
 =======
     m_Target: {x: 726.8059, y: 299.1574, z: -320.40588}
+=======
+    m_Target: {x: -43.38786, y: 5.1378593, z: 20.775486}
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
     speed: 2
     m_Value: {x: 726.8059, y: 299.1574, z: -320.40588}
 >>>>>>> 84dcbc6 (arreglo interfaz)
@@ -1311,6 +1337,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.18754093, y: 0.71906924, z: -0.21255402, w: -0.6345248}
     speed: 2
     m_Value: {x: -0.18753782, y: 0.7190573, z: -0.2125505, w: -0.63451433}
@@ -1323,10 +1350,13 @@ MonoBehaviour:
 =======
     m_Target: {x: -0.0348012, y: -0.009581227, z: 0.00033912208, w: -0.9993546}
 >>>>>>> 47c74a9 (Interfaz configuraciones y catalogo)
+=======
+    m_Target: {x: -0.18754093, y: 0.71906924, z: -0.21255402, w: -0.6345248}
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
     speed: 2
-    m_Value: {x: -0.03480098, y: -0.009581166, z: 0.00033911993, w: -0.9993483}
+    m_Value: {x: -0.0348012, y: -0.009581228, z: 0.00033912208, w: -0.9993546}
   m_Size:
-    m_Target: 261.1788
+    m_Target: 40.5799
     speed: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1343,9 +1373,9 @@ MonoBehaviour:
     m_Value: 261.1788
 >>>>>>> 84dcbc6 (arreglo interfaz)
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1.06047
     m_SpeedNormalized: 0.53
@@ -1427,6 +1457,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Materials
 =======
     - Assets/Resources/Images/Interfaz/Configuracion
@@ -1437,6 +1468,9 @@ MonoBehaviour:
 =======
     - Assets/Scripts/Juego
 >>>>>>> 84dcbc6 (arreglo interfaz)
+=======
+    - Assets/Scenes
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1444,6 +1478,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1457,11 +1492,15 @@ MonoBehaviour:
 =======
   - Assets/Scripts/Juego
 >>>>>>> 84dcbc6 (arreglo interfaz)
+=======
+  - Assets/Scenes
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\usuario\Documents\Proyecto unity\Cop16\AppCop_16
+  m_LastProjectPath: D:\Projects\Unity\AppCop_16
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1494,6 +1533,12 @@ MonoBehaviour:
     m_LastClickedID: 61082
     m_ExpandedIDs: 0000000024ee000042ee000046ee000050ee000052ee000054ee0000
 >>>>>>> 84dcbc6 (arreglo interfaz)
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 42f20000
+    m_LastClickedID: 62018
+    m_ExpandedIDs: 0000000018f200001af200001cf200001ef2000020f2000022f2000024f2000026f2000000ca9a3b
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1525,6 +1570,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000008eb00000aeb00000ceb00000eeb000010eb000012eb000014eb000016eb0000
 =======
     m_ExpandedIDs: 00000000387100003a7100003c7100003e71000040710000427100004471000046710000
@@ -1538,6 +1584,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000024ee0000
 >>>>>>> 84dcbc6 (arreglo interfaz)
+=======
+    m_ExpandedIDs: 0000000018f200001af200001cf200001ef2000020f2000022f2000024f2000026f20000
+>>>>>>> 18f82f0 (Clone Nivel 1, UI)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1573,15 +1622,15 @@ MonoBehaviour:
 >>>>>>> 84dcbc6 (arreglo interfaz)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: SubtitlesManager
-      m_OriginalName: SubtitlesManager
+      m_Name: Nivel_heidy
+      m_OriginalName: Nivel_heidy
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 61094
+      m_UserData: 62060
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1594,7 +1643,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 7}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
