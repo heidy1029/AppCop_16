@@ -26,6 +26,6 @@ public class GameMenu : MonoBehaviour
     {
         EventController.Instance.SetTriviaStarted(birdType);
 
-        SceneManager.LoadScene("Nivel 1");
+        SceneManager.LoadScene("GameLevel");
     }
 }

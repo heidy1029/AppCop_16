@@ -7,105 +7,6 @@
           "modelIndex": 0,
           "questions": [
             {
-              "questionText": " ¿Cuál es una característica distintiva del pico de las aves del orden Anseriformes?",
-              "answers": [
-                "A) Pico puntiagudo",
-                "B) Pico en forma de gancho",
-                "C) Pico plano y ancho",
-                "D) Pico "
-              ],
-              "correctAnswerIndex": 2
-            },
-            {
-              "questionText": "¿En qué tipo de hábitat se pueden encontrar las aves del orden Anseriformes?  ",
-              "answers": [
-                "A) Plumaje ligero y transitable",
-                "B) Plumaje denso e impermeable",
-                "C) Plumaje colorido y brillante",
-                "D) Plumaje denso y brillante"
-              ],
-              "correctAnswerIndex": 1
-            },
-            {
-              "questionText": "En qué tipo de hábitat se pueden encontrar las aves del orden Anseriformes? ",
-              "answers": [
-                "A) En cuerpos de agua dulce y salada ",
-                "B) Solo en bosques tropicales",
-                "C) Exclusivamente en desiertos",
-                "D) falta"
-              ],
-              "correctAnswerIndex": 0
-            }
-          ],
-          "birdInfo": {
-            "birdName": "Buitre de Ciénaga",
-            "species": "Anhima cornutai",
-            "description": "Es una ave grande y llamativa que habita en los humedales tropicales, se distingue por su peculiar cuerno óseo en la cabeza y sus espinas en las alas, que usa como defensa. Su aspecto único y su comportamiento defensivo con las espinas la hacen una especie fascinante y distintiva en los hábitats que ocupa.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/BuitreCienega",
-            "habitat": "Vive principalmente en los ecosistemas de humedales y áreas cercanas a cuerpos de agua, como ríos, lagos y pantanos.",
-            "diet": "Es herbívora, alimentándose de plantas acuáticas, consume hojas, tallos y brotes de plantas que crecen en o cerca de los cuerpos de agua donde habita, como pasto y juncos. Y tambien de semillas de plantas acuáticas y terrestres",
-            "reproduction": "Construyen sus nidos cerca a las orillas de los humedales.Ponen entre 2 y 6 huevos. El periodo de incubación dura aproximadamente entre 42 y 46 días, ambos padres cuidan de los huevos y crías.",
-            "size": "Aproximadamente 84 y 95 cm de longitud",
-            "funFact1": "Cuernos únicos: este cuerno es único en las aves y no está conectado al cráneo, lo que lo hace flexible. Le da un aspecto inconfundible.",
-            "funFact2": "Alas con espinas: Estas espinas afiladas se encuentran en la articulación del ala y pueden usarlas como defensa contra depredadores o en peleas territoriales, les brinda una especie de arma natural",
-            "location": "Humedal de El Pondaje y Charco Azul, ubicados dentro de la ciudad, donde hay zonas con vegetación acuática.Lago Calima o en áreas más rurales y naturales cerca de ríos como el río Cauca o hacienda El Paraíso.Laguna de Sonso, Buga.    Confirmado.",
-            "bibliography": "National Geographic, 2020"
-          }
-        },
-        {
-          "modelIndex": 1,
-          "questions": [
-            {
-              "questionText": "¿Qué adaptación permite a las aves anseriformes nadar con facilidad?",
-              "answers": [
-                "A) Cuerpos aerodinámicos",
-                "B) Plumaje impermeable",
-                "C) Alas fuertes",
-                "D) Patas palmeadas"
-              ],
-              "correctAnswerIndex": 3
-            },
-            {
-              "questionText": "¿Qué tipo de plumaje ayuda a las aves anseriformes a mantenerse secas?",
-              "answers": [
-                "A) Plumaje aceitoso impermeable.",
-                "B) Plumaje denso",
-                "C) Plumaje esponjoso",
-                "D) Plumaje brillante"
-              ],
-              "correctAnswerIndex": 0
-            },
-            {
-              "questionText": "¿Cómo es la dieta de la mayoría de las aves anseriformes?",
-              "answers": [
-                "A) Omnívora",
-                "B) Solo carnívora",
-                "C) Solo herbívora",
-                "D) Solo frugívora"
-              ],
-              "correctAnswerIndex": 0
-            }
-          ],
-          "birdInfo": {
-            "birdName": "Sirirí Colorado",
-            "species": "Dendrocygna bicolor",
-            "description": "Es una especie de ave acuática que habita en humedales, lagunas y áreas de agua dulce de América y África. Su plumaje es marrón con tonos claros y patas largas, lo que facilita su desplazamiento en el agua.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
-            "habitat": "Se alimenta principalmente de plantas acuáticas, semillas y algunos invertebrados, contribuyendo al equilibrio de los ecosistemas al dispersar semillas y controlar la vegetación acuática",
-            "diet": "Ayudan a mantener el equilibrio ecológico y sirven como indicadores de la calidad del agua en estos ecosistemas.",
-            "reproduction": "Dan en el suelo o en vegetación cercana al agua, y ponen entre 8 y 12 huevos. Los dos padres participan activamente en la incubación y el cuidado de los polluelos.",
-            "size": "Aproximadamente 50 cm de longitud",
-            "funFact1": "Emiten un sonido silbante característico, de donde proviene su nombre pato silbador.",
-            "funFact2": "Realizan vuelos en grandes bandadas, lo que los hace muy visibles en áreas abiertas de humedales.",
-            "secondaryImage": "Images/aguila_habitat",
-            "location": "Ecoparque Lago de Las Garzas, Universidad del ValleClub Campestre Farallones",
-            "bibliography": "Smithsonian Institution, 2018"
-          }
-        },
-        {
-          "modelIndex": 2,
-          "questions": [
-            {
               "questionText": "¿Qué tipo de dieta suelen tener las aves del orden Anseriformes?",
               "answers": [
                 "A) Exclusivamente insectívora",
@@ -148,11 +49,11 @@
             "funFact1": "El sirirí cariblanco forma bandadas ruidosas, conocidas por sus llamados repetitivos y fuertes.",
             "funFact2": "A pesar de ser una especie acuática, son excelentes voladores y a menudo se desplazan largas distancias en busca de nuevos cuerpos de agua.",
             "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
-            "bibliography": "BirdLife International, 2019"
+            "bibliography": "La Dendrocygna viduata (pato de cara blanca) desempeña un rol clave en los ecosistemas acuáticos al contribuir a la dispersión de semillas, el control de la vegetación acuática y la regulación de invertebrados. Además, forma parte de la cadena trófica al ser presa de depredadores y actúa como indicador de la salud de los humedales, ya que su presencia estable sugiere un ambiente saludable, mientras que su declive puede indicar problemas ambientales."
           }
         },
         {
-          "modelIndex": 3,
+          "modelIndex": 1,
           "questions": [
             {
               "questionText": "¿Cuál de los siguientes ecosistemas es un hábitat común para las aves anseriformes?",
@@ -196,12 +97,12 @@
             "size": "3.5 pulgadas",
             "funFact1": "El pato silbón es conocido por su llamado silbante, que emite incluso durante el vuelo.",
             "funFact2": "Anidan en cavidades de árboles, adaptándose a una gran variedad de hábitats.",
-            "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro – Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
-            "bibliography": "Cornell Lab of Ornithology, 2021"
+            "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí-Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro – Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
+            "bibliography": "Este pato es esencial para el mantenimiento de los humedales, ayudando en la dispersión de plantas acuáticas y la regulación de los ecosistemas acuáticos."
           }
         },
         {
-          "modelIndex": 4,
+          "modelIndex": 2,
           "questions": [
             {
               "questionText": "¿Qué papel juegan las aves anseriformes en la dispersión de plantas?",
@@ -246,110 +147,364 @@
             "funFact1": "ive en ríos de montaña con fuertes corrientes, lo que lo hace altamente especializado.",
             "funFact2": "Su capacidad para bucear y nadar contra las aguas rápidas le permite sobrevivir en un hábitat que pocos otros animales pueden habitar.",
             "location": "Laguna de Sonso, Buga",
-            "bibliography": "BirdLife International, 2019"
+            "bibliography": "La Merganetta armata impacta el ecosistema al ser un bioindicador de la salud de los ríos de montaña, señalando aguas limpias y bien conservadas. Además, controla poblaciones de invertebrados acuáticos al alimentarse de insectos y larvas, ayudando a mantener el equilibrio en las cadenas alimentarias. Su presencia también promueve la protección de hábitats fluviales, contribuyendo a la conservación de la biodiversidad en los ecosistemas de alta montaña."
+          }
+        },
+        {
+          "modelIndex": 3,
+          "questions": [
+            {
+              "questionText": " ¿Qué comportamiento alimenticio es común entre las aves Charadriiformes?",
+              "answers": [
+                "A) Se alimentan de néctar.",
+                "B) Se alimentan en bandadas, cooperando o compitiendo por recursos",
+                "C) Buscan alimento individualmente en su mayoría",
+                "D) Solo cazan de noche"
+              ],
+              "correctAnswerIndex": 1
+            },
+            {
+              "questionText": "¿Cuál es una característica clave de las patas de muchas Charadriiformes?  ",
+              "answers": [
+                "A) Patas palmeadas para nadar o largas para caminar en zonas fangosas.",
+                "B) Patas cortas para excavar",
+                "C) Patas con garras afiladas para cazar",
+                "D) Patas adaptadas para trepar árboles"
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": " ¿En qué tipo de ecosistema habitan principalmente las aves Charadriiformes? ",
+              "answers": [
+                "A) Ecosistemas acuáticos, tanto de agua dulce como salada ",
+                "B) Desiertos.",
+                "C) Selvas tropicales",
+                "D) Tundras"
+              ],
+              "correctAnswerIndex": 0
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Tero",
+            "species": "Vanellus chilensis",
+            "description": "Reconocida por su distintivo plumaje grisáceo, pecho negro y un par de espolones en sus alas, que utiliza como mecanismo de defensa. Su característica llamada aguda y repetitiva también es una de sus señales distintivas, especialmente en situaciones de peligro",
+            "mainImage": "Images/Interfaz/Cartas/Acuaticas/Tero",
+            "habitat": "Habita en América del Sur, principalmente en zonas abiertas como pastizales, campos agrícolas, márgenes de cuerpos de agua y hasta áreas urbanas. Se adapta bien a una variedad de ecosistemas, desde zonas húmedas hasta áreas semiáridas, aunque prefiere áreas cercanas al agua.",
+            "diet": "Se alimenta principalmente de invertebrados acuáticos, como larvas de insectos y pequeños crustáceos, lo que lo convierte en un regulador importante de estos ecosistemas de montaña.",
+            "reproduction": "Construyen sus nidos en el suelo, a menudo en terrenos despejados. Suelen poner de 3 a 4 huevos, los cuales son de coloración camuflada para evitar la depredación. Tanto el macho como la hembra se encargan de proteger el nido agresivamente, llegando a atacar a intrusos para defender a sus crías.",
+            "size": "Aproximadamente mide 37 centímetros de longitud.",
+            "funFact1": "El tero es conocido por simular estar herido para alejar a los depredadores de su nido, una estrategia muy efectiva de distracción.",
+            "funFact2": "Sus comportamientos defensivos, el tero también utiliza su fuerte voz para marcar su territorio, alertando a otras aves y animales en un amplio rango.",
+            "location": "Humedal de El Pondaje y Charco Azul, ubicados dentro de la ciudad, donde hay zonas con vegetación acuática.Lago Calima o en áreas más rurales y naturales cerca de ríos como el río Cauca o hacienda El Paraíso.Laguna de Sonso, Buga.    Confirmado.",
+            "bibliography": "El Tero juega un rol importante en el ecosistema como controlador biológico. Debido a su comportamiento territorial actúa como un protector de su entorno, alertando con su llamado a otros animales ante la presencia de depredadores o intrusos."
+          }
+        },
+        {
+          "modelIndex": 4,
+          "questions": [
+            {
+              "questionText": "  ¿Cuál de las siguientes características es típica de las aves Pelecaniformes?",
+              "answers": [
+                "A) Tienen picos pequeños y curvados",
+                "B) Son aves terrestres con garras afiladas",
+                "C) Su dieta se basa en insectos y frutos",
+                "D) Presentan patas palmeadas y picos largos"
+              ],
+              "correctAnswerIndex": 3
+            },
+            {
+              "questionText": "¿Qué otro alimento, además de peces, pueden consumir las aves Pelecaniformes?",
+              "answers": [
+                "A) Semillas y nueces",
+                "B) Hojas de plantas acuáticas",
+                "C) Crustáceos y calamares",
+                "D)  Insectos voladores"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": " ¿Por qué las aves Pelecaniformes son importantes en los ecosistemas acuáticos?",
+              "answers": [
+                "A) Porque ayudan a polinizar las plantas acuáticas",
+                "B) Porque eliminan a los depredadores más grandes",
+                "C) Porque contribuyen a controlar las poblaciones de peces",
+                "D) Porque limpian las aguas de desechos"
+              ],
+              "correctAnswerIndex": 2
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Garcita azulada ",
+            "species": "Butorides striata",
+            "conservacion":"LC preocupación menor",
+            "description": "A menudo se la encuentra buscando alimento sola en la vegetación densa a lo largo de los cuerpos de agua. La Butorides striata se reproduce en hábitats cercanos al agua, lo que facilita la búsqueda de alimento para sus crías. Durante la temporada reproductiva, forman parejas monógamas que se disuelven al final del periodo. Tanto el macho como la hembra participan en la incubación y cuidado de los polluelos, mostrando un cuidado biparental.",
+            "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarzitaAzulada",
+            "habitat": " Se encuentra en pantanos de agua dulce y salada desde el este de Panamá hacia el sur hasta el norte de Argentina.  Normalmente solitaria, se encuentra perchada tranquilamente en vegetación densa a lo largo de arroyos, ríos, lagos, estanques o estuarios; a veces en áreas más abiertas, incluyendo marismas, zonas de mareas e incluso arrecifes de coral expuestos, o en suelo seco incluyendo crecimiento secundario, en humedales como pantanos herbáceos, campos agrícolas, ríos, lagos,  bosque y plantaciones de coco, también en cañaverales, pastizales, arrozales y otros cultivos inundados.",
+            "diet": "Emplea una gran variedad de técnicas de búsqueda de alimento para atrapar presas como peces, anfibios, insectos y crustáceos.",
+            "reproduction": "Es una pequeña garza de hábitos solitarios. Su reproducción se da principalmente en zonas cercanas a cuerpos de agua, como manglares, ríos o lagunas. Estas aves construyen nidos en árboles o arbustos, utilizando ramas y otros materiales vegetales. Las hembras suelen poner de 2 a 5 huevos, de color azul verdoso. Ambos progenitores comparten la incubación de los huevos y el cuidado de los polluelos hasta que estos son capaces de valerse por sí mismos.",
+            "size": " Mide entre 35 y 48 centímetros de longitud",
+            "funFact1": "Variedad de plumajes: Esta especie presenta una considerable variación en el color de su plumaje, dependiendo de la región en la que se encuentren, desde tonos azulados a grises o incluso verdes, lo que les permite camuflarse mejor en su entorno.",
+            "funFact2": "Uso de cebo para cazar: La Butorides striata es una de las pocas aves conocidas por utilizar señuelos para cazar. Puede arrojar pequeños objetos, como ramitas o insectos muertos, sobre la superficie del agua para atraer peces y capturarlos.",
+            "location": "Ecoparque Río Pance",
+            "bibliography": "La Butorides striata desempeña un rol crucial en el control de poblaciones de pequeños peces e insectos acuáticos, ayudando a mantener el equilibrio ecológico y promoviendo la biodiversidad en su hábitat. Además, como eslabón en la cadena alimentaria, sirve de presa para depredadores mayores como reptiles y aves rapaces."
           }
         },
         {
           "modelIndex": 5,
           "questions": [
             {
-              "questionText": "¿Qué efecto tienen las aves anseriformes sobre las poblaciones de invertebrados acuáticos?",
+              "questionText": "¿Qué es lo más sorprendente sobre el buceo de los cormoranes? ",
               "answers": [
-                "A) Las aumentan al dispersar huevos",
-                "B) No tienen ningún efecto",
-                "C)Las reducen al alimentarse de ellos",
-                "D) Les brindan protección"
-              ],
-              "correctAnswerIndex": 2
-            },
-            {
-              "questionText": "¿Cuál es un dato curioso sobre la migración de los cisnes cantores?",
-              "answers": [
-                "A) Migran desde sus áreas de cría en el Ártico hasta el sur de Europa y Asia",
-                "B) No migran y permanecen en el mismo hábitat todo el año",
-                "C) Migran desde América del Sur hasta el Ártico",
-                "D) Todas las anteriores"
-              ],
-              "correctAnswerIndex": 2
-            },
-            {
-              "questionText": "¿ ¿Qué tipo de vocalizaciones son capaces de producir los cisnes?",
-              "answers": [
-                "A) Gruñidos, silbidos y trompetas",
-                "B) Solo cantan melodías suaves",
-                "C) Solo emiten sonidos agudos",
-                "D) Todas las anteriores"
-              ],
-              "correctAnswerIndex": 0
-            }
-          ],
-          "birdInfo": {
-            "birdName": "GARCILLA BUEYERA ",
-            "species": "Bubulcus ibis",
-            "description": "lanco, pico amarillo y patas de color gris o negro. Durante la época de reproducción, los adultos desarrollan un plumaje de tonos dorados en la cabeza, pecho y espalda. Esta especie se distingue por su asociación con grandes mamíferos, como el ganado, sobre el que se posa para alimentarse. Juega un rol importante en el control de insectos y parásitos. Al alimentarse de los insectos y parásitos que se encuentran sobre grandes mamíferos, ayuda a reducir las poblaciones de estos organismos en los ecosistemas agrícolas y ganaderos. Además, actúa como dispersor de semillas cuando se desplaza por diferentes áreas.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarzitaBuyera",
-            "habitat": "Su habitats abiertos, como praderas, campos agrícolas, humedales y márgenes de cuerpos de agua. Originalmente nativa de Asia, Europa y África, ha colonizado exitosamente América y otras regiones del mundo. Prefiere áreas húmedas o semi-húmedas, donde pueda encontrar tanto agua como la presencia de animales grandes",
-            "diet": "Es una especie insectívora, con una dieta basada principalmente en saltamontes, moscas, grillos, garrapatas y otros pequeños invertebrados que encuentra en el suelo o sobre animales como el ganado. Su estrategia de alimentación es seguir a los mamíferos grandes para aprovechar los insectos que ellos levantan mientras se mueven. ",
-            "reproduction": "Anidan en colonias, a menudo compartiendo los árboles con otras especies de garzas. Construyen nidos de ramas donde la hembra deposita entre 3 y 5 huevos. Ambos padres se encargan de incubar los huevos y alimentar a las crías una vez nacidas, que tardan aproximadamente un mes en desarrollarse por completo.",
-            "size": "mide entre 45 y 55 centímetros de longitud, con una envergadura de 85 a 95 centímetros.",
-            "funFact1": "Pasa mucho tiempo en áreas terrestres y es común verla posada sobre animales grandes, como vacas y búfalos, de los que obtiene alimento.",
-            "funFact2": "Es una especie altamente adaptable y ha tenido una rápida expansión global, llegando a colonizar nuevos continentes en menos de 100 años, como América y Oceanía.",
-            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
-            "bibliography": "BirdLife International, 2019"
-          }
-        },
-        {
-          "modelIndex": 6,
-          "questions": [
-            {
-              "questionText": " ¿Qué comportamiento social es característico de los gansos?",
-              "answers": [
-                "A) Forman grupos familiares duraderos y migran en formaciones en V",
-                "B) Viven solitarios y migran de forma independiente",
-                "C) Cambian de pareja frecuentemente durante la migración",
-                "D) Todas las anteriores"
+                "A) Pueden bucear hasta 45 metros de profundidad",
+                "B) Pueden volar mientras están bajo el agua",
+                "C) Almacenan oxígeno en sus plumas",
+                "D) Usan la luz solar para localizar peces"
               ],
               "correctAnswerIndex": 0
             },
             {
-              "questionText": "¿Qué hace que las crías de anseriformes sean diferentes de las crías de otras aves?",
+              "questionText": "¿Cómo cazan los piqueros patas azules, una especie de Pelecaniformes?",
               "answers": [
-                "A)  Nacen sin plumas",
-                "B) No pueden moverse hasta que pasan varias semanas",
-                "C) Dependen completamente de sus padres para alimentarse durante meses",
-                "D) Pueden caminar, nadar y alimentarse por sí mismas poco después de nacer"
+                "A) Se sumergen lentamente hasta atrapar a sus presas",
+                "B) Capturan peces desde la superficie del agua",
+                "C) Forman redes con sus alas para atrapar a los peces",
+                "D) Se lanzan en picada desde grandes alturas hacia el agua"
               ],
               "correctAnswerIndex": 3
             },
             {
-              "questionText": "Además de los clásicos graznidos, ¿qué otro tipo de sonidos pueden emitir algunas aves anseriformes?",
+              "questionText": " ¿Qué tipo de alas tienen muchas especies de aves Pelecaniformes?",
               "answers": [
-                "A) Rugidos y zumbidos",
-                "B) Cánticos melodiosos",
-                "C) Silbidos y otros sonidos peculiares",
-                "D) Sonidos ultrasónicos inaudibles para el ser humano"
+                "A) Cortas y redondeadas",
+                "B) Muy pequeñas para su tamaño",
+                "C) Con plumas adaptadas para planear en tierra firme",
+                "D) Largas y estrechas"
               ],
-              "correctAnswerIndex": 2
+              "correctAnswerIndex": 3
             }
           ],
           "birdInfo": {
-            "birdName": "GARCITA AZULADA ",
-            "species": "Butorides striata",
-            "description": "Se caracteriza por su plumaje verdoso-grisáceo, con una franja oscura en la cabeza y cuello, y un pico largo y afilado. Sus patas son cortas y de color amarillo, adaptadas para caminar en zonas húmedas. Es conocida por su comportamiento sigiloso y su habilidad para permanecer inmóvil mientras caza. ayuda a mantener el equilibrio ecológico en los humedales y otros cuerpos de agua, controlando las especies de las que se alimenta y participando en la cadena trófica de estos ecosistemas.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarzitaAzulada",
-            "habitat": "Habita en diversos ecosistemas acuáticos, como humedales, manglares, lagunas, ríos y estuarios, principalmente en zonas tropicales y subtropicales. Su rango de distribución es amplio, abarcando desde América del Norte hasta Sudamérica, incluyendo islas del Caribe y África. Prefiere áreas con vegetación acuática densa y cuerpos de agua de poca profundidad",
-            "diet": "Es carnívora, alimentándose principalmente de peces pequeños, insectos acuáticos, crustáceos, ranas y ocasionalmente pequeños mamíferos. Utiliza una técnica de caza sigilosa, permaneciendo inmóvil o moviéndose lentamente antes de lanzarse sobre su presa con su afilado pico.. ",
-            "reproduction": "Construye su nido en ramas de árboles o arbustos cercanos al agua. Suele poner entre 2 y 5 huevos, que son incubados por ambos padres. Los polluelos nacen cubiertos de un suave plumón y dependen de los padres para alimentarse durante las primeras semanas de vida. construye su nido en ramas de árboles o arbustos cercanos al agua. Suele poner entre 2 y 5 huevos, que son incubados por ambos padres. Los polluelos nacen cubiertos de un suave plumón y dependen de los padres para alimentarse durante las primeras semanas de vida",
-            "size": "Tamaño: Mide entre 35 y 45 centímetros de longitud, con una envergadura de 60 a 70 centímetros",
-            "funFact1": "Es una de las pocas aves que usa herramientas. A veces arroja pequeños objetos, como ramitas o insectos, en el agua para atraer a los peces hacia ella, una técnica inusual en aves",
-            "funFact2": "Generalmente es un ave solitaria, puede volverse territorial y agresiva durante la época de cría, defendiendo su nido con determinación frente a otras aves y depredadores.",
-            "location": "Ecoparque Río Pance",
-            "bibliography": "BirdLife International, 2019"
+            "birdName": "Ibis de cara desnuda",
+            "species": "Phimosus infuscatus",
+            "conservacion":"LC preocupación menor",
+            "description": "Es un ave de presa ágil y rápida, con plumaje gris oscuro y una máscara negra en la cabeza. Habita en sabanas, pastizales y bosques abiertos. Se alimenta de pequeñas aves, mamíferos e insectos, cazando en vuelo o en el suelo. Es conocido por cazar en equipo y utilizar nidos abandonados de otras aves, ya que no construye los suyos propios.",
+            "mainImage": "Images/Interfaz/Cartas/Acuaticas/Coquito",
+            "habitat": "Se encuentra en América del Sur principalmente en áreas abiertas como praderas húmedas, pastizales y sabanas, pantanos, arrozales y márgenes de lagunas, charcas y ríos; también habita pantanos boscosos y arroyos. Generalmente cerca del nivel del mar, En áreas urbanas, la especie se encuentra a lo largo de canales y zanjas.",
+            "diet": "Se alimenta en prados húmedos y áreas fangosas, explorando con su pico largo y curvado hacia abajo, Se alimenta principalmente de pequeños escarabajos, crustáceos, gusanos, insectos y otras presas pequeñas. ",
+            "reproduction": "anidan en matorrales densos y árboles bajos, especialmente alrededor de lagunas. Construyen plataformas de ramas en árboles pequeños o arbustos donde ponen de uno a ocho huevos de color verde o azul claro. Tanto machos como hembras incuban los huevos durante 21 a 23 días. Los polluelos dejan el nido aproximadamente tres semanas después de la eclosión.",
+            "size": "Mide entre 48 y 51 centímetros de longitud",
+            "funFact1": "Comportamiento social: Esta especie es conocida por ser muy sociable, formando grandes grupos, a menudo mezclándose con otras especies de aves acuáticas. Su comportamiento gregario le facilita encontrar alimento y protección frente a depredadores en su hábitat.",
+            "funFact2": "Color del pico y la cara: El ibis de cara desnuda tiene una apariencia inusual con su rostro sin plumas de color rosado o rojo, contrastando con su plumaje oscuro. Este rasgo distintivo le ayuda a diferenciarse de otras especies de ibis..",
+            "location": "Universidad Javeriana de Cali",
+            "ecosistema":"La Phimosus infuscatus, o ibis de cara desnuda, es vital para los ecosistemas acuáticos y de humedales. Regula las poblaciones de invertebrados al alimentarse de ellos, manteniendo el equilibrio trófico, y contribuye al reciclaje de nutrientes al remover el suelo durante su búsqueda de alimento. Además, su presencia indica la salud de los humedales, ya que su declive puede señalar problemas ambientales",
+            "bibliography": "Ecohotel El Castillo"
           }
+      },
+      {
+        "modelIndex": 6,
+        "questions": [
+          {
+            "questionText": "¿Qué efecto tienen las aves anseriformes sobre las poblaciones de invertebrados acuáticos?",
+            "answers": [
+              "A) Las aumentan al dispersar huevos",
+              "B) No tienen ningún efecto",
+              "C)Las reducen al alimentarse de ellos",
+              "D) Les brindan protección"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "questionText": "¿Cuál es un dato curioso sobre la migración de los cisnes cantores?",
+            "answers": [
+              "A) Migran desde sus áreas de cría en el Ártico hasta el sur de Europa y Asia",
+              "B) No migran y permanecen en el mismo hábitat todo el año",
+              "C) Migran desde América del Sur hasta el Ártico",
+              "D) Todas las anteriores"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "questionText": "¿ ¿Qué tipo de vocalizaciones son capaces de producir los cisnes?",
+            "answers": [
+              "A) Gruñidos, silbidos y trompetas",
+              "B) Solo cantan melodías suaves",
+              "C) Solo emiten sonidos agudos",
+              "D) Todas las anteriores"
+            ],
+            "correctAnswerIndex": 0
+          }
+        ],
+        "birdInfo": {
+          "birdName": "Garcilla bueyera ",
+          "species": "Bubulcus ibis",
+          "conservacion":"LC preocupación menor",
+          "description": "lanco, pico amarillo y patas de color gris o negro. Durante la época de reproducción, los adultos desarrollan un plumaje de tonos dorados en la cabeza, pecho y espalda. Esta especie se distingue por su asociación con grandes mamíferos, como el ganado, sobre el que se posa para alimentarse. Juega un rol importante en el control de insectos y parásitos. Al alimentarse de los insectos y parásitos que se encuentran sobre grandes mamíferos, ayuda a reducir las poblaciones de estos organismos en los ecosistemas agrícolas y ganaderos. Además, actúa como dispersor de semillas cuando se desplaza por diferentes áreas.",
+          "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarzitaBuyera",
+          "habitat": "Su habitats abiertos, como praderas, campos agrícolas, humedales y márgenes de cuerpos de agua. Originalmente nativa de Asia, Europa y África, ha colonizado exitosamente América y otras regiones del mundo. Prefiere áreas húmedas o semi-húmedas, donde pueda encontrar tanto agua como la presencia de animales grandes",
+          "diet": "Es una especie insectívora, con una dieta basada principalmente en saltamontes, moscas, grillos, garrapatas y otros pequeños invertebrados que encuentra en el suelo o sobre animales como el ganado. Su estrategia de alimentación es seguir a los mamíferos grandes para aprovechar los insectos que ellos levantan mientras se mueven. ",
+          "reproduction": "Anidan en colonias, a menudo compartiendo los árboles con otras especies de garzas. Construyen nidos de ramas donde la hembra deposita entre 3 y 5 huevos. Ambos padres se encargan de incubar los huevos y alimentar a las crías una vez nacidas, que tardan aproximadamente un mes en desarrollarse por completo.",
+          "size": "mide entre 45 y 55 centímetros de longitud, con una envergadura de 85 a 95 centímetros.",
+          "funFact1": "Pasa mucho tiempo en áreas terrestres y es común verla posada sobre animales grandes, como vacas y búfalos, de los que obtiene alimento.",
+          "funFact2": "Es una especie altamente adaptable y ha tenido una rápida expansión global, llegando a colonizar nuevos continentes en menos de 100 años, como América y Oceanía.",
+          "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+          "bibliography": "Al alimentarse de los insectos y parásitos que se encuentran sobre grandes mamíferos, ayuda a reducir las poblaciones de estos organismos en los ecosistemas agrícolas y ganaderos. Además, actúa como dispersor de semillas cuando se desplaza por diferentes áreas."
         }
-        
+      },
+      {
+        "modelIndex": 7,
+            "questions": [
+              {
+                "questionText": " ¿Cuál es una estrategia para proteger los hábitats de las aves de vuelo intenso?",
+                "answers": [
+                  "A) Establecer reservas naturales y parques nacionales ",
+                  "B) Expandir áreas urbanas para el desarrollo",
+                  "C) Reducir la cantidad de vegetación en áreas urbanas",
+                  "D) Todas las anteriores"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "Qué es un corredor biológico y por qué es importante para las aves de vuelo intenso?",
+                "answers": [
+                  "A) Un área que conecta diferentes ecosistemas, permitiendo el desplazamiento seguro de aves",
+                  "B) Un espacio verde en la ciudad para paseos",
+                  "C)  Un área de cultivo agrícola",
+                  "D) Todas las anteriores"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "¿Cómo puede la educación ambiental ayudar en la conservación de las aves de vuelo intenso?",
+                "answers": [
+                  "A) Promoviendo la caza regulada",
+                  "B) Incrementando el uso de pesticidas",
+                  "C) Enseñando a las personas la importancia de estas aves y fomentando su participación en la conservación",
+                  "D) Todas las anteriores"
+                ],
+                "correctAnswerIndex": 1
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Cormorán Neotropical",
+              "species": "Phalacrocorax brasilianus",
+              "conservacion":"LC preocupación menor",
+              "description": "El Phalacrocorax brasilianus, conocido como biguá o cormorán neotropical, es un ave acuática de la familia Phalacrocoracidae. Se distingue por su plumaje negro brillante, su pico ganchudo y ojos de color verde intenso. A menudo se le ve posado con las alas extendidas para secarlas después de bucear en busca de alimento.",
+              "mainImage": "Images/Interfaz/Cartas/Acuaticas/Cormoran",
+              "habitat": "Vive en cuerpos de agua dulce y salobre, como lagos, ríos, pantanos y áreas costeras desde el sur de Estados Unidos hasta Argentina.",
+              "diet": "Se alimenta principalmente de peces, que caza buceando en el agua. También consume crustáceos, moluscos y pequeños anfibios. Puede bucear hasta varios metros de profundidad, utilizando su pico ganchudo para capturar presas. ",
+              "reproduction": "Anida en colonias, generalmente en árboles o arbustos cercanos al agua. La hembra pone de 3 a 5 huevos, que son incubados por ambos padres durante 25 a 30 días. Las crías son alimentadas por regurgitación hasta que pueden volar.",
+              "size": "Mide entre 60 y 70 centímetros de longitud",
+              "funFact1": "Aves buceadoras: Los cormoranes carecen de glándulas uropigiales eficientes, por lo que sus plumas no son impermeables, lo que les permite sumergirse más fácilmente. Sin embargo, después de nadar, deben secar sus alas al sol para evitar el enfriamiento",
+              "funFact2": "Uso en pesca: Históricamente, en algunas culturas asiáticas, los cormoranes han sido entrenados para pescar, con un anillo en el cuello que impide que se traguen el pez, permitiendo a los pescadores recolectar las capturas.",
+              "location": "Ecoparque Río Pance",
+              "bibliography": "El biguá desempeña un papel clave en el control de poblaciones de peces, lo que mantiene el equilibrio en los ecosistemas acuáticos. Además, su presencia indica la buena calidad del hábitat acuático, ya que necesita cuerpos de agua saludables para sobrevivir"
+            }
+          },
+          {
+            "modelIndex": 8,
+            "questions": [
+              {
+                "questionText": "¿Qué adaptación permite a las aves anseriformes nadar con facilidad?",
+                "answers": [
+                  "A) Cuerpos aerodinámicos",
+                  "B) Plumaje impermeable",
+                  "C) Alas fuertes",
+                  "D) Patas palmeadas"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "¿Qué tipo de plumaje ayuda a las aves anseriformes a mantenerse secas?",
+                "answers": [
+                  "A) Plumaje aceitoso impermeable.",
+                  "B) Plumaje denso",
+                  "C) Plumaje esponjoso",
+                  "D) Plumaje brillante"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "¿Cómo es la dieta de la mayoría de las aves anseriformes?",
+                "answers": [
+                  "A) Omnívora",
+                  "B) Solo carnívora",
+                  "C) Solo herbívora",
+                  "D) Solo frugívora"
+                ],
+                "correctAnswerIndex": 0
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Sirirí Colorado",
+              "species": "Dendrocygna bicolor",
+              "description": "Es una especie de ave acuática que habita en humedales, lagunas y áreas de agua dulce de América y África. Su plumaje es marrón con tonos claros y patas largas, lo que facilita su desplazamiento en el agua.",
+              "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
+              "habitat": "Se alimenta principalmente de plantas acuáticas, semillas y algunos invertebrados, contribuyendo al equilibrio de los ecosistemas al dispersar semillas y controlar la vegetación acuática",
+              "diet": "Ayudan a mantener el equilibrio ecológico y sirven como indicadores de la calidad del agua en estos ecosistemas.",
+              "reproduction": "Dan en el suelo o en vegetación cercana al agua, y ponen entre 8 y 12 huevos. Los dos padres participan activamente en la incubación y el cuidado de los polluelos.",
+              "size": "Aproximadamente 50 cm de longitud",
+              "funFact1": "Emiten un sonido silbante característico, de donde proviene su nombre pato silbador.",
+              "funFact2": "Realizan vuelos en grandes bandadas, lo que los hace muy visibles en áreas abiertas de humedales.",
+              "secondaryImage": "Images/aguila_habitat",
+              "location": "Ecoparque Lago de Las Garzas, Universidad del ValleClub Campestre Farallones",
+              "bibliography": "Smithsonian Institution, 2018"
+            }
+          },
+          {
+            "modelIndex": 9,
+            "questions": [
+              {
+                "questionText": " ¿Cuál es una característica distintiva del pico de las aves del orden Anseriformes?",
+                "answers": [
+                  "A) Pico puntiagudo",
+                  "B) Pico en forma de gancho",
+                  "C) Pico plano y ancho",
+                  "D) Pico plano "
+                ],
+                "correctAnswerIndex": 2
+              },
+              {
+                "questionText": "¿En qué tipo de hábitat se pueden encontrar las aves del orden Anseriformes?  ",
+                "answers": [
+                  "A) Plumaje ligero y transitable",
+                  "B) Plumaje denso e impermeable",
+                  "C) Plumaje colorido y brillante",
+                  "D) Plumaje denso y brillante"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "En qué tipo de hábitat se pueden encontrar las aves del orden Anseriformes? ",
+                "answers": [
+                  "A) En cuerpos de agua dulce y salada ",
+                  "B) Solo en bosques tropicales",
+                  "C) Exclusivamente en desiertos",
+                  "D) Exclusivamente tropicales y desiertos"
+                ],
+                "correctAnswerIndex": 0
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Buitre de Ciénaga",
+              "species": "Anhima cornutai",
+              "description": "Es una ave grande y llamativa que habita en los humedales tropicales, se distingue por su peculiar cuerno óseo en la cabeza y sus espinas en las alas, que usa como defensa. Su aspecto único y su comportamiento defensivo con las espinas la hacen una especie fascinante y distintiva en los hábitats que ocupa.",
+              "mainImage": "Images/Interfaz/Cartas/Acuaticas/BuitreCienaga",
+              "habitat": "Vive principalmente en los ecosistemas de humedales y áreas cercanas a cuerpos de agua, como ríos, lagos y pantanos.",
+              "diet": "Es herbívora, alimentándose de plantas acuáticas, consume hojas, tallos y brotes de plantas que crecen en o cerca de los cuerpos de agua donde habita, como pasto y juncos. Y tambien de semillas de plantas acuáticas y terrestres",
+              "reproduction": "Construyen sus nidos cerca a las orillas de los humedales.Ponen entre 2 y 6 huevos. El periodo de incubación dura aproximadamente entre 42 y 46 días, ambos padres cuidan de los huevos y crías.",
+              "size": "Aproximadamente 84 y 95 cm de longitud",
+              "funFact1": "Cuernos únicos: este cuerno es único en las aves y no está conectado al cráneo, lo que lo hace flexible. Le da un aspecto inconfundible.",
+              "funFact2": "Alas con espinas: Estas espinas afiladas se encuentran en la articulación del ala y pueden usarlas como defensa contra depredadores o en peleas territoriales, les brinda una especie de arma natural",
+              "location": "Humedal de El Pondaje y Charco Azul, ubicados dentro de la ciudad, donde hay zonas con vegetación acuática.Lago Calima o en áreas más rurales y naturales cerca de ríos como el río Cauca o hacienda El Paraíso.Laguna de Sonso, Buga.    Confirmado.",
+              "bibliography": "National Geographic, 2020"
+            }
+          }
       ] 
     },
+   
+
+
+
     {
       "birdTypeId": 2,
       "allModelQuestions": [
@@ -390,21 +545,21 @@
           "birdInfo": {
             "birdName": "Colibri NuquiBlanco",
             "species": "Eutoxeres aquila",
-            "description": "Su característica más sobresaliente es su largo pico extremadamente curvado, en forma de hoz, que le permite alimentarse de flores con corolas igualmente curvas. Su plumaje es mayormente verde y marrón oscuro, con una garganta iridiscente y un vientre pálido, adaptado para mezclarse en su entorno selvático. Al alimentarse de flores con corolas largas y curvadas, poliniza una variedad de plantas que dependen de él y de su habilidad para alcanzar el néctar que otros colibríes no pueden acceder. Así, este colibrí contribuye significativamente al mantenimiento de la biodiversidad en los ecosistemas de selva tropical.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/ColibriNuquiBlanco",
+            "conservacion":"LC preocupación menor",
+            "description": "Es un colibrí de tamaño mediano con un patrón único, muchos se concentran en árboles en flor, donde son agresivos e incluso territoriales entre sí.  Ambos sexos vuelan durante largos períodos, flotando y lanzándose muy por encima de arroyos y claros, o saliendo desde perchas en las copas de los árboles; con menos frecuencia recolecta follaje.",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/ColibriNuquiBlanco",
             "habitat": "habita en los bosques húmedos y tropicales de montaña, desde Costa Rica hasta el norte de Perú, a altitudes que van desde los 400 a los 1,500 metros sobre el nivel del mar. Prefiere áreas sombreadas y densamente vegetadas, como el sotobosque de selvas montanas y bosques nubosos, donde encuentra plantas con flores en forma de tubo que le brindan néctar.",
-            "diet": "Se alimenta principalmente del néctar de flores con corolas largas y curvas, como las de la familia de las Heliconiaceae. También consume insectos y arañas como fuente adicional de proteínas. Su pico extremadamente curvado está diseñado para acceder a néctar inaccesible para otras aves, lo que lo convierte en un especialista en su nicho ecológico.",
-            "reproduction": "Construyen nidos en forma de taza, utilizando fibras vegetales, musgo y telarañas, generalmente en pendientes rocosas o en ramas cubiertas de vegetación densa. Ponen dos huevos, y la hembra es la encargada de incubarlos durante unos 16 a 19 días. Las crías son alimentadas por la madre hasta que están listas para volar.",
+            "diet": "Se alimenta de néctar y pequeños artrópodos, visita flores de una variedad de árboles, bromelias, arbustos y heliconia.",
+            "reproduction": "El nido es una copa suave y poco profunda de pelusa vegetal de color claro y telaraña. La hembra incuba y pone 2 huevos.",
             "size": "mide entre 12 y 14 centímetros de longitud",
-            "funFact1": "Es uno de los más curvados de todas las especies de colibríes, una adaptación evolutiva que le permite alimentarse de flores con formas muy específicas.",
-            "funFact2": "Este colibrí tiene una estrategia de vuelo especializada: debido a su pico pesado y curvado, vuela con movimientos más lentos y directos que otros colibríes, adaptándose perfectamente a su entorno denso y lleno de obstáculos.",
-            "secondaryImage": "Images/aguila_habitat",
+            "funFact1": "Dimorfismo sexual notable: Los machos tienen un plumaje negro brillante, mientras que las hembras presentan colores más apagados, lo que facilita su camuflaje",
+            "funFact2": "Vuelo acrobático: Son capaces de realizar vuelos rápidos y maniobras acrobáticas, lo que les permite defender su territorio y escapar de depredadores con facilidad",
             "location": "Buenaventura",
-            "bibliography": "Smithsonian Institution, 2018"
+            "bibliography": "El colibrí Florisuga mellivora, es un importante polinizador de plantas tropicales. Al alimentarse de néctar, transporta polen entre flores, favoreciendo su reproducción y manteniendo la diversidad vegetal en su hábitat. Además, ayuda a controlar poblaciones de pequeños insectos, que también forman parte de su dieta."
           }
-        },
+        },   
         {
-          "modelIndex": 2,
+          "modelIndex": 1,
           "questions": [
             {
               "questionText": " ¿Cuál es una estrategia para proteger los hábitats de las aves de vuelo intenso?",
@@ -439,21 +594,22 @@
           ],
           "birdInfo": {
             "birdName": "Garrapatero Común ",
-            "species": "Dendrocygna viduata",
-            "description": "Es un ave acuática su característica más notable es su cabeza blanca contrastando con su cuerpo marrón y negro.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarrapateroComun",
-            "habitat": "Habita en humedales, lagunas y áreas de agua dulce en América del Sur, el Caribe y África.",
-            "diet": "Se basa en plantas acuáticas, semillas, pequeños invertebrados y crustáceos. ",
-            "reproduction": "Construyen sus nidos en la vegetación cercana al agua o en árboles bajos. Ponen entre 6 y 12 huevos, y ambos padres se encargan de la incubación y cuidado de los polluelos, que son precoces y nadan poco después de nacer.",
-            "size": "Aproximadamente 50 cm de longitud",
-            "funFact1": "El sirirí cariblanco forma bandadas ruidosas, conocidas por sus llamados repetitivos y fuertes.",
-            "funFact2": "A pesar de ser una especie acuática, son excelentes voladores y a menudo se desplazan largas distancias en busca de nuevos cuerpos de agua.",
+            "species": "Crotophaga ani",
+            "conservacion":"LC preocupación menor",
+            "description": "Se distingue por su plumaje completamente negro, cola larga, pico grande y llamado distintivo. Durante la temporada de cría, este ani vive en parejas o, más comúnmente, en grupos más grandes de hasta 17 individuos. Es más conocido por su sistema de cría comunal, en el que varias hembras suelen poner huevos e incubarlos en el mismo nido",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Urutau",
+            "habitat": "A lo largo de su área de distribución, ocupa sabanas, áreas rurales y suburbanas perturbadas y alteradas por el hombre, y matorrales de segundo crecimiento, durante todo el año. Presencia en o cerca de pastizales de vacas, campos de caña de azúcar, bosques húmedos secundarios, campos con mucha vegetación y bordes de caminos",
+            "diet": "Son principalmente insectívoros y se alimentan de saltamontes, orugas y polillas, pero también de pequeñas ranas y lagartijas. La fruta es una parte importante de su dieta durante la estación seca.",
+            "size": "Mide entre 30 y 36 cm de longitud",
+            "reproduction": "Dependiendo del tamaño del grupo, se pueden encontrar hasta 36 huevos en un solo nido.",
+            "funFact1": "Los grupos pueden identificar dos sitios de anidación y pueden pasar tiempo en cada uno, lo que sugiere dificultad para elegir; pueden trabajar simultáneamente en dos nidos hasta que se deciden por uno",
+            "funFact2": "Las hembras que ponen huevos más tarde entierran los huevos de las hembras que ponen huevos más temprano con ramitas y hojas, lo que puede crear varias capas de huevos; solo la capa superior finalmente eclosiona",
             "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
-            "bibliography": "BirdLife International, 2019"
+            "bibliography": "Crotophaga ani, tiene importantes efectos ecológicos en su hábitat. Como ave insectívora y frugívora, ayuda a controlar poblaciones de insectos, incluidos parásitos de grandes mamíferos, y dispersa semillas, favoreciendo la regeneración de la vegetación. Al vivir en grupos y realizar vocalizaciones constantes, también afecta la dinámica social de las aves en su entorno. Sin embargo, su dependencia de áreas abiertas y semiabiertas hace que la alteración de su hábitat afecte su rol ecológico y la biodiversidad local"
           }
         },
         {
-          "modelIndex": 3,
+          "modelIndex": 2,
           "questions": [
             {
               "questionText": "¿Qué medida se puede tomar para reducir las colisiones de aves de vuelo intenso con estructuras humanas? ",
@@ -500,9 +656,1273 @@
             "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro – Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
             "bibliography": "Cornell Lab of Ornithology, 2021"
           }
+        },
+        {
+          "modelIndex": 3,
+          "questions": [
+            {
+              "questionText": "¿Cuál es una habilidad característica de los colibríes que los diferencia de otras aves?",
+              "answers": [
+                "A) Pueden dormir mientras vuelan",
+                "B) Pueden nadar largas distancias",
+                "C) Pueden volar en todas direcciones, incluyendo el vuelo estacionario",
+                "D) Pueden permanecer bajo el agua por largos periodos"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿¿Cuál es una característica clave de la estructura corporal de las aves Apodiformes que les permite un vuelo rápido y eficiente?",
+              "answers": [
+                "A) Estructura corporal aerodinámica",
+                "B) Cuerpos robustos y pesados",
+                "C) Alas cortas y anchas",
+                "D) Cuerpos voluminosos para almacenar energía"
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "¿Cómo contribuyen los Apodiformes a la salud del ecosistema en el que viven?",
+              "answers": [
+                "A) Promueven la dispersión de semillas a través de su dieta ",
+                "B) Mejoran la calidad del suelo mediante la recolección de materia orgánica",
+                "C) Controlan las poblaciones de insectos, regulando plagas",
+                "D) Actúan como polinizadores de flores acuáticas"
+              ],
+              "correctAnswerIndex": 2
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Colibrí amazilia de cola rufa",
+            "species": "Amazilia tzacatl",
+            "conservacion":"LC preocupación menor",
+            "description": "Tiene un cuerpo generalmente verde; el verde de la garganta y el pecho del macho es más brillante. También tiene un pico rojo rosado brillante (con una punta negra) y una cola rojiza brillante",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/ColaRufa",
+            "habitat": "Esta especie es común y está muy extendida en áreas no forestales, incluidos claros, jardines, linderos de bosques y algunos bosques secundarios. Prefiere hábitats bajos, con matorrales, y con frecuencia visita comederos ubicados en áreas abiertas con algo de cobertura",
+            "diet": "Los colibríes de cola rufa se alimentan de néctar y se alimentan de Heliconia, flores de plátano y café. Como el néctar es bajo en proteínas, también se alimentan de pequeños insectos. Esta especie también es un visitante habitual de comederos artificiales llenos de una mezcla de agua y azúcar",
+            "reproduction": "Se han reportado nidos en Colombia en febrero y agosto. Las hembras suelen elegir árboles pequeños o arbustos como sitios de nidificación, las hembras suelen poner dos huevos. El período de incubación es de 15 a 16 días. Las crías empluman alrededor de los 18 a 22 días de edad, aunque no se independizan de sus madres hasta alrededor del día 58. La hembra se encarga de todo el cuidado parental",
+            "size": "Mide entre 9.0 y 10.11 cm de longitud",
+            "funFact1": "Agresividad territorial: Aunque es pequeño, el Amazilia tzacatl es altamente territorial y defiende vigorosamente su fuente de néctar frente a otros colibríes e incluso aves más grandes.",
+            "funFact2": "Capacidad de volar en todas direcciones: Como otros colibríes, esta especie puede volar hacia adelante, atrás, arriba, abajo y hasta mantenerse suspendida en el aire, gracias a la rápida velocidad de sus alas.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "El colibrí Amazilia tzacatl, juega un papel clave en la polinización de numerosas plantas. Al alimentarse del néctar de flores, facilita la reproducción de estas, contribuyendo al equilibrio y diversidad vegetal en su entorno. Además, consume pequeños insectos, ayudando a controlar sus poblaciones. Su presencia beneficia tanto a la flora como a otras especies que dependen de plantas polinizadas"
+          }
+        },
+    {
+      "modelIndex": 4,
+      "questions": [
+        {
+          "questionText": "¿Por qué es importante la presencia de las aves Apodiformes en un ecosistema?",
+          "answers": [
+            "A) Porque contribuyen a la erosión de las rocas",
+            "B) Porque ayudan a propagar semillas de plantas",
+            "C) Porque contribuyen al control de insectos y plagas",
+            "D)  Porque influyen en la calidad del agua"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿Cuál de las siguientes es una capacidad notable de los vencejos, un grupo dentro de los Apodiformes?",
+          "answers": [
+            "A) Pueden dormir durante la noche colgados de sus patas",
+            "B) Sus nidos están construidos en el suelo para evitar depredadores",
+            "C) Tienen la capacidad de cambiar el color de sus plumas para camuflarse",
+            "D) Pueden pasar meses en el aire sin posarse"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "questionText": "¿Qué peculiaridad tienen los vencejos respecto a su vida en el aire? ",
+          "answers": [
+            "A) Solo vuelan para cazar",
+            "B) Pueden dormir mientras vuelan",
+            "C) Solo vuelan en temporada de apareamiento",
+            "D) No pueden volar grandes distancias"
+          ],
+          "correctAnswerIndex": 1
         }
-
+      ],
+      "birdInfo": {
+        "birdName": "Colibrí cola de raqueta",
+        "species": "Ocreatus underwoodii",
+        "conservacion":"LC preocupación menor",
+        "description": "Colibrí pequeño, de color verde brillante en general en los machos y con partes inferiores blancas en las hembras. Ambos sexos tienen abultamientos blancos en las patas (más pequeños en la hembra) y cola bifurcada; los machos tienen las rectrices externas alargadas, terminadas en astas y raquetas desnudas. También tiene un pico rojo rosado brillante (con una punta negra) y una cola rojiza brillante",
+        "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Raquetas",
+        "habitat": "Zona de bosque húmedo de las regiones subtropicales y templadas de los Andes. Se encuentra tanto dentro del bosque como en bosques secundarios abiertos. En Colombia, se sabe que se encuentra tanto en bosques subandinos primarios como secundarios (por debajo de los 2400 m",
+        "diet": "La alimentación de néctar para esta especie se da en flores que son visitadas por insectos, principalmente abejas grandes, flores polinizadas por abejas, cada flor conteniendo un pequeño volumen de néctar de concentración relativamente alta.",
+        "reproduction": "El nido se coloca en ramas horizontales de los árboles a una altura de 6 a 8 m sobre el suelo. Sólo la hembra incuba y la incubación dura entre 16 y 17 días. El tamaño de la nidada es de 2 huevos.",
+        "size": "Mide entre 11-15 cm de longitud",
+        "funFact1": "Plumas de la cola distintivas: Los machos tienen largas plumas en la cola con discos en las puntas, que usan durante exhibiciones de cortejo para atraer a las hembras.",
+        "funFact2": "Vuelo ágil: Sus largas colas no afectan su vuelo, ya que son ágiles y maniobran hábilmente, lo que les permite alimentarse y esquivar depredadores.",
+        "location": "Ecohotel El Castillo",
+        "ecosistema":"El colibrí Ocreatus underwoodii, es fundamental para la polinización de diversas plantas en bosques montañosos. Al alimentarse de néctar, transfiere polen entre flores, ayudando a la reproducción vegetal y promoviendo la biodiversidad en su entorno.",
+        "bibliography": "Smithsonian Institution, 2018"
+      }
+    },
+    {
+      "modelIndex": 5,
+      "questions": [
+        {
+          "questionText": " ¿Cómo capturan su alimento los Apodiformes, como los vencejos?",
+          "answers": [
+            "A) Recolectan frutas de los árboles",
+            "B) Escarban en la tierra para buscar presas",
+            "C) Capturan insectos mientras están volando a gran velocidad",
+            "D) Cazan en la superficie del agua"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿Qué relación tienen las aves Apodiformes con los cuerpos de agua?",
+          "answers": [
+            "A) Son aves acuáticas y nadan para capturar su alimento",
+            "B) Evitan las zonas cercanas al agua",
+            "C) Solo usan cuerpos de agua para anidar",
+            "D) Se encuentran cerca de cuerpos de agua donde buscan insectos voladores"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "questionText": " ¿Dónde prefieren habitar las aves Apodiformes?",
+          "answers": [
+            "A) Áreas abiertas y altas como montañas y bosques",
+            "B) Desiertos y planicies secas",
+            "C) Selvas tropicales densas",
+            "D) Zonas costeras acuáticas"
+          ],
+          "correctAnswerIndex": 0
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Silfo king",
+        "species": "Aglaiocercus kingii",
+        "conservacion":"LC preocupación menor",
+        "description": "Son un grupo cautivador de colibríes de pico corto y cola larga que habitan en los bosques húmedos de montaña andinos. Es una especie sexualmente dimórfica; los machos tienen una corona y una garganta de color verde brillante y rectrices de un azul verdoso excepcionalmente largas y deslumbrantes. Las hembras tienen una cola mucho más corta, una garganta blanca con motas verdes y un vientre de color beige rojizo",
+        "mainImage": "Images/Interfaz/Cartas/VueloIntenso/SILFO",
+        "habitat": "Se encuentra en una diversidad de hábitats, que varían según la ubicación y la época del año. Se asocia con bosques subtropicales y templados, pero también se le encuentra en bordes de bosque, áreas semiabiertas de bosque húmedo o de rebrote, zonas premontanas, matorrales, claros, pastizales, jardines, así como áreas agrícolas y plantaciones de café, aunque rara vez se le observa en el interior de los bosques.",
+        "diet": "Este “colibrí amante de la sombra” prefiere alimentarse en el sotobosque (vegetación formada por matas y arbustos que crece bajo los árboles de un bosque); Busca alimento flotando sobre las flores y en muchos casos, actúa como un verdadero polinizador mientras se alimenta, pero también roba el néctar perforando la base de la corola de una flor, sin embargo, en zonas premontanas, se alimenta principalmente en las copas de los árboles, y en bosques enanos y áreas de pastizales de gran altitud, prefiere utilizar pequeños arbustos y árboles. Se alimenta del néctar de varias flores y artrópodos",
+        "reproduction": "En Colombia se ha documentado la reproducción de individuos entre febrero y octubre, pero se cree que la especie se reproduce durante todo el año. El macho participa en la construcción ritualizada del nido, la hembra duerme en el nido todas las noches, y ella misma es la única que incuba, el período de incubación es de 15 a 17 días y ponen 2 huevos",
+        "size": "Mide entre 16 y 19 cm de longitud",
+        "funFact1": "Cola larga y llamativa: Los machos tienen una cola extremadamente larga, casi del doble de su tamaño corporal, que utilizan en exhibiciones de cortejo.",
+        "funFact2": "Alimentación en vuelo: Como otros colibríes, se alimenta principalmente en vuelo, lo que le permite acceder a flores inaccesibles para otras especies.",
+        "location": "Ecohotel El Castillo",
+        "bibliography": "El colibrí Aglaiocercus kingii, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema"
+      }
+    },
+        {
+          "modelIndex": 6,
+          "questions": [
+            {
+              "questionText": "¿Qué adaptación permite a los Caprimulgiformes ser eficientes en la captura de insectos mientras vuelan?",
+              "answers": [
+                "A) Pies largos y fuertes ",
+                "B) Pico curvado y afilado",
+                "C) Boca grande y ancha",
+                "D) Plumas con colores vibrantes"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Cómo se camuflan las aves Caprimulgiformes en su entorno?",
+              "answers": [
+                "A) A través de sus colores brillantes",
+                "B) Enterrándose bajo la tierra",
+                "C) Mediante su plumaje que imita el entorno, como hojas y ramas",
+                "D) Colocándose en el agua para confundirse con el reflejo"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Cuál es una de las principales adaptaciones de los Caprimulgiformes para el vuelo nocturno?",
+              "answers": [
+                "A) Plumaje que cambia de color en la oscuridad",
+                "B) Alas con membranas que reflejan la luz",
+                "C) Ojos adaptados a la baja luminosidad",
+                "D) Patas largas que permiten un vuelo silencioso"
+              ],
+              "correctAnswerIndex": 2
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Urutau común ",
+            "species": "Nyctibius griseus",
+            "conservacion":"LC preocupación menor",
+            "description": "es un ave nocturna de ojos grandes de color amarillos. y de gran tamaño que suelen posarse en enganches, ramas expuestas o postes de cercas, donde su coloración disruptiva los ayuda a evitar ser detectados, se detectan con mayor frecuencia por su canto increíblemente inquietante y descendente, suele ser solitario",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Urutau",
+            "habitat": "Son aves que habitan en los bosques del Neotrópico (lluvioso), Habita en bordes de bosque húmedo y muy húmedo. También utiliza áreas abiertas cerca de cuerpos de agua, plantaciones con árboles dispersos, bordes de selvas de galería, manglares",
+            "diet": "Buscan alimento por la noche saliendo de perchas expuestas para atrapar insectos voladores.  Se posan erguidos y observan atentamente con frecuentes movimientos de cabeza hasta que detectan un insecto grande. Los insectos son capturados en el aire en una salida, después de lo cual suelen regresar a la misma percha.",
+            "size": "Mide entre 33 y 38 cm de longitud",
+            "reproduction": "Se presume que el potoo común es monógamo; se dice que ambos sexos incuban el huevo y cuidan al polluelo, ponen un solo huevo y no construyen un nido; el huevo se anida en la parte superior de un tocón o una rama rota, o en una ligera depresión en una rama grande de un árbol.",
+            "funFact1": "Permanece inmóvil durante el día. Se posa en ramas altas, aunque generalmente se lo ve en una postura erguida, cuando no está alarmado se posa verticalmente pero más corto y más grueso, con el pico dirigido hacia adelante en lugar de hacia arriba",
+            "funFact2": "Cuando sospecha que lo están observando, alarga su cuerpo, comprime su plumaje y levanta la cabeza, todo tan gradualmente que no se percibe ningún movimiento. Pueden usar el mismo dormidero diurno durante meses seguidos",
+            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+            "bibliography": "Nyctibius griseus, juega un papel ecológico crucial en su ecosistema. Como depredador nocturno de insectos, contribuye al control de poblaciones de plagas, ayudando a mantener el equilibrio en la cadena alimentaria. Además, al consumir insectos que podrían dañar la vegetación, ayuda indirectamente a proteger la flora local. Al ser parte de la red trófica, también sirve como presa para depredadores más grandes, lo que lo convierte en un componente importante para la biodiversidad del ecosistema en el que vive."
+          }
+        }
       ]
+    },
+        
+         
+
+
+
+    {
+      "birdTypeId": 3,
+      "allModelQuestions": [
+        {
+          "modelIndex": 0,
+          "questions": [
+            {
+              "questionText": "¿Qué característica única de las aves del orden Columbiformes les permite alimentar a sus crías?",
+              "answers": [
+                "A) Son monógamas y cuidan de sus crías en pareja",
+                "B) Producen una sustancia llamada leche de buche para alimentar a sus crías",
+                "C) Tienen alas largas y musculosas para realizar vuelos rápidos.",
+                "D) Su plumaje varía entre tonos grises y colores brillantes"
+              ],
+              "correctAnswerIndex": 1
+            },
+            {
+              "questionText": "¿En qué continentes se encuentran las especies de Columbiformes?",
+              "answers": [
+                "A) Solo en Europa y América",
+                "B) Solo en América del Norte y Asia",
+                "C) En todos los continentes incluyendo la Antártida",
+                "D) En todos los continentes excepto en la Antártida"
+              ],
+              "correctAnswerIndex": 3
+            },
+            {
+              "questionText": "¿En qué momento del desarrollo de las crías pueden los Columbiformes incluir invertebrados en su dieta?",
+              "answers": [
+                "A)  Durante sus primeras semanas de vida ",
+                "B)  En los primeros días de incubación",
+                "C)  Solo en su etapa adulta",
+                "D)  Nunca consumen invertebrados"
+              ],
+              "correctAnswerIndex": 0
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Torcacita",
+            "species": "Columbina talpacoti",
+            "conservacion":"LC preocupación menor",
+            "description": "La tórtola rojiza es una paloma pequeña, apenas más grande que un gorrión. Los machos se distinguen por el plumaje rojizo brillante. Las hembras son más pálidas, tendiendo más hacia tonos marrones que rojizos y por las manchas negras en las alas. Todas las palomas columbidas almacenan alimentos temporalmente en su buche. La arenilla de su molleja se utiliza luego para triturar el alimento en un momento posterior",
+            "mainImage": "Images/Interfaz/Cartas/Gallineceas/Torcacita",
+            "habitat": "Se encuentran en hábitats abiertos, desnudos y húmedos como humedales, también se encuentran en áreas taladas, campos cultivados, jardines, zonas ribereñas hasta patios suburbanos para buscar semillas, evita las áreas boscosas densas.",
+            "diet": "Se alimenta principalmente de semillas de entre 2 y 15 mm de longitud. Aunque es una especie que se alimenta principalmente de semillas, ocasionalmente también consume caracoles e insectos. Captura alimento picoteando semillas del suelo y tragándolas. se alimenta en pequeños grupos de hasta 20 individuos.",
+            "reproduction": "Construye un nido de ramitas en las copas de los árboles donde pone dos huevos blancos y producen múltiples crías, hasta cuatro crías por año.",
+            "size": "Mide entre 16.5 y 18 cm de longitud.",
+            "funFact1": "Comportamiento Territorial: La Columbina talpacoti es conocida por ser bastante territorial, especialmente durante la temporada de reproducción. Los machos defienden su área activamente, incluso contra otras tórtolas, para asegurar su pareja y recursos.",
+            "funFact2": "Adaptabilidad a Áreas Urbanas: Esta especie se adapta fácilmente a entornos urbanos y suburbanos, siendo común verla en jardines, parques y áreas verdes. Su capacidad para convivir cerca de los humanos ha hecho que sea una de las aves más vistas en ciudades de América Latina.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "La Columbina talpacoti, contribuye significativamente al ecosistema a través de la dispersión de semillas. Al alimentarse de semillas y frutos pequeños, favorece la regeneración de la vegetación en su hábitat, lo cual es crucial para mantener la biodiversidad. Además, forma parte de la red alimentaria, sirviendo de presa para varios depredadores como halcones y serpientes, ayudando a mantener el equilibrio en la cadena trófica."
+          }
+        },
+        {
+          "modelIndex": 1,
+          "questions": [
+            {
+              "questionText": "¿Cuál de las siguientes especies de Columbiformes presenta un plumaje verde y brillante?",
+              "answers": [
+                "A) Paloma bravía",
+                "B) Paloma migratoria",
+                "C) Tórtola esmeralda",
+                "D) Tórtola común"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Cuál es la principal fuente de alimento de las aves del orden Columbiformes? ",
+              "answers": [
+                "A) Semillas, frutos y brotes",
+                "B) Frutos secos y carne",
+                "C) Peces y algas",
+                "D) Néctar y polen"
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "¿Cómo son generalmente los nidos de las palomas y tórtolas? ",
+              "answers": [
+                "A) Complejos y hechos de materiales diversos",
+                "B) Hechos en cavidades de árboles con hojas",
+                "C) Construidos con barro y piedras",
+                "D) Rudimentarios y construidos con pocas ramitas"
+              ],
+              "correctAnswerIndex": 3
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Guacharaca colombiana",
+            "species": "Ortalis columbiana",
+            "conservacion":"LC preocupación menor",
+            "description": "La chachalaca colombiana, endémica de Colombia, como su nombre lo sugiere, se puede identificar fácilmente. Todas las especies tienen colas largas.",
+            "mainImage": "Images/Interfaz/Cartas/Gallineceas/Caracara",
+            "habitat": "Se encuentra en bosque húmedo, bordes de bosque y matorrales arbustivos. La especie se observa con frecuencia en bordes, bosques de galería cerca de cultivos y pastizales",
+            "diet": "La dieta de la chachalaca colombiana es frugívora y folívora. En un bosque suburbano del Valle del Cauca, su dieta está compuesta por 26 especies de plantas, entre las que se encuentran frutas (77,2%), hojas (16,2%) y flores (3,6%). Además, en ese sitio, la chachalaca colombiana come ocasionalmente otros elementos como tierra, hojas muertas y piedras (3%)",
+            "reproduction": "La dieta de la chachalaca colombiana es frugívora y folívora. En un bosque suburbano del Valle del Cauca, su dieta está compuesta por 26 especies de plantas, entre las que se encuentran frutas (77,2%), hojas (16,2%) y flores (3,6%). Además, en ese sitio, la chachalaca colombiana come ocasionalmente otros elementos como tierra, hojas muertas y piedras (3%)",
+            "size": "Mide entre 45 y 60 cm de longitud",
+            "funFact1": "La chachalaca colombiana aunque es capaz de volar, prefiere moverse saltando y corriendo por las ramas y el suelo, lo que le permite desplazarse de manera eficiente en su entorno",
+            "funFact2": "La chachalaca colombiana es social y se la ve en grupos de hasta 20 individuos. También es conocida por su vocalización fuerte y estridente, especialmente durante las horas de la mañana y el atardecer, lo que ayuda a la comunicación entre individuos y a la defensa del territorio.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "desempeña un papel importante en su ecosistema como dispersora de semillas. Al alimentarse de frutas y bayas, contribuye a la propagación de diversas plantas, lo que ayuda a la regeneración y mantenimiento de la vegetación en los bosques y áreas semiabiertas donde habita. También sirve como presa para varios depredadores, integrándose en la cadena alimentaria y contribuyendo al equilibrio ecológico."
+          }
+        }
+  ]
+},
+
+
+
+
+
+
+{
+  "birdTypeId": 4,
+  "allModelQuestions": [
+    {
+      "modelIndex": 0,
+      "questions": [
+        {
+          "questionText": "¿Cuál es una característica distintiva de las aves Coraciiformes?",
+          "answers": [
+            "A) Pico largo y robusto",
+            "B) Pico corto y débil",
+            "C) Alas muy pequeñas",
+            "D) Plumaje completamente blanco"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "¿En qué tipo de ambientes habitan las aves Coraciiformes?",
+          "answers": [
+            "A) Solo en desiertos",
+            "B) Solo en selvas tropicales",
+            "C) En una amplia gama de ambientes",
+            "D) Solo en zonas urbanas"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": " ¿Cuál de estas zonas NO es un hábitat común para las aves Coraciiformes?",
+          "answers": [
+            "A) Bosques tropicales",
+            "B) Regiones semidesérticas",
+            "C) Áreas polares",
+            "D) Zonas cercanas a cuerpos de agua"
+          ],
+          "correctAnswerIndex": 2
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Momoto serrano",
+        "species": "Momotus aequatorialis",
+        "conservacion":"LC preocupación menor",
+        "description": "Es un ave grande con un pico grueso y negro y una cola larga con una punta en forma de raqueta. El plumaje del cuerpo es generalmente verde también hay una línea ancha azul que bordea la corona, que es azul claro en la parte delantera de la cabeza pero que se vuelve azul oscuro en la parte trasera de la corona. También hay una raya negra corta en el centro del pecho.",
+        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/momoto",
+        "habitat": "Se encuentra en los bosques montañosos húmedos de las montañas de los Andes de América del Sur, desde Colombia hasta el sur de Bolivia, frecuentemente cerca de ríos o riachuelos, también en bosque secundario y borde de bosque.",
+        "diet": "Esta ave es Omnívoro. Se alimenta de una variedad de cosas como fruta, invertebrados y vertebrados. Alimenta a sus polluelos con larvas de polilla de 6cm y un cucarrón de 4cm. También hay reportes de ranas, lagartijas, serpientes.",
+        "reproduction": "Se presume que se encuentra en una madriguera en un barranco; suelen estar ubicados en bosque maduro, a veces cerca de riachuelos, en barrancos hechos por derrumbes naturales o en cortes de carretera. Tienen 2 huevos blancos.",
+        "size": "Mide entre 146,5 y 167,5 cm de longitud",
+        "funFact1": "Cola en Forma de Raqueta: El momoto andino es famoso por su distintiva cola, que termina en una forma similar a una raqueta. Esta característica se debe a la pérdida intencional de plumas en ciertos segmentos, y se cree que es utilizada en exhibiciones para atraer pareja.",
+        "funFact2": "Canto como Forma de Comunicación: Esta ave tiene un canto profundo y resonante que utiliza no solo para comunicarse con otras aves, sino también para marcar su territorio. Su característico sonido es común en los bosques nublados donde habita y ayuda a identificar la presencia de la especie en su entorno.",
+        "location": "Ecohotel El Castillo",
+        "bibliography": "Desempeña un papel importante en el ecosistema a través de la dispersión de semillas y la regulación de poblaciones de insectos y pequeños vertebrados. Al alimentarse de frutos, ayuda a dispersar semillas que favorecen la regeneración de la vegetación. Además, contribuye al control de insectos y pequeños animales, lo cual ayuda a mantener el equilibrio en el ecosistema."
+      }
+    },
+    {
+      "modelIndex": 1,
+      "questions": [
+        {
+          "questionText": "¿Qué hace único el plumaje de las aves Psittaciformes?",
+          "answers": [
+            "A) Es completamente negro",
+            "B) Es de un solo color",
+            "C) Es vibrante y multicolor",
+            "D) Es muy fino y traslúcido"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿Qué estructura ayuda a las Psittaciformes a romper cáscaras duras?",
+          "answers": [
+            "A) Su pico curvado y fuerte",
+            "B) Sus patas",
+            "C) Su lengua",
+            "D) Sus garras"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "¿Qué tipo de alimentos son esenciales en la dieta de las Psittaciformes?",
+          "answers": [
+            "A) Peces ",
+            "B) Algas marinas",
+            "C) Frutas y semillas",
+            "D) Raíces y tubérculos"
+          ],
+          "correctAnswerIndex": 2
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Carpinterito Punteado",
+        "species": "Picumnus granadensis",
+        "conservacion":"LC preocupación menor",
+        "description": "El macho es negro desde la frente a la nuca con puntos de color amarillo en la coronilla y blanco detrás. La hembra se distingue porque presenta puntos blancos en la cabeza.  Permanece solo, en parejas o grupos familiares y en ocasiones se une a bandadas mixtas.",
+        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/CarpinteroPunteado",
+        "habitat": "Es una especie de distribución restringida que se puede encontrar en bordes de bosques secos a moderadamente húmedos, matorrales de segundo crecimiento y arbolado, y bosques del noroeste de Colombia. Este pequeño pájaro carpintero es de color blanco grisáceo opaco y tiene la frente y la corona moteadas de amarillo y blanco.",
+        "diet": "Esta especie, que es exclusivamente insectívora, se puede encontrar buscando alimento de forma individual o en pequeños grupos.",
+        "reproduction": "Temporada aparentemente de enero a junio aproximadamente. Anida en cavidades de troncos de árboles muerto.",
+        "size": "Mide entre 9 y 10 cm de longitud",
+        "funFact1": "Endémica de Colombia: La Picumnus granadensis es endémica de Colombia, lo que significa que solo se encuentra en ese país. Prefiere habitar áreas de bosque seco y zonas montañosas, lo cual la convierte en una especie muy particular de la avifauna colombiana",
+        "funFact2": "Tamaño Pequeño y Adaptación: Es uno de los pájaros carpinteros más pequeños, midiendo apenas unos 10 cm de longitud. A pesar de su tamaño, presenta el comportamiento típico de los carpinteros, excavando la madera con fuerza para buscar alimento, lo cual es sorprendente dada su diminuta constitución",
+        "location": "Ecohotel El Castillo",
+        "bibliography": "La Picumnus granadensis, conocida como carpinterito colombiano, desempeña un papel importante en el ecosistema al contribuir al control de insectos en árboles, ya que se alimenta principalmente de larvas e insectos que encuentra bajo la corteza. Al excavar en la madera, también crea cavidades que eventualmente pueden ser usadas por otras especies, como pequeños pájaros o insectos, contribuyendo así a la biodiversidad de su hábitat"
+      }
+    },
+    {
+      "modelIndex": 2,
+      "questions": [
+        {
+          "questionText": " ¿Qué estructura excavan las aves Piciformes para anidar?",
+          "answers": [
+            "A) Nidos en el suelo ",
+            "B) Túneles subterráneos",
+            "C) Cavidades en los troncos de los árboles",
+            "D) Nidos hechos con barro"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿En qué tipo de áreas suelen vivir los carpinteros en zonas urbanas?",
+          "answers": [
+            "A) En parques y jardines",
+            "B) En techos de casas",
+            "C) En campos abiertos",
+            "D) En basureros"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "¿Qué tipo de dieta tienen la mayoría de las aves Piciformes?",
+          "answers": [
+            "A) Carnívora",
+            "B) Herbívora",
+            "C) Insectívora y frugívora",
+            "D) Piscívora"
+          ],
+          "correctAnswerIndex": 2
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Carpintero Real ",
+        "species": "Dryocopus lineatus",
+        "conservacion":"LC preocupación menor",
+        "description": "El pájaro carpintero rayado es un pájaro carpintero grande y crestado, es de color negro en general, con una cresta roja brillante, barras blancas en las partes inferiores y una línea blanca que se extiende por el cuello. Los machos tienen rojo en la mejilla, mientras que las hembras no",
+        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Real",
+        "habitat": "El pájaro carpintero rayado habita en bosques y selvas húmedas, de transición y moderadamente secas. Generalmente, prefiere áreas relativamente abiertas como bordes de bosques, bosques secundarios y pastizales; no se encuentra en el interior de bosques húmedos de tierras bajas, pero ocupa los bordes de bosques y los bosques ribereños. En áreas más secas, el pájaro carpintero rayado habita en bosques de pinos y galerías, así como en matorrales espinosos",
+        "diet": "La dieta se compone principalmente de escarabajos y sus larvas, hormigas y sus larvas, orugas y ortópteros, frecuentemente recolectados de Cecropia árboles. Aunque es principalmente insectívoro. Suele encontrarse solitario o en parejas. En las ciudades, aprovecha las lámparas para picotearlas, amplificando el sonido de su tamborileo, y anunciándole a otros carpinteros su presencia y su territorio",
+        "reproduction": "El tamaño de la nidada varía de 2 a 4 huevos. Los machos y las hembras toman turnos de 2 a 3 horas incubando durante el día, pero solo los machos incuban por la noche. Los polluelos son alimentados aproximadamente una vez por hora por ambos padres mediante regurgitación; la hembra realiza la mayor parte de la alimentación mientras el macho cuida el nido",
+        "size": "Mide entre 37.7 y 41.8 cm de longitud",
+        "funFact1": "Se comunican a través de vocalizaciones, tambores y golpes, especialmente durante la defensa del territorio",
+        "funFact2": "Ambos sexos excavan los nidos, que tienen unos 45 cm de profundidad, 13 x 18 cm de ancho y una entrada de unos 9 cm de diámetro",
+        "location": "Universidad Javeriana de Cali",
+        "bibliography": "Juega un papel esencial en su ecosistema al controlar poblaciones de insectos que se encuentran bajo la corteza de los árboles, especialmente larvas de escarabajos y otros xilófagos, lo cual ayuda a mantener la salud de los bosques. Además, al perforar troncos para alimentarse o anidar, crea cavidades que luego pueden ser usadas por otras aves, mamíferos pequeños y reptiles, aumentando así la disponibilidad de refugios y favoreciendo la biodiversidad en su hábitat"
+      }
+    },
+    {
+      "modelIndex": 3,
+      "questions": [
+        {
+          "questionText": ". ¿Cuál de los siguientes grupos pertenece a las Psittaciformes?",
+          "answers": [
+            "A) Cacatuidae",
+            "B) Passeridae",
+            "C) Corvidae",
+            "D) Columbidae"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": " ¿Qué tipo de ecosistema prefieren muchas especies de Psittaciformes?",
+          "answers": [
+            "A) Selvas húmedas",
+            "B) Montañas nevadas",
+            "C) Desiertos áridos",
+            "D) Praderas abiertas"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": " ¿Qué tipo de dieta tienen principalmente las Psittaciformes?",
+          "answers": [
+            "A) Frugívora y granívora",
+            "B) Carnívora",
+            "C) Omnívora",
+            "D) Piscívora"
+          ],
+          "correctAnswerIndex": 1
+        }
+      ],
+      "birdInfo": {
+       "birdName": "Loro Cabeciazul",
+        "species": "Pionus menstruus",
+        "conservacion":"LC preocupación menor",
+        "description": "Se reconoce fácilmente en vuelo por sus llamadas estridentes y chillonas y, mientras está en reposo, la llamativa cabeza azul hace que la especie sea inconfundible. Las aves migran a las islas cercanas a Panamá después de reproducirse, en junio",
+        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Cabeciazul",
+        "habitat": "Bosque caducifolio que incluye cerrado, bosque húmedo y muy húmedo, bosque maduro de segundo crecimiento, bosque estacionalmente inundado y bosque de galería, plantaciones, claros y áreas semiabiertas con árboles dispersos, incluyendo palmeras Mauritia",
+        "diet": "Semillas de Albizia, Anacardium, Caraipa,Dialium,Hevea,Hura,Clusia Ocotea,Couroutaria, Inga,Brosimum,Tectona,Micropholis, frutos de Tetragastris,Inga,Ficus,Euterpe, flores azucaradas de Noranthealiana, entre otras ",
+        "reproduction": "Anidan en huecos de palmas, troncos y ramas muertas. Ponen de dos a cuatro huevos, en cautiverio, el período de incubación dura entre 24 y 29 días. En cautiverio la incubación tarda entre 24 y 29 días, incuba solamente la hembra",
+        "size": "Mide entre 24 y 28 cm de longitud",
+        "funFact1": " Los ejemplares jóvenes suelen tener un color menos intenso, que se vuelve más vibrante a medida que maduran",
+        "funFact2": "A diferencia de muchas otras especies de loros, el Pionus menstruus es conocido por ser relativamente silencioso, especialmente cuando se encuentra en bandadas. Aunque puede emitir sonidos fuertes ocasionalmente, su comportamiento discreto facilita que se mezcle en el entorno, evitando así a los depredadores",
+        "location": "Universidad Javeriana de Cali",
+        "ecosistema":"El Pionus menstruus, conocido como loro cabeciazul, tiene un papel importante en su ecosistema, principalmente a través de la dispersión de semillas al alimentarse de frutas, lo cual ayuda en la regeneración de la vegetación y mantiene la biodiversidad del área. Además, también contribuye al control de plagas al consumir insectos y brotes jóvenes, ayudando a mantener el equilibrio en el ecosistema.",
+        "bibliography": "BirdLife International, 2019"
+      }
+    },
+   
+    {
+      "modelIndex": 4,
+      "questions": [
+        {
+          "questionText": " ¿Qué tipo de ecosistemas son los hábitats principales de las aves Piciformes?",
+          "answers": [
+            "A) Desiertos y sabanas ",
+            "B) Bosques tropicales y templados",
+            "C) Áreas costeras y playas",
+            "D) Tundras árticas"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "questionText": " ¿Qué recurso natural ayudan a proteger los piciformes al alimentarse de insectos?",
+          "answers": [
+            "A) El suelo",
+            "B) Los ríos",
+            "C) El aire",
+            "D) Los árboles"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "questionText": "¿Cómo afecta el papel de los Piciformes en la dispersión de semillas a los ecosistemas?",
+          "answers": [
+            "A) Facilita la regeneración de los bosques y la biodiversidad",
+            "B) Disminuye la diversidad de especies vegetales",
+            "C) Provoca la deforestación",
+            "D) Reduce la fertilidad del suelo"
+          ],
+          "correctAnswerIndex": 0
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Periquito anteojo ",
+        "species": "Forpus conspicillatus",
+        "conservacion":"LC preocupación menor",
+        "description": "La cotorrita de anteojos es un loro diminuto del este de Panamá, Colombia y Venezuela. El macho tiene una frente de color verde amarillento que se extiende hasta las mejillas y la garganta. Esta ave aún no ha sido incluida en ninguna lista de especies amenazadas a pesar de que a menudo se la captura ilegalmente y se la vende en el comercio de aves enjauladas. El llamado de contacto evidentemente se utiliza para comunicarse entre miembros de una pareja o grupo.",
+        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Anteojo",
+        "habitat": "Se encuentra en los bordes de bosque siempre verde de tierras bajas, bosque de galería, bosque caducifolio semiabierto, llanos, crecimiento secundario, matorral espinoso, pastizales y claros.",
+        "diet": "Semillas de hierba extraídas del suelo, bayas, frutos, brotes y probablemente flores de los arbustos.",
+        "reproduction": "El nido es un agujero en un tocón, árbol o poste de cerca hecho de bambú (Guadua), a menudo a 1-2 m del suelo, ponen huevos de 1-6.",
+        "size": "Mide entre 12 y 13 cm de longitud",
+        "funFact1": "Tamaño Pequeño y Carácter Sociable: El periquito de anteojos es uno de los loros más pequeños de América, midiendo apenas 12-13 cm. A pesar de su tamaño, es muy sociable y se lo encuentra en grupos grandes, lo que le ayuda a mantenerse seguro frente a depredadores y facilita la búsqueda de alimentos.",
+        "funFact2": "Marcado Dimorfismo Sexual: Existe un dimorfismo sexual evidente en esta especie: los machos presentan un llamativo color azul en las alas y detrás de los ojos, mientras que las hembras carecen de estas marcas, lo que permite diferenciarlos fácilmente a simple vista.",
+        "location": "Universidad Javeriana de Cali",
+        "ecosistema":"El Forpus conspicillatus, conocido como periquito de anteojos, tiene un impacto ecológico importante al participar en la dispersión de semillas. Su dieta incluye frutas y semillas, contribuyendo a la regeneración de la vegetación y al mantenimiento de la biodiversidad de su entorno. También ayuda a controlar poblaciones de insectos al consumir brotes y pequeños invertebrados, lo cual beneficia la salud de las plantas",
+        "bibliography": "BirdLife International, 2019"
+      }
+    },
+    {
+      "modelIndex": 5,
+      "questions": [
+        {
+          "questionText": "¿En qué continente NO se encuentran naturalmente las Psittaciformes?",
+          "answers": [
+            "A) América del Sur",
+            "B) África",
+            "C) Oceanía",
+            "D) Europa"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "questionText": "  Además de frutas, ¿qué más pueden comer algunas Psittaciformes?",
+          "answers": [
+            "A) Flores y néctar",
+            "B) Carne",
+            "C) Rocas pequeñas",
+            "D) Hojas secas"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "¿En qué tipo de ecosistema habitan principalmente las Psittaciformes? ",
+          "answers": [
+            "A) Desiertos áridos",
+            "B) Montañas nevadas",
+            "C) Zonas polares",
+            "D) Selvas tropicales y subtropicales"
+          ],
+          "correctAnswerIndex": 3
+        }
+      ],
+      "birdInfo": {
+       "birdName": "Guacamaya cariseca",
+        "species": "Ara severus",
+        "conservacion":"LC preocupación menor",
+        "description": "No tiene dimorfismo sexual. Es principalmente verde con la coronilla azul. En la frente tiene una banda estrecha y poco visible de color castaño. Su cola es larga, aguda y verde teñida de rojizo. Su pico es negro grisáceo. La piel facial y la garganta se encuentran desnudas de color blanquecino, las plumas de las alas son azulosas por encima. El interior de las alas es rojo opaco",
+        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/ Maracana",
+        "habitat": "El guacamayo de frente castaña es un ave colorida y ampliamente distribuida que habita en Panamá, Colombia, Ecuador, el este de Perú y Bolivia, al este de Venezuela y Brasil. Esta especie ha sido registrada en varios tipos de hábitat diferentes, incluidos bosques inundados estacionalmente, bosques de galería, bordes ricos en palmeras de ríos de corriente lenta y áreas pantanosas, crecimiento secundario, plantaciones antiguas y claros con árboles grandes dispersos, áreas temporal o permanentemente húmedas con palmeras Mauritia",
+        "diet": "La dieta del guacamayo de frente castaña también es muy variable e incluye semillas, pulpa y flores de varios tipos de plantas diferentes. A diferencia de muchas otras especies de loros y guacamayos, las poblaciones del guacamayo de frente castaña parecen ser estables ",
+        "reproduction": "Generalmente anida en cavidades de árboles muertos o palmas muertas. Ponen dos huevos; en cautiverio, la incubación dura 28 días, el período de cría no supera las nueve semanas",
+        "size": "Mide entre 46 y 51 cm de longitud",
+        "funFact1": " Gran Adaptabilidad a Diferentes Hábitats: El guacamayo severo es capaz de adaptarse a una variedad de hábitats, desde selvas tropicales hasta áreas abiertas y bosques secundarios. Esta adaptabilidad le permite encontrar recursos y sobrevivir en entornos donde otras especies podrían tener dificultades",
+        "funFact2": "Personalidad Juguetona y Ruidosa: Esta especie es conocida por su personalidad curiosa y juguetona. Son aves inteligentes y muy activas, a menudo vistas explorando y manipulando objetos en su entorno. Además, son bastante ruidosas, emitiendo vocalizaciones fuertes que usan para comunicarse entre ellas y para marcar su territorio",
+        "location": "Universidad Javeriana de Cali",
+        "ecosistema":"El Ara severus, tiene un papel importante en su ecosistema como dispersor de semillas. Al alimentarse de frutos y semillas, dispersa una gran variedad de especies vegetales, ayudando a la regeneración del bosque y fomentando la diversidad vegetal. También contribuye a la poda natural de árboles y ramas, lo cual promueve el crecimiento saludable de las plantas",
+        "bibliography": "BirdLife International, 2019"
+      }
     }
+]
+},
+
+
+
+
+
+
+
+
+{
+  "birdTypeId": 5,
+  "allModelQuestions": [
+    {
+      "modelIndex": 0,
+      "questions": [
+        {
+          "questionText": "¿Qué característica distingue a las aves cantoras del orden Passeriformes?",
+          "answers": [
+            "A) Su plumaje monocromático",
+            "B) Su tamaño grande",
+            "C) Su capacidad para emitir melodías complejas",
+            "D) Su hábito de cazar insectos"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": " ¿Qué porcentaje de todas las especies de aves representan las aves cantoras?",
+          "answers": [
+            "A) 25%",
+            "B) 30%",
+            "C) 50%",
+            "D) 75%"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿Cómo afecta la presencia de aves cantoras a la percepción de la salud de un ecosistema?",
+          "answers": [
+            "A) La presencia de aves cantoras no tiene impacto en la salud del ecosistema ",
+            "B) La presencia de aves cantoras es irrelevante para la salud del ecosistema",
+            "C) Su ausencia indica un ecosistema más equilibrado",
+            "D) Su canto y presencia indican un ambiente saludable y equilibrado"
+          ],
+          "correctAnswerIndex": 3
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Elaenia de vientre amarillo",
+        "species": "Ortalis columbiana",
+        "conservacion":"LC preocupación menor",
+        "description": "Es una especie de tamaño mediano, son de color marrón oliva en la parte superior con dos barras blancas en las alas, un pecho gris pálido y un vientre amarillo pálido. Las elaenias de vientre amarillo tienen una cresta tupida y llamativa que a menudo se levanta cuando el ave canta, revelando una mancha blanca en la corona, se encuentran generalmente solos o en parejas",
+        "mainImage": "Images/Interfaz/Cartas/Cantoras/Elaenia",
+        "habitat": "Variedad de hábitats húmedos y áridos, boscosos, que incluyen bosques más claros, bosques secundarios y bordes, matorrales, sabanas, así como márgenes de ríos con maleza, claros con maleza y árboles dispersos, también árboles en pueblos y jardines; ausente en áreas densamente forestadas, pueden reunirse en mayor número en árboles frutales",
+        "diet": "Se alimenta de insectos,bayas y cápsulas con semillas ariladas, busca alimento con salidas aéreas, picoteos desde perchas",
+        "reproduction": "Temporada de cría surge en Colombia entre mayo-septiembre.  El nido es una copa ordenada de pasto o musgo, revestida de plumas y decorada con líquenes y corteza, colocada en la horquilla de una rama pequeña. La nidada consiste en dos huevos, rara vez uno o tres, de color blanco rosado con marcas castañas y grises, incubación por la hembra, período 16 días; polluelos emplumados por la hembra, alimentados por ambos padres, período de emplumaje 15-17 días",
+        "size": "Mide entre 16 y 17 cm de longitud.",
+        "funFact1": "Es conocida por su característica cresta que puede erguir y que tiene un tono amarillento, visible cuando está emocionada o alerta",
+        "funFact2": "Su canto es muy distintivo y repetitivo, lo que la hace fácilmente identificable en su hábitat, especialmente durante la época de reproducción",
+        "location": "Ecohotel El Castillo",
+        "bibliography": "Elaenia flavogaster, desempeña un papel importante como dispersora de semillas, ya que consume una variedad de frutos y ayuda a la propagación de plantas al excretar las semillas en diferentes áreas. También contribuye al control de insectos, ya que su dieta incluye insectos que captura en vuelo, lo que ayuda a mantener el equilibrio en la cadena alimentaria del ecosistema."
+      }
+    },
+    {
+      "modelIndex": 1,
+      "questions": [
+        {
+          "questionText": "Qué tipo de programas pueden ayudar a conservar las aves cantoras amenazadas?",
+          "answers": [
+            "A) Programas de cría en cautiverio y reintroducción en su hábitat natural ",
+            "B) Programas de caza controlada",
+            "C) Programas de comercio ilegal",
+            "D) Programas de fragmentación de hábitats"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "¿Por qué es importante el monitoreo constante de las poblaciones de aves cantoras?",
+          "answers": [
+            "A) Para rastrear su salud y tendencias demográficas",
+            "B) Para fomentar el comercio ilegal",
+            "C) Para reducir su población",
+            "D) Para destruir hábitats"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "¿Qué se debe hacer para reducir la amenaza de colisiones con infraestructuras para las aves cantoras?",
+          "answers": [
+            "A) Ignorar el problema de las colisiones",
+            "B) Permitir que las aves colisionen libremente",
+            "C) Destruir las infraestructuras existentes",
+            "D) Incrementar el uso de vidrios especiales en edificios y regular la iluminación"
+          ],
+          "correctAnswerIndex": 3
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Espatulilla común ",
+        "species": "Todirostrum cinereum",
+        "conservacion":"LC preocupación menor",
+        "description": "No tiene dimorfismo sexual, los machos de papamoscas tody comunes tienen frentes negras brillantes, coronas traseras gris pizarra, partes superiores oliva, alas negras y partes inferiores de color amarillo brillante; el iris generalmente es amarillo.",
+        "mainImage": "Images/Interfaz/Cartas/Cantoras/Espatulilla",
+        "habitat": "Todo tipo de áreas abiertas y semiabiertas y bordes de bosques, manglares y ríos, por ejemplo, bosques más claros, rebrotes, claros y pastizales con matorrales crecidos, plantaciones sombrías, arboledas abiertas, matorrales de sabana, setos vivos (alineación de árboles y/o arbustos), huertos, jardines, áreas cultivadas, terrenos baldíos; evita las regiones densamente arboladas",
+        "diet": "Artrópodos, incluidas pequeñas hormigas y avispas parasitoides, arañas, escarabajos, chinches, moscas, caballitos del diablo y saltamontes o grillos; también recolectan frutos. Generalmente en parejas o grupos familiares, pero a veces solos y generalmente independientes de bandadas mixtas en la vegetación densa, cerca del suelo, también en los niveles medios y en las copas de los árboles, más abiertos ",
+        "reproduction": "Construye nidos colgantes en forma de bolsa a 1 a 5 m del suelo hechos de material vegetal, musgos, hierbas y muchos otros materiales vegetales, unida con telaraña, forrada con hierba fina, plumas y pelusa de plantas/semillas; suspendida de una rama colgante (o incluso de un cable telefónico), generalmente a 1-5 m pero a veces a 30 m de altura, y a veces cerca de un nido de avispas. Puesta de 2 a 3 huevos; incubación por la hembra sola, período de 18 días; polluelos alimentados por ambos padres, período de cría de c. 17-18 días.",
+        "size": "Mide entre 8.8 y 10.2 cm de longitud",
+        "funFact1": "Buscan alimento en parejas o pequeños grupos familiares en la vegetación densa cerca del suelo o en el dosel abierto de nivel medio de los árboles",
+        "funFact2": "Polluelos parcialmente dependientes de los padres hasta 43 días, se benefician de la deforestación, extendiéndose hacia claros y plantaciones, donde suele ser común",
+        "location": "Universidad Javeriana de Cali",
+        "ecosistema":"Todirostrum cinereum, ecológicamente, desempeña un papel importante como controlador de poblaciones de insectos, ya que se alimenta principalmente de ellos, incluyendo mosquitos, hormigas y otros insectos pequeños. Esto contribuye al equilibrio del ecosistema y ayuda a reducir la proliferación de plagas. Además, al consumir frutos pequeños y dispersar las semillas a través de sus excrementos, favorece la regeneración y diversidad de la vegetación en su hábitat, contribuyendo a la salud del ecosistema donde vive",
+        "bibliography": "BirdLife International, 2019"
+      }
+    },
+    {
+      "modelIndex": 2,
+      "questions": [
+        {
+          "questionText": "¿Qué papel tiene la educación pública en la conservación de las aves cantoras?",
+          "answers": [
+            "A) No tiene impacto en la conservación",
+            "B) Promueve la captura y comercio de aves",
+            "C) Fomenta la conciencia sobre la importancia de conservarlas y sus hábitats ",
+            "D)  Solo se enfoca en la cría en cautiverio"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": " ¿Qué papel juegan las aves cantoras en el control de plagas?",
+          "answers": [
+            "A) No tienen impacto en el control de plagas",
+            "B) Son depredadores de pequeños mamíferos",
+            "C) Se alimentan de insectos, ayudando a controlar sus poblaciones",
+            "D) Solo afectan a plagas en el agua"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿Qué tamaño suelen tener las aves cantoras?",
+          "answers": [
+            "A) Pequeño a mediano",
+            "B) Grande",
+            "C) Muy pequeño",
+            "D) Gigante."
+          ],
+          "correctAnswerIndex": 0
+        }
+      ],
+      "birdInfo": {
+       "birdName": "Papamoscas bermellon",
+        "species": "Pyrocephalus rubinus",
+        "conservacion":"LC preocupación menor",
+        "description": "Los machos y las hembras difieren notablemente en color; la cresta bermellón del macho y las partes inferiores brillantes contrastan marcadamente con los colores blanquecinos y ligeramente veteados del pecho y el vientre rosado de la hembra.",
+        "mainImage": "Images/Interfaz/Cartas/Cantoras/papamoscas",
+        "habitat": "Habitan en matorrales áridos, tierras de cultivo, parques, campos de golf, desierto, sabana, tierras cultivadas y bosques ribereños; generalmente se encuentra cerca del agua. Rara vez en cañones, pero se puede encontrar en las desembocaduras de los mismos.",
+        "diet": "Se alimentan de insectos voladores y terrestres, también otros artrópodos. Presas capturadas desde el aire y en áreas abiertas, es un depredador que se sienta y espera; localiza a la presa desde una percha expuesta y la persigue directamente hasta la captura. ",
+        "reproduction": "Las hembras incuban su nidada de 2 a 4 huevos durante unos 14 días; durante la incubación, los machos alimentan regularmente a las hembras en el nido. Las parejas crían de 1 a 2 nidadas por temporada y, por lo general, vuelven a incubar inmediatamente después de que emplumen su primera nidada",
+        "size": "Mide entre 13 y 14 cm de longitud",
+        "funFact1": "Durante la temporada de cría, los machos de los papamoscas bermellones realizan un espectacular canto de vuelo a 20-30 m sobre el dosel, y parecen rebotar en el cielo con sus alas revoloteando mientras cantan",
+        "funFact2": "En la caza aérea, persigue a la presa y la atrapa en el aire en un vuelo directo y rápido. Las presas que escapan al ataque inicial pueden ser perseguidas en una persecución acrobática errática hasta la captura",
+        "location": "Universidad Javeriana de Cali",
+        "ecosistema":"Pyrocephalus rubinus, ecológicamente, desempeña un papel importante en el control de poblaciones de insectos, ya que se alimenta de una variedad de insectos voladores, como mosquitos, polillas y escarabajos, contribuyendo a mantener el equilibrio y reducir las plagas en su entorno. Además, al consumir frutos ocasionalmente, también ayuda en la dispersión de semillas, promoviendo la regeneración y diversidad de la vegetación en su hábitat, lo que beneficia la salud y el equilibrio del ecosistema donde vive",
+        "bibliography": "BirdLife International, 2019"
+      }
+    },
+    {
+      "modelIndex": 3,
+      "questions": [
+        {
+          "questionText": " ¿Cuál es el principal propósito del canto en las aves cantoras?",
+          "answers": [
+            "A) Atraer depredadores",
+            "B) Encontrar alimento",
+            "C) Protegerse de las inclemencias del tiempo",
+            "D) Marcar territorio, atraer pareja y coordinar comportamientos"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "questionText": "¿Cómo contribuyen las aves cantoras a los ecosistemas?",
+          "answers": [
+            "A) Solo como depredadores",
+            "B) Solo como presas",
+            "C) Como dispersoras de semillas y controladoras de plagas",
+            "D) Solo como competidoras por alimento"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿Qué papel desempeñan las aves cantoras en el equilibrio ecológico de la región?",
+          "answers": [
+            "A) Solo sirven como alimento para otras especies",
+            "B) Solo afectan la vegetación local",
+            "C) Solo participan en la polinización",
+            "D) Mantienen el equilibrio ecológico a través de su canto y su rol en el ecosistema"
+          ],
+          "correctAnswerIndex": 3
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Benteveo ",
+        "species": "Pitangus sulphuratus",
+        "conservacion":"LC preocupación menor",
+        "description": "Sexos similares y plumajes similares durante todo el año. En los adultos, cabeza con amplias rayas blancas y negras, con corona y máscara negras que contrastan con supercilia blanca. Barbilla y garganta blancas y partes inferiores restantes de amarillo brillante, su distribución y abundancia han aumentado como resultado de la apertura de bosques previamente cerrados a través de diversas actividades humanas",
+        "mainImage": "Images/Interfaz/Cartas/Cantoras/Benteveo",
+        "habitat": "Habita en bosques espinosos, bosques caducifolios tropicales, chaparrales altos, bosques riparios, bosques de galería, pantanos de palmeras, márgenes pantanosos de lagos, plantaciones de café de sombra, bananos y cítricos, bordes de bosques y áreas rurales, suburbanas y urbanas con árboles, A menudo ausente de hábitats ininterrumpidos, ya sean matorrales espinosos áridos o bosques lluviosos tropicales, excepto a lo largo de cursos de agua u otros bordes",
+        "diet": "Se alimenta de una variedad de artrópodos, moluscos y pequeños vertebrados, incluyendo insectos voladores, arañas, caracoles, peces pequeños, lagartijas y ratones. También consume frutos y visita estaciones de alimentación para comer alimentos como pan y plátanos. Caza desde perchas bajas, generalmente a menos de 3 m del suelo, y suele golpear a sus presas, como los peces, antes de tragarlas.",
+        "reproduction": "Construye nidos voluminosos, a menudo en árboles espinosos de pantano o sobre nidos abandonados de otras aves. La formación de parejas ocurre durante todo el año, pero es más común antes y al inicio de la temporada de anidación. Las puestas suelen ser de 2 a 5 huevos, generalmente 3 o 4. Solo la hembra incuba los huevos durante 15-17 días, y lo hace mirando hacia la entrada del nido",
+        "size": "Mide entre 27.2 y 29.9 cm de longitud.",
+        "funFact1": "A menudo roba material de nidificación de nidos abandonados o no vigilados de otras aves. Los nidos están construidos principalmente de pasto, pero también pueden incorporar ramitas delgadas, zarcillos de enredaderas leñosas, papel, algodón, trapos e incluso basura plástica",
+        "funFact2": "Aproximadamente 1 día antes de emplumar, los polluelos se paran en la entrada del nido y baten las alas, lo que hace que el techo del nido se derrumbe.",
+        "location": "Universidad Javeriana de Cali",
+        "ecosistema":"Esta ave habita en una amplia variedad de ecosistemas, desde áreas urbanas hasta bosques y zonas rurales, ecológicamente, desempeña un papel fundamental en el control de insectos, ya que se alimenta de una amplia variedad de ellos, ayudando a mantener el equilibrio de sus poblaciones. Además, es un dispersor de semillas, ya que también consume frutas, contribuyendo a la regeneración de la vegetación y la biodiversidad de su hábitat. Al ser un ave adaptable, contribuye significativamente al equilibrio y la salud de los ecosistemas donde vive.",
+        "bibliography": "BirdLife International, 2019"
+      }
+    }
+]
+},
+{
+  "modelIndex": 4,
+  "questions": [
+    {
+      "questionText": " ¿Cuál es una estrategia clave para la protección de las aves cantoras?",
+      "answers": [
+        "A) Creación de áreas protegidas",
+        "B) Uso de pesticidas en sus hábitats",
+        "C) Eliminación de las reservas naturales",
+        "D) Reducción de parques nacionales"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "¿Qué medida puede ayudar a reducir el impacto del comercio ilegal de aves cantoras?",
+      "answers": [
+        "A) Fortalecimiento de la aplicación de leyes nacionales e internacionales",
+        "B) Incentivar el tráfico de aves",
+        "C) Descartar las leyes existentes",
+        "D) Reducir la vigilancia en mercados de aves"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "¿Cuál es una forma de mitigar el impacto de las especies invasoras en las aves cantoras?",
+      "answers": [
+        "A) Ignorar su presencia",
+        "B) Introducir más especies invasoras",
+        "C) Permitir la proliferación de especies invasoras",
+        "D) Erradicar o controlar las especies invasoras"
+      ],
+      "correctAnswerIndex": 3
+    }
+  ],
+  "birdInfo": {
+    "birdName": "Tirano sabanero ",
+    "species": "Tyrannus savana",
+    "conservacion":"LC preocupación menor",
+    "description": "Dimorfismo sexual no muy marcado. Tiene la cola muy larga y profundamente ahorquillada (más corta en la hembra). Presentan la coronilla, nuca y lados de la cabeza hasta debajo de los ojos, de color negro. La espalda es gris claro, las alas más oscuras, cola negra y partes inferiores completamente blancas",
+    "mainImage": "Images/Interfaz/Cartas/Cantoras/Tirano",
+    "habitat": "Se encuentra en hábitats abiertos, incluyendo bordes de bosques, vegetación secundaria, sabana, pastizales, áreas residenciales, prados, bosques, cerrado y manglares. Durante la migración se puede encontrar en una amplia variedad de hábitats, incluyendo el dosel de bosques altos y húmedos ",
+    "diet": "Sale en busca de artrópodos voladores (por ejemplo, termitas, escarabajos, avispas) o los recoge de las hojas o del suelo; también consume fruta como frutos y bayas de palma durante la temporada no reproductiva.",
+    "reproduction": "Se reproduce de enero a mayo en Colombia, El nido es una copa somera construida con fibras de vegetales, hojas y revestido con fibras finas, raicillas, plumas y materiales algodonosos como pelusa de semillas. Se ubica entre 1 a 10 metros en un árbol o arbusto. La hembra deposita 2 huevos de tono blanco lustroso marcados irregularmente de chocolate y púrpura, principalmente en la corona. El periodo de incubación es de 14 a 15 días. Los polluelos permanecen en el nido alrededor de 16 días",
+    "size": "Mide entre 37.0 y 40.5 cm de longitud",
+    "funFact1": "El Tyrannus savana es famoso por su vuelo acrobático. Realiza maniobras en el aire para atrapar insectos y también durante la temporada de apareamiento, lo que lo hace muy llamativo y espectacular.",
+    "funFact2": "Estas aves son migratorias y pueden viajar largas distancias. Pasan la temporada de cría en América del Norte y luego migran a América del Sur para el invierno, cubriendo miles de kilómetros en el proceso.",
+    "location": "Universidad Javeriana de Cali",
+    "bibliography": "El Tyrannus savana, juega un papel importante en su ecosistema como controlador de insectos. Estas aves se alimentan principalmente de insectos voladores, contribuyendo a regular sus poblaciones y ayudando a mantener el equilibrio ecológico. Además, al moverse por diversas áreas durante su migración, participan en la dispersión de semillas, lo que favorece la regeneración de la vegetación en distintos hábitats"
+  }
+},
+{
+  "modelIndex": 5,
+  "questions": [
+    {
+      "questionText": " Qué estrategia se debe adoptar para la protección de las rutas migratorias de las aves cantoras?",
+      "answers": [
+        "A) Reducir la colaboración internacional",
+        "B) Ignorar las zonas de descanso y alimentación",
+        "C) Proteger los sitios de descanso, alimentación y reproducción a lo largo de las rutas",
+        "D) Destruir las rutas migratorias"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "¿Qué aspecto del canto de las aves cantoras indica un ambiente equilibrado y biodiverso?",
+      "answers": [
+        "A) La intensidad del canto",
+        "B) La variedad y frecuencia del canto",
+        "C) La duración del canto",
+        "D) La claridad del canto"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "¿En qué tipo de hábitats pueden encontrarse las aves cantoras?",
+      "answers": [
+        "A) En una amplia variedad de hábitats, desde bosques hasta zonas urbanas",
+        "B) Solo en desiertos",
+        "C) Exclusivamente en áreas montañosas",
+        "D) Solo en zonas frías"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ],
+  "birdInfo": {
+    "birdName": "Cucarachero Común ",
+    "species": "Troglodytes aedon",
+    "conservacion":"LC preocupación menor",
+    "description": "La cabeza, la nuca y la espalda son de un tono marrón casi uniforme: más oscuro y rojizo en las poblaciones orientales, más pálido y grisáceo en las occidentales. Tiene solo una línea superciliar pálida, a menudo indistinta, y no tiene rayas en la coronilla. La garganta y el pecho son de un gris claro uniforme, a veces con un tinte beige o parduzco.Los sexos son idénticos en plumaje. No hay cambios estacionales en el plumaje. El macho es ligeramente más grande que la hembra en algunos rasgos. ",
+    "mainImage": "Images/Interfaz/Cartas/Cantoras/Cucarachero",
+    "habitat": "Se encuentra principalmente en bosques abiertos, pantanos boscosos, bosques de coníferas (son ecosistemas que se caracterizan por contar con un clima que va desde templado a frío) recientemente quemados, sabanas, parques urbanos y áreas residenciales con árboles, en áreas boscosas alrededor del agua, o en granjas y arbustos",
+    "diet": "Recolecta pequeños invertebrados terrestres de la mayoría de los sustratos disponibles (abono orgánico), incluyendo suelo desnudo, hojarasca, cubierta vegetal herbáceo y todas las partes de arbustos y árboles (troncos, ramas y tallos). Rara vez cazaba insectos voladores. La distribución de los sitios de alimentación de machos y hembras difería significativamente, ya que los machos se alimentaban en arbustos y árboles más altos que las hembras",
+    "reproduction": "El macho de Pygochelidon cyanoleuca comienza a construir nidos en cavidades preformadas en árboles o en estructuras hechas por el hombre justo después de reclamar su territorio tras la migración. La hembra se une al proceso de construcción tras aparearse y es la única que incuba los huevos.En las poblaciones migratorias de zonas templadas, las nidadas suelen variar entre 4 y 8 huevos, aunque en ocasiones pueden ser tan pequeñas como 3 o tan grandes como 9 o 10 huevos.",
+    "size": "Mide entre 11.0 y 13.0 cm de longitud.",
+    "funFact1": "Estas aves son conocidas por ser extremadamente territoriales y defender sus nidos de otras aves, llegando incluso a destruir huevos o crías de competidores que anidan cerca.",
+    "funFact2": "Troglodytes aedon tiene una amplia capacidad de adaptación y puede anidar en casi cualquier lugar, incluyendo cavidades naturales, cajas nido, construcciones humanas y objetos abandonados, lo que les permite habitar en entornos urbanos y rurales.",
+    "location": "Universidad Javeriana de Cali",
+    "bibliography":"Desempeña un papel importante en su ecosistema al ser un controlador natural de insectos. Como insectívora, se alimenta de una variedad de insectos y arácnidos, ayudando a regular sus poblaciones y contribuyendo al equilibrio ecológico. Además, al construir sus nidos en cavidades y a menudo ocupar nidos abandonados de otras aves, promueve la reutilización de recursos y ayuda a mantener la biodiversidad en su hábitat"
+
+  }
+},
+{
+  "modelIndex": 6,
+  "questions": [
+    {
+      "questionText": " ¿Cómo contribuyen las aves cantoras a la regeneración de los bosques?",
+      "answers": [
+        "A) Al ser depredadores de grandes animales ",
+        "B) Solo al consumir hojas y ramitas",
+        "C) A través de la caza de otros pájaros",
+        "D) Como dispersoras de semillas"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "¿Qué importancia tienen las aves cantoras para el ecoturismo en áreas como Cali?",
+      "answers": [
+        "A) Son un recurso valioso para el ecoturismo y la observación de aves",
+        "B) No tienen relevancia para el ecoturismo",
+        "C) Solo afectan la agricultura local",
+        "D) Solo contribuyen a la caza deportiva"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "¿Cómo puede ayudar la creación de corredores ecológicos a las aves cantoras?",
+      "answers": [
+        "A) Aumentando la fragmentación de hábitats",
+        "B) Eliminando sus hábitats naturales",
+        "C) Facilitando la migración y la conexión entre áreas protegidas",
+        "D) Reduciendo la cantidad de alimento disponible"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ],
+  "birdInfo": {
+    "birdName": "Mirla patinaranja ",
+    "species": "Turdus ignobilis",
+    "conservacion":"LC preocupación menor",
+    "description": "Sexos similares. Es de color marrón oliva por encima, más pálido por debajo, con cara ligeramente más oscura, garganta blanquecina con rayas marrones, vientre medio hasta cloaca blanquecino; pico y patas negros, en muchas partes de su área de distribución es común en áreas urbanas y semiurbanas, a menudo vistos saltando por el césped en busca de gusanos y presas invertebradas.",
+    "mainImage": "Images/Interfaz/Cartas/Cantoras/mirla",
+    "habitat": "Se encuentra en claros, áreas semiabiertas, sabanas con bosques de galería, bosques secundarios más claros, bordes de bosques húmedos (en bosques extensos presentes solo a lo largo de los márgenes de grandes ríos), plantaciones de café de sombra, áreas perturbadas y varios hábitats de sucesión temprana; también pastizales con matorrales, parques, jardines, áreas urbanas y semiurbanas y bordes de pueblos.",
+    "diet": "Granívoro, frugívoro e insectívoro. Se alimentan de nueces, larvas de insectos, escarabajos, moscas, bayas, frutas, semillas, grillos y orugas, siendo los insectos más importantes en la época seca en Colombia. Común y visible en áreas ocupadas por el hombre. Se mantienen en individuos o parejas. Saltan por el suelo en prados y en general en áreas abiertas o en arbustos, aunque también se les ve visitando árboles frutales o en áreas con más vegetación.",
+    "reproduction":"La actividad reproductiva se registró entre diciembre y agosto y octubre en Colombia, donde la temporada parece variar según la región, los nidos se ubican en cercas, pastizales, bosques secundarios y alrededor de viviendas humanas. Se han registrado nidos en arbustos, tocones, en las horquillas de los árboles y situaciones similares, generalmente por debajo de los 5 m, con una altura promedio de alrededor de 2,5-3 m, ponen Huevos 2 o 3, de color azul verdoso con marcas marrones intensas, El período de incubación está poco documentado, se estima que dura entre 13 y 15 días en un nido.",
+    "size": "Mide entre 18.5 y 24.0 cm de longitud.",
+    "funFact1": "Turdus ignobilis es conocido por su canto melodioso y variado, que utiliza tanto para comunicarse como para marcar su territorio, siendo una de las aves más vocales en su entorno",
+    "funFact2": "Aunque se encuentra principalmente en áreas boscosas, esta ave se ha adaptado bien a entornos urbanos y rurales, donde puede ser vista buscando alimento en jardines, parques y áreas verdes cercanas a las zonas habitadas por humanos",
+    "location": "Universidad Javeriana de Cali",
+    "bibliography":"Turdus ignobilis, juega un papel importante en su ecosistema al dispersar semillas de los frutos que consume. Esto contribuye a la regeneración y propagación de plantas y árboles en su hábitat, promoviendo la biodiversidad. Además, se alimenta de insectos y pequeños invertebrados, ayudando a controlar sus poblaciones y manteniendo el equilibrio ecológico."
+  }
+},
+{
+  "modelIndex": 6,
+  "questions": [
+    {
+      "questionText": " ¿Cómo contribuye el ecoturismo a la conservación de las aves cantoras?",
+      "answers": [
+        "A) Generando ingresos que pueden apoyar la protección de su hábitat ",
+        "B) Promoviendo la captura de aves para colecciones",
+        "C) Destruyendo sus hábitats naturales",
+        "D) Incrementando la contaminación en áreas protegidas"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "¿Cuál es uno de los objetivos de los planes de adaptación climática para aves cantoras?",
+      "answers": [
+        "A) Aumentar la deforestación",
+        "B) Ignorar los cambios climáticos",
+        "C) Crear refugios climáticos y gestionar hábitats de altitud más alta",
+        "D) Reducir las áreas de conservación"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "¿Cuál es una característica común en la reproducción de las aves cantoras?",
+      "answers": [
+        "A) Ponen huevos durante todo el año",
+        "B) Los machos atraen a las hembras con su canto",
+        "C) No construyen nidos para sus crías",
+        "D) Las hembras cuidan solas de las crías después del nacimiento"
+      ],
+      "correctAnswerIndex": 1
+    }
+  ],
+  "birdInfo": {
+    "birdName": "Turpial",
+    "species": "Chlorophanes spiza",
+    "conservacion":"LC preocupación menor",
+    "description": "Deriva su nombre común de la gran cantidad de amarillo en su plumaje con su negro restringido a la cola, un babero amarillo estrecho y las alas.",
+    "mainImage": "Images/Interfaz/Cartas/Cantoras/turpial",
+    "habitat": "En la región del Caribe, principalmente en bosques y matorrales áridos a semiáridos, con cactus, mezquite y acacias; frecuenta bosques abiertos y bordes de bosque de galería; también en tierras cultivadas con árboles y arbustos, hábitat ribereño, rastrojos, parques, jardines en ciudades, zonas de cultivo y plantaciones forestales, pero prefieren las zonas secas en vez de regiones húmedas, es el Turpial más común en el área de Santa Marta, aún en manglares.",
+    "diet": "Los insectos en su mayoría pequeños escarabajos, moscas, orugas de mariposa y polillas, con algunas cigarras y saltamontes; otros artrópodos eran arañas y escorpiones de viento. Se alimenta también de frutos de cereza de Barbados y palmeras datileras. Toma néctar de las flores de los árboles Erythrina fusca y Pithecellobium saman. Generalmente en parejas o grupos pequeños.",
+    "reproduction":"Aparentemente monógama y territorial. Construyen nidos en forma de bolsa alargada que cuelgan de las ramas de árboles, son tejidos principalmente con fibras vegetales sobre todo hierbas y fibras de palma, nidada usualmente de 2 a 3 huevos, los cuales presentan una coloración que va de un blanco a un blanco azuloso con manchas de color negro purpura, distribuidas principalmente en la base más ancha del huevo.",
+    "size": "Mide entre 20.0 y 21.0 cm de longitud.",
+    "funFact1": "es el ave nacional de Venezuela y es apreciado por su llamativo plumaje amarillo y negro, así como por su canto melodioso y variado",
+    "funFact2": "Esta especie es conocida por su comportamiento oportunista, ya que puede utilizar nidos abandonados de otras aves o incluso robar materiales de otros nidos para construir el suyo.",
+    "location": "Universidad Javeriana de Cali",
+    "bibliography":"tiene un papel ecológico importante como dispersor de semillas, ya que se alimenta de frutas y ayuda a la propagación de plantas en su entorno. Además, consume insectos, contribuyendo al control de sus poblaciones y manteniendo el equilibrio del ecosistema donde habita."
+  }
+},
+{
+  "modelIndex": 6,
+  "questions": [
+    {
+      "questionText": " ¿Qué tipo de alimentos suelen consumir las aves cantoras?",
+      "answers": [
+        "A) Carne y pescado ",
+        "B) Insectos, semillas y frutas",
+        "C) Solo hojas y pasto",
+        "D) Peces y pequeños reptiles"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "¿Cómo contribuyen las aves cantoras a la reproducción de las plantas?",
+      "answers": [
+        "A) Regando las semillas",
+        "B) Comiendo las plantas",
+        "C) Dispersando semillas y polinizando flores",
+        "D) Alimentando a los insectos"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "¿Qué papel juegan las aves cantoras en el equilibrio de los ecosistemas?",
+      "answers": [
+        "A) Controlan la población de insectos y dispersan semillas",
+        "B) Solo embellecen el paisaje con su canto",
+        "C) Son depredadores de grandes mamíferos",
+        "D) No tienen un impacto en el ecosistema"
+      ],
+      "correctAnswerIndex": 3
+    }
+  ],
+  "birdInfo": {
+    "birdName": "Mielero verde ",
+    "species": "Chlorophanes spiza",
+    "conservacion":"LC preocupación menor",
+    "description": "El mielero verde,Chlorophanes spiza, es una especie de tángara verde pequeña. Una de las características más distintivas de esta especie es su pico delgado y ligeramente curvado hacia abajo, que es mayormente amarillo. El macho es de un verde más brillante y azulado, con una máscara ancha y negra. Las hembras son de un verde más opaco y uniforme",
+    "mainImage": "Images/Interfaz/Cartas/Cantoras/Verde",
+    "habitat": "El mielero verde se encuentra principalmente en el dosel de los bosques húmedos, en los bordes de los bosques y en los bosques secundarios con árboles grandes en tierras bajas y colinas. La preferencia de los árboles es generalmente por aquellos con frutos y flores, que utiliza como fuente de alimento",
+    "diet": "Principalmente omnívoro y su dieta consiste principalmente en frutas y algunos artrópodos, así como en néctar.",
+    "reproduction":"Los nidos son tazas pequeñas y poco profundas compuestas principalmente de hojas muertas, zarcillos, filamentos de hongos y raicillas, La hembra construye el nido sin la ayuda del macho, los huevos son de color blanco en general con manchas de color marrón oscuro que forman una corona cerca del extremo más grande del huevo, ponen 2 huevos. La hembra sola incuba los huevos durante 13 días.",
+    "size": "Mide 13 cm de longitud.",
+    "funFact1": "El mielero verde tiene una lengua larga y tubular que le permite extraer néctar de las flores de manera eficiente, similar a los colibríes, lo que lo convierte en un polinizador efectivo.",
+    "funFact2": "Los machos y las hembras de esta especie tienen un dimorfismo sexual notable: los machos son de un brillante color verde esmeralda, mientras que las hembras presentan un plumaje verde oliva más apagado",
+    "location": "Universidad Javeriana de Cali",
+    "bibliography":"Chlorophanes spiza, conocida como mielero verde, juega un papel importante en su ecosistema como polinizador y dispersor de semillas. Al alimentarse de néctar y frutos, contribuye a la polinización de diversas plantas y a la propagación de semillas, lo que favorece la regeneración y diversidad de la vegetación en su hábitat. También consume insectos, ayudando a controlar sus poblaciones"
+  }
+},
+{
+  "modelIndex": 6,
+  "questions": [
+    {
+      "questionText": " ¿Cuál es el hábitat preferido de muchas aves cantoras para anidar y reproducirse?",
+
+      "answers": [
+        "A) Desiertos ",
+        "B) Bosques y áreas con mucha vegetación",
+        "C) Zonas costeras",
+        "D) Praderas sin árboles"
+      ],
+      
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "¿Cómo influyen las aves cantoras en el control de plagas?",
+      "answers": [
+        "A) USe alimentan de hojas dañadas por plagas",
+        "B) Consumen insectos y pequeños artrópodos que afectan a las plantas",
+        "C) Atraen a otros depredadores que controlan las plagas",
+        "D) No tienen relación con el control de plagas"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "¿Qué estrategia utilizan las aves cantoras para atraer a sus parejas durante la época de reproducción?",
+      "answers": [
+        "A) PHacen vuelos en círculos",
+        "B) Emiten cantos elaborados y repetitivos",
+        "C) Cambian de color en su plumaje",
+        "D) Construyen nidos complejos"
+      ],
+      "correctAnswerIndex": 1
+    }
+  ],
+  "birdInfo": {
+    "birdName": "Canario Coronado ",
+    "species": "Sicalis flaveola",
+    "conservacion":"LC preocupación menor",
+    "description": "El pinzón azafrán, conocido por adaptarse bien a hábitats modificados por el ser humano, es común en su área de distribución. Es un ave de tamaño mediano con alas y cola cortas y un pico grande. El macho tiene un plumaje amarillo con tonos anaranjados en la cabeza y manchas que se extienden a la garganta y cara, además de tonos verdosos en las alas y cola. La hembra es similar, pero con colores más apagados y menos naranja en la corona, y un amarillo menos intenso en el abdomen. Los machos a menudo cantan desde una rama, un poste o una línea eléctrica.",
+    "mainImage": "Images/Interfaz/Cartas/Cantoras/CANARIO",
+    "habitat": "Amplia variedad de hábitats, generalmente semiabiertos con árboles o arbustos dispersos, incluidos bosques secos abiertos, sabanas, matorrales espinosos, bosques de chaco (bosques con áreas no inundables cubierta de pastizales), bordes de pantanos y cuerpos de agua, bordes de bosques de galería, matorrales al costado de caminos, crecimiento secundario y áreas agrícolas; también prados en pueblos.",
+    "diet": "Semillas, también pequeños artrópodos. Busca alimento en el suelo, a menudo en prados de zonas urbanas. Se encuentra en parejas y en pequeñas bandadas.",
+    "reproduction":"El nido es una semiesfera voluminosa de pastos secos, revestido con material más suave, incluido pelo, colocado en hojas de palma o en una cavidad, por ejemplo, una tubería, un alero de techo;nidada de 2 a 4 huevos, de color crema con marcas de color marrón violáceo.",
+    "size": "Mide entre 13.5 y 15.0 cm de longitud.",
+    "funFact1": "Los machos de Sicalis flaveola tienen un llamativo plumaje amarillo brillante, especialmente durante la época de reproducción, mientras que las hembras presentan colores más apagados para camuflarse mejor",
+    "funFact2": "Esta especie se adapta muy bien a entornos urbanos y rurales, y a menudo se les puede ver en áreas habitadas por humanos, construyendo sus nidos en techos, estructuras artificiales o incluso cajas de nido.",
+    "location": "Universidad Javeriana de Cali",
+    "bibliography":"Sicalis flaveola, desempeña un papel importante en su ecosistema al consumir semillas, contribuyendo a la dispersión y control de plantas y malezas. También se alimenta de insectos, lo que ayuda a regular las poblaciones de estos invertebrados y a mantener el equilibrio ecológico en su hábitat."
+  }
+},
+
+
+
+
+
+
+
+
+
+{
+  "birdTypeId": 6,
+  "allModelQuestions": [
+    {
+      "modelIndex": 0,
+      "questions": [
+        {
+          "questionText": "¿Cuál de las siguientes adaptaciones es común en las aves de vuelo intenso?",
+          "answers": [
+            "A) Cuerpos pesados y alas cortas",
+            "B) Cuerpos aerodinámicos y alas largas y estrechas",
+            "C) Patas largas para caminar",
+            "D) Todas las anteriores"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "questionText": "¿Qué papel juegan las aves de vuelo intenso en el ecosistema? ",
+          "answers": [
+            "A) Solo son responsables de la dispersión de semillas",
+            "B) Principalmente se alimentan de plantas",
+            "C) Contribuyen al control de insectos y la dispersión de semillas y polen",
+            "D) Todas las anteriores"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿Cuál es una amenaza significativa para las aves de vuelo intenso en las ciudades? ",
+          "answers": [
+            "A) La pérdida de hábitat debido a la expansión urbana ",
+            "B) La falta de alimento en áreas urbanas",
+            "C) La competencia con otras especies de aves",
+            "D) Todas las anteriores"
+          ],
+          "correctAnswerIndex": 0
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Carpinterito Punteado",
+        "species": "Picumnus granadensis",
+        "conservacion":"LC preocupación menor",
+        "description": "El macho es negro desde la frente a la nuca con puntos de color amarillo en la coronilla y blanco detrás. La hembra se distingue porque presenta puntos blancos en la cabeza.  Permanece solo, en parejas o grupos familiares y en ocasiones se une a bandadas mixtas.",
+        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/CarpinteroPunteado",
+        "habitat": "Es una especie de distribución restringida que se puede encontrar en bordes de bosques secos a moderadamente húmedos, matorrales de segundo crecimiento y arbolado, y bosques del noroeste de Colombia. Este pequeño pájaro carpintero es de color blanco grisáceo opaco y tiene la frente y la corona moteadas de amarillo y blanco.",
+        "diet": "Esta especie, que es exclusivamente insectívora, se puede encontrar buscando alimento de forma individual o en pequeños grupos.",
+        "reproduction": "Temporada aparentemente de enero a junio aproximadamente. Anida en cavidades de troncos de árboles muerto.",
+        "size": "Mide entre 9 y 10 cm de longitud",
+        "funFact1": "Endémica de Colombia: La Picumnus granadensis es endémica de Colombia, lo que significa que solo se encuentra en ese país. Prefiere habitar áreas de bosque seco y zonas montañosas, lo cual la convierte en una especie muy particular de la avifauna colombiana",
+        "funFact2": "Tamaño Pequeño y Adaptación: Es uno de los pájaros carpinteros más pequeños, midiendo apenas unos 10 cm de longitud. A pesar de su tamaño, presenta el comportamiento típico de los carpinteros, excavando la madera con fuerza para buscar alimento, lo cual es sorprendente dada su diminuta constitución",
+        "location": "Ecohotel El Castillo",
+        "ecosistema":"La Picumnus granadensis, conocida como carpinterito colombiano, desempeña un papel importante en el ecosistema al contribuir al control de insectos en árboles, ya que se alimenta principalmente de larvas e insectos que encuentra bajo la corteza. Al excavar en la madera, también crea cavidades que eventualmente pueden ser usadas por otras especies, como pequeños pájaros o insectos, contribuyendo así a la biodiversidad de su hábitat",
+        "bibliography": "Smithsonian Institution, 2018"
+      }
+    },
+    {
+      "modelIndex": 1,
+      "questions": [
+        {
+          "questionText": " ¿Cuál es una estrategia para proteger los hábitats de las aves de vuelo intenso?",
+          "answers": [
+            "A) Establecer reservas naturales y parques nacionales ",
+            "B) Expandir áreas urbanas para el desarrollo",
+            "C) Reducir la cantidad de vegetación en áreas urbanas",
+            "D) Todas las anteriores"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "Qué es un corredor biológico y por qué es importante para las aves de vuelo intenso?",
+          "answers": [
+            "A) Un área que conecta diferentes ecosistemas, permitiendo el desplazamiento seguro de aves",
+            "B) Un espacio verde en la ciudad para paseos",
+            "C)  Un área de cultivo agrícola",
+            "D) Todas las anteriores"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "¿Cómo puede la educación ambiental ayudar en la conservación de las aves de vuelo intenso?",
+          "answers": [
+            "A) Promoviendo la caza regulada",
+            "B) Incrementando el uso de pesticidas",
+            "C) Enseñando a las personas la importancia de estas aves y fomentando su participación en la conservación",
+            "D) Todas las anteriores"
+          ],
+          "correctAnswerIndex": 1
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Carpintero Real ",
+        "species": "Dryocopus lineatus",
+        "conservacion":"LC preocupación menor",
+        "description": "El pájaro carpintero rayado es un pájaro carpintero grande y crestado, es de color negro en general, con una cresta roja brillante, barras blancas en las partes inferiores y una línea blanca que se extiende por el cuello. Los machos tienen rojo en la mejilla, mientras que las hembras no",
+        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Real",
+        "habitat": "El pájaro carpintero rayado habita en bosques y selvas húmedas, de transición y moderadamente secas. Generalmente, prefiere áreas relativamente abiertas como bordes de bosques, bosques secundarios y pastizales; no se encuentra en el interior de bosques húmedos de tierras bajas, pero ocupa los bordes de bosques y los bosques ribereños. En áreas más secas, el pájaro carpintero rayado habita en bosques de pinos y galerías, así como en matorrales espinosos",
+        "diet": "La dieta se compone principalmente de escarabajos y sus larvas, hormigas y sus larvas, orugas y ortópteros, frecuentemente recolectados de Cecropia árboles. Aunque es principalmente insectívoro. Suele encontrarse solitario o en parejas. En las ciudades, aprovecha las lámparas para picotearlas, amplificando el sonido de su tamborileo, y anunciándole a otros carpinteros su presencia y su territorio",
+        "reproduction": "El tamaño de la nidada varía de 2 a 4 huevos. Los machos y las hembras toman turnos de 2 a 3 horas incubando durante el día, pero solo los machos incuban por la noche. Los polluelos son alimentados aproximadamente una vez por hora por ambos padres mediante regurgitación; la hembra realiza la mayor parte de la alimentación mientras el macho cuida el nido",
+        "size": "Mide entre 37.7 y 41.8 cm de longitud",
+        "funFact1": "Se comunican a través de vocalizaciones, tambores y golpes, especialmente durante la defensa del territorio",
+        "funFact2": "Ambos sexos excavan los nidos, que tienen unos 45 cm de profundidad, 13 x 18 cm de ancho y una entrada de unos 9 cm de diámetro",
+        "location": "Universidad Javeriana de Cali",
+        "ecosistema":"Juega un papel esencial en su ecosistema al controlar poblaciones de insectos que se encuentran bajo la corteza de los árboles, especialmente larvas de escarabajos y otros xilófagos, lo cual ayuda a mantener la salud de los bosques. Además, al perforar troncos para alimentarse o anidar, crea cavidades que luego pueden ser usadas por otras aves, mamíferos pequeños y reptiles, aumentando así la disponibilidad de refugios y favoreciendo la biodiversidad en su hábitat",
+        "bibliography": "BirdLife International, 2019"
+      }
+    }
+ 
+   
+]
+}
+
   ]
 }
+

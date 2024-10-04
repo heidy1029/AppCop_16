@@ -429,8 +429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -535.51}
-  m_SizeDelta: {x: 983, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -535.51}
+  m_SizeDelta: {x: 1823, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8083970540238208890
 CanvasRenderer:
@@ -592,8 +592,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 531.5, y: -528.76}
-  m_SizeDelta: {x: 983, y: 0}
+  m_AnchoredPosition: {x: 951.5, y: -528.76}
+  m_SizeDelta: {x: 1823, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392642564225799238
 MonoBehaviour:
@@ -670,8 +670,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 531.5, y: -133.52}
-  m_SizeDelta: {x: 983, y: 0}
+  m_AnchoredPosition: {x: 951.5, y: -133.52}
+  m_SizeDelta: {x: 1823, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278259235492561525
 MonoBehaviour:
@@ -857,8 +857,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -33.52}
-  m_SizeDelta: {x: 983, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -33.52}
+  m_SizeDelta: {x: 1823, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5499161939970239376
 CanvasRenderer:
@@ -1085,8 +1085,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -379.65}
-  m_SizeDelta: {x: 983, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -379.65}
+  m_SizeDelta: {x: 1823, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7499473519377571796
 CanvasRenderer:
@@ -1248,8 +1248,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -223.79001}
-  m_SizeDelta: {x: 983, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -223.79001}
+  m_SizeDelta: {x: 1823, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4875589176558537157
 CanvasRenderer:
@@ -1408,8 +1408,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -67.93}
-  m_SizeDelta: {x: 903, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -67.93}
+  m_SizeDelta: {x: 1743, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3498985582505654576
 CanvasRenderer:
@@ -1683,8 +1683,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -67.93}
-  m_SizeDelta: {x: 903, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -67.93}
+  m_SizeDelta: {x: 1743, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4365567883583864852
 CanvasRenderer:
@@ -1832,8 +1832,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -67.93}
-  m_SizeDelta: {x: 903, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -67.93}
+  m_SizeDelta: {x: 1743, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5819909211496568525
 CanvasRenderer:
@@ -1984,8 +1984,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -67.93}
-  m_SizeDelta: {x: 983, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -67.93}
+  m_SizeDelta: {x: 1823, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3055763109134103167
 CanvasRenderer:
@@ -2372,8 +2372,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 491.5, y: -67.93}
-  m_SizeDelta: {x: 903, y: 0}
+  m_AnchoredPosition: {x: 911.5, y: -67.93}
+  m_SizeDelta: {x: 1743, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2968063841250272322
 CanvasRenderer:
