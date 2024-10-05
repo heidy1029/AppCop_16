@@ -872,6 +872,324 @@
           "modelIndex": 0,
           "questions": [
             {
+              "questionText": "Cuál es una característica distintiva del pico de los Falconiformes?",
+              "answers": [
+                "A) Tienen un pico recto y afilado.",
+                "B) Tienen un pico en forma de gancho para rasgar hojas.",
+                "C) Tienen un pico con un diente tomial. ",
+                "D) Tienen un pico plano y ancho para filtrar agua."
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿En qué tipo de hábitat se pueden encontrar a menudo los halcones peregrinos? ",
+              "answers": [
+                "A) Solo en Europa y América",
+                "B) Solo en América del Norte y Asia",
+                "C) En todos los continentes incluyendo la Antártida",
+                "D) En todos los continentes excepto en la Antártida"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Qué adaptaciones tienen las alas de los Falconiformes?",
+                "answers": [
+                "A) Alas delgadas y puntiagudas para velocidad y maniobrabilidad.",
+                "B) Alas anchas y redondeadas para vuelo lento.",
+                "C) Alas cortas y redondeadas para vuelo rápido.",
+                "D) Alas largas y planas para planeo."
+              ],
+              "correctAnswerIndex": 0
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Caracara de cabeza amarilla",
+            "species": "Daptrius chimachima",
+            "conservacion":"LC preocupación menor",
+            "description": "Se distingue por su plumaje marrón claro a pardo, con una cabeza y cuello más pálidos, y las puntas de las alas oscuras. Tiene una apariencia esbelta y una postura erguida, lo que le da un aspecto elegante. Posee un pico ganchudo amarillo con la punta negra y patas largas de color amarillo, adaptadas para caminar en busca de alimento.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Caracara",
+            "habitat": "Habita en ecosistemas abiertos, desde pastizales, sabanas y tierras agrícolas hasta zonas urbanas,. Prefiere áreas abiertas donde pueda cazar, pero se adapta fácilmente a hábitats alterados por el ser humano, incluyendo zonas de cultivo y ciudades.",
+            "diet": "Dieta variada, omnívoras, pequeños mamíferos, aves, reptiles, carroña,  insectos, otros invertebrados y frutos. Aprovechan para alimentarse en zonas urbanas, incluyendo desechos y comida fácil de obtener. Es un ave oportunista, lo que le permite sobrevivir en distintos ambientes.",
+            "reproduction": "Anidan en árboles y palmeras, en nidos grandes hechos de ramas y otros materiales vegetales. La hembra suele poner de 2 a 3 huevos, que son incubados durante aproximadamente 28 a 32 días. Ambos padres participan en la alimentación de los polluelos una vez que nacen.",
+            "size": "Aproximadamente entre 40-45 cm de longitud",
+            "funFact1": "Aunque es un ave rapaz, la Pigua a menudo se la observa caminando por el suelo buscando alimento, algo inusual para aves de este tipo.",
+            "funFact2": "Esta especie ha demostrado ser altamente adaptable a entornos urbanos, aprovechando recursos humanos, como desperdicios de comida, lo que le ha permitido prosperar en áreas pobladas.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "El Daptrius chimachima desempeña un papel importante como carroñero, ayudando a limpiar el ambiente al alimentarse de animales muertos, y como controlador de plagas, ya que consume insectos y pequeños vertebrados. Esta ave contribuye a mantener el equilibrio ecológico al regular las poblaciones de presas y evitar la propagación de enfermedades a través de la eliminación de cadáveres."
+          }
+        },
+        {
+          "modelIndex": 1,
+          "questions": [
+            {
+              "questionText": "¿Cuál es uno de los hábitats menos comunes para los Falconiformes?",
+                "answers": [
+                "A) Selvas tropicales.",
+                "B) Praderas.",
+                "C) Desiertos.",
+                "D) Zonas subterráneas."
+              ],
+              "correctAnswerIndex": 3
+            },
+            {
+              "questionText": "¿Qué tipo de presas suelen cazar los Falconiformes?",
+                "answers": [
+                "A) Principalmente aves pequeñas, insectos y, en algunos casos, pequeños mamíferos.",
+                "B) Principalmente peces grandes.",
+                "C) Principalmente plantas y néctar.",
+                "D) Principalmente grandes mamíferos terrestres."
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "¿Cómo utilizan los Falconiformes su velocidad en la caza?",
+                "answers": [
+                "A) Para atacar presas en el suelo.",
+                "B) Para buscar presas en el agua.",
+                "C) Para atrapar presas durante la noche.",
+                "D) Para realizar ataques rápidos y sorpresivos en el aire."
+              ],
+              "correctAnswerIndex": 3
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Halcon aplomado",
+            "species": "Falco femoralis",
+            "conservacion":"LC preocupación menor",
+            "description": "Es un ave de presa ágil y rápida, con plumaje gris oscuro y una máscara negra en la cabeza. Es conocido por cazar en equipo y utilizar nidos abandonados de otras aves, ya que no construye los suyos propios.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Aplomado",
+            "habitat": "Prefiere áreas abiertas como pastizales, sabanas, y bordes de bosques. También habita en llanuras, desiertos y regiones cercanas a pantanos, donde caza en vuelo y encuentra refugio en árboles o estructuras elevadas",
+            "diet": "Se alimentan de diversos animales, insectos, lagartijas, aves y pequeños mamíferos. Cazan insectos y aves en el aire o persiguen presas en el suelo, y a menudo cazan en pareja de manera cooperativa, donde una ave asusta a la presa y la otra la intercepta.",
+            "reproduction": "Anidan en árboles, palmeras o en el suelo,  utilizan vigas de postes de electricidad. No construyen sus propios nidos, sino que ocupan nidos abandonados de otras aves rapaces, carpinteros o aves medianas. Ponen de 2 a 4 huevos y tienen una cría por temporada.",
+            "size": "Mide entre 38 y 43 cm de longitud.",
+            "funFact1": "Es uno de los pocos halcones que caza tanto en solitario como en pareja, lo que aumenta su eficiencia para atrapar presas",
+            "funFact2": "Las parejas de halcones aplomados se pasan la comida en el aire. A veces, el macho le pasa la comida a la hembra con facilidad; otras veces, se queda con la comida demasiado tiempo y la hembra lo arrastra en el aire hasta que lo suelta.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "El halcón plomizo (Falco femoralis) tiene un impacto importante en su ecosistema como controlador de poblaciones de pequeños mamíferos, aves e insectos. Al ser un depredador tope, mantiene el equilibrio de las especies presa mas abundantes y ayuda a regular las cadenas alimenticias en los pastizales y áreas boscosas donde habita. Esto reduce la sobrepoblación de ciertas especies y contribuye a la salud del ecosistema."
+          }
+        },
+        {
+          "modelIndex": 2,
+          "questions": [
+            {
+              "questionText": "¿Qué papel juegan los Falconiformes en la biodiversidad de su ecosistema?",
+                "answers": [
+                "A) Disminuyen la biodiversidad.",
+                "B) No afectan la biodiversidad.",
+                "C) Contribuyen a mantener la biodiversidad al controlar las poblaciones de presas.",
+                "D) Solo afectan a la biodiversidad de los bosques."
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Cómo es la visión de los Falconiformes en comparación con los humanos?",
+                "answers": [
+                "A) Aproximadamente igual a la de los humanos.",
+                "B) Aproximadamente 1.5 veces mejor que la de los humanos.",
+                "C) Aproximadamente 2.6 veces mejor que la de los humanos.",
+                "D) Aproximadamente 5 veces mejor que la de los humanos."
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Qué impacto tienen los Falconiformes en las poblaciones de pequeños mamíferos?",
+                "answers": [
+                "A) Aumentan las poblaciones de pequeños mamíferos.",
+                "B) No afectan las poblaciones de pequeños mamíferos.",
+                "C) Regulan y mantienen equilibradas las poblaciones de pequeños mamíferos.",
+                "D) Solo afectan a grandes mamíferos."
+              ],
+              "correctAnswerIndex": 2
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Cernicalo americano",
+            "species": "Falco sparverius",
+            "conservacion":"LC preocupación menor",
+            "description": "La chachalaca colombiana, endémica de Colombia, como su nombre lo sugiere, se puede identificar fácilmente. Todas las especies tienen colas largas.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Americano",
+            "habitat": "El cernícalo americano (Falco sparverius) prefiere áreas abiertas con vegetación baja y árboles dispersos, como prados, pastizales, desiertos, parques y campos agrícolas. Esta especie se adapta bien a hábitats modificados por el ser humano, como pastizales y parques urbanos, y es común encontrarla en ciudades, suburbios y zonas cercanas a la actividad humana.",
+            "diet": "Los cernícalos americanos se alimentan principalmente de insectos y otros invertebrados, así como de pequeños roedores y pájaros. Entre sus alimentos más habituales se encuentran los saltamontes, las cigarras, los escarabajos y las libélulas; los escorpiones y las arañas; las mariposas y las polillas; los topillos, los ratones, las musarañas, los murciélagos y los pájaros cantores pequeños. Los cernícalos americanos también comen a veces pequeñas serpientes, lagartijas y ranas. ",
+            "reproduction": "En la reproducción del cernícalo americano (Falco sparverius), el macho busca cavidades en árboles o áreas abiertas para los nidos, que la hembra elige. No construyen nidos, sino que usan las cavidades existentes y se adaptan a cajas nido. Las hembras ponen entre 4 y 5 huevos, pero la exposición a pesticidas y contaminantes disminuye el tamaño de las nidadas y la tasa de eclosión, afectando también a sus presas, como insectos y arañas.",
+            "size": "Mide entre 22 y 27 centímetros de longitud.",
+            "funFact1": "El cernícalo americano es capaz de cernirse en el aire, quedándose inmóvil en vuelo mientras busca presas.",
+            "funFact2": "Es la especie de halcón más pequeña y común en América, siendo altamente adaptable a diferentes entornos.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "El Falco sparverius (cernícalo americano) contribuye positivamente al ecosistema actuando como controlador de plagas, al alimentarse de insectos, roedores y pequeños vertebrados, lo que protege cultivos y vegetación. Además, regula las poblaciones de especies pequeñas, manteniendo el equilibrio ecológico. Su sensibilidad a contaminantes, como pesticidas, lo convierte en un indicador de la salud del ecosistema, alertando sobre problemas ambientales como la degradación del hábitat."
+          }
+        },
+        {
+          "modelIndex": 3,
+          "questions": [
+            {
+              "questionText": "¿Qué característica de las águilas las hace destacar en cuanto a sus nidos?",
+                "answers": [
+                "A) Construyen algunos de los nidos más grandes del mundo.",
+                "B) Construyen los nidos más pequeños de las aves rapaces.",
+                "C) Nunca reutilizan sus nidos.",
+                "D) Prefieren construir nidos en el suelo."
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "¿Qué simbolizan culturalmente muchas especies de Accipitriformes, como las águilas?",
+                  "answers": [
+                  "A) Destrucción.",
+                  "B) Aislamiento.",
+                  "C) Poder y majestuosidad.",
+                  "D) Temor y debilidad."
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Por qué las Accipitriformes son importantes para evitar la propagación de enfermedades en el ecosistema?",
+                  "answers": [
+                  "A) Porque se alimentan de carroña.",
+                  "B) Porque eliminan insectos.",
+                  "C) Porque purifican el agua.",
+                  "D) Porque controlan la población de depredadores más pequeños."
+              ],
+              "correctAnswerIndex": 0
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Gavilan caminero",
+            "species": "Rupornis magnirostris",
+            "conservacion":"LC preocupación menor",
+            "description": "Se destaca por su plumaje grisáceo con bandas oscuras en la cola y un vientre barrado. Tiene ojos amarillos brillantes y patas largas y amarillas. Es una de las aves rapaces más comunes en América Latina.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Caminero",
+            "habitat": "En una amplia variedad de ecosistemas, desde bosques tropicales y subtropicales hasta áreas abiertas, sabanas, tierras agrícolas y zonas urbanas.",
+            "diet": "Es un cazador oportunista y su dieta incluye mamíferos pequeños, aves, lagartijas, serpientes y grandes insectos. Se le observa cazando tanto desde perchas como en vuelo, y es conocido por cazar activamente en áreas abiertas o semiboscosas.",
+            "reproduction": "Anida en árboles, donde construye nidos de palos y ramas. La hembra pone de 1 a 2 huevos, los cuales son incubados durante aproximadamente 30 días. Ambos padres participan en el cuidado y alimentación de los polluelos, que abandonan el nido después de unos 40 a 45 días.",
+            "size": "mide entre 33 y 41 centímetros de longitud.",
+            "funFact1": "Es una especie muy adaptable, lo que le ha permitido prosperar en áreas urbanas y rurales, aprovechando tanto presas naturales como aquellas asociadas a la actividad humana.",
+            "funFact2": "A diferencia de muchas aves rapaces que dependen de la caza aérea, el gavilán caminero caza frecuentemente en el suelo, persiguiendo a sus presas a pie.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "Este gavilán juega un papel crucial en el control de poblaciones de pequeños vertebrados e invertebrados. Al ser un depredador tope, ayuda a mantener el equilibrio ecológico al controlar roedores, lagartijas e insectos. Su presencia en áreas agrícolas también lo convierte en un aliado para los agricultores, ya que reduce las plagas de roedores."
+          }
+        },
+        {
+          "modelIndex": 4,
+          "questions": [
+            {
+              "questionText": "¿Qué característica de las águilas las hace destacar en cuanto a sus nidos?",
+                "answers": [
+                "A) Construyen algunos de los nidos más grandes del mundo.",
+                "B) Construyen los nidos más pequeños de las aves rapaces.",
+                "C) Nunca reutilizan sus nidos.",
+                "D) Prefieren construir nidos en el suelo."
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "¿Qué simbolizan culturalmente muchas especies de Accipitriformes, como las águilas?",
+                  "answers": [
+                  "A) Destrucción.",
+                  "B) Aislamiento.",
+                  "C) Poder y majestuosidad.",
+                  "D) Temor y debilidad."
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Qué sucede si se reduce la población de Accipitriformes en un ecosistema?",
+                "answers": [
+                "A) Las presas disminuyen.",
+                "B) No afecta al ecosistema.",
+                "C) Aumenta la sobrepoblación de presas.",
+                "D) La cadena alimentaria se vuelve más estable."
+              ],
+              "correctAnswerIndex": 2
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Aguila coliblanca",
+            "species": "Geranoaetus albicaudatus",
+            "conservacion":"LC preocupación menor",
+            "description": "Este gavilán grande, con plumaje negro en la cabeza, franjas rojizas en los hombros y un pecho blanco brillante, habita en regiones abiertas y áridas. Es tímido, caza pequeños vertebrados e invertebrados y evita anidar cerca de la actividad humana y en campos cultivados.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Coliblanco",
+            "habitat": "Este halcón prefiere praderas o sabanas abiertas y semiabiertas, desde húmedas hasta áridas, y se adapta bien a plantas espinosas y arbustivas. No le agradan los campos agrícolas cultivados, pero tolera pastos para ganado que no han sido sobrepastoreados.",
+            "diet": "Se alimenta de pequeños vertebrados y artrópodos, cazando desde la percha y en el aire, principalmente por la tarde. Atrapa a sus presas con las patas, comenzando a comerlas por la cabeza, y las que se dan a los polluelos suelen estar desprovistas de la cabeza y parte del torso.",
+            "reproduction": "Sus nidos normalmente son aproximadamente ovoides o elípticos, planos, construidos de manera suelta con ramas secas, ramitas, pastos y hierbas. Se sabe que las parejas construyen 1 o 2 nidos, que finalmente no utilizan, antes de aquel en el que ponen los huevos; esto posiblemente se deba a las visitas de humanos. Normalmente ponen 2, a veces 3 huevos, raramente 1 o 4.",
+            "size": ": entre 46 y 52 cm de longitud.",
+            "funFact1": "El águila alilarga es conocida por sus impresionantes habilidades de vuelo, que le permiten planear a grandes alturas y cubrir extensas áreas en busca de presas.",
+            "funFact2": "A menudo se la puede ver posada en puntos altos, como árboles o rocas, desde donde tiene una vista panorámica de su entorno, lo que le facilita localizar a sus presas.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "El Geranoaetus albicaudatus, conocido como el águila coliblanca, desempeña un papel crucial en su ecosistema al actuar como depredador tope. Su presencia ayuda a regular las poblaciones de pequeños mamíferos, aves y reptiles, manteniendo el equilibrio ecológico. Al cazar presas, también contribuye a la dispersión de nutrientes a través de sus excrementos, lo que favorece la fertilidad del suelo."
+          }
+        },
+        {
+          "modelIndex": 5,
+          "questions": [
+            {"questionText": "¿Cómo afecta la adaptación de los Cathartiformes a su hábitat a su comportamiento social?",
+              "answers": [
+                "A) Les impide formar grupos.",
+                "B) Les permite encontrar carroña más rápidamente en grupo.",
+                "C) Les obliga a cazar de manera solitaria.",
+                "D) Les reduce su capacidad de vuelo."
+              ],
+              "correctAnswerIndex": 1
+            },
+            {
+              "questionText": "¿Cuál es el tipo de alimento principal para los Cathartiformes?",
+              "answers": [
+                "A) Frutas.",
+                "B) Insectos.",
+                "C) Carroña.",
+                "D) Peces vivos."
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Cómo contribuyen los Cathartiformes al ciclo de nutrientes en los ecosistemas?",
+                "answers": [
+                  "A) Ayudan a la rápida descomposición de materia orgánica.",
+                  "B) Evitan la competencia entre especies.",
+                  "C) Incrementan la población de insectos.",
+                  "D) Facilitan la dispersión de semillas."
+                ],
+                "correctAnswerIndex": 0
+              }
+          ],
+          "birdInfo": {
+            "birdName": "Buitre Negro",
+            "species": "Geranoaetus albicaudatus",
+            "conservacion":"LC preocupación menor",
+            "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Coliblanco",
+            "habitat": "Se presenta principalmente en hábitats abiertos o semiabiertos con abundante carroña para alimentarse como granjas, sabanas, pastizales, claros, manglares y pueblos. Asociada con las viviendas humanas y se alimenta en las calles, en los basureros y alrededor de los mataderos.",
+            "diet": "Depende principalmente de carroña, en su mayoría mamíferos grandes, pero es oportunista y busca con facilidad basura, despojos y otros desechos comestibles desechados. Ocasionalmente consume presas vivas, los alimentos se pueden conseguir en mercados, mataderos y zonas de descarga de pescado, vertederos de basura.",
+            "reproduction": "Anida típicamente en huecos oscuros o bajo algún tipo de cubierta. Cuevas, troncos huecos, tocones y troncos de árboles, grietas entre rocas, montones de maleza, matorrales, edificios abandonados y sitios al lado o debajo de árboles y troncos son todos utilizados. Casi siempre 2 huevos. ",
+            "size": ": Mide entre 60 y 68 cm de longitud.",
+            "funFact1": "En lugar de construir un nido, la hembra pone sus huevos en el suelo desnudo de una cueva, un árbol hueco, un edificio abandonado u otro rincón oscuro.",
+            "funFact2": "Se ha expresado preocupación por la amenaza que la especie representa para las aeronaves, así como por los impactos de la especie en la propiedad personal, la infraestructura pública y, especialmente, la agricultura, a través de la supuesta depredación del ganado.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas."
+          }
+        }
+
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "birdTypeId": 4,
+      "allModelQuestions": [
+        {
+          "modelIndex": 0,
+          "questions": [
+            {
               "questionText": "¿Qué característica única de las aves del orden Columbiformes les permite alimentar a sus crías?",
               "answers": [
                 "A) Son monógamas y cuidan de sus crías en pareja",
@@ -922,22 +1240,22 @@
           "modelIndex": 1,
           "questions": [
             {
-              "questionText": "¿Cuál de las siguientes especies de Columbiformes presenta un plumaje verde y brillante?",
-              "answers": [
-                "A) Paloma bravía",
-                "B) Paloma migratoria",
-                "C) Tórtola esmeralda",
-                "D) Tórtola común"
+              "questionText": "¿Qué sucede si se reduce la población de Accipitriformes en un ecosistema?",
+                "answers": [
+                "A) Las presas disminuyen.",
+                "B) No afecta al ecosistema.",
+                "C) Aumenta la sobrepoblación de presas.",
+                "D) La cadena alimentaria se vuelve más estable."
               ],
               "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Cuál es la principal fuente de alimento de las aves del orden Columbiformes? ",
-              "answers": [
-                "A) Semillas, frutos y brotes",
-                "B) Frutos secos y carne",
-                "C) Peces y algas",
-                "D) Néctar y polen"
+              "questionText": "¿Además de cazar, de qué otra fuente se alimentan muchas especies de Accipitriformes?",
+                "answers": [
+                "A) Carroña.",
+                "B) Insectos.",
+                "C) Néctar.",
+                "D) Hongos."
               ],
               "correctAnswerIndex": 0
             },
