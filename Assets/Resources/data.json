@@ -89,11 +89,11 @@
           "birdInfo": {
             "birdName": "suirirí piquirrojo",
             "species": "Dendrocygna autumnalis",
-            "description": "Destaca por su pecho de color leonado y su vuelo ágil.",
+            "description": "Es una ave acuática que se distingue por su plumaje marrón rojizo, su pico rojo brillante y sus patas rosadas. Los patitos tienen un plumón amarillo único con marcas negras, abajo) y un pico y patas de color gris a gris negruzco.",
             "mainImage":"Images/Interfaz/Cartas/Acuaticas/siririPiquirojo",
-            "habitat": "Bosques templados y jardines",
-            "diet": "Es variada, incluyendo plantas acuáticas, semillas, y pequeños invertebrados, lo que lo convierte en un contribuyente importante al control de la vegetación acuática y la dispersión de semillas en su entorno",
-            "reproduction": "Anida en árboles como en el suelo cercano a cuerpos de agua, y pone entre 10 y 16 huevos. Ambos padres cuidan a las crías, que son capaces de nadar y alimentarse poco después de nacer",
+            "habitat": "Habita en humedales, lagunas y cuerpos de agua de América, desde el sur de Estados Unidos hasta Argentina.",
+            "diet": "Es variada, incluyendo plantas acuáticas, semillas, y pequeños invertebrados, lo que lo convierte en un contribuyente importante al control de la vegetación acuática y la dispersión de semillas en su entorno.",
+            "reproduction": "Anida en árboles como en el suelo cercano a cuerpos de agua, y pone entre 10 y 16 huevos. Ambos padres cuidan a las crías, que son capaces de nadar y alimentarse poco después de nacer.",
             "size": "3.5 pulgadas",
             "funFact1": "El pato silbón es conocido por su llamado silbante, que emite incluso durante el vuelo.",
             "funFact2": "Anidan en cavidades de árboles, adaptándose a una gran variedad de hábitats.",
@@ -239,7 +239,7 @@
             "conservacion":"LC preocupación menor",
             "description": "A menudo se la encuentra buscando alimento sola en la vegetación densa a lo largo de los cuerpos de agua. La Butorides striata se reproduce en hábitats cercanos al agua, lo que facilita la búsqueda de alimento para sus crías. Durante la temporada reproductiva, forman parejas monógamas que se disuelven al final del periodo. Tanto el macho como la hembra participan en la incubación y cuidado de los polluelos, mostrando un cuidado biparental.",
             "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarzitaAzulada",
-            "habitat": " Se encuentra en pantanos de agua dulce y salada desde el este de Panamá hacia el sur hasta el norte de Argentina.  Normalmente solitaria, se encuentra perchada tranquilamente en vegetación densa a lo largo de arroyos, ríos, lagos, estanques o estuarios; a veces en áreas más abiertas, incluyendo marismas, zonas de mareas e incluso arrecifes de coral expuestos, o en suelo seco incluyendo crecimiento secundario, en humedales como pantanos herbáceos, campos agrícolas, ríos, lagos,  bosque y plantaciones de coco, también en cañaverales, pastizales, arrozales y otros cultivos inundados.",
+            "habitat": "Habita en pantanos de agua dulce y salada desde el este de Panamá hasta el norte de Argentina. Es solitaria y se posa en vegetación densa cerca de arroyos, ríos, lagos y estuarios. También se encuentra en marismas, zonas de mareas, arrecifes expuestos, terrenos secos y humedales como campos agrícolas, arrozales, cañaverales y pastizales inundados.",
             "diet": "Emplea una gran variedad de técnicas de búsqueda de alimento para atrapar presas como peces, anfibios, insectos y crustáceos.",
             "reproduction": "Es una pequeña garza de hábitos solitarios. Su reproducción se da principalmente en zonas cercanas a cuerpos de agua, como manglares, ríos o lagunas. Estas aves construyen nidos en árboles o arbustos, utilizando ramas y otros materiales vegetales. Las hembras suelen poner de 2 a 5 huevos, de color azul verdoso. Ambos progenitores comparten la incubación de los huevos y el cuidado de los polluelos hasta que estos son capaces de valerse por sí mismos.",
             "size": " Mide entre 35 y 48 centímetros de longitud",
@@ -296,8 +296,7 @@
             "funFact1": "Comportamiento social: Esta especie es conocida por ser muy sociable, formando grandes grupos, a menudo mezclándose con otras especies de aves acuáticas. Su comportamiento gregario le facilita encontrar alimento y protección frente a depredadores en su hábitat.",
             "funFact2": "Color del pico y la cara: El ibis de cara desnuda tiene una apariencia inusual con su rostro sin plumas de color rosado o rojo, contrastando con su plumaje oscuro. Este rasgo distintivo le ayuda a diferenciarse de otras especies de ibis..",
             "location": "Universidad Javeriana de Cali",
-            "ecosistema":"La Phimosus infuscatus, o ibis de cara desnuda, es vital para los ecosistemas acuáticos y de humedales. Regula las poblaciones de invertebrados al alimentarse de ellos, manteniendo el equilibrio trófico, y contribuye al reciclaje de nutrientes al remover el suelo durante su búsqueda de alimento. Además, su presencia indica la salud de los humedales, ya que su declive puede señalar problemas ambientales",
-            "bibliography": "Ecohotel El Castillo"
+            "bibliography": "La Phimosus infuscatus, o ibis de cara desnuda, es vital para los ecosistemas acuáticos y de humedales. Regula las poblaciones de invertebrados al alimentarse de ellos, manteniendo el equilibrio trófico, y contribuye al reciclaje de nutrientes al remover el suelo durante su búsqueda de alimento. Además, su presencia indica la salud de los humedales, ya que su declive puede señalar problemas ambientales."
           }
       },
       {
@@ -435,7 +434,7 @@
               }
             ],
             "birdInfo": {
-              "birdName": "Sirirí Colorado",
+              "birdName": "Sirirí pardi",
               "species": "Dendrocygna bicolor",
               "description": "Es una especie de ave acuática que habita en humedales, lagunas y áreas de agua dulce de América y África. Su plumaje es marrón con tonos claros y patas largas, lo que facilita su desplazamiento en el agua.",
               "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
@@ -447,7 +446,7 @@
               "funFact2": "Realizan vuelos en grandes bandadas, lo que los hace muy visibles en áreas abiertas de humedales.",
               "secondaryImage": "Images/aguila_habitat",
               "location": "Ecoparque Lago de Las Garzas, Universidad del ValleClub Campestre Farallones",
-              "bibliography": "Smithsonian Institution, 2018"
+              "bibliography": " controlar poblaciones de insectos, ya que se alimenta de ellos. Esto ayuda a mantener el equilibrio en los cultivos y reduce la necesidad de pesticidas. Además, como habita en humedales y zonas cercanas a cuerpos de agua, contribuye a la dispersión de semillas, favoreciendo la regeneración de plantas y la biodiversidad en estos hábitats cruciales para la salud ambiental del país"
             }
           },
           {
@@ -496,7 +495,7 @@
               "funFact1": "Cuernos únicos: este cuerno es único en las aves y no está conectado al cráneo, lo que lo hace flexible. Le da un aspecto inconfundible.",
               "funFact2": "Alas con espinas: Estas espinas afiladas se encuentran en la articulación del ala y pueden usarlas como defensa contra depredadores o en peleas territoriales, les brinda una especie de arma natural",
               "location": "Humedal de El Pondaje y Charco Azul, ubicados dentro de la ciudad, donde hay zonas con vegetación acuática.Lago Calima o en áreas más rurales y naturales cerca de ríos como el río Cauca o hacienda El Paraíso.Laguna de Sonso, Buga.    Confirmado.",
-              "bibliography": "National Geographic, 2020"
+              "bibliography": "Este ave carroñera ayuda a mantener el equilibrio ambiental al limpiar el entorno de animales muertos, lo que reduce la propagación de enfermedades. Al alimentarse de desechos orgánicos, contribuye a la descomposición natural de la materia y promueve el reciclaje de nutrientes en el suelo, favoreciendo la salud de los ecosistemas de ciénagas y humedales."
             }
           }
       ] 
@@ -597,7 +596,7 @@
             "species": "Crotophaga ani",
             "conservacion":"LC preocupación menor",
             "description": "Se distingue por su plumaje completamente negro, cola larga, pico grande y llamado distintivo. Durante la temporada de cría, este ani vive en parejas o, más comúnmente, en grupos más grandes de hasta 17 individuos. Es más conocido por su sistema de cría comunal, en el que varias hembras suelen poner huevos e incubarlos en el mismo nido",
-            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Urutau",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/GarrapateroComún",
             "habitat": "A lo largo de su área de distribución, ocupa sabanas, áreas rurales y suburbanas perturbadas y alteradas por el hombre, y matorrales de segundo crecimiento, durante todo el año. Presencia en o cerca de pastizales de vacas, campos de caña de azúcar, bosques húmedos secundarios, campos con mucha vegetación y bordes de caminos",
             "diet": "Son principalmente insectívoros y se alimentan de saltamontes, orugas y polillas, pero también de pequeñas ranas y lagartijas. La fruta es una parte importante de su dieta durante la estación seca.",
             "size": "Mide entre 30 y 36 cm de longitud",
@@ -646,7 +645,7 @@
             "birdName": "Garrapatero Mayor ",
             "species": "Dendrocygna autumnalis",
             "description": "Destaca por su pecho de color leonado y su vuelo ágil.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarrapateroMayor",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/GarrapateroMayor",
             "habitat": "Bosques templados y jardines",
             "diet": "Es variada, incluyendo plantas acuáticas, semillas, y pequeños invertebrados, lo que lo convierte en un contribuyente importante al control de la vegetación acuática y la dispersión de semillas en su entorno",
             "reproduction": "Anida en árboles como en el suelo cercano a cuerpos de agua, y pone entre 10 y 16 huevos. Ambos padres cuidan a las crías, que son capaces de nadar y alimentarse poco después de nacer",
@@ -654,7 +653,7 @@
             "funFact1": "El pato silbón es conocido por su llamado silbante, que emite incluso durante el vuelo.",
             "funFact2": "Anidan en cavidades de árboles, adaptándose a una gran variedad de hábitats.",
             "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro – Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
-            "bibliography": "Cornell Lab of Ornithology, 2021"
+            "bibliography": "Esta especie juega un rol ecológico importante, ya que se alimenta de insectos, pequeños vertebrados y garrapatas, lo que ayuda a controlar las poblaciones de estos animales y a reducir la propagación de enfermedades en el ganado. Al eliminar parásitos de grandes mamíferos, como vacas y caballos, el garrapatero mayor también promueve la salud de estos animales y el equilibrio de los ecosistemas en los que habita"
           }
         },
         {
@@ -754,8 +753,7 @@
         "funFact1": "Plumas de la cola distintivas: Los machos tienen largas plumas en la cola con discos en las puntas, que usan durante exhibiciones de cortejo para atraer a las hembras.",
         "funFact2": "Vuelo ágil: Sus largas colas no afectan su vuelo, ya que son ágiles y maniobran hábilmente, lo que les permite alimentarse y esquivar depredadores.",
         "location": "Ecohotel El Castillo",
-        "ecosistema":"El colibrí Ocreatus underwoodii, es fundamental para la polinización de diversas plantas en bosques montañosos. Al alimentarse de néctar, transfiere polen entre flores, ayudando a la reproducción vegetal y promoviendo la biodiversidad en su entorno.",
-        "bibliography": "Smithsonian Institution, 2018"
+        "bibliography": "El colibrí Aglaiocercus kingii, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema."
       }
     },
     {
@@ -799,7 +797,7 @@
         "description": "Son un grupo cautivador de colibríes de pico corto y cola larga que habitan en los bosques húmedos de montaña andinos. Es una especie sexualmente dimórfica; los machos tienen una corona y una garganta de color verde brillante y rectrices de un azul verdoso excepcionalmente largas y deslumbrantes. Las hembras tienen una cola mucho más corta, una garganta blanca con motas verdes y un vientre de color beige rojizo",
         "mainImage": "Images/Interfaz/Cartas/VueloIntenso/SILFO",
         "habitat": "Se encuentra en una diversidad de hábitats, que varían según la ubicación y la época del año. Se asocia con bosques subtropicales y templados, pero también se le encuentra en bordes de bosque, áreas semiabiertas de bosque húmedo o de rebrote, zonas premontanas, matorrales, claros, pastizales, jardines, así como áreas agrícolas y plantaciones de café, aunque rara vez se le observa en el interior de los bosques.",
-        "diet": "Este “colibrí amante de la sombra” prefiere alimentarse en el sotobosque (vegetación formada por matas y arbustos que crece bajo los árboles de un bosque); Busca alimento flotando sobre las flores y en muchos casos, actúa como un verdadero polinizador mientras se alimenta, pero también roba el néctar perforando la base de la corola de una flor, sin embargo, en zonas premontanas, se alimenta principalmente en las copas de los árboles, y en bosques enanos y áreas de pastizales de gran altitud, prefiere utilizar pequeños arbustos y árboles. Se alimenta del néctar de varias flores y artrópodos",
+        "diet": "Este colibrí, que prefiere la sombra, se alimenta en el sotobosque flotando sobre flores. Aunque actúa como polinizador, a veces roba néctar perforando flores. En zonas altas, se alimenta en copas de árboles y arbustos pequeños. Consume néctar y artrópodos.",
         "reproduction": "En Colombia se ha documentado la reproducción de individuos entre febrero y octubre, pero se cree que la especie se reproduce durante todo el año. El macho participa en la construcción ritualizada del nido, la hembra duerme en el nido todas las noches, y ella misma es la única que incuba, el período de incubación es de 15 a 17 días y ponen 2 huevos",
         "size": "Mide entre 16 y 19 cm de longitud",
         "funFact1": "Cola larga y llamativa: Los machos tienen una cola extremadamente larga, casi del doble de su tamaño corporal, que utilizan en exhibiciones de cortejo.",
@@ -1107,7 +1105,7 @@
             "species": "Geranoaetus albicaudatus",
             "conservacion":"LC preocupación menor",
             "description": "Este gavilán grande, con plumaje negro en la cabeza, franjas rojizas en los hombros y un pecho blanco brillante, habita en regiones abiertas y áridas. Es tímido, caza pequeños vertebrados e invertebrados y evita anidar cerca de la actividad humana y en campos cultivados.",
-            "mainImage": "Images/Interfaz/Cartas/Rapaces/Coliblanco",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/ColaBlanca",
             "habitat": "Este halcón prefiere praderas o sabanas abiertas y semiabiertas, desde húmedas hasta áridas, y se adapta bien a plantas espinosas y arbustivas. No le agradan los campos agrícolas cultivados, pero tolera pastos para ganado que no han sido sobrepastoreados.",
             "diet": "Se alimenta de pequeños vertebrados y artrópodos, cazando desde la percha y en el aire, principalmente por la tarde. Atrapa a sus presas con las patas, comenzando a comerlas por la cabeza, y las que se dan a los polluelos suelen estar desprovistas de la cabeza y parte del torso.",
             "reproduction": "Sus nidos normalmente son aproximadamente ovoides o elípticos, planos, construidos de manera suelta con ramas secas, ramitas, pastos y hierbas. Se sabe que las parejas construyen 1 o 2 nidos, que finalmente no utilizan, antes de aquel en el que ponen los huevos; esto posiblemente se deba a las visitas de humanos. Normalmente ponen 2, a veces 3 huevos, raramente 1 o 4.",
@@ -1156,7 +1154,7 @@
             "species": "Geranoaetus albicaudatus",
             "conservacion":"LC preocupación menor",
             "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
-            "mainImage": "Images/Interfaz/Cartas/Rapaces/Coliblanco",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
             "habitat": "Se presenta principalmente en hábitats abiertos o semiabiertos con abundante carroña para alimentarse como granjas, sabanas, pastizales, claros, manglares y pueblos. Asociada con las viviendas humanas y se alimenta en las calles, en los basureros y alrededor de los mataderos.",
             "diet": "Depende principalmente de carroña, en su mayoría mamíferos grandes, pero es oportunista y busca con facilidad basura, despojos y otros desechos comestibles desechados. Ocasionalmente consume presas vivas, los alimentos se pueden conseguir en mercados, mataderos y zonas de descarga de pescado, vertederos de basura.",
             "reproduction": "Anida típicamente en huecos oscuros o bajo algún tipo de cubierta. Cuevas, troncos huecos, tocones y troncos de árboles, grietas entre rocas, montones de maleza, matorrales, edificios abandonados y sitios al lado o debajo de árboles y troncos son todos utilizados. Casi siempre 2 huevos. ",
@@ -1295,7 +1293,7 @@
 
 
 {
-  "birdTypeId": 4,
+  "birdTypeId": 5,
   "allModelQuestions": [
     {
       "modelIndex": 0,
@@ -1494,8 +1492,7 @@
         "funFact1": " Los ejemplares jóvenes suelen tener un color menos intenso, que se vuelve más vibrante a medida que maduran",
         "funFact2": "A diferencia de muchas otras especies de loros, el Pionus menstruus es conocido por ser relativamente silencioso, especialmente cuando se encuentra en bandadas. Aunque puede emitir sonidos fuertes ocasionalmente, su comportamiento discreto facilita que se mezcle en el entorno, evitando así a los depredadores",
         "location": "Universidad Javeriana de Cali",
-        "ecosistema":"El Pionus menstruus, conocido como loro cabeciazul, tiene un papel importante en su ecosistema, principalmente a través de la dispersión de semillas al alimentarse de frutas, lo cual ayuda en la regeneración de la vegetación y mantiene la biodiversidad del área. Además, también contribuye al control de plagas al consumir insectos y brotes jóvenes, ayudando a mantener el equilibrio en el ecosistema.",
-        "bibliography": "BirdLife International, 2019"
+        "bibliography": "El Pionus menstruus, conocido como loro cabeciazul, tiene un papel importante en su ecosistema, principalmente a través de la dispersión de semillas al alimentarse de frutas, lo cual ayuda en la regeneración de la vegetación y mantiene la biodiversidad del área. Además, también contribuye al control de plagas al consumir insectos y brotes jóvenes, ayudando a mantener el equilibrio en el ecosistema."
       }
     },
    
@@ -1546,12 +1543,11 @@
         "funFact1": "Tamaño Pequeño y Carácter Sociable: El periquito de anteojos es uno de los loros más pequeños de América, midiendo apenas 12-13 cm. A pesar de su tamaño, es muy sociable y se lo encuentra en grupos grandes, lo que le ayuda a mantenerse seguro frente a depredadores y facilita la búsqueda de alimentos.",
         "funFact2": "Marcado Dimorfismo Sexual: Existe un dimorfismo sexual evidente en esta especie: los machos presentan un llamativo color azul en las alas y detrás de los ojos, mientras que las hembras carecen de estas marcas, lo que permite diferenciarlos fácilmente a simple vista.",
         "location": "Universidad Javeriana de Cali",
-        "ecosistema":"El Forpus conspicillatus, conocido como periquito de anteojos, tiene un impacto ecológico importante al participar en la dispersión de semillas. Su dieta incluye frutas y semillas, contribuyendo a la regeneración de la vegetación y al mantenimiento de la biodiversidad de su entorno. También ayuda a controlar poblaciones de insectos al consumir brotes y pequeños invertebrados, lo cual beneficia la salud de las plantas",
-        "bibliography": "BirdLife International, 2019"
+        "bibliography": "El Forpus conspicillatus, conocido como periquito de anteojos, tiene un impacto ecológico importante al participar en la dispersión de semillas. Su dieta incluye frutas y semillas, contribuyendo a la regeneración de la vegetación y al mantenimiento de la biodiversidad de su entorno. También ayuda a controlar poblaciones de insectos al consumir brotes y pequeños invertebrados, lo cual beneficia la salud de las plantas"
       }
     },
     {
-      "modelIndex": 5,
+      "modelIndex": 6,
       "questions": [
         {
           "questionText": "¿En qué continente NO se encuentran naturalmente las Psittaciformes?",
@@ -1597,8 +1593,7 @@
         "funFact1": " Gran Adaptabilidad a Diferentes Hábitats: El guacamayo severo es capaz de adaptarse a una variedad de hábitats, desde selvas tropicales hasta áreas abiertas y bosques secundarios. Esta adaptabilidad le permite encontrar recursos y sobrevivir en entornos donde otras especies podrían tener dificultades",
         "funFact2": "Personalidad Juguetona y Ruidosa: Esta especie es conocida por su personalidad curiosa y juguetona. Son aves inteligentes y muy activas, a menudo vistas explorando y manipulando objetos en su entorno. Además, son bastante ruidosas, emitiendo vocalizaciones fuertes que usan para comunicarse entre ellas y para marcar su territorio",
         "location": "Universidad Javeriana de Cali",
-        "ecosistema":"El Ara severus, tiene un papel importante en su ecosistema como dispersor de semillas. Al alimentarse de frutos y semillas, dispersa una gran variedad de especies vegetales, ayudando a la regeneración del bosque y fomentando la diversidad vegetal. También contribuye a la poda natural de árboles y ramas, lo cual promueve el crecimiento saludable de las plantas",
-        "bibliography": "BirdLife International, 2019"
+        "bibliography": "El Ara severus, tiene un papel importante en su ecosistema como dispersor de semillas. Al alimentarse de frutos y semillas, dispersa una gran variedad de especies vegetales, ayudando a la regeneración del bosque y fomentando la diversidad vegetal. También contribuye a la poda natural de árboles y ramas, lo cual promueve el crecimiento saludable de las plantas"
       }
     }
 ]
@@ -1612,7 +1607,7 @@
 
 
 {
-  "birdTypeId": 5,
+  "birdTypeId": 6,
   "allModelQuestions": [
     {
       "modelIndex": 0,
@@ -1762,8 +1757,7 @@
         "funFact1": "Durante la temporada de cría, los machos de los papamoscas bermellones realizan un espectacular canto de vuelo a 20-30 m sobre el dosel, y parecen rebotar en el cielo con sus alas revoloteando mientras cantan",
         "funFact2": "En la caza aérea, persigue a la presa y la atrapa en el aire en un vuelo directo y rápido. Las presas que escapan al ataque inicial pueden ser perseguidas en una persecución acrobática errática hasta la captura",
         "location": "Universidad Javeriana de Cali",
-        "ecosistema":"Pyrocephalus rubinus, ecológicamente, desempeña un papel importante en el control de poblaciones de insectos, ya que se alimenta de una variedad de insectos voladores, como mosquitos, polillas y escarabajos, contribuyendo a mantener el equilibrio y reducir las plagas en su entorno. Además, al consumir frutos ocasionalmente, también ayuda en la dispersión de semillas, promoviendo la regeneración y diversidad de la vegetación en su hábitat, lo que beneficia la salud y el equilibrio del ecosistema donde vive",
-        "bibliography": "BirdLife International, 2019"
+        "bibliography": "Pyrocephalus rubinus, ecológicamente, desempeña un papel importante en el control de poblaciones de insectos, ya que se alimenta de una variedad de insectos voladores, como mosquitos, polillas y escarabajos, contribuyendo a mantener el equilibrio y reducir las plagas en su entorno. Además, al consumir frutos ocasionalmente, también ayuda en la dispersión de semillas, promoviendo la regeneración y diversidad de la vegetación en su hábitat, lo que beneficia la salud y el equilibrio del ecosistema donde vive"
       }
     },
     {
@@ -1813,8 +1807,7 @@
         "funFact1": "A menudo roba material de nidificación de nidos abandonados o no vigilados de otras aves. Los nidos están construidos principalmente de pasto, pero también pueden incorporar ramitas delgadas, zarcillos de enredaderas leñosas, papel, algodón, trapos e incluso basura plástica",
         "funFact2": "Aproximadamente 1 día antes de emplumar, los polluelos se paran en la entrada del nido y baten las alas, lo que hace que el techo del nido se derrumbe.",
         "location": "Universidad Javeriana de Cali",
-        "ecosistema":"Esta ave habita en una amplia variedad de ecosistemas, desde áreas urbanas hasta bosques y zonas rurales, ecológicamente, desempeña un papel fundamental en el control de insectos, ya que se alimenta de una amplia variedad de ellos, ayudando a mantener el equilibrio de sus poblaciones. Además, es un dispersor de semillas, ya que también consume frutas, contribuyendo a la regeneración de la vegetación y la biodiversidad de su hábitat. Al ser un ave adaptable, contribuye significativamente al equilibrio y la salud de los ecosistemas donde vive.",
-        "bibliography": "BirdLife International, 2019"
+        "bibliography": "Esta ave habita en una amplia variedad de ecosistemas, desde áreas urbanas hasta bosques y zonas rurales, ecológicamente, desempeña un papel fundamental en el control de insectos, ya que se alimenta de una amplia variedad de ellos, ayudando a mantener el equilibrio de sus poblaciones. Además, es un dispersor de semillas, ya que también consume frutas, contribuyendo a la regeneración de la vegetación y la biodiversidad de su hábitat. Al ser un ave adaptable, contribuye significativamente al equilibrio y la salud de los ecosistemas donde vive."
       }
     }
 ]
@@ -2132,7 +2125,7 @@
 
 
 {
-  "birdTypeId": 6,
+  "birdTypeId": 7,
   "allModelQuestions": [
     {
       "modelIndex": 0,
@@ -2173,7 +2166,7 @@
         "species": "Picumnus granadensis",
         "conservacion":"LC preocupación menor",
         "description": "El macho es negro desde la frente a la nuca con puntos de color amarillo en la coronilla y blanco detrás. La hembra se distingue porque presenta puntos blancos en la cabeza.  Permanece solo, en parejas o grupos familiares y en ocasiones se une a bandadas mixtas.",
-        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/CarpinteroPunteado",
+        "mainImage": "Images/Interfaz/Cartas/Extrañas/",
         "habitat": "Es una especie de distribución restringida que se puede encontrar en bordes de bosques secos a moderadamente húmedos, matorrales de segundo crecimiento y arbolado, y bosques del noroeste de Colombia. Este pequeño pájaro carpintero es de color blanco grisáceo opaco y tiene la frente y la corona moteadas de amarillo y blanco.",
         "diet": "Esta especie, que es exclusivamente insectívora, se puede encontrar buscando alimento de forma individual o en pequeños grupos.",
         "reproduction": "Temporada aparentemente de enero a junio aproximadamente. Anida en cavidades de troncos de árboles muerto.",
@@ -2181,8 +2174,7 @@
         "funFact1": "Endémica de Colombia: La Picumnus granadensis es endémica de Colombia, lo que significa que solo se encuentra en ese país. Prefiere habitar áreas de bosque seco y zonas montañosas, lo cual la convierte en una especie muy particular de la avifauna colombiana",
         "funFact2": "Tamaño Pequeño y Adaptación: Es uno de los pájaros carpinteros más pequeños, midiendo apenas unos 10 cm de longitud. A pesar de su tamaño, presenta el comportamiento típico de los carpinteros, excavando la madera con fuerza para buscar alimento, lo cual es sorprendente dada su diminuta constitución",
         "location": "Ecohotel El Castillo",
-        "ecosistema":"La Picumnus granadensis, conocida como carpinterito colombiano, desempeña un papel importante en el ecosistema al contribuir al control de insectos en árboles, ya que se alimenta principalmente de larvas e insectos que encuentra bajo la corteza. Al excavar en la madera, también crea cavidades que eventualmente pueden ser usadas por otras especies, como pequeños pájaros o insectos, contribuyendo así a la biodiversidad de su hábitat",
-        "bibliography": "Smithsonian Institution, 2018"
+        "bibliography": "La Picumnus granadensis, conocida como carpinterito colombiano, desempeña un papel importante en el ecosistema al contribuir al control de insectos en árboles, ya que se alimenta principalmente de larvas e insectos que encuentra bajo la corteza. Al excavar en la madera, también crea cavidades que eventualmente pueden ser usadas por otras especies, como pequeños pájaros o insectos, contribuyendo así a la biodiversidad de su hábitat"
       }
     },
     {
@@ -2224,7 +2216,7 @@
         "species": "Dryocopus lineatus",
         "conservacion":"LC preocupación menor",
         "description": "El pájaro carpintero rayado es un pájaro carpintero grande y crestado, es de color negro en general, con una cresta roja brillante, barras blancas en las partes inferiores y una línea blanca que se extiende por el cuello. Los machos tienen rojo en la mejilla, mientras que las hembras no",
-        "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Real",
+        "mainImage": "Images/Interfaz/Cartas/Extrañas/Real",
         "habitat": "El pájaro carpintero rayado habita en bosques y selvas húmedas, de transición y moderadamente secas. Generalmente, prefiere áreas relativamente abiertas como bordes de bosques, bosques secundarios y pastizales; no se encuentra en el interior de bosques húmedos de tierras bajas, pero ocupa los bordes de bosques y los bosques ribereños. En áreas más secas, el pájaro carpintero rayado habita en bosques de pinos y galerías, así como en matorrales espinosos",
         "diet": "La dieta se compone principalmente de escarabajos y sus larvas, hormigas y sus larvas, orugas y ortópteros, frecuentemente recolectados de Cecropia árboles. Aunque es principalmente insectívoro. Suele encontrarse solitario o en parejas. En las ciudades, aprovecha las lámparas para picotearlas, amplificando el sonido de su tamborileo, y anunciándole a otros carpinteros su presencia y su territorio",
         "reproduction": "El tamaño de la nidada varía de 2 a 4 huevos. Los machos y las hembras toman turnos de 2 a 3 horas incubando durante el día, pero solo los machos incuban por la noche. Los polluelos son alimentados aproximadamente una vez por hora por ambos padres mediante regurgitación; la hembra realiza la mayor parte de la alimentación mientras el macho cuida el nido",
@@ -2232,8 +2224,7 @@
         "funFact1": "Se comunican a través de vocalizaciones, tambores y golpes, especialmente durante la defensa del territorio",
         "funFact2": "Ambos sexos excavan los nidos, que tienen unos 45 cm de profundidad, 13 x 18 cm de ancho y una entrada de unos 9 cm de diámetro",
         "location": "Universidad Javeriana de Cali",
-        "ecosistema":"Juega un papel esencial en su ecosistema al controlar poblaciones de insectos que se encuentran bajo la corteza de los árboles, especialmente larvas de escarabajos y otros xilófagos, lo cual ayuda a mantener la salud de los bosques. Además, al perforar troncos para alimentarse o anidar, crea cavidades que luego pueden ser usadas por otras aves, mamíferos pequeños y reptiles, aumentando así la disponibilidad de refugios y favoreciendo la biodiversidad en su hábitat",
-        "bibliography": "BirdLife International, 2019"
+        "bibliography": "Juega un papel esencial en su ecosistema al controlar poblaciones de insectos que se encuentran bajo la corteza de los árboles, especialmente larvas de escarabajos y otros xilófagos, lo cual ayuda a mantener la salud de los bosques. Además, al perforar troncos para alimentarse o anidar, crea cavidades que luego pueden ser usadas por otras aves, mamíferos pequeños y reptiles, aumentando así la disponibilidad de refugios y favoreciendo la biodiversidad en su hábitat"
       }
     }
  

@@ -1,0 +1,864 @@
+{
+  "birdTypes": [
+    {
+      "birdTypeId": 1,
+      "allModelQuestions": [
+        {
+          "modelIndex": 0,
+          "questionText": "What type of diet do birds from the order Anseriformes typically have?",
+            "answers": [
+              "A) Exclusively insectivorous",
+              "B) In the tops of flowering trees, where males defend floral territories",
+              "C) Mainly herbivorous, but also omnivorous",
+              "D) All of the above"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "questionText": "How do geese use their call system during migrations?",
+            "answers": [
+              "A) To coordinate movements and maintain V-formation",
+              "B) To attract their prey",
+              "C) To communicate with other species",
+              "D) All of the above"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "questionText": "What adaptation does the bill of ducks have within the Anseriformes?",
+            "answers": [
+              "A) Adapted to filter small organisms from water",
+              "B) Adapted to catch fish",
+              "C) Adapted to pierce insects",
+              "D) All of the above"
+            ],
+            "correctAnswerIndex": 0
+          }
+          ],
+          "birdInfo": {
+            "birdName": "White-faced Whistling Duck",
+            "species": "Dendrocygna viduata",
+            "description": "This is an aquatic bird, most notable for its white head contrasting with its brown and black body.",
+            "mainImage": "Images/Interface/Cards/Aquatic/whiteFacedWhistlingDuck",
+            "habitat": "Inhabits wetlands, lagoons, and freshwater areas in South America, the Caribbean, and Africa.",
+            "diet": "Its diet includes aquatic plants, seeds, small invertebrates, and crustaceans.",
+            "reproduction": "They build nests in vegetation near water or in low trees. They lay between 6 and 12 eggs, and both parents take part in incubation and care of the chicks, which are precocial and can swim shortly after hatching.",
+            "size": "Approximately 50 cm in length",
+            "funFact1": "The white-faced whistling duck forms noisy flocks, known for their repetitive and loud calls.",
+            "funFact2": "Despite being an aquatic species, they are excellent flyers and often travel long distances in search of new bodies of water.",
+            "location": "Lago de Las Garzas Ecopark, Universidad del Valle, Farallones Country Club",
+            "bibliography": "Dendrocygna viduata (white-faced whistling duck) plays a key role in aquatic ecosystems by contributing to seed dispersal, controlling aquatic vegetation, and regulating invertebrates. It is also part of the food chain, acting as prey for predators and serving as an indicator of wetland health; its stable presence suggests a healthy environment, while its decline may indicate environmental issues."
+          }
+          },
+          {
+            "modelIndex": 1,
+            "questions": [
+              {
+                "questionText": "Which of the following ecosystems is a common habitat for Anseriformes?",
+                "answers": [
+                  "A) Deserts",
+                  "B) Tropical forests",
+                  "C) Tundra",
+                  "D) Wetlands"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "What ecosystem is ideal for Anseriformes that prefer a mix of freshwater and saltwater?",
+                "answers": [
+                  "A) Mountain lakes",
+                  "B) Rivers and streams",
+                  "C) Grasslands",
+                  "D) Estuaries"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "Where do Anseriformes typically breed?",
+                "answers": [
+                  "A) Near bodies of water",
+                  "B) Desert areas",
+                  "C) Grasslands",
+                  "D) Dense forests"
+                ],
+                "correctAnswerIndex": 0
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Black-bellied Whistling Duck",
+              "species": "Dendrocygna autumnalis",
+              "description": "This aquatic bird is distinguished by its reddish-brown plumage, bright red bill, and pink legs. Ducklings have unique yellow down with black markings and a gray to dark gray bill and legs.",
+              "mainImage": "Images/Interface/Cards/Aquatic/blackBelliedWhistlingDuck",
+              "habitat": "It inhabits wetlands, lagoons, and bodies of water from the southern United States to Argentina.",
+              "diet": "Its diet includes aquatic plants, seeds, and small invertebrates, making it an important contributor to controlling aquatic vegetation and seed dispersal in its environment.",
+              "reproduction": "They nest in trees or on the ground near water bodies, laying between 10 and 16 eggs. Both parents care for the chicks, which can swim and feed shortly after hatching.",
+              "size": "3.5 inches",
+              "funFact1": "The whistling duck is known for its whistling call, which it emits even during flight.",
+              "funFact2": "They nest in tree cavities, adapting to a wide range of habitats.",
+              "location": "Ecoparque Río Pance, Country Club, Farallones Country Club, Lago de Las Garzas Ecopark, Parque de La Babilla, Río Lilí-Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Multicentro Park – Sirirí Route, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
+              "bibliography": "This duck is essential for maintaining wetlands, aiding in the dispersal of aquatic plants and regulating aquatic ecosystems."
+            }
+          },
+          {
+            "modelIndex": 2,
+            "questions": [
+              {
+                "questionText": "What role do Anseriformes play in plant dispersal?",
+                "answers": [
+                  "A) They pollinate flowers",
+                  "B) They disperse seeds through their feeding",
+                  "C) They cut plants to build nests",
+                  "D) They destroy plants while feeding"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "What is a distinctive feature of male purple-throated hummingbirds in flight?",
+                "answers": [
+                  "A) They have a straight, un-forked tail",
+                  "B) They have white spots on their flanks visible in flight",
+                  "C) Their throat is bright green.",
+                  "D) Their chest is bright red"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "How do Anseriformes contribute to nutrient recycling in their habitat?",
+                "answers": [
+                  "A) By eating invertebrates",
+                  "B) By building nests",
+                  "C) Through their droppings",
+                  "D) By eating small fish"
+                ],
+                "correctAnswerIndex": 2
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Torrent Duck",
+              "species": "Merganetta armata",
+              "description": "This duck is perfectly adapted to living in fast-flowing rivers, using its webbed feet and diving ability to swim against currents. It has striking plumage, with brightly colored males and more subdued females.",
+              "mainImage": "Images/Interface/Cards/Aquatic/torrentDuck",
+              "habitat": "In South America, in open areas such as grasslands, agricultural fields, river margins, and even urban areas. It adapts well to a variety of ecosystems, from wetlands to semi-arid areas, though it prefers areas near water.",
+              "diet": "Insectivorous, consuming insects, worms, snails, and small invertebrates found in soil or wet areas. This diet helps maintain balance in insect populations in its habitats.",
+              "reproduction": "They build nests on the ground, often in open terrain. They usually lay 3 to 4 eggs, which are camouflaged to avoid predation. Both the male and female aggressively defend the nest, even attacking intruders to protect their young.",
+              "size": "About 50 cm in length",
+              "funFact1": "It lives in mountain rivers with strong currents, making it highly specialized.",
+              "funFact2": "Its ability to dive and swim against fast waters allows it to survive in a habitat that few other animals can inhabit.",
+              "location": "Laguna de Sonso, Buga",
+              "bibliography": "Merganetta armata impacts the ecosystem as a bioindicator of mountain river health, signaling clean and well-preserved waters. It also controls aquatic invertebrate populations by feeding on insects and larvae, helping to maintain balance in food chains. Its presence promotes the protection of riverine habitats, contributing to biodiversity conservation in high mountain ecosystems."
+            }
+          },
+          {
+            "modelIndex": 3,
+            "questions": [
+              {
+                "questionText": "What is a common feeding behavior among Charadriiformes birds?",
+                "answers": [
+                  "A) They feed on nectar.",
+                  "B) They feed in flocks, cooperating or competing for resources",
+                  "C) They mostly forage individually",
+                  "D) They only hunt at night"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "What is a key characteristic of the legs of many Charadriiformes birds?",
+                "answers": [
+                  "A) Webbed feet for swimming or long legs for walking in muddy areas.",
+                  "B) Short legs for digging",
+                  "C) Legs with sharp claws for hunting",
+                  "D) Legs adapted for climbing trees"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "In which type of ecosystem do Charadriiformes birds primarily live?",
+                "answers": [
+                  "A) Aquatic ecosystems, both freshwater and saltwater",
+                  "B) Deserts",
+                  "C) Tropical forests",
+                  "D) Tundras"
+                ],
+                "correctAnswerIndex": 0
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Southern Lapwing",
+              "species": "Vanellus chilensis",
+              "description": "Recognized for its distinctive grayish plumage, black chest, and a pair of spurs on its wings, which it uses as a defense mechanism. Its sharp and repetitive call is also one of its distinctive signals, especially in dangerous situations.",
+              "mainImage": "Images/Interfaz/Cartas/Acuaticas/Tero",
+              "habitat": "Inhabits South America, mainly in open areas such as grasslands, agricultural fields, water body edges, and even urban areas. It adapts well to a variety of ecosystems, from wet areas to semi-arid zones, though it prefers areas close to water.",
+              "diet": "Feeds primarily on aquatic invertebrates such as insect larvae and small crustaceans, making it an important regulator of these ecosystems.",
+              "reproduction": "They build their nests on the ground, often in open terrain. They usually lay 3 to 4 eggs, which are camouflaged to avoid predation. Both the male and female aggressively protect the nest, attacking intruders to defend their offspring.",
+              "size": "Approximately 37 centimeters long.",
+              "funFact1": "The Southern Lapwing is known for pretending to be injured to lure predators away from its nest, a very effective distraction strategy.",
+              "funFact2": "In addition to its defensive behaviors, the Southern Lapwing uses its loud voice to mark its territory, alerting other birds and animals over a wide range.",
+              "location": "El Pondaje and Charco Azul Wetland, located within the city, in areas with aquatic vegetation. Lago Calima or in more rural and natural areas near rivers like the Cauca River or Hacienda El Paraíso. Laguna de Sonso, Buga.",
+              "bibliography": "The Southern Lapwing plays an important role in the ecosystem as a biological controller. Due to its territorial behavior, it acts as a protector of its environment, alerting other animals with its call to the presence of predators or intruders."
+            }
+          },
+          {
+            "modelIndex": 4,
+            "questions": [
+              {
+                "questionText": "Which of the following characteristics is typical of Pelecaniformes birds?",
+                "answers": [
+                  "A) They have small, curved beaks",
+                  "B) They are terrestrial birds with sharp claws",
+                  "C) Their diet consists of insects and fruits",
+                  "D) They have webbed feet and long beaks"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "What other food, besides fish, can Pelecaniformes birds eat?",
+                "answers": [
+                  "A) Seeds and nuts",
+                  "B) Aquatic plant leaves",
+                  "C) Crustaceans and squid",
+                  "D) Flying insects"
+                ],
+                "correctAnswerIndex": 2
+              },
+              {
+                "questionText": "Why are Pelecaniformes birds important in aquatic ecosystems?",
+                "answers": [
+                  "A) Because they help pollinate aquatic plants",
+                  "B) Because they eliminate larger predators",
+                  "C) Because they help control fish populations",
+                  "D) Because they clean the waters of waste"
+                ],
+                "correctAnswerIndex": 2
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Striated Heron",
+              "species": "Butorides striata",
+              "conservation": "LC Least Concern",
+              "description": "Often found foraging alone in dense vegetation along bodies of water. Butorides striata breeds in habitats near water, facilitating food gathering for its chicks. During the breeding season, they form monogamous pairs that dissolve at the end of the period. Both the male and female participate in incubation and chick care, displaying biparental care.",
+              "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarzitaAzulada",
+              "habitat": "Inhabits freshwater and saltwater marshes from eastern Panama to northern Argentina. It is solitary and perches in dense vegetation near streams, rivers, lakes, and estuaries. Also found in marshes, tidal zones, exposed reefs, dry lands, and wetlands like agricultural fields, rice paddies, and flooded pastures.",
+              "diet": "Uses a variety of foraging techniques to catch prey such as fish, amphibians, insects, and crustaceans.",
+              "reproduction": "A small heron with solitary habits. It breeds mainly in areas near water bodies, such as mangroves, rivers, or lagoons. These birds build nests in trees or shrubs using branches and other plant materials. Females typically lay 2 to 5 eggs, blue-green in color. Both parents share incubation and chick care until they are independent.",
+              "size": "Between 35 and 48 centimeters long.",
+              "funFact1": "Plumage variety: This species shows considerable variation in its plumage color, depending on the region they are in, from bluish to gray or even green tones, allowing them to blend better into their surroundings.",
+              "funFact2": "Bait fishing: The Striated Heron is one of the few birds known to use lures to catch prey. It can drop small objects, like twigs or dead insects, onto the water's surface to attract fish and catch them.",
+              "location": "Ecoparque Río Pance",
+              "bibliography": "Butorides striata plays a crucial role in controlling populations of small fish and aquatic insects, helping maintain ecological balance and promoting biodiversity in its habitat. Additionally, as part of the food chain, it serves as prey for larger predators such as reptiles and raptors."
+            }
+          },
+          {
+            "modelIndex": 5,
+            "questions": [
+              {
+                "questionText": "What is the most surprising fact about cormorants' diving?",
+                "answers": [
+                  "A) They can dive up to 45 meters deep",
+                  "B) They can fly while underwater",
+                  "C) They store oxygen in their feathers",
+                  "D) They use sunlight to locate fish"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "How do blue-footed boobies, a species of Pelecaniformes, hunt?",
+                "answers": [
+                  "A) They dive slowly to catch their prey",
+                  "B) They catch fish from the water's surface",
+                  "C) They form nets with their wings to trap fish",
+                  "D) They dive from great heights into the water"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "What kind of wings do many Pelecaniformes species have?",
+                "answers": [
+                  "A) Short and rounded",
+                  "B) Very small for their size",
+                  "C) With feathers adapted for gliding on land",
+                  "D) Long and narrow"
+                ],
+                "correctAnswerIndex": 3
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Bare-faced Ibis",
+              "species": "Phimosus infuscatus",
+              "conservation": "LC Least Concern",
+              "description": "It is an agile and fast bird of prey with dark gray plumage and a black mask on its head. It inhabits savannas, grasslands, and open forests. It feeds on small birds, mammals, and insects, hunting in flight or on the ground. Known for hunting in groups and using abandoned nests of other birds as it does not build its own.",
+              "mainImage": "Images/Interfaz/Cartas/Acuaticas/Coquito",
+              "habitat": "Found in South America, mainly in open areas such as wet grasslands, savannas, swamps, rice fields, and the edges of lagoons, ponds, and rivers; also inhabits forested swamps and streams. Usually near sea level. In urban areas, it is found along canals and ditches.",
+              "diet": "Feeds in wet meadows and muddy areas, probing with its long, downward-curved beak. Its diet includes small beetles, crustaceans, worms, insects, and other small prey.",
+              "reproduction": "Nests in groups, building nests in trees or shrubs, near water bodies. The nest is a platform of twigs and leaves. Females lay 3 to 5 eggs, which are incubated by both parents for about 21 days. Hatchlings are altricial, meaning they are born blind and featherless, depending entirely on their parents for food and protection.",
+              "size": "About 45 centimeters long.",
+              "funFact1": "Its beak allows it to search for food in mud and wet areas, where other birds cannot feed. The shape of the beak helps it find food hidden beneath the surface.",
+              "funFact2": "The presence of Bare-faced Ibis in an ecosystem indicates good health, as it requires clean water and vegetation to thrive.",
+              "location": "Wetlands like Charco Azul and Pance",
+              "bibliography": "Its role as a scavenger helps clean the environment by consuming animals or invertebrates in the final stages of decomposition. This behavior is essential for maintaining balance in ecosystems."
+            }
+          },
+          {
+            "modelIndex": 6,
+            "questions": [
+                {
+                    "questionText": "What effect do Anseriformes birds have on aquatic invertebrate populations?",
+                    "answers": [
+                        "A) They increase them by dispersing eggs",
+                        "B) They have no effect",
+                        "C) They reduce them by feeding on them",
+                        "D) They provide them protection"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "questionText": "What is an interesting fact about the migration of whooper swans?",
+                    "answers": [
+                        "A) They migrate from their breeding grounds in the Arctic to southern Europe and Asia",
+                        "B) They do not migrate and remain in the same habitat all year round",
+                        "C) They migrate from South America to the Arctic",
+                        "D) All of the above"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "questionText": "What type of vocalizations are swans capable of producing?",
+                    "answers": [
+                        "A) Grunts, whistles, and trumpets",
+                        "B) They only sing soft melodies",
+                        "C) They only produce high-pitched sounds",
+                        "D) All of the above"
+                    ],
+                    "correctAnswerIndex": 0
+                }
+            ],
+            "birdInfo": {
+                "birdName": "Cattle Egret",
+                "species": "Bubulcus ibis",
+                "conservation": "LC Least Concern",
+                "description": "White bird with a yellow bill and gray or black legs. During breeding season, adults develop golden tones on the head, chest, and back. This species is known for its association with large mammals, such as cattle, on which it perches to feed. It plays an important role in controlling insects and parasites. By feeding on insects and parasites found on large mammals, it helps reduce populations of these organisms in agricultural and livestock ecosystems. Additionally, it acts as a seed disperser as it moves through different areas.",
+                "mainImage": "Images/Interface/Cards/Aquatics/CattleEgret",
+                "habitat": "Its habitat includes open areas such as grasslands, agricultural fields, wetlands, and edges of water bodies. Originally native to Asia, Europe, and Africa, it has successfully colonized the Americas and other regions of the world. It prefers wet or semi-wet areas where it can find both water and the presence of large animals.",
+                "diet": "It is an insectivorous species, primarily feeding on grasshoppers, flies, crickets, ticks, and other small invertebrates found on the ground or on animals such as cattle. Its feeding strategy involves following large mammals to take advantage of the insects they stir up while moving.",
+                "reproduction": "They nest in colonies, often sharing trees with other heron species. They build nests of branches where the female lays 3 to 5 eggs. Both parents incubate the eggs and feed the chicks once they hatch, which takes about a month to fully develop.",
+                "size": "It measures between 45 and 55 centimeters in length, with a wingspan of 85 to 95 centimeters.",
+                "funFact1": "It spends a lot of time in terrestrial areas and is commonly seen perched on large animals, such as cows and buffaloes, from which it obtains food.",
+                "funFact2": "It is a highly adaptable species and has experienced rapid global expansion, colonizing new continents in less than 100 years, such as the Americas and Oceania.",
+                "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+                "bibliography": "By feeding on insects and parasites found on large mammals, it helps reduce populations of these organisms in agricultural and livestock ecosystems. Additionally, it acts as a seed disperser as it moves through different areas."
+            }
+        },
+        {
+            "modelIndex": 7,
+            "questions": [
+                {
+                    "questionText": "What is one strategy to protect the habitats of high-flying birds?",
+                    "answers": [
+                        "A) Establishing natural reserves and national parks",
+                        "B) Expanding urban areas for development",
+                        "C) Reducing the amount of vegetation in urban areas",
+                        "D) All of the above"
+                    ],
+                    "correctAnswerIndex": 0
+                },
+                {
+                    "questionText": "What is a biological corridor and why is it important for high-flying birds?",
+                    "answers": [
+                        "A) An area that connects different ecosystems, allowing birds to move safely",
+                        "B) A green space in the city for walking",
+                        "C) An agricultural area",
+                        "D) All of the above"
+                    ],
+                    "correctAnswerIndex": 0
+                },
+                {
+                    "questionText": "How can environmental education help conserve high-flying birds?",
+                    "answers": [
+                        "A) Promoting regulated hunting",
+                        "B) Increasing pesticide use",
+                        "C) Teaching people the importance of these birds and encouraging their participation in conservation",
+                        "D) All of the above"
+                    ],
+                    "correctAnswerIndex": 1
+                }
+            ],
+            "birdInfo": {
+                "birdName": "Neotropical Cormorant",
+                "species": "Phalacrocorax brasilianus",
+                "conservation": "LC Least Concern",
+                "description": "Phalacrocorax brasilianus, known as the biguá or neotropical cormorant, is a water bird from the Phalacrocoracidae family. It is distinguished by its shiny black plumage, hooked beak, and intense green eyes. It is often seen perched with its wings spread to dry them after diving for food.",
+                "mainImage": "Images/Interface/Cards/Aquatics/Cormorant",
+                "habitat": "It lives in freshwater and brackish bodies of water, such as lakes, rivers, swamps, and coastal areas from the southern United States to Argentina.",
+                "diet": "It primarily feeds on fish, which it hunts by diving underwater. It also eats crustaceans, mollusks, and small amphibians. It can dive several meters deep, using its hooked beak to catch prey.",
+                "reproduction": "It nests in colonies, usually in trees or shrubs near water. The female lays 3 to 5 eggs, which are incubated by both parents for 25 to 30 days. The chicks are fed through regurgitation until they are ready to fly.",
+                "size": "It measures between 60 and 70 centimeters in length.",
+                "funFact1": "Diving birds: Cormorants lack efficient uropygial glands, so their feathers are not waterproof, allowing them to dive more easily. However, after swimming, they must dry their wings in the sun to prevent cooling.",
+                "funFact2": "Used in fishing: Historically, in some Asian cultures, cormorants were trained to fish with a ring around their neck that prevented them from swallowing the fish, allowing fishermen to collect the catch.",
+                "location": "Ecoparque Río Pance",
+                "bibliography": "The biguá plays a key role in controlling fish populations, helping to maintain balance in aquatic ecosystems. Additionally, its presence indicates good habitat quality, as it requires healthy bodies of water to survive."
+            }
+        },
+        {
+            "modelIndex": 8,
+            "questions": [
+                {
+                    "questionText": "What adaptation allows Anseriformes birds to swim easily?",
+                    "answers": [
+                        "A) Streamlined bodies",
+                        "B) Waterproof plumage",
+                        "C) Strong wings",
+                        "D) Webbed feet"
+                    ],
+                    "correctAnswerIndex": 3
+                },
+                {
+                    "questionText": "What type of plumage helps Anseriformes stay dry?",
+                    "answers": [
+                        "A) Oily waterproof plumage",
+                        "B) Dense plumage",
+                        "C) Fluffy plumage",
+                        "D) Shiny plumage"
+                    ],
+                    "correctAnswerIndex": 0
+                },
+                {
+                    "questionText": "What is the diet of most Anseriformes birds?",
+                    "answers": [
+                        "A) Omnivorous",
+                        "B) Carnivorous only",
+                        "C) Herbivorous only",
+                        "D) Frugivorous only"
+                    ],
+                    "correctAnswerIndex": 0
+                }
+            ],
+            "birdInfo": {
+                "birdName": "Fulvous Whistling Duck",
+                "species": "Dendrocygna bicolor",
+                "description": "It is a waterfowl species that inhabits wetlands, lagoons, and freshwater areas of the Americas and Africa. Its plumage is brown with lighter tones, and its long legs make it easy to move through water.",
+                "mainImage": "Images/Interface/Cards/Aquatics/FulvousWhistlingDuck",
+                "habitat": "It primarily feeds on aquatic plants, seeds, and some invertebrates, contributing to ecosystem balance by dispersing seeds and controlling aquatic vegetation.",
+                "diet": "It helps maintain ecological balance and serves as an indicator of water quality in these ecosystems.",
+                "reproduction": "They nest on the ground or in vegetation near water, laying between 8 and 12 eggs. Both parents actively participate in incubation and care for the chicks.",
+                "size": "Approximately 50 cm in length.",
+                "funFact1": "They emit a characteristic whistling sound, from which their name 'whistling duck' derives.",
+                "funFact2": "They are highly gregarious birds and form large flocks during migration.",
+                "location": "Humedal del Lago de las Garzas",
+                "bibliography": "The presence of the Fulvous Whistling Duck in wetlands is an indicator of good water quality and ecosystem health. Their role in seed dispersion and control of aquatic vegetation is essential for maintaining the balance of these ecosystems."
+            }
+        },
+        {
+          "modelIndex": 9,
+          "questions": [
+            {
+              "questionText": "What is a distinctive feature of the beak of birds in the Anseriformes order?",
+              "answers": [
+                "A) Pointed beak",
+                "B) Hook-shaped beak",
+                "C) Flat and wide beak",
+                "D) Flat beak"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "What type of plumage do birds of the Anseriformes order have?",
+              "answers": [
+                "A) Light and walkable plumage",
+                "B) Dense and waterproof plumage",
+                "C) Colorful and shiny plumage",
+                "D) Dense and shiny plumage"
+              ],
+              "correctAnswerIndex": 1
+            },
+            {
+              "questionText": "In what type of habitat can birds of the Anseriformes order be found?",
+              "answers": [
+                "A) In both freshwater and saltwater bodies",
+                "B) Only in tropical forests",
+                "C) Exclusively in deserts",
+                "D) Exclusively in tropical and desert areas"
+              ],
+              "correctAnswerIndex": 0
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Swamp Vulture",
+            "species": "Anhima cornutai",
+            "description": "It is a large and striking bird that inhabits tropical wetlands, distinguished by its peculiar bony horn on its head and the spines on its wings, which it uses as a defense. Its unique appearance and defensive behavior make it a fascinating and distinctive species in the habitats it occupies.",
+            "mainImage": "Images/Interfaz/Cartas/Acuaticas/BuitreCienaga",
+            "habitat": "It mainly lives in wetland ecosystems and areas near bodies of water such as rivers, lakes, and swamps.",
+            "diet": "It is herbivorous, feeding on aquatic plants, consuming leaves, stems, and shoots of plants that grow in or near water bodies where it lives, like grass and reeds. It also eats seeds from aquatic and terrestrial plants.",
+            "reproduction": "They build their nests near the shores of wetlands. They lay between 2 and 6 eggs. The incubation period lasts approximately 42 to 46 days, and both parents take care of the eggs and chicks.",
+            "size": "Approximately 84 to 95 cm in length",
+            "funFact1": "Unique horns: This horn is unique to birds and is not connected to the skull, making it flexible. It gives the bird an unmistakable appearance.",
+            "funFact2": "Spiny wings: These sharp spines are located on the wing joint and can be used for defense against predators or in territorial fights, providing them with a natural weapon.",
+            "location": "El Pondaje and Charco Azul wetlands, located within the city, where there are areas with aquatic vegetation. Calima Lake or more rural and natural areas near rivers such as the Cauca River or Hacienda El Paraíso. Sonso Lagoon, Buga. Confirmed.",
+            "bibliography": "This scavenger bird helps maintain environmental balance by cleaning the surroundings of dead animals, reducing the spread of diseases. By feeding on organic waste, it contributes to the natural decomposition of matter and promotes nutrient recycling in the soil, favoring the health of swamp and wetland ecosystems."
+          }
+        },
+        {
+          "birdTypeId": 2,
+          "allModelQuestions": [
+            {
+              "modelIndex": 0,
+              "questions": [
+                {
+                  "questionText": "Which of the following adaptations is common in birds of intense flight?",
+                  "answers": [
+                    "A) Heavy bodies and short wings",
+                    "B) Aerodynamic bodies and long, narrow wings",
+                    "C) Long legs for walking",
+                    "D) All of the above"
+                  ],
+                  "correctAnswerIndex": 1
+                },
+                {
+                  "questionText": "What role do birds of intense flight play in the ecosystem?",
+                  "answers": [
+                    "A) They are only responsible for seed dispersal",
+                    "B) They primarily feed on plants",
+                    "C) They contribute to insect control and the dispersal of seeds and pollen",
+                    "D) All of the above"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "What is a significant threat to intense flight birds in cities?",
+                  "answers": [
+                    "A) Habitat loss due to urban expansion",
+                    "B) Lack of food in urban areas",
+                    "C) Competition with other bird species",
+                    "D) All of the above"
+                  ],
+                  "correctAnswerIndex": 0
+                }
+              ],
+              "birdInfo": {
+                "birdName": "White-necked Hummingbird",
+                "species": "Eutoxeres aquila",
+                "conservacion": "LC least concern",
+                "description": "It is a medium-sized hummingbird with a unique pattern, many concentrate in flowering trees where they are aggressive and even territorial with each other. Both sexes fly for long periods, hovering and soaring far above streams and clearings, or launching from perches in the treetops; it collects foliage less frequently.",
+                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/ColibriNuquiBlanco",
+                "habitat": "It inhabits humid and tropical mountain forests from Costa Rica to northern Peru, at altitudes ranging from 400 to 1,500 meters above sea level. It prefers shaded and densely vegetated areas, such as the understory of cloud forests and montane forests, where it finds tubular flowers for nectar.",
+                "diet": "It feeds on nectar and small arthropods, visiting flowers from a variety of trees, bromeliads, shrubs, and heliconia.",
+                "reproduction": "The nest is a soft and shallow cup made of light-colored plant fluff and spider webs. The female incubates and lays 2 eggs.",
+                "size": "It measures between 12 and 14 centimeters in length",
+                "funFact1": "Notable sexual dimorphism: Males have bright black plumage, while females have duller colors, which helps with camouflage.",
+                "funFact2": "Acrobatic flight: They are capable of performing fast flights and acrobatic maneuvers, allowing them to defend their territory and easily escape predators.",
+                "location": "Buenaventura",
+                "bibliography": "The hummingbird Florisuga mellivora is an important pollinator of tropical plants. By feeding on nectar, it transports pollen between flowers, promoting their reproduction and maintaining plant diversity in its habitat. It also helps control populations of small insects, which are part of its diet."
+              }
+            },
+            {
+              "modelIndex": 1,
+              "questions": [
+                {
+                  "questionText": "What is a strategy to protect the habitats of birds of intense flight?",
+                  "answers": [
+                    "A) Establishing nature reserves and national parks",
+                    "B) Expanding urban areas for development",
+                    "C) Reducing the amount of vegetation in urban areas",
+                    "D) All of the above"
+                  ],
+                  "correctAnswerIndex": 0
+                },
+                {
+                  "questionText": "What is a biological corridor and why is it important for birds of intense flight?",
+                  "answers": [
+                    "A) An area that connects different ecosystems, allowing the safe movement of birds",
+                    "B) A green space in the city for walking",
+                    "C) An agricultural cultivation area",
+                    "D) All of the above"
+                  ],
+                  "correctAnswerIndex": 0
+                },
+                {
+                  "questionText": "How can environmental education help conserve birds of intense flight?",
+                  "answers": [
+                    "A) Promoting regulated hunting",
+                    "B) Increasing the use of pesticides",
+                    "C) Teaching people the importance of these birds and encouraging their participation in conservation",
+                    "D) All of the above"
+                  ],
+                  "correctAnswerIndex": 1
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Common Ani",
+                "species": "Crotophaga ani",
+                "conservacion": "LC least concern",
+                "description": "Distinguished by its all-black plumage, long tail, large beak, and distinctive call. During the breeding season, this ani lives in pairs or, more commonly, in larger groups of up to 17 individuals. It is best known for its communal breeding system, where several females often lay eggs and incubate them in the same nest.",
+                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/GarrapateroComún",
+                "habitat": "Throughout its range, it occupies savannas, rural and suburban areas disturbed by humans, and secondary growth shrubs year-round. It is present near cow pastures, sugar cane fields, secondary moist forests, vegetation-rich fields, and roadsides.",
+                "diet": "They are mainly insectivorous, feeding on grasshoppers, caterpillars, and moths, but also on small frogs and lizards. Fruit is an important part of their diet during the dry season.",
+                "size": "It measures between 30 and 36 cm in length",
+                "reproduction": "Depending on the group size, up to 36 eggs can be found in a single nest.",
+                "funFact1": "Groups can identify two nesting sites and spend time at each, suggesting difficulty choosing; they may work on two nests simultaneously before deciding on the final one.",
+                "funFact2": "Individuals in a group demonstrate a strong degree of collaboration and mutual assistance during nesting and hunting.",
+                "location": "Rural areas near the city.",
+                "bibliography": "The communal breeding behavior of the ani bird (Crotophaga ani) is unique among birds, as it shows social cooperation in raising chicks. This species often forms large groups of up to 17 individuals who share the responsibility of incubating eggs and feeding the chicks. This behavior enhances the chicks' survival by providing additional protection and food during critical development periods."
+              }
+            },
+            {
+              "modelIndex": 2,
+              "questions": [
+                {
+                  "questionText": "What measure can be taken to reduce collisions of fast-flying birds with human structures?",
+                  "answers": [
+                    "A) Build more tall buildings",
+                    "B) Reduce the size of buildings",
+                    "C) Use treated glass to avoid reflections",
+                    "D) All of the above"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "Why is it important to monitor populations of fast-flying birds?",
+                  "answers": [
+                    "A) To increase sport hunting",
+                    "B) To promote urban expansion",
+                    "C) To identify changes in their behavior, reproduction, and migration patterns",
+                    "D) All of the above"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "What is one of the proposed actions to mitigate pollution that affects fast-flying birds?",
+                  "answers": [
+                    "A) Increase the use of chemical products",
+                    "B) Build more factories near their habitats",
+                    "C) It is a hanging nest made of leaves and twigs.",
+                    "D) Reduce air and water pollution in their habitats."
+                  ],
+                  "correctAnswerIndex": 1
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Greater Ani",
+                "species": "Dendrocygna autumnalis",
+                "description": "Known for its tawny-colored chest and agile flight.",
+                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/GarrapateroMayor",
+                "habitat": "Temperate forests and gardens",
+                "diet": "Its diet is varied, including aquatic plants, seeds, and small invertebrates, making it an important contributor to the control of aquatic vegetation and the dispersal of seeds in its environment.",
+                "reproduction": "Nests in trees or on the ground near bodies of water, laying between 10 and 16 eggs. Both parents care for the young, which are able to swim and feed shortly after hatching.",
+                "size": "3.5 inches",
+                "funFact1": "The black-bellied whistling duck is known for its whistling call, even in flight.",
+                "funFact2": "They nest in tree cavities, adapting to a wide variety of habitats.",
+                "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro – Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
+                "bibliography": "This species plays an important ecological role by feeding on insects, small vertebrates, and ticks, helping to control these populations and reducing the spread of diseases in livestock. By eliminating parasites from large mammals like cows and horses, the Greater Ani also promotes the health of these animals and the balance of the ecosystems in which it lives."
+              }
+            },
+            {
+              "modelIndex": 3,
+              "questions": [
+                {
+                  "questionText": "What is a characteristic skill of hummingbirds that sets them apart from other birds?",
+                  "answers": [
+                    "A) They can sleep while flying",
+                    "B) They can swim long distances",
+                    "C) They can fly in all directions, including hovering",
+                    "D) They can stay underwater for long periods"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "What is a key feature of the body structure of Apodiformes birds that allows them to fly quickly and efficiently?",
+                  "answers": [
+                    "A) Aerodynamic body structure",
+                    "B) Robust and heavy bodies",
+                    "C) Short and wide wings",
+                    "D) Large bodies to store energy"
+                  ],
+                  "correctAnswerIndex": 0
+                },
+                {
+                  "questionText": "How do Apodiformes contribute to the health of the ecosystem they live in?",
+                  "answers": [
+                    "A) They promote seed dispersal through their diet",
+                    "B) They improve soil quality by collecting organic matter",
+                    "C) They control insect populations, regulating pests",
+                    "D) They act as pollinators of aquatic flowers"
+                  ],
+                  "correctAnswerIndex": 2
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Rufous-tailed Hummingbird",
+                "species": "Amazilia tzacatl",
+                "conservacion":"LC least concern",
+                "description": "It has a generally green body; the male’s throat and chest are a brighter green. It also has a bright pinkish-red bill (with a black tip) and a bright reddish tail.",
+                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/ColaRufa",
+                "habitat": "This species is common and widespread in non-forest areas, including clearings, gardens, forest edges, and some secondary forests. It prefers low habitats, with shrubs, and often visits feeders located in open areas with some coverage.",
+                "diet": "Rufous-tailed hummingbirds feed on nectar and visit Heliconia, banana, and coffee flowers. Since nectar is low in protein, they also feed on small insects. This species is also a regular visitor to artificial feeders filled with a mixture of water and sugar.",
+                "reproduction": "Nests have been reported in Colombia in February and August. Females usually choose small trees or shrubs as nesting sites, and they usually lay two eggs. The incubation period is 15 to 16 days. The chicks fledge around 18 to 22 days of age, though they do not become independent from their mothers until around day 58. The female takes on all parental care.",
+                "size": "It measures between 9.0 and 10.11 cm in length.",
+                "funFact1": "Territorial aggression: Although small, the Amazilia tzacatl is highly territorial and vigorously defends its nectar source from other hummingbirds and even larger birds.",
+                "funFact2": "Ability to fly in all directions: Like other hummingbirds, this species can fly forward, backward, up, down, and even hover in place, thanks to the rapid speed of its wings.",
+                "location": "Ecohotel El Castillo",
+                "bibliography": "The Amazilia tzacatl hummingbird plays a key role in pollinating numerous plants. By feeding on flower nectar, it facilitates plant reproduction, contributing to the balance and plant diversity in its environment. It also consumes small insects, helping to control their populations. Its presence benefits both flora and other species that depend on pollinated plants."
+              }
+            },
+            {
+              "modelIndex": 4,
+              "questions": [
+                {
+                  "questionText": "Why is the presence of Apodiformes birds important in an ecosystem?",
+                  "answers": [
+                    "A) Because they contribute to rock erosion",
+                    "B) Because they help spread plant seeds",
+                    "C) Because they contribute to the control of insects and pests",
+                    "D) Because they influence water quality"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "What is a notable ability of swifts, a group within the Apodiformes?",
+                  "answers": [
+                    "A) They can sleep at night hanging from their legs",
+                    "B) Their nests are built on the ground to avoid predators",
+                    "C) They can change the color of their feathers to blend in",
+                    "D) They can spend months in the air without landing"
+                  ],
+                  "correctAnswerIndex": 3
+                },
+                {
+                  "questionText": "What peculiarity do swifts have regarding their life in the air?",
+                  "answers": [
+                    "A) They only fly to hunt",
+                    "B) They can sleep while flying",
+                    "C) They only fly during the breeding season",
+                    "D) They cannot fly long distances"
+                  ],
+                  "correctAnswerIndex": 1
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Booted Racket-tail Hummingbird",
+                "species": "Ocreatus underwoodii",
+                "conservacion":"LC least concern",
+                "description": "Small hummingbird, generally bright green in males and with white underparts in females. Both sexes have white tufts on their legs (smaller in females) and a forked tail; males have elongated outer tail feathers, ending in bare shafts and racket-like tips.",
+                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Raquetas",
+                "habitat": "Humid forest zone of the subtropical and temperate regions of the Andes. Found both inside forests and in open secondary forests. In Colombia, it is known to be found in both primary and secondary sub-Andean forests (below 2400 m).",
+                "diet": "This species feeds on nectar from flowers visited by insects, mainly large bees, and bee-pollinated flowers, each flower containing a small volume of nectar with relatively high concentration.",
+                "reproduction": "The nest is placed on horizontal tree branches at a height of 6 to 8 meters above the ground. Only the female incubates, and the incubation lasts between 16 and 17 days. The clutch size is 2 eggs.",
+                "size": "Measures between 11-15 cm in length.",
+                "funFact1": "Elaborate tail feathers: The male Booted Racket-tail is easily recognizable by its long outer tail feathers, with unique racket-shaped tips.",
+                "funFact2": "Aggressive toward other hummingbirds: Despite its size, this species is known for being highly aggressive when defending its feeding areas.",
+                "location": "Farallones de Cali, Rio Pance Eco-Park",
+                "bibliography": "This hummingbird is an important pollinator of numerous plant species, facilitating the reproduction of plants that rely on animal pollination. By feeding on nectar and visiting a wide variety of flowers, it ensures the continuity of these plants, which are crucial to the biodiversity of the Andean ecosystem."
+              }
+            },
+            {
+              "modelIndex": 5,
+              "questions": [
+                {
+                  "questionText": "How do Apodiformes, such as swifts, capture their food?",
+                  "answers": [
+                    "A) They collect fruits from trees",
+                    "B) They dig in the ground to find prey",
+                    "C) They catch insects while flying at high speed",
+                    "D) They hunt on the water surface"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "What is the relationship between Apodiform birds and bodies of water?",
+                  "answers": [
+                    "A) They are aquatic birds and swim to catch their food",
+                    "B) They avoid areas near water",
+                    "C) They only use bodies of water for nesting",
+                    "D) They are found near bodies of water where they hunt flying insects"
+                  ],
+                  "correctAnswerIndex": 3
+                },
+                {
+                  "questionText": "Where do Apodiformes prefer to live?",
+                  "answers": [
+                    "A) Open and high areas like mountains and forests",
+                    "B) Deserts and dry plains",
+                    "C) Dense tropical rainforests",
+                    "D) Coastal aquatic areas"
+                  ],
+                  "correctAnswerIndex": 0
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Booted Racket-tail",
+                "species": "Aglaiocercus kingii",
+                "conservation": "LC least concern",
+                "description": "They are a captivating group of short-billed and long-tailed hummingbirds found in the humid montane forests of the Andes. This species is sexually dimorphic; males have a bright green crown and throat with exceptionally long and dazzling greenish-blue tail feathers. Females have a much shorter tail, a white throat with green spots, and a reddish-beige belly.",
+                "mainImage": "Images/Interface/Cards/FierceFlight/BOOTED_RACKET_TAIL",
+                "habitat": "It is found in a variety of habitats, depending on the location and time of year. It is associated with subtropical and temperate forests, but can also be found at forest edges, semi-open areas of moist forest or regrowth, premontane areas, shrubs, clearings, pastures, gardens, and agricultural areas like coffee plantations, although it is rarely seen inside forests.",
+                "diet": "This shade-loving hummingbird feeds in the understory, hovering over flowers. While acting as a pollinator, it sometimes steals nectar by piercing flowers. At higher altitudes, it feeds in the canopies of small trees and shrubs. It consumes nectar and arthropods.",
+                "reproduction": "In Colombia, reproduction has been documented from February to October, but it is believed the species breeds year-round. The male participates in ritualized nest construction, the female sleeps in the nest every night, and she is the only one who incubates. The incubation period is 15 to 17 days, and they lay 2 eggs.",
+                "size": "It measures between 16 and 19 cm in length.",
+                "funFact1": "Long and striking tail: Males have an extremely long tail, nearly twice their body size, used in courtship displays.",
+                "funFact2": "Feeds in flight: Like other hummingbirds, it mainly feeds while flying, allowing access to flowers inaccessible to other species.",
+                "location": "Ecohotel El Castillo",
+                "bibliography": "The hummingbird Aglaiocercus kingii is vital for the pollination of various plants in the Andean forests. By feeding on nectar, it facilitates pollen transfer between flowers, promoting plant reproduction and contributing to the ecosystem's biodiversity."
+              }
+            },
+            {
+              "modelIndex": 6,
+              "questions": [
+                {
+                  "questionText": "What adaptation allows Caprimulgiformes to efficiently catch insects while flying?",
+                  "answers": [
+                    "A) Long and strong feet",
+                    "B) Curved and sharp beak",
+                    "C) Large and wide mouth",
+                    "D) Brightly colored feathers"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "How do Caprimulgiform birds camouflage themselves in their environment?",
+                  "answers": [
+                    "A) Through their bright colors",
+                    "B) By burying themselves underground",
+                    "C) By using plumage that mimics the surroundings, such as leaves and branches",
+                    "D) By placing themselves in water to blend with the reflection"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "What is one of the main adaptations of Caprimulgiformes for nocturnal flight?",
+                  "answers": [
+                    "A) Plumage that changes color in the dark",
+                    "B) Wings with membranes that reflect light",
+                    "C) Eyes adapted to low light conditions",
+                    "D) Long legs that allow for silent flight"
+                  ],
+                  "correctAnswerIndex": 2
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Common Potoo",
+                "species": "Nyctibius griseus",
+                "conservation": "LC least concern",
+                "description": "It is a large nocturnal bird with big yellow eyes. It often perches on branches, fence posts, or exposed limbs where its cryptic coloration helps it avoid detection. It is more frequently identified by its eerie, descending call and is typically solitary.",
+                "mainImage": "Images/Interface/Cards/FierceFlight/POTOO",
+                "habitat": "They inhabit the rainforests of the Neotropics, living in forest edges, humid and very humid areas, and also open areas near water bodies, plantations with scattered trees, forest edges, gallery forests, and mangroves.",
+                "diet": "They feed at night by perching on exposed branches and catching flying insects. They remain upright, watching attentively with frequent head movements until they spot a large insect. The insects are caught mid-air and then the bird often returns to the same perch.",
+                "size": "It measures between 33 and 38 cm in length.",
+                "reproduction": "It is believed that the common potoo is monogamous; both sexes are said to incubate the egg and care for the chick. They lay a single egg, which is incubated on top of a broken branch or stump, or in a slight depression on a large tree limb.",
+                "funFact1": "It remains still during the day. It perches on high branches, usually in an upright posture. When not alarmed, it perches more vertically with its bill pointed forward instead of upwards.",
+                "funFact2": "When it suspects it’s being watched, it stretches its body, compresses its plumage, and raises its head, all so gradually that no movement is detected. It may use the same roosting spot for months.",
+                "location": "Eco-park Lago de Las Garzas, University of Valle, Club Campestre Farallones",
+                "bibliography": "Nyctibius griseus plays a crucial ecological role in its ecosystem. As a nocturnal insect predator, it helps control pest populations, contributing to the balance of the food chain. Additionally, by consuming insects that could harm vegetation, it indirectly protects local flora. As part of the trophic web, it also serves as prey for larger predators, making it an important component of the ecosystem's biodiversity."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    
+      
+            
+            
+            
+       
+        
+
+          
+          
+          
