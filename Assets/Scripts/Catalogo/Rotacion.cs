@@ -1,100 +1,66 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Rotacion : MonoBehaviour
 {
-    [SerializeField] float pageSpeed = 0.5f;
-    [SerializeField] List<Transform> pages;
-    int index = -1;
-    bool rotate = false;
-    [SerializeField] GameObject backBotton;
-    [SerializeField] GameObject fowardBotton;
+    [SerializeField] List<GameObject> cartas; // Lista de todas las cartas
+    [SerializeField] int cartasPorPagina = 8; // Número de cartas por página
+    [SerializeField] GameObject contenedorCartas; // Panel donde se mostrarán las cartas
+    [SerializeField] Button botonSiguiente;
+    [SerializeField] Button botonAnterior;
+    int paginaActual = 0;
+    int totalPaginas;
 
-    public void Start()
+    private void Start()
     {
-        InitialState();
+        totalPaginas = Mathf.CeilToInt((float)cartas.Count / cartasPorPagina) - 1;
+        MostrarPagina(paginaActual);
+        ActualizarBotones();
     }
 
-    public void InitialState()
+    public void SiguientePagina()
     {
-        for (int i = 0; i < pages.Count; i++)
+        if (paginaActual < totalPaginas)
         {
-            pages[i].transform.rotation = Quaternion.identity;
-        }
-        pages[0].SetAsLastSibling();
-        backBotton.SetActive(false);
-    }
-
-    public void RotateFoward()
-    {
-        if (rotate == true) { return; }
-        index++;
-        float angle = 180;
-        FowardButtonOptions();
-        pages[index].SetAsLastSibling();
-        StartCoroutine(Rotate(angle, true));
-
-    }
-
-    public void FowardButtonOptions()
-    {
-        if (backBotton.activeInHierarchy == false)
-        {
-            backBotton.SetActive(true);
-        }
-        if (index == pages.Count - 1)
-        {
-            fowardBotton.SetActive(false);
+            paginaActual++;
+            MostrarPagina(paginaActual);
+            ActualizarBotones();
         }
     }
 
-
-    public void RotateBack()
+    public void PaginaAnterior()
     {
-        if (rotate == true) { return; }
-        float angle = 0;
-        pages[index].SetAsLastSibling();
-        BackButtonOptions();
-        StartCoroutine(Rotate(angle, false));
-
-    }
-    public void BackButtonOptions()
-    {
-        if (fowardBotton.activeInHierarchy == false)
+        if (paginaActual > 0)
         {
-            fowardBotton.SetActive(true);
-        }
-        if (index - 1 == -1)
-        {
-            backBotton.SetActive(false);
+            paginaActual--;
+            MostrarPagina(paginaActual);
+            ActualizarBotones();
         }
     }
 
-
-    IEnumerator Rotate(float angle, bool foward)
+    private void MostrarPagina(int pagina)
     {
-        float value = 0f;
-        while (true)
+        // Ocultar todas las cartas primero
+        foreach (GameObject carta in cartas)
         {
-            rotate = true;
-            Quaternion targetRotation = Quaternion.Euler(0, angle, 0);
-            value += Time.deltaTime * pageSpeed;
-            pages[index].rotation = Quaternion.Slerp(pages[index].rotation, targetRotation, value);
-            float angle1 = Quaternion.Angle(pages[index].rotation, targetRotation);
-            if (angle1 < 0.1f)
-            {
-                if (foward == false)
-                {
-                    index--;
-                }
-                rotate = false;
-                break;
-            }
-            yield return null;
+            carta.SetActive(false);
+        }
+
+        // Mostrar solo las cartas de la página actual
+        int inicio = pagina * cartasPorPagina;
+        int fin = Mathf.Min(inicio + cartasPorPagina, cartas.Count);
+
+        for (int i = inicio; i < fin; i++)
+        {
+            cartas[i].SetActive(true);
         }
     }
 
-
-
+    private void ActualizarBotones()
+    {
+        botonAnterior.interactable = paginaActual > 0;
+        botonSiguiente.interactable = paginaActual < totalPaginas;
+    }
 }

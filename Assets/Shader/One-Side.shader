@@ -17,7 +17,6 @@ Shader "Unlit/NewUnlitShader"
             #pragma vertex vert
             #pragma fragment frag
            
-
             #include "UnityCG.cginc"
 
             struct appdata
@@ -36,11 +35,24 @@ Shader "Unlit/NewUnlitShader"
             sampler2D _MainTex;
             float4 _MainTex_ST;
 
+            // Añadir una variable para saber si estamos en la parte trasera
+            float _FlipUV;
+
             v2f vert (appdata v)
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+
+                // Invertir las UVs si estamos en la parte trasera
+                if (_FlipUV > 0.5)
+                {
+                    o.uv = float2(1.0 - v.uv.x, v.uv.y); // Invertir horizontalmente
+                }
+                else
+                {
+                    o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                }
+
                 return o;
             }
 
