@@ -1,0 +1,34 @@
+{
+  "es": {
+    "info_title": "Pausa",
+    "settings_title": "Configuraciones",
+    "Idioma": "English",
+    "lenguaje":"Idioma",
+    "habitat": "¿Donde vive?",
+    "alimento": "Alimentación"  ,
+    "reproduccion": "Reproducción",
+    "tamaño": "Tamaño",
+    "datoC": "Sabias que..." ,  
+     "encuentrame": "Buscame en...",
+    "catalog_title": "Catálogo",
+    "ecosistema": "ecosistema",
+    "nivel" : "Nivel Completado",
+     "continuar":"continuar"
+  },
+  "en": {
+    "info_title": "Pause",
+    "settings_title": "Settings",
+    "Idioma": "Español",
+    "lenguaje":"Language",
+    "habitat": " Where you live?",
+    "alimento": "Feeding"  ,
+    "reproduccion": "Reproduction",
+    "tamaño": "size",
+    "datoC": "Did you know that" ,
+    "encuentrame": "look for me in...",
+    "ecosistema": "ecosystem",
+    "nivel" : "Level Completed",
+    "continuar":"continue"
+
+  }
+}

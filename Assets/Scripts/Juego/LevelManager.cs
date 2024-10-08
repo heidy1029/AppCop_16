@@ -33,19 +33,25 @@ public class LevelManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-    #if !UNITY_EDITOR
+#if !UNITY_EDITOR
         _isMobile = Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer;
-    #endif
+#endif
     }
 
     private void Start()
     {
-        if(!_isMobile)
+        _data = FindObjectOfType<Data>();
+        if (_data == null)
+        {
+            Debug.LogError("No se encontró el componente 'Data' en la escena.");
+        }
+        if (!_isMobile)
         {
             _mobileUI.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-        }else
+        }
+        else
         {
             _mobileUI.SetActive(true);
         }

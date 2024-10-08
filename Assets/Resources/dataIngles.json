@@ -5,6 +5,8 @@
       "allModelQuestions": [
         {
           "modelIndex": 0,
+          "questions": [
+            {
           "questionText": "What type of diet do birds from the order Anseriformes typically have?",
             "answers": [
               "A) Exclusively insectivorous",
@@ -49,7 +51,7 @@
             "location": "Lago de Las Garzas Ecopark, Universidad del Valle, Farallones Country Club",
             "bibliography": "Dendrocygna viduata (white-faced whistling duck) plays a key role in aquatic ecosystems by contributing to seed dispersal, controlling aquatic vegetation, and regulating invertebrates. It is also part of the food chain, acting as prey for predators and serving as an indicator of wetland health; its stable presence suggests a healthy environment, while its decline may indicate environmental issues."
           }
-          },
+        },
           {
             "modelIndex": 1,
             "questions": [
@@ -494,7 +496,12 @@
             "location": "El Pondaje and Charco Azul wetlands, located within the city, where there are areas with aquatic vegetation. Calima Lake or more rural and natural areas near rivers such as the Cauca River or Hacienda El Paraíso. Sonso Lagoon, Buga. Confirmed.",
             "bibliography": "This scavenger bird helps maintain environmental balance by cleaning the surroundings of dead animals, reducing the spread of diseases. By feeding on organic waste, it contributes to the natural decomposition of matter and promotes nutrient recycling in the soil, favoring the health of swamp and wetland ecosystems."
           }
-        },
+        }
+      ]
+    },
+
+
+
         {
           "birdTypeId": 2,
           "allModelQuestions": [
@@ -796,69 +803,1303 @@
                 "location": "Ecohotel El Castillo",
                 "bibliography": "The hummingbird Aglaiocercus kingii is vital for the pollination of various plants in the Andean forests. By feeding on nectar, it facilitates pollen transfer between flowers, promoting plant reproduction and contributing to the ecosystem's biodiversity."
               }
-            },
-            {
-              "modelIndex": 6,
-              "questions": [
-                {
-                  "questionText": "What adaptation allows Caprimulgiformes to efficiently catch insects while flying?",
-                  "answers": [
-                    "A) Long and strong feet",
-                    "B) Curved and sharp beak",
-                    "C) Large and wide mouth",
-                    "D) Brightly colored feathers"
-                  ],
-                  "correctAnswerIndex": 2
-                },
-                {
-                  "questionText": "How do Caprimulgiform birds camouflage themselves in their environment?",
-                  "answers": [
-                    "A) Through their bright colors",
-                    "B) By burying themselves underground",
-                    "C) By using plumage that mimics the surroundings, such as leaves and branches",
-                    "D) By placing themselves in water to blend with the reflection"
-                  ],
-                  "correctAnswerIndex": 2
-                },
-                {
-                  "questionText": "What is one of the main adaptations of Caprimulgiformes for nocturnal flight?",
-                  "answers": [
-                    "A) Plumage that changes color in the dark",
-                    "B) Wings with membranes that reflect light",
-                    "C) Eyes adapted to low light conditions",
-                    "D) Long legs that allow for silent flight"
-                  ],
-                  "correctAnswerIndex": 2
-                }
-              ],
-              "birdInfo": {
-                "birdName": "Common Potoo",
-                "species": "Nyctibius griseus",
-                "conservation": "LC least concern",
-                "description": "It is a large nocturnal bird with big yellow eyes. It often perches on branches, fence posts, or exposed limbs where its cryptic coloration helps it avoid detection. It is more frequently identified by its eerie, descending call and is typically solitary.",
-                "mainImage": "Images/Interface/Cards/FierceFlight/POTOO",
-                "habitat": "They inhabit the rainforests of the Neotropics, living in forest edges, humid and very humid areas, and also open areas near water bodies, plantations with scattered trees, forest edges, gallery forests, and mangroves.",
-                "diet": "They feed at night by perching on exposed branches and catching flying insects. They remain upright, watching attentively with frequent head movements until they spot a large insect. The insects are caught mid-air and then the bird often returns to the same perch.",
-                "size": "It measures between 33 and 38 cm in length.",
-                "reproduction": "It is believed that the common potoo is monogamous; both sexes are said to incubate the egg and care for the chick. They lay a single egg, which is incubated on top of a broken branch or stump, or in a slight depression on a large tree limb.",
-                "funFact1": "It remains still during the day. It perches on high branches, usually in an upright posture. When not alarmed, it perches more vertically with its bill pointed forward instead of upwards.",
-                "funFact2": "When it suspects it’s being watched, it stretches its body, compresses its plumage, and raises its head, all so gradually that no movement is detected. It may use the same roosting spot for months.",
-                "location": "Eco-park Lago de Las Garzas, University of Valle, Club Campestre Farallones",
-                "bibliography": "Nyctibius griseus plays a crucial ecological role in its ecosystem. As a nocturnal insect predator, it helps control pest populations, contributing to the balance of the food chain. Additionally, by consuming insects that could harm vegetation, it indirectly protects local flora. As part of the trophic web, it also serves as prey for larger predators, making it an important component of the ecosystem's biodiversity."
-              }
             }
           ]
-        }
-      ]
-    }
-    
-      
-            
-            
-            
-       
-        
+        },
 
-          
-          
-          
+
+
+            {
+              "birdTypeId": 3,
+              "allModelQuestions": [
+                {
+                  "modelIndex": 0,
+                  "questions": [
+                    {
+                      "questionText": "What is a distinctive feature of the beak of Falconiformes?",
+                      "answers": [
+                        "A) They have a straight and sharp beak.",
+                        "B) They have a hook-shaped beak for tearing leaves.",
+                        "C) They have a beak with a tomial tooth.",
+                        "D) They have a flat and wide beak for filtering water."
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "In what type of habitat can peregrine falcons often be found?",
+                      "answers": [
+                        "A) Only in Europe and America",
+                        "B) Only in North America and Asia",
+                        "C) On all continents including Antarctica",
+                        "D) On all continents except Antarctica"
+                      ],
+                      "correctAnswerIndex": 3
+                    },
+                    {
+                      "questionText": "What adaptations do Falconiformes' wings have?",
+                      "answers": [
+                        "A) Thin and pointed wings for speed and maneuverability.",
+                        "B) Wide and rounded wings for slow flight.",
+                        "C) Short and rounded wings for fast flight.",
+                        "D) Long and flat wings for gliding."
+                      ],
+                      "correctAnswerIndex": 0
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "Yellow-headed Caracara",
+                    "species": "Daptrius chimachima",
+                    "conservation": "LC Least Concern",
+                    "description": "It stands out for its light brown to brown plumage, with paler head and neck, and dark wing tips. It has a slender appearance and an upright posture, giving it an elegant look. It has a yellow hooked beak with a black tip and long yellow legs adapted for walking in search of food.",
+                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/Caracara",
+                    "habitat": "It inhabits open ecosystems, from grasslands, savannas, and agricultural lands to urban areas. It prefers open areas where it can hunt, but easily adapts to human-altered habitats, including cultivated areas and cities.",
+                    "diet": "Varied diet, omnivorous, feeding on small mammals, birds, reptiles, carrion, insects, other invertebrates, and fruits. It takes advantage of urban areas, feeding on waste and easily obtained food. It is an opportunistic bird, allowing it to survive in different environments.",
+                    "reproduction": "They nest in trees and palms, building large nests made of branches and other plant materials. The female usually lays 2 to 3 eggs, which are incubated for approximately 28 to 32 days. Both parents participate in feeding the chicks once they hatch.",
+                    "size": "Approximately 40-45 cm in length.",
+                    "funFact1": "Although it is a bird of prey, the Yellow-headed Caracara is often seen walking on the ground searching for food, which is unusual for birds of this type.",
+                    "funFact2": "This species has proven to be highly adaptable to urban environments, taking advantage of human resources, such as food waste, allowing it to thrive in populated areas.",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "The Daptrius chimachima plays an important role as a scavenger, helping to clean the environment by feeding on dead animals and as a pest controller, as it consumes insects and small vertebrates. This bird helps maintain ecological balance by regulating prey populations and preventing the spread of disease through the elimination of carcasses."
+                  }
+                },
+                {
+                  "modelIndex": 1,
+                  "questions": [
+                    {
+                      "questionText": "Which is one of the least common habitats for Falconiformes?",
+                      "answers": [
+                        "A) Tropical forests.",
+                        "B) Grasslands.",
+                        "C) Deserts.",
+                        "D) Underground zones."
+                      ],
+                      "correctAnswerIndex": 3
+                    },
+                    {
+                      "questionText": "What type of prey do Falconiformes typically hunt?",
+                      "answers": [
+                        "A) Mainly small birds, insects, and in some cases, small mammals.",
+                        "B) Mainly large fish.",
+                        "C) Mainly plants and nectar.",
+                        "D) Mainly large terrestrial mammals."
+                      ],
+                      "correctAnswerIndex": 0
+                    },
+                    {
+                      "questionText": "How do Falconiformes use their speed when hunting?",
+                      "answers": [
+                        "A) To attack prey on the ground.",
+                        "B) To search for prey in the water.",
+                        "C) To catch prey during the night.",
+                        "D) To perform fast and surprise attacks in the air."
+                      ],
+                      "correctAnswerIndex": 3
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "Aplomado Falcon",
+                    "species": "Falco femoralis",
+                    "conservation": "LC Least Concern",
+                    "description": "It is an agile and fast bird of prey, with dark gray plumage and a black mask on its head. It is known for hunting in teams and using abandoned nests of other birds, as it does not build its own.",
+                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/Aplomado",
+                    "habitat": "It prefers open areas like grasslands, savannas, and forest edges. It also inhabits plains, deserts, and regions near swamps, where it hunts in flight and finds shelter in trees or elevated structures.",
+                    "diet": "They feed on a variety of animals, insects, lizards, birds, and small mammals. They hunt insects and birds in the air or chase prey on the ground, often hunting cooperatively in pairs, with one bird scaring the prey and the other intercepting it.",
+                    "reproduction": "They nest in trees, palms, or on the ground, using beams of electric poles. They do not build their own nests, but instead occupy abandoned nests of other birds of prey, woodpeckers, or medium-sized birds. They lay 2 to 4 eggs and have one brood per season.",
+                    "size": "It measures between 38 and 43 cm in length.",
+                    "funFact1": "It is one of the few falcons that hunts both solo and in pairs, increasing its efficiency in catching prey.",
+                    "funFact2": "Aplomado falcon pairs pass food to each other in mid-air. Sometimes the male passes food to the female easily; other times, he holds onto the food too long, and the female drags him in the air until he lets go.",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "The Aplomado Falcon (Falco femoralis) plays an important role in its ecosystem as a population controller of small mammals, birds, and insects. As a top predator, it maintains the balance of the most abundant prey species and helps regulate food chains in grasslands and wooded areas where it lives. This reduces the overpopulation of certain species and contributes to the health of the ecosystem."
+                  }
+                },
+                {
+                  "modelIndex": 2,
+                  "questions": [
+                    {
+                      "questionText": "What role do Falconiformes play in the biodiversity of their ecosystem?",
+                      "answers": [
+                        "A) They decrease biodiversity.",
+                        "B) They do not affect biodiversity.",
+                        "C) They help maintain biodiversity by controlling prey populations.",
+                        "D) They only affect the biodiversity of forests."
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "How is the vision of Falconiformes compared to humans?",
+                      "answers": [
+                        "A) Approximately equal to humans.",
+                        "B) Approximately 1.5 times better than humans.",
+                        "C) Approximately 2.6 times better than humans.",
+                        "D) Approximately 5 times better than humans."
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "What impact do Falconiformes have on small mammal populations?",
+                      "answers": [
+                        "A) They increase small mammal populations.",
+                        "B) They do not affect small mammal populations.",
+                        "C) They regulate and maintain balanced small mammal populations.",
+                        "D) They only affect large mammals."
+                      ],
+                      "correctAnswerIndex": 2
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "American Kestrel",
+                    "species": "Falco sparverius",
+                    "conservation": "LC Least Concern",
+                    "description": "The Colombian chachalaca, endemic to Colombia, as its name suggests, can be easily identified. All species have long tails.",
+                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/American",
+                    "habitat": "The American Kestrel (Falco sparverius) prefers open areas with low vegetation and scattered trees, such as meadows, grasslands, deserts, parks, and agricultural fields. This species adapts well to human-modified habitats, such as pastures and urban parks, and is commonly found in cities, suburbs, and areas near human activity.",
+                    "diet": "American kestrels primarily feed on insects and other invertebrates, as well as small rodents and birds. Their usual prey includes grasshoppers, cicadas, beetles, and dragonflies; scorpions and spiders; butterflies and moths; voles, mice, shrews, and bats; and songbirds.",
+                    "reproduction": "These birds of prey lay their eggs in tree cavities, rock crevices, or other natural cavities. They may also use old woodpecker holes, nest boxes, or other human-made structures.",
+                    "size": "The American Kestrel is the smallest falcon in North America, measuring between 22 and 31 cm in length.",
+                    "funFact1": "Although it is small, the American Kestrel can carry prey weighing up to its own body weight.",
+                    "funFact2": "It is one of the few birds of prey that can hover in place while searching for prey, a behavior known as 'hover-hunting.'",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "The American Kestrel (Falco sparverius) is an important predator that helps control insect and small mammal populations. In particular, they help control agricultural pests, benefiting farmers by reducing the need for pesticides."
+                  }
+                },
+                {
+                  "modelIndex": 3,
+                  "questions": [
+                    {
+                      "questionText": "What characteristic of eagles makes them stand out when it comes to their nests?",
+                      "answers": [
+                        "A) They build some of the largest nests in the world.",
+                        "B) They build the smallest nests among raptors.",
+                        "C) They never reuse their nests.",
+                        "D) They prefer to build nests on the ground."
+                      ],
+                      "correctAnswerIndex": 0
+                    },
+                    {
+                      "questionText": "What do many species of Accipitriformes, such as eagles, symbolize culturally?",
+                      "answers": [
+                        "A) Destruction.",
+                        "B) Isolation.",
+                        "C) Power and majesty.",
+                        "D) Fear and weakness."
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "Why are Accipitriformes important to prevent the spread of diseases in the ecosystem?",
+                      "answers": [
+                        "A) Because they feed on carrion.",
+                        "B) Because they eliminate insects.",
+                        "C) Because they purify water.",
+                        "D) Because they control the population of smaller predators."
+                      ],
+                      "correctAnswerIndex": 0
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "Roadside Hawk",
+                    "species": "Rupornis magnirostris",
+                    "conservation": "LC least concern",
+                    "description": "It stands out for its grayish plumage with dark bands on the tail and a barred belly. It has bright yellow eyes and long yellow legs. It is one of the most common raptors in Latin America.",
+                    "mainImage": "Images/Interface/Cards/Raptors/RoadsideHawk",
+                    "habitat": "In a wide variety of ecosystems, from tropical and subtropical forests to open areas, savannas, farmlands, and urban areas.",
+                    "diet": "It is an opportunistic hunter and its diet includes small mammals, birds, lizards, snakes, and large insects. It is observed hunting both from perches and in flight, and is known for actively hunting in open or semi-forested areas.",
+                    "reproduction": "It nests in trees, where it builds nests of sticks and branches. The female lays 1 to 2 eggs, which are incubated for approximately 30 days. Both parents participate in the care and feeding of the chicks, which leave the nest after about 40 to 45 days.",
+                    "size": "It measures between 33 and 41 centimeters in length.",
+                    "funFact1": "It is a very adaptable species, which has allowed it to thrive in urban and rural areas, taking advantage of both natural prey and those associated with human activity.",
+                    "funFact2": "Unlike many raptors that rely on aerial hunting, the Roadside Hawk frequently hunts on the ground, chasing its prey on foot.",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "This hawk plays a crucial role in controlling populations of small vertebrates and invertebrates. As a top predator, it helps maintain ecological balance by controlling rodents, lizards, and insects. Its presence in agricultural areas also makes it an ally for farmers, as it reduces rodent pests."
+                  }
+                },
+                {
+                  "modelIndex": 4,
+                  "questions": [
+                    {
+                      "questionText": "What characteristic of eagles makes them stand out when it comes to their nests?",
+                      "answers": [
+                        "A) They build some of the largest nests in the world.",
+                        "B) They build the smallest nests among raptors.",
+                        "C) They never reuse their nests.",
+                        "D) They prefer to build nests on the ground."
+                      ],
+                      "correctAnswerIndex": 0
+                    },
+                    {
+                      "questionText": "What do many species of Accipitriformes, such as eagles, symbolize culturally?",
+                      "answers": [
+                        "A) Destruction.",
+                        "B) Isolation.",
+                        "C) Power and majesty.",
+                        "D) Fear and weakness."
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "What happens if the population of Accipitriformes in an ecosystem decreases?",
+                      "answers": [
+                        "A) Prey decreases.",
+                        "B) It does not affect the ecosystem.",
+                        "C) Overpopulation of prey increases.",
+                        "D) The food chain becomes more stable."
+                      ],
+                      "correctAnswerIndex": 2
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "White-tailed Hawk",
+                    "species": "Geranoaetus albicaudatus",
+                    "conservation": "LC least concern",
+                    "description": "This large hawk, with black plumage on the head, reddish streaks on the shoulders, and a bright white chest, inhabits open and arid regions. It is shy, hunts small vertebrates and invertebrates, and avoids nesting near human activity and cultivated fields.",
+                    "mainImage": "Images/Interface/Cards/Raptors/WhiteTailedHawk",
+                    "habitat": "This hawk prefers open and semi-open grasslands or savannas, ranging from humid to arid areas, and adapts well to thorny and bushy plants. It dislikes cultivated agricultural fields but tolerates pastures for livestock that have not been overgrazed.",
+                    "diet": "It feeds on small vertebrates and arthropods, hunting from perches and in the air, primarily in the afternoon. It catches its prey with its feet, starting to eat them from the head, and the prey fed to the chicks are often headless and missing part of the torso.",
+                    "reproduction": "Its nests are typically roughly oval or elliptical, flat, and loosely constructed with dry branches, twigs, grasses, and herbs. It is known that pairs build 1 or 2 nests that they ultimately do not use, possibly due to human visits. They usually lay 2 eggs, sometimes 3, rarely 1 or 4.",
+                    "size": "It measures between 46 and 52 cm in length.",
+                    "funFact1": "The long-winged eagle is known for its impressive flying abilities, which allow it to soar at great heights and cover extensive areas in search of prey.",
+                    "funFact2": "It is often seen perched on high points, such as trees or rocks, from where it has a panoramic view of its surroundings, making it easier to locate its prey.",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "Geranoaetus albicaudatus, known as the white-tailed hawk, plays a crucial role in its ecosystem as a top predator. Its presence helps regulate populations of small mammals, birds, and reptiles, maintaining ecological balance. By hunting prey, it also contributes to nutrient dispersal through its droppings, promoting soil fertility."
+                  }
+                },
+                {
+                  "modelIndex": 5,
+                  "questions": [
+                    {
+                      "questionText": "How does the adaptation of Cathartiformes to their habitat affect their social behavior?",
+                      "answers": [
+                        "A) It prevents them from forming groups.",
+                        "B) It allows them to find carrion more quickly in groups.",
+                        "C) It forces them to hunt alone.",
+                        "D) It reduces their flight capacity."
+                      ],
+                      "correctAnswerIndex": 1
+                    },
+                    {
+                      "questionText": "What is the main food source for Cathartiformes?",
+                      "answers": [
+                        "A) Fruits.",
+                        "B) Insects.",
+                        "C) Carrion.",
+                        "D) Live fish."
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "How do Cathartiformes contribute to the nutrient cycle in ecosystems?",
+                      "answers": [
+                        "A) They help speed up the decomposition of organic matter.",
+                        "B) They prevent competition between species.",
+                        "C) They increase the population of insects.",
+                        "D) They facilitate seed dispersal."
+                      ],
+                      "correctAnswerIndex": 0
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "Black Vulture",
+                    "species": "Geranoaetus albicaudatus",
+                    "conservation": "LC least concern",
+                    "description": "The pair is monogamous and maintains a long-term pair bond. They closely associate throughout the year and can feed their chicks up to eight months after fledging.",
+                    "mainImage": "Images/Interface/Cards/Raptors/Vulture",
+                    "habitat": "It is mainly found in open or semi-open habitats with abundant carrion to feed on, such as farms, savannas, grasslands, clearings, mangroves, and towns. It is associated with human dwellings and feeds on streets, garbage dumps, and around slaughterhouses.",
+                    "diet": "It mainly depends on carrion, mostly large mammals, but is opportunistic and easily scavenges trash, scraps, and other edible wastes. Occasionally, it consumes live prey, and food can be obtained in markets, slaughterhouses, fish unloading areas, and garbage dumps.",
+                    "reproduction": "It typically nests in dark hollows or under some type of cover. Caves, hollow trunks, stumps and logs, rock crevices, brush piles, abandoned buildings, and sites next to or under trees and logs are all used. Almost always 2 eggs.",
+                    "size": "It measures between 60 and 68 cm in length.",
+                    "funFact1": "Instead of hunting live prey like many raptors, vultures primarily feed on carrion, which they locate using their keen sense of smell.",
+                    "funFact2": "They have an extremely efficient digestive system that can neutralize many harmful pathogens, preventing diseases from spreading through decaying carcasses.",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "It helps to control disease by removing dead animals from the ecosystem. Their efficient digestion kills bacteria, and they consume carcasses with little competition from other animals."
+                  }
+                }
+              ]
+            },
+
+
+
+                {
+                  "birdTypeId": 4,
+                  "allModelQuestions": [
+                    {
+                      "modelIndex": 0,
+                      "questions": [
+                        {
+                          "questionText": "What unique characteristic of birds in the order Columbiformes allows them to feed their young?",
+                          "answers": [
+                            "A) They are monogamous and take care of their young as a pair",
+                            "B) They produce a substance called crop milk to feed their young",
+                            "C) They have long, muscular wings for fast flight",
+                            "D) Their plumage varies between gray tones and bright colors"
+                          ],
+                          "correctAnswerIndex": 1
+                        },
+                        {
+                          "questionText": "On which continents are Columbiformes species found?",
+                          "answers": [
+                            "A) Only in Europe and America",
+                            "B) Only in North America and Asia",
+                            "C) On all continents, including Antarctica",
+                            "D) On all continents except Antarctica"
+                          ],
+                          "correctAnswerIndex": 3
+                        },
+                        {
+                          "questionText": "At what stage of development can Columbiformes chicks include invertebrates in their diet?",
+                          "answers": [
+                            "A) During their first weeks of life",
+                            "B) In the first days of incubation",
+                            "C) Only in adulthood",
+                            "D) They never eat invertebrates"
+                          ],
+                          "correctAnswerIndex": 0
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Common Ground Dove",
+                        "species": "Columbina talpacoti",
+                        "conservation": "LC least concern",
+                        "description": "The Common Ground Dove is a small dove, slightly larger than a sparrow. Males are distinguished by their bright reddish plumage. Females are paler, tending more towards brownish than reddish tones, with black spots on their wings. All Columbidae pigeons temporarily store food in their crop. The grit in their gizzard is then used to grind the food later.",
+                        "mainImage": "Images/Interface/Cards/Galliformes/CommonGroundDove",
+                        "habitat": "They are found in open, bare, and wet habitats such as wetlands, cleared areas, cultivated fields, gardens, riparian zones, and even suburban backyards, avoiding dense wooded areas.",
+                        "diet": "They primarily feed on seeds between 2 and 15 mm in length. Although it is a seed-eating species, it occasionally consumes snails and insects. They gather food by pecking seeds from the ground and swallowing them. They feed in small groups of up to 20 individuals.",
+                        "reproduction": "They build a nest of twigs in the treetops, where they lay two white eggs and can produce up to four broods a year.",
+                        "size": "They measure between 16.5 and 18 cm in length.",
+                        "funFact1": "Territorial Behavior: Columbina talpacoti is known to be quite territorial, especially during the breeding season. Males actively defend their area, even against other doves, to secure their mate and resources.",
+                        "funFact2": "Urban Adaptability: This species easily adapts to urban and suburban environments, being commonly seen in gardens, parks, and green areas. Its ability to live near humans has made it one of the most frequently seen birds in Latin American cities.",
+                        "location": "Ecohotel El Castillo",
+                        "bibliography": "Columbina talpacoti significantly contributes to the ecosystem through seed dispersal. By feeding on small seeds and fruits, it helps regenerate vegetation in its habitat, which is crucial for maintaining biodiversity. It is also part of the food chain, serving as prey for predators like hawks and snakes, helping to maintain balance in the food web."
+                      }
+                    },
+                    {
+                      "modelIndex": 1,
+                      "questions": [
+                        {
+                          "questionText": "What happens if the population of Accipitriformes in an ecosystem decreases?",
+                          "answers": [
+                            "A) Prey decreases.",
+                            "B) The ecosystem is not affected.",
+                            "C) Prey overpopulation increases.",
+                            "D) The food chain becomes more stable."
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "Besides hunting, what other food source do many Accipitriformes species rely on?",
+                          "answers": [
+                            "A) Carrion",
+                            "B) Insects",
+                            "C) Nectar",
+                            "D) Fungi"
+                          ],
+                          "correctAnswerIndex": 0
+                        },
+                        {
+                          "questionText": "What are pigeon and dove nests typically like?",
+                          "answers": [
+                            "A) Complex and made of various materials",
+                            "B) Made in tree cavities with leaves",
+                            "C) Built with mud and stones",
+                            "D) Rudimentary and constructed with a few twigs"
+                          ],
+                          "correctAnswerIndex": 3
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Colombian Chachalaca",
+                        "species": "Ortalis columbiana",
+                        "conservation": "LC least concern",
+                        "description": "The Colombian Chachalaca, endemic to Colombia as its name suggests, can be easily identified. All species have long tails.",
+                        "mainImage": "Images/Interface/Cards/Galliformes/Caracara",
+                        "habitat": "It is found in humid forests, forest edges, and shrubland. The species is frequently observed at forest edges, gallery forests near crops, and pastures.",
+                        "diet": "The Colombian Chachalaca's diet is primarily frugivorous and folivorous. In a suburban forest in Valle del Cauca, its diet consists of 26 plant species, including fruits (77.2%), leaves (16.2%), and flowers (3.6%). Additionally, it occasionally consumes other elements like soil, dead leaves, and stones (3%).",
+                        "reproduction": "It is presumed to nest in a burrow in a ravine, often located in mature forests, sometimes near streams, or in landslide areas or road cuts. They lay 2 white eggs.",
+                        "size": "They measure between 45 and 60 cm in length.",
+                        "funFact1": "Although capable of flying, the Colombian Chachalaca prefers to move by hopping and running along branches and the ground, allowing it to navigate efficiently in its environment.",
+                        "funFact2": "The Colombian Chachalaca is social and is often seen in groups of up to 20 individuals. It is also known for its loud and raucous vocalization, especially during the morning and evening, helping with communication and territory defense.",
+                        "location": "Ecohotel El Castillo",
+                        "bibliography": "The Colombian Chachalaca plays an important role in its ecosystem as a seed disperser. By feeding on fruits and berries, it helps spread seeds, aiding the regeneration and maintenance of vegetation in the forests and semi-open areas it inhabits. It also serves as prey for various predators, integrating into the food chain and contributing to ecological balance."
+                      }
+                    }
+                  ]
+                },
+
+
+
+                {
+                  "birdTypeId": 5,
+                  "allModelQuestions": [
+                    {
+                      "modelIndex": 0,
+                      "questions": [
+                        {
+                          "questionText": "What is a distinctive characteristic of Coraciiformes birds?",
+                          "answers": [
+                            "A) Long, robust beak",
+                            "B) Short, weak beak",
+                            "C) Very small wings",
+                            "D) Completely white plumage"
+                          ],
+                          "correctAnswerIndex": 0
+                        },
+                        {
+                          "questionText": "In what type of environments do Coraciiformes birds live?",
+                          "answers": [
+                            "A) Only in deserts",
+                            "B) Only in tropical rainforests",
+                            "C) In a wide range of environments",
+                            "D) Only in urban areas"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "Which of these areas is NOT a common habitat for Coraciiformes birds?",
+                          "answers": [
+                            "A) Tropical forests",
+                            "B) Semi-desert regions",
+                            "C) Polar areas",
+                            "D) Areas near bodies of water"
+                          ],
+                          "correctAnswerIndex": 2
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Andean Motmot",
+                        "species": "Momotus aequatorialis",
+                        "conservation": "LC least concern",
+                        "description": "The Andean Motmot is a large bird with a thick black beak and a long tail with a racket-shaped tip. The body plumage is generally green, and there is a broad blue line bordering the crown, which is light blue in the front of the head and turns dark blue at the back. There is also a short black stripe in the center of the chest.",
+                        "mainImage": "Images/Interface/Cards/ThickBeak/AndeanMotmot",
+                        "habitat": "It is found in humid montane forests of the Andes Mountains in South America, from Colombia to southern Bolivia, often near rivers or streams, as well as in secondary forests and forest edges.",
+                        "diet": "This bird is omnivorous. It feeds on a variety of things such as fruits, invertebrates, and vertebrates. It feeds its chicks with 6cm moth larvae and 4cm beetles. There are also reports of frogs, lizards, and snakes.",
+                        "reproduction": "It is presumed to nest in a burrow in a ravine, often located in mature forests, sometimes near streams, or in landslide areas or road cuts. They lay 2 white eggs.",
+                        "size": "They measure between 45 and 60 cm in length.",
+                        "funFact1": "Andean Motmots have an unusual way of moving through the air. They make short flights and use their large wings to glide, allowing them to conserve energy and move efficiently through their forest environment.",
+                        "funFact2": "Their nesting habits are fascinating. They dig a horizontal tunnel in earthen embankments or banks, sometimes over 2 meters long, where they lay their eggs, making them one of the few bird species to nest in this manner.",
+                        "location": "Ecohotel El Castillo",
+                        "bibliography": "The Andean Motmot is an important species for its environment due to its diet, which helps control insect populations. Its role in dispersing seeds from the fruits it eats also contributes to forest regeneration and maintaining biodiversity in the Andes."
+                      }
+                    },
+                    {
+                      "modelIndex": 1,
+                      "questions": [
+                        {
+                          "questionText": "What makes the plumage of Psittaciformes birds unique?",
+                          "answers": [
+                            "A) It is completely black",
+                            "B) It is a single color",
+                            "C) It is vibrant and multicolored",
+                            "D) It is very fine and translucent"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "What structure helps Psittaciformes break hard shells?",
+                          "answers": [
+                            "A) Their curved and strong beak",
+                            "B) Their legs",
+                            "C) Their tongue",
+                            "D) Their claws"
+                          ],
+                          "correctAnswerIndex": 0
+                        },
+                        {
+                          "questionText": "What type of food is essential in the diet of Psittaciformes?",
+                          "answers": [
+                            "A) Fish",
+                            "B) Seaweed",
+                            "C) Fruits and seeds",
+                            "D) Roots and tubers"
+                          ],
+                          "correctAnswerIndex": 2
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Spotted Piculet",
+                        "species": "Picumnus granadensis",
+                        "conservacion": "LC least concern",
+                        "description": "The male is black from forehead to nape with yellow spots on the crown and white spots behind. The female is distinguished by white spots on the head. It remains solitary, in pairs, or family groups and occasionally joins mixed flocks.",
+                        "mainImage": "Images/Interface/Cards/PicoGrueso/SpottedPiculet",
+                        "habitat": "It is a species with a restricted distribution, found in edges of dry to moderately humid forests, second-growth shrublands, and wooded areas in northwestern Colombia. This small woodpecker is dull grayish-white and has a forehead and crown mottled with yellow and white.",
+                        "diet": "This species, which is exclusively insectivorous, can be found foraging alone or in small groups.",
+                        "reproduction": "The breeding season appears to be from January to June. It nests in cavities of dead tree trunks.",
+                        "size": "Measures between 9 and 10 cm in length.",
+                        "funFact1": "Endemic to Colombia: The Picumnus granadensis is endemic to Colombia, meaning it is only found in that country. It prefers to inhabit dry forest areas and mountainous regions, making it a very unique species in Colombian birdlife.",
+                        "funFact2": "Small Size and Adaptation: It is one of the smallest woodpeckers, measuring just about 10 cm in length. Despite its size, it displays typical woodpecker behavior, vigorously pecking at wood to find food, which is surprising given its diminutive build.",
+                        "location": "Ecohotel El Castillo",
+                        "bibliography": "The Picumnus granadensis, known as the Colombian Piculet, plays an important role in the ecosystem by helping control insect populations in trees, as it feeds primarily on larvae and insects found under the bark. By pecking at wood, it also creates cavities that can eventually be used by other species, such as small birds or insects, contributing to the biodiversity of its habitat."
+                      }
+                    },
+                    {
+                      "modelIndex": 2,
+                      "questions": [
+                        {
+                          "questionText": "What structure do Piciformes birds excavate to nest?",
+                          "answers": [
+                            "A) Nests on the ground",
+                            "B) Underground tunnels",
+                            "C) Cavities in tree trunks",
+                            "D) Nests made of mud"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "In what kind of areas do woodpeckers often live in urban zones?",
+                          "answers": [
+                            "A) In parks and gardens",
+                            "B) On house roofs",
+                            "C) In open fields",
+                            "D) In garbage dumps"
+                          ],
+                          "correctAnswerIndex": 0
+                        },
+                        {
+                          "questionText": "What kind of diet do most Piciformes birds have?",
+                          "answers": [
+                            "A) Carnivorous",
+                            "B) Herbivorous",
+                            "C) Insectivorous and frugivorous",
+                            "D) Piscivorous"
+                          ],
+                          "correctAnswerIndex": 2
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Lineated Woodpecker",
+                        "species": "Dryocopus lineatus",
+                        "conservacion": "LC least concern",
+                        "description": "The striped woodpecker is a large, crested woodpecker, mostly black, with a bright red crest, white bars on the underparts, and a white line extending down the neck. Males have red on the cheek, while females do not.",
+                        "mainImage": "Images/Interface/Cards/PicoGrueso/Lineated",
+                        "habitat": "The striped woodpecker inhabits humid, transitional, and moderately dry forests and jungles. It generally prefers relatively open areas such as forest edges, secondary forests, and grasslands. It is not found inside lowland rainforests but occupies forest edges and riverine forests. In drier areas, it inhabits pine forests, gallery forests, and thorny scrublands.",
+                        "diet": "Its diet mainly consists of beetles and their larvae, ants and their larvae, caterpillars, and orthopterans, often collected from Cecropia trees. Although primarily insectivorous, it can be found alone or in pairs. In cities, it takes advantage of lamps to peck at them, amplifying the sound of its drumming to announce its presence and territory to other woodpeckers.",
+                        "reproduction": "The clutch size varies from 2 to 4 eggs. Both males and females take 2-3 hour shifts incubating during the day, but only males incubate at night. Chicks are fed about once an hour by both parents through regurgitation; the female does most of the feeding while the male guards the nest.",
+                        "size": "Measures between 37.7 and 41.8 cm in length.",
+                        "funFact1": "They communicate through vocalizations, drumming, and pecking, especially during territorial defense.",
+                        "funFact2": "Both sexes excavate the nests, which are about 45 cm deep, 13 x 18 cm wide, and have an entrance about 9 cm in diameter.",
+                        "location": "Universidad Javeriana de Cali",
+                        "bibliography": "It plays an essential role in its ecosystem by controlling insect populations that live under tree bark, especially beetle larvae and other wood-boring insects, helping maintain forest health. Additionally, by drilling into trees to feed or nest, it creates cavities that other birds, small mammals, and reptiles can later use, increasing habitat availability and fostering biodiversity."
+                      }
+                    },
+                    {
+                      "modelIndex": 3,
+                      "questions": [
+                        {
+                          "questionText": "Which of the following groups belong to Psittaciformes?",
+                          "answers": [
+                            "A) Cacatuidae",
+                            "B) Passeridae",
+                            "C) Corvidae",
+                            "D) Columbidae"
+                          ],
+                          "correctAnswerIndex": 0
+                        },
+                        {
+                          "questionText": "What type of ecosystem do many Psittaciformes species prefer?",
+                          "answers": [
+                            "A) Humid forests",
+                            "B) Snowy mountains",
+                            "C) Arid deserts",
+                            "D) Open grasslands"
+                          ],
+                          "correctAnswerIndex": 0
+                        },
+                        {
+                          "questionText": "What kind of diet do Psittaciformes primarily have?",
+                          "answers": [
+                            "A) Frugivorous and granivorous",
+                            "B) Carnivorous",
+                            "C) Omnivorous",
+                            "D) Piscivorous"
+                          ],
+                          "correctAnswerIndex": 1
+                        }
+                      ],
+              "birdInfo": {
+              "birdName": "Blue-headed Parrot",
+              "species": "Pionus menstruus",
+              "conservation": "LC Least Concern",
+              "description": "It is easily recognized in flight by its loud and screechy calls, and when at rest, the striking blue head makes the species unmistakable. The birds migrate to islands near Panama after breeding in June.",
+              "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Cabeciazul",
+              "habitat": "Deciduous forest including cerrado, humid and very humid forest, mature second-growth forest, seasonally flooded forest, gallery forest, plantations, clearings, and semi-open areas with scattered trees, including Mauritia palm trees.",
+              "diet": "Seeds of Albizia, Anacardium, Caraipa, Dialium, Hevea, Hura, Clusia, Ocotea, Couroutaria, Inga, Brosimum, Tectona, Micropholis; fruits of Tetragastris, Inga, Ficus, Euterpe; sugary flowers of Noranthea liana, among others.",
+              "reproduction": "They nest in holes in palm trees, trunks, and dead branches. They lay two to four eggs, and in captivity, the incubation period lasts between 24 and 29 days. In captivity, only the female incubates.",
+              "size": "Measures between 24 and 28 cm in length.",
+              "funFact1": "Juvenile individuals usually have a less intense color, which becomes more vibrant as they mature.",
+              "funFact2": "Unlike many other parrot species, the Pionus menstruus is known to be relatively quiet, especially when in flocks. Although it can occasionally make loud sounds, its discreet behavior helps it blend into its environment, avoiding predators.",
+              "location": "Javeriana University of Cali",
+              "bibliography": "The Pionus menstruus, known as the blue-headed parrot, plays an important role in its ecosystem, mainly through seed dispersal when feeding on fruits, which helps regenerate vegetation and maintain the area's biodiversity. Additionally, it helps control pests by consuming insects and young shoots, helping to maintain the balance of the ecosystem."
+            }
+          },
+          {
+            "modelIndex": 4,
+            "questions": [
+              {
+                "questionText": "What types of ecosystems are the primary habitats of Piciformes birds?",
+                "answers": [
+                  "A) Deserts and savannas",
+                  "B) Tropical and temperate forests",
+                  "C) Coastal areas and beaches",
+                  "D) Arctic tundras"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "What natural resource do Piciformes help protect by feeding on insects?",
+                "answers": [
+                  "A) The soil",
+                  "B) The rivers",
+                  "C) The air",
+                  "D) The trees"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "How does the role of Piciformes in seed dispersal affect ecosystems?",
+                "answers": [
+                  "A) It facilitates the regeneration of forests and biodiversity",
+                  "B) It decreases the diversity of plant species",
+                  "C) It causes deforestation",
+                  "D) It reduces soil fertility"
+                ],
+                "correctAnswerIndex": 0
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Spectacled Parrotlet",
+              "species": "Forpus conspicillatus",
+              "conservation": "LC least concern",
+              "description": "The Spectacled Parrotlet is a tiny parrot from eastern Panama, Colombia, and Venezuela. The male has a greenish-yellow forehead that extends to the cheeks and throat. This bird is not yet listed as a threatened species despite often being illegally captured and sold in the caged bird trade. The contact call is evidently used to communicate between members of a pair or group.",
+              "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Anteojo",
+              "habitat": "Found in the edges of evergreen lowland forests, gallery forests, semi-open deciduous forest, savannas, secondary growth, thorny scrub, grasslands, and clearings.",
+              "diet": "Grass seeds extracted from the ground, berries, fruits, shoots, and likely flowers from shrubs.",
+              "reproduction": "The nest is a hole in a stump, tree, or fence post made of bamboo (Guadua), often 1-2 meters from the ground, laying 1-6 eggs.",
+              "size": "It measures between 12 and 13 cm in length.",
+              "funFact1": "Small Size and Sociable Nature: The Spectacled Parrotlet is one of the smallest parrots in the Americas, measuring only 12-13 cm. Despite its size, it is very sociable and is found in large groups, which helps it stay safe from predators and facilitates food searching.",
+              "funFact2": "Marked Sexual Dimorphism: There is a clear sexual dimorphism in this species: males have a striking blue color on the wings and behind the eyes, while females lack these markings, allowing them to be easily distinguished at a glance.",
+              "location": "Universidad Javeriana de Cali",
+              "bibliography": "The Forpus conspicillatus, known as the Spectacled Parrotlet, plays an important ecological role in seed dispersal. Its diet includes fruits and seeds, contributing to the regeneration of vegetation and maintaining biodiversity in its environment. It also helps control insect populations by consuming shoots and small invertebrates, which benefits the health of plants."
+            }
+          },
+          {
+            "modelIndex": 6,
+            "questions": [
+              {
+                "questionText": "On which continent are Psittaciformes NOT naturally found?",
+                "answers": [
+                  "A) South America",
+                  "B) Africa",
+                  "C) Oceania",
+                  "D) Europe"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "In addition to fruits, what else can some Psittaciformes eat?",
+                "answers": [
+                  "A) Flowers and nectar",
+                  "B) Meat",
+                  "C) Small rocks",
+                  "D) Dried leaves"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "In what type of ecosystem do Psittaciformes primarily live?",
+                "answers": [
+                  "A) Arid deserts",
+                  "B) Snowy mountains",
+                  "C) Polar zones",
+                  "D) Tropical and subtropical forests"
+                ],
+                "correctAnswerIndex": 3
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Chestnut-fronted Macaw",
+              "species": "Ara severus",
+              "conservation": "LC least concern",
+              "description": "There is no sexual dimorphism. It is mainly green with a blue crown. On the forehead, it has a narrow and barely visible chestnut-colored band. Its tail is long, sharp, and green with a reddish tinge. Its beak is grayish-black. The facial skin and throat are bare and whitish, the wing feathers are bluish above. The inside of the wings is dull red.",
+              "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Maracana",
+              "habitat": "The Chestnut-fronted Macaw is a colorful and widely distributed bird found in Panama, Colombia, Ecuador, eastern Peru and Bolivia, eastern Venezuela, and Brazil. This species has been recorded in various different habitats, including seasonally flooded forests, gallery forests, river edges rich in palm trees of slow-moving rivers, swampy areas, secondary growth, old plantations, and clearings with large scattered trees, areas temporarily or permanently wet with Mauritia palm trees.",
+              "diet": "The diet of the Chestnut-fronted Macaw is also highly variable and includes seeds, pulp, and flowers from different types of plants. Unlike many other species of parrots and macaws, the Chestnut-fronted Macaw's populations appear to be stable.",
+              "reproduction": "Generally nests in cavities of dead trees or dead palms. They lay two eggs; in captivity, incubation lasts 28 days, and the breeding period does not exceed nine weeks.",
+              "size": "It measures between 46 and 51 cm in length.",
+              "funFact1": "Great Adaptability to Different Habitats: The Severe Macaw is capable of adapting to a variety of habitats, from tropical forests to open areas and secondary forests. This adaptability allows it to find resources and survive in environments where other species might struggle.",
+              "funFact2": "Playful and Noisy Personality: This species is known for its curious and playful personality. They are intelligent and very active birds, often seen exploring and manipulating objects in their environment. Additionally, they are quite noisy, emitting loud vocalizations that they use to communicate with each other and mark their territory.",
+              "location": "Universidad Javeriana de Cali",
+              "bibliography": "The Ara severus plays an important role in its ecosystem as a seed disperser. By feeding on fruits and seeds, it disperses a wide variety of plant species, helping forest regeneration and promoting plant diversity. It also contributes to the natural pruning of trees and branches, promoting healthy plant growth."
+            }
+          }
+        ]
+      },
+
+
+
+          {
+            "birdTypeId": 6,
+            "allModelQuestions": [
+              {
+                "modelIndex": 0,
+                "questions": [
+                  {
+                    "questionText": "What characteristic distinguishes songbirds from the order Passeriformes?",
+                    "answers": [
+                      "A) Their monochromatic plumage",
+                      "B) Their large size",
+                      "C) Their ability to produce complex melodies",
+                      "D) Their habit of hunting insects"
+                    ],
+                    "correctAnswerIndex": 2
+                  },
+                  {
+                    "questionText": "What percentage of all bird species do songbirds represent?",
+                    "answers": [
+                      "A) 25%",
+                      "B) 30%",
+                      "C) 50%",
+                      "D) 75%"
+                    ],
+                    "correctAnswerIndex": 2
+                  },
+                  {
+                    "questionText": "How does the presence of songbirds affect the perception of an ecosystem's health?",
+                    "answers": [
+                      "A) The presence of songbirds has no impact on the ecosystem's health",
+                      "B) The presence of songbirds is irrelevant to the ecosystem's health",
+                      "C) Their absence indicates a more balanced ecosystem",
+                      "D) Their song and presence indicate a healthy and balanced environment"
+                    ],
+                    "correctAnswerIndex": 3
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Yellow-bellied Elaenia",
+                  "species": "Ortalis columbiana",
+                  "conservation": "LC least concern",
+                  "description": "It is a medium-sized species, olive-brown above with two white wing bars, a pale gray chest, and a pale yellow belly. Yellow-bellied elaenias have a bushy and striking crest that is often raised when the bird sings, revealing a white patch on the crown. They are usually found alone or in pairs.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Elaenia",
+                  "habitat": "Variety of moist and arid habitats, wooded areas including open forests, secondary forests, and edges, thickets, savannas, as well as river margins with brush, clearings with brush and scattered trees, also trees in towns and gardens; absent in densely forested areas. They may gather in greater numbers in fruit trees.",
+                  "diet": "Feeds on insects, berries, and arillated seed capsules, foraging with aerial sallies, pecking from perches.",
+                  "reproduction": "Breeding season in Colombia occurs between May and September. The nest is a tidy cup of grass or moss, lined with feathers and decorated with lichens and bark, placed in the fork of a small branch. The clutch consists of two eggs, rarely one or three, white-pink with brown and gray markings. Incubation by the female lasts 16 days; chicks are fledged by the female and fed by both parents, fledging period is 15-17 days.",
+                  "size": "Measures between 16 and 17 cm in length.",
+                  "funFact1": "It is known for its characteristic crest that it can raise, showing a yellowish tone, visible when excited or alert.",
+                  "funFact2": "Its song is very distinctive and repetitive, making it easily identifiable in its habitat, especially during the breeding season.",
+                  "location": "Ecohotel El Castillo",
+                  "bibliography": "Elaenia flavogaster plays an important role as a seed disperser, consuming a variety of fruits and helping plant propagation by excreting seeds in different areas. It also contributes to insect control, as its diet includes insects that it catches in flight, helping maintain balance in the ecosystem's food chain."
+                }
+              },
+              {
+                "modelIndex": 1,
+                "questions": [
+                  {
+                    "questionText": "What kind of programs can help conserve endangered songbirds?",
+                    "answers": [
+                      "A) Captive breeding and reintroduction programs",
+                      "B) Controlled hunting programs",
+                      "C) Illegal trade programs",
+                      "D) Habitat fragmentation programs"
+                    ],
+                    "correctAnswerIndex": 0
+                  },
+                  {
+                    "questionText": "Why is constant monitoring of songbird populations important?",
+                    "answers": [
+                      "A) To track their health and demographic trends",
+                      "B) To encourage illegal trade",
+                      "C) To reduce their population",
+                      "D) To destroy habitats"
+                    ],
+                    "correctAnswerIndex": 0
+                  },
+                  {
+                    "questionText": "What should be done to reduce the threat of collisions with infrastructure for songbirds?",
+                    "answers": [
+                      "A) Ignore the problem of collisions",
+                      "B) Allow birds to collide freely",
+                      "C) Destroy existing infrastructures",
+                      "D) Increase the use of special glass in buildings and regulate lighting"
+                    ],
+                    "correctAnswerIndex": 3
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Common Tody-Flycatcher",
+                  "species": "Todirostrum cinereum",
+                  "conservation": "LC least concern",
+                  "description": "Males of common tody-flycatchers have bright black foreheads, slate-gray rear crowns, olive upper parts, black wings, and bright yellow underparts; the iris is generally yellow.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Espatulilla",
+                  "habitat": "All types of open and semi-open areas and forest edges, mangroves, and rivers, such as clearer forests, regrowths, clearings, and pastures with grown thickets, shaded plantations, open groves, savanna thickets, hedgerows (rows of trees and/or shrubs), orchards, gardens, cultivated areas, wastelands; avoids densely forested regions.",
+                  "diet": "Arthropods, including small ants and parasitoid wasps, spiders, beetles, bugs, flies, damselflies, and grasshoppers or crickets; they also gather fruits. Generally found in pairs or family groups, but sometimes alone and usually independent of mixed flocks in dense vegetation near the ground, also in mid-levels and tree canopies, more open.",
+                  "reproduction": "Builds hanging pouch-shaped nests 1 to 5 m from the ground made of plant material, mosses, grasses, and many other plant materials, bound with spiderweb, lined with fine grass, feathers, and plant down/seeds; suspended from a hanging branch (or even a telephone wire), usually at 1-5 m but sometimes up to 30 m high, sometimes near a wasp nest. Clutch of 2-3 eggs; incubation by the female alone, lasting 18 days; chicks fed by both parents, nesting period about 17-18 days.",
+                  "size": "Measures between 8.8 and 10.2 cm in length.",
+                  "funFact1": "Forages in pairs or small family groups in dense vegetation near the ground or mid-level tree canopies.",
+                  "funFact2": "Partially dependent on parents for up to 43 days, benefits from deforestation, spreading into clearings and plantations, where it is often common.",
+                  "location": "Universidad Javeriana de Cali",
+                  "ecosystem": "Todirostrum cinereum plays an important role as an insect population controller, feeding primarily on them, including mosquitoes, ants, and other small insects. This helps maintain balance in the ecosystem and reduce the proliferation of pests. Additionally, by consuming small fruits and dispersing seeds through its droppings, it helps regenerate and diversify vegetation in its habitat, contributing to the health of the ecosystem where it lives.",
+                  "bibliography": "BirdLife International, 2019"
+                }
+              },
+              {
+                "modelIndex": 2,
+                "questions": [
+                  {
+                    "questionText": "What role does public education play in the conservation of songbirds?",
+                    "answers": [
+                      "A) It has no impact on conservation",
+                      "B) It promotes bird capture and trade",
+                      "C) It raises awareness about the importance of conserving them and their habitats",
+                      "D) It focuses only on captive breeding"
+                    ],
+                    "correctAnswerIndex": 2
+                  },
+                  {
+                    "questionText": "What role do songbirds play in pest control?",
+                    "answers": [
+                      "A) They have no impact on pest control",
+                      "B) They are predators of small mammals",
+                      "C) They feed on insects, helping to control their populations",
+                      "D) They only affect pests in water"
+                    ],
+                    "correctAnswerIndex": 2
+                  },
+                  {
+                    "questionText": "What size are songbirds typically?",
+                    "answers": [
+                      "A) Small to medium",
+                      "B) Large",
+                      "C) Very small",
+                      "D) Giant"
+                    ],
+                    "correctAnswerIndex": 0
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Vermilion Flycatcher",
+                  "species": "Pyrocephalus rubinus",
+                  "conservation": "LC least concern",
+                  "description": "Males and females differ notably in color; the vermilion crest and bright underparts of the male contrast sharply with the whitish, slightly streaked chest and pinkish belly of the female.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/papamoscas",
+                  "habitat": "They inhabit arid scrublands, farmlands, parks, golf courses, deserts, savannas, cultivated lands, and riparian woodlands; prefer open spaces with nearby perches. They are rarely found in densely forested areas.",
+                  "diet": "Insectivorous, catching prey in mid-air after watching from a perch. Flies back to the perch to consume prey or feeds from the ground.",
+                  "reproduction": "The nest is a cup of fine grasses, weeds, feathers, and other materials, placed in a tree or shrub, often near water. Lays 2-4 eggs. Incubation lasts 14-15 days, mainly by the female. Chicks fledge in 16-19 days.",
+                  "size": "Measures between 13 and 15 cm in length.",
+                  "funFact1": "They are known for their striking coloration, especially in males, which stand out against arid and desert backgrounds.",
+                  "funFact2": "They have a characteristic hunting method called 'flycatching,' where they remain on a perch and then dart out to capture insects in mid-flight.",
+                  "location": "Jardín Botánico de Bogotá",
+                  "bibliography": "The Vermilion Flycatcher plays a vital role in controlling insect populations in its habitat, contributing to the natural balance of ecosystems. This insectivorous species reduces populations of insects, especially flying insects, which can otherwise become pests. Its striking coloration makes it a popular species for birdwatching, contributing to ecotourism and increasing awareness of the importance of conserving natural spaces."
+                }
+              },
+              {
+                "modelIndex": 3,
+                "questions": [
+                  {
+                    "questionText": "What is the main purpose of song in songbirds?",
+                    "answers": [
+                      "A) Attract predators",
+                      "B) Find food",
+                      "C) Protect from harsh weather",
+                      "D) Mark territory, attract mates, and coordinate behaviors"
+                    ],
+                    "correctAnswerIndex": 3
+                  },
+                  {
+                    "questionText": "How do songbirds contribute to ecosystems?",
+                    "answers": [
+                      "A) Only as predators",
+                      "B) Only as prey",
+                      "C) As seed dispersers and pest controllers",
+                      "D) Only as food competitors"
+                    ],
+                    "correctAnswerIndex": 2
+                  },
+                  {
+                    "questionText": "What role do songbirds play in the ecological balance of the region?",
+                    "answers": [
+                      "A) They only serve as food for other species",
+                      "B) They only affect local vegetation",
+                      "C) They only participate in pollination",
+                      "D) They maintain the ecological balance through their singing and their role in the ecosystem"
+                    ],
+                    "correctAnswerIndex": 3
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Great Kiskadee",
+                  "species": "Pitangus sulphuratus",
+                  "conservation": "LC least concern",
+                  "description": "Both sexes and plumage are similar throughout the year. Adults have wide white and black stripes on the head, with black crown and mask contrasting with white supercilium. Chin and throat are white, with remaining underparts bright yellow. Their distribution and abundance have increased due to forest openings through various human activities.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Benteveo",
+                  "habitat": "Inhabits thorn forests, tropical deciduous forests, tall chaparral, riparian forests, gallery forests, palm swamps, marshy lake edges, shaded coffee plantations, bananas and citrus groves, forest edges, and rural, suburban, and urban areas with trees. Often absent from uninterrupted habitats, whether arid thorn scrub or tropical rainforests, except along watercourses or other edges.",
+                  "diet": "Feeds on a variety of arthropods, mollusks, and small vertebrates, including flying insects, spiders, snails, small fish, lizards, and mice. It also consumes fruits and visits feeding stations for food such as bread and bananas. Hunts from low perches, generally less than 3 meters from the ground, and often strikes its prey, such as fish, before swallowing.",
+                  "reproduction": "Builds bulky nests, often in thorny swamp trees or on abandoned nests of other birds. Pair formation occurs year-round but is most common before and at the beginning of the nesting season. Clutches usually consist of 2 to 5 eggs, generally 3 or 4. Only the female incubates the eggs for 15-17 days, facing the nest entrance.",
+                  "size": "Measures between 27.2 and 29.9 cm in length.",
+                  "funFact1": "Often steals nesting material from abandoned or unwatched nests of other birds. Nests are mainly built from grass, but may also incorporate thin twigs, woody vine tendrils, paper, cotton, rags, and even plastic trash.",
+                  "funFact2": "About 1 day before fledging, chicks stand at the nest entrance and flap their wings, causing the nest's roof to collapse.",
+                  "location": "Universidad Javeriana de Cali",
+                  "bibliography": "This bird inhabits a wide variety of ecosystems, from urban areas to forests and rural zones. Ecologically, it plays a key role in insect control, feeding on a wide range of insects and helping maintain their population balance. Additionally, it disperses seeds by consuming fruits, contributing to vegetation regeneration and biodiversity in its habitat. As an adaptable bird, it significantly contributes to the balance and health of the ecosystems it inhabits."
+                }
+              },
+              {
+                "modelIndex": 4,
+                "questions": [
+                  {
+                    "questionText": "What is a key strategy for protecting songbirds?",
+                    "answers": [
+                      "A) Creation of protected areas",
+                      "B) Use of pesticides in their habitats",
+                      "C) Elimination of nature reserves",
+                      "D) Reduction of national parks"
+                    ],
+                    "correctAnswerIndex": 0
+                  },
+                  {
+                    "questionText": "What measure can help reduce the impact of illegal songbird trade?",
+                    "answers": [
+                      "A) Strengthening the enforcement of national and international laws",
+                      "B) Encouraging bird trafficking",
+                      "C) Discarding existing laws",
+                      "D) Reducing surveillance in bird markets"
+                    ],
+                    "correctAnswerIndex": 0
+                  },
+                  {
+                    "questionText": "What is a way to mitigate the impact of invasive species on songbirds?",
+                    "answers": [
+                      "A) Ignoring their presence",
+                      "B) Introducing more invasive species",
+                      "C) Allowing the proliferation of invasive species",
+                      "D) Eradicating or controlling invasive species"
+                    ],
+                    "correctAnswerIndex": 3
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Fork-tailed Flycatcher",
+                  "species": "Tyrannus savana",
+                  "conservation": "LC least concern",
+                  "description": "Sexual dimorphism is not very pronounced. It has a very long and deeply forked tail (shorter in females). It has a black crown, nape, and sides of the head extending below the eyes. The back is light gray, the wings are darker, the tail is black, and the underparts are completely white.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Tirano",
+                  "habitat": "Found in open habitats, including forest edges, secondary vegetation, savannas, grasslands, residential areas, meadows, forests, cerrado, and mangroves. During migration, it can be found in a wide variety of habitats, including the canopy of tall, humid forests.",
+                  "diet": "Searches for flying arthropods (e.g., termites, beetles, wasps) or picks them from leaves or the ground; also consumes fruit such as palm berries during the non-breeding season.",
+                  "reproduction": "Breeds from January to May in Colombia. The nest is a shallow cup made of plant fibers, leaves, and lined with fine fibers, rootlets, feathers, and cotton-like materials such as seed fluff. It is placed 1 to 10 meters high in a tree or shrub. The female lays 2 glossy white eggs, irregularly marked with chocolate and purple, mainly on the crown. The incubation period is 14 to 15 days. The chicks stay in the nest for about 16 days.",
+                  "size": "Measures between 37.0 and 40.5 cm in length.",
+                  "funFact1": "Tyrannus savana is famous for its acrobatic flight. It performs aerial maneuvers to catch insects and also during the mating season, making it highly attractive and spectacular.",
+                  "funFact2": "These birds are migratory and can travel long distances. They breed in North America and then migrate to South America for the winter, covering thousands of kilometers.",
+                  "location": "Universidad Javeriana de Cali",
+                  "bibliography": "Tyrannus savana plays an important role in its ecosystem as an insect controller. These birds feed primarily on flying insects, helping regulate their populations and maintaining the ecological balance. Additionally, by moving through various areas during migration, they participate in seed dispersal, contributing to vegetation regeneration in different habitats."
+                }
+              },
+              {
+                "modelIndex": 5,
+                "questions": [
+                  {
+                    "questionText": "What strategy should be adopted to protect the migratory routes of songbirds?",
+                    "answers": [
+                      "A) Reduce international collaboration",
+                      "B) Ignore resting and feeding areas",
+                      "C) Protect resting, feeding, and breeding sites along the routes",
+                      "D) Destroy migratory routes"
+                    ],
+                    "correctAnswerIndex": 2
+                  },
+                  {
+                    "questionText": "What aspect of songbird singing indicates a balanced and biodiverse environment?",
+                    "answers": [
+                      "A) The intensity of the song",
+                      "B) The variety and frequency of the song",
+                      "C) The duration of the song",
+                      "D) The clarity of the song"
+                    ],
+                    "correctAnswerIndex": 1
+                  },
+                  {
+                    "questionText": "In what types of habitats can songbirds be found?",
+                    "answers": [
+                      "A) In a wide variety of habitats, from forests to urban areas",
+                      "B) Only in deserts",
+                      "C) Exclusively in mountainous areas",
+                      "D) Only in cold zones"
+                    ],
+                    "correctAnswerIndex": 0
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "House Wren",
+                  "species": "Troglodytes aedon",
+                  "conservation": "LC least concern",
+                  "description": "The head, nape, and back are almost uniformly brown: darker and more reddish in eastern populations, paler and grayer in western ones. It has only a pale, often indistinct, superciliary line and no crown streaking. The throat and chest are uniformly light gray, sometimes with a beige or brownish tinge. Both sexes have identical plumage, and immature birds resemble adults. Unlike other wrens, its diet includes many seeds and fruits, and it is known to feed on vegetable matter and even kitchen scraps.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Cucarachero",
+                  "habitat": "Inhabits forests, scrublands, forest edges, and urban areas, preferring places with dense vegetation. It nests in tree cavities or human-made structures such as walls, houses, or gardens. It can also be found in gardens, parks, and any green space near buildings or urban areas.",
+                  "diet": "Feeds on a variety of arthropods, small insects, and spiders. Additionally, it is known to feed on fruits, seeds, and occasionally small invertebrates.",
+                  "reproduction": "Builds its nest in cavities, using materials such as leaves, feathers, and twigs. The female lays 3-8 eggs and incubates them for 12 to 15 days. The chicks are altricial, meaning they are born helpless and are fed by both parents.",
+                  "size": "Measures between 11.5 and 12.5 cm in length.",
+                  "funFact1": "It is one of the most familiar birds in gardens, parks, and rural areas. Its song is complex and melodious, consisting of varied and high-pitched whistles.",
+                  "funFact2": "This species has adapted remarkably well to human presence, often nesting in buildings, walls, and urban gardens.",
+                  "location": "Universidad Javeriana de Cali",
+                  "bibliography": "The house wren plays a crucial role in its ecosystem as a pest controller. By feeding on a variety of arthropods, it helps regulate populations of insects, spiders, and other small invertebrates. Additionally, its song is often an indicator of a healthy and biodiverse environment, as it thrives in a variety of habitats, including forests, gardens, and urban areas."
+                }
+              },
+
+              {
+                "modelIndex": 6,
+                "questions": [
+                  {
+                    "questionText": "How do songbirds contribute to forest regeneration?",
+                    "answers": [
+                      "A) By being predators of large animals",
+                      "B) Only by consuming leaves and twigs",
+                      "C) By hunting other birds",
+                      "D) As seed dispersers"
+                    ],
+                    "correctAnswerIndex": 3
+                  },
+                  {
+                    "questionText": "What is the importance of songbirds for ecotourism in areas like Cali?",
+                    "answers": [
+                      "A) They are a valuable resource for ecotourism and birdwatching",
+                      "B) They have no relevance for ecotourism",
+                      "C) They only affect local agriculture",
+                      "D) They only contribute to sport hunting"
+                    ],
+                    "correctAnswerIndex": 0
+                  },
+                  {
+                    "questionText": "How can the creation of ecological corridors help songbirds?",
+                    "answers": [
+                      "A) By increasing habitat fragmentation",
+                      "B) By eliminating their natural habitats",
+                      "C) By facilitating migration and connecting protected areas",
+                      "D) By reducing the amount of available food"
+                    ],
+                    "correctAnswerIndex": 2
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Orange-billed Thrush",
+                  "species": "Turdus ignobilis",
+                  "conservation": "LC (Least Concern)",
+                  "description": "Both sexes are similar. They are olive-brown above, paler below, with a slightly darker face, whitish throat with brown stripes, and whitish belly from the middle to the cloaca. Their beak and legs are black. They are common in urban and semi-urban areas, often seen hopping on lawns searching for worms and invertebrate prey.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/mirla",
+                  "habitat": "Found in clearings, semi-open areas, savannas with gallery forests, and lighter secondary forests. It also inhabits forest edges, shade coffee plantations, disturbed areas, and various early succession habitats. You can also find them in pastures with shrubs, parks, gardens, urban and semi-urban areas, and town edges.",
+                  "diet": "Granivorous, frugivorous, and insectivorous. They feed on nuts, insect larvae, beetles, flies, berries, fruits, seeds, crickets, and caterpillars. Insects are more important during the dry season in Colombia. Common and visible in areas occupied by humans, they move in pairs or individuals. They hop on the ground in meadows and generally in open areas or shrubs, although they are also seen visiting fruit trees or areas with more vegetation.",
+                  "reproduction": "Reproductive activity is recorded between December and August and October in Colombia, where the season seems to vary by region. Nests are placed in hedges, pastures, secondary forests, and around human dwellings. Nests have been found in bushes, stumps, tree forks, and similar situations, usually below 5 meters, with an average height of around 2.5-3 meters. They lay 2 or 3 eggs, which are bluish-green with dark brown spots. The incubation period is poorly documented but is estimated to last between 13 and 15 days.",
+                  "size": "It measures between 18.5 and 24.0 cm in length.",
+                  "funFact1": "Turdus ignobilis is known for its melodious and varied song, used both for communication and territory marking, being one of the most vocal birds in its environment.",
+                  "funFact2": "Although primarily found in forested areas, this bird has adapted well to urban and rural environments, where it can be seen foraging in gardens, parks, and green areas near human settlements.",
+                  "location": "Universidad Javeriana de Cali",
+                  "bibliography": "Turdus ignobilis plays an important role in its ecosystem by dispersing seeds from the fruits it consumes. This contributes to the regeneration and propagation of plants and trees in its habitat, promoting biodiversity. Additionally, it feeds on insects and small invertebrates, helping to control their populations and maintain ecological balance."
+                }
+              },
+              {
+                "modelIndex": 6,
+                "questions": [
+                  {
+                    "questionText": "How does ecotourism contribute to the conservation of songbirds?",
+                    "answers": [
+                      "A) By generating income that can support habitat protection",
+                      "B) By promoting the capture of birds for collections",
+                      "C) By destroying their natural habitats",
+                      "D) By increasing pollution in protected areas"
+                    ],
+                    "correctAnswerIndex": 0
+                  },
+                  {
+                    "questionText": "What is one of the goals of climate adaptation plans for songbirds?",
+                    "answers": [
+                      "A) To increase deforestation",
+                      "B) To ignore climate changes",
+                      "C) To create climate refuges and manage higher-altitude habitats",
+                      "D) To reduce conservation areas"
+                    ],
+                    "correctAnswerIndex": 2
+                  },
+                  {
+                    "questionText": "What is a common characteristic in the reproduction of songbirds?",
+                    "answers": [
+                      "A) They lay eggs throughout the year",
+                      "B) Males attract females with their song",
+                      "C) They do not build nests for their offspring",
+                      "D) Females care for the chicks alone after birth"
+                    ],
+                    "correctAnswerIndex": 1
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Troupial",
+                  "species": "Chlorophanes spiza",
+                  "conservation": "LC (Least Concern)",
+                  "description": "Its common name comes from the large amount of yellow in its plumage, with black restricted to the tail, a narrow yellow bib, and wings.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/turpial",
+                  "habitat": "In the Caribbean region, primarily in arid to semi-arid forests and shrublands, with cacti, mesquite, and acacias. It frequents open forests and gallery forest edges, and also cultivated lands with trees and shrubs, riparian habitats, fallows, parks, and gardens in cities, cultivated areas, and forest plantations, but prefers dry areas rather than humid regions. It is the most common Troupial in the Santa Marta area, even in mangroves.",
+                  "diet": "Mostly small insects, beetles, flies, butterfly, and moth larvae, with some cicadas and grasshoppers. Other arthropods include spiders and wind scorpions. It also feeds on Barbados cherry and date palm fruits. It takes nectar from the flowers of Erythrina fusca and Pithecellobium saman trees. Generally seen in pairs or small groups.",
+                  "reproduction": "Apparently monogamous and territorial. They build elongated pouch-shaped nests hanging from tree branches, mainly woven from plant fibers, particularly grasses and palm fibers. Clutch usually consists of 2 to 3 eggs, which are bluish-white with dark purple markings, primarily at the broader end.",
+                  "size": "It measures between 20.0 and 21.0 cm in length.",
+                  "funFact1": "It is the national bird of Venezuela and is appreciated for its striking yellow and black plumage, as well as its melodious and varied song.",
+                  "funFact2": "This species is known for its opportunistic behavior, as it can use abandoned nests of other birds or even steal materials from other nests to build its own.",
+                  "location": "Universidad Javeriana de Cali",
+                  "bibliography": "It plays an important ecological role as a seed disperser, as it feeds on fruits and helps plant propagation in its environment. Additionally, it consumes insects, contributing to the control of their populations and maintaining the ecosystem's balance."
+                }
+              },
+              {
+                "modelIndex": 6,
+                "questions": [
+                  {
+                    "questionText": "What kind of food do songbirds usually eat?",
+                    "answers": [
+                      "A) Meat and fish",
+                      "B) Insects, seeds, and fruits",
+                      "C) Only leaves and grass",
+                      "D) Fish and small reptiles"
+                    ],
+                    "correctAnswerIndex": 1
+                  },
+                  {
+                    "questionText": "How do songbirds contribute to plant reproduction?",
+                    "answers": [
+                      "A) By watering the seeds",
+                      "B) By eating the plants",
+                      "C) By dispersing seeds and pollinating flowers",
+                      "D) By feeding insects"
+                    ],
+                    "correctAnswerIndex": 2
+                  },
+                  {
+                    "questionText": "What role do songbirds play in ecosystem balance?",
+                    "answers": [
+                      "A) They control insect populations and disperse seeds",
+                      "B) They only beautify the landscape with their song",
+                      "C) They are predators of large mammals",
+                      "D) They have no impact on the ecosystem"
+                    ],
+                    "correctAnswerIndex": 0
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Green Honeycreeper",
+                  "species": "Chlorophanes spiza",
+                  "conservation": "LC (Least Concern)",
+                  "description": "The Green Honeycreeper is a small, brightly colored bird. One of its most distinctive features is its slender, slightly downward-curved yellow beak. Males are bright bluish-green with a wide black mask, while females are duller green.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/mielerito",
+                  "habitat": "This species is found in humid and tropical forests, especially in the canopy, as well as secondary forests and coffee plantations with shade. They are commonly seen in mixed-species flocks, moving quickly through the foliage.",
+                  "diet": "Its diet includes fruits, especially berries, and it also consumes insects and nectar from flowers. It has a preference for ripe fruits, which it uses to aid seed dispersal. It occasionally forages for insects in the foliage of trees.",
+                  "reproduction": "Reproductive activity is typically observed between February and August. They build cup-shaped nests, often in trees or bushes, using fine plant materials. The female lays 2-3 eggs, which are incubated for about 12-14 days. Both parents participate in feeding the chicks after hatching.",
+                  "size": "It measures about 13.0-14.0 cm in length.",
+                  "funFact1": "The Green Honeycreeper is part of the tanager family and is known for its vibrant plumage and active foraging behavior in the treetops.",
+                  "funFact2": "This bird can often be seen with other species of tanagers in mixed flocks, sharing feeding areas and moving together through the forest canopy.",
+                  "location": "Universidad Javeriana de Cali",
+                  "bibliography": "The Green Honeycreeper contributes to its ecosystem by dispersing the seeds of the fruits it eats. It also plays a role in controlling insect populations, maintaining a healthy balance in its habitat. Its preference for nectar also makes it an occasional pollinator."
+                }
+              },
+              {
+                "modelIndex": 6,
+                "questions": [
+                  {
+                    "questionText": "What is the preferred habitat of many songbirds for nesting and reproduction?",
+                    "answers": [
+                      "A) Deserts",
+                      "B) Forests and areas with dense vegetation",
+                      "C) Coastal areas",
+                      "D) Treeless grasslands"
+                    ],
+                    "correctAnswerIndex": 1
+                  },
+                  {
+                    "questionText": "How do songbirds influence pest control?",
+                    "answers": [
+                      "A) They feed on leaves damaged by pests",
+                      "B) They consume insects and small arthropods that affect plants",
+                      "C) They attract other predators that control pests",
+                      "D) They have no relation to pest control"
+                    ],
+                    "correctAnswerIndex": 1
+                  },
+                  {
+                    "questionText": "What strategy do songbirds use to attract mates during breeding season?",
+                    "answers": [
+                      "A) They fly in circles",
+                      "B) They emit elaborate and repetitive songs",
+                      "C) They change the color of their plumage",
+                      "D) They build complex nests"
+                    ],
+                    "correctAnswerIndex": 1
+                  }
+                ],
+                "birdInfo": {
+                  "birdName": "Saffron Finch",
+                  "species": "Sicalis flaveola",
+                  "conservationStatus": "LC Least Concern",
+                  "description": "The Saffron Finch, known for adapting well to human-modified habitats, is common in its range. It is a medium-sized bird with short wings and tail, and a large beak. The male has yellow plumage with orange tones on the head and spots that extend to the throat and face, along with greenish tones on the wings and tail. The female is similar but with duller colors and less orange on the crown, and a less intense yellow on the abdomen. Males often sing from a branch, a post, or a power line.",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/CANARIO",
+                  "habitat": "Wide variety of habitats, generally semi-open with scattered trees or shrubs, including dry open forests, savannas, thorny scrub, Chaco forests (forests with non-floodable grassland areas), edges of swamps and water bodies, gallery forest edges, roadside scrub, secondary growth, and agricultural areas; also meadows in towns.",
+                  "diet": "Seeds, also small arthropods. It forages on the ground, often in urban meadows. Found in pairs and small flocks.",
+                  "reproduction": "The nest is a voluminous semi-sphere made of dry grasses, lined with softer material, including hair, placed in palm leaves or a cavity, such as a pipe or roof eave. Clutch of 2 to 4 eggs, cream-colored with violet-brown markings.",
+                  "size": "Measures between 13.5 and 15.0 cm in length.",
+                  "funFact1": "Male Sicalis flaveola have striking bright yellow plumage, especially during breeding season, while females have duller colors for better camouflage.",
+                  "funFact2": "This species adapts very well to urban and rural environments and is often seen in human-inhabited areas, building nests in roofs, artificial structures, or even nest boxes.",
+                  "location": "Universidad Javeriana de Cali",
+                  "bibliography": "Sicalis flaveola plays an important role in its ecosystem by consuming seeds, contributing to the dispersal and control of plants and weeds. It also feeds on insects, helping regulate populations of these invertebrates and maintaining ecological balance in its habitat."
+                }
+              }
+            ]
+          },
+
+
+
+
+
+              {
+                "birdTypeId": 7,
+                "allModelQuestions": [
+                    {
+                      "modelIndex": 6,
+                      "questions": [
+                        {
+                          "questionText": "What adaptation allows Caprimulgiformes to efficiently catch insects while flying?",
+                          "answers": [
+                            "A) Long and strong feet",
+                            "B) Curved and sharp beak",
+                            "C) Large and wide mouth",
+                            "D) Brightly colored feathers"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "How do Caprimulgiform birds camouflage themselves in their environment?",
+                          "answers": [
+                            "A) Through their bright colors",
+                            "B) By burying themselves underground",
+                            "C) By using plumage that mimics the surroundings, such as leaves and branches",
+                            "D) By placing themselves in water to blend with the reflection"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "What is one of the main adaptations of Caprimulgiformes for nocturnal flight?",
+                          "answers": [
+                            "A) Plumage that changes color in the dark",
+                            "B) Wings with membranes that reflect light",
+                            "C) Eyes adapted to low light conditions",
+                            "D) Long legs that allow for silent flight"
+                          ],
+                          "correctAnswerIndex": 2
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Common Potoo",
+                        "species": "Nyctibius griseus",
+                        "conservation": "LC least concern",
+                        "description": "It is a large nocturnal bird with big yellow eyes. It often perches on branches, fence posts, or exposed limbs where its cryptic coloration helps it avoid detection. It is more frequently identified by its eerie, descending call and is typically solitary.",
+                        "mainImage": "Images/Interface/Cards/FierceFlight/POTOO",
+                        "habitat": "They inhabit the rainforests of the Neotropics, living in forest edges, humid and very humid areas, and also open areas near water bodies, plantations with scattered trees, forest edges, gallery forests, and mangroves.",
+                        "diet": "They feed at night by perching on exposed branches and catching flying insects. They remain upright, watching attentively with frequent head movements until they spot a large insect. The insects are caught mid-air and then the bird often returns to the same perch.",
+                        "size": "It measures between 33 and 38 cm in length.",
+                        "reproduction": "It is believed that the common potoo is monogamous; both sexes are said to incubate the egg and care for the chick. They lay a single egg, which is incubated on top of a broken branch or stump, or in a slight depression on a large tree limb.",
+                        "funFact1": "It remains still during the day. It perches on high branches, usually in an upright posture. When not alarmed, it perches more vertically with its bill pointed forward instead of upwards.",
+                        "funFact2": "When it suspects it’s being watched, it stretches its body, compresses its plumage, and raises its head, all so gradually that no movement is detected. It may use the same roosting spot for months.",
+                        "location": "Eco-park Lago de Las Garzas, University of Valle, Club Campestre Farallones",
+                        "bibliography": "Nyctibius griseus plays a crucial ecological role in its ecosystem. As a nocturnal insect predator, it helps control pest populations, contributing to the balance of the food chain. Additionally, by consuming insects that could harm vegetation, it indirectly protects local flora. As part of the trophic web, it also serves as prey for larger predators, making it an important component of the ecosystem's biodiversity."
+                      }
+                    }
+                  ]
+                }
+  ]
+}
+                       

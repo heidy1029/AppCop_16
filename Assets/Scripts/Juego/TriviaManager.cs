@@ -216,7 +216,6 @@ public class TriviaManager : MonoBehaviour
                 currentBirdInfo.Bibliography
             );
 
-
             birdInfoCanvas.gameObject.SetActive(true);
             triviaCanvas.SetActive(false);
 
@@ -227,6 +226,7 @@ public class TriviaManager : MonoBehaviour
             Debug.LogError($"No se encontró información para el modelIndex: {currentTriviaId} en el birdTypeId {EventController.Instance.GetCurrentBirdType()}");
         }
     }
+
 
     public void SetTriviaAnswered(int triviaId)
     {
