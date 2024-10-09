@@ -643,17 +643,17 @@
           ],
           "birdInfo": {
             "birdName": "Garrapatero Mayor ",
-            "species": "Dendrocygna autumnalis",
-            "description": "Destaca por su pecho de color leonado y su vuelo ágil.",
+            "species": "Crotophaga major",
+            "description": "Destaca por su plumaje negro azulado, larga cola y pico arqueado. Vive en grupos familiares, mostrando comportamiento social cooperativo y ayuda a controlar poblaciones de insectos.",
             "mainImage": "Images/Interfaz/Cartas/VueloIntenso/GarrapateroMayor",
-            "habitat": "Bosques templados y jardines",
-            "diet": "Es variada, incluyendo plantas acuáticas, semillas, y pequeños invertebrados, lo que lo convierte en un contribuyente importante al control de la vegetación acuática y la dispersión de semillas en su entorno",
-            "reproduction": "Anida en árboles como en el suelo cercano a cuerpos de agua, y pone entre 10 y 16 huevos. Ambos padres cuidan a las crías, que son capaces de nadar y alimentarse poco después de nacer",
-            "size": "3.5 pulgadas",
-            "funFact1": "El pato silbón es conocido por su llamado silbante, que emite incluso durante el vuelo.",
-            "funFact2": "Anidan en cavidades de árboles, adaptándose a una gran variedad de hábitats.",
-            "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro – Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
-            "bibliography": "Esta especie juega un rol ecológico importante, ya que se alimenta de insectos, pequeños vertebrados y garrapatas, lo que ayuda a controlar las poblaciones de estos animales y a reducir la propagación de enfermedades en el ganado. Al eliminar parásitos de grandes mamíferos, como vacas y caballos, el garrapatero mayor también promueve la salud de estos animales y el equilibrio de los ecosistemas en los que habita"
+            "habitat": "Habita en zonas pantanosas y áreas abiertas con vegetación baja, como ríos, humedales y pastizales, prefiriendo regiones de alta humedad cerca de cuerpos de agua.",
+            "diet": "Se alimenta de insectos, pequeños vertebrados como ranas y lagartijas, y algunos frutos, buscando su comida en el suelo o vegetación baja.",
+            "reproduction": "Practica la crianza cooperativa, donde varios adultos construyen nidos comunales y cuidan juntos de los huevos y crías. Los nidos son grandes y hechos de ramas en árboles bajos.",
+            "size": "Mide 46 cm de longitud",
+            "funFact1": "Tiene una estructura social única, ya que vive en grupos familiares y practica la crianza comunal, donde varios adultos cuidan a las crías de todo el grupo.",
+            "funFact2": "Su nombre ani proviene del sonido característico de su llamada, un canto repetitivo y áspero que emite mientras se desplaza en su hábitat o se comunica con su grupo.",
+            "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro-Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
+            "bibliography": "Control de insectos: Al alimentarse de una amplia variedad de insectos, como saltamontes y grillos, ayuda a mantener bajo control las poblaciones de invertebrados, lo que es clave para el equilibrio del ecosistema.Dispersión de semillas: Aunque su dieta es principalmente insectívora, también consume frutos, contribuyendo a la dispersión de semillas y ayudando en la regeneración de plantas en su hábitat."
           }
         },
         {
@@ -841,19 +841,69 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Urutau común ",
-            "species": "Nyctibius griseus",
+            "birdName": "Cuclillo crespín ",
+            "species": "Tapera naevia",
             "conservacion":"LC preocupación menor",
-            "description": "es un ave nocturna de ojos grandes de color amarillos. y de gran tamaño que suelen posarse en enganches, ramas expuestas o postes de cercas, donde su coloración disruptiva los ayuda a evitar ser detectados, se detectan con mayor frecuencia por su canto increíblemente inquietante y descendente, suele ser solitario",
+            "description": "Es un ave mediana de color marrón con una cola larga y una cresta corta y tupida. Su canto ventrílocuo se escucha con frecuencia en pastizales, aunque es difícil de localizar. Ambos sexos son iguales.",
             "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Urutau",
-            "habitat": "Son aves que habitan en los bosques del Neotrópico (lluvioso), Habita en bordes de bosque húmedo y muy húmedo. También utiliza áreas abiertas cerca de cuerpos de agua, plantaciones con árboles dispersos, bordes de selvas de galería, manglares",
-            "diet": "Buscan alimento por la noche saliendo de perchas expuestas para atrapar insectos voladores.  Se posan erguidos y observan atentamente con frecuentes movimientos de cabeza hasta que detectan un insecto grande. Los insectos son capturados en el aire en una salida, después de lo cual suelen regresar a la misma percha.",
-            "size": "Mide entre 33 y 38 cm de longitud",
-            "reproduction": "Se presume que el potoo común es monógamo; se dice que ambos sexos incuban el huevo y cuidan al polluelo, ponen un solo huevo y no construyen un nido; el huevo se anida en la parte superior de un tocón o una rama rota, o en una ligera depresión en una rama grande de un árbol.",
-            "funFact1": "Permanece inmóvil durante el día. Se posa en ramas altas, aunque generalmente se lo ve en una postura erguida, cuando no está alarmado se posa verticalmente pero más corto y más grueso, con el pico dirigido hacia adelante en lugar de hacia arriba",
-            "funFact2": "Cuando sospecha que lo están observando, alarga su cuerpo, comprime su plumaje y levanta la cabeza, todo tan gradualmente que no se percibe ningún movimiento. Pueden usar el mismo dormidero diurno durante meses seguidos",
+            "habitat": "Habita en campos abiertos con árboles dispersos, matorrales, pastizales húmedos y claros en áreas boscosas.",
+            "diet": "Se alimenta principalmente de insectos como saltamontes y escarabajos, forrajeando en el suelo o vegetación baja. Es una ave solitaria, furtiva y difícil de ver, más fácil de escuchar que observar.",
+            "size": "Mide entre 26.0 - 29.0 cm de longitud.",
+            "reproduction": "El Cuclillo crespín es un parásito de cría que pone sus huevos en nidos de otras aves, como rastrojeros y cucaracheros. La incubación dura de 15 a 16 días, y el cuidado lo brinda la especie hospedadora.",
+            "funFact1": "El cuco joven mata a sus compañeros de nido poco después de la eclosión con su pico ganchudo y se cría solo en el nido del hospedador. El cuco joven abandona el nido cuando tiene entre 16 y 18 días de edad.",
+            "funFact2": "El canto ventrílocuo de la Tapera naevia es muy característico y puede confundirse fácilmente, lo que dificulta localizar al ave, ya que suele cantar desde lugares ocultos en la vegetación.",
             "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
-            "bibliography": "Nyctibius griseus, juega un papel ecológico crucial en su ecosistema. Como depredador nocturno de insectos, contribuye al control de poblaciones de plagas, ayudando a mantener el equilibrio en la cadena alimentaria. Además, al consumir insectos que podrían dañar la vegetación, ayuda indirectamente a proteger la flora local. Al ser parte de la red trófica, también sirve como presa para depredadores más grandes, lo que lo convierte en un componente importante para la biodiversidad del ecosistema en el que vive."
+            "bibliography": "La Tapera naevia controla las poblaciones de insectos al alimentarse principalmente de ellos, lo que ayuda a mantener el equilibrio ecológico. Además, contribuye a la dispersión de semillas y a la regeneración de vegetación al consumir frutos."
+          }
+        },
+        {
+          "modelIndex": 7,
+          "questions": [
+            {
+              "questionText": "¿Qué comportamiento migratorio tienen algunas especies de cuculiformes, como el cuco común?",
+              "answers": [
+                "A) Son aves sedentarias que no migran",
+                "B)  Se trasladan solo dentro de un mismo continente",
+                "C)  Migran entre el Ártico y el Antártico",
+                "D) Migran entre Europa o Asia y África en busca de mejores condiciones"
+              ],
+              "correctAnswerIndex": 1
+            },
+            {
+              "questionText": " ¿Qué función tienen las vocalizaciones en los Cuculiformes?",
+              "answers": [
+                "A) Únicamente para la comunicación con sus crías",
+                "B) Para la comunicación y el cortejo, así como para la defensa del territorio",
+                "C) Solo para alertar sobre la presencia de depredadores",
+                "D) Para imitar los sonidos de otros animales"
+              ],
+              "correctAnswerIndex": 1
+            },
+            {
+              "questionText": "¿Qué comportamiento es característico de muchas especies de Cuculiformes en relación con la reproducción?",
+              "answers": [
+                "A) Construyen nidos en cavidades de árboles",
+                "B) Llevan sus huevos a nidos de otras aves para que sean incubados por ellas",
+                "C) Crían sus huevos en nidos construidos en el suelo",
+                "D)  Prefieren incubar sus huevos en nidos flotantes"
+              ],
+              "correctAnswerIndex": 1
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Cuco ardilla ",
+            "species": "Piaya cayana",
+            "conservacion":"LC preocupación menor",
+            "description": "Esta ave se observa planeando de árbol en árbol o saltando de rama en rama en busca de artrópodos. Sus movimientos recuerdan a las ardillas y posteriormente se deja caer planeando.  Su plumaje es marrón rojizo en la parte superior, con garganta y pecho beige y vientre gris claro. Su larga cola es rojiza por encima y negruzca con puntas blancas",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Cuco",
+            "habitat": "En bosques húmedos a semihúmedos, bosques secos, bordes de bosques, bosques secundarios, árboles dispersos en campo abierto, manglares, bosques inundables, bosques en crecimiento secundario avanzado, pastizales con árboles dispersos, plantaciones de café y cerca de cursos de agua en zonas secas.",
+            "diet": "Es insectívoro principalmente de orugas, polillas, saltamontes, escarabajos, avispas, abejas, hormigas grandes, cigarras, hemípteros, arañas, lagartijas pequeñas, algunas frutas, ranas más pequeñas.",
+            "size": "Mide entre 40.0 y 46.0 cm de longitud.",
+            "reproduction": "Los nidos se construyen en árboles o en vegetación baja y densa. La puesta consta normalmente de dos huevos. Los huevos son de color blanco tiza y no tienen marcas; Ambos sexos incuban. El período de incubación es de 18 a 19 días. Ambos sexos abastecen a los polluelos.",
+            "funFact1": "Los padres mantienen un nido bastante limpio eliminando los excrementos y trayendo hojas frescas.",
+            "funFact2": "Los cucos ardilla casi siempre son solitarios o en parejas. Pueden seguir bandadas de especies mixtas, pero a menudo buscan alimento lejos de ellas.",
+            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+            "bibliography": "La Piaya cayana, o cuco común, tiene efectos ecológicos importantes, como el control de poblaciones de insectos al alimentarse de artrópodos. Su presencia indica la salud del ecosistema, ya que es sensible a cambios en la disponibilidad de alimentos. Además, influye en las dinámicas de la cadena alimentaria y contribuye a la dispersión de semillas mediante el consumo ocasional de frutos, favoreciendo la regeneración de la vegetación."
           }
         }
       ]
@@ -1163,6 +1213,104 @@
             "funFact2": "Se ha expresado preocupación por la amenaza que la especie representa para las aeronaves, así como por los impactos de la especie en la propiedad personal, la infraestructura pública y, especialmente, la agricultura, a través de la supuesta depredación del ganado.",
             "location": "Ecohotel El Castillo",
             "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas."
+          }
+        },
+        {
+          "modelIndex": 6,
+          "questions": [
+            {"questionText": "¿Cómo afecta la adaptación de los Cathartiformes a su hábitat a su comportamiento social?",
+              "answers": [
+                "A) Les impide formar grupos.",
+                "B) Les permite encontrar carroña más rápidamente en grupo.",
+                "C) Les obliga a cazar de manera solitaria.",
+                "D) Les reduce su capacidad de vuelo."
+              ],
+              "correctAnswerIndex": 1
+            },
+            {
+              "questionText": "¿Cuál es el tipo de alimento principal para los Cathartiformes?",
+              "answers": [
+                "A) Frutas.",
+                "B) Insectos.",
+                "C) Carroña.",
+                "D) Peces vivos."
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Cómo contribuyen los Cathartiformes al ciclo de nutrientes en los ecosistemas?",
+                "answers": [
+                  "A) Ayudan a la rápida descomposición de materia orgánica.",
+                  "B) Evitan la competencia entre especies.",
+                  "C) Incrementan la población de insectos.",
+                  "D) Facilitan la dispersión de semillas."
+                ],
+                "correctAnswerIndex": 0
+              }
+          ],
+          "birdInfo": {
+            "birdName": "Milano caracolero",
+            "species": "Rostrhamus sociabilis",
+            "conservacion":"LC preocupación menor",
+            "description": "Los sexos muestran un notable dimorfismo en el plumaje, aunque las hembras son ligeramente más grandes que los machos. Tienen un pico estrecho y muy curvado hacia abajo, con un culmen cóncavo y una punta afilada. Es un ave rapaz de tamaño mediano.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
+            "habitat": "Se encuentran en zonas abiertas de humedales de agua dulce, como bordes de lagos y pantanos. A menudo se ven a lo largo de carreteras y canales de riego de arrozales, donde las vallas ofrecen perchas.",
+            "diet": "Es un ave carnívora que se alimenta principalmente de caracoles acuáticos, tortugas y pequeños mamíferos. Busca alimento en parches de agua y se sumerge en picado para atrapar caracoles con sus patas, sin mojarse el vientre, a una profundidad de hasta 16 cm.",
+            "reproduction": "La construcción del nido tarda de 4 a 18 días, aunque puede prolongarse si se interrumpe. La puesta de huevos es poco frecuente y generalmente consta de 2-3 huevos blanquecinos con manchas café.",
+            "size": "Mide entre 42.0 y 46.0 cm de longitud.",
+            "funFact1": "Los machos son responsables de la mayor parte de la construcción como parte del cortejo y seleccionan el sitio, que generalmente se ubica sobre el agua para disuadir a depredadores.",
+            "funFact2": "Los caracoleros suelen defecar después de cada alimentación, para defecar, las aves bajan la cabeza y levantan el cuerpo y la cola hasta un plano horizontal o ligeramente más alto.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "La Rostrhamus sociabilis, comúnmente conocida como el caracolero, tiene varios efectos ecológicos importantes en su ecosistema: Control de poblaciones de caracoles: Al alimentarse principalmente de caracoles de agua dulce, el caracolero ayuda a regular sus poblaciones, lo que contribuye al equilibrio ecológico de su hábitat acuático. Este control de invertebrados es esencial para mantener la salud de los ecosistemas de humedales.Interacción con otros organismos: Como depredador, el caracolero juega un papel crucial en la cadena alimentaria. Su presencia puede influir en las dinámicas de otras especies, tanto como presa para aves rapaces y otros depredadores, como también al controlar las poblaciones de sus presas.Indicador de salud del ecosistema: La abundancia y distribución del caracolero pueden ser indicadores de la salud de los humedales y cuerpos de agua dulce, ya que su bienestar depende de un ecosistema acuático saludable.Dispersión de semillas: Aunque su dieta es predominantemente carnívora, el caracolero también puede contribuir a la dispersión de semillas si consume frutos ocasionalmente, lo que favorece la regeneración y diversidad de la vegetación en su entorno."
+          }
+        },
+        {
+          "modelIndex": 6,
+          "questions": [
+            {"questionText": "¿Cómo es la visión de los Falconiformes en comparación con los humanos? ",
+              "answers": [
+                "A) Aproximadamente igual a la de los humanos.",
+                "B) Aproximadamente 1.5 veces mejor que la de los humanos. ",
+                "C) Aproximadamente 2.6 veces mejor que la de los humanos.",
+                "D) Aproximadamente 5 veces mejor que la de los humanos"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Qué impacto tienen los Falconiformes en las poblaciones de pequeños mamíferos? ",
+              "answers": [
+                "A) Aumentan las poblaciones de pequeños mamíferos.",
+                "B) No afectan las poblaciones de pequeños mamíferos",
+                "C) Regulan y mantienen equilibradas las poblaciones de pequeños mamíferos. ",
+                "D) Solo afectan a grandes mamíferos."
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Cuál es uno de los impactos ecológicos principales de los Falconiformes en áreas agrícolas? ",
+                "answers": [
+                  "A) A. Aumentan las plagas. ",
+                  "B) Destruyen cultivos",
+                  "C) No tienen ningún impacto.",
+                  "D) Regulan poblaciones de roedores e insectos."
+                ],
+                "correctAnswerIndex": 3
+              }
+          ],
+          "birdInfo": {
+            "birdName": "Caracara crestado",
+            "species": "Rostrhamus sociabilis",
+            "conservacion":"LC preocupación menor",
+            "description": "Esta ave rapaz de tamaño mediano, con plumaje blanco y negro y patas y cara amarillas, es fácil de identificar cuando se posa en lugares altos. Se distingue por su vuelo bajo y aleteos poderosos. Las hembras son ligeramente más grandes, y destacan su larga cola y cuello extendido. Aunque planea raramente, las corrientes térmicas pueden elevarla rápidamente.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
+            "habitat": "Habita en una variedad de áreas abiertas y semiabiertas por debajo de los 3.000 metros de altitud, como pastizales, sabanas, pampas y bordes de ríos. Prefiere zonas con árboles dispersos, postes y cercas para posarse, especialmente cerca de sitios de anidación. Evita lugares con vegetación alta o densa que dificulte su despegue desde el suelo.",
+            "diet": "Se alimenta de insectos, pequeños vertebrados, huevos y carroña, especialmente en invierno. Caza en hábitats abiertos como pastizales, desiertos y áreas humanas, como campos agrícolas y vertederos. Busca presas caminando, desde perchas, en vuelo bajo o vadeando en aguas poco profundas.",
+            "reproduction": "El Caracara Crestado es el único miembro de Falconidae que construye su propio nido, reutilizando o renovando estructuras anteriores. Anida en vegetación alta o estructuras similares que ofrecen una amplia vista. Ambos sexos participan en la construcción, la cual dura de 2 a 4 semanas. Ponen entre 1 y 4 huevos, y ambos incuban durante 32 a 33 días.",
+            "size": "Mide entre 50.0 y 64.0 cm de longitud.",
+            "funFact1": "Las parejas adultas son generalmente monógamas y muy territoriales y muestran una fuerte fidelidad al sitio.",
+            "funFact2": "Los caranchos usan el pico para recolectar material del nido. Arrancan tallos y enredaderas mientras caminan por los pastos, a lo largo de las cercas y las zanjas.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "-Control de poblaciones: Al alimentarse de una amplia variedad de animales, como insectos, pequeños vertebrados y carroña, contribuye al control de estas poblaciones, manteniendo el equilibrio ecológico. Su rol como carroñero también ayuda a eliminar animales muertos, evitando la proliferación de enfermedades. -Reciclaje de nutrientes: Al consumir carroña, el Caracara Crestado contribuye al reciclaje de nutrientes, acelerando el proceso de descomposición y promoviendo la salud del ecosistema. -Interacción en la cadena alimentaria: Como depredador y carroñero, influye en la dinámica de otras especies, tanto al controlar las poblaciones de presas como al competir por carroña con otros carroñeros, como buitres."
           }
         }
 
@@ -2162,19 +2310,19 @@
         }
       ],
       "birdInfo": {
-        "birdName": "Carpinterito Punteado",
-        "species": "Picumnus granadensis",
-        "conservacion":"LC preocupación menor",
-        "description": "El macho es negro desde la frente a la nuca con puntos de color amarillo en la coronilla y blanco detrás. La hembra se distingue porque presenta puntos blancos en la cabeza.  Permanece solo, en parejas o grupos familiares y en ocasiones se une a bandadas mixtas.",
-        "mainImage": "Images/Interfaz/Cartas/Extrañas/",
-        "habitat": "Es una especie de distribución restringida que se puede encontrar en bordes de bosques secos a moderadamente húmedos, matorrales de segundo crecimiento y arbolado, y bosques del noroeste de Colombia. Este pequeño pájaro carpintero es de color blanco grisáceo opaco y tiene la frente y la corona moteadas de amarillo y blanco.",
-        "diet": "Esta especie, que es exclusivamente insectívora, se puede encontrar buscando alimento de forma individual o en pequeños grupos.",
-        "reproduction": "Temporada aparentemente de enero a junio aproximadamente. Anida en cavidades de troncos de árboles muerto.",
-        "size": "Mide entre 9 y 10 cm de longitud",
-        "funFact1": "Endémica de Colombia: La Picumnus granadensis es endémica de Colombia, lo que significa que solo se encuentra en ese país. Prefiere habitar áreas de bosque seco y zonas montañosas, lo cual la convierte en una especie muy particular de la avifauna colombiana",
-        "funFact2": "Tamaño Pequeño y Adaptación: Es uno de los pájaros carpinteros más pequeños, midiendo apenas unos 10 cm de longitud. A pesar de su tamaño, presenta el comportamiento típico de los carpinteros, excavando la madera con fuerza para buscar alimento, lo cual es sorprendente dada su diminuta constitución",
-        "location": "Ecohotel El Castillo",
-        "bibliography": "La Picumnus granadensis, conocida como carpinterito colombiano, desempeña un papel importante en el ecosistema al contribuir al control de insectos en árboles, ya que se alimenta principalmente de larvas e insectos que encuentra bajo la corteza. Al excavar en la madera, también crea cavidades que eventualmente pueden ser usadas por otras especies, como pequeños pájaros o insectos, contribuyendo así a la biodiversidad de su hábitat"
+            "birdName": "Urutau común ",
+            "species": "Nyctibius griseus",
+            "conservacion":"LC preocupación menor",
+            "description": "es un ave nocturna de ojos grandes de color amarillos. y de gran tamaño que suelen posarse en enganches, ramas expuestas o postes de cercas, donde su coloración disruptiva los ayuda a evitar ser detectados, se detectan con mayor frecuencia por su canto increíblemente inquietante y descendente, suele ser solitario",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Urutau",
+            "habitat": "Son aves que habitan en los bosques del Neotrópico (lluvioso), Habita en bordes de bosque húmedo y muy húmedo. También utiliza áreas abiertas cerca de cuerpos de agua, plantaciones con árboles dispersos, bordes de selvas de galería, manglares",
+            "diet": "Buscan alimento por la noche saliendo de perchas expuestas para atrapar insectos voladores.  Se posan erguidos y observan atentamente con frecuentes movimientos de cabeza hasta que detectan un insecto grande. Los insectos son capturados en el aire en una salida, después de lo cual suelen regresar a la misma percha.",
+            "size": "Mide entre 33 y 38 cm de longitud",
+            "reproduction": "Se presume que el potoo común es monógamo; se dice que ambos sexos incuban el huevo y cuidan al polluelo, ponen un solo huevo y no construyen un nido; el huevo se anida en la parte superior de un tocón o una rama rota, o en una ligera depresión en una rama grande de un árbol.",
+            "funFact1": "Permanece inmóvil durante el día. Se posa en ramas altas, aunque generalmente se lo ve en una postura erguida, cuando no está alarmado se posa verticalmente pero más corto y más grueso, con el pico dirigido hacia adelante en lugar de hacia arriba",
+            "funFact2": "Cuando sospecha que lo están observando, alarga su cuerpo, comprime su plumaje y levanta la cabeza, todo tan gradualmente que no se percibe ningún movimiento. Pueden usar el mismo dormidero diurno durante meses seguidos",
+            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+            "bibliography": "Nyctibius griseus, juega un papel ecológico crucial en su ecosistema. Como depredador nocturno de insectos, contribuye al control de poblaciones de plagas, ayudando a mantener el equilibrio en la cadena alimentaria. Además, al consumir insectos que podrían dañar la vegetación, ayuda indirectamente a proteger la flora local. Al ser parte de la red trófica, también sirve como presa para depredadores más grandes, lo que lo convierte en un componente importante para la biodiversidad del ecosistema en el que vive."
       }
     },
     {

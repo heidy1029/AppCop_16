@@ -4,6 +4,72 @@ using UnityEngine.UI;
 
 public class CollectionBook : MonoBehaviour
 {
+    public Image[] collectionImages;
+    public GameObject collectionBookPanel;
+    private bool isCatalogVisible = false;
+
+    // Referencia al script de paginación
+    public Rotacion paginacionScript;
+
+    void Start()
+    {
+        InitializeCollectionBook();
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            ToggleCollectionBook();
+        }
+    }
+
+    public void AddImageToCollection(string imagePath)
+    {
+        Sprite sprite = Resources.Load<Sprite>(imagePath);
+
+        if (sprite == null)
+        {
+            Debug.LogError("No se pudo cargar la imagen desde la ruta: " + imagePath);
+            return;
+        }
+
+        foreach (Image img in collectionImages)
+        {
+            if (img.sprite == null)
+            {
+                img.sprite = sprite;
+                img.gameObject.SetActive(true);
+                Debug.Log("Imagen agregada al catálogo de colección.");
+
+                // Llamar al script de paginación para actualizar la vista
+                paginacionScript.ActualizarCartas();
+
+                return;
+            }
+        }
+
+        Debug.LogWarning("La colección de imágenes está completa.");
+    }
+
+    public void ToggleCollectionBook()
+    {
+        isCatalogVisible = !isCatalogVisible;
+        collectionBookPanel.SetActive(isCatalogVisible);
+    }
+
+    public void InitializeCollectionBook()
+    {
+        foreach (Image img in collectionImages)
+        {
+            img.gameObject.SetActive(false);
+        }
+    }
+}
+
+
+/*public class CollectionBook : MonoBehaviour
+{
     public Image[] collectionImages; // Array de imágenes en el libro de colección
     public GameObject collectionBookPanel; // El panel del catálogo de colección
     private bool isCatalogVisible = false; // Controla si el catálogo está visible o no
@@ -81,4 +147,4 @@ public class CollectionBook : MonoBehaviour
         }
     }
 
-}
+}*/

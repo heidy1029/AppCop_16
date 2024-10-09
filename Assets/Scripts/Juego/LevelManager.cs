@@ -7,6 +7,7 @@ public class LevelManager : MonoBehaviour
 {
     private static LevelManager _instance;
     public static LevelManager Instance => _instance;
+    [SerializeField] private ProgressBarController _progressController;
 
     [SerializeField] private Ambient[] _ambients;
     [SerializeField] private Material _originalMaterial;
@@ -104,7 +105,11 @@ public class LevelManager : MonoBehaviour
                 var card = model.GetComponent<ModelTrigger>();
                 var image = Resources.Load<Sprite>(info.MainImage);
                 card.Configure(image, EventController.Instance.GetCurrentBirdType(), info.ModelIndex);
+
+                card.SetProgressBarController(_progressController);
+
             }
+
         }
 
         // Unlock all ambients up to the highest unlocked trivia index

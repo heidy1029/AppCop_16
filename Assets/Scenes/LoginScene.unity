@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 70
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1659,16 +1659,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1284249562}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 1284249563}
+        m_TargetAssemblyTypeName: LoginRequest, Assembly-CSharp
+        m_MethodName: OnLoginButtonPressed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MainScene
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1164912771
@@ -1721,8 +1721,8 @@ GameObject:
   - component: {fileID: 1284249559}
   - component: {fileID: 1284249558}
   - component: {fileID: 1284249557}
-  - component: {fileID: 1284249561}
   - component: {fileID: 1284249562}
+  - component: {fileID: 1284249563}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1823,22 +1823,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1284249561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284249556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3330b462b1645f14793a49d09fa89330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  usernameField: {fileID: 490675804}
-  passwordField: {fileID: 1751421262}
-  loginButton: {fileID: 1164912770}
-  registerButton: {fileID: 1054886591}
 --- !u!114 &1284249562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1851,6 +1835,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efe8f1bd69559e042bc5f6c75457989c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1284249563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284249556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0b5f6686d93ec42aa6f16008108786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emailInput: {fileID: 490675804}
+  passwordInput: {fileID: 1751421262}
+  responseText: {fileID: 87141335}
 --- !u!1 &1299686674
 GameObject:
   m_ObjectHideFlags: 0
