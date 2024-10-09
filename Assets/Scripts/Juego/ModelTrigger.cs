@@ -8,7 +8,7 @@ public class ModelTrigger : MonoBehaviour
     [SerializeField] private Image _modelImage;
     [SerializeField] private Image _modelImage2;
 
-    private ProgressBarController _progressController;
+
 
 
     public void Configure(Sprite sprite, int birdType, int triviaId)
@@ -25,16 +25,12 @@ public class ModelTrigger : MonoBehaviour
     {
         transform.Rotate(Vector3.right * 30 * Time.deltaTime);
     }
-    public void SetProgressBarController(ProgressBarController progressController)
-    {
-        _progressController = progressController;
-    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            _progressController?.UpdateProgress(); // Actualiza la barra de progreso si está asignada
+
 
             Destroy(this.gameObject); // Destruye el trigger
             TriviaManager.Instance.LoadQuestions(_modelIndex); // Inicia la trivia con el modelIndex correcto
