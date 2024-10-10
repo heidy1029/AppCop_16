@@ -3,8 +3,8 @@ using UnityEngine;
 using UnityEngine.Networking;
 using TMPro; // Necesario para usar TMP_InputField
 using UnityEngine.UI; // Necesario para usar Button
-using Newtonsoft.Json; // Ejemplo si usas Newtonsoft
 using SimpleJSON;
+using UnityEngine.SceneManagement;
 
 
 
@@ -69,6 +69,7 @@ public class SupabaseRegister : MonoBehaviour
             // Parsear la respuesta JSON para obtener la información del usuario
             string serverResponse = request.downloadHandler.text;
             Debug.Log("Respuesta del servidor: " + serverResponse);
+            SceneManager.LoadScene("LoginScene");
 
             // Convertir la respuesta JSON a un objeto dinámico para acceder a los campos
             /* var json = SimpleJSON.JSON.Parse(serverResponse);
@@ -79,7 +80,8 @@ public class SupabaseRegister : MonoBehaviour
              if (emailVerified)
              {
                  responseText.text = "¡Inicio de sesión exitoso!";
-                 // Aquí puedes redirigir al usuario a la pantalla principal de tu juego.
+                 // Cambiar a la siguiente escena
+                 SceneManager.LoadScene("LoginScene");  // Reemplaza con el nombre de la escena a la que deseas ir
              }
              else
              {

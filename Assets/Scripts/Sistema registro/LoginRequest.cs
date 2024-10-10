@@ -5,6 +5,7 @@ using TMPro; // Necesario para usar TMP_InputField
 using UnityEngine.UI; // Necesario para usar Button
 //using Newtonsoft.Json; // Ejemplo si usas Newtonsoft
 using SimpleJSON;
+using UnityEngine.SceneManagement;
 
 
 
@@ -75,26 +76,24 @@ public class SupabaseAuth : MonoBehaviour
             // Parsear la respuesta JSON para obtener la información del usuario
             string serverResponse = request.downloadHandler.text;
             Debug.Log("Respuesta del servidor: " + serverResponse);
+            SceneManager.LoadScene("MainScene");
 
             // Convertir la respuesta JSON a un objeto dinámico para acceder a los campos
-            /*  var json = SimpleJSON.JSON.Parse(serverResponse);
+            /*var json = SimpleJSON.JSON.Parse(serverResponse);
 
-              // Verificar si el email ha sido confirmado
-              bool emailVerified = json["user_metadata"]["email_verified"].AsBool;
+            // Verificar si el email ha sido confirmado
+            bool emailVerified = json["user_metadata"]["email_verified"].AsBool;
 
-              if (emailVerified)
-              {
-                  responseText.text = "¡Inicio de sesión exitoso!";
-                  // Guardar el correo del usuario
-                  PlayerPrefs.SetString("UserEmail", email);
-                  PlayerPrefs.Save();
-
-                  // Aquí puedes redirigir al usuario a la pantalla principal de tu juego.
-              }
-              else
-              {
-                  responseText.text = "Por favor, verifica tu correo antes de iniciar sesión.";
-              }*/
+            if (emailVerified)
+            {
+                responseText.text = "¡Inicio de sesión exitoso!";
+                // Cambiar a la siguiente escena
+                SceneManager.LoadScene("MainScene");  // Reemplaza con el nombre de la escena a la que deseas ir
+            }
+            else
+            {
+                responseText.text = "Por favor, verifica tu correo antes de iniciar sesión.";
+            }*/
         }
     }
 }
