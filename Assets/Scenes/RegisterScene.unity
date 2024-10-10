@@ -1276,8 +1276,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Repetir contrase\xF1a"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6, type: 2}
+  m_sharedMaterial: {fileID: 6312716481995716874, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1543,8 +1544,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ingresar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6, type: 2}
+  m_sharedMaterial: {fileID: 6312716481995716874, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2013,8 +2015,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Registrate
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6, type: 2}
+  m_sharedMaterial: {fileID: 6312716481995716874, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2813,8 +2816,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Email
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6, type: 2}
+  m_sharedMaterial: {fileID: 6312716481995716874, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3102,8 +3106,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Contrase\xF1a"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6, type: 2}
+  m_sharedMaterial: {fileID: 6312716481995716874, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
