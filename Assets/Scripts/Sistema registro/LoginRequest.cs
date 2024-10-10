@@ -1,50 +1,81 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
+using TMPro; // Necesario para usar TMP_InputField
+using UnityEngine.UI; // Necesario para usar Button
 
 public class SupabaseAuth : MonoBehaviour
 {
     private string apiUrl = "https://vwlkdjpcfcdiimmkqxrx.supabase.co/auth/v1/token?grant_type=password";
     private string apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ3bGtkanBjZmNkaWltbWtxeHJ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgyNjgxNzMsImV4cCI6MjA0Mzg0NDE3M30.rEzatvw8q--aFLcx86SQsSlYsZHYVQTUPkVh2VJxWCU";
 
+    // Referencias a los campos de entrada de correo y contraseña
+    public TMP_InputField emailInput;
+    public TMP_InputField passwordInput;
+
+    // Referencia al texto para mostrar la respuesta
+    public TextMeshProUGUI responseText;
+
+    // Referencia al botón de ingresar
+    public Button loginButton;
+
     void Start()
     {
-        // Iniciamos la coroutine para hacer el POST
+        // Asignamos la función OnLoginButtonClicked al botón de ingresar
+        loginButton.onClick.AddListener(OnLoginButtonClicked);
+    }
+
+    void OnLoginButtonClicked()
+    {
+        // Al hacer clic en el botón, iniciamos la coroutine para enviar los datos
         StartCoroutine(EnviarDatos());
     }
 
     IEnumerator EnviarDatos()
     {
-        string email = "";
-        string password = "";
+        // Obtener el correo y la contraseña ingresados
+        string email = emailInput.text;
+        string password = passwordInput.text;
 
-        // Crear el JSON con email y password usando interpolación de cadenas
+        // Verificar si los campos están llenos
+        if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+        {
+            responseText.text = "Por favor, llena todos los campos.";
+            yield break; // Detener la ejecución si no están llenos
+        }
+
+        // Crear el JSON con email y password
         string jsonData = $"{{\"email\":\"{email}\",\"password\":\"{password}\"}}";
 
-        // Creamos la solicitud POST
+        // Crear la solicitud POST
         UnityWebRequest request = new UnityWebRequest(apiUrl, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
         request.uploadHandler = new UploadHandlerRaw(bodyRaw);
         request.downloadHandler = new DownloadHandlerBuffer();
 
-        // Agregamos el header de Authorization con el apikey
+        // Agregar el header de autorización con el API Key
         request.SetRequestHeader("apikey", apiKey);
         request.SetRequestHeader("Content-Type", "application/json");
 
-        // Enviamos la solicitud y esperamos la respuesta
+        // Enviar la solicitud y esperar la respuesta
         yield return request.SendWebRequest();
 
-        // Verificamos si hubo errores
+        // Verificar si hubo errores en la solicitud
         if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
         {
+            responseText.text = "Error en la petición: " + request.error;
             Debug.LogError("Error en la petición: " + request.error);
         }
         else
         {
-            Debug.Log("Respuesta del servidor: " + request.downloadHandler.text);
+            // Mostrar la respuesta del servidor
+            string serverResponse = request.downloadHandler.text;
+            responseText.text = "Respuesta del servidor: " + serverResponse;
+            Debug.Log("Respuesta del servidor: " + serverResponse);
         }
     }
 }
+
 
 
 /*public class LoginRequest : MonoBehaviour

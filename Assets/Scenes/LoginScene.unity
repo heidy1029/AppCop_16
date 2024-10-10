@@ -1850,6 +1850,7 @@ MonoBehaviour:
   emailInput: {fileID: 490675804}
   passwordInput: {fileID: 1751421262}
   responseText: {fileID: 87141335}
+  loginButton: {fileID: 1164912770}
 --- !u!1 &1299686674
 GameObject:
   m_ObjectHideFlags: 0
