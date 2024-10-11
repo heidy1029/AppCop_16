@@ -5,11 +5,12 @@ using TMPro;
 
 public class TriviaManagerInfo : MonoBehaviour
 {
-    public TMP_Text preguntaTexto;  // TextMeshPro para mostrar la pregunta
-    public TMP_Text[] opcionesTexto;  // Array de TextMeshPro para las opciones de respuesta
-    private int indicePreguntaActual;
+    public GameObject triviaCanvas;  // El canvas de la trivia que estará inicialmente desactivado
+    public TMP_Text preguntaTexto;   // TextMeshPro para mostrar la pregunta
+    public TMP_Text[] opcionesTexto; // Array de TextMeshPro para las opciones de respuesta
 
     private List<Pregunta> preguntas = new List<Pregunta>();
+    private List<int> preguntasMostradas = new List<int>();  // Lista para hacer seguimiento de las preguntas ya mostradas
     private Pregunta preguntaActual;
     void Start()
     {
@@ -102,24 +103,54 @@ public class TriviaManagerInfo : MonoBehaviour
         MostrarPreguntaAleatoria();
     }
 
-    // Función para seleccionar una pregunta aleatoria y mostrarla en el Canvas
+    // Función para seleccionar una pregunta aleatoria sin repetir hasta que se hayan mostrado todas
+    public void ActivarTrivia()
+    {
+        triviaCanvas.SetActive(true);  // Activar el Canvas
+        MostrarPreguntaAleatoria();    // Mostrar la primera pregunta
+    }
+
+    // Función para cerrar el Canvas de la trivia
+    public void CerrarTrivia()
+    {
+        triviaCanvas.SetActive(false);  // Desactivar el Canvas
+    }
+
+    // Función para seleccionar una pregunta aleatoria sin repetir hasta que se hayan mostrado todas
     void MostrarPreguntaAleatoria()
     {
-        System.Random random = new System.Random();
-        indicePreguntaActual = random.Next(preguntas.Count);
-        preguntaActual = preguntas[indicePreguntaActual];
+        if (preguntasMostradas.Count == preguntas.Count)
+        {
+            preguntasMostradas.Clear();  // Vaciar la lista para comenzar de nuevo
+            Debug.Log("Todas las preguntas fueron mostradas. Reiniciando el ciclo.");
+        }
+
+        int indicePregunta;
+        do
+        {
+            indicePregunta = Random.Range(0, preguntas.Count);
+        }
+        while (preguntasMostradas.Contains(indicePregunta));  // Asegurarse de que la pregunta no se repita
+
+        preguntasMostradas.Add(indicePregunta);  // Marcar la pregunta como mostrada
+        preguntaActual = preguntas[indicePregunta];  // Obtener la pregunta actual
 
         // Mostrar la pregunta y las opciones en el Canvas
         preguntaTexto.text = preguntaActual.pregunta;
+        Debug.Log("Mostrando pregunta: " + preguntaActual.pregunta);
+
         for (int i = 0; i < opcionesTexto.Length; i++)
         {
             opcionesTexto[i].text = preguntaActual.opciones[i];
+            Debug.Log("Opción " + i + ": " + preguntaActual.opciones[i]);
         }
     }
 
     // Función para verificar la respuesta seleccionada
     public void SeleccionarRespuesta(int indiceOpcion)
     {
+        Debug.Log("Seleccionaste la opción " + indiceOpcion);
+
         if (indiceOpcion == preguntaActual.indiceCorrecto)
         {
             // Si es correcta, pasa a la siguiente pregunta
