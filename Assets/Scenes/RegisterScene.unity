@@ -287,13 +287,13 @@ RectTransform:
   m_Children:
   - {fileID: 1868707807}
   - {fileID: 794476630}
-  - {fileID: 1318512672}
   - {fileID: 1417328230}
+  - {fileID: 1318512672}
   m_Father: {fileID: 874973835}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00091049424}
+  m_AnchoredPosition: {x: 0, y: -0.0005353982}
   m_SizeDelta: {x: 0, y: 3808.8667}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &306299073
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1642233334}
   m_HandleRect: {fileID: 1642233333}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1192,10 +1192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c49e40b190392414ab3008bb81885ce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emailInput: {fileID: 824155188}
-  passwordInput: {fileID: 581744373}
-  nameInput: {fileID: 532142716}
-  responseText: {fileID: 1900318994}
+  emailInput: {fileID: 532142716}
+  passwordInput: {fileID: 824155188}
+  responseText: {fileID: 8026176}
   registerButton: {fileID: 1318512673}
 --- !u!4 &677241111
 Transform:
@@ -2072,7 +2071,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1318512674}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1318512674
 MonoBehaviour:
   m_ObjectHideFlags: 0

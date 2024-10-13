@@ -4,11 +4,11 @@ using System.Collections;
 
 public class GameProgress : MonoBehaviour
 {
-    private string apiUrlLevel = "https://tu-supabase-url.supabase.co/rest/v1/level_progress";
-    private string apiUrlCards = "https://tu-supabase-url.supabase.co/rest/v1/collected_cards";
-    private string apiUrlLanguage = "https://tu-supabase-url.supabase.co/rest/v1/user_settings";
+    private string baseUrl = "https://supabase.com/dashboard/project/vwlkdjpcfcdiimmkqxrx/api?resource=users"; // Reemplaza <tu-project-id> con tu ID real
+    private string apiUrlLevel = "https://vwlkdjpcfcdiimmkqxrx.supabase.co/rest/v1/levels_progress";
+    private string apiUrlCards = "https://vwlkdjpcfcdiimmkqxrx.supabase.co/rest/v1/collected_cards";
+    private string apiUrlLanguage = "https://vwlkdjpcfcdiimmkqxrx.supabase.co/rest/v1/user_settings";
     private string apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ3bGtkanBjZmNkaWltbWtxeHJ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgyNjgxNzMsImV4cCI6MjA0Mzg0NDE3M30.rEzatvw8q--aFLcx86SQsSlYsZHYVQTUPkVh2VJxWCU";
-
     // Método para guardar el progreso del nivel
     public void SaveLevelProgress(int currentLevel, bool completed)
     {
@@ -16,9 +16,9 @@ public class GameProgress : MonoBehaviour
     }
 
     // Método para guardar cartas recolectadas
-    public void SaveCollectedCard(string cardId)
+    public void SaveCollectedCard(int cardIndex, int currentLevel)
     {
-        StartCoroutine(EnviarCarta(cardId));
+        StartCoroutine(EnviarCarta(cardIndex, currentLevel));
     }
 
     // Método para guardar la selección de idioma
@@ -31,7 +31,14 @@ public class GameProgress : MonoBehaviour
     IEnumerator EnviarProgreso(int currentLevel, bool completed)
     {
         string userId = PlayerPrefs.GetString("UserId");
+        if (string.IsNullOrEmpty(userId))
+        {
+            Debug.LogError("UserId no encontrado en PlayerPrefs.");
+            yield break;
+        }
+
         string jsonData = $"{{\"user_id\":\"{userId}\",\"current_level\":{currentLevel},\"completed\":{completed.ToString().ToLower()}}}";
+        Debug.Log("JSON enviado: " + jsonData); // Debug JSON antes de enviarlo
 
         UnityWebRequest request = new UnityWebRequest(apiUrlLevel, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
@@ -44,21 +51,28 @@ public class GameProgress : MonoBehaviour
 
         if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
         {
-            Debug.LogError("Error al guardar progreso: " + request.error);
+            Debug.LogError("Error al guardar progreso: " + request.error + " - Respuesta: " + request.downloadHandler.text);
         }
         else
         {
-            Debug.Log("Progreso guardado correctamente.");
+            Debug.Log("Progreso guardado correctamente. Respuesta: " + request.downloadHandler.text);
         }
+
     }
 
-    // Coroutine para guardar cartas recolectadas
-    IEnumerator EnviarCarta(string cardId)
+    // Coroutine para guardar cartas recolectadas con nivel
+    IEnumerator EnviarCarta(int cardIndex, int currentLevel)
     {
         string userId = PlayerPrefs.GetString("UserId");
-        string jsonData = $"{{\"user_id\":\"{userId}\",\"card_id\":\"{cardId}\"}}";
+        if (string.IsNullOrEmpty(userId))
+        {
+            Debug.LogError("UserId no encontrado en PlayerPrefs.");
+            yield break;
+        }
 
-        UnityWebRequest request = new UnityWebRequest(apiUrlCards, "POST");
+        string jsonData = $"{{\"user_id\":\"{userId}\",\"card_index\":{cardIndex},\"level\":{currentLevel}}}";
+
+        UnityWebRequest request = new UnityWebRequest(apiUrlCards, "PATCH");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
         request.uploadHandler = new UploadHandlerRaw(bodyRaw);
         request.downloadHandler = new DownloadHandlerBuffer();
@@ -81,6 +95,12 @@ public class GameProgress : MonoBehaviour
     IEnumerator EnviarIdioma(string language)
     {
         string userId = PlayerPrefs.GetString("UserId");
+        if (string.IsNullOrEmpty(userId))
+        {
+            Debug.LogError("UserId no encontrado en PlayerPrefs.");
+            yield break;
+        }
+
         string jsonData = $"{{\"user_id\":\"{userId}\",\"language\":\"{language}\"}}";
 
         UnityWebRequest request = new UnityWebRequest(apiUrlLanguage, "POST");

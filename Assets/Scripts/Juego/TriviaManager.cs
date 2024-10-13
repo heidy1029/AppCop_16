@@ -184,8 +184,55 @@ public class TriviaManager : MonoBehaviour
             // Mostrar mensaje de respuesta incorrecta
         }
     }
-
     private void ShowBirdInfo()
+    {
+        SetModelChecked(currentTriviaId);
+
+        if (data == null)
+        {
+            Debug.LogError("Referencia a Data no asignada.");
+            return;
+        }
+
+        BirdInfo currentBirdInfo = data.GetBirdInfo(EventController.Instance.GetCurrentBirdType(), currentTriviaId);
+
+        if (currentBirdInfo != null)
+        {
+            // Actualizar la información del ave en el canvas
+            birdInfoCanvas.UpdateBirdInfo(
+                currentTriviaId,
+                currentBirdInfo.BirdName,
+                currentBirdInfo.Species,
+                currentBirdInfo.Description,
+                currentBirdInfo.MainImage, // Imagen principal
+                currentBirdInfo.Habitat,
+                currentBirdInfo.Diet,
+                currentBirdInfo.Reproduction,
+                currentBirdInfo.Size,
+                currentBirdInfo.FunFact1,
+                currentBirdInfo.FunFact2,
+                currentBirdInfo.Location,
+                currentBirdInfo.Bibliography
+            );
+
+            birdInfoCanvas.gameObject.SetActive(true);
+            triviaCanvas.SetActive(false);
+
+            // Obtener el índice de la carta (currentTriviaId) y el nivel actual
+            int cardIndex = currentTriviaId;
+            int currentLevel = EventController.Instance.GetCurrentLevel();
+
+            // Guardar la imagen en la colección con el índice y el nivel
+            collectionBook.AddImageToCollection(currentBirdInfo.MainImage, cardIndex, currentLevel);
+        }
+        else
+        {
+            Debug.LogError($"No se encontró información para el modelIndex: {currentTriviaId} en el birdTypeId {EventController.Instance.GetCurrentBirdType()}");
+        }
+    }
+
+
+    /*private void ShowBirdInfo()
     {
         SetModelChecked(currentTriviaId);
 
@@ -225,7 +272,7 @@ public class TriviaManager : MonoBehaviour
         {
             Debug.LogError($"No se encontró información para el modelIndex: {currentTriviaId} en el birdTypeId {EventController.Instance.GetCurrentBirdType()}");
         }
-    }
+    }*/
 
 
     public void SetTriviaAnswered(int triviaId)

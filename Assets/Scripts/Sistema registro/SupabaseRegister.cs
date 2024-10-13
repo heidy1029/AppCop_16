@@ -16,7 +16,7 @@ public class SupabaseRegister : MonoBehaviour
     // Referencias a los campos de entrada de correo, contraseña y nombre
     public TMP_InputField emailInput;
     public TMP_InputField passwordInput;
-    public TMP_InputField nameInput;
+    // public TMP_InputField nameInput;
 
     // Referencia al texto para mostrar la respuesta
     public TextMeshProUGUI responseText;
@@ -40,15 +40,17 @@ public class SupabaseRegister : MonoBehaviour
     {
         string email = emailInput.text;
         string password = passwordInput.text;
-        string name = nameInput.text;
+        // string name = nameInput.text;
 
-        if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(name))
+
+        // if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(name))
+        if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
         {
             responseText.text = "Por favor, llena todos los campos.";
             yield break;
         }
-
-        string jsonData = $"{{\"email\":\"{email}\",\"password\":\"{password}\",\"name\":\"{name}\"}}";
+        string jsonData = $"{{\"email\":\"{email}\",\"password\":\"{password}\"}}";
+        //string jsonData = $"{{\"email\":\"{email}\",\"password\":\"{password}\",\"name\":\"{name}\"}}";
 
         UnityWebRequest request = new UnityWebRequest(apiUrl, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);

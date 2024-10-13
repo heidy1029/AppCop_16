@@ -12,7 +12,7 @@
                 "A) Exclusivamente insectívora",
                 "B) En las copas de los árboles en flor, donde los machos defienden los territorios florales",
                 "C) Principalmente herbívora, pero también omnívora",
-                "D) Todas las anteriores"
+                "D) Especializada en la captura de peces"
               ],
               "correctAnswerIndex": 2
             },
@@ -22,20 +22,21 @@
                 "A) Para coordinar los movimientos y mantener la formación en V",
                 "B) Para atraer a sus presas",
                 "C) Para comunicarse con otras especies",
-                "D) Todas las anteriores"
+                "D) Para disuadir a los depredadores"
               ],
               "correctAnswerIndex": 0
             },
             {
-              "questionText": "¿Qué adaptación tiene el pico de los patos dentro de las aves Anseriformes? ",
+              "questionText": "¿Qué adaptación tiene el pico de los patos dentro de las aves Anseriformes?",
               "answers": [
                 "A) Adaptado para filtrar pequeños organismos del agua",
                 "B) Adaptado para capturar peces",
                 "C) Adaptado para perforar insectos",
-                "D) Todas las anteriores"
+                "D) Adaptado para abrir semillas"
               ],
               "correctAnswerIndex": 0
             }
+            
           ],
           "birdInfo": {
             "birdName": "Sirirí Pamba ",
@@ -516,7 +517,7 @@
                 "A) Cuerpos pesados y alas cortas",
                 "B) Cuerpos aerodinámicos y alas largas y estrechas",
                 "C) Patas largas para caminar",
-                "D) Todas las anteriores"
+                "D) Cuerpos aerodinámicos con capacidad de vuelo a gran altitud."
               ],
               "correctAnswerIndex": 1
             },
@@ -526,7 +527,7 @@
                 "A) Solo son responsables de la dispersión de semillas",
                 "B) Principalmente se alimentan de plantas",
                 "C) Contribuyen al control de insectos y la dispersión de semillas y polen",
-                "D) Todas las anteriores"
+                "D) Ayudan a mantener el equilibrio ecológico apoyando diversos procesos naturales."
               ],
               "correctAnswerIndex": 2
             },
@@ -536,7 +537,7 @@
                 "A) La pérdida de hábitat debido a la expansión urbana ",
                 "B) La falta de alimento en áreas urbanas",
                 "C) La competencia con otras especies de aves",
-                "D) Todas las anteriores"
+                "D) La contaminación urbana que afecta la calidad del aire y la salud de las aves."
               ],
               "correctAnswerIndex": 0
             }
@@ -566,7 +567,7 @@
                 "A) Establecer reservas naturales y parques nacionales ",
                 "B) Expandir áreas urbanas para el desarrollo",
                 "C) Reducir la cantidad de vegetación en áreas urbanas",
-                "D) Todas las anteriores"
+                "D) Limitar el desarrollo en áreas críticas para la fauna."
               ],
               "correctAnswerIndex": 0
             },
@@ -575,8 +576,8 @@
               "answers": [
                 "A) Un área que conecta diferentes ecosistemas, permitiendo el desplazamiento seguro de aves",
                 "B) Un espacio verde en la ciudad para paseos",
-                "C)  Un área de cultivo agrícola",
-                "D) Todas las anteriores"
+                "C) Un área de cultivo agrícola",
+                "D) Una infraestructura que facilita el paso seguro de animales entre hábitats fragmentados"
               ],
               "correctAnswerIndex": 0
             },
@@ -586,7 +587,7 @@
                 "A) Promoviendo la caza regulada",
                 "B) Incrementando el uso de pesticidas",
                 "C) Enseñando a las personas la importancia de estas aves y fomentando su participación en la conservación",
-                "D) Todas las anteriores"
+                "D) D) Fomentando acciones de conservación y sensibilización en la comunidad."
               ],
               "correctAnswerIndex": 1
             }
@@ -616,7 +617,7 @@
                 "A) Construir más edificios altos",
                 "B) Reducir el tamaño de los edificios",
                 "C) Usar vidrios tratados para evitar reflejos ",
-                "D) Todas las anteriores"
+                "D) Implementar diseños arquitectónicos que reduzcan el impacto visual en las aves."
               ],
               "correctAnswerIndex": 2
             },
@@ -626,7 +627,7 @@
                 "A)  Para aumentar la caza deportiva",
                 "B) Para promover la expansión urbana",
                 "C) Para identificar cambios en sus patrones de comportamiento, reproducción y migración",
-                "D) Todas las anteriores"
+                "D) Para adaptar estrategias de conservación y gestionar su hábitat de manera más efectiva."
               ],
               "correctAnswerIndex": 2
             },
@@ -653,7 +654,7 @@
             "funFact1": "Tiene una estructura social única, ya que vive en grupos familiares y practica la crianza comunal, donde varios adultos cuidan a las crías de todo el grupo.",
             "funFact2": "Su nombre ani proviene del sonido característico de su llamada, un canto repetitivo y áspero que emite mientras se desplaza en su hábitat o se comunica con su grupo.",
             "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro-Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
-            "bibliography": "Control de insectos: Al alimentarse de una amplia variedad de insectos, como saltamontes y grillos, ayuda a mantener bajo control las poblaciones de invertebrados, lo que es clave para el equilibrio del ecosistema.Dispersión de semillas: Aunque su dieta es principalmente insectívora, también consume frutos, contribuyendo a la dispersión de semillas y ayudando en la regeneración de plantas en su hábitat."
+            "bibliography": "Control de insectos: Al alimentarse de una amplia variedad de insectos, como saltamontes y grillos, ayuda a mantener bajo control las poblaciones de invertebrados, lo que es clave para el equilibrio del ecosistema.Dispersión de semillas: Aunque su dieta es principalmente insectívora, también consume frutos, contribuyendo a la dispersión de semillas y ayudando en la regeneración de plantas en su hábitat."
           }
         },
         {
@@ -1201,7 +1202,7 @@
           ],
           "birdInfo": {
             "birdName": "Buitre Negro",
-            "species": "Geranoaetus albicaudatus",
+            "species": "Aegypius monachus",
             "conservacion":"LC preocupación menor",
             "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
             "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
@@ -1265,7 +1266,7 @@
           }
         },
         {
-          "modelIndex": 6,
+          "modelIndex": 7,
           "questions": [
             {"questionText": "¿Cómo es la visión de los Falconiformes en comparación con los humanos? ",
               "answers": [
@@ -1299,7 +1300,7 @@
           ],
           "birdInfo": {
             "birdName": "Caracara crestado",
-            "species": "Rostrhamus sociabilis",
+            "species": "caraca cheriway",
             "conservacion":"LC preocupación menor",
             "description": "Esta ave rapaz de tamaño mediano, con plumaje blanco y negro y patas y cara amarillas, es fácil de identificar cuando se posa en lugares altos. Se distingue por su vuelo bajo y aleteos poderosos. Las hembras son ligeramente más grandes, y destacan su larga cola y cuello extendido. Aunque planea raramente, las corrientes térmicas pueden elevarla rápidamente.",
             "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
@@ -1431,9 +1432,109 @@
             "location": "Ecohotel El Castillo",
             "bibliography": "desempeña un papel importante en su ecosistema como dispersora de semillas. Al alimentarse de frutas y bayas, contribuye a la propagación de diversas plantas, lo que ayuda a la regeneración y mantenimiento de la vegetación en los bosques y áreas semiabiertas donde habita. También sirve como presa para varios depredadores, integrándose en la cadena alimentaria y contribuyendo al equilibrio ecológico."
           }
+        },
+          {
+            "modelIndex": 2,
+            "questions": [
+          {
+            "questionText": "¿Cuál es el principal componente de la dieta de las aves Galliformes?",
+            "answers": [
+              "A) Insectos",
+              "B) Semillas y granos",
+              "C) Pequeños mamíferos",
+              "D) Frutas y bayas"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "questionText": "¿Dónde prefieren vivir las codornices y las perdices?",
+            "answers": [
+              "A) En los bosques densos",
+              "B) En zonas montañosas",
+              "C) En praderas y pastizales",
+              "D) En áreas costeras"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "questionText": "¿Cómo benefician los Galliformes a los ecosistemas agrícolas?",
+            "answers": [
+              "A) Al consumir insectos y malezas",
+              "B) Al destruir cultivos",
+              "C) Al alejar a otros animales",
+              "D) Al dispersar semillas"
+            ],
+            "correctAnswerIndex": 0
+          }
+        ],
+        "birdInfo": {
+          "birdName": "Pava maraquera",
+          "species": "Columbina talpacoti",
+          "conservacion":"LC preocupación menor",
+          "description": "Esta pava de tamaño pequeño con un plumaje distintivo. Su cuerpo combina un vientre castaño brillante, partes superiores oscuras, cuello y cabeza marrones, junto con piel facial azul pálido y ojos rojos. Es una especie sigilosa y discreta, que tiende a esconderse rápidamente cuando se siente perturbada, y generalmente es silenciosa, lo que facilita que pase desapercibida.",
+          "mainImage": "Images/Interfaz/Cartas/Gallineceas/Pava",
+          "habitat": "habita principalmente en bosques húmedos subtropicales, pero también en áreas templadas bajas, bosques secundarios y plantaciones de café, a veces cerca de carreteras.",
+          "diet": "Su dieta se basa principalmente en frutas, complementada con semillas, flores, hojas e invertebrados. Se alimenta al amanecer o al atardecer, vive en parejas o pequeños grupos y es arisca, pasando la mayor parte del tiempo en los árboles. Rara vez se encuentra en el suelo.",
+          "reproduction": "La hembra pone de 2 a 3 huevos y los incuba sin ayuda del macho. Construyen nidos alargados y poco profundos en árboles o plantas epífitas, usando hojas y enredaderas. Hacen movimientos con el cuello para mover el nido, posiblemente para rodar los huevos y limpiar el nido.",
+          "size": "Mide entre 50.0 y 65.0 cm de longitud.",
+          "funFact1": "La pava negra es muy esquiva y difícil de observar, ya que pasa la mayor parte del tiempo oculta entre la vegetación densa del dosel de los bosques.",
+          "funFact2": "Esta ave realiza un curioso movimiento de cabeza y cuello en su nido, que se cree ayuda a rodar los huevos y fortalecer la estructura del nido.",
+          "location": "Ecohotel El Castillo",
+          "bibliography": "-Dispersión de semillas: Al alimentarse principalmente de frutas, esta especie juega un papel clave en la dispersión de semillas, ayudando a regenerar bosques y mantener la biodiversidad vegetal. -Control de insectos: Aunque su dieta es mayormente frugívora, también consume invertebrados, lo que contribuye al control de las poblaciones de insectos dentro de su ecosistema."
         }
-  ]
-},
+      },
+      {
+      "modelIndex": 3,
+      "questions": [
+          {
+            "questionText": "¿Cuál es la función de las alas largas y musculosas en las aves del orden Columbiformes?",
+            "answers": [
+              "A) Les permiten realizar vuelos en círculos.",
+              "B) Son útiles para construir sus nidos.",
+              "C) Les ayudan a realizar exhibiciones de vuelo durante el cortejo.",
+              "D) Les permiten realizar vuelos rápidos y directos para evadir depredadores."
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "questionText": "¿En qué tipo de entorno han prosperado algunas especies de Columbiformes gracias a la abundancia de alimentos y la ausencia de depredadores?",
+            "answers": [
+              "A) Selvas tropicales",
+              "B) Desiertos",
+              "C) Entornos urbanos",
+              "D) Zonas montañosas"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "questionText": "¿Cómo son generalmente los nidos de las palomas y tórtolas?",
+            "answers": [
+              "A) Complejos y hechos de materiales diversos",
+              "B) Hechos en cavidades de árboles con hojas",
+              "C) Construidos con barro y piedras",
+              "D) Rudimentarios y construidos con pocas ramitas"
+            ],
+            "correctAnswerIndex": 3
+          }
+        ],
+        "birdInfo": {
+            "birdName": "Paloma morada",
+            "species": "Patagioenas cayennensis",
+            "conservacion":"LC preocupación menor",
+            "description": "Es un ave mediana, de plumaje marrón violáceo con áreas gris pálido, brillo verde en el cuello, pico negro y patas rojas. Se agrupa en grandes cantidades cuando hay abundante alimento.",
+            "mainImage": "Images/Interfaz/Cartas/Gallineceas/Pava",
+            "habitat": "Habita en bordes de bosques, áreas deforestadas, márgenes de lagos, ríos y pantanos de manglares. Prefiere áreas con vegetación abundante y suele estar en lo alto de los árboles, descendiendo al suelo solo para beber.",
+            "diet": "La paloma ventriblanca es frugívora pequeñas bayas negras también consume arena, semillas de pasto y otras semillas. Con frecuencia se le encuentra posada en árboles en fruto. ",
+            "reproduction": "Sus nidos son pequeños y frágiles, hechos de ramitas y ubicados en árboles o enredaderas a varios metros de altura, hasta 15 m. Ponen un solo huevo blanco por nidada.",
+            "size": "Mide entre 29.0 y 34.0 cm de longitud.",
+            "funFact1": "-La paloma de vientre claro se agrupa en grandes cantidades alrededor de recursos alimentarios abundantes, lo que facilita la observación de esta especie en su hábitat natural.",
+            "funFact2": "-Su nido es sorprendentemente frágil y está hecho de ramitas delgadas, lo que contrasta con la altura a la que suele estar, hasta 15 metros sobre el suelo.",
+            "location": "Ecohotel El Castillo",
+            "bibliography": "-Dispersión de semillas: Estas aves se alimentan de frutas y semillas, ayudando a la dispersión de plantas en los bosques donde habitan. Al consumir las frutas y excretar las semillas, facilitan la regeneración de la vegetación en áreas deforestadas o degradadas.-Control de la vegetación: Al consumir gran cantidad de semillas y frutos, contribuyen al control del crecimiento de algunas plantas, manteniendo el equilibrio en los ecosistemas donde viven."
+          }
+      }
+    ]
+  },
 
 
 
@@ -2147,7 +2248,7 @@
   ],
   "birdInfo": {
     "birdName": "Turpial",
-    "species": "Chlorophanes spiza",
+    "species": "Icterus ogularis",
     "conservacion":"LC preocupación menor",
     "description": "Deriva su nombre común de la gran cantidad de amarillo en su plumaje con su negro restringido a la cola, un babero amarillo estrecho y las alas.",
     "mainImage": "Images/Interfaz/Cartas/Cantoras/turpial",
@@ -2324,58 +2425,7 @@
             "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
             "bibliography": "Nyctibius griseus, juega un papel ecológico crucial en su ecosistema. Como depredador nocturno de insectos, contribuye al control de poblaciones de plagas, ayudando a mantener el equilibrio en la cadena alimentaria. Además, al consumir insectos que podrían dañar la vegetación, ayuda indirectamente a proteger la flora local. Al ser parte de la red trófica, también sirve como presa para depredadores más grandes, lo que lo convierte en un componente importante para la biodiversidad del ecosistema en el que vive."
       }
-    },
-    {
-      "modelIndex": 1,
-      "questions": [
-        {
-          "questionText": " ¿Cuál es una estrategia para proteger los hábitats de las aves de vuelo intenso?",
-          "answers": [
-            "A) Establecer reservas naturales y parques nacionales ",
-            "B) Expandir áreas urbanas para el desarrollo",
-            "C) Reducir la cantidad de vegetación en áreas urbanas",
-            "D) Todas las anteriores"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "questionText": "Qué es un corredor biológico y por qué es importante para las aves de vuelo intenso?",
-          "answers": [
-            "A) Un área que conecta diferentes ecosistemas, permitiendo el desplazamiento seguro de aves",
-            "B) Un espacio verde en la ciudad para paseos",
-            "C)  Un área de cultivo agrícola",
-            "D) Todas las anteriores"
-          ],
-          "correctAnswerIndex": 0
-        },
-        {
-          "questionText": "¿Cómo puede la educación ambiental ayudar en la conservación de las aves de vuelo intenso?",
-          "answers": [
-            "A) Promoviendo la caza regulada",
-            "B) Incrementando el uso de pesticidas",
-            "C) Enseñando a las personas la importancia de estas aves y fomentando su participación en la conservación",
-            "D) Todas las anteriores"
-          ],
-          "correctAnswerIndex": 1
-        }
-      ],
-      "birdInfo": {
-        "birdName": "Carpintero Real ",
-        "species": "Dryocopus lineatus",
-        "conservacion":"LC preocupación menor",
-        "description": "El pájaro carpintero rayado es un pájaro carpintero grande y crestado, es de color negro en general, con una cresta roja brillante, barras blancas en las partes inferiores y una línea blanca que se extiende por el cuello. Los machos tienen rojo en la mejilla, mientras que las hembras no",
-        "mainImage": "Images/Interfaz/Cartas/Extrañas/Real",
-        "habitat": "El pájaro carpintero rayado habita en bosques y selvas húmedas, de transición y moderadamente secas. Generalmente, prefiere áreas relativamente abiertas como bordes de bosques, bosques secundarios y pastizales; no se encuentra en el interior de bosques húmedos de tierras bajas, pero ocupa los bordes de bosques y los bosques ribereños. En áreas más secas, el pájaro carpintero rayado habita en bosques de pinos y galerías, así como en matorrales espinosos",
-        "diet": "La dieta se compone principalmente de escarabajos y sus larvas, hormigas y sus larvas, orugas y ortópteros, frecuentemente recolectados de Cecropia árboles. Aunque es principalmente insectívoro. Suele encontrarse solitario o en parejas. En las ciudades, aprovecha las lámparas para picotearlas, amplificando el sonido de su tamborileo, y anunciándole a otros carpinteros su presencia y su territorio",
-        "reproduction": "El tamaño de la nidada varía de 2 a 4 huevos. Los machos y las hembras toman turnos de 2 a 3 horas incubando durante el día, pero solo los machos incuban por la noche. Los polluelos son alimentados aproximadamente una vez por hora por ambos padres mediante regurgitación; la hembra realiza la mayor parte de la alimentación mientras el macho cuida el nido",
-        "size": "Mide entre 37.7 y 41.8 cm de longitud",
-        "funFact1": "Se comunican a través de vocalizaciones, tambores y golpes, especialmente durante la defensa del territorio",
-        "funFact2": "Ambos sexos excavan los nidos, que tienen unos 45 cm de profundidad, 13 x 18 cm de ancho y una entrada de unos 9 cm de diámetro",
-        "location": "Universidad Javeriana de Cali",
-        "bibliography": "Juega un papel esencial en su ecosistema al controlar poblaciones de insectos que se encuentran bajo la corteza de los árboles, especialmente larvas de escarabajos y otros xilófagos, lo cual ayuda a mantener la salud de los bosques. Además, al perforar troncos para alimentarse o anidar, crea cavidades que luego pueden ser usadas por otras aves, mamíferos pequeños y reptiles, aumentando así la disponibilidad de refugios y favoreciendo la biodiversidad en su hábitat"
-      }
     }
- 
    
 ]
 }

@@ -7,41 +7,42 @@
           "modelIndex": 0,
           "questions": [
             {
-          "questionText": "What type of diet do birds from the order Anseriformes typically have?",
-            "answers": [
-              "A) Exclusively insectivorous",
-              "B) In the tops of flowering trees, where males defend floral territories",
-              "C) Mainly herbivorous, but also omnivorous",
-              "D) All of the above"
-            ],
-            "correctAnswerIndex": 2
-          },
-          {
-            "questionText": "How do geese use their call system during migrations?",
-            "answers": [
-              "A) To coordinate movements and maintain V-formation",
-              "B) To attract their prey",
-              "C) To communicate with other species",
-              "D) All of the above"
-            ],
-            "correctAnswerIndex": 0
-          },
-          {
-            "questionText": "What adaptation does the bill of ducks have within the Anseriformes?",
-            "answers": [
-              "A) Adapted to filter small organisms from water",
-              "B) Adapted to catch fish",
-              "C) Adapted to pierce insects",
-              "D) All of the above"
-            ],
-            "correctAnswerIndex": 0
-          }
+              "questionText": "What type of diet do birds of the Anseriformes order usually have?",
+              "answers": [
+                "A) Exclusively insectivorous",
+                "B) In the treetops in bloom, where males defend floral territories",
+                "C) Primarily herbivorous, but also omnivorous",
+                "D) Specialized in catching fish"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "How do geese use their calling system during migrations?",
+              "answers": [
+                "A) To coordinate movements and maintain the V formation",
+                "B) To attract their prey",
+                "C) To communicate with other species",
+                "D) To deter predators"
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "What adaptation do ducks' beaks have within Anseriformes birds?",
+              "answers": [
+                "A) Adapted to filter small organisms from the water",
+                "B) Adapted to catch fish",
+                "C) Adapted to pierce insects",
+                "D) Adapted to open seeds"
+              ],
+              "correctAnswerIndex": 0
+            }
+            
           ],
           "birdInfo": {
             "birdName": "White-faced Whistling Duck",
             "species": "Dendrocygna viduata",
             "description": "This is an aquatic bird, most notable for its white head contrasting with its brown and black body.",
-            "mainImage": "Images/Interface/Cards/Aquatic/whiteFacedWhistlingDuck",
+            "mainImage": "Images/Interface/Cards/Aquatic/pambaD",
             "habitat": "Inhabits wetlands, lagoons, and freshwater areas in South America, the Caribbean, and Africa.",
             "diet": "Its diet includes aquatic plants, seeds, small invertebrates, and crustaceans.",
             "reproduction": "They build nests in vegetation near water or in low trees. They lay between 6 and 12 eggs, and both parents take part in incubation and care of the chicks, which are precocial and can swim shortly after hatching.",
@@ -90,7 +91,7 @@
               "birdName": "Black-bellied Whistling Duck",
               "species": "Dendrocygna autumnalis",
               "description": "This aquatic bird is distinguished by its reddish-brown plumage, bright red bill, and pink legs. Ducklings have unique yellow down with black markings and a gray to dark gray bill and legs.",
-              "mainImage": "Images/Interface/Cards/Aquatic/blackBelliedWhistlingDuck",
+              "mainImage": "Images/Interface/Cards/Aquatic/duck",
               "habitat": "It inhabits wetlands, lagoons, and bodies of water from the southern United States to Argentina.",
               "diet": "Its diet includes aquatic plants, seeds, and small invertebrates, making it an important contributor to controlling aquatic vegetation and seed dispersal in its environment.",
               "reproduction": "They nest in trees or on the ground near water bodies, laying between 10 and 16 eggs. Both parents care for the chicks, which can swim and feed shortly after hatching.",
@@ -139,7 +140,7 @@
               "birdName": "Torrent Duck",
               "species": "Merganetta armata",
               "description": "This duck is perfectly adapted to living in fast-flowing rivers, using its webbed feet and diving ability to swim against currents. It has striking plumage, with brightly colored males and more subdued females.",
-              "mainImage": "Images/Interface/Cards/Aquatic/torrentDuck",
+              "mainImage": "Images/Interface/Cards/Aquatic/torrent",
               "habitat": "In South America, in open areas such as grasslands, agricultural fields, river margins, and even urban areas. It adapts well to a variety of ecosystems, from wetlands to semi-arid areas, though it prefers areas near water.",
               "diet": "Insectivorous, consuming insects, worms, snails, and small invertebrates found in soil or wet areas. This diet helps maintain balance in insect populations in its habitats.",
               "reproduction": "They build nests on the ground, often in open terrain. They usually lay 3 to 4 eggs, which are camouflaged to avoid predation. Both the male and female aggressively defend the nest, even attacking intruders to protect their young.",
@@ -188,7 +189,7 @@
               "birdName": "Southern Lapwing",
               "species": "Vanellus chilensis",
               "description": "Recognized for its distinctive grayish plumage, black chest, and a pair of spurs on its wings, which it uses as a defense mechanism. Its sharp and repetitive call is also one of its distinctive signals, especially in dangerous situations.",
-              "mainImage": "Images/Interfaz/Cartas/Acuaticas/Tero",
+              "mainImage": "Images/Interfaz/Cards/Aquatic/tero2",
               "habitat": "Inhabits South America, mainly in open areas such as grasslands, agricultural fields, water body edges, and even urban areas. It adapts well to a variety of ecosystems, from wet areas to semi-arid zones, though it prefers areas close to water.",
               "diet": "Feeds primarily on aquatic invertebrates such as insect larvae and small crustaceans, making it an important regulator of these ecosystems.",
               "reproduction": "They build their nests on the ground, often in open terrain. They usually lay 3 to 4 eggs, which are camouflaged to avoid predation. Both the male and female aggressively protect the nest, attacking intruders to defend their offspring.",
@@ -238,7 +239,7 @@
               "species": "Butorides striata",
               "conservation": "LC Least Concern",
               "description": "Often found foraging alone in dense vegetation along bodies of water. Butorides striata breeds in habitats near water, facilitating food gathering for its chicks. During the breeding season, they form monogamous pairs that dissolve at the end of the period. Both the male and female participate in incubation and chick care, displaying biparental care.",
-              "mainImage": "Images/Interfaz/Cartas/Acuaticas/GarzitaAzulada",
+              "mainImage": "Images/Interfaz/Cards/Aquatic/heron",
               "habitat": "Inhabits freshwater and saltwater marshes from eastern Panama to northern Argentina. It is solitary and perches in dense vegetation near streams, rivers, lakes, and estuaries. Also found in marshes, tidal zones, exposed reefs, dry lands, and wetlands like agricultural fields, rice paddies, and flooded pastures.",
               "diet": "Uses a variety of foraging techniques to catch prey such as fish, amphibians, insects, and crustaceans.",
               "reproduction": "A small heron with solitary habits. It breeds mainly in areas near water bodies, such as mangroves, rivers, or lagoons. These birds build nests in trees or shrubs using branches and other plant materials. Females typically lay 2 to 5 eggs, blue-green in color. Both parents share incubation and chick care until they are independent.",
@@ -288,7 +289,7 @@
               "species": "Phimosus infuscatus",
               "conservation": "LC Least Concern",
               "description": "It is an agile and fast bird of prey with dark gray plumage and a black mask on its head. It inhabits savannas, grasslands, and open forests. It feeds on small birds, mammals, and insects, hunting in flight or on the ground. Known for hunting in groups and using abandoned nests of other birds as it does not build its own.",
-              "mainImage": "Images/Interfaz/Cartas/Acuaticas/Coquito",
+              "mainImage": "Images/Interfaz/Cards/Aquatic/ibis",
               "habitat": "Found in South America, mainly in open areas such as wet grasslands, savannas, swamps, rice fields, and the edges of lagoons, ponds, and rivers; also inhabits forested swamps and streams. Usually near sea level. In urban areas, it is found along canals and ditches.",
               "diet": "Feeds in wet meadows and muddy areas, probing with its long, downward-curved beak. Its diet includes small beetles, crustaceans, worms, insects, and other small prey.",
               "reproduction": "Nests in groups, building nests in trees or shrubs, near water bodies. The nest is a platform of twigs and leaves. Females lay 3 to 5 eggs, which are incubated by both parents for about 21 days. Hatchlings are altricial, meaning they are born blind and featherless, depending entirely on their parents for food and protection.",
@@ -338,7 +339,7 @@
                 "species": "Bubulcus ibis",
                 "conservation": "LC Least Concern",
                 "description": "White bird with a yellow bill and gray or black legs. During breeding season, adults develop golden tones on the head, chest, and back. This species is known for its association with large mammals, such as cattle, on which it perches to feed. It plays an important role in controlling insects and parasites. By feeding on insects and parasites found on large mammals, it helps reduce populations of these organisms in agricultural and livestock ecosystems. Additionally, it acts as a seed disperser as it moves through different areas.",
-                "mainImage": "Images/Interface/Cards/Aquatics/CattleEgret",
+                "mainImage": "Images/Interface/Cards/Aquatic/cattle",
                 "habitat": "Its habitat includes open areas such as grasslands, agricultural fields, wetlands, and edges of water bodies. Originally native to Asia, Europe, and Africa, it has successfully colonized the Americas and other regions of the world. It prefers wet or semi-wet areas where it can find both water and the presence of large animals.",
                 "diet": "It is an insectivorous species, primarily feeding on grasshoppers, flies, crickets, ticks, and other small invertebrates found on the ground or on animals such as cattle. Its feeding strategy involves following large mammals to take advantage of the insects they stir up while moving.",
                 "reproduction": "They nest in colonies, often sharing trees with other heron species. They build nests of branches where the female lays 3 to 5 eggs. Both parents incubate the eggs and feed the chicks once they hatch, which takes about a month to fully develop.",
@@ -388,7 +389,7 @@
                 "species": "Phalacrocorax brasilianus",
                 "conservation": "LC Least Concern",
                 "description": "Phalacrocorax brasilianus, known as the biguá or neotropical cormorant, is a water bird from the Phalacrocoracidae family. It is distinguished by its shiny black plumage, hooked beak, and intense green eyes. It is often seen perched with its wings spread to dry them after diving for food.",
-                "mainImage": "Images/Interface/Cards/Aquatics/Cormorant",
+                "mainImage": "Images/Interface/Cards/Aquatic/neotropic",
                 "habitat": "It lives in freshwater and brackish bodies of water, such as lakes, rivers, swamps, and coastal areas from the southern United States to Argentina.",
                 "diet": "It primarily feeds on fish, which it hunts by diving underwater. It also eats crustaceans, mollusks, and small amphibians. It can dive several meters deep, using its hooked beak to catch prey.",
                 "reproduction": "It nests in colonies, usually in trees or shrubs near water. The female lays 3 to 5 eggs, which are incubated by both parents for 25 to 30 days. The chicks are fed through regurgitation until they are ready to fly.",
@@ -437,7 +438,7 @@
                 "birdName": "Fulvous Whistling Duck",
                 "species": "Dendrocygna bicolor",
                 "description": "It is a waterfowl species that inhabits wetlands, lagoons, and freshwater areas of the Americas and Africa. Its plumage is brown with lighter tones, and its long legs make it easy to move through water.",
-                "mainImage": "Images/Interface/Cards/Aquatics/FulvousWhistlingDuck",
+                "mainImage": "Images/Interface/Cards/Aquatic/duckBigcolor",
                 "habitat": "It primarily feeds on aquatic plants, seeds, and some invertebrates, contributing to ecosystem balance by dispersing seeds and controlling aquatic vegetation.",
                 "diet": "It helps maintain ecological balance and serves as an indicator of water quality in these ecosystems.",
                 "reproduction": "They nest on the ground or in vegetation near water, laying between 8 and 12 eggs. Both parents actively participate in incubation and care for the chicks.",
@@ -486,7 +487,7 @@
             "birdName": "Swamp Vulture",
             "species": "Anhima cornutai",
             "description": "It is a large and striking bird that inhabits tropical wetlands, distinguished by its peculiar bony horn on its head and the spines on its wings, which it uses as a defense. Its unique appearance and defensive behavior make it a fascinating and distinctive species in the habitats it occupies.",
-            "mainImage": "Images/Interfaz/Cartas/Acuaticas/BuitreCienaga",
+            "mainImage": "Images/Interfaz/Cards/Aquatic/cienaga",
             "habitat": "It mainly lives in wetland ecosystems and areas near bodies of water such as rivers, lakes, and swamps.",
             "diet": "It is herbivorous, feeding on aquatic plants, consuming leaves, stems, and shoots of plants that grow in or near water bodies where it lives, like grass and reeds. It also eats seeds from aquatic and terrestrial plants.",
             "reproduction": "They build their nests near the shores of wetlands. They lay between 2 and 6 eggs. The incubation period lasts approximately 42 to 46 days, and both parents take care of the eggs and chicks.",
@@ -514,7 +515,7 @@
                     "A) Heavy bodies and short wings",
                     "B) Aerodynamic bodies and long, narrow wings",
                     "C) Long legs for walking",
-                    "D) All of the above"
+                    "D) Streamlined bodies with high-altitude flight capabilities."
                   ],
                   "correctAnswerIndex": 1
                 },
@@ -524,7 +525,7 @@
                     "A) They are only responsible for seed dispersal",
                     "B) They primarily feed on plants",
                     "C) They contribute to insect control and the dispersal of seeds and pollen",
-                    "D) All of the above"
+                    "D) Helping maintain ecological balance by supporting various natural processes."
                   ],
                   "correctAnswerIndex": 2
                 },
@@ -534,7 +535,7 @@
                     "A) Habitat loss due to urban expansion",
                     "B) Lack of food in urban areas",
                     "C) Competition with other bird species",
-                    "D) All of the above"
+                    "D) Urban pollution affecting air quality and bird health."
                   ],
                   "correctAnswerIndex": 0
                 }
@@ -544,7 +545,7 @@
                 "species": "Eutoxeres aquila",
                 "conservacion": "LC least concern",
                 "description": "It is a medium-sized hummingbird with a unique pattern, many concentrate in flowering trees where they are aggressive and even territorial with each other. Both sexes fly for long periods, hovering and soaring far above streams and clearings, or launching from perches in the treetops; it collects foliage less frequently.",
-                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/ColibriNuquiBlanco",
+                "mainImage": "Images/Interfaz/Cards/flay/white",
                 "habitat": "It inhabits humid and tropical mountain forests from Costa Rica to northern Peru, at altitudes ranging from 400 to 1,500 meters above sea level. It prefers shaded and densely vegetated areas, such as the understory of cloud forests and montane forests, where it finds tubular flowers for nectar.",
                 "diet": "It feeds on nectar and small arthropods, visiting flowers from a variety of trees, bromeliads, shrubs, and heliconia.",
                 "reproduction": "The nest is a soft and shallow cup made of light-colored plant fluff and spider webs. The female incubates and lays 2 eggs.",
@@ -564,7 +565,7 @@
                     "A) Establishing nature reserves and national parks",
                     "B) Expanding urban areas for development",
                     "C) Reducing the amount of vegetation in urban areas",
-                    "D) All of the above"
+                    "D) Limiting development in critical wildlife areas"
                   ],
                   "correctAnswerIndex": 0
                 },
@@ -574,7 +575,7 @@
                     "A) An area that connects different ecosystems, allowing the safe movement of birds",
                     "B) A green space in the city for walking",
                     "C) An agricultural cultivation area",
-                    "D) All of the above"
+                    "D) An infrastructure that facilitates the safe passage of animals between fragmented habitats."
                   ],
                   "correctAnswerIndex": 0
                 },
@@ -584,7 +585,7 @@
                     "A) Promoting regulated hunting",
                     "B) Increasing the use of pesticides",
                     "C) Teaching people the importance of these birds and encouraging their participation in conservation",
-                    "D) All of the above"
+                    "D) Promoting conservation actions and community awareness."
                   ],
                   "correctAnswerIndex": 1
                 }
@@ -594,7 +595,7 @@
                 "species": "Crotophaga ani",
                 "conservacion": "LC least concern",
                 "description": "Distinguished by its all-black plumage, long tail, large beak, and distinctive call. During the breeding season, this ani lives in pairs or, more commonly, in larger groups of up to 17 individuals. It is best known for its communal breeding system, where several females often lay eggs and incubate them in the same nest.",
-                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/GarrapateroComún",
+                "mainImage": "Images/Interfaz/Cards/flay/ani",
                 "habitat": "Throughout its range, it occupies savannas, rural and suburban areas disturbed by humans, and secondary growth shrubs year-round. It is present near cow pastures, sugar cane fields, secondary moist forests, vegetation-rich fields, and roadsides.",
                 "diet": "They are mainly insectivorous, feeding on grasshoppers, caterpillars, and moths, but also on small frogs and lizards. Fruit is an important part of their diet during the dry season.",
                 "size": "It measures between 30 and 36 cm in length",
@@ -614,7 +615,7 @@
                     "A) Build more tall buildings",
                     "B) Reduce the size of buildings",
                     "C) Use treated glass to avoid reflections",
-                    "D) All of the above"
+                    "D) Implementing architectural designs that minimize visual impact on birds."
                   ],
                   "correctAnswerIndex": 2
                 },
@@ -624,7 +625,7 @@
                     "A) To increase sport hunting",
                     "B) To promote urban expansion",
                     "C) To identify changes in their behavior, reproduction, and migration patterns",
-                    "D) All of the above"
+                    "D) To adapt conservation strategies and manage their habitat more effectively."
                   ],
                   "correctAnswerIndex": 2
                 },
@@ -643,7 +644,7 @@
                 "birdName": "Greater Ani",
                 "species": "Dendrocygna autumnalis",
                 "description": "Known for its tawny-colored chest and agile flight.",
-                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/GarrapateroMayor",
+                "mainImage": "Images/Interfaz/Cards/flay/aniGrande",
                 "habitat": "Temperate forests and gardens",
                 "diet": "Its diet is varied, including aquatic plants, seeds, and small invertebrates, making it an important contributor to the control of aquatic vegetation and the dispersal of seeds in its environment.",
                 "reproduction": "Nests in trees or on the ground near bodies of water, laying between 10 and 16 eggs. Both parents care for the young, which are able to swim and feed shortly after hatching.",
@@ -693,7 +694,7 @@
                 "species": "Amazilia tzacatl",
                 "conservacion":"LC least concern",
                 "description": "It has a generally green body; the male’s throat and chest are a brighter green. It also has a bright pinkish-red bill (with a black tip) and a bright reddish tail.",
-                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/ColaRufa",
+                "mainImage": "Images/Interfaz/Cards/flay/tailed",
                 "habitat": "This species is common and widespread in non-forest areas, including clearings, gardens, forest edges, and some secondary forests. It prefers low habitats, with shrubs, and often visits feeders located in open areas with some coverage.",
                 "diet": "Rufous-tailed hummingbirds feed on nectar and visit Heliconia, banana, and coffee flowers. Since nectar is low in protein, they also feed on small insects. This species is also a regular visitor to artificial feeders filled with a mixture of water and sugar.",
                 "reproduction": "Nests have been reported in Colombia in February and August. Females usually choose small trees or shrubs as nesting sites, and they usually lay two eggs. The incubation period is 15 to 16 days. The chicks fledge around 18 to 22 days of age, though they do not become independent from their mothers until around day 58. The female takes on all parental care.",
@@ -743,7 +744,7 @@
                 "species": "Ocreatus underwoodii",
                 "conservacion":"LC least concern",
                 "description": "Small hummingbird, generally bright green in males and with white underparts in females. Both sexes have white tufts on their legs (smaller in females) and a forked tail; males have elongated outer tail feathers, ending in bare shafts and racket-like tips.",
-                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Raquetas",
+                "mainImage": "Images/Interfaz/Cards/flay/sylph",
                 "habitat": "Humid forest zone of the subtropical and temperate regions of the Andes. Found both inside forests and in open secondary forests. In Colombia, it is known to be found in both primary and secondary sub-Andean forests (below 2400 m).",
                 "diet": "This species feeds on nectar from flowers visited by insects, mainly large bees, and bee-pollinated flowers, each flower containing a small volume of nectar with relatively high concentration.",
                 "reproduction": "The nest is placed on horizontal tree branches at a height of 6 to 8 meters above the ground. Only the female incubates, and the incubation lasts between 16 and 17 days. The clutch size is 2 eggs.",
@@ -793,7 +794,7 @@
                 "species": "Aglaiocercus kingii",
                 "conservation": "LC least concern",
                 "description": "They are a captivating group of short-billed and long-tailed hummingbirds found in the humid montane forests of the Andes. This species is sexually dimorphic; males have a bright green crown and throat with exceptionally long and dazzling greenish-blue tail feathers. Females have a much shorter tail, a white throat with green spots, and a reddish-beige belly.",
-                "mainImage": "Images/Interface/Cards/FierceFlight/BOOTED_RACKET_TAIL",
+                "mainImage": "Images/Interface/Cards/FierceFlight/tail",
                 "habitat": "It is found in a variety of habitats, depending on the location and time of year. It is associated with subtropical and temperate forests, but can also be found at forest edges, semi-open areas of moist forest or regrowth, premontane areas, shrubs, clearings, pastures, gardens, and agricultural areas like coffee plantations, although it is rarely seen inside forests.",
                 "diet": "This shade-loving hummingbird feeds in the understory, hovering over flowers. While acting as a pollinator, it sometimes steals nectar by piercing flowers. At higher altitudes, it feeds in the canopies of small trees and shrubs. It consumes nectar and arthropods.",
                 "reproduction": "In Colombia, reproduction has been documented from February to October, but it is believed the species breeds year-round. The male participates in ritualized nest construction, the female sleeps in the nest every night, and she is the only one who incubates. The incubation period is 15 to 17 days, and they lay 2 eggs.",
@@ -851,7 +852,7 @@
                     "species": "Daptrius chimachima",
                     "conservation": "LC Least Concern",
                     "description": "It stands out for its light brown to brown plumage, with paler head and neck, and dark wing tips. It has a slender appearance and an upright posture, giving it an elegant look. It has a yellow hooked beak with a black tip and long yellow legs adapted for walking in search of food.",
-                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/Caracara",
+                    "mainImage": "Images/Interface/Cards/rapaz/CaracaraYe",
                     "habitat": "It inhabits open ecosystems, from grasslands, savannas, and agricultural lands to urban areas. It prefers open areas where it can hunt, but easily adapts to human-altered habitats, including cultivated areas and cities.",
                     "diet": "Varied diet, omnivorous, feeding on small mammals, birds, reptiles, carrion, insects, other invertebrates, and fruits. It takes advantage of urban areas, feeding on waste and easily obtained food. It is an opportunistic bird, allowing it to survive in different environments.",
                     "reproduction": "They nest in trees and palms, building large nests made of branches and other plant materials. The female usually lays 2 to 3 eggs, which are incubated for approximately 28 to 32 days. Both parents participate in feeding the chicks once they hatch.",
@@ -901,7 +902,7 @@
                     "species": "Falco femoralis",
                     "conservation": "LC Least Concern",
                     "description": "It is an agile and fast bird of prey, with dark gray plumage and a black mask on its head. It is known for hunting in teams and using abandoned nests of other birds, as it does not build its own.",
-                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/Aplomado",
+                    "mainImage": "Images/Interface/Cards/rapaz/falcon",
                     "habitat": "It prefers open areas like grasslands, savannas, and forest edges. It also inhabits plains, deserts, and regions near swamps, where it hunts in flight and finds shelter in trees or elevated structures.",
                     "diet": "They feed on a variety of animals, insects, lizards, birds, and small mammals. They hunt insects and birds in the air or chase prey on the ground, often hunting cooperatively in pairs, with one bird scaring the prey and the other intercepting it.",
                     "reproduction": "They nest in trees, palms, or on the ground, using beams of electric poles. They do not build their own nests, but instead occupy abandoned nests of other birds of prey, woodpeckers, or medium-sized birds. They lay 2 to 4 eggs and have one brood per season.",
@@ -951,7 +952,7 @@
                     "species": "Falco sparverius",
                     "conservation": "LC Least Concern",
                     "description": "The Colombian chachalaca, endemic to Colombia, as its name suggests, can be easily identified. All species have long tails.",
-                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/American",
+                    "mainImage": "Images/Interface/Cards/rapaz/kestrel",
                     "habitat": "The American Kestrel (Falco sparverius) prefers open areas with low vegetation and scattered trees, such as meadows, grasslands, deserts, parks, and agricultural fields. This species adapts well to human-modified habitats, such as pastures and urban parks, and is commonly found in cities, suburbs, and areas near human activity.",
                     "diet": "American kestrels primarily feed on insects and other invertebrates, as well as small rodents and birds. Their usual prey includes grasshoppers, cicadas, beetles, and dragonflies; scorpions and spiders; butterflies and moths; voles, mice, shrews, and bats; and songbirds.",
                     "reproduction": "These birds of prey lay their eggs in tree cavities, rock crevices, or other natural cavities. They may also use old woodpecker holes, nest boxes, or other human-made structures.",
@@ -1001,7 +1002,7 @@
                     "species": "Rupornis magnirostris",
                     "conservation": "LC least concern",
                     "description": "It stands out for its grayish plumage with dark bands on the tail and a barred belly. It has bright yellow eyes and long yellow legs. It is one of the most common raptors in Latin America.",
-                    "mainImage": "Images/Interface/Cards/Raptors/RoadsideHawk",
+                    "mainImage": "Images/Interface/Cards/rapaz/roadside",
                     "habitat": "In a wide variety of ecosystems, from tropical and subtropical forests to open areas, savannas, farmlands, and urban areas.",
                     "diet": "It is an opportunistic hunter and its diet includes small mammals, birds, lizards, snakes, and large insects. It is observed hunting both from perches and in flight, and is known for actively hunting in open or semi-forested areas.",
                     "reproduction": "It nests in trees, where it builds nests of sticks and branches. The female lays 1 to 2 eggs, which are incubated for approximately 30 days. Both parents participate in the care and feeding of the chicks, which leave the nest after about 40 to 45 days.",
@@ -1051,7 +1052,7 @@
                     "species": "Geranoaetus albicaudatus",
                     "conservation": "LC least concern",
                     "description": "This large hawk, with black plumage on the head, reddish streaks on the shoulders, and a bright white chest, inhabits open and arid regions. It is shy, hunts small vertebrates and invertebrates, and avoids nesting near human activity and cultivated fields.",
-                    "mainImage": "Images/Interface/Cards/Raptors/WhiteTailedHawk",
+                    "mainImage": "Images/Interface/Cards/rapaz/hawk-white",
                     "habitat": "This hawk prefers open and semi-open grasslands or savannas, ranging from humid to arid areas, and adapts well to thorny and bushy plants. It dislikes cultivated agricultural fields but tolerates pastures for livestock that have not been overgrazed.",
                     "diet": "It feeds on small vertebrates and arthropods, hunting from perches and in the air, primarily in the afternoon. It catches its prey with its feet, starting to eat them from the head, and the prey fed to the chicks are often headless and missing part of the torso.",
                     "reproduction": "Its nests are typically roughly oval or elliptical, flat, and loosely constructed with dry branches, twigs, grasses, and herbs. It is known that pairs build 1 or 2 nests that they ultimately do not use, possibly due to human visits. They usually lay 2 eggs, sometimes 3, rarely 1 or 4.",
@@ -1063,20 +1064,20 @@
                   }
                 },
                 {
-                  "modelIndex": 5,
+                  "modelIndex": 6,
                   "questions": [
                     {
                       "questionText": "How does the adaptation of Cathartiformes to their habitat affect their social behavior?",
                       "answers": [
                         "A) It prevents them from forming groups.",
-                        "B) It allows them to find carrion more quickly in groups.",
+                        "B) It allows them to find carrion faster in a group.",
                         "C) It forces them to hunt alone.",
-                        "D) It reduces their flight capacity."
+                        "D) It reduces their flight ability."
                       ],
                       "correctAnswerIndex": 1
                     },
                     {
-                      "questionText": "What is the main food source for Cathartiformes?",
+                      "questionText": "What is the main type of food for Cathartiformes?",
                       "answers": [
                         "A) Fruits.",
                         "B) Insects.",
@@ -1097,23 +1098,73 @@
                     }
                   ],
                   "birdInfo": {
-                    "birdName": "Black Vulture",
-                    "species": "Geranoaetus albicaudatus",
+                    "birdName": "Snail Kite",
+                    "species": "Rostrhamus sociabilis",
                     "conservation": "LC least concern",
-                    "description": "The pair is monogamous and maintains a long-term pair bond. They closely associate throughout the year and can feed their chicks up to eight months after fledging.",
-                    "mainImage": "Images/Interface/Cards/Raptors/Vulture",
-                    "habitat": "It is mainly found in open or semi-open habitats with abundant carrion to feed on, such as farms, savannas, grasslands, clearings, mangroves, and towns. It is associated with human dwellings and feeds on streets, garbage dumps, and around slaughterhouses.",
-                    "diet": "It mainly depends on carrion, mostly large mammals, but is opportunistic and easily scavenges trash, scraps, and other edible wastes. Occasionally, it consumes live prey, and food can be obtained in markets, slaughterhouses, fish unloading areas, and garbage dumps.",
-                    "reproduction": "It typically nests in dark hollows or under some type of cover. Caves, hollow trunks, stumps and logs, rock crevices, brush piles, abandoned buildings, and sites next to or under trees and logs are all used. Almost always 2 eggs.",
-                    "size": "It measures between 60 and 68 cm in length.",
-                    "funFact1": "Instead of hunting live prey like many raptors, vultures primarily feed on carrion, which they locate using their keen sense of smell.",
-                    "funFact2": "They have an extremely efficient digestive system that can neutralize many harmful pathogens, preventing diseases from spreading through decaying carcasses.",
+                    "description": "Both sexes show notable plumage dimorphism, though females are slightly larger than males. They have a narrow and sharply curved downward beak, with a concave culmen and sharp tip. It is a medium-sized bird of prey.",
+                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/Vulture",
+                    "habitat": "They are found in open freshwater wetlands, such as lake edges and marshes. They are often seen along roads and irrigation channels of rice paddies, where fences offer perches.",
+                    "diet": "It is a carnivorous bird that mainly feeds on aquatic snails, turtles, and small mammals. It searches for food in water patches and dives to catch snails with its feet, without getting its belly wet, at a depth of up to 16 cm.",
+                    "reproduction": "Nest building takes 4 to 18 days, though it can be prolonged if interrupted. Egg-laying is infrequent and usually consists of 2-3 whitish eggs with brown spots.",
+                    "size": "It measures between 42.0 and 46.0 cm in length.",
+                    "funFact1": "Males are responsible for most of the nest building as part of courtship, selecting the site, which is usually located over water to deter predators.",
+                    "funFact2": "Snail Kites often defecate after each meal, lowering their head and lifting their body and tail to a horizontal or slightly higher plane to do so.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "It helps to control disease by removing dead animals from the ecosystem. Their efficient digestion kills bacteria, and they consume carcasses with little competition from other animals."
+                    "bibliography": "Rostrhamus sociabilis, commonly known as the Snail Kite, has several important ecological effects on its ecosystem: Control of snail populations: By primarily feeding on freshwater snails, the Snail Kite helps regulate their populations, contributing to the ecological balance of its aquatic habitat. This control of invertebrates is essential for maintaining the health of wetland ecosystems. Interaction with other organisms: As a predator, the Snail Kite plays a crucial role in the food chain. Its presence can influence the dynamics of other species, both as prey for birds of prey and other predators, and by controlling the populations of its prey. Ecosystem health indicator: The abundance and distribution of the Snail Kite can be indicators of the health of wetlands and freshwater bodies, as their well-being depends on a healthy aquatic ecosystem. Seed dispersal: Although its diet is predominantly carnivorous, the Snail Kite can also contribute to seed dispersal if it occasionally consumes fruits, promoting vegetation regeneration and diversity in its environment."
+                  }
+                },
+                {
+                  "modelIndex": 6,
+                  "questions": [
+                    {
+                      "questionText": "How is the vision of Falconiformes compared to humans?",
+                      "answers": [
+                        "A) Approximately equal to that of humans.",
+                        "B) Approximately 1.5 times better than humans.",
+                        "C) Approximately 2.6 times better than humans.",
+                        "D) Approximately 5 times better than humans."
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "What impact do Falconiformes have on small mammal populations?",
+                      "answers": [
+                        "A) They increase small mammal populations.",
+                        "B) They do not affect small mammal populations.",
+                        "C) They regulate and keep small mammal populations balanced.",
+                        "D) They only affect large mammals."
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "What is one of the main ecological impacts of Falconiformes in agricultural areas?",
+                      "answers": [
+                        "A) They increase pests.",
+                        "B) They destroy crops.",
+                        "C) They have no impact.",
+                        "D) They regulate rodent and insect populations."
+                      ],
+                      "correctAnswerIndex": 3
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "Crested Caracara",
+                    "species": "Rostrhamus sociabilis",
+                    "conservation": "LC least concern",
+                    "description": "This medium-sized bird of prey, with black and white plumage and yellow legs and face, is easily identifiable when perched in high places. It is distinguished by its low flight and powerful wingbeats. Females are slightly larger, with a long tail and extended neck. Although it rarely soars, thermal currents can quickly lift it.",
+                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/crested",
+                    "habitat": "It inhabits a variety of open and semi-open areas below 3,000 meters in altitude, such as grasslands, savannas, pampas, and riverbanks. It prefers areas with scattered trees, posts, and fences for perching, especially near nesting sites. It avoids places with tall or dense vegetation that hinders takeoff from the ground.",
+                    "diet": "It feeds on insects, small vertebrates, eggs, and carrion, especially in winter. It hunts in open habitats such as grasslands, deserts, and human areas like agricultural fields and landfills. It searches for prey by walking, from perches, in low flight, or wading in shallow water.",
+                    "reproduction": "The Crested Caracara is the only member of Falconidae that builds its own nest, reusing or renovating previous structures. It nests in tall vegetation or similar structures offering a wide view. Both sexes participate in the construction, which lasts 2 to 4 weeks. They lay between 1 and 4 eggs, and both incubate for 32 to 33 days.",
+                    "size": "It measures between 50.0 and 64.0 cm in length.",
+                    "funFact1": "Adult pairs are generally monogamous and highly territorial, showing strong site fidelity.",
+                    "funFact2": "Caracaras use their beak to collect nesting material. They pull stems and vines while walking through grasslands, along fences, and ditches.",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "-Population control: By feeding on a wide variety of animals, such as insects, small vertebrates, and carrion, it contributes to the control of these populations, maintaining ecological balance. Its role as a scavenger also helps remove dead animals, preventing the spread of diseases. -Nutrient recycling: By consuming carrion, the Crested Caracara contributes to nutrient recycling, speeding up the decomposition process and promoting ecosystem health. -Food chain interaction: As both a predator and scavenger, it influences the dynamics of other species by controlling prey populations and competing for carrion with other scavengers, like vultures."
                   }
                 }
               ]
-            },
+            },                
 
 
 
@@ -1209,7 +1260,7 @@
                         "species": "Ortalis columbiana",
                         "conservation": "LC least concern",
                         "description": "The Colombian Chachalaca, endemic to Colombia as its name suggests, can be easily identified. All species have long tails.",
-                        "mainImage": "Images/Interface/Cards/Galliformes/Caracara",
+                        "mainImage": "Images/Interface/Cards/Galliformes/colobian",
                         "habitat": "It is found in humid forests, forest edges, and shrubland. The species is frequently observed at forest edges, gallery forests near crops, and pastures.",
                         "diet": "The Colombian Chachalaca's diet is primarily frugivorous and folivorous. In a suburban forest in Valle del Cauca, its diet consists of 26 plant species, including fruits (77.2%), leaves (16.2%), and flowers (3.6%). Additionally, it occasionally consumes other elements like soil, dead leaves, and stones (3%).",
                         "reproduction": "It is presumed to nest in a burrow in a ravine, often located in mature forests, sometimes near streams, or in landslide areas or road cuts. They lay 2 white eggs.",
@@ -1219,7 +1270,108 @@
                         "location": "Ecohotel El Castillo",
                         "bibliography": "The Colombian Chachalaca plays an important role in its ecosystem as a seed disperser. By feeding on fruits and berries, it helps spread seeds, aiding the regeneration and maintenance of vegetation in the forests and semi-open areas it inhabits. It also serves as prey for various predators, integrating into the food chain and contributing to ecological balance."
                       }
+                    },
+                    {
+                      "modelIndex": 2,
+                      "questions": [
+                        {
+                          "questionText": "What is the main component of the diet of Galliform birds?",
+                          "answers": [
+                            "A) Insects",
+                            "B) Seeds and grains",
+                            "C) Small mammals",
+                            "D) Fruits and berries"
+                          ],
+                          "correctAnswerIndex": 1
+                        },
+                        {
+                          "questionText": "Where do quails and partridges prefer to live?",
+                          "answers": [
+                            "A) In dense forests",
+                            "B) In mountainous areas",
+                            "C) In grasslands and pastures",
+                            "D) In coastal areas"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "How do Galliform birds benefit agricultural ecosystems?",
+                          "answers": [
+                            "A) By consuming insects and weeds",
+                            "B) By destroying crops",
+                            "C) By driving away other animals",
+                            "D) By dispersing seeds"
+                          ],
+                          "correctAnswerIndex": 0
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Singing Guan",
+                        "species": "Columbina talpacoti",
+                        "conservation": "LC least concern",
+                        "description": "This small-sized guan has distinctive plumage. Its body combines a bright chestnut belly, dark upper parts, brown neck and head, along with pale blue facial skin and red eyes. It is a stealthy and discreet species, tending to hide quickly when disturbed, and is generally silent, which helps it go unnoticed.",
+                        "mainImage": "Images/Interface/Cards/Gallineceas/SingingGuan",
+                        "habitat": "It mainly inhabits subtropical humid forests but is also found in low temperate areas, secondary forests, and coffee plantations, sometimes near roads.",
+                        "diet": "Its diet is primarily based on fruits, supplemented with seeds, flowers, leaves, and invertebrates. It feeds at dawn or dusk, lives in pairs or small groups, and is shy, spending most of its time in trees. It is rarely found on the ground.",
+                        "reproduction": "The female lays 2 to 3 eggs and incubates them without the help of the male. They build long, shallow nests in trees or epiphytic plants, using leaves and vines. They make neck movements to adjust the nest, possibly to roll the eggs and clean the nest.",
+                        "size": "It measures between 50.0 and 65.0 cm in length.",
+                        "funFact1": "The black guan is very elusive and difficult to observe, spending most of its time hidden among the dense canopy vegetation of the forests.",
+                        "funFact2": "This bird performs a curious head and neck movement in its nest, which is believed to help roll the eggs and strengthen the nest's structure.",
+                        "location": "Ecohotel El Castillo",
+                        "bibliography": "-Seed dispersal: By feeding primarily on fruits, this species plays a key role in seed dispersal, helping to regenerate forests and maintain plant biodiversity. -Insect control: Although its diet is mostly frugivorous, it also consumes invertebrates, contributing to the control of insect populations in its ecosystem."
+                      }
+                    },
+                    {
+                      "modelIndex": 3,
+                      "questions": [
+                        {
+                          "questionText": "What is the function of long, muscular wings in birds of the Columbiformes order?",
+                          "answers": [
+                            "A) They allow them to perform circular flights.",
+                            "B) They are useful for building their nests.",
+                            "C) They help in flight displays during courtship.",
+                            "D) They allow them to perform fast, direct flights to evade predators."
+                          ],
+                          "correctAnswerIndex": 3
+                        },
+                        {
+                          "questionText": "In what type of environment have some Columbiformes species thrived due to an abundance of food and the absence of predators?",
+                          "answers": [
+                            "A) Tropical forests",
+                            "B) Deserts",
+                            "C) Urban environments",
+                            "D) Mountainous areas"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "What are the nests of pigeons and doves generally like?",
+                          "answers": [
+                            "A) Complex and made of diverse materials",
+                            "B) Made in tree cavities with leaves",
+                            "C) Built with mud and stones",
+                            "D) Rudimentary and made with a few twigs"
+                          ],
+                          "correctAnswerIndex": 3
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Purple Pigeon",
+                        "species": "Patagioenas cayennensis",
+                        "conservation": "LC least concern",
+                        "description": "This is a medium-sized bird, with violet-brown plumage with pale gray areas, a green shine on the neck, a black beak, and red legs. It gathers in large numbers when food is abundant.",
+                        "mainImage": "Images/Interface/Cards/Gallineceas/PurplePigeon",
+                        "habitat": "It inhabits forest edges, deforested areas, lake margins, rivers, and mangrove swamps. It prefers areas with abundant vegetation and is usually found high in trees, descending to the ground only to drink.",
+                        "diet": "The white-bellied pigeon is frugivorous, feeding on small black berries, but also consumes sand, grass seeds, and other seeds. It is often found perched on fruit-bearing trees.",
+                        "reproduction": "Their nests are small and fragile, made of twigs and located in trees or vines at several meters high, up to 15 meters. They lay a single white egg per clutch.",
+                        "size": "It measures between 29.0 and 34.0 cm in length.",
+                        "funFact1": "-The white-bellied pigeon gathers in large numbers around abundant food resources, making it easier to observe in its natural habitat.",
+                        "funFact2": "-Its nest is surprisingly fragile, made of thin twigs, contrasting with the height it is often built, up to 15 meters above the ground.",
+                        "location": "Ecohotel El Castillo",
+                        "bibliography": "-Seed dispersal: These birds feed on fruits and seeds, helping the dispersal of plants in the forests where they live. By consuming the fruits and excreting the seeds, they facilitate the regeneration of vegetation in deforested or degraded areas. -Vegetation control: By consuming large quantities of seeds and fruits, they help control the growth of some plants, maintaining the balance in the ecosystems they inhabit."
+                      }
                     }
+                    
                   ]
                 },
 
@@ -1267,7 +1419,7 @@
                         "species": "Momotus aequatorialis",
                         "conservation": "LC least concern",
                         "description": "The Andean Motmot is a large bird with a thick black beak and a long tail with a racket-shaped tip. The body plumage is generally green, and there is a broad blue line bordering the crown, which is light blue in the front of the head and turns dark blue at the back. There is also a short black stripe in the center of the chest.",
-                        "mainImage": "Images/Interface/Cards/ThickBeak/AndeanMotmot",
+                        "mainImage": "Images/Interface/Cards/ThickBeak/Motmot",
                         "habitat": "It is found in humid montane forests of the Andes Mountains in South America, from Colombia to southern Bolivia, often near rivers or streams, as well as in secondary forests and forest edges.",
                         "diet": "This bird is omnivorous. It feeds on a variety of things such as fruits, invertebrates, and vertebrates. It feeds its chicks with 6cm moth larvae and 4cm beetles. There are also reports of frogs, lizards, and snakes.",
                         "reproduction": "It is presumed to nest in a burrow in a ravine, often located in mature forests, sometimes near streams, or in landslide areas or road cuts. They lay 2 white eggs.",
@@ -1317,7 +1469,7 @@
                         "species": "Picumnus granadensis",
                         "conservacion": "LC least concern",
                         "description": "The male is black from forehead to nape with yellow spots on the crown and white spots behind. The female is distinguished by white spots on the head. It remains solitary, in pairs, or family groups and occasionally joins mixed flocks.",
-                        "mainImage": "Images/Interface/Cards/PicoGrueso/SpottedPiculet",
+                        "mainImage": "Images/Interface/Cards/ThickBeak/piculet",
                         "habitat": "It is a species with a restricted distribution, found in edges of dry to moderately humid forests, second-growth shrublands, and wooded areas in northwestern Colombia. This small woodpecker is dull grayish-white and has a forehead and crown mottled with yellow and white.",
                         "diet": "This species, which is exclusively insectivorous, can be found foraging alone or in small groups.",
                         "reproduction": "The breeding season appears to be from January to June. It nests in cavities of dead tree trunks.",
@@ -1367,7 +1519,7 @@
                         "species": "Dryocopus lineatus",
                         "conservacion": "LC least concern",
                         "description": "The striped woodpecker is a large, crested woodpecker, mostly black, with a bright red crest, white bars on the underparts, and a white line extending down the neck. Males have red on the cheek, while females do not.",
-                        "mainImage": "Images/Interface/Cards/PicoGrueso/Lineated",
+                        "mainImage": "Images/Interface/Cards/ThickBeak/lineated",
                         "habitat": "The striped woodpecker inhabits humid, transitional, and moderately dry forests and jungles. It generally prefers relatively open areas such as forest edges, secondary forests, and grasslands. It is not found inside lowland rainforests but occupies forest edges and riverine forests. In drier areas, it inhabits pine forests, gallery forests, and thorny scrublands.",
                         "diet": "Its diet mainly consists of beetles and their larvae, ants and their larvae, caterpillars, and orthopterans, often collected from Cecropia trees. Although primarily insectivorous, it can be found alone or in pairs. In cities, it takes advantage of lamps to peck at them, amplifying the sound of its drumming to announce its presence and territory to other woodpeckers.",
                         "reproduction": "The clutch size varies from 2 to 4 eggs. Both males and females take 2-3 hour shifts incubating during the day, but only males incubate at night. Chicks are fed about once an hour by both parents through regurgitation; the female does most of the feeding while the male guards the nest.",
@@ -1417,7 +1569,7 @@
               "species": "Pionus menstruus",
               "conservation": "LC Least Concern",
               "description": "It is easily recognized in flight by its loud and screechy calls, and when at rest, the striking blue head makes the species unmistakable. The birds migrate to islands near Panama after breeding in June.",
-              "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Cabeciazul",
+              "mainImage": "Images/Interfaz/Cartas/ThickBeak/parrot",
               "habitat": "Deciduous forest including cerrado, humid and very humid forest, mature second-growth forest, seasonally flooded forest, gallery forest, plantations, clearings, and semi-open areas with scattered trees, including Mauritia palm trees.",
               "diet": "Seeds of Albizia, Anacardium, Caraipa, Dialium, Hevea, Hura, Clusia, Ocotea, Couroutaria, Inga, Brosimum, Tectona, Micropholis; fruits of Tetragastris, Inga, Ficus, Euterpe; sugary flowers of Noranthea liana, among others.",
               "reproduction": "They nest in holes in palm trees, trunks, and dead branches. They lay two to four eggs, and in captivity, the incubation period lasts between 24 and 29 days. In captivity, only the female incubates.",
@@ -1467,7 +1619,7 @@
               "species": "Forpus conspicillatus",
               "conservation": "LC least concern",
               "description": "The Spectacled Parrotlet is a tiny parrot from eastern Panama, Colombia, and Venezuela. The male has a greenish-yellow forehead that extends to the cheeks and throat. This bird is not yet listed as a threatened species despite often being illegally captured and sold in the caged bird trade. The contact call is evidently used to communicate between members of a pair or group.",
-              "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Anteojo",
+              "mainImage": "Images/Interfaz/Cards/ThickBeak/parrolent",
               "habitat": "Found in the edges of evergreen lowland forests, gallery forests, semi-open deciduous forest, savannas, secondary growth, thorny scrub, grasslands, and clearings.",
               "diet": "Grass seeds extracted from the ground, berries, fruits, shoots, and likely flowers from shrubs.",
               "reproduction": "The nest is a hole in a stump, tree, or fence post made of bamboo (Guadua), often 1-2 meters from the ground, laying 1-6 eggs.",
@@ -1517,7 +1669,7 @@
               "species": "Ara severus",
               "conservation": "LC least concern",
               "description": "There is no sexual dimorphism. It is mainly green with a blue crown. On the forehead, it has a narrow and barely visible chestnut-colored band. Its tail is long, sharp, and green with a reddish tinge. Its beak is grayish-black. The facial skin and throat are bare and whitish, the wing feathers are bluish above. The inside of the wings is dull red.",
-              "mainImage": "Images/Interfaz/Cartas/PicoGrueso/Maracana",
+              "mainImage": "Images/Interfaz/Cards/ThickBeak/chestnut",
               "habitat": "The Chestnut-fronted Macaw is a colorful and widely distributed bird found in Panama, Colombia, Ecuador, eastern Peru and Bolivia, eastern Venezuela, and Brazil. This species has been recorded in various different habitats, including seasonally flooded forests, gallery forests, river edges rich in palm trees of slow-moving rivers, swampy areas, secondary growth, old plantations, and clearings with large scattered trees, areas temporarily or permanently wet with Mauritia palm trees.",
               "diet": "The diet of the Chestnut-fronted Macaw is also highly variable and includes seeds, pulp, and flowers from different types of plants. Unlike many other species of parrots and macaws, the Chestnut-fronted Macaw's populations appear to be stable.",
               "reproduction": "Generally nests in cavities of dead trees or dead palms. They lay two eggs; in captivity, incubation lasts 28 days, and the breeding period does not exceed nine weeks.",
@@ -1575,7 +1727,7 @@
                   "species": "Ortalis columbiana",
                   "conservation": "LC least concern",
                   "description": "It is a medium-sized species, olive-brown above with two white wing bars, a pale gray chest, and a pale yellow belly. Yellow-bellied elaenias have a bushy and striking crest that is often raised when the bird sings, revealing a white patch on the crown. They are usually found alone or in pairs.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Elaenia",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/elaenia",
                   "habitat": "Variety of moist and arid habitats, wooded areas including open forests, secondary forests, and edges, thickets, savannas, as well as river margins with brush, clearings with brush and scattered trees, also trees in towns and gardens; absent in densely forested areas. They may gather in greater numbers in fruit trees.",
                   "diet": "Feeds on insects, berries, and arillated seed capsules, foraging with aerial sallies, pecking from perches.",
                   "reproduction": "Breeding season in Colombia occurs between May and September. The nest is a tidy cup of grass or moss, lined with feathers and decorated with lichens and bark, placed in the fork of a small branch. The clutch consists of two eggs, rarely one or three, white-pink with brown and gray markings. Incubation by the female lasts 16 days; chicks are fledged by the female and fed by both parents, fledging period is 15-17 days.",
@@ -1625,7 +1777,7 @@
                   "species": "Todirostrum cinereum",
                   "conservation": "LC least concern",
                   "description": "Males of common tody-flycatchers have bright black foreheads, slate-gray rear crowns, olive upper parts, black wings, and bright yellow underparts; the iris is generally yellow.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Espatulilla",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/common",
                   "habitat": "All types of open and semi-open areas and forest edges, mangroves, and rivers, such as clearer forests, regrowths, clearings, and pastures with grown thickets, shaded plantations, open groves, savanna thickets, hedgerows (rows of trees and/or shrubs), orchards, gardens, cultivated areas, wastelands; avoids densely forested regions.",
                   "diet": "Arthropods, including small ants and parasitoid wasps, spiders, beetles, bugs, flies, damselflies, and grasshoppers or crickets; they also gather fruits. Generally found in pairs or family groups, but sometimes alone and usually independent of mixed flocks in dense vegetation near the ground, also in mid-levels and tree canopies, more open.",
                   "reproduction": "Builds hanging pouch-shaped nests 1 to 5 m from the ground made of plant material, mosses, grasses, and many other plant materials, bound with spiderweb, lined with fine grass, feathers, and plant down/seeds; suspended from a hanging branch (or even a telephone wire), usually at 1-5 m but sometimes up to 30 m high, sometimes near a wasp nest. Clutch of 2-3 eggs; incubation by the female alone, lasting 18 days; chicks fed by both parents, nesting period about 17-18 days.",
@@ -1676,7 +1828,7 @@
                   "species": "Pyrocephalus rubinus",
                   "conservation": "LC least concern",
                   "description": "Males and females differ notably in color; the vermilion crest and bright underparts of the male contrast sharply with the whitish, slightly streaked chest and pinkish belly of the female.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/papamoscas",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/vermillon",
                   "habitat": "They inhabit arid scrublands, farmlands, parks, golf courses, deserts, savannas, cultivated lands, and riparian woodlands; prefer open spaces with nearby perches. They are rarely found in densely forested areas.",
                   "diet": "Insectivorous, catching prey in mid-air after watching from a perch. Flies back to the perch to consume prey or feeds from the ground.",
                   "reproduction": "The nest is a cup of fine grasses, weeds, feathers, and other materials, placed in a tree or shrub, often near water. Lays 2-4 eggs. Incubation lasts 14-15 days, mainly by the female. Chicks fledge in 16-19 days.",
@@ -1726,7 +1878,7 @@
                   "species": "Pitangus sulphuratus",
                   "conservation": "LC least concern",
                   "description": "Both sexes and plumage are similar throughout the year. Adults have wide white and black stripes on the head, with black crown and mask contrasting with white supercilium. Chin and throat are white, with remaining underparts bright yellow. Their distribution and abundance have increased due to forest openings through various human activities.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Benteveo",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/great",
                   "habitat": "Inhabits thorn forests, tropical deciduous forests, tall chaparral, riparian forests, gallery forests, palm swamps, marshy lake edges, shaded coffee plantations, bananas and citrus groves, forest edges, and rural, suburban, and urban areas with trees. Often absent from uninterrupted habitats, whether arid thorn scrub or tropical rainforests, except along watercourses or other edges.",
                   "diet": "Feeds on a variety of arthropods, mollusks, and small vertebrates, including flying insects, spiders, snails, small fish, lizards, and mice. It also consumes fruits and visits feeding stations for food such as bread and bananas. Hunts from low perches, generally less than 3 meters from the ground, and often strikes its prey, such as fish, before swallowing.",
                   "reproduction": "Builds bulky nests, often in thorny swamp trees or on abandoned nests of other birds. Pair formation occurs year-round but is most common before and at the beginning of the nesting season. Clutches usually consist of 2 to 5 eggs, generally 3 or 4. Only the female incubates the eggs for 15-17 days, facing the nest entrance.",
@@ -1776,7 +1928,7 @@
                   "species": "Tyrannus savana",
                   "conservation": "LC least concern",
                   "description": "Sexual dimorphism is not very pronounced. It has a very long and deeply forked tail (shorter in females). It has a black crown, nape, and sides of the head extending below the eyes. The back is light gray, the wings are darker, the tail is black, and the underparts are completely white.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Tirano",
+                  "mainImage": "Images/Interfaz/Cartas/Cantoras/fork",
                   "habitat": "Found in open habitats, including forest edges, secondary vegetation, savannas, grasslands, residential areas, meadows, forests, cerrado, and mangroves. During migration, it can be found in a wide variety of habitats, including the canopy of tall, humid forests.",
                   "diet": "Searches for flying arthropods (e.g., termites, beetles, wasps) or picks them from leaves or the ground; also consumes fruit such as palm berries during the non-breeding season.",
                   "reproduction": "Breeds from January to May in Colombia. The nest is a shallow cup made of plant fibers, leaves, and lined with fine fibers, rootlets, feathers, and cotton-like materials such as seed fluff. It is placed 1 to 10 meters high in a tree or shrub. The female lays 2 glossy white eggs, irregularly marked with chocolate and purple, mainly on the crown. The incubation period is 14 to 15 days. The chicks stay in the nest for about 16 days.",
@@ -1826,7 +1978,7 @@
                   "species": "Troglodytes aedon",
                   "conservation": "LC least concern",
                   "description": "The head, nape, and back are almost uniformly brown: darker and more reddish in eastern populations, paler and grayer in western ones. It has only a pale, often indistinct, superciliary line and no crown streaking. The throat and chest are uniformly light gray, sometimes with a beige or brownish tinge. Both sexes have identical plumage, and immature birds resemble adults. Unlike other wrens, its diet includes many seeds and fruits, and it is known to feed on vegetable matter and even kitchen scraps.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/Cucarachero",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/house",
                   "habitat": "Inhabits forests, scrublands, forest edges, and urban areas, preferring places with dense vegetation. It nests in tree cavities or human-made structures such as walls, houses, or gardens. It can also be found in gardens, parks, and any green space near buildings or urban areas.",
                   "diet": "Feeds on a variety of arthropods, small insects, and spiders. Additionally, it is known to feed on fruits, seeds, and occasionally small invertebrates.",
                   "reproduction": "Builds its nest in cavities, using materials such as leaves, feathers, and twigs. The female lays 3-8 eggs and incubates them for 12 to 15 days. The chicks are altricial, meaning they are born helpless and are fed by both parents.",
@@ -1877,7 +2029,7 @@
                   "species": "Turdus ignobilis",
                   "conservation": "LC (Least Concern)",
                   "description": "Both sexes are similar. They are olive-brown above, paler below, with a slightly darker face, whitish throat with brown stripes, and whitish belly from the middle to the cloaca. Their beak and legs are black. They are common in urban and semi-urban areas, often seen hopping on lawns searching for worms and invertebrate prey.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/mirla",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/black",
                   "habitat": "Found in clearings, semi-open areas, savannas with gallery forests, and lighter secondary forests. It also inhabits forest edges, shade coffee plantations, disturbed areas, and various early succession habitats. You can also find them in pastures with shrubs, parks, gardens, urban and semi-urban areas, and town edges.",
                   "diet": "Granivorous, frugivorous, and insectivorous. They feed on nuts, insect larvae, beetles, flies, berries, fruits, seeds, crickets, and caterpillars. Insects are more important during the dry season in Colombia. Common and visible in areas occupied by humans, they move in pairs or individuals. They hop on the ground in meadows and generally in open areas or shrubs, although they are also seen visiting fruit trees or areas with more vegetation.",
                   "reproduction": "Reproductive activity is recorded between December and August and October in Colombia, where the season seems to vary by region. Nests are placed in hedges, pastures, secondary forests, and around human dwellings. Nests have been found in bushes, stumps, tree forks, and similar situations, usually below 5 meters, with an average height of around 2.5-3 meters. They lay 2 or 3 eggs, which are bluish-green with dark brown spots. The incubation period is poorly documented but is estimated to last between 13 and 15 days.",
@@ -1923,11 +2075,11 @@
                   }
                 ],
                 "birdInfo": {
-                  "birdName": "Troupial",
-                  "species": "Chlorophanes spiza",
+                  "birdName": "Yellow oriole",
+                  "species": "Icterus ogularis",
                   "conservation": "LC (Least Concern)",
                   "description": "Its common name comes from the large amount of yellow in its plumage, with black restricted to the tail, a narrow yellow bib, and wings.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/turpial",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/yellow",
                   "habitat": "In the Caribbean region, primarily in arid to semi-arid forests and shrublands, with cacti, mesquite, and acacias. It frequents open forests and gallery forest edges, and also cultivated lands with trees and shrubs, riparian habitats, fallows, parks, and gardens in cities, cultivated areas, and forest plantations, but prefers dry areas rather than humid regions. It is the most common Troupial in the Santa Marta area, even in mangroves.",
                   "diet": "Mostly small insects, beetles, flies, butterfly, and moth larvae, with some cicadas and grasshoppers. Other arthropods include spiders and wind scorpions. It also feeds on Barbados cherry and date palm fruits. It takes nectar from the flowers of Erythrina fusca and Pithecellobium saman trees. Generally seen in pairs or small groups.",
                   "reproduction": "Apparently monogamous and territorial. They build elongated pouch-shaped nests hanging from tree branches, mainly woven from plant fibers, particularly grasses and palm fibers. Clutch usually consists of 2 to 3 eggs, which are bluish-white with dark purple markings, primarily at the broader end.",
@@ -1977,7 +2129,7 @@
                   "species": "Chlorophanes spiza",
                   "conservation": "LC (Least Concern)",
                   "description": "The Green Honeycreeper is a small, brightly colored bird. One of its most distinctive features is its slender, slightly downward-curved yellow beak. Males are bright bluish-green with a wide black mask, while females are duller green.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/mielerito",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/green",
                   "habitat": "This species is found in humid and tropical forests, especially in the canopy, as well as secondary forests and coffee plantations with shade. They are commonly seen in mixed-species flocks, moving quickly through the foliage.",
                   "diet": "Its diet includes fruits, especially berries, and it also consumes insects and nectar from flowers. It has a preference for ripe fruits, which it uses to aid seed dispersal. It occasionally forages for insects in the foliage of trees.",
                   "reproduction": "Reproductive activity is typically observed between February and August. They build cup-shaped nests, often in trees or bushes, using fine plant materials. The female lays 2-3 eggs, which are incubated for about 12-14 days. Both parents participate in feeding the chicks after hatching.",
@@ -2027,7 +2179,7 @@
                   "species": "Sicalis flaveola",
                   "conservationStatus": "LC Least Concern",
                   "description": "The Saffron Finch, known for adapting well to human-modified habitats, is common in its range. It is a medium-sized bird with short wings and tail, and a large beak. The male has yellow plumage with orange tones on the head and spots that extend to the throat and face, along with greenish tones on the wings and tail. The female is similar but with duller colors and less orange on the crown, and a less intense yellow on the abdomen. Males often sing from a branch, a post, or a power line.",
-                  "mainImage": "Images/Interfaz/Cartas/Cantoras/CANARIO",
+                  "mainImage": "Images/Interfaz/Cards/Cantoras/saffron",
                   "habitat": "Wide variety of habitats, generally semi-open with scattered trees or shrubs, including dry open forests, savannas, thorny scrub, Chaco forests (forests with non-floodable grassland areas), edges of swamps and water bodies, gallery forest edges, roadside scrub, secondary growth, and agricultural areas; also meadows in towns.",
                   "diet": "Seeds, also small arthropods. It forages on the ground, often in urban meadows. Found in pairs and small flocks.",
                   "reproduction": "The nest is a voluminous semi-sphere made of dry grasses, lined with softer material, including hair, placed in palm leaves or a cavity, such as a pipe or roof eave. Clutch of 2 to 4 eggs, cream-colored with violet-brown markings.",
