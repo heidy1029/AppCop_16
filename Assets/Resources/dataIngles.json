@@ -319,7 +319,7 @@
                         "A) They migrate from their breeding grounds in the Arctic to southern Europe and Asia",
                         "B) They do not migrate and remain in the same habitat all year round",
                         "C) They migrate from South America to the Arctic",
-                        "D) All of the above"
+                        "D) They migrate in flocks forming geometric shapes, mainly in a V formation"
                     ],
                     "correctAnswerIndex": 2
                 },
@@ -329,7 +329,7 @@
                         "A) Grunts, whistles, and trumpets",
                         "B) They only sing soft melodies",
                         "C) They only produce high-pitched sounds",
-                        "D) All of the above"
+                        "D) Their song ranges from loud, deep sounds to soft whistles"
                     ],
                     "correctAnswerIndex": 0
                 }
@@ -359,7 +359,7 @@
                         "A) Establishing natural reserves and national parks",
                         "B) Expanding urban areas for development",
                         "C) Reducing the amount of vegetation in urban areas",
-                        "D) All of the above"
+                        "D) Limit development in critical wildlife areas."
                     ],
                     "correctAnswerIndex": 0
                 },
@@ -369,7 +369,7 @@
                         "A) An area that connects different ecosystems, allowing birds to move safely",
                         "B) A green space in the city for walking",
                         "C) An agricultural area",
-                        "D) All of the above"
+                        "D) Infrastructure that facilitates safe passage for animals between fragmented habitats."
                     ],
                     "correctAnswerIndex": 0
                 },
@@ -379,7 +379,7 @@
                         "A) Promoting regulated hunting",
                         "B) Increasing pesticide use",
                         "C) Teaching people the importance of these birds and encouraging their participation in conservation",
-                        "D) All of the above"
+                        "D) Promoting conservation actions and raising awareness within the community."
                     ],
                     "correctAnswerIndex": 1
                 }
@@ -503,7 +503,9 @@
 
 
 
-        {
+       
+    
+    {
           "birdTypeId": 2,
           "allModelQuestions": [
             {
@@ -641,19 +643,19 @@
                 }
               ],
               "birdInfo": {
-                "birdName": "Greater Ani",
-                "species": "Dendrocygna autumnalis",
-                "description": "Known for its tawny-colored chest and agile flight.",
-                "mainImage": "Images/Interfaz/Cards/flay/aniGrande",
-                "habitat": "Temperate forests and gardens",
-                "diet": "Its diet is varied, including aquatic plants, seeds, and small invertebrates, making it an important contributor to the control of aquatic vegetation and the dispersal of seeds in its environment.",
-                "reproduction": "Nests in trees or on the ground near bodies of water, laying between 10 and 16 eggs. Both parents care for the young, which are able to swim and feed shortly after hatching.",
-                "size": "3.5 inches",
-                "funFact1": "The black-bellied whistling duck is known for its whistling call, even in flight.",
-                "funFact2": "They nest in tree cavities, adapting to a wide variety of habitats.",
-                "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro – Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
-                "bibliography": "This species plays an important ecological role by feeding on insects, small vertebrates, and ticks, helping to control these populations and reducing the spread of diseases in livestock. By eliminating parasites from large mammals like cows and horses, the Greater Ani also promotes the health of these animals and the balance of the ecosystems in which it lives."
-              }
+              "birdName": "Greater Ani",
+              "species": "Crotophaga major",
+              "description": "It stands out for its bluish-black plumage, long tail, and curved beak. It lives in family groups, displaying cooperative social behavior and helping to control insect populations.",
+              "mainImage": "Images/Interfaz/Cards/flay/aniGrande",
+              "habitat": "It inhabits swampy areas and open spaces with low vegetation, such as rivers, wetlands, and grasslands, preferring high humidity regions near bodies of water.",
+              "diet": "It feeds on insects, small vertebrates like frogs and lizards, and some fruits, searching for its food on the ground or low vegetation.",
+              "reproduction": "It practices cooperative breeding, where several adults build communal nests and jointly care for the eggs and young. The nests are large and made of branches in low trees.",
+              "size": "It measures 46 cm in length.",
+              "funFact1": "It has a unique social structure, living in family groups and practicing communal breeding, where several adults care for the young of the entire group.",
+              "funFact2": "Its name 'ani' comes from the characteristic sound of its call, a repetitive and rough song it emits while moving through its habitat or communicating with its group.",
+              "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro-Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
+              "bibliography": "Insect control: By feeding on a wide variety of insects, such as grasshoppers and crickets, it helps keep invertebrate populations in check, which is key for ecosystem balance. Seed dispersal: Although its diet is mainly insectivorous, it also consumes fruits, contributing to seed dispersal and aiding in plant regeneration in its habitat."
+            }
             },
             {
               "modelIndex": 3,
@@ -804,13 +806,215 @@
                 "location": "Ecohotel El Castillo",
                 "bibliography": "The hummingbird Aglaiocercus kingii is vital for the pollination of various plants in the Andean forests. By feeding on nectar, it facilitates pollen transfer between flowers, promoting plant reproduction and contributing to the ecosystem's biodiversity."
               }
-            }
+            },
+            {
+              "modelIndex": 6,
+              "questions": [
+                {
+                  "questionText": "What adaptation allows Caprimulgiformes to efficiently catch insects while flying?",
+                  "answers": [
+                    "A) Long and strong feet",
+                    "B) Curved and sharp beak",
+                    "C) Large and wide mouth",
+                    "D) Vibrant colored feathers"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "How do Caprimulgiformes birds camouflage in their environment?",
+                  "answers": [
+                    "A) Through their bright colors",
+                    "B) By burying themselves underground",
+                    "C) Through their plumage that mimics the surroundings, like leaves and branches",
+                    "D) By placing themselves in water to blend in with the reflection"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "What is one of the main adaptations of Caprimulgiformes for nocturnal flight?",
+                  "answers": [
+                    "A) Plumage that changes color in the dark",
+                    "B) Wings with membranes that reflect light",
+                    "C) Eyes adapted to low light",
+                    "D) Long legs that allow silent flight"
+                  ],
+                  "correctAnswerIndex": 2
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Striped Cuckoo",
+                "species": "Tapera naevia",
+                "conservation": "LC least concern",
+                "description": "It is a medium-sized brown bird with a long tail and a short, bushy crest. Its ventriloquial call is often heard in grasslands, though it is hard to locate. Both sexes look alike.",
+                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Urutau",
+                "habitat": "It inhabits open fields with scattered trees, shrubs, wet grasslands, and clearings in wooded areas.",
+                "diet": "It mainly feeds on insects like grasshoppers and beetles, foraging on the ground or low vegetation. It is a solitary, elusive bird, easier to hear than to see.",
+                "size": "It measures between 26.0 - 29.0 cm in length.",
+                "reproduction": "The Striped Cuckoo is a brood parasite that lays its eggs in the nests of other birds, such as pipits and wrens. Incubation lasts 15 to 16 days, and care is provided by the host species.",
+                "funFact1": "The young cuckoo kills its nestmates shortly after hatching with its hooked beak and is raised alone in the host's nest. It leaves the nest when it is 16 to 18 days old.",
+                "funFact2": "The ventriloquial call of Tapera naevia is very distinctive and can easily confuse people, making it hard to locate the bird as it usually sings from hidden spots in the vegetation.",
+                "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+                "bibliography": "Tapera naevia helps control insect populations by feeding primarily on them, contributing to ecological balance. It also aids in seed dispersal and vegetation regeneration by consuming fruits."
+              }
+            },
+            {
+              "modelIndex": 7,
+              "questions": [
+                {
+                  "questionText": "What migratory behavior do some Cuculiformes species, like the Common Cuckoo, exhibit?",
+                  "answers": [
+                    "A) They are sedentary birds that do not migrate",
+                    "B) They only move within the same continent",
+                    "C) They migrate between the Arctic and the Antarctic",
+                    "D) They migrate between Europe or Asia and Africa in search of better conditions"
+                  ],
+                  "correctAnswerIndex": 1
+                },
+                {
+                  "questionText": "What is the function of vocalizations in Cuculiformes?",
+                  "answers": [
+                    "A) Only for communication with their chicks",
+                    "B) For communication and courtship, as well as territorial defense",
+                    "C) Only to alert about predators",
+                    "D) To mimic the sounds of other animals"
+                  ],
+                  "correctAnswerIndex": 1
+                },
+                {
+                  "questionText": "What behavior is characteristic of many Cuculiformes species in relation to reproduction?",
+                  "answers": [
+                    "A) They build nests in tree cavities",
+                    "B) They lay their eggs in other birds' nests for them to be incubated",
+                    "C) They raise their eggs in nests built on the ground",
+                    "D) They prefer to incubate their eggs in floating nests"
+                  ],
+                  "correctAnswerIndex": 1
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Squirrel Cuckoo",
+                "species": "Piaya cayana",
+                "conservation": "LC least concern",
+                "description": "This bird is seen gliding from tree to tree or hopping from branch to branch in search of arthropods. Its movements resemble those of squirrels before it glides down. Its plumage is reddish-brown above, with a beige throat and chest, and light gray belly. Its long tail is reddish on top and blackish with white tips underneath.",
+                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Cuco",
+                "habitat": "It inhabits humid to semi-humid forests, dry forests, forest edges, secondary forests, scattered trees in open fields, mangroves, flooded forests, advanced secondary growth forests, grasslands with scattered trees, coffee plantations, and near watercourses in dry areas.",
+                "diet": "It primarily feeds on insects like caterpillars, moths, grasshoppers, beetles, wasps, bees, large ants, cicadas, hemipterans, spiders, small lizards, some fruits, and small frogs.",
+                "size": "It measures between 40.0 and 46.0 cm in length.",
+                "reproduction": "Nests are built in trees or in low, dense vegetation. The clutch typically consists of two eggs. The eggs are chalky white with no markings; both sexes incubate. The incubation period is 18 to 19 days. Both sexes provide for the chicks.",
+                "funFact1": "Parents maintain a fairly clean nest by removing feces and bringing fresh leaves.",
+                "funFact2": "Squirrel Cuckoos are almost always solitary or in pairs. They may follow mixed-species flocks but often forage away from them.",
+                "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+                "bibliography": "Piaya cayana, or the common cuckoo, has important ecological effects, such as controlling insect populations by feeding on arthropods. Its presence indicates the health of the ecosystem, as it is sensitive to changes in food availability. It also influences food chain dynamics and contributes to seed dispersal by occasionally consuming fruits, aiding in vegetation regeneration."
+              }
+            },            
+            {
+              "modelIndex": 8,
+              "questions": [
+                {
+                  "questionText": "What is a characteristic ability of hummingbirds that differentiates them from other birds?",
+                  "answers": [
+                    "A) They can sleep while flying",
+                    "B) They can swim long distances",
+                    "C) They can fly in all directions, including stationary flight (hovering)",
+                    "D) They can stay underwater for long periods"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "Where do Apodiformes birds prefer to inhabit?",
+                  "answers": [
+                    "A) Open and high areas such as mountains and forests",
+                    "B) Deserts and dry plains",
+                    "C) Dense tropical forests",
+                    "D) Coastal aquatic zones"
+                  ],
+                  "correctAnswerIndex": 0
+                },
+                {
+                  "questionText": "What is the relationship of Apodiformes birds with bodies of water?",
+                  "answers": [
+                    "A) They are aquatic birds and swim to catch their food",
+                    "B) They avoid areas near water",
+                    "C) They only use bodies of water for nesting",
+                    "D) They are found near bodies of water where they hunt flying insects"
+                  ],
+                  "correctAnswerIndex": 3
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Black-throated mango",
+                "species": "Anthracothorax nigricollis",
+                "conservation": "LC Least Concern",
+                "description": "The Black-throated Mango is a notable hummingbird for its mostly green plumage and characteristic black throat and underparts. Both sexes have slightly curved bills. It is the most common and widely distributed member of its genus.",
+                "mainImage": "Images/Interfaz/Cartas/AvesdeVueloIntenso/Anthracothorax nigricollis",
+                "habitat": "This species inhabits open vegetation with scattered shrubs and trees, in various humid and dry habitats, including gardens, parks, agricultural plantations, riverbanks, roadsides, and fragmented and degraded landscapes.",
+                "diet": "This hummingbird feeds on nectar from tall trees like eucalyptus and hunts insects in the treetops, including ants, bark lice, and small beetles. It occasionally captures insects lower or on prey-rich surfaces.",
+                "reproduction": "The female builds the nest with seed fluff and spider webs in 4 to 11 days. She lays two eggs 48 hours apart, usually in the morning. Incubation lasts 13 to 18 days.",
+                "size": "It measures between 11 and 12 centimeters in length.",
+                "funFact1": "Sexual dimorphism: Males have dark, iridescent plumage, while females are duller and less brightly colored.",
+                "funFact2": "Migratory flights: Although not all populations migrate, some individuals of this species make seasonal movements in search of food.",
+                "location": "Ecohotel El Castillo.",
+                "bibliography": "The hummingbird Anthracothorax nigricollis plays an important role in plant pollination, helping with the reproduction of various plant species. Additionally, by consuming small insects, it contributes to controlling their populations."
+              }
+            },
+            {
+              "modelIndex": 9,
+              "questions": [
+                {
+                  "questionText": "What adaptation allows Caprimulgiformes to be efficient in catching insects while flying?",
+                  "answers": [
+                    "A) Long and strong feet",
+                    "B) Curved and sharp beak",
+                    "C) Large and wide mouth",
+                    "D) Vibrant colored feathers"
+                  ],
+                  "correctAnswerIndex": 2
+                },
+                {
+                  "questionText": "What type of habitat is preferred by Caprimulgiformes for nesting?",
+                  "answers": [
+                    "A) Urban areas with tall buildings",
+                    "B) Arid deserts with little vegetation",
+                    "C) Open grassland areas without cover",
+                    "D) Dense forests and scrublands"
+                  ],
+                  "correctAnswerIndex": 3
+                },
+                {
+                  "questionText": "What is the primary food source for Caprimulgiformes birds?",
+                  "answers": [
+                    "A) Nocturnal insects such as moths and mosquitoes",
+                    "B) Fruits and seeds",
+                    "C) Small mammals",
+                    "D) Fish and crustaceans"
+                  ],
+                  "correctAnswerIndex": 0
+                }
+              ],
+              "birdInfo": {
+                "birdName": "Common nighthawk ",
+                "species": "Chordeiles minor",
+                "conservation": "LC Least Concern",
+                "description": "This species often sleeps on tree branches or on the ground and has experienced a 50% decline in Canada over the last three generations, being classified as threatened. This could be due to predation, pesticide use, and habitat loss.",
+                "mainImage": "Images/Interfaz/Cartas/AvesdeVueloIntenso/Chordeiles minor",
+                "habitat": "It actively pursues flying insects in flight, often catching those attracted to streetlights and other bright lights.",
+                "diet": "This bird feeds on large insects during the night and is seen flying near bright lights in places like supermarkets and ball games. Its flight is distinctive, with V-shaped wings, and it hunts insects at dawn and dusk in urban and rural areas.",
+                "reproduction": "Incubation is generally performed by the female, although sometimes the male participates. She leaves the eggs or chicks unsupervised at night and usually lays two eggs on bare ground, sometimes nesting on gravel roofs.",
+                "size": "It measures between 22 and 24 centimeters in length.",
+                "funFact1": "Long migration: These birds make massive migrations, traveling from North America to South America, covering great distances during the winter.",
+                "funFact2": "Twilight flights: The Chordeiles minor is most active at dawn and dusk, being one of the few birds that hunt insects in flight during those hours.",
+                "location": "Club Campestre Farallones.",
+                "bibliography": "This bird is crucial for controlling populations of flying insects, as it primarily feeds on them during its twilight and nocturnal flights. This helps maintain ecological balance by reducing mosquito and other insect pests, benefiting various species within its environment."
+              }
+            } 
           ]
         },
 
 
 
-            {
+            
+        
+        {
               "birdTypeId": 3,
               "allModelQuestions": [
                 {
@@ -834,7 +1038,7 @@
                         "C) On all continents including Antarctica",
                         "D) On all continents except Antarctica"
                       ],
-                      "correctAnswerIndex": 3
+                      "correctAnswerIndex": 2
                     },
                     {
                       "questionText": "What adaptations do Falconiformes' wings have?",
@@ -1064,6 +1268,56 @@
                   }
                 },
                 {
+                  "modelIndex": 8,
+                  "questions": [
+                    {
+                      "questionText": "What is the main food source of the Black Vulture?",
+                      "answers": [
+                        "A) Insects and small rodents",
+                        "B) Fruits and seeds",
+                        "C) Carrion, mostly large mammals",
+                        "D) Fish and seafood"
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "Where do Black Vultures usually nest?",
+                      "answers": [
+                        "A) High up in trees",
+                        "B) In crevices between rocks or hollow trunks",
+                        "C) In floating nests on lakes",
+                        "D) Underground in burrows"
+                      ],
+                      "correctAnswerIndex": 1
+                    },
+                    {
+                      "questionText": "What ecological role does the Black Vulture fulfill?",
+                      "answers": [
+                        "A) Disperses seeds to help regenerate forests",
+                        "B) Controls populations of rodents and snakes",
+                        "C) Helps clean the ecosystem by consuming dead animals",
+                        "D) Contributes to pest control in urban areas"
+                      ],
+                      "correctAnswerIndex": 2
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "Cinereous Vulture",
+                    "species": "Aegypius monachus",
+                    "conservation": "LC least concern",
+                    "description": "The pair is monogamous and maintains a long-term pair bond. They closely associate throughout the year and can feed their young up to eight months after fledging.",
+                    "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
+                    "habitat": "It is mainly found in open or semi-open habitats with abundant carrion to feed on, such as farms, savannas, grasslands, clearings, mangroves, and villages. It is associated with human settlements and feeds on streets, landfills, and around slaughterhouses.",
+                    "diet": "Primarily relies on carrion, mostly large mammals, but is opportunistic and easily scavenges trash, scraps, and other discarded edible waste. Occasionally consumes live prey. Food sources can be found in markets, slaughterhouses, fish-dumping areas, and garbage dumps.",
+                    "reproduction": "Typically nests in dark cavities or under some form of cover. Caves, hollow trunks, stumps, tree trunks, crevices between rocks, brush piles, shrubs, abandoned buildings, and sites next to or under trees and logs are all used. Almost always 2 eggs.",
+                    "size": "Measures between 60 and 68 cm in length.",
+                    "funFact1": "Instead of building a nest, the female lays her eggs on the bare ground of a cave, hollow tree, abandoned building, or other dark corner.",
+                    "funFact2": "There has been concern about the species' threat to aircraft, as well as its impact on personal property, public infrastructure, and especially agriculture, through the alleged predation of livestock.",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "It has an important ecological impact as a scavenger, helping to clean the ecosystem by consuming dead animals. This prevents the spread of diseases and maintains balance in decomposition cycles. However, in some urbanized areas, its presence can increase due to the availability of garbage, which may create imbalances by competing with other scavengers and altering the natural dynamics of ecosystems."
+                  }
+                },
+                {
                   "modelIndex": 6,
                   "questions": [
                     {
@@ -1112,9 +1366,9 @@
                     "location": "Ecohotel El Castillo",
                     "bibliography": "Rostrhamus sociabilis, commonly known as the Snail Kite, has several important ecological effects on its ecosystem: Control of snail populations: By primarily feeding on freshwater snails, the Snail Kite helps regulate their populations, contributing to the ecological balance of its aquatic habitat. This control of invertebrates is essential for maintaining the health of wetland ecosystems. Interaction with other organisms: As a predator, the Snail Kite plays a crucial role in the food chain. Its presence can influence the dynamics of other species, both as prey for birds of prey and other predators, and by controlling the populations of its prey. Ecosystem health indicator: The abundance and distribution of the Snail Kite can be indicators of the health of wetlands and freshwater bodies, as their well-being depends on a healthy aquatic ecosystem. Seed dispersal: Although its diet is predominantly carnivorous, the Snail Kite can also contribute to seed dispersal if it occasionally consumes fruits, promoting vegetation regeneration and diversity in its environment."
                   }
-                },
+                },        
                 {
-                  "modelIndex": 6,
+                  "modelIndex": 7,
                   "questions": [
                     {
                       "questionText": "How is the vision of Falconiformes compared to humans?",
@@ -1149,7 +1403,7 @@
                   ],
                   "birdInfo": {
                     "birdName": "Crested Caracara",
-                    "species": "Rostrhamus sociabilis",
+                    "species": "caraca cheriway",
                     "conservation": "LC least concern",
                     "description": "This medium-sized bird of prey, with black and white plumage and yellow legs and face, is easily identifiable when perched in high places. It is distinguished by its low flight and powerful wingbeats. Females are slightly larger, with a long tail and extended neck. Although it rarely soars, thermal currents can quickly lift it.",
                     "mainImage": "Images/Interface/Cards/Birds_of_Prey/crested",
@@ -1162,13 +1416,115 @@
                     "location": "Ecohotel El Castillo",
                     "bibliography": "-Population control: By feeding on a wide variety of animals, such as insects, small vertebrates, and carrion, it contributes to the control of these populations, maintaining ecological balance. Its role as a scavenger also helps remove dead animals, preventing the spread of diseases. -Nutrient recycling: By consuming carrion, the Crested Caracara contributes to nutrient recycling, speeding up the decomposition process and promoting ecosystem health. -Food chain interaction: As both a predator and scavenger, it influences the dynamics of other species by controlling prey populations and competing for carrion with other scavengers, like vultures."
                   }
-                }
+                },
+                {
+                  "modelIndex": 8,
+                  "questions": [
+                    {
+                      "questionText": "What type of vision do raptors of the Accipitriformes order have?",
+                      "answers": [
+                        "A) Blurry vision",
+                        "B) Monochromatic vision",
+                        "C) Extremely sharp vision",
+                        "D) Monocular vision"
+                      ],
+                      "correctAnswerIndex": 2
+                    },
+                    {
+                      "questionText": "What allows raptors of the Accipitriformes order to adapt to different environments?",
+                      "answers": [
+                        "A) Their ability to fly long distances",
+                        "B) Their exclusively herbivorous diet",
+                        "C) Their preference for warm and humid climates",
+                        "D) The wide availability of prey in various habitats"
+                      ],
+                      "correctAnswerIndex": 3
+                    },
+                    {
+                      "questionText": "How do Accipitriformes affect populations of small mammals and reptiles?",
+                      "answers": [
+                        "A) They increase them",
+                        "B) They reduce and keep them balanced",
+                        "C) They promote the growth of these populations by protecting them from other predators",
+                        "D) They do not significantly affect these populations"
+                      ],
+                      "correctAnswerIndex": 1
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "Broad-winged hawk",
+                    "species": "Buteo platypterus",
+                    "conservation": "LC Least Concern",
+                    "description": "It is characterized by its broad and short wings, adapted for flying in forests, and its massive migration in large groups.",
+                    "mainImage": "Images/Interfaz/Cartas/Rapaces/Buteo platypterus",
+                    "habitat": "Found in urban and suburban parks and gardens. It winters in older secondary forests and Amazonian forests.",
+                    "diet": "It mainly feeds on small mammals, birds, insects, and reptiles. Two essential characteristics are its ability to migrate long distances and its sharp vision for hunting.",
+                    "reproduction": "Pairs build the nest, with the female doing most of the work. Nests are often located on old nests from other species. The female performs most of the incubation, while the male provides food. Clutches usually consist of 3 or 4 eggs.",
+                    "size": "It measures between 34 and 44 centimeters in length.",
+                    "funFact1": "The male may be able to complete incubation if the female dies.",
+                    "funFact2": "The male only visits the nest after transferring food to the female outside of the nest.",
+                    "location": "Ecoparque Río Pance.",
+                    "bibliography": "The Buteo platypterus plays a key role in ecological balance. It controls populations of small mammals, birds, reptiles, and insects, regulating the food chain. Additionally, it contributes to soil fertility through nutrient dispersal via its droppings. Its role as a top predator maintains stability in the ecosystems it inhabits."
+                  }
+                },
+                {
+                  "modelIndex": 9,
+                  "questions": [
+                    {
+                      "questionText": "Aside from hunting, what other food source do many Accipitriformes species rely on?",
+                      "answers": [
+                        "A) Carrion",
+                        "B) Insects",
+                        "C) Nectar",
+                        "D) Fresh fish"
+                      ],
+                      "correctAnswerIndex": 0
+                    },
+                    {
+                      "questionText": "These birds, also called Vultures, how do they contribute to the ecosystem?",
+                      "answers ": [
+                        "A) They clean the environment by consuming dead animals",
+                        "B) They transport water to other animals",
+                        "C) They create burrows to take shelter",
+                        "D) By controlling insect populations"
+                      ],
+                      "correctAnswerIndex": 0
+                    },
+                    {
+                      "questionText": "What do many species of Accipitriformes, such as eagles, symbolize culturally?",
+                      "answers": [
+                        "A) Destruction",
+                        "B) Isolation",
+                        "C) Peace and tranquility",
+                        "D) Power and majesty"
+                      ],
+                      "correctAnswerIndex": 3
+                    }
+                  ],
+                  "birdInfo": {
+                    "birdName": "Black vulture",
+                    "species": "Coragyps atratus",
+                    "conservation": "LC Least Concern",
+                    "description": "The pair is monogamous and maintains a long-term bond. They remain closely associated throughout the year and can feed their young for up to eight months after fledging.",
+                    "mainImage": "Images/Interfaz/Cartas/Rapaces/Coragyps atratus",
+                    "habitat": "It is mainly found in open or semi-open habitats with abundant carrion to feed on, such as farms, savannas, grasslands, clearings, mangroves, and towns.",
+                    "diet": "This bird primarily feeds on carrion, especially large mammals, but also scavenges for garbage and edible waste. It occasionally consumes live prey and can find food in markets, slaughterhouses, and landfills.",
+                    "reproduction": "It typically nests in dark hollows or under some type of cover. Caves, hollow logs, stumps, and tree trunks, rock crevices, brush piles, bushes, abandoned buildings, and sites beside or beneath trees and logs are all used. Almost always 2 eggs.",
+                    "size": "It measures between 60 and 68 centimeters in length.",
+                    "funFact1": "Instead of building a nest, the female lays her eggs on the bare ground in a cave, a hollow tree, an abandoned building, or another dark corner.",
+                    "funFact2": "There are concerns about the species' threat to aircraft, as well as its impact on personal property, public infrastructure, and particularly agriculture through alleged predation on livestock.",
+                    "location": "Ecohotel El Castillo",
+                    "bibliography": "It has a significant ecological impact as a scavenger, helping to clean the ecosystem by consuming dead animals. This prevents the spread of diseases and maintains balance in decomposition cycles. However, in some urbanized areas, its presence may increase due to the availability of garbage, which could cause imbalances by competing with other scavengers and disrupting the natural dynamics of ecosystems."
+                  }
+                } 
               ]
             },                
 
 
 
-                {
+               
+            
+            {
                   "birdTypeId": 4,
                   "allModelQuestions": [
                     {
@@ -1307,7 +1663,7 @@
                       ],
                       "birdInfo": {
                         "birdName": "Singing Guan",
-                        "species": "Columbina talpacoti",
+                        "species": "Chamaepetes goudoti",
                         "conservation": "LC least concern",
                         "description": "This small-sized guan has distinctive plumage. Its body combines a bright chestnut belly, dark upper parts, brown neck and head, along with pale blue facial skin and red eyes. It is a stealthy and discreet species, tending to hide quickly when disturbed, and is generally silent, which helps it go unnoticed.",
                         "mainImage": "Images/Interface/Cards/Gallineceas/SingingGuan",
@@ -1370,13 +1726,163 @@
                         "location": "Ecohotel El Castillo",
                         "bibliography": "-Seed dispersal: These birds feed on fruits and seeds, helping the dispersal of plants in the forests where they live. By consuming the fruits and excreting the seeds, they facilitate the regeneration of vegetation in deforested or degraded areas. -Vegetation control: By consuming large quantities of seeds and fruits, they help control the growth of some plants, maintaining the balance in the ecosystems they inhabit."
                       }
+                    },
+                    {
+                      "modelIndex": 4,
+                      "questions": [
+                        {
+                          "questionText": "What type of body do Galliform birds have?",
+                          "answers": [
+                            "A) Slim body and long wings",
+                            "B) Small and lightweight body",
+                            "C) Sturdy body and strong legs",
+                            "D) Graceful and light, perfect for gliding long distances"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "What type of areas do Galliform species adapted to agricultural life prefer?",
+                          "answers": [
+                            "A) Agricultural areas with abundant food",
+                            "B) Urban areas",
+                            "C) Desert regions",
+                            "D) Mountain areas with steep slopes"
+                          ],
+                          "correctAnswerIndex": 0
+                        },
+                        {
+                          "questionText": "What ecological function do Galliform birds serve in their natural habitat?",
+                          "answers": [
+                            "A) Help to eliminate weeds only",
+                            "B) Only serve as prey for other predators",
+                            "C) Contribute to pollination and seed dispersal",
+                            "D) Contribute to the formation of aquatic habitats"
+                          ],
+                          "correctAnswerIndex": 2
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Scaled curassow",
+                        "species": "Chamaepetes goudotii",
+                        "conservation": "LC Least Concern",
+                        "description": "It is a stealthy and discreet species, quickly hiding when disturbed, and generally silent, making it easy to go unnoticed.",
+                        "mainImage": "Images/Interface/Cards/Galliformes/Chamaepetes goudotii",
+                        "habitat": "It mainly inhabits subtropical humid forests but can also be found in low temperate areas, secondary forests, and coffee plantations, sometimes near roads.",
+                        "diet": "Its diet is primarily based on fruits, complemented with seeds, flowers, leaves, and invertebrates.",
+                        "reproduction": "The female lays 2 to 3 eggs and incubates them without help from the male. They build elongated and shallow nests in trees or epiphytic plants using leaves and vines.",
+                        "size": "It measures between 50 and 65 centimeters in length.",
+                        "funFact1": "This bird is very elusive and difficult to observe, as it spends most of its time hidden among the dense canopy vegetation of the forests.",
+                        "funFact2": "This bird performs a curious head and neck movement in its nest, believed to help roll the eggs and strengthen the nest structure.",
+                        "location": "Cali Botanical Garden.",
+                        "bibliography": "This species disperses seeds by feeding on fruits, helping to regenerate forests and maintain biodiversity. By consuming invertebrates, it also contributes to insect population control in its ecosystem."
+                      }
+                    },
+                    {
+                      "modelIndex": 5,
+                      "questions": [
+                        {
+                          "questionText": "What unique characteristic of Columbiform birds allows them to feed their young?",
+                          "answers": [
+                            "A) They are monogamous and care for their young in pairs",
+                            "B) They produce a substance called crop milk to feed their young",
+                            "C) They have long and muscular wings for fast flights",
+                            "D) Their plumage varies between gray tones and bright colors"
+                          ],
+                          "correctAnswerIndex": 1
+                        },
+                        {
+                          "questionText": "What type of reproductive behavior is common among Columbiform species?",
+                          "answers": [
+                            "A) They are migratory and travel long distances.",
+                            "B) They build complex nests in hidden places",
+                            "C) They are monogamous and participate in nest building and feeding their young",
+                            "D) They have variable reproductive relationships depending on the season"
+                          ],
+                          "correctAnswerIndex": 2
+                        },
+                        {
+                          "questionText": "What type of human activity has negatively impacted some Columbiform species?",
+                          "answers": [
+                            "A) Use of pesticides",
+                            "B) Competition for food",
+                            "C) Use of vehicles in urban areas",
+                            "D) Illegal hunting and trade"
+                          ],
+                          "correctAnswerIndex": 3
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Rock pigeon",
+                        "species": "Columba livia",
+                        "conservation": "LC Least Concern",
+                        "description": "Rock pigeons are common in urban, suburban, and agricultural areas. Medium-sized, with a dark gray beak, they feed on corn or barley and drink by suction, using their beak like a straw, retracting their tongue to allow water into their mouth.",
+                        "mainImage": "Images/Interface/Cards/Galliformes/Columba livia",
+                        "habitat": "These birds nest in cracks and caves on rocky cliffs, whether by the sea or in inland highlands. Some populations have invaded abandoned buildings, especially near shrubland or agricultural areas.",
+                        "diet": "These birds feed primarily in the morning or late afternoon in open fields, pecking at seeds and fruits, and rarely invertebrates. In the presence of humans, they consume bread, popcorn, peanuts, and vegetable scraps, in addition to capturing larvae and slugs.",
+                        "reproduction": "Both sexes incubate, the male from mid-morning to late afternoon, the female from late afternoon to mid-morning, with both spending roughly the same amount of daylight hours on the nest.",
+                        "size": "It measures between 30 and 36 centimeters in length.",
+                        "funFact1": "Nest site selection is usually initiated by the male, who sits on the nest and calls to attract a mate. If the male dies, the female is likely to seek a new mate elsewhere. The site may be the former nest of a no longer present pair.",
+                        "funFact2": "Eggs are usually laid after the nest is finished or renovated. The first egg is laid in the late afternoon, and the second about 40 hours later.",
+                        "location": "Pance River Ecopark.",
+                        "bibliography": "The rock pigeon (Columba livia), common in urban and rural areas, has diverse ecological effects. In the wild, it helps disperse seeds, contributing to plant regeneration. However, in urbanized areas, their large numbers can cause problems such as the accumulation of droppings, which deteriorates infrastructure and facilitates the spread of diseases. Additionally, by competing with native species for resources, it can affect local biodiversity and alter urban ecosystems."
+                      }
+                    },
+                    {
+                      "modelIndex": 6,
+                      "questions": [
+                        {
+                          "questionText": "What is the primary food source for Columbiform birds?",
+                          "answers": [
+                            "A) Seeds, fruits, and sprouts",
+                            "B) Nuts and meat",
+                            "C) Fish and algae",
+                            "D) Nectar and pollen"
+                          ],
+                          "correctAnswerIndex": 0
+                        },
+                        {
+                          "questionText": "What are pigeon and dove nests usually like?",
+                          "answers": [
+                            "A) Complex and made of diverse materials",
+                            "B) Made in tree cavities with leaves",
+                            "C) Built with mud and stones",
+                            "D) Rudimentary and built with few twigs"
+                          ],
+                          "correctAnswerIndex": 3
+                        },
+                        {
+                          "questionText": "How do pigeons affect agriculture in some areas?",
+                          "answers": [
+                            "A) They increase crop pollination",
+                            "B) They protect crops from predators",
+                            "C) They can be seen as pests that feed on crops",
+                            "D) They facilitate harvest by dispersing seeds"
+                          ],
+                          "correctAnswerIndex": 2
+                        }
+                      ],
+                      "birdInfo": {
+                        "birdName": "Esred dove",
+                        "species": "Zenaida auriculata",
+                        "conservation": "LC Least Concern",
+                        "description": "It has been observed that these birds return to traditional roosting sites even after the trees have been cut down, where they may rest on the ground or in low bushes.",
+                        "mainImage": "Images/Interface/Cards/Galliformes/Zenaida auriculata",
+                        "habitat": "It inhabits arid to semi-arid shrublands, sometimes with scattered trees or irregular forests; it generally avoids tropical forests and is commonly seen in some large cities.",
+                        "diet": "It feeds on corn, wheat, rice, and soybeans, with only a small proportion of its diet consisting of wild plant seeds.",
+                        "reproduction": "It builds a small stick nest in a mangrove or small tree, or on the ground; it has even been found nesting on the roof beam of an abandoned farmhouse. The clutch size is usually two eggs.",
+                        "size": "It measures between 22 and 28 centimeters in length.",
+                        "funFact1": "It has a high reproductive capacity, breeding several times a year and nesting in colonies, which facilitates its survival. This characteristic has made it a pest in some regions due to damage to crops.",
+                        "funFact2": "In Chile, this species is hunted for consumption.",
+                        "location": "El Castillo Ecohotel",
+                        "bibliography": "These birds help with seed dispersal by consuming them and excreting them, contributing to plant regeneration and maintaining ecosystem biodiversity. Additionally, as part of the food chain, they serve as prey for predators like hawks and sparrowhawks, helping maintain ecological balance. Their abundance makes them a reliable food source in rural and urban environments."
+                      }
                     }
-                    
                   ]
                 },
 
 
 
+                
                 {
                   "birdTypeId": 5,
                   "allModelQuestions": [
@@ -1631,7 +2137,7 @@
             }
           },
           {
-            "modelIndex": 6,
+            "modelIndex": 5,
             "questions": [
               {
                 "questionText": "On which continent are Psittaciformes NOT naturally found?",
@@ -1679,13 +2185,218 @@
               "location": "Universidad Javeriana de Cali",
               "bibliography": "The Ara severus plays an important role in its ecosystem as a seed disperser. By feeding on fruits and seeds, it disperses a wide variety of plant species, helping forest regeneration and promoting plant diversity. It also contributes to the natural pruning of trees and branches, promoting healthy plant growth."
             }
-          }
+          },
+          {
+            "modelIndex": 6,
+            "questions": [
+              {
+                "questionText": "Where do Psittaciformes generally nest?",
+                "answers": [
+                  "A) On the ground",
+                  "B) In floating nests",
+                  "C) In underground caves",
+                  "D) In tree cavities"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "What other food, besides fruits, seeds, and nectar, do some Psittaciformes species consume?",
+                "answers": [
+                  "A) Leaves and bark",
+                  "B) Eggs of other birds",
+                  "C) Insects and larvae",
+                  "D) Small fish"
+                ],
+                "correctAnswerIndex": 2
+              },
+              {
+                "questionText": "What makes the plumage of Psittaciformes birds unique?",
+                "answers": [
+                  "A) It is completely black",
+                  "B) It is a single color",
+                  "C) It is vibrant and multicolored",
+                  "D) It is very fine and translucent"
+                ],
+                "correctAnswerIndex": 2
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Yellow-crowned amazon",
+              "species": "Amazona ochrocephala",
+              "conservation": "LC Least Concern",
+              "description": "Its name comes from the yellow on its forehead, characteristic of the superspecies group. It is a year-round resident in its range, although some birds may move due to food shortages, forming occasional flocks.",
+              "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Amazona ochrocephala",
+              "habitat": "It inhabits deciduous tropical forests, thorny scrublands, humid gallery forests, flooded areas, mangroves, pine savannas, and cultivated lands with groves, mainly in the lowlands of Venezuela and Colombia.",
+              "diet": "It feeds on fruits, seeds, and flowers of trees such as Pithecellobium, Acacia, and Ficus, as well as crops like corn, bananas, and guavas. It is usually seen in pairs or small flocks of up to 30 birds, though they can form flocks of up to 300 individuals.",
+              "reproduction": "2-4 eggs laid at 1-5 day intervals (usually two days); incubation 22-28 (average 25) days by the female alone, starting with the first egg.",
+              "size": "Measures between 35 and 38 centimeters in length.",
+              "funFact1": "Excellent mimic of human sounds in captivity, like other members of the same complex, and like them, there is evidence of regional dialects in this species.",
+              "funFact2": "The main cause of reproductive failure in these birds is poaching by humans (77.8% of nests; 49 out of 63).",
+              "location": "Ecoparque Río Pance.",
+              "bibliography": "Amazona ochrocephala, known as the yellow-crowned parrot, plays a vital role in its ecosystem by dispersing seeds. By feeding on a variety of fruits, it helps disperse seeds and facilitates the regeneration and diversity of vegetation in forests. Additionally, by consuming flowers and nectar, it also acts as an occasional pollinator, supporting plant reproduction."
+            }
+          },
+          {
+            "modelIndex": 7,
+            "questions": [
+              {
+                "questionText": "What feature distinguishes the feet of Piciformes birds?",
+                "answers": [
+                  "A) They have toes arranged in a zigzag pattern",
+                  "B) They have five toes in total",
+                  "C) They have two toes forward and two backward",
+                  "D) They have long, thin toes"
+                ],
+                "correctAnswerIndex": 2
+              },
+              {
+                "questionText": "In what type of habitats are Piciformes birds commonly found?",
+                "answers": [
+                  "A) Deserts and dunes",
+                  "B) Tropical and temperate forests",
+                  "C) Open prairies",
+                  "D) Mountain peaks"
+                ],
+                "correctAnswerIndex": 1
+              },
+              {
+                "questionText": "How do woodpeckers feed on larvae?",
+                "answers": [
+                  "A) Using their beak to drill and their long tongue to capture larvae hidden in tree trunks",
+                  "B) Chasing larvae on the ground",
+                  "C) Diving into water to catch aquatic larvae",
+                  "D) Collecting larvae from leaves"
+                ],
+                "correctAnswerIndex": 0
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Red-croened woopecker",
+              "species": "Melanerpes rubricapillus",
+              "conservation": "LC Least Concern",
+              "description": "It may benefit from forest clearing; its population tends to increase in areas where clearing and logging create more open forests. It is considered a local nuisance in plantations and gardens due to its fruit-eating habits.",
+              "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Melanerpes rubricapillus",
+              "habitat": "These birds reside in both arid and humid habitats, such as coastal scrublands, dry forests, and urban areas. They prefer higher levels in wooded areas and lower levels in open spaces.",
+              "diet": "Its diet consists of ants, beetles, larvae, orthopterans, spiders, and fruits such as papayas and bananas. They forage individually or in pairs at all levels of the forest.",
+              "reproduction": "Nests in cacti, fence posts, and trees, being a solitary and territorial breeder. The clutch consists of 3-4 eggs, incubated by both sexes. Usually, 2 chicks are raised, which are fed and cared for by both parents for about 1 month.",
+              "size": "Measures between 16 and 18.5 centimeters in length.",
+              "funFact1": "Monogamous, they stay together all year but sleep individually in holes.",
+              "funFact2": "Foraging techniques include hammering bark, probing, collecting from trunks, branches, and foliage, and reaching for fruits; it pierces the skin of larger fruits to obtain content.",
+              "location": "Ecohotel El Castillo.",
+              "bibliography": "Melanerpes rubricapillus, known as the red-crowned woodpecker, has significant ecological impacts by contributing to pest control as it feeds on insects, including larvae that live under tree bark. Additionally, by excavating holes in trunks to nest, it creates cavities that can later be used by other species, such as smaller birds and mammals, enhancing nest site availability and promoting biodiversity."
+            }
+          },
+          {
+            "modelIndex": 8,
+            "questions": [
+              {
+                "questionText": "What is a distinguishing characteristic of Coraciiformes birds?",
+                "answers": [
+                  "A) Long, sturdy beak",
+                  "B) Short, weak beak",
+                  "C) Very small wings",
+                  "D) Completely white plumage"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "Where are Coraciiformes birds commonly found?",
+                "answers": [
+                  "A) Only in deserts",
+                  "B) Only in mountainous areas",
+                  "C) In tree canopies",
+                  "D) In areas near bodies of water"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "How do they contribute to seed dispersal?",
+                "answers": [
+                  "A) They eat and digest seeds",
+                  "B) They only hunt animals",
+                  "C) They consume fruits and disperse the seeds in other areas",
+                  "D) They destroy seeds"
+                ],
+                "correctAnswerIndex": 2
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Ringed kingfisher",
+              "species": "Megaceryle torquata",
+              "conservation": "LC Least Concern",
+              "description": "Large head with a striking, irregular crest that covers the entire crown from the base of the beak to the nape. The upperparts and wings are bluish-gray, except for the blackish flight feathers.",
+              "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Megaceryle torquata",
+              "habitat": "Inhabits along rivers, lakes, swamps, estuaries, water reservoirs, mangroves, and rice fields. It can be observed in wooded areas near the coastline.",
+              "diet": "This bird is piscivorous and primarily feeds on fish, especially from the families Characidae and Cichlidae, though it also consumes frogs, salamanders, reptiles, crabs, and insects. It often perches on branches over the water, diving abruptly to catch its prey.",
+              "reproduction": "Burrows are usually near water and are dug by both sexes, loosening soil with their beak and pushing it out with their feet. Excavation, which begins several days before laying eggs, lasts 4 to 5 minutes. They lay 3 to 6 eggs.",
+              "size": "Measures between 38 and 42 centimeters in length.",
+              "funFact1": "Incubating birds regurgitate (relaxed flow of stomach contents out through the mouth, often via belching) undigested fish scales and bones, attracting flies to the nest chamber.",
+              "funFact2": "If prey is still alive, it will strike it against a hard surface to kill or stun it before consumption.",
+              "location": "Pance River.",
+              "bibliography": "Megaceryle torquata, the ringed kingfisher, has a vital role in freshwater ecosystems by controlling fish populations. By preying on small fish, the kingfisher helps maintain balance within aquatic food chains, preventing overpopulation of certain fish species, which could otherwise harm vegetation and invertebrates in their habitats."
+            }
+          },
+          {
+            "modelIndex": 9,
+            "questions": [
+              {
+                "questionText": "What is the function of the beak of Piciformes birds, like the woodpecker?",
+                "answers": [
+                  "A) To drill tree bark",
+                  "B) To swim",
+                  "C) To cut fruits",
+                  "D) To catch insects in flight"
+                ],
+                "correctAnswerIndex": 0
+              },
+              {
+                "questionText": "What type of habitat do barbets prefer?",
+                "answers": [
+                  "A) Arid deserts",
+                  "B) Arctic zones",
+                  "C) Mangroves",
+                  "D) Tropical forests"
+                ],
+                "correctAnswerIndex": 3
+              },
+              {
+                "questionText": "What is the role of woodpeckers in the ecosystems they inhabit?",
+                "answers": [
+                  "A) Create holes in tree trunks that are later used by other species",
+                  "B) Produce pollen for plants",
+                  "C) Transform tree bark into food",
+                  "D) Clean the leaves of trees"
+                ],
+                "correctAnswerIndex": 0
+              }
+            ],
+            "birdInfo": {
+              "birdName": "Spotted-breasted woodpecker",
+              "species": "Colaptes punctigula",
+              "conservation": "LC Least Concern",
+              "description": "Sexual dimorphism. The forehead is black, the crown is red, the sides of the head are white, bordered below by a red mustache (only in males). Females lack the red mustache below the white sides of the head. Its preference for more open forests means it is not heavily affected by logging.",
+              "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Colaptes punctigula",
+              "habitat": "This species inhabits diverse environments, including rainforests, deciduous and gallery forests, as well as secondary forests, mangroves, swamp edges, plains, and open lands with large trees. It can also be found in scrublands, clearings, moriche palm groves, and coffee plantations.",
+              "diet": "They feed on ants and their larvae, living in pairs or family groups. They forage on trees at medium and low heights and also descend to the ground to search for food in ant nests. In trees, they use gleaning, probing, and pecking techniques, while on the ground, they probe and sweep the leaf litter.",
+              "reproduction": "Nests consist of holes excavated by both sexes in the trunks of dead trees at medium or high heights, sometimes in fence posts. During close encounters, they display rocking movements and shake their heads and extended tails.",
+              "size": "It measures between 18 and 21 centimeters in length.",
+              "funFact1": "Ground Foraging Behavior: Unlike many other woodpeckers, the spotted-breasted woodpecker often forages on the ground, digging for insects and ants, which is an unusual behavior for most woodpecker species.",
+              "funFact2": "Drumming Communication: This species uses a behavior called drumming, which consists of repeatedly tapping on tree trunks with its beak. This sound is used to mark territory and attract a mate, serving as an important form of communication within the species.",
+              "location": "Cali Botanical Garden.",
+              "bibliography": "Colaptes punctigula contributes to pest control by feeding on insects and larvae found in tree trunks and soil, benefiting the health of trees and reducing pest proliferation. Additionally, by drilling tree trunks to create nests, it generates cavities that can later be used by other species, such as birds and small mammals, promoting fauna diversity in the area."
+            }
+          }  
         ]
       },
 
 
 
-          {
+         
+      
+      
+      
+      
+      {
             "birdTypeId": 6,
             "allModelQuestions": [
               {
@@ -1785,8 +2496,7 @@
                   "funFact1": "Forages in pairs or small family groups in dense vegetation near the ground or mid-level tree canopies.",
                   "funFact2": "Partially dependent on parents for up to 43 days, benefits from deforestation, spreading into clearings and plantations, where it is often common.",
                   "location": "Universidad Javeriana de Cali",
-                  "ecosystem": "Todirostrum cinereum plays an important role as an insect population controller, feeding primarily on them, including mosquitoes, ants, and other small insects. This helps maintain balance in the ecosystem and reduce the proliferation of pests. Additionally, by consuming small fruits and dispersing seeds through its droppings, it helps regenerate and diversify vegetation in its habitat, contributing to the health of the ecosystem where it lives.",
-                  "bibliography": "BirdLife International, 2019"
+                  "bibliography": "Todirostrum cinereum plays an important role as an insect population controller, feeding primarily on them, including mosquitoes, ants, and other small insects. This helps maintain balance in the ecosystem and reduce the proliferation of pests. Additionally, by consuming small fruits and dispersing seeds through its droppings, it helps regenerate and diversify vegetation in its habitat, contributing to the health of the ecosystem where it lives."
                 }
               },
               {
@@ -2041,7 +2751,7 @@
                 }
               },
               {
-                "modelIndex": 6,
+                "modelIndex": 7,
                 "questions": [
                   {
                     "questionText": "How does ecotourism contribute to the conservation of songbirds?",
@@ -2091,7 +2801,7 @@
                 }
               },
               {
-                "modelIndex": 6,
+                "modelIndex": 8,
                 "questions": [
                   {
                     "questionText": "What kind of food do songbirds usually eat?",
@@ -2141,7 +2851,7 @@
                 }
               },
               {
-                "modelIndex": 6,
+                "modelIndex": 9,
                 "questions": [
                   {
                     "questionText": "What is the preferred habitat of many songbirds for nesting and reproduction?",
@@ -2197,42 +2907,46 @@
 
 
 
-              {
+             
+          
+          
+          {
                 "birdTypeId": 7,
                 "allModelQuestions": [
                     {
                       "modelIndex": 6,
                       "questions": [
                         {
-                          "questionText": "What adaptation allows Caprimulgiformes to efficiently catch insects while flying?",
+                          "questionText": "What general characteristic is common in strange birds?",
                           "answers": [
-                            "A) Long and strong feet",
-                            "B) Curved and sharp beak",
-                            "C) Large and wide mouth",
-                            "D) Brightly colored feathers"
+                            "A) Bright colors and extravagant patterns in their plumage",
+                            "B) Uniform and dull plumage",
+                            "C) Average body shape",
+                            "D) Short and uniform beaks"
                           ],
-                          "correctAnswerIndex": 2
+                          "correctAnswerIndex": 0
                         },
                         {
-                          "questionText": "How do Caprimulgiform birds camouflage themselves in their environment?",
+                          "questionText": "How do strange birds contribute to ecosystems?",
                           "answers": [
-                            "A) Through their bright colors",
-                            "B) By burying themselves underground",
-                            "C) By using plumage that mimics the surroundings, such as leaves and branches",
-                            "D) By placing themselves in water to blend with the reflection"
+                            "A) They have no impact",
+                            "B) They harm other animals",
+                            "C) They only live in urban areas",
+                            "D) They occupy unique ecological niches that contribute to biodiversity"
                           ],
-                          "correctAnswerIndex": 2
+                          "correctAnswerIndex": 3
                         },
                         {
-                          "questionText": "What is one of the main adaptations of Caprimulgiformes for nocturnal flight?",
+                          "questionText": "What behavior do some strange birds exhibit at night?",
                           "answers": [
-                            "A) Plumage that changes color in the dark",
-                            "B) Wings with membranes that reflect light",
-                            "C) Eyes adapted to low light conditions",
-                            "D) Long legs that allow for silent flight"
+                            "A) They are diurnal",
+                            "B) They feed exclusively on fruits",
+                            "C) They are nocturnal and active during the night",
+                            "D) They hide underwater"
                           ],
                           "correctAnswerIndex": 2
                         }
+                      
                       ],
                       "birdInfo": {
                         "birdName": "Common Potoo",

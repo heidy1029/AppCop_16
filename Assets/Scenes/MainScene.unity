@@ -493,8 +493,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2109462581}
   m_HandleRect: {fileID: 2109462580}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.9999997
+  m_Value: -0.0000006234647
+  m_Size: 0.89753777
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -878,8 +878,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5455004}
-  m_AnchoredPosition: {x: -5.2472, y: 50.134}
-  m_SizeDelta: {x: 231.2227, y: 128.31}
+  m_AnchoredPosition: {x: -2.9823, y: 46.705334}
+  m_SizeDelta: {x: 215.5072, y: 131.3236}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &712717627
 MonoBehaviour:
@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 935768470}
   - component: {fileID: 935768469}
   m_Layer: 5
-  m_Name: Trivias
+  m_Name: biodiversidad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1452,7 +1452,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00007809745}
+  m_AnchoredPosition: {x: 0, y: 391.58725}
   m_SizeDelta: {x: 0, y: 3823}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &963194225
@@ -1627,7 +1627,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 970.4619, y: 146.23}
+  m_SizeDelta: {x: 1120.3391, y: 168.8136}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1003180505
 MonoBehaviour:
@@ -1760,7 +1760,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 215
     m_Right: 134
-    m_Top: 129
+    m_Top: 464
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 0
+    m_Top: 142
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: -17.8
@@ -1967,6 +1967,7 @@ GameObject:
   - component: {fileID: 1136998176}
   - component: {fileID: 1136998178}
   - component: {fileID: 1136998177}
+  - component: {fileID: 1136998179}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2013,7 +2014,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hola Daniela
+  m_text: Hola, Bienvenid@
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6, type: 2}
   m_sharedMaterial: {fileID: 6312716481995716874, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6,
@@ -2091,6 +2092,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136998175}
   m_CullTransparentMesh: 1
+--- !u!114 &1136998179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136998175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6119e7816a05c4349912682eb1c74c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: bienvenido
 --- !u!1 &1268324069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,7 +2158,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 195
     m_Right: 189
-    m_Top: 13
+    m_Top: 243
     m_Bottom: -21
   m_ChildAlignment: 1
   m_Spacing: -52.87
@@ -2268,6 +2282,7 @@ GameObject:
   - component: {fileID: 1482703430}
   - component: {fileID: 1482703432}
   - component: {fileID: 1482703431}
+  - component: {fileID: 1482703433}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -2392,6 +2407,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482703429}
   m_CullTransparentMesh: 1
+--- !u!114 &1482703433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482703429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6119e7816a05c4349912682eb1c74c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: realizar
 --- !u!1 &1528364976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,6 +2431,7 @@ GameObject:
   - component: {fileID: 1528364977}
   - component: {fileID: 1528364979}
   - component: {fileID: 1528364978}
+  - component: {fileID: 1528364980}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2479,8 +2508,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 95
+  m_fontSizeBase: 95
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2529,6 +2558,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528364976}
   m_CullTransparentMesh: 1
+--- !u!114 &1528364980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528364976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6119e7816a05c4349912682eb1c74c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: biodiversidad
 --- !u!1 &1578807981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2611,8 +2653,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 106445083}
   m_HandleRect: {fileID: 106445082}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.99999994
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2742,6 +2784,7 @@ GameObject:
   - component: {fileID: 1715684915}
   - component: {fileID: 1715684917}
   - component: {fileID: 1715684916}
+  - component: {fileID: 1715684918}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2788,7 +2831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Experiencia
+  m_text: jugar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6, type: 2}
   m_sharedMaterial: {fileID: 6312716481995716874, guid: bbf68eb7c9dea0d4f86c9955a0ea15a6,
@@ -2816,8 +2859,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 95
+  m_fontSizeBase: 95
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2866,6 +2909,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715684914}
   m_CullTransparentMesh: 1
+--- !u!114 &1715684918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715684914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6119e7816a05c4349912682eb1c74c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: jugar
 --- !u!1 &1764247861
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,6 +3067,7 @@ GameObject:
   - component: {fileID: 1791969123}
   - component: {fileID: 1791969125}
   - component: {fileID: 1791969124}
+  - component: {fileID: 1791969126}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3087,8 +3144,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 95
+  m_fontSizeBase: 95
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3137,6 +3194,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791969122}
   m_CullTransparentMesh: 1
+--- !u!114 &1791969126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791969122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6119e7816a05c4349912682eb1c74c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: aliados
 --- !u!1 &1831621022
 GameObject:
   m_ObjectHideFlags: 0

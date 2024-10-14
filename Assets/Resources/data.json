@@ -49,7 +49,7 @@
             "size": "Aproximadamente 50 cm de longitud",
             "funFact1": "El sirirí cariblanco forma bandadas ruidosas, conocidas por sus llamados repetitivos y fuertes.",
             "funFact2": "A pesar de ser una especie acuática, son excelentes voladores y a menudo se desplazan largas distancias en busca de nuevos cuerpos de agua.",
-            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+            "location": "Ecoparque Lago de Las Garzas",
             "bibliography": "La Dendrocygna viduata (pato de cara blanca) desempeña un rol clave en los ecosistemas acuáticos al contribuir a la dispersión de semillas, el control de la vegetación acuática y la regulación de invertebrados. Además, forma parte de la cadena trófica al ser presa de depredadores y actúa como indicador de la salud de los humedales, ya que su presencia estable sugiere un ambiente saludable, mientras que su declive puede indicar problemas ambientales."
           }
         },
@@ -98,7 +98,7 @@
             "size": "3.5 pulgadas",
             "funFact1": "El pato silbón es conocido por su llamado silbante, que emite incluso durante el vuelo.",
             "funFact2": "Anidan en cavidades de árboles, adaptándose a una gran variedad de hábitats.",
-            "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí-Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro – Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
+            "location": "Ecoparque Río Pance",
             "bibliography": "Este pato es esencial para el mantenimiento de los humedales, ayudando en la dispersión de plantas acuáticas y la regulación de los ecosistemas acuáticos."
           }
         },
@@ -147,7 +147,7 @@
             "size": "Mide aproximadamente 50 cm de largo",
             "funFact1": "ive en ríos de montaña con fuertes corrientes, lo que lo hace altamente especializado.",
             "funFact2": "Su capacidad para bucear y nadar contra las aguas rápidas le permite sobrevivir en un hábitat que pocos otros animales pueden habitar.",
-            "location": "Laguna de Sonso, Buga",
+            "location": "PNN Farallones de Cali - Cañon del Pato",
             "bibliography": "La Merganetta armata impacta el ecosistema al ser un bioindicador de la salud de los ríos de montaña, señalando aguas limpias y bien conservadas. Además, controla poblaciones de invertebrados acuáticos al alimentarse de insectos y larvas, ayudando a mantener el equilibrio en las cadenas alimentarias. Su presencia también promueve la protección de hábitats fluviales, contribuyendo a la conservación de la biodiversidad en los ecosistemas de alta montaña."
           }
         },
@@ -196,7 +196,7 @@
             "size": "Aproximadamente mide 37 centímetros de longitud.",
             "funFact1": "El tero es conocido por simular estar herido para alejar a los depredadores de su nido, una estrategia muy efectiva de distracción.",
             "funFact2": "Sus comportamientos defensivos, el tero también utiliza su fuerte voz para marcar su territorio, alertando a otras aves y animales en un amplio rango.",
-            "location": "Humedal de El Pondaje y Charco Azul, ubicados dentro de la ciudad, donde hay zonas con vegetación acuática.Lago Calima o en áreas más rurales y naturales cerca de ríos como el río Cauca o hacienda El Paraíso.Laguna de Sonso, Buga.    Confirmado.",
+            "location": "Ecohotel El Castillo",
             "bibliography": "El Tero juega un rol importante en el ecosistema como controlador biológico. Debido a su comportamiento territorial actúa como un protector de su entorno, alertando con su llamado a otros animales ante la presencia de depredadores o intrusos."
           }
         },
@@ -219,7 +219,7 @@
                 "A) Semillas y nueces",
                 "B) Hojas de plantas acuáticas",
                 "C) Crustáceos y calamares",
-                "D)  Insectos voladores"
+                "D) Insectos voladores"
               ],
               "correctAnswerIndex": 2
             },
@@ -296,7 +296,7 @@
             "size": "Mide entre 48 y 51 centímetros de longitud",
             "funFact1": "Comportamiento social: Esta especie es conocida por ser muy sociable, formando grandes grupos, a menudo mezclándose con otras especies de aves acuáticas. Su comportamiento gregario le facilita encontrar alimento y protección frente a depredadores en su hábitat.",
             "funFact2": "Color del pico y la cara: El ibis de cara desnuda tiene una apariencia inusual con su rostro sin plumas de color rosado o rojo, contrastando con su plumaje oscuro. Este rasgo distintivo le ayuda a diferenciarse de otras especies de ibis..",
-            "location": "Universidad Javeriana de Cali",
+            "location": "Ecohotel El Castillo",
             "bibliography": "La Phimosus infuscatus, o ibis de cara desnuda, es vital para los ecosistemas acuáticos y de humedales. Regula las poblaciones de invertebrados al alimentarse de ellos, manteniendo el equilibrio trófico, y contribuye al reciclaje de nutrientes al remover el suelo durante su búsqueda de alimento. Además, su presencia indica la salud de los humedales, ya que su declive puede señalar problemas ambientales."
           }
       },
@@ -319,7 +319,7 @@
               "A) Migran desde sus áreas de cría en el Ártico hasta el sur de Europa y Asia",
               "B) No migran y permanecen en el mismo hábitat todo el año",
               "C) Migran desde América del Sur hasta el Ártico",
-              "D) Todas las anteriores"
+              "D) Migran en bandadas formando figuras geométricas, principalmente en V"
             ],
             "correctAnswerIndex": 2
           },
@@ -329,7 +329,7 @@
               "A) Gruñidos, silbidos y trompetas",
               "B) Solo cantan melodías suaves",
               "C) Solo emiten sonidos agudos",
-              "D) Todas las anteriores"
+              "D) Su canto varía desde sonidos fuertes y graves hasta silbidos suaves"
             ],
             "correctAnswerIndex": 0
           }
@@ -359,7 +359,7 @@
                   "A) Establecer reservas naturales y parques nacionales ",
                   "B) Expandir áreas urbanas para el desarrollo",
                   "C) Reducir la cantidad de vegetación en áreas urbanas",
-                  "D) Todas las anteriores"
+                  "D) Limitar el desarrollo en áreas críticas para la fauna."
                 ],
                 "correctAnswerIndex": 0
               },
@@ -369,7 +369,7 @@
                   "A) Un área que conecta diferentes ecosistemas, permitiendo el desplazamiento seguro de aves",
                   "B) Un espacio verde en la ciudad para paseos",
                   "C)  Un área de cultivo agrícola",
-                  "D) Todas las anteriores"
+                  "D) Una infraestructura que facilita el paso seguro de animales entre hábitats fragmentados."
                 ],
                 "correctAnswerIndex": 0
               },
@@ -379,7 +379,7 @@
                   "A) Promoviendo la caza regulada",
                   "B) Incrementando el uso de pesticidas",
                   "C) Enseñando a las personas la importancia de estas aves y fomentando su participación en la conservación",
-                  "D) Todas las anteriores"
+                  "D) Fomentando acciones de conservación y sensibilización en la comunidad."
                 ],
                 "correctAnswerIndex": 1
               }
@@ -435,7 +435,7 @@
               }
             ],
             "birdInfo": {
-              "birdName": "Sirirí pardi",
+              "birdName": "Sirirí pardo",
               "species": "Dendrocygna bicolor",
               "description": "Es una especie de ave acuática que habita en humedales, lagunas y áreas de agua dulce de América y África. Su plumaje es marrón con tonos claros y patas largas, lo que facilita su desplazamiento en el agua.",
               "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
@@ -445,8 +445,7 @@
               "size": "Aproximadamente 50 cm de longitud",
               "funFact1": "Emiten un sonido silbante característico, de donde proviene su nombre pato silbador.",
               "funFact2": "Realizan vuelos en grandes bandadas, lo que los hace muy visibles en áreas abiertas de humedales.",
-              "secondaryImage": "Images/aguila_habitat",
-              "location": "Ecoparque Lago de Las Garzas, Universidad del ValleClub Campestre Farallones",
+              "location": "Ecoparque Lago de Las Garzas",
               "bibliography": " controlar poblaciones de insectos, ya que se alimenta de ellos. Esto ayuda a mantener el equilibrio en los cultivos y reduce la necesidad de pesticidas. Además, como habita en humedales y zonas cercanas a cuerpos de agua, contribuye a la dispersión de semillas, favoreciendo la regeneración de plantas y la biodiversidad en estos hábitats cruciales para la salud ambiental del país"
             }
           },
@@ -555,7 +554,7 @@
             "funFact1": "Dimorfismo sexual notable: Los machos tienen un plumaje negro brillante, mientras que las hembras presentan colores más apagados, lo que facilita su camuflaje",
             "funFact2": "Vuelo acrobático: Son capaces de realizar vuelos rápidos y maniobras acrobáticas, lo que les permite defender su territorio y escapar de depredadores con facilidad",
             "location": "Buenaventura",
-            "bibliography": "El colibrí Florisuga mellivora, es un importante polinizador de plantas tropicales. Al alimentarse de néctar, transporta polen entre flores, favoreciendo su reproducción y manteniendo la diversidad vegetal en su hábitat. Además, ayuda a controlar poblaciones de pequeños insectos, que también forman parte de su dieta."
+            "bibliography": "El colibrí, es un importante polinizador de plantas tropicales. Al alimentarse de néctar, transporta polen entre flores, favoreciendo su reproducción y manteniendo la diversidad vegetal en su hábitat. Además, ayuda a controlar poblaciones de pequeños insectos, que también forman parte de su dieta."
           }
         },   
         {
@@ -604,7 +603,7 @@
             "reproduction": "Dependiendo del tamaño del grupo, se pueden encontrar hasta 36 huevos en un solo nido.",
             "funFact1": "Los grupos pueden identificar dos sitios de anidación y pueden pasar tiempo en cada uno, lo que sugiere dificultad para elegir; pueden trabajar simultáneamente en dos nidos hasta que se deciden por uno",
             "funFact2": "Las hembras que ponen huevos más tarde entierran los huevos de las hembras que ponen huevos más temprano con ramitas y hojas, lo que puede crear varias capas de huevos; solo la capa superior finalmente eclosiona",
-            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+            "location": "Ecohotel El Castillo",
             "bibliography": "Crotophaga ani, tiene importantes efectos ecológicos en su hábitat. Como ave insectívora y frugívora, ayuda a controlar poblaciones de insectos, incluidos parásitos de grandes mamíferos, y dispersa semillas, favoreciendo la regeneración de la vegetación. Al vivir en grupos y realizar vocalizaciones constantes, también afecta la dinámica social de las aves en su entorno. Sin embargo, su dependencia de áreas abiertas y semiabiertas hace que la alteración de su hábitat afecte su rol ecológico y la biodiversidad local"
           }
         },
@@ -652,8 +651,8 @@
             "reproduction": "Practica la crianza cooperativa, donde varios adultos construyen nidos comunales y cuidan juntos de los huevos y crías. Los nidos son grandes y hechos de ramas en árboles bajos.",
             "size": "Mide 46 cm de longitud",
             "funFact1": "Tiene una estructura social única, ya que vive en grupos familiares y practica la crianza comunal, donde varios adultos cuidan a las crías de todo el grupo.",
-            "funFact2": "Su nombre ani proviene del sonido característico de su llamada, un canto repetitivo y áspero que emite mientras se desplaza en su hábitat o se comunica con su grupo.",
-            "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro-Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
+            "funFact2": "Su nombre ani proviene del sonido característico de su llamada, un canto repetitivo y áspero que emite mientras se desplaza en su hábitat o se comunica con su grupo.",
+            "location": "Ecohotel El Castillo",
             "bibliography": "Control de insectos: Al alimentarse de una amplia variedad de insectos, como saltamontes y grillos, ayuda a mantener bajo control las poblaciones de invertebrados, lo que es clave para el equilibrio del ecosistema.Dispersión de semillas: Aunque su dieta es principalmente insectívora, también consume frutos, contribuyendo a la dispersión de semillas y ayudando en la regeneración de plantas en su hábitat."
           }
         },
@@ -753,8 +752,8 @@
         "size": "Mide entre 11-15 cm de longitud",
         "funFact1": "Plumas de la cola distintivas: Los machos tienen largas plumas en la cola con discos en las puntas, que usan durante exhibiciones de cortejo para atraer a las hembras.",
         "funFact2": "Vuelo ágil: Sus largas colas no afectan su vuelo, ya que son ágiles y maniobran hábilmente, lo que les permite alimentarse y esquivar depredadores.",
-        "location": "Ecohotel El Castillo",
-        "bibliography": "El colibrí Aglaiocercus kingii, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema."
+        "location": "Bosque de Niebla Km. 18",
+        "bibliography": "El colibrí, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema."
       }
     },
     {
@@ -803,7 +802,7 @@
         "size": "Mide entre 16 y 19 cm de longitud",
         "funFact1": "Cola larga y llamativa: Los machos tienen una cola extremadamente larga, casi del doble de su tamaño corporal, que utilizan en exhibiciones de cortejo.",
         "funFact2": "Alimentación en vuelo: Como otros colibríes, se alimenta principalmente en vuelo, lo que le permite acceder a flores inaccesibles para otras especies.",
-        "location": "Ecohotel El Castillo",
+        "location": "Bosque de Niebla Km. 18",
         "bibliography": "El colibrí Aglaiocercus kingii, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema"
       }
     },
@@ -852,8 +851,8 @@
             "size": "Mide entre 26.0 - 29.0 cm de longitud.",
             "reproduction": "El Cuclillo crespín es un parásito de cría que pone sus huevos en nidos de otras aves, como rastrojeros y cucaracheros. La incubación dura de 15 a 16 días, y el cuidado lo brinda la especie hospedadora.",
             "funFact1": "El cuco joven mata a sus compañeros de nido poco después de la eclosión con su pico ganchudo y se cría solo en el nido del hospedador. El cuco joven abandona el nido cuando tiene entre 16 y 18 días de edad.",
-            "funFact2": "El canto ventrílocuo de la Tapera naevia es muy característico y puede confundirse fácilmente, lo que dificulta localizar al ave, ya que suele cantar desde lugares ocultos en la vegetación.",
-            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+            "funFact2": "El canto ventrílocuo de la Tapera naevia es muy característico y puede confundirse fácilmente, lo que dificulta localizar al ave, ya que suele cantar desde lugares ocultos en la vegetación.",
+            "location": "Ecoparque rio pance, ",
             "bibliography": "La Tapera naevia controla las poblaciones de insectos al alimentarse principalmente de ellos, lo que ayuda a mantener el equilibrio ecológico. Además, contribuye a la dispersión de semillas y a la regeneración de vegetación al consumir frutos."
           }
         },
@@ -903,8 +902,108 @@
             "reproduction": "Los nidos se construyen en árboles o en vegetación baja y densa. La puesta consta normalmente de dos huevos. Los huevos son de color blanco tiza y no tienen marcas; Ambos sexos incuban. El período de incubación es de 18 a 19 días. Ambos sexos abastecen a los polluelos.",
             "funFact1": "Los padres mantienen un nido bastante limpio eliminando los excrementos y trayendo hojas frescas.",
             "funFact2": "Los cucos ardilla casi siempre son solitarios o en parejas. Pueden seguir bandadas de especies mixtas, pero a menudo buscan alimento lejos de ellas.",
-            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+            "location": "Jardín Botánico de Cali",
             "bibliography": "La Piaya cayana, o cuco común, tiene efectos ecológicos importantes, como el control de poblaciones de insectos al alimentarse de artrópodos. Su presencia indica la salud del ecosistema, ya que es sensible a cambios en la disponibilidad de alimentos. Además, influye en las dinámicas de la cadena alimentaria y contribuye a la dispersión de semillas mediante el consumo ocasional de frutos, favoreciendo la regeneración de la vegetación."
+          }
+        },
+        {
+          "modelIndex": 8,
+          "questions": [
+            {
+              "questionText": "¿Cuál es una habilidad característica de los colibríes que la diferencia de otras aves?",
+              "answers": [
+                "A) Pueden dormir mientras vuelan",
+                "B) Pueden nadar largas distancias",
+                "C) Pueden volar en todas direcciones, incluyendo el vuelo estacionario (volar en contra del viento)",
+                "D) Pueden permanecer bajo el agua por largos periodos"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Dónde prefieren habitar las aves Apodiformes?", 
+              "answers": [
+                "A) Áreas abiertas y altas como montañas y bosques",
+                "B) Desiertos y planicies secas",
+                "C) Selvas tropicales densas",
+                "D) Zonas costeras acuáticas"
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "¿Qué relación tienen las aves Apodiformes con los cuerpos de agua?",
+              "answers": [
+                "A) Son aves acuáticas y nadan para capturar su alimento",
+                "B) Evitan las zonas cercanas al agua",
+                "C) Solo usan cuerpos de agua para anidar",
+                "D) Se encuentran cerca de cuerpos de agua donde buscan insectos voladores"
+              ],
+              "correctAnswerIndex": 3
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Mango gorjinegro",
+            "species": "Anthracothorax nigricollis",
+            "conservacion":"LC preocupación menor",
+            "description": "El mango de garganta negra es un colibrí notable por su plumaje mayormente verde y su característica garganta y partes inferiores negras. Ambos sexos tienen picos ligeramente curvados. Es el miembro más común y uno de los colibríes con mayor distribución en su género.",
+            "mainImage": "Images/Interfaz/Cartas/AvesdeVueloIntenso/Anthracothorax nigricollis",
+            "habitat": "Esta especie habita en vegetación abierta con arbustos y árboles dispersos, en diversos hábitats húmedos y secos, incluyendo jardines, parques, plantaciones agrícolas, bordes de ríos y caminos, así como paisajes fragmentados y degradados.",
+            "diet": "Este colibrí se alimenta de néctar de árboles altos como el eucalipto y caza insectos en lo alto de las copas, incluyendo hormigas, piojos de corteza y pequeños escarabajos. Ocasionalmente captura insectos más abajo o en superficies ricas en presas.",
+            "reproduction": "La hembra construye el nido con pelusa de semillas y telarañas en 4 a 11 días. Pone dos huevos con 48 horas de diferencia, generalmente por la mañana. La incubación dura de 13 a 18 días.",
+            "size": "mide entre 11 y 12 centímetros de longitud.",
+            "funFact1": "Dimorfismo sexual: Los machos tienen un plumaje oscuro e iridiscente, mientras que las hembras presentan colores más apagados y menos brillantes.",
+            "funFact2": "Vuelos migratorios: Aunque no todas las poblaciones migran, algunos colibríes de esta especie realizan movimientos estacionales en busca de alimento.",
+            "location": "Ecohotel El Castillo.",
+            "bibliography": "El colibrí Anthracothorax nigricollis, juega un papel importante en la polinización de plantas, ayudando a la reproducción de diversas especies vegetales. Además, al consumir pequeños insectos, contribuye al control de sus poblaciones."
+          }
+        },
+        {
+          "modelIndex": 9,
+          "questions": [
+            {
+              "questionText": "¿Qué adaptación permite a los Caprimulgiformes ser eficientes en la captura de insectos mientras vuelan?",
+              "answers": [
+                "A) Pies largos y fuertes",
+                "B) Pico curvado y afilado",
+                "C) Boca grande y ancha",
+                "D) Plumas con colores vibrantes"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "Pregunta: ¿Qué tipo de hábitat es preferido por los Caprimulgiformes para su anidación?" ,
+                "answers":[
+                "A) Áreas urbanas con edificios altos",
+                "B) Desiertos áridos con poca vegetación",
+                "C) Áreas de pastizales abiertos sin cobertura",
+                "D) Bosques densos y matorrales"
+              ],
+              "correctAnswerIndex": 3
+            },
+            {
+              "questionText": "¿Cuál es la principal fuente de alimento de las aves Caprimulgiformes?",
+              "answers": [
+                "A) Insectos nocturnos como polillas y mosquitos",
+                "B) Frutas y semillas",
+                "C) Pequeños mamíferos",
+                "D) Peces y crustáceos"
+              ],
+              "correctAnswerIndex": 0
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Chotacabras zumbón",
+            "species": "Chordeiles minor",
+            "conservacion":"LC preocupación menor",
+            "description": "Esta especie a menudo duerme en ramas de árboles o en el suelo y ha experimentado una disminución del 50% en Canadá en las últimas tres generaciones, catalogándose como amenazada. Esto podría deberse a la depredación, uso de pesticidas y pérdida de hábitat.",
+            "mainImage": "Images/Interfaz/Cartas/AvesdeVueloIntenso/Chordeiles minor",
+            "habitat": "Se trata de una especie que persigue activamente a los insectos voladores en pleno vuelo, a menudo atrapando a aquellos que se sienten atraídos por las farolas y otras luces brillantes.",
+            "diet": "Esta ave se alimenta de grandes insectos durante la noche y se observa volando cerca de luces brillantes en lugares como supermercados y juegos de pelota. Su vuelo es distintivo, con alas en forma de V, y caza insectos al amanecer y al anochecer en áreas urbanas y rurales.",
+            "reproduction": "La incubación es generalmente realizada por la hembra, aunque a veces el macho participa. Ella deja los huevos o crías sin supervisión por la noche y suele poner dos huevos en el suelo desnudo, a veces anidando en tejados de grava.",
+            "size": "mide entre 22 y 24 centímetros de longitud.",
+            "funFact1": "Migración larga: Estas aves realizan migraciones masivas, viajando desde América del Norte hasta Sudamérica, cubriendo grandes distancias durante el invierno.",
+            "funFact2": "Vuelos al atardecer: El Chordeiles minor es más activo al amanecer y al atardecer, siendo uno de los pocos pájaros que cazan insectos en pleno vuelo durante esas horas.",
+            "location": "Club Campestre Farallones.",
+            "bibliography": "Esta ave es crucial para el control de poblaciones de insectos voladores, ya que se alimenta principalmente de ellos durante sus vuelos crepusculares y nocturnos. Esto ayuda a mantener el equilibrio ecológico al reducir plagas de mosquitos y otros insectos, lo que beneficia a diversas especies dentro de su entorno."
           }
         }
       ]
@@ -1013,7 +1112,7 @@
             "size": "Mide entre 38 y 43 cm de longitud.",
             "funFact1": "Es uno de los pocos halcones que caza tanto en solitario como en pareja, lo que aumenta su eficiencia para atrapar presas",
             "funFact2": "Las parejas de halcones aplomados se pasan la comida en el aire. A veces, el macho le pasa la comida a la hembra con facilidad; otras veces, se queda con la comida demasiado tiempo y la hembra lo arrastra en el aire hasta que lo suelta.",
-            "location": "Ecohotel El Castillo",
+            "location": "Universidad Javeriana de Cali",
             "bibliography": "El halcón plomizo (Falco femoralis) tiene un impacto importante en su ecosistema como controlador de poblaciones de pequeños mamíferos, aves e insectos. Al ser un depredador tope, mantiene el equilibrio de las especies presa mas abundantes y ayuda a regular las cadenas alimenticias en los pastizales y áreas boscosas donde habita. Esto reduce la sobrepoblación de ciertas especies y contribuye a la salud del ecosistema."
           }
         },
@@ -1063,7 +1162,7 @@
             "size": "Mide entre 22 y 27 centímetros de longitud.",
             "funFact1": "El cernícalo americano es capaz de cernirse en el aire, quedándose inmóvil en vuelo mientras busca presas.",
             "funFact2": "Es la especie de halcón más pequeña y común en América, siendo altamente adaptable a diferentes entornos.",
-            "location": "Ecohotel El Castillo",
+            "location": "Ecoparque Río Pance",
             "bibliography": "El Falco sparverius (cernícalo americano) contribuye positivamente al ecosistema actuando como controlador de plagas, al alimentarse de insectos, roedores y pequeños vertebrados, lo que protege cultivos y vegetación. Además, regula las poblaciones de especies pequeñas, manteniendo el equilibrio ecológico. Su sensibilidad a contaminantes, como pesticidas, lo convierte en un indicador de la salud del ecosistema, alertando sobre problemas ambientales como la degradación del hábitat."
           }
         },
@@ -1163,53 +1262,54 @@
             "size": ": entre 46 y 52 cm de longitud.",
             "funFact1": "El águila alilarga es conocida por sus impresionantes habilidades de vuelo, que le permiten planear a grandes alturas y cubrir extensas áreas en busca de presas.",
             "funFact2": "A menudo se la puede ver posada en puntos altos, como árboles o rocas, desde donde tiene una vista panorámica de su entorno, lo que le facilita localizar a sus presas.",
-            "location": "Ecohotel El Castillo",
+            "location": "Jardín Botánico de Cali",
             "bibliography": "El Geranoaetus albicaudatus, conocido como el águila coliblanca, desempeña un papel crucial en su ecosistema al actuar como depredador tope. Su presencia ayuda a regular las poblaciones de pequeños mamíferos, aves y reptiles, manteniendo el equilibrio ecológico. Al cazar presas, también contribuye a la dispersión de nutrientes a través de sus excrementos, lo que favorece la fertilidad del suelo."
           }
         },
         {
           "modelIndex": 5,
           "questions": [
-            {"questionText": "¿Cómo afecta la adaptación de los Cathartiformes a su hábitat a su comportamiento social?",
-              "answers": [
-                "A) Les impide formar grupos.",
-                "B) Les permite encontrar carroña más rápidamente en grupo.",
-                "C) Les obliga a cazar de manera solitaria.",
-                "D) Les reduce su capacidad de vuelo."
-              ],
-              "correctAnswerIndex": 1
-            },
             {
-              "questionText": "¿Cuál es el tipo de alimento principal para los Cathartiformes?",
+              "questionText": "¿Cuál es el principal alimento del Buitre Negro?",
               "answers": [
-                "A) Frutas.",
-                "B) Insectos.",
-                "C) Carroña.",
-                "D) Peces vivos."
+                "A) Insectos y pequeños roedores",
+                "B) Frutas y semillas",
+                "C) Carroña, en su mayoría de mamíferos grandes",
+                "D) Pescados y mariscos"
               ],
               "correctAnswerIndex": 2
             },
             {
-              "questionText": "¿Cómo contribuyen los Cathartiformes al ciclo de nutrientes en los ecosistemas?",
-                "answers": [
-                  "A) Ayudan a la rápida descomposición de materia orgánica.",
-                  "B) Evitan la competencia entre especies.",
-                  "C) Incrementan la población de insectos.",
-                  "D) Facilitan la dispersión de semillas."
-                ],
-                "correctAnswerIndex": 0
-              }
+              "questionText": "¿Dónde suelen anidar los Buitres Negros?",
+              "answers": [
+                "A) En lo alto de los árboles",
+                "B) En grietas entre rocas o troncos huecos",
+                "C) En nidos flotantes en lagos",
+                "D) Bajo tierra en madrigueras"
+              ],
+              "correctAnswerIndex": 1
+            },
+            {
+              "questionText": "¿Qué función ecológica cumple el Buitre Negro?",
+              "answers": [
+                "A) Dispersa semillas para la regeneración de bosques",
+                "B) Controla poblaciones de roedores y serpientes",
+                "C) Ayuda a limpiar el ecosistema al consumir animales muertos",
+                "D) Contribuye al control de plagas en áreas urbanas"
+              ],
+              "correctAnswerIndex": 2
+            }
           ],
           "birdInfo": {
             "birdName": "Buitre Negro",
             "species": "Aegypius monachus",
-            "conservacion":"LC preocupación menor",
+            "conservacion": "LC preocupación menor",
             "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
             "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
             "habitat": "Se presenta principalmente en hábitats abiertos o semiabiertos con abundante carroña para alimentarse como granjas, sabanas, pastizales, claros, manglares y pueblos. Asociada con las viviendas humanas y se alimenta en las calles, en los basureros y alrededor de los mataderos.",
             "diet": "Depende principalmente de carroña, en su mayoría mamíferos grandes, pero es oportunista y busca con facilidad basura, despojos y otros desechos comestibles desechados. Ocasionalmente consume presas vivas, los alimentos se pueden conseguir en mercados, mataderos y zonas de descarga de pescado, vertederos de basura.",
-            "reproduction": "Anida típicamente en huecos oscuros o bajo algún tipo de cubierta. Cuevas, troncos huecos, tocones y troncos de árboles, grietas entre rocas, montones de maleza, matorrales, edificios abandonados y sitios al lado o debajo de árboles y troncos son todos utilizados. Casi siempre 2 huevos. ",
-            "size": ": Mide entre 60 y 68 cm de longitud.",
+            "reproduction": "Anida típicamente en huecos oscuros o bajo algún tipo de cubierta. Cuevas, troncos huecos, tocones y troncos de árboles, grietas entre rocas, montones de maleza, matorrales, edificios abandonados y sitios al lado o debajo de árboles y troncos son todos utilizados. Casi siempre 2 huevos.",
+            "size": "Mide entre 60 y 68 cm de longitud.",
             "funFact1": "En lugar de construir un nido, la hembra pone sus huevos en el suelo desnudo de una cueva, un árbol hueco, un edificio abandonado u otro rincón oscuro.",
             "funFact2": "Se ha expresado preocupación por la amenaza que la especie representa para las aeronaves, así como por los impactos de la especie en la propiedad personal, la infraestructura pública y, especialmente, la agricultura, a través de la supuesta depredación del ganado.",
             "location": "Ecohotel El Castillo",
@@ -1261,7 +1361,7 @@
             "size": "Mide entre 42.0 y 46.0 cm de longitud.",
             "funFact1": "Los machos son responsables de la mayor parte de la construcción como parte del cortejo y seleccionan el sitio, que generalmente se ubica sobre el agua para disuadir a depredadores.",
             "funFact2": "Los caracoleros suelen defecar después de cada alimentación, para defecar, las aves bajan la cabeza y levantan el cuerpo y la cola hasta un plano horizontal o ligeramente más alto.",
-            "location": "Ecohotel El Castillo",
+            "location": "Ecoparque Río Pance",
             "bibliography": "La Rostrhamus sociabilis, comúnmente conocida como el caracolero, tiene varios efectos ecológicos importantes en su ecosistema: Control de poblaciones de caracoles: Al alimentarse principalmente de caracoles de agua dulce, el caracolero ayuda a regular sus poblaciones, lo que contribuye al equilibrio ecológico de su hábitat acuático. Este control de invertebrados es esencial para mantener la salud de los ecosistemas de humedales.Interacción con otros organismos: Como depredador, el caracolero juega un papel crucial en la cadena alimentaria. Su presencia puede influir en las dinámicas de otras especies, tanto como presa para aves rapaces y otros depredadores, como también al controlar las poblaciones de sus presas.Indicador de salud del ecosistema: La abundancia y distribución del caracolero pueden ser indicadores de la salud de los humedales y cuerpos de agua dulce, ya que su bienestar depende de un ecosistema acuático saludable.Dispersión de semillas: Aunque su dieta es predominantemente carnívora, el caracolero también puede contribuir a la dispersión de semillas si consume frutos ocasionalmente, lo que favorece la regeneración y diversidad de la vegetación en su entorno."
           }
         },
@@ -1290,7 +1390,7 @@
             {
               "questionText": "¿Cuál es uno de los impactos ecológicos principales de los Falconiformes en áreas agrícolas? ",
                 "answers": [
-                  "A) A. Aumentan las plagas. ",
+                  "A) Aumentan las plagas. ",
                   "B) Destruyen cultivos",
                   "C) No tienen ningún impacto.",
                   "D) Regulan poblaciones de roedores e insectos."
@@ -1313,16 +1413,109 @@
             "location": "Ecohotel El Castillo",
             "bibliography": "-Control de poblaciones: Al alimentarse de una amplia variedad de animales, como insectos, pequeños vertebrados y carroña, contribuye al control de estas poblaciones, manteniendo el equilibrio ecológico. Su rol como carroñero también ayuda a eliminar animales muertos, evitando la proliferación de enfermedades. -Reciclaje de nutrientes: Al consumir carroña, el Caracara Crestado contribuye al reciclaje de nutrientes, acelerando el proceso de descomposición y promoviendo la salud del ecosistema. -Interacción en la cadena alimentaria: Como depredador y carroñero, influye en la dinámica de otras especies, tanto al controlar las poblaciones de presas como al competir por carroña con otros carroñeros, como buitres."
           }
-        }
-
+        },
+        {
+          "modelIndex": 8,
+          "questions": [
+            {
+              "questionText": "¿Qué tipo de visión tienen las aves rapaces de la orden Accipitriformes?",
+              "answers": [
+                "A) Visión borrosa",
+                "B) Visión monocromática",
+                "C) Visión extremadamente aguda",
+                "D) Visión monocular"
+              ],
+              "correctAnswerIndex": 2
+            },
+            {
+              "questionText": "¿Qué es lo que permite a las aves rapaces de la orden Accipitriformes adaptarse a diferentes entornos?",
+              "answers": [
+                "A) Su capacidad para volar grandes distancias",
+                "B) Su dieta exclusivamente herbívora",
+                "C) Su preferencia por climas cálidos y húmedos",
+                "D) La amplia disponibilidad de presas en diversos hábitats"
+              ],
+              "correctAnswerIndex": 3
+            },
+            {
+              "questionText": "¿Cómo afectan las Accipitriformes a las poblaciones de pequeños mamíferos y reptiles?",
+              "answers": [
+                "A) Los aumentan",
+                "B) Los reducen y mantienen equilibrados",
+                "C) Fomentan el crecimiento de estas poblaciones al protegerlas de otros depredadores",
+                "D) No afectan a estas poblaciones de manera significativa"
+              ],
+              "correctAnswerIndex": 1
+            }
+          ],
+          "birdInfo": {
+            "birdName": "Aguililla alas anchas",
+            "species": "Buteo platypterus",
+            "conservacion":"LC preocupación menor",
+            "description": "Se caracteriza por sus alas anchas y cortas, adaptadas para volar en bosques, y su migración masiva en grandes grupos.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buteo platypterus",
+            "habitat": "En parques y jardines urbanos y suburbanos. Inverna en bosques secundarios más viejos y bosques amazónicos.",
+            "diet": "Se basa principalmente en pequeños mamíferos, aves, insectos y reptiles. Dos características esenciales son su capacidad de migración a largas distancias y su aguda visión para cazar.",
+            "reproduction": "Las parejas construyen el nido, la hembra hace la mayor parte del trabajo. Los nidos se sitúan sobre nidos antiguos de otras especies. La hembra realiza la mayor parte de la incubación, mientras el macho proporciona alimento. Las nidadas suelen ser de 3 o 4 huevos.",
+            "size": "mide entre 34 y 44 centímetros de longitud.",
+            "funFact1": "El macho puede ser capaz de completar la incubación si la hembra muere.",
+            "funFact2": "El macho visita el nido sólo después de transferirle comida a la hembra fuera del nido.",
+            "location": "Ecoparque Río Pance.",
+            "bibliography": "El Buteo platypterus desempeña un papel clave en el equilibrio ecológico. Controla las poblaciones de pequeños mamíferos, aves, reptiles e insectos, regulando la cadena alimentaria. Además, contribuye a la fertilidad del suelo mediante la dispersión de nutrientes a través de sus excrementos. Su función como depredador tope mantiene la estabilidad en los ecosistemas donde habita."
+          }
+        },
+        {
+          "modelIndex": 9,
+          "questions": [
+            {
+              "questionText": "¿Además de cazar, de qué otra fuente se alimentan muchas especies de Accipitriformes?",
+              "answers": [
+                "A) Carroña",
+                "B) Insectos",
+                "C) Néctar",
+                "D) Pescado fresco"
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "Estas aves llamadas también Buitres ¿Cómo contribuyen al ecosistema?",
+              "answers ": [
+                "A) Limpian el entorno al consumir animales muertos",
+                "B) Transportan agua a otros animales",
+                "C) Crean madrigueras para refugiarse",
+                "D) Al controlar las poblaciones de insectos"
+              ],
+              "correctAnswerIndex": 0
+            },
+            {
+              "questionText": "¿Qué simbolizan culturalmente muchas especies de Accipitriformes, como las águilas?",
+              "answers": [
+                "A) Destrucción",
+                "B) Aislamiento",
+                "C) Paz y tranquilidad",
+                "D) Poder y majestuosidad"
+              ],
+              "correctAnswerIndex": 3
+            }
+          ],
+          "birdInfo": {
+            "birdName":"Zopilote común",
+            "species":"Coragyps atratus",
+            "conservacion":"LC preocupación menor",
+            "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Coragyps atratus",
+            "habitat": "Se presenta principalmente en hábitats abiertos o semiabiertos con abundante carroña para alimentarse como granjas, sabanas, pastizales, claros, manglares y pueblos.",
+            "diet": "Esta ave se alimenta principalmente de carroña, especialmente de mamíferos grandes, pero también busca basura y desechos comestibles. Ocasionalmente consume presas vivas y puede encontrar alimento en mercados, mataderos y vertederos.",
+            "reproduction": "Anida típicamente en huecos oscuros o bajo algún tipo de cubierta. Cuevas, troncos huecos, tocones y troncos de árboles, grietas entre rocas, montones de maleza, matorrales, edificios abandonados y sitios al lado o debajo de árboles y troncos son todos utilizados. Casi siempre 2 huevos.",
+            "size": "mide entre 60 y 68 centímetros de longitud.",
+            "funFact1": "En lugar de construir un nido, la hembra pone sus huevos en el suelo desnudo de una cueva, un árbol hueco, un edificio abandonado u otro rincón oscuro.",
+            "funFact2": "Se ha expresado preocupación por la amenaza que la especie representa para las aeronaves, así como por los impactos de la especie en la propiedad personal, la infraestructura pública y, especialmente, la agricultura, a través de la supuesta depredación del ganado.",
+            "location": "Ecohotel El Castillo.",
+            "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas."
+          }
+       }
   ]
 },
-
-
-
-
-
-
 
 
 
@@ -1469,7 +1662,7 @@
         ],
         "birdInfo": {
           "birdName": "Pava maraquera",
-          "species": "Columbina talpacoti",
+          "species": "Chamaepetes goudoti",
           "conservacion":"LC preocupación menor",
           "description": "Esta pava de tamaño pequeño con un plumaje distintivo. Su cuerpo combina un vientre castaño brillante, partes superiores oscuras, cuello y cabeza marrones, junto con piel facial azul pálido y ojos rojos. Es una especie sigilosa y discreta, que tiende a esconderse rápidamente cuando se siente perturbada, y generalmente es silenciosa, lo que facilita que pase desapercibida.",
           "mainImage": "Images/Interfaz/Cartas/Gallineceas/Pava",
@@ -1532,10 +1725,159 @@
             "location": "Ecohotel El Castillo",
             "bibliography": "-Dispersión de semillas: Estas aves se alimentan de frutas y semillas, ayudando a la dispersión de plantas en los bosques donde habitan. Al consumir las frutas y excretar las semillas, facilitan la regeneración de la vegetación en áreas deforestadas o degradadas.-Control de la vegetación: Al consumir gran cantidad de semillas y frutos, contribuyen al control del crecimiento de algunas plantas, manteniendo el equilibrio en los ecosistemas donde viven."
           }
+      },
+      {
+        "modelIndex": 4,
+        "questions": [
+          {
+            "questionText": "¿Qué tipo de cuerpo tienen las aves Galliformes?",
+            "answers": [
+              "A) Cuerpo delgado y alas largas",
+              "B) Cuerpo pequeño y liviano",
+              "C) Cuerpo robusto y patas fuertes",
+              "D) Gracioso y ligero, perfecto para planear por largas distancias"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "questionText": "¿Qué tipo de áreas prefieren las especies de Galliformes adaptadas a la vida agrícola?",
+            "answers": [
+              "A) Áreas agrícolas con abundante alimento",
+              "B) Zonas urbanas",
+              "C) Regiones desérticas",
+              "D) Zonas de montaña con pendientes pronunciadas."
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "questionText": "¿Qué función ecológica cumplen los Galliformes en su hábitat natural?",
+            "answers": [
+              "A) Ayudan a eliminar malezas únicamente",
+              "B) Solo sirven como presa para otros depredadores",
+              "C) Contribuyen a la polinización y dispersión de semillas",
+              "D) Contribuyen a la formación de hábitats acuáticos."
+            ],
+            "correctAnswerIndex": 2
+          }
+        ],
+        "birdInfo": {
+          "birdName": "Pava falcialar",
+          "species": "Chamaepetes goudotii",
+          "conservacion":"LC preocupación menor",
+          "description": "Es una especie sigilosa y discreta, que tiende a esconderse rápidamente cuando se siente perturbada, y generalmente es silenciosa, lo que facilita que pase desapercibida.",
+          "mainImage": "Images/Interfaz/Cartas/Gallinaceas/Chamaepetes goudotii",
+          "habitat": "Habita principalmente en bosques húmedos subtropicales, pero también en áreas templadas bajas, bosques secundarios y plantaciones de café, a veces cerca de carreteras.",
+          "diet": "Su dieta se basa principalmente en frutas, complementada con semillas, flores, hojas e invertebrados. ",
+          "reproduction": "La hembra pone de 2 a 3 huevos y los incuba sin ayuda del macho. Construyen nidos alargados y poco profundos en árboles o plantas epífitas, usando hojas y enredaderas.",
+          "size": "mide entre 50 y 65 centímetros de longitud.",
+          "funFact1": "Esta ave es muy esquiva y difícil de observar, ya que pasa la mayor parte del tiempo oculta entre la vegetación densa del dosel de los bosques",
+          "funFact2": "Esta ave realiza un curioso movimiento de cabeza y cuello en su nido, que se cree ayuda a rodar los huevos y fortalecer la estructura del nido.",
+          "location": "Jardin Botánico de Cali.",
+          "bibliography": "Esta especie dispersa semillas al alimentarse de frutas, lo que ayuda a regenerar bosques y mantener la biodiversidad. Además, al consumir invertebrados, contribuye al control de poblaciones de insectos en su ecosistema."
+        }
+      },
+      {
+        "modelIndex": 5,
+        "questions": [
+          {
+            "questionText": "¿Qué característica única de las aves del orden Columbiformes les permite alimentar a sus crías?",
+            "answers": [
+              "A) Son monógamas y cuidan de sus crías en pareja",
+              "B) Producen una sustancia llamada leche de buche para alimentar a sus crías",
+              "C) Tienen alas largas y musculosas para realizar vuelos rápidos.",
+              "D) Su plumaje varía entre tonos grises y colores brillantes"
+            ],
+            "correctAnswerIndex": 1
+          },
+          {
+            "questionText": "¿Qué tipo de comportamiento reproductivo es común entre las especies de Columbiformes?",
+            "answers": [
+              "A) Son migratorias y viajan largas distancias.",
+              "B) Construyen nidos complejos en lugares ocultos",
+              "C) Son monógamas y participan en la construcción del nido y alimentación de las crías",
+              "D) Tienen relaciones reproductivas variables según la temporada"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "questionText": "¿Qué tipo de actividad humana ha afectado negativamente a algunas especies de Columbiformes?",
+            "answers": [
+              "A) Uso de pesticidas",
+              "B) Competencia por alimentos",
+              "C) Uso de vehículos en zonas urbanas",
+              "D) Caza y comercio ilegal"
+            ],
+            "correctAnswerIndex": 3
+          }
+        ],
+        "birdInfo": {
+          "birdName": "Paloma común",
+          "species": "Columba livia",
+          "conservacion":"LC preocupación menor",
+          "description": "Las palomas bravías son comunes en áreas urbanas, suburbanas y agrícolas, de tamaño mediano, pico gris oscuro; se alimentan de maíz o cebada y beben por succión usando su pico como una pajita, retrayendo la lengua para permitir que el agua ingrese a su boca.",
+          "mainImage": "Images/Interfaz/Cartas/Gallinaceas/Columba livia",
+          "habitat": "Estas aves anidan en grietas y cuevas de acantilados rocosos, ya sea junto al mar o en tierras altas interiores. Algunas poblaciones han invadido edificios en ruinas, especialmente cerca de vegetación de matorral o áreas agrícolas.",
+          "diet": "Estas aves se alimentan principalmente por la mañana o a media tarde en terrenos abiertos, picoteando semillas y frutos, y raramente invertebrados. En presencia de humanos, consumen pan, palomitas de maíz, cacahuetes y restos vegetales, además de capturar larvas y babosas.",
+          "reproduction": "Ambos sexos incuban, el macho desde media mañana hasta la tarde, la hembra desde la tarde hasta media mañana, y ambos pasan aproximadamente la misma cantidad de tiempo de luz diurna en el nido.",
+          "size": "mide entre 30 y 36 centímetros de longitud.",
+          "funFact1": "Selección del sitio del Nido, el proceso suele iniciarlo el macho, que se sienta en el nido y emite llamadas para atraer a una pareja. Si el macho muere, es probable que la hembra busque una nueva pareja en otro lugar. El lugar puede ser el antiguo nido de una pareja que ya no está presente.",
+          "funFact2": "Los huevos se ponen generalmente después de que el nido está terminado o renovado. El primer huevo se pone a última hora de la tarde, el segundo unas 40 horas después.",
+          "location": "Ecoparque Río Pance.",
+          "bibliography": "La paloma bravía (Columba livia), común en áreas urbanas y rurales, tiene efectos ecológicos diversos. En la naturaleza, ayuda a dispersar semillas, contribuyendo a la regeneración vegetal. Sin embargo, en zonas urbanizadas, su gran número puede causar problemas, como la acumulación de excrementos, que deteriora infraestructuras y facilita la propagación de enfermedades. Además, al competir con especies nativas por recursos, puede afectar la biodiversidad local y alterar los ecosistemas urbanos."
+        }
+      },
+      {
+        "modelIndex": 6,
+        "questions": [
+          {
+            "questionText": "¿Cuál es la principal fuente de alimento de las aves del orden Columbiformes?",
+            "answers": [
+              "A) Semillas, frutos y brotes",
+              "B) Frutos secos y carne",
+              "C) Peces y algas",
+              "D) Néctar y polen"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "questionText": "¿Cómo son generalmente los nidos de las palomas y tórtolas?",
+            "answers": [
+              "A) Complejos y hechos de materiales diversos",
+              "B) Hechos en cavidades de árboles con hojas",
+              "C) Construidos con barro y piedras",
+              "D) Rudimentarios y construidos con pocas ramitas"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "questionText": "¿Cómo afectan las palomas a la agricultura en algunas áreas?",
+            "answers": [
+              "A) Aumentan la polinización de los cultivos",
+              "B) Protegen a los cultivos de depredadores",
+              "C) Pueden ser vistas como plagas que se alimentan de los cultivos",
+              "D) Facilitan la cosecha al dispersar semillas"
+            ],
+            "correctAnswerIndex": 2
+          }
+        ],
+        "birdInfo": {
+          "birdName": "Zenaida torcaza",
+          "species": "Zenaida auriculata",
+          "conservacion":"LC preocupación menor",
+          "description": "Se ha visto que las aves regresan a los sitios de descanso tradicionales incluso después de que se hayan talado los árboles, cuando pueden descansar en el suelo o en arbustos bajos.",
+          "mainImage": "Images/Interfaz/Cartas/Gallinaceas/Zenaida Auriculata",
+         "habitat": "Habita en matorrales áridos a semiáridos, a veces con árboles dispersos o bosques irregulares; generalmente evita el bosque tropical, común verlas en algunas ciudades grandes.",
+          "diet": "Se alimenta de maíz, trigo, arroz y soja, sólo una pequeña proporción de la dieta comprende semillas de plantas silvestres.",
+          "reproduction": "Construye un pequeño nido de palos en un manglar o en un árbol pequeño, o en el suelo; incluso se ha encontrado anidando en la viga del techo de una casa de campo abandonada. El tamaño de la nidada es generalmente de dos huevos.",
+          "size": "mide entre 22 y 28 centímetros de longitud.",
+          "funFact1": "Tiene una alta capacidad reproductiva, reproduciéndose varias veces al año y anidando en colonias, lo cual facilita su supervivencia. Esta característica ha hecho que en algunas regiones sea considerada una plaga por los daños a cultivos.",
+          "funFact2": "En Chile, esta especie se caza para el consumo.",
+          "location": "Ecohotel El Castillo",
+          "bibliography": "Estas aves ayudan a la dispersión de semillas al consumirlas y expulsarlas a través de sus excrementos, lo cual contribuye a la regeneración de plantas y mantiene la biodiversidad del ecosistema. Además, como parte de la red trófica, sirven de alimento para depredadores como halcones y gavilanes, lo que ayuda a mantener el equilibrio ecológico. Su abundancia las convierte en una fuente de alimento confiable en entornos rurales y urbanos."
+        }
       }
     ]
   },
-
 
 
 
@@ -1690,7 +2032,7 @@
         "size": "Mide entre 37.7 y 41.8 cm de longitud",
         "funFact1": "Se comunican a través de vocalizaciones, tambores y golpes, especialmente durante la defensa del territorio",
         "funFact2": "Ambos sexos excavan los nidos, que tienen unos 45 cm de profundidad, 13 x 18 cm de ancho y una entrada de unos 9 cm de diámetro",
-        "location": "Universidad Javeriana de Cali",
+        "location": "Ecoparque Río Pance",
         "bibliography": "Juega un papel esencial en su ecosistema al controlar poblaciones de insectos que se encuentran bajo la corteza de los árboles, especialmente larvas de escarabajos y otros xilófagos, lo cual ayuda a mantener la salud de los bosques. Además, al perforar troncos para alimentarse o anidar, crea cavidades que luego pueden ser usadas por otras aves, mamíferos pequeños y reptiles, aumentando así la disponibilidad de refugios y favoreciendo la biodiversidad en su hábitat"
       }
     },
@@ -1740,7 +2082,7 @@
         "size": "Mide entre 24 y 28 cm de longitud",
         "funFact1": " Los ejemplares jóvenes suelen tener un color menos intenso, que se vuelve más vibrante a medida que maduran",
         "funFact2": "A diferencia de muchas otras especies de loros, el Pionus menstruus es conocido por ser relativamente silencioso, especialmente cuando se encuentra en bandadas. Aunque puede emitir sonidos fuertes ocasionalmente, su comportamiento discreto facilita que se mezcle en el entorno, evitando así a los depredadores",
-        "location": "Universidad Javeriana de Cali",
+        "location": "Ecohotel El Castillo",
         "bibliography": "El Pionus menstruus, conocido como loro cabeciazul, tiene un papel importante en su ecosistema, principalmente a través de la dispersión de semillas al alimentarse de frutas, lo cual ayuda en la regeneración de la vegetación y mantiene la biodiversidad del área. Además, también contribuye al control de plagas al consumir insectos y brotes jóvenes, ayudando a mantener el equilibrio en el ecosistema."
       }
     },
@@ -1791,12 +2133,12 @@
         "size": "Mide entre 12 y 13 cm de longitud",
         "funFact1": "Tamaño Pequeño y Carácter Sociable: El periquito de anteojos es uno de los loros más pequeños de América, midiendo apenas 12-13 cm. A pesar de su tamaño, es muy sociable y se lo encuentra en grupos grandes, lo que le ayuda a mantenerse seguro frente a depredadores y facilita la búsqueda de alimentos.",
         "funFact2": "Marcado Dimorfismo Sexual: Existe un dimorfismo sexual evidente en esta especie: los machos presentan un llamativo color azul en las alas y detrás de los ojos, mientras que las hembras carecen de estas marcas, lo que permite diferenciarlos fácilmente a simple vista.",
-        "location": "Universidad Javeriana de Cali",
+        "location": "Ecohotel El Castillo",
         "bibliography": "El Forpus conspicillatus, conocido como periquito de anteojos, tiene un impacto ecológico importante al participar en la dispersión de semillas. Su dieta incluye frutas y semillas, contribuyendo a la regeneración de la vegetación y al mantenimiento de la biodiversidad de su entorno. También ayuda a controlar poblaciones de insectos al consumir brotes y pequeños invertebrados, lo cual beneficia la salud de las plantas"
       }
     },
     {
-      "modelIndex": 6,
+      "modelIndex": 5,
       "questions": [
         {
           "questionText": "¿En qué continente NO se encuentran naturalmente las Psittaciformes?",
@@ -1841,14 +2183,212 @@
         "size": "Mide entre 46 y 51 cm de longitud",
         "funFact1": " Gran Adaptabilidad a Diferentes Hábitats: El guacamayo severo es capaz de adaptarse a una variedad de hábitats, desde selvas tropicales hasta áreas abiertas y bosques secundarios. Esta adaptabilidad le permite encontrar recursos y sobrevivir en entornos donde otras especies podrían tener dificultades",
         "funFact2": "Personalidad Juguetona y Ruidosa: Esta especie es conocida por su personalidad curiosa y juguetona. Son aves inteligentes y muy activas, a menudo vistas explorando y manipulando objetos en su entorno. Además, son bastante ruidosas, emitiendo vocalizaciones fuertes que usan para comunicarse entre ellas y para marcar su territorio",
-        "location": "Universidad Javeriana de Cali",
+        "location": "Ecohotel El Castillo",
         "bibliography": "El Ara severus, tiene un papel importante en su ecosistema como dispersor de semillas. Al alimentarse de frutos y semillas, dispersa una gran variedad de especies vegetales, ayudando a la regeneración del bosque y fomentando la diversidad vegetal. También contribuye a la poda natural de árboles y ramas, lo cual promueve el crecimiento saludable de las plantas"
       }
+    },
+    {
+      "modelIndex": 6,
+      "questions": [
+        {
+          "questionText": "¿Dónde anidan generalmente las Psittaciformes?",
+          "answers": [
+            "A) En el suelo",
+            "B) En nidos flotantes",
+            "C) En cuevas subterráneas",
+            "D) En cavidades de árboles"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "questionText": "¿Qué otro alimento, además de frutas, semillas y néctar, consumen algunas especies de Psittaciformes?", 
+          "answers": [
+            "A) Hojas y cortezas",
+            "B) Huevos de otras aves",
+            "C) Insectos y larvas",
+            "D) Peces pequeños"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿Qué hace único el plumaje de las aves Psittaciformes?",
+          "answers": [
+            "A) Es completamente negro",
+            "B) Es de un solo color",
+            "C) Es vibrante y multicolor",
+            "D) Es muy fino y traslúcido"
+          ],
+          "correctAnswerIndex": 2
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Amazona realL",
+        "species": "Amazona ochrocephala",
+        "conservacion":"LC preocupación menor",
+        "description": "Su nombre proviene del amarillo en la frente, característico del grupo de superespecies. Es residente todo el año en su área de distribución, aunque algunas aves pueden desplazarse por escasez de alimentos, formando bandadas ocasionales.",
+        "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Amazona ochrocephala",
+        "habitat": "Habita en bosques tropicales caducifolios, matorrales espinosos, bosques de galería húmedos, áreas inundadas, manglares, sabanas de pino y tierras cultivadas con arboledas, principalmente en tierras bajas de Venezuela y Colombia.",
+        "diet": "Se alimenta de frutos, semillas y flores de árboles como Pithecellobium, Acacia y Ficus, así como de cultivos como maíz, plátanos y guayabas. Generalmente se observa en parejas o pequeñas bandadas de hasta 30 aves, aunque pueden formar bandadas de hasta 300 individuos.",
+        "reproduction": "Huevos 2-4, puestos en intervalos de 1-5 días (generalmente dos días); incubación 22-28 (media 25) días, por la hembra sola y comenzando con el primer huevo;",
+        "size": "mide entre 35 y 38 centímetros de longitud.",
+        "funFact1": "Excelente imitación de sonidos humanos en cautiverio, como otros miembros del mismo complejo, y como esos, hay evidencia de dialectos regionales en esta especie.",
+        "funFact2": "La principal causa del fracaso reproductivo de estas aves es la caza furtiva por parte de los humanos (77,8% de los nidos; 49 de 63).",
+        "location": "Ecoparque Río Pance.",
+        "bibliography": "La Amazona ochrocephala, conocida como lora de cabeza amarilla, desempeña un papel fundamental en su ecosistema mediante la dispersión de semillas. Al alimentarse de una variedad de frutos, dispersa las semillas y facilita la regeneración y diversidad de la vegetación en los bosques. Además, al consumir flores y néctar, también actúa como un polinizador ocasional, apoyando la reproducción de algunas plantas."
+      }
+    },
+    {
+      "modelIndex": 7,
+      "questions": [
+        {
+          "questionText": "¿Qué característica distingue a las patas de las aves Piciformes?",
+          "answers": [
+            "A) Tienen dedos dispuestos en zigzag",
+            "B) Tienen cinco dedos en total",
+            "C) Tienen dos dedos hacia adelante y dos hacia atrás",
+            "D) Tienen dedos largos y delgados"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "questionText": "¿En qué tipo de hábitats suelen encontrarse las aves Piciformes?", 
+          "answers": [
+            "A) Desiertos y dunas",
+            "B) Bosques tropicales y templados",
+            "C) Praderas abiertas",
+            "D) Cimas de montañas"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "questionText": "Cómo se alimentan los pájaros carpinteros de las larvas?",
+          "answers": [
+            "A) Usando su pico para perforar y su lengua larga para capturar larvas escondidas en los troncos",
+            "B) Persiguiendo a las larvas por el suelo",
+            "C) Sumergiéndose en agua para atrapar larvas acuáticas",
+            "D) Recolectando larvas de las hojas"
+          ],
+          "correctAnswerIndex": 0
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Carpintero coronirrojo",
+        "species": "Melanerpes rubricapillus",
+        "conservacion":"LC preocupación menor",
+        "description": "Puede beneficiarse de la tala de bosques; su población tiende a aumentar en áreas donde el aclareo y la tala crean más bosques abiertos. Se lo considera una molestia a nivel local en plantaciones y jardines debido a sus hábitos frugívoros.",
+        "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Melanerpes rubricapillus",
+        "habitat": "Estos pájaros residen en hábitats áridos y húmedos, como matorrales costeros, bosques secos y urbanos. Prefieren niveles más altos en áreas boscosas y niveles más bajos en espacios abiertos",
+        "diet": "Su dieta consiste en hormigas, escarabajos, larvas, ortópteros, arañas y frutas como papayas y plátanos. Buscan alimento individualmente o en parejas en todos los niveles del bosque.",
+        "reproduction": "Anida en cactus, postes de cercas y árboles, siendo reproductora solitaria y territorial. La nidada consta de 3 a 4 huevos, incubados por ambos sexos. Generalmente se crían 2 crías, que son alimentadas y cuidadas por ambos padres durante aproximadamente 1 mes.",
+        "size": "mide entre 16 y 18.5 centímetros de longitud.",
+        "funFact1": "Monógama permanecen juntas todo el año, pero duermen individualmente en agujeros.",
+        "funFact2": "Las técnicas de alimentación incluyen martillar en la corteza, sondear, recolectar de troncos, ramas y follaje, y alcanzar frutas; perfora la piel de frutas más grandes para obtener contenido.",
+        "location": "Ecohotel El Castillo.",
+        "bibliography": "El Melanerpes rubricapillus, conocido como carpintero habado, tiene efectos importantes en su ecosistema al contribuir al control de plagas, ya que se alimenta de insectos, incluyendo larvas que habitan bajo la corteza de los árboles. Además, excava agujeros en los troncos para anidar, lo cual crea cavidades que luego pueden ser utilizadas por otras especies, como aves más pequeñas y mamíferos, contribuyendo a la disponibilidad de sitios de anidación y favoreciendo la biodiversidad."
+      }
+    },
+    {
+      "modelIndex": 8,
+      "questions": [
+        {
+          "questionText": "¿Cuál es una característica distintiva de las aves Coraciiformes?",
+          "answers": [
+            "A) Pico largo y robusto",
+            "B) Pico corto y débil",
+            "C) Alas muy pequeñas",
+            "D) Plumaje completamente blanco"
+          ],
+          "correctAnswerIndex": 0
+        },
+        {
+          "questionText": "¿Dónde se encuentran comúnmente las aves del orden Coraciiformes?", 
+          "answers": [
+            "A) En desiertos exclusivamente",
+            "B) Solo en áreas montañosas",
+            "C) En las cimas de los árboles",
+            "D) En áreas cercanas a cuerpos de agua"
+          ],
+          "correctAnswerIndex": 3
+        },
+        {
+          "questionText": "¿Cómo contribuyen a la dispersión de semillas?",
+          "answers": [
+            "A) Comen y digieren semillas",
+            "B) Solo cazan animales",
+            "C) Consumen frutas y dispersan las semillas en otras áreas",
+            "D) Destruyen las semillas"
+          ],
+          "correctAnswerIndex": 2
+        }
+      ],
+      "birdInfo": {
+        "birdName": "Martín pescador de collar",
+        "species": "Megaceryle torquata",
+        "conservacion":"LC preocupación menor",
+        "description": "Cabeza grande con una cresta irregular llamativa que cubre todo el píleo desde la base del pico hasta la nuca, las partes superiores y las alas son de color gris azulado, excepto las plumas de vuelo negruzcas.",
+        "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Megaceryle torquata",
+        "habitat": "Habita a lo largo de ríos, lagos, pantanos, estuarios, reservorios de agua, manglares y cultivos de arroz. Puede ser observado en áreas boscosas cerca de la línea costera.",
+        "diet": "Esta ave es piscívora y se alimenta principalmente de peces, especialmente de las familias Characidae y Cichlidae, aunque también consume ranas, salamandras, reptiles, cangrejos e insectos. Suele posarse en ramas sobre el agua, lanzándose abruptamente para capturar sus presas.",
+        "reproduction": "Las madrigueras suelen estar cerca del agua y son excavadas por ambos sexos, que aflojan la tierra con el pico y la sacan con las patas. La excavación, que comienza varios días antes de poner huevos, dura de 4 a 5 minutos. Ponen de 3 a 6 huevos.",
+        "size": "mide entre 38 y 42 centímetros de longitud.",
+        "funFact1": "Las aves que incuban regurgitan (flujo relajado del contenido del estómago hacia afuera de la boca, con frecuencia, mediante un eructo) escamas y huesos de pescado no digeridos, lo que atrae a las moscas a la cámara del nido.",
+        "funFact2": "Los polluelos se ponen de pie 15 horas después de la eclosión. Los ojos se abren y las plumas del cuerpo comienzan a emerger de la piel a los 10 días después de la eclosión.",
+        "location": "Ecoparque Río Pance.",
+        "bibliography": "La Megaceryle torquata, conocida como martín pescador grande, tiene un papel clave en los ecosistemas acuáticos. Al ser un predador de peces, anfibios e invertebrados acuáticos, contribuye al control de las poblaciones de estas especies, ayudando a mantener el equilibrio en los cuerpos de agua donde habita. Además, su actividad de pesca favorece el movimiento de nutrientes entre el agua y la tierra, lo que beneficia la productividad del entorno acuático y ribereño."
+      }
+    },
+    {
+    "modelIndex": 9,
+    "questions": [
+      {
+        "questionText": "¿Cuál es la función del pico de las aves Piciformes, como el pájaro carpintero?",
+        "answers": [
+          "A) Para perforar la corteza de los árboles",
+          "B) Para nadar",
+          "C) Para cortar frutas",
+          "D) Para atrapar insectos en vuelo"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "¿Qué tipo de hábitat prefieren los barbudos?", 
+        "answers": [
+          "A) Desiertos áridos",
+          "B) Zonas árticas",
+          "C) Manglares",
+          "D) Bosques tropicales"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "¿Cuál es el papel de los carpinteros en los ecosistemas donde habitan?",
+        "answers": [
+          "A) Crear huecos en los troncos que luego son usados por otras especies",
+          "B) Producir polen para las plantas",
+          "C) Transformar la corteza de los árboles en alimento",
+          "D) Limpiar las hojas de los árboles"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "birdInfo": {
+      "birdName": "Carpintero pechipunteado",
+      "species": "Colaptes punctigula",
+      "conservacion":"LC preocupación menor",
+      "description": "Dimorfismo sexual. La frente es negra, la coronilla roja, lados de la cabeza blancos, bordeados por debajo de un bigote rojo (solo en los machos). La hembra carece el bigote rojo bajo los lados blancos de la cabeza. Su preferencia por los bosques más abiertos significa que no sufre demasiado los efectos de la tala.",
+      "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Colaptes punctigula",
+      "habitat": "Esta especie habita en diversos entornos, incluyendo bosques lluviosos, caducifolios y de galería, así como en bosques secundarios, manglares, bordes de pantanos, llanos y terrenos abiertos con grandes árboles. También se encuentra en matorrales, claros, palmares de moriche y plantaciones de café.",
+      "diet": "Se alimentan de hormigas y sus crías, viviendo en parejas o grupos familiares. Buscan alimento en árboles a alturas medias y bajas, y también descienden al suelo para buscar en hormigueros. En los árboles, utilizan técnicas de espigar, sondear y picotear, mientras que, en el suelo, sondean y barren la hojarasca.",
+      "reproduction": "Los nidos consisten en excavado o huecos que perforan ambos sexos sobre los troncos de árboles muertos, a mediana o alta altura, a veces en postes de cercas. En encuentros cercanos, exhibe movimientos de balanceo y sacudidas de la cabeza y cola extendida. ",
+      "size": "mide entre 18 y 21 centímetros de longitud.",
+      "funFact1": "Comportamiento Terrestre: A diferencia de muchos otros carpinteros, el carpintero punteado suele buscar alimento en el suelo, donde excava en busca de insectos y hormigas, lo cual es un comportamiento inusual para la mayoría de las especies de carpinteros.",
+      "funFact2": "Comunicación a Través de Golpeteo: Esta especie utiliza un comportamiento llamado tamborileo, que consiste en golpetear repetidamente los troncos con su pico. Este sonido sirve para marcar territorio y atraer pareja, siendo una forma importante de comunicación dentro de la especie.",
+      "location": "Jardín Botánico de Cali.",
+      "bibliography": "El Colaptes punctigula, contribuye al control de plagas al alimentarse de insectos y larvas que encuentra en troncos y suelos, beneficiando la salud de los árboles y reduciendo la proliferación de plagas. Además, al perforar troncos para crear nidos, genera cavidades que posteriormente pueden ser utilizadas por otras especies, como aves y mamíferos pequeños, promoviendo la diversidad de fauna en el área."
     }
+  }
 ]
 },
-
-
 
 
 
@@ -1905,7 +2445,7 @@
         "funFact1": "Es conocida por su característica cresta que puede erguir y que tiene un tono amarillento, visible cuando está emocionada o alerta",
         "funFact2": "Su canto es muy distintivo y repetitivo, lo que la hace fácilmente identificable en su hábitat, especialmente durante la época de reproducción",
         "location": "Ecohotel El Castillo",
-        "bibliography": "Elaenia flavogaster, desempeña un papel importante como dispersora de semillas, ya que consume una variedad de frutos y ayuda a la propagación de plantas al excretar las semillas en diferentes áreas. También contribuye al control de insectos, ya que su dieta incluye insectos que captura en vuelo, lo que ayuda a mantener el equilibrio en la cadena alimentaria del ecosistema."
+        "bibliography": " desempeña un papel importante como dispersora de semillas, ya que consume una variedad de frutos y ayuda a la propagación de plantas al excretar las semillas en diferentes áreas. También contribuye al control de insectos, ya que su dieta incluye insectos que captura en vuelo, lo que ayuda a mantener el equilibrio en la cadena alimentaria del ecosistema."
       }
     },
     {
@@ -1954,9 +2494,8 @@
         "size": "Mide entre 8.8 y 10.2 cm de longitud",
         "funFact1": "Buscan alimento en parejas o pequeños grupos familiares en la vegetación densa cerca del suelo o en el dosel abierto de nivel medio de los árboles",
         "funFact2": "Polluelos parcialmente dependientes de los padres hasta 43 días, se benefician de la deforestación, extendiéndose hacia claros y plantaciones, donde suele ser común",
-        "location": "Universidad Javeriana de Cali",
-        "ecosistema":"Todirostrum cinereum, ecológicamente, desempeña un papel importante como controlador de poblaciones de insectos, ya que se alimenta principalmente de ellos, incluyendo mosquitos, hormigas y otros insectos pequeños. Esto contribuye al equilibrio del ecosistema y ayuda a reducir la proliferación de plagas. Además, al consumir frutos pequeños y dispersar las semillas a través de sus excrementos, favorece la regeneración y diversidad de la vegetación en su hábitat, contribuyendo a la salud del ecosistema donde vive",
-        "bibliography": "BirdLife International, 2019"
+        "location": "Ecoparque Río Pance",
+        "bibliography": "Todirostrum cinereum, ecológicamente, desempeña un papel importante como controlador de poblaciones de insectos, ya que se alimenta principalmente de ellos, incluyendo mosquitos, hormigas y otros insectos pequeños. Esto contribuye al equilibrio del ecosistema y ayuda a reducir la proliferación de plagas. Además, al consumir frutos pequeños y dispersar las semillas a través de sus excrementos, favorece la regeneración y diversidad de la vegetación en su hábitat, contribuyendo a la salud del ecosistema donde vive"
       }
     },
     {
@@ -2005,7 +2544,7 @@
         "size": "Mide entre 13 y 14 cm de longitud",
         "funFact1": "Durante la temporada de cría, los machos de los papamoscas bermellones realizan un espectacular canto de vuelo a 20-30 m sobre el dosel, y parecen rebotar en el cielo con sus alas revoloteando mientras cantan",
         "funFact2": "En la caza aérea, persigue a la presa y la atrapa en el aire en un vuelo directo y rápido. Las presas que escapan al ataque inicial pueden ser perseguidas en una persecución acrobática errática hasta la captura",
-        "location": "Universidad Javeriana de Cali",
+        "location": "Ecoparque Río Pance",
         "bibliography": "Pyrocephalus rubinus, ecológicamente, desempeña un papel importante en el control de poblaciones de insectos, ya que se alimenta de una variedad de insectos voladores, como mosquitos, polillas y escarabajos, contribuyendo a mantener el equilibrio y reducir las plagas en su entorno. Además, al consumir frutos ocasionalmente, también ayuda en la dispersión de semillas, promoviendo la regeneración y diversidad de la vegetación en su hábitat, lo que beneficia la salud y el equilibrio del ecosistema donde vive"
       }
     },
@@ -2055,7 +2594,7 @@
         "size": "Mide entre 27.2 y 29.9 cm de longitud.",
         "funFact1": "A menudo roba material de nidificación de nidos abandonados o no vigilados de otras aves. Los nidos están construidos principalmente de pasto, pero también pueden incorporar ramitas delgadas, zarcillos de enredaderas leñosas, papel, algodón, trapos e incluso basura plástica",
         "funFact2": "Aproximadamente 1 día antes de emplumar, los polluelos se paran en la entrada del nido y baten las alas, lo que hace que el techo del nido se derrumbe.",
-        "location": "Universidad Javeriana de Cali",
+        "location": "Ecohotel El Castillo",
         "bibliography": "Esta ave habita en una amplia variedad de ecosistemas, desde áreas urbanas hasta bosques y zonas rurales, ecológicamente, desempeña un papel fundamental en el control de insectos, ya que se alimenta de una amplia variedad de ellos, ayudando a mantener el equilibrio de sus poblaciones. Además, es un dispersor de semillas, ya que también consume frutas, contribuyendo a la regeneración de la vegetación y la biodiversidad de su hábitat. Al ser un ave adaptable, contribuye significativamente al equilibrio y la salud de los ecosistemas donde vive."
       }
     }
@@ -2107,7 +2646,7 @@
     "size": "Mide entre 37.0 y 40.5 cm de longitud",
     "funFact1": "El Tyrannus savana es famoso por su vuelo acrobático. Realiza maniobras en el aire para atrapar insectos y también durante la temporada de apareamiento, lo que lo hace muy llamativo y espectacular.",
     "funFact2": "Estas aves son migratorias y pueden viajar largas distancias. Pasan la temporada de cría en América del Norte y luego migran a América del Sur para el invierno, cubriendo miles de kilómetros en el proceso.",
-    "location": "Universidad Javeriana de Cali",
+    "location": "Bosque Escondido",
     "bibliography": "El Tyrannus savana, juega un papel importante en su ecosistema como controlador de insectos. Estas aves se alimentan principalmente de insectos voladores, contribuyendo a regular sus poblaciones y ayudando a mantener el equilibrio ecológico. Además, al moverse por diversas áreas durante su migración, participan en la dispersión de semillas, lo que favorece la regeneración de la vegetación en distintos hábitats"
   }
 },
@@ -2153,11 +2692,11 @@
     "mainImage": "Images/Interfaz/Cartas/Cantoras/Cucarachero",
     "habitat": "Se encuentra principalmente en bosques abiertos, pantanos boscosos, bosques de coníferas (son ecosistemas que se caracterizan por contar con un clima que va desde templado a frío) recientemente quemados, sabanas, parques urbanos y áreas residenciales con árboles, en áreas boscosas alrededor del agua, o en granjas y arbustos",
     "diet": "Recolecta pequeños invertebrados terrestres de la mayoría de los sustratos disponibles (abono orgánico), incluyendo suelo desnudo, hojarasca, cubierta vegetal herbáceo y todas las partes de arbustos y árboles (troncos, ramas y tallos). Rara vez cazaba insectos voladores. La distribución de los sitios de alimentación de machos y hembras difería significativamente, ya que los machos se alimentaban en arbustos y árboles más altos que las hembras",
-    "reproduction": "El macho de Pygochelidon cyanoleuca comienza a construir nidos en cavidades preformadas en árboles o en estructuras hechas por el hombre justo después de reclamar su territorio tras la migración. La hembra se une al proceso de construcción tras aparearse y es la única que incuba los huevos.En las poblaciones migratorias de zonas templadas, las nidadas suelen variar entre 4 y 8 huevos, aunque en ocasiones pueden ser tan pequeñas como 3 o tan grandes como 9 o 10 huevos.",
+    "reproduction": "El macho decomienza a construir nidos en cavidades preformadas en árboles o en estructuras hechas por el hombre justo después de reclamar su territorio tras la migración. La hembra se une al proceso de construcción tras aparearse y es la única que incuba los huevos.En las poblaciones migratorias de zonas templadas, las nidadas suelen variar entre 4 y 8 huevos, aunque en ocasiones pueden ser tan pequeñas como 3 o tan grandes como 9 o 10 huevos.",
     "size": "Mide entre 11.0 y 13.0 cm de longitud.",
     "funFact1": "Estas aves son conocidas por ser extremadamente territoriales y defender sus nidos de otras aves, llegando incluso a destruir huevos o crías de competidores que anidan cerca.",
     "funFact2": "Troglodytes aedon tiene una amplia capacidad de adaptación y puede anidar en casi cualquier lugar, incluyendo cavidades naturales, cajas nido, construcciones humanas y objetos abandonados, lo que les permite habitar en entornos urbanos y rurales.",
-    "location": "Universidad Javeriana de Cali",
+    "location": "Ecohotel El Castillo",
     "bibliography":"Desempeña un papel importante en su ecosistema al ser un controlador natural de insectos. Como insectívora, se alimenta de una variedad de insectos y arácnidos, ayudando a regular sus poblaciones y contribuyendo al equilibrio ecológico. Además, al construir sus nidos en cavidades y a menudo ocupar nidos abandonados de otras aves, promueve la reutilización de recursos y ayuda a mantener la biodiversidad en su hábitat"
 
   }
@@ -2213,7 +2752,7 @@
   }
 },
 {
-  "modelIndex": 6,
+  "modelIndex": 7,
   "questions": [
     {
       "questionText": " ¿Cómo contribuye el ecoturismo a la conservación de las aves cantoras?",
@@ -2263,7 +2802,7 @@
   }
 },
 {
-  "modelIndex": 6,
+  "modelIndex": 8,
   "questions": [
     {
       "questionText": " ¿Qué tipo de alimentos suelen consumir las aves cantoras?",
@@ -2308,12 +2847,12 @@
     "size": "Mide 13 cm de longitud.",
     "funFact1": "El mielero verde tiene una lengua larga y tubular que le permite extraer néctar de las flores de manera eficiente, similar a los colibríes, lo que lo convierte en un polinizador efectivo.",
     "funFact2": "Los machos y las hembras de esta especie tienen un dimorfismo sexual notable: los machos son de un brillante color verde esmeralda, mientras que las hembras presentan un plumaje verde oliva más apagado",
-    "location": "Universidad Javeriana de Cali",
+    "location": "Ecoparque Río Pance",
     "bibliography":"Chlorophanes spiza, conocida como mielero verde, juega un papel importante en su ecosistema como polinizador y dispersor de semillas. Al alimentarse de néctar y frutos, contribuye a la polinización de diversas plantas y a la propagación de semillas, lo que favorece la regeneración y diversidad de la vegetación en su hábitat. También consume insectos, ayudando a controlar sus poblaciones"
   }
 },
 {
-  "modelIndex": 6,
+  "modelIndex": 9,
   "questions": [
     {
       "questionText": " ¿Cuál es el hábitat preferido de muchas aves cantoras para anidar y reproducirse?",
@@ -2359,14 +2898,11 @@
     "reproduction":"El nido es una semiesfera voluminosa de pastos secos, revestido con material más suave, incluido pelo, colocado en hojas de palma o en una cavidad, por ejemplo, una tubería, un alero de techo;nidada de 2 a 4 huevos, de color crema con marcas de color marrón violáceo.",
     "size": "Mide entre 13.5 y 15.0 cm de longitud.",
     "funFact1": "Los machos de Sicalis flaveola tienen un llamativo plumaje amarillo brillante, especialmente durante la época de reproducción, mientras que las hembras presentan colores más apagados para camuflarse mejor",
-    "funFact2": "Esta especie se adapta muy bien a entornos urbanos y rurales, y a menudo se les puede ver en áreas habitadas por humanos, construyendo sus nidos en techos, estructuras artificiales o incluso cajas de nido.",
-    "location": "Universidad Javeriana de Cali",
+    "funFact2": "Esta especie se adapta muy bien a entornos urbanos y rurales, y a menudo se les puede ver en áreas habitadas por humanos, construyendo sus nidos en techos, estructuras artificiales o incluso cajas de nido.",
+    "location": "Ecohotel El Castillo",
     "bibliography":"Sicalis flaveola, desempeña un papel importante en su ecosistema al consumir semillas, contribuyendo a la dispersión y control de plantas y malezas. También se alimenta de insectos, lo que ayuda a regular las poblaciones de estos invertebrados y a mantener el equilibrio ecológico en su hábitat."
   }
 },
-
-
-
 
 
 
@@ -2379,36 +2915,37 @@
     {
       "modelIndex": 0,
       "questions": [
-        {
-          "questionText": "¿Cuál de las siguientes adaptaciones es común en las aves de vuelo intenso?",
-          "answers": [
-            "A) Cuerpos pesados y alas cortas",
-            "B) Cuerpos aerodinámicos y alas largas y estrechas",
-            "C) Patas largas para caminar",
-            "D) Todas las anteriores"
-          ],
-          "correctAnswerIndex": 1
-        },
-        {
-          "questionText": "¿Qué papel juegan las aves de vuelo intenso en el ecosistema? ",
-          "answers": [
-            "A) Solo son responsables de la dispersión de semillas",
-            "B) Principalmente se alimentan de plantas",
-            "C) Contribuyen al control de insectos y la dispersión de semillas y polen",
-            "D) Todas las anteriores"
-          ],
-          "correctAnswerIndex": 2
-        },
-        {
-          "questionText": "¿Cuál es una amenaza significativa para las aves de vuelo intenso en las ciudades? ",
-          "answers": [
-            "A) La pérdida de hábitat debido a la expansión urbana ",
-            "B) La falta de alimento en áreas urbanas",
-            "C) La competencia con otras especies de aves",
-            "D) Todas las anteriores"
-          ],
-          "correctAnswerIndex": 0
-        }
+          {
+            "questionText": "¿Qué característica general es común en las aves extrañas?",
+            "answers": [
+              "A) Colores llamativos y patrones extravagantes en el plumaje",
+              "B) Plumaje uniforme y poco vistoso",
+              "C) Forma corporal promedio",
+              "D) Picos cortos y uniformes"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "questionText": "¿Cómo contribuyen las aves extrañas a los ecosistemas?",
+            "answers": [
+              "A) No tienen ningún impacto",
+              "B) Causan daño a otros animales",
+              "C) Solo viven en áreas urbanas",
+              "D) Ocupan nichos ecológicos únicos que contribuyen a la diversidad"
+            ],
+            "correctAnswerIndex": 3
+          },
+          {
+            "questionText": "¿Qué comportamiento tienen algunas aves extrañas durante la noche?",
+            "answers": [
+              "A) Son diurnas",
+              "B) Se alimentan exclusivamente de frutas",
+              "C) Son nocturnas y están activas durante la noche",
+              "D) Se esconden bajo el agua"
+            ],
+            "correctAnswerIndex": 2
+          }
+        
       ],
       "birdInfo": {
             "birdName": "Urutau común ",
@@ -2422,7 +2959,7 @@
             "reproduction": "Se presume que el potoo común es monógamo; se dice que ambos sexos incuban el huevo y cuidan al polluelo, ponen un solo huevo y no construyen un nido; el huevo se anida en la parte superior de un tocón o una rama rota, o en una ligera depresión en una rama grande de un árbol.",
             "funFact1": "Permanece inmóvil durante el día. Se posa en ramas altas, aunque generalmente se lo ve en una postura erguida, cuando no está alarmado se posa verticalmente pero más corto y más grueso, con el pico dirigido hacia adelante en lugar de hacia arriba",
             "funFact2": "Cuando sospecha que lo están observando, alarga su cuerpo, comprime su plumaje y levanta la cabeza, todo tan gradualmente que no se percibe ningún movimiento. Pueden usar el mismo dormidero diurno durante meses seguidos",
-            "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
+            "location": "Ecoparque Río Pance",
             "bibliography": "Nyctibius griseus, juega un papel ecológico crucial en su ecosistema. Como depredador nocturno de insectos, contribuye al control de poblaciones de plagas, ayudando a mantener el equilibrio en la cadena alimentaria. Además, al consumir insectos que podrían dañar la vegetación, ayuda indirectamente a proteger la flora local. Al ser parte de la red trófica, también sirve como presa para depredadores más grandes, lo que lo convierte en un componente importante para la biodiversidad del ecosistema en el que vive."
       }
     }
