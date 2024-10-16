@@ -26,6 +26,7 @@ public class LocalizedText : MonoBehaviour
     public void UpdateText()
     {
         string localizedValue = LanguageManager.instance.GetLocalizedValue(key);
+        Debug.Log($"Actualizando texto con la clave '{key}', valor obtenido: '{localizedValue}'");
 
         if (uiText != null)
         {
@@ -34,6 +35,10 @@ public class LocalizedText : MonoBehaviour
         else if (tmpText != null)
         {
             tmpText.text = localizedValue;
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró componente de texto para actualizar.");
         }
     }
 }

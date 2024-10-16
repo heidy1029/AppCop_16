@@ -10,6 +10,8 @@ public class Rotacion : MonoBehaviour
     [SerializeField] GameObject contenedorCartas;
     [SerializeField] Button botonSiguiente;
     [SerializeField] Button botonAnterior;
+    [SerializeField] Button botonCerrar; // Nuevo botón para cerrar el Canvas
+    [SerializeField] GameObject settingsMenuUI;
 
     int paginaActual = 0;
     int totalPaginas;
@@ -19,6 +21,10 @@ public class Rotacion : MonoBehaviour
         totalPaginas = Mathf.CeilToInt((float)cartas.Count / cartasPorPagina) - 1;
         MostrarPagina(paginaActual);
         ActualizarBotones();
+        settingsMenuUI.SetActive(false);
+
+        // Asigna el método al botón cerrar
+        botonCerrar.onClick.AddListener(CerrarCanvas);
     }
 
     public void SiguientePagina()
@@ -43,7 +49,6 @@ public class Rotacion : MonoBehaviour
 
     public void ActualizarCartas()
     {
-        // Este método puede ser llamado cuando se agregue una nueva imagen.
         totalPaginas = Mathf.CeilToInt((float)cartas.Count / cartasPorPagina) - 1;
         MostrarPagina(paginaActual);
         ActualizarBotones();
@@ -70,7 +75,13 @@ public class Rotacion : MonoBehaviour
         botonAnterior.interactable = paginaActual > 0;
         botonSiguiente.interactable = paginaActual < totalPaginas;
     }
+
+    private void CerrarCanvas()
+    {
+        settingsMenuUI.SetActive(false); // Cierra el Canvas
+    }
 }
+
 
 
 /*public class Rotacion : MonoBehaviour

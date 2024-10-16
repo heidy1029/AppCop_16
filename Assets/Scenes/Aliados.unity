@@ -315,8 +315,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2109462581}
   m_HandleRect: {fileID: 2109462580}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.99999994
+  m_Value: 1
+  m_Size: 0.985182
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -832,7 +832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 964.25, y: -3351}
+  m_AnchoredPosition: {x: 964.25, y: -3470}
   m_SizeDelta: {x: 1911.5, y: 967.9399}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &868648612
@@ -1195,8 +1195,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000018025705}
-  m_SizeDelta: {x: 0, y: 3823}
+  m_AnchoredPosition: {x: 0, y: 0.000085881205}
+  m_SizeDelta: {x: 0, y: 3988.7725}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &963194225
 GameObject:
@@ -1410,6 +1410,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003180503}
   m_CullTransparentMesh: 1
+--- !u!1 &1010879456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010879458}
+  - component: {fileID: 1010879457}
+  m_Layer: 0
+  m_Name: load
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1010879457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010879456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe8f1bd69559e042bc5f6c75457989c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1010879458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010879456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 176.92682, y: 2469.5876, z: -60.11877}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019163546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,8 +1491,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00012207031, y: 1706}
-  m_SizeDelta: {x: 1903, y: 408.8058}
+  m_AnchoredPosition: {x: 46.471863, y: 1788}
+  m_SizeDelta: {x: 1995.9434, y: 408.8058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019163548
 MonoBehaviour:
@@ -1503,7 +1547,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 215
     m_Right: 134
-    m_Top: 129
+    m_Top: 141
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
@@ -1660,7 +1704,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1061003438}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1010879457}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainScenes
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1061003438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1920,7 +1976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 970.9601, y: -683}
+  m_AnchoredPosition: {x: 970.9601, y: -845}
   m_SizeDelta: {x: 1481.1472, y: 300.4889}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268324071
@@ -2416,8 +2472,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 106445083}
   m_HandleRect: {fileID: 106445082}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.9999999
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2878,3 +2934,4 @@ SceneRoots:
   - {fileID: 2092106179}
   - {fileID: 1349173646}
   - {fileID: 317325063}
+  - {fileID: 1010879458}

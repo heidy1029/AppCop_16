@@ -9,21 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: a6bcc9dfe33b9b948a3696877c9364ac
-  - enabled: 1
-    path: Assets/Scenes/GameLevel.unity
-    guid: 3477776e59c481241aa2711a1b167a35
-  - enabled: 1
     path: Assets/Scenes/InicioScene.unity
     guid: b01d6d196569eca44b50f939f6998e3c
   - enabled: 1
     path: Assets/Scenes/LoginScene.unity
     guid: 8e1b2a96a6386fe47a858863cc63fa83
   - enabled: 1
+    path: Assets/Scenes/RegisterScene.unity
+    guid: 5a514e9e5c59be044beda40f4d67c124
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/RegisterScene.unity
-    guid: 5a514e9e5c59be044beda40f4d67c124
+    path: Assets/Scenes/Game.unity
+    guid: a6bcc9dfe33b9b948a3696877c9364ac
+  - enabled: 1
+    path: Assets/Scenes/Biodiversidad.unity
+    guid: 3847e5d39b097914daa2fd52d6dccede
+  - enabled: 1
+    path: Assets/Scenes/Aliados.unity
+    guid: 5ac9ddef387b56440b30cab83409579e
+  - enabled: 1
+    path: Assets/Scenes/GameLevel.unity
+    guid: 3477776e59c481241aa2711a1b167a35
   m_configObjects: {}

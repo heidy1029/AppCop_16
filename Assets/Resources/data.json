@@ -39,7 +39,7 @@
             
           ],
           "birdInfo": {
-            "birdName": "Sirirí Pamba ",
+            "birdName": "Pijije Cariblanco ",
             "species": "Dendrocygna viduata",
             "description": "Es un ave acuática su característica más notable es su cabeza blanca contrastando con su cuerpo marrón y negro.",
             "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririPamba",
@@ -88,7 +88,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "suirirí piquirrojo",
+            "birdName": "Pijije Piquirrojo",
             "species": "Dendrocygna autumnalis",
             "description": "Es una ave acuática que se distingue por su plumaje marrón rojizo, su pico rojo brillante y sus patas rosadas. Los patitos tienen un plumón amarillo único con marcas negras, abajo) y un pico y patas de color gris a gris negruzco.",
             "mainImage":"Images/Interfaz/Cartas/Acuaticas/siririPiquirojo",
@@ -137,7 +137,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Pato de torrente ",
+            "birdName": "Pato torrentero ",
             "species": "Merganetta armata",
             "description": "Este pato está perfectamente adaptado a vivir en ríos rápidos y caudalosos, utilizando sus patas palmeadas y su capacidad de buceo para nadar contra las corrientes. Su plumaje es llamativo, con machos de colores brillantes y hembras más discretas.",
             "mainImage": "Images/Interfaz/Cartas/Acuaticas/patoTorrente",
@@ -186,7 +186,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Tero",
+            "birdName": "Avefría Tero",
             "species": "Vanellus chilensis",
             "description": "Reconocida por su distintivo plumaje grisáceo, pecho negro y un par de espolones en sus alas, que utiliza como mecanismo de defensa. Su característica llamada aguda y repetitiva también es una de sus señales distintivas, especialmente en situaciones de peligro",
             "mainImage": "Images/Interfaz/Cartas/Acuaticas/Tero",
@@ -285,7 +285,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Ibis de cara desnuda",
+            "birdName": "Ibis Afeitado",
             "species": "Phimosus infuscatus",
             "conservacion":"LC preocupación menor",
             "description": "Es un ave de presa ágil y rápida, con plumaje gris oscuro y una máscara negra en la cabeza. Habita en sabanas, pastizales y bosques abiertos. Se alimenta de pequeñas aves, mamíferos e insectos, cazando en vuelo o en el suelo. Es conocido por cazar en equipo y utilizar nidos abandonados de otras aves, ya que no construye los suyos propios.",
@@ -335,7 +335,7 @@
           }
         ],
         "birdInfo": {
-          "birdName": "Garcilla bueyera ",
+          "birdName": "Garza Ganadera",
           "species": "Bubulcus ibis",
           "conservacion":"LC preocupación menor",
           "description": "lanco, pico amarillo y patas de color gris o negro. Durante la época de reproducción, los adultos desarrollan un plumaje de tonos dorados en la cabeza, pecho y espalda. Esta especie se distingue por su asociación con grandes mamíferos, como el ganado, sobre el que se posa para alimentarse. Juega un rol importante en el control de insectos y parásitos. Al alimentarse de los insectos y parásitos que se encuentran sobre grandes mamíferos, ayuda a reducir las poblaciones de estos organismos en los ecosistemas agrícolas y ganaderos. Además, actúa como dispersor de semillas cuando se desplaza por diferentes áreas.",
@@ -435,7 +435,7 @@
               }
             ],
             "birdInfo": {
-              "birdName": "Sirirí pardo",
+              "birdName": "Pijije Canelo",
               "species": "Dendrocygna bicolor",
               "description": "Es una especie de ave acuática que habita en humedales, lagunas y áreas de agua dulce de América y África. Su plumaje es marrón con tonos claros y patas largas, lo que facilita su desplazamiento en el agua.",
               "mainImage": "Images/Interfaz/Cartas/Acuaticas/siririColorado",
@@ -592,7 +592,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Garrapatero Común ",
+            "birdName": "Garrapatero Pico Liso",
             "species": "Crotophaga ani",
             "conservacion":"LC preocupación menor",
             "description": "Se distingue por su plumaje completamente negro, cola larga, pico grande y llamado distintivo. Durante la temporada de cría, este ani vive en parejas o, más comúnmente, en grupos más grandes de hasta 17 individuos. Es más conocido por su sistema de cría comunal, en el que varias hembras suelen poner huevos e incubarlos en el mismo nido",
@@ -691,7 +691,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Colibrí amazilia de cola rufa",
+            "birdName": "Colibrí Cola Canela",
             "species": "Amazilia tzacatl",
             "conservacion":"LC preocupación menor",
             "description": "Tiene un cuerpo generalmente verde; el verde de la garganta y el pecho del macho es más brillante. También tiene un pico rojo rosado brillante (con una punta negra) y una cola rojiza brillante",
@@ -741,7 +741,7 @@
         }
       ],
       "birdInfo": {
-        "birdName": "Colibrí cola de raqueta",
+        "birdName": "Colibrí de Raquetas",
         "species": "Ocreatus underwoodii",
         "conservacion":"LC preocupación menor",
         "description": "Colibrí pequeño, de color verde brillante en general en los machos y con partes inferiores blancas en las hembras. Ambos sexos tienen abultamientos blancos en las patas (más pequeños en la hembra) y cola bifurcada; los machos tienen las rectrices externas alargadas, terminadas en astas y raquetas desnudas. También tiene un pico rojo rosado brillante (con una punta negra) y una cola rojiza brillante",
@@ -791,7 +791,7 @@
         }
       ],
       "birdInfo": {
-        "birdName": "Silfo king",
+        "birdName": "Silfo de king",
         "species": "Aglaiocercus kingii",
         "conservacion":"LC preocupación menor",
         "description": "Son un grupo cautivador de colibríes de pico corto y cola larga que habitan en los bosques húmedos de montaña andinos. Es una especie sexualmente dimórfica; los machos tienen una corona y una garganta de color verde brillante y rectrices de un azul verdoso excepcionalmente largas y deslumbrantes. Las hembras tienen una cola mucho más corta, una garganta blanca con motas verdes y un vientre de color beige rojizo",
@@ -845,7 +845,7 @@
             "species": "Tapera naevia",
             "conservacion":"LC preocupación menor",
             "description": "Es un ave mediana de color marrón con una cola larga y una cresta corta y tupida. Su canto ventrílocuo se escucha con frecuencia en pastizales, aunque es difícil de localizar. Ambos sexos son iguales.",
-            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Urutau",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/cuclillo",
             "habitat": "Habita en campos abiertos con árboles dispersos, matorrales, pastizales húmedos y claros en áreas boscosas.",
             "diet": "Se alimenta principalmente de insectos como saltamontes y escarabajos, forrajeando en el suelo o vegetación baja. Es una ave solitaria, furtiva y difícil de ver, más fácil de escuchar que observar.",
             "size": "Mide entre 26.0 - 29.0 cm de longitud.",
@@ -895,7 +895,7 @@
             "species": "Piaya cayana",
             "conservacion":"LC preocupación menor",
             "description": "Esta ave se observa planeando de árbol en árbol o saltando de rama en rama en busca de artrópodos. Sus movimientos recuerdan a las ardillas y posteriormente se deja caer planeando.  Su plumaje es marrón rojizo en la parte superior, con garganta y pecho beige y vientre gris claro. Su larga cola es rojiza por encima y negruzca con puntas blancas",
-            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Cuco",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/cuco",
             "habitat": "En bosques húmedos a semihúmedos, bosques secos, bordes de bosques, bosques secundarios, árboles dispersos en campo abierto, manglares, bosques inundables, bosques en crecimiento secundario avanzado, pastizales con árboles dispersos, plantaciones de café y cerca de cursos de agua en zonas secas.",
             "diet": "Es insectívoro principalmente de orugas, polillas, saltamontes, escarabajos, avispas, abejas, hormigas grandes, cigarras, hemípteros, arañas, lagartijas pequeñas, algunas frutas, ranas más pequeñas.",
             "size": "Mide entre 40.0 y 46.0 cm de longitud.",
@@ -1051,8 +1051,8 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Caracara de cabeza amarilla",
-            "species": "Daptrius chimachima",
+            "birdName": "Caracara chimachima",
+            "species": "Milvago chimachima",
             "conservacion":"LC preocupación menor",
             "description": "Se distingue por su plumaje marrón claro a pardo, con una cabeza y cuello más pálidos, y las puntas de las alas oscuras. Tiene una apariencia esbelta y una postura erguida, lo que le da un aspecto elegante. Posee un pico ganchudo amarillo con la punta negra y patas largas de color amarillo, adaptadas para caminar en busca de alimento.",
             "mainImage": "Images/Interfaz/Cartas/Rapaces/Caracara",
@@ -1063,7 +1063,7 @@
             "funFact1": "Aunque es un ave rapaz, la Pigua a menudo se la observa caminando por el suelo buscando alimento, algo inusual para aves de este tipo.",
             "funFact2": "Esta especie ha demostrado ser altamente adaptable a entornos urbanos, aprovechando recursos humanos, como desperdicios de comida, lo que le ha permitido prosperar en áreas pobladas.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "El Daptrius chimachima desempeña un papel importante como carroñero, ayudando a limpiar el ambiente al alimentarse de animales muertos, y como controlador de plagas, ya que consume insectos y pequeños vertebrados. Esta ave contribuye a mantener el equilibrio ecológico al regular las poblaciones de presas y evitar la propagación de enfermedades a través de la eliminación de cadáveres."
+            "bibliography": "El Milvago chimachima desempeña un papel importante como carroñero, ayudando a limpiar el ambiente al alimentarse de animales muertos, y como controlador de plagas, ya que consume insectos y pequeños vertebrados. Esta ave contribuye a mantener el equilibrio ecológico al regular las poblaciones de presas y evitar la propagación de enfermedades a través de la eliminación de cadáveres."
           }
         },
         {
@@ -1101,7 +1101,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Halcon aplomado",
+            "birdName": "Halcón Fajado",
             "species": "Falco femoralis",
             "conservacion":"LC preocupación menor",
             "description": "Es un ave de presa ágil y rápida, con plumaje gris oscuro y una máscara negra en la cabeza. Es conocido por cazar en equipo y utilizar nidos abandonados de otras aves, ya que no construye los suyos propios.",
@@ -1201,7 +1201,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Gavilan caminero",
+            "birdName": "Gavilán Pollero",
             "species": "Rupornis magnirostris",
             "conservacion":"LC preocupación menor",
             "description": "Se destaca por su plumaje grisáceo con bandas oscuras en la cola y un vientre barrado. Tiene ojos amarillos brillantes y patas largas y amarillas. Es una de las aves rapaces más comunes en América Latina.",
@@ -1301,7 +1301,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Buitre Negro",
+            "birdName": "Zopilote Común",
             "species": "Aegypius monachus",
             "conservacion": "LC preocupación menor",
             "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
@@ -1350,11 +1350,11 @@
               }
           ],
           "birdInfo": {
-            "birdName": "Milano caracolero",
+            "birdName": "Gavilán Caracolero",
             "species": "Rostrhamus sociabilis",
             "conservacion":"LC preocupación menor",
             "description": "Los sexos muestran un notable dimorfismo en el plumaje, aunque las hembras son ligeramente más grandes que los machos. Tienen un pico estrecho y muy curvado hacia abajo, con un culmen cóncavo y una punta afilada. Es un ave rapaz de tamaño mediano.",
-            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/caracolero",
             "habitat": "Se encuentran en zonas abiertas de humedales de agua dulce, como bordes de lagos y pantanos. A menudo se ven a lo largo de carreteras y canales de riego de arrozales, donde las vallas ofrecen perchas.",
             "diet": "Es un ave carnívora que se alimenta principalmente de caracoles acuáticos, tortugas y pequeños mamíferos. Busca alimento en parches de agua y se sumerge en picado para atrapar caracoles con sus patas, sin mojarse el vientre, a una profundidad de hasta 16 cm.",
             "reproduction": "La construcción del nido tarda de 4 a 18 días, aunque puede prolongarse si se interrumpe. La puesta de huevos es poco frecuente y generalmente consta de 2-3 huevos blanquecinos con manchas café.",
@@ -1400,10 +1400,10 @@
           ],
           "birdInfo": {
             "birdName": "Caracara crestado",
-            "species": "caraca cheriway",
+            "species": "Caraca cheriway",
             "conservacion":"LC preocupación menor",
             "description": "Esta ave rapaz de tamaño mediano, con plumaje blanco y negro y patas y cara amarillas, es fácil de identificar cuando se posa en lugares altos. Se distingue por su vuelo bajo y aleteos poderosos. Las hembras son ligeramente más grandes, y destacan su larga cola y cuello extendido. Aunque planea raramente, las corrientes térmicas pueden elevarla rápidamente.",
-            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/creste",
             "habitat": "Habita en una variedad de áreas abiertas y semiabiertas por debajo de los 3.000 metros de altitud, como pastizales, sabanas, pampas y bordes de ríos. Prefiere zonas con árboles dispersos, postes y cercas para posarse, especialmente cerca de sitios de anidación. Evita lugares con vegetación alta o densa que dificulte su despegue desde el suelo.",
             "diet": "Se alimenta de insectos, pequeños vertebrados, huevos y carroña, especialmente en invierno. Caza en hábitats abiertos como pastizales, desiertos y áreas humanas, como campos agrícolas y vertederos. Busca presas caminando, desde perchas, en vuelo bajo o vadeando en aguas poco profundas.",
             "reproduction": "El Caracara Crestado es el único miembro de Falconidae que construye su propio nido, reutilizando o renovando estructuras anteriores. Anida en vegetación alta o estructuras similares que ofrecen una amplia vista. Ambos sexos participan en la construcción, la cual dura de 2 a 4 semanas. Ponen entre 1 y 4 huevos, y ambos incuban durante 32 a 33 días.",
@@ -1453,7 +1453,7 @@
             "species": "Buteo platypterus",
             "conservacion":"LC preocupación menor",
             "description": "Se caracteriza por sus alas anchas y cortas, adaptadas para volar en bosques, y su migración masiva en grandes grupos.",
-            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buteo platypterus",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/anchas",
             "habitat": "En parques y jardines urbanos y suburbanos. Inverna en bosques secundarios más viejos y bosques amazónicos.",
             "diet": "Se basa principalmente en pequeños mamíferos, aves, insectos y reptiles. Dos características esenciales son su capacidad de migración a largas distancias y su aguda visión para cazar.",
             "reproduction": "Las parejas construyen el nido, la hembra hace la mayor parte del trabajo. Los nidos se sitúan sobre nidos antiguos de otras especies. La hembra realiza la mayor parte de la incubación, mientras el macho proporciona alimento. Las nidadas suelen ser de 3 o 4 huevos.",
@@ -1503,7 +1503,7 @@
             "species":"Coragyps atratus",
             "conservacion":"LC preocupación menor",
             "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
-            "mainImage": "Images/Interfaz/Cartas/Rapaces/Coragyps atratus",
+            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
             "habitat": "Se presenta principalmente en hábitats abiertos o semiabiertos con abundante carroña para alimentarse como granjas, sabanas, pastizales, claros, manglares y pueblos.",
             "diet": "Esta ave se alimenta principalmente de carroña, especialmente de mamíferos grandes, pero también busca basura y desechos comestibles. Ocasionalmente consume presas vivas y puede encontrar alimento en mercados, mataderos y vertederos.",
             "reproduction": "Anida típicamente en huecos oscuros o bajo algún tipo de cubierta. Cuevas, troncos huecos, tocones y troncos de árboles, grietas entre rocas, montones de maleza, matorrales, edificios abandonados y sitios al lado o debajo de árboles y troncos son todos utilizados. Casi siempre 2 huevos.",
@@ -1665,7 +1665,7 @@
           "species": "Chamaepetes goudoti",
           "conservacion":"LC preocupación menor",
           "description": "Esta pava de tamaño pequeño con un plumaje distintivo. Su cuerpo combina un vientre castaño brillante, partes superiores oscuras, cuello y cabeza marrones, junto con piel facial azul pálido y ojos rojos. Es una especie sigilosa y discreta, que tiende a esconderse rápidamente cuando se siente perturbada, y generalmente es silenciosa, lo que facilita que pase desapercibida.",
-          "mainImage": "Images/Interfaz/Cartas/Gallineceas/Pava",
+          "mainImage": "Images/Interfaz/Cartas/Gallineceas/pava",
           "habitat": "habita principalmente en bosques húmedos subtropicales, pero también en áreas templadas bajas, bosques secundarios y plantaciones de café, a veces cerca de carreteras.",
           "diet": "Su dieta se basa principalmente en frutas, complementada con semillas, flores, hojas e invertebrados. Se alimenta al amanecer o al atardecer, vive en parejas o pequeños grupos y es arisca, pasando la mayor parte del tiempo en los árboles. Rara vez se encuentra en el suelo.",
           "reproduction": "La hembra pone de 2 a 3 huevos y los incuba sin ayuda del macho. Construyen nidos alargados y poco profundos en árboles o plantas epífitas, usando hojas y enredaderas. Hacen movimientos con el cuello para mover el nido, posiblemente para rodar los huevos y limpiar el nido.",
@@ -1711,7 +1711,7 @@
           }
         ],
         "birdInfo": {
-            "birdName": "Paloma morada",
+            "birdName": "Paloma Colorada",
             "species": "Patagioenas cayennensis",
             "conservacion":"LC preocupación menor",
             "description": "Es un ave mediana, de plumaje marrón violáceo con áreas gris pálido, brillo verde en el cuello, pico negro y patas rojas. Se agrupa en grandes cantidades cuando hay abundante alimento.",
@@ -1728,56 +1728,6 @@
       },
       {
         "modelIndex": 4,
-        "questions": [
-          {
-            "questionText": "¿Qué tipo de cuerpo tienen las aves Galliformes?",
-            "answers": [
-              "A) Cuerpo delgado y alas largas",
-              "B) Cuerpo pequeño y liviano",
-              "C) Cuerpo robusto y patas fuertes",
-              "D) Gracioso y ligero, perfecto para planear por largas distancias"
-            ],
-            "correctAnswerIndex": 2
-          },
-          {
-            "questionText": "¿Qué tipo de áreas prefieren las especies de Galliformes adaptadas a la vida agrícola?",
-            "answers": [
-              "A) Áreas agrícolas con abundante alimento",
-              "B) Zonas urbanas",
-              "C) Regiones desérticas",
-              "D) Zonas de montaña con pendientes pronunciadas."
-            ],
-            "correctAnswerIndex": 0
-          },
-          {
-            "questionText": "¿Qué función ecológica cumplen los Galliformes en su hábitat natural?",
-            "answers": [
-              "A) Ayudan a eliminar malezas únicamente",
-              "B) Solo sirven como presa para otros depredadores",
-              "C) Contribuyen a la polinización y dispersión de semillas",
-              "D) Contribuyen a la formación de hábitats acuáticos."
-            ],
-            "correctAnswerIndex": 2
-          }
-        ],
-        "birdInfo": {
-          "birdName": "Pava falcialar",
-          "species": "Chamaepetes goudotii",
-          "conservacion":"LC preocupación menor",
-          "description": "Es una especie sigilosa y discreta, que tiende a esconderse rápidamente cuando se siente perturbada, y generalmente es silenciosa, lo que facilita que pase desapercibida.",
-          "mainImage": "Images/Interfaz/Cartas/Gallinaceas/Chamaepetes goudotii",
-          "habitat": "Habita principalmente en bosques húmedos subtropicales, pero también en áreas templadas bajas, bosques secundarios y plantaciones de café, a veces cerca de carreteras.",
-          "diet": "Su dieta se basa principalmente en frutas, complementada con semillas, flores, hojas e invertebrados. ",
-          "reproduction": "La hembra pone de 2 a 3 huevos y los incuba sin ayuda del macho. Construyen nidos alargados y poco profundos en árboles o plantas epífitas, usando hojas y enredaderas.",
-          "size": "mide entre 50 y 65 centímetros de longitud.",
-          "funFact1": "Esta ave es muy esquiva y difícil de observar, ya que pasa la mayor parte del tiempo oculta entre la vegetación densa del dosel de los bosques",
-          "funFact2": "Esta ave realiza un curioso movimiento de cabeza y cuello en su nido, que se cree ayuda a rodar los huevos y fortalecer la estructura del nido.",
-          "location": "Jardin Botánico de Cali.",
-          "bibliography": "Esta especie dispersa semillas al alimentarse de frutas, lo que ayuda a regenerar bosques y mantener la biodiversidad. Además, al consumir invertebrados, contribuye al control de poblaciones de insectos en su ecosistema."
-        }
-      },
-      {
-        "modelIndex": 5,
         "questions": [
           {
             "questionText": "¿Qué característica única de las aves del orden Columbiformes les permite alimentar a sus crías?",
@@ -1827,7 +1777,7 @@
         }
       },
       {
-        "modelIndex": 6,
+        "modelIndex": 5,
         "questions": [
           {
             "questionText": "¿Cuál es la principal fuente de alimento de las aves del orden Columbiformes?",
@@ -2021,7 +1971,7 @@
         }
       ],
       "birdInfo": {
-        "birdName": "Carpintero Real ",
+        "birdName": "Carpintero lineado ",
         "species": "Dryocopus lineatus",
         "conservacion":"LC preocupación menor",
         "description": "El pájaro carpintero rayado es un pájaro carpintero grande y crestado, es de color negro en general, con una cresta roja brillante, barras blancas en las partes inferiores y una línea blanca que se extiende por el cuello. Los machos tienen rojo en la mejilla, mientras que las hembras no",
@@ -2122,7 +2072,7 @@
         }
       ],
       "birdInfo": {
-        "birdName": "Periquito anteojo ",
+        "birdName": "Cotorrita de Anteojos ",
         "species": "Forpus conspicillatus",
         "conservacion":"LC preocupación menor",
         "description": "La cotorrita de anteojos es un loro diminuto del este de Panamá, Colombia y Venezuela. El macho tiene una frente de color verde amarillento que se extiende hasta las mejillas y la garganta. Esta ave aún no ha sido incluida en ninguna lista de especies amenazadas a pesar de que a menudo se la captura ilegalmente y se la vende en el comercio de aves enjauladas. El llamado de contacto evidentemente se utiliza para comunicarse entre miembros de una pareja o grupo.",
@@ -2172,7 +2122,7 @@
         }
       ],
       "birdInfo": {
-       "birdName": "Guacamaya cariseca",
+       "birdName": "Guacamayo Severo",
         "species": "Ara severus",
         "conservacion":"LC preocupación menor",
         "description": "No tiene dimorfismo sexual. Es principalmente verde con la coronilla azul. En la frente tiene una banda estrecha y poco visible de color castaño. Su cola es larga, aguda y verde teñida de rojizo. Su pico es negro grisáceo. La piel facial y la garganta se encuentran desnudas de color blanquecino, las plumas de las alas son azulosas por encima. El interior de las alas es rojo opaco",
@@ -2326,7 +2276,7 @@
         "species": "Megaceryle torquata",
         "conservacion":"LC preocupación menor",
         "description": "Cabeza grande con una cresta irregular llamativa que cubre todo el píleo desde la base del pico hasta la nuca, las partes superiores y las alas son de color gris azulado, excepto las plumas de vuelo negruzcas.",
-        "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Megaceryle torquata",
+        "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/martin",
         "habitat": "Habita a lo largo de ríos, lagos, pantanos, estuarios, reservorios de agua, manglares y cultivos de arroz. Puede ser observado en áreas boscosas cerca de la línea costera.",
         "diet": "Esta ave es piscívora y se alimenta principalmente de peces, especialmente de las familias Characidae y Cichlidae, aunque también consume ranas, salamandras, reptiles, cangrejos e insectos. Suele posarse en ramas sobre el agua, lanzándose abruptamente para capturar sus presas.",
         "reproduction": "Las madrigueras suelen estar cerca del agua y son excavadas por ambos sexos, que aflojan la tierra con el pico y la sacan con las patas. La excavación, que comienza varios días antes de poner huevos, dura de 4 a 5 minutos. Ponen de 3 a 6 huevos.",
@@ -2376,7 +2326,7 @@
       "species": "Colaptes punctigula",
       "conservacion":"LC preocupación menor",
       "description": "Dimorfismo sexual. La frente es negra, la coronilla roja, lados de la cabeza blancos, bordeados por debajo de un bigote rojo (solo en los machos). La hembra carece el bigote rojo bajo los lados blancos de la cabeza. Su preferencia por los bosques más abiertos significa que no sufre demasiado los efectos de la tala.",
-      "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Colaptes punctigula",
+      "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/carpintero",
       "habitat": "Esta especie habita en diversos entornos, incluyendo bosques lluviosos, caducifolios y de galería, así como en bosques secundarios, manglares, bordes de pantanos, llanos y terrenos abiertos con grandes árboles. También se encuentra en matorrales, claros, palmares de moriche y plantaciones de café.",
       "diet": "Se alimentan de hormigas y sus crías, viviendo en parejas o grupos familiares. Buscan alimento en árboles a alturas medias y bajas, y también descienden al suelo para buscar en hormigueros. En los árboles, utilizan técnicas de espigar, sondear y picotear, mientras que, en el suelo, sondean y barren la hojarasca.",
       "reproduction": "Los nidos consisten en excavado o huecos que perforan ambos sexos sobre los troncos de árboles muertos, a mediana o alta altura, a veces en postes de cercas. En encuentros cercanos, exhibe movimientos de balanceo y sacudidas de la cabeza y cola extendida. ",
@@ -2483,7 +2433,7 @@
         }
       ],
       "birdInfo": {
-        "birdName": "Espatulilla común ",
+        "birdName": "Mosquerito Espatulilla Común ",
         "species": "Todirostrum cinereum",
         "conservacion":"LC preocupación menor",
         "description": "No tiene dimorfismo sexual, los machos de papamoscas tody comunes tienen frentes negras brillantes, coronas traseras gris pizarra, partes superiores oliva, alas negras y partes inferiores de color amarillo brillante; el iris generalmente es amarillo.",
@@ -2533,7 +2483,7 @@
         }
       ],
       "birdInfo": {
-       "birdName": "Papamoscas bermellon",
+       "birdName": "Papamoscas Cardenalito",
         "species": "Pyrocephalus rubinus",
         "conservacion":"LC preocupación menor",
         "description": "Los machos y las hembras difieren notablemente en color; la cresta bermellón del macho y las partes inferiores brillantes contrastan marcadamente con los colores blanquecinos y ligeramente veteados del pecho y el vientre rosado de la hembra.",
@@ -2583,7 +2533,7 @@
         }
       ],
       "birdInfo": {
-        "birdName": "Benteveo ",
+        "birdName":"Luis Bienteveo",
         "species": "Pitangus sulphuratus",
         "conservacion":"LC preocupación menor",
         "description": "Sexos similares y plumajes similares durante todo el año. En los adultos, cabeza con amplias rayas blancas y negras, con corona y máscara negras que contrastan con supercilia blanca. Barbilla y garganta blancas y partes inferiores restantes de amarillo brillante, su distribución y abundancia han aumentado como resultado de la apertura de bosques previamente cerrados a través de diversas actividades humanas",
@@ -2635,7 +2585,7 @@
     }
   ],
   "birdInfo": {
-    "birdName": "Tirano sabanero ",
+    "birdName": "Tirano Tijereta Gris",
     "species": "Tyrannus savana",
     "conservacion":"LC preocupación menor",
     "description": "Dimorfismo sexual no muy marcado. Tiene la cola muy larga y profundamente ahorquillada (más corta en la hembra). Presentan la coronilla, nuca y lados de la cabeza hasta debajo de los ojos, de color negro. La espalda es gris claro, las alas más oscuras, cola negra y partes inferiores completamente blancas",
@@ -2685,7 +2635,7 @@
     }
   ],
   "birdInfo": {
-    "birdName": "Cucarachero Común ",
+    "birdName": "Saltapared  Común ",
     "species": "Troglodytes aedon",
     "conservacion":"LC preocupación menor",
     "description": "La cabeza, la nuca y la espalda son de un tono marrón casi uniforme: más oscuro y rojizo en las poblaciones orientales, más pálido y grisáceo en las occidentales. Tiene solo una línea superciliar pálida, a menudo indistinta, y no tiene rayas en la coronilla. La garganta y el pecho son de un gris claro uniforme, a veces con un tinte beige o parduzco.Los sexos son idénticos en plumaje. No hay cambios estacionales en el plumaje. El macho es ligeramente más grande que la hembra en algunos rasgos. ",
@@ -2736,7 +2686,7 @@
     }
   ],
   "birdInfo": {
-    "birdName": "Mirla patinaranja ",
+    "birdName": "Zorzal Piquinegro",
     "species": "Turdus ignobilis",
     "conservacion":"LC preocupación menor",
     "description": "Sexos similares. Es de color marrón oliva por encima, más pálido por debajo, con cara ligeramente más oscura, garganta blanquecina con rayas marrones, vientre medio hasta cloaca blanquecino; pico y patas negros, en muchas partes de su área de distribución es común en áreas urbanas y semiurbanas, a menudo vistos saltando por el césped en busca de gusanos y presas invertebradas.",
@@ -2786,7 +2736,7 @@
     }
   ],
   "birdInfo": {
-    "birdName": "Turpial",
+    "birdName": "Turpial Amarillo",
     "species": "Icterus ogularis",
     "conservacion":"LC preocupación menor",
     "description": "Deriva su nombre común de la gran cantidad de amarillo en su plumaje con su negro restringido a la cola, un babero amarillo estrecho y las alas.",
@@ -2888,7 +2838,7 @@
     }
   ],
   "birdInfo": {
-    "birdName": "Canario Coronado ",
+    "birdName": "Chirigue Azafranado",
     "species": "Sicalis flaveola",
     "conservacion":"LC preocupación menor",
     "description": "El pinzón azafrán, conocido por adaptarse bien a hábitats modificados por el ser humano, es común en su área de distribución. Es un ave de tamaño mediano con alas y cola cortas y un pico grande. El macho tiene un plumaje amarillo con tonos anaranjados en la cabeza y manchas que se extienden a la garganta y cara, además de tonos verdosos en las alas y cola. La hembra es similar, pero con colores más apagados y menos naranja en la corona, y un amarillo menos intenso en el abdomen. Los machos a menudo cantan desde una rama, un poste o una línea eléctrica.",
