@@ -58,8 +58,8 @@ public class TriviaManager : MonoBehaviour
     // Comprobar si todos los modelos del modelId ya fueron recolectados
     public bool CheckAllModels()
     {
-        Debug.LogWarning("CheckAllModels() Descomentar el return True para test rápido.");
-        return true;
+        //Debug.LogWarning("CheckAllModels() Descomentar el return True para test rápido.");
+        //return true;
 
         foreach (var model in _triviaCompleted)
         {
