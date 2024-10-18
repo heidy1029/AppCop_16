@@ -16,7 +16,7 @@ public class LocalizedText : MonoBehaviour
 
         if (uiText == null && tmpText == null)
         {
-            Debug.LogError("No se encontró componente de texto en el objeto " + gameObject.name);
+            //Debug.LogError("No se encontró componente de texto en el objeto " + gameObject.name);
             return;
         }
 
@@ -26,7 +26,7 @@ public class LocalizedText : MonoBehaviour
     public void UpdateText()
     {
         string localizedValue = LanguageManager.instance.GetLocalizedValue(key);
-        Debug.Log($"Actualizando texto con la clave '{key}', valor obtenido: '{localizedValue}'");
+        //Debug.Log($"Actualizando texto con la clave '{key}', valor obtenido: '{localizedValue}'");
 
         if (uiText != null)
         {
@@ -38,7 +38,7 @@ public class LocalizedText : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("No se encontró componente de texto para actualizar.");
+            //Debug.LogWarning("No se encontró componente de texto para actualizar.");
         }
     }
 }

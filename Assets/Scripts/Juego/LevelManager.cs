@@ -10,7 +10,6 @@ public class LevelManager : MonoBehaviour
     private static LevelManager _instance;
     public static LevelManager Instance => _instance;
 
-
     [SerializeField] private Ambient[] _ambients;
     [SerializeField] private Material _originalMaterial;
     [SerializeField] private Material _lockedMaterial;
@@ -20,9 +19,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Data _data;
     [SerializeField] private bool _isMobile;
     [SerializeField] private GameObject _mobileUI;
-
-    public GameProgress gameProgress;
-    public int currentLevel = 1;
 
     private Dictionary<int, Ambient> _ambientDictionary;
 
@@ -46,8 +42,6 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        gameProgress = FindObjectOfType<GameProgress>();
-
         _data = FindObjectOfType<Data>();
         if (_data == null)
         {
@@ -77,12 +71,12 @@ public class LevelManager : MonoBehaviour
         }
 
 
-        int currentBirdTypeId = EventController.Instance.GetCurrentBirdType();
+        int currentLevel = DataController.Instance.GetCurrentLevel();
 
         Ambient selectedAmbient = null;
         foreach (var ambient in _ambients)
         {
-            if (ambient.Id == currentBirdTypeId)
+            if (ambient.Id == currentLevel)
             {
                 selectedAmbient = ambient;
                 break;
@@ -91,11 +85,11 @@ public class LevelManager : MonoBehaviour
 
         if (selectedAmbient == null)
         {
-            Debug.LogWarning($"No se encontró un ambiente con el ID {currentBirdTypeId}.");
+            //Debug.LogWarning($"No se encontró un ambiente con el ID {currentLevel}.");
             return; // Salir si no se encuentra el ambiente
         }
 
-        List<BirdInfo> currentBirdInfos = _data.GetBirdInfos(EventController.Instance.GetCurrentBirdType());
+        List<BirdInfo> currentBirdInfos = _data.GetBirdInfos(currentLevel);
 
         foreach (var info in currentBirdInfos)
         {
@@ -112,10 +106,7 @@ public class LevelManager : MonoBehaviour
                 var model = Instantiate(_prefabCard, randomPosition, Quaternion.Euler(0, 0, 90));
                 var card = model.GetComponent<ModelTrigger>();
                 var image = Resources.Load<Sprite>(info.MainImage);
-                card.Configure(image, EventController.Instance.GetCurrentBirdType(), info.ModelIndex);
-
-
-
+                card.Configure(image, currentLevel, info.ModelIndex);
             }
 
         }
@@ -175,44 +166,24 @@ public class LevelManager : MonoBehaviour
 
     private void OnTriviaCompleted(int triviaId, bool visibleCursor)
     {
-        Debug.Log("Trivia completada");
         if (visibleCursor)
         {
-            Debug.Log("Cursor visible, procediendo...");
             if (!_isMobile)
             {
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
-            int currentBirdTypeId = EventController.Instance.GetCurrentBirdType();
-            int modelIndexId = triviaId;
-            //int nextBirdType = EventController.Instance.GetCurrentBirdType() + 1;
-            //EventController.Instance.SetCurrentBirdType(nextBirdType);
 
-          
-            int nextBirdType = currentBirdTypeId + 1;
-            EventController.Instance.SetCurrentBirdType(nextBirdType);
+            int currenLevel = DataController.Instance.GetCurrentLevel() + 1;
+            DataController.Instance.SaveCurrentLevel(currenLevel, true);
 
-            Debug.Log("Next Bird Type: " + nextBirdType);
             _canvasLevelCompleted.SetActive(true);
 
-            if (gameProgress != null)
-            {
-                Debug.Log("Guardando progreso del nivel.");
-                gameProgress.SaveLevelProgress(currentLevel, true);
-            }
-            else
-            {
-                Debug.LogError("gameProgress es null.");
-            }
-
-            if (_ambientDictionary.TryGetValue(nextBirdType, out var nextAmbient))
+            if (_ambientDictionary.TryGetValue(currenLevel, out var nextAmbient))
             {
                 nextAmbient.gameObject.GetComponent<MeshRenderer>().material = _originalMaterial;
-                nextAmbient.UnlockedAmbient(nextBirdType);
+                nextAmbient.UnlockedAmbient(currenLevel);
             }
-
-            currentLevel++;
         }
         else
         {
@@ -231,7 +202,7 @@ public class LevelManager : MonoBehaviour
             plane.GetComponent<MeshRenderer>().material = _lockedMaterial;
         }
 
-        for (int i = 0; i <= EventController.Instance.GetCurrentBirdType(); i++)
+        for (int i = 0; i <= DataController.Instance.GetCurrentLevel(); i++)
         {
             if (_ambientDictionary.TryGetValue(i, out var ambient))
             {
@@ -247,35 +218,3 @@ public class LevelManager : MonoBehaviour
         EventController.OnTriviaCompleted -= OnTriviaCompleted;
     }
 }
-/*private void OnTriviaCompleted(int triviaId, bool visibleCursor)
-{
-    if (visibleCursor)
-    {
-        if (!_isMobile)
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
-
-        int nextBirdType = EventController.Instance.GetCurrentBirdType() + 1;
-        EventController.Instance.SetCurrentBirdType(nextBirdType);
-
-        _canvasLevelCompleted.SetActive(true);
-        gameProgress.SaveLevelProgress(currentLevel, true);
-
-        if (_ambientDictionary.TryGetValue(nextBirdType, out var nextAmbient))
-        {
-            nextAmbient.gameObject.GetComponent<MeshRenderer>().material = _originalMaterial;
-            nextAmbient.UnlockedAmbient(nextBirdType);
-            currentLevel++;
-        }
-    }
-    else
-    {
-        if (!_isMobile)
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
-    }
-}*/

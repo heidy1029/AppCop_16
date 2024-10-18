@@ -3973,7 +3973,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801605840}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &801605843
 Camera:
   m_ObjectHideFlags: 0
@@ -7036,10 +7036,10 @@ MonoBehaviour:
   nightLightColor: {r: 0.2, g: 0.2, b: 0.35, a: 1}
   morningLightIntensity: 1
   afternoonLightIntensity: 1.2
-  nightLightIntensity: 0.2
+  nightLightIntensity: 0.8
   morningExposure: 1
   afternoonExposure: 0.7
-  nightExposure: 0.3
+  nightExposure: 0.7
   transitionSpeed: 0.5
 --- !u!4 &1289506903
 Transform:
@@ -39159,7 +39159,6 @@ MonoBehaviour:
   - {fileID: 1063607748}
   - {fileID: 1205219975}
   collectionBookPanel: {fileID: 1432423060}
-  gameProgress: {fileID: 0}
   paginacionScript: {fileID: 1706447752}
 --- !u!4 &2008629332
 Transform:
@@ -39766,8 +39765,6 @@ MonoBehaviour:
   _data: {fileID: 333232817}
   _isMobile: 1
   _mobileUI: {fileID: 1859584009}
-  gameProgress: {fileID: 0}
-  currentLevel: 1
 --- !u!4 &2138695472
 Transform:
   m_ObjectHideFlags: 0

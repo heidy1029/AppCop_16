@@ -38,7 +38,7 @@ public class TriviaManager : MonoBehaviour
     // Agregar una nueva key birdType si no existe y agregar en esa key nuevo modelo con el índice del modelo
     public void AddModel(int birdType, int triviaId)
     {
-        if (birdType == EventController.Instance.GetCurrentBirdType())
+        if (birdType == DataController.Instance.GetCurrentLevel())
         {
             if (!_triviaCompleted.ContainsKey(triviaId))
             {
@@ -58,6 +58,9 @@ public class TriviaManager : MonoBehaviour
     // Comprobar si todos los modelos del modelId ya fueron recolectados
     public bool CheckAllModels()
     {
+        Debug.LogWarning("CheckAllModels() Descomentar el return True para test rápido.");
+        return true;
+
         foreach (var model in _triviaCompleted)
         {
             if (!model.Value)
@@ -109,7 +112,7 @@ public class TriviaManager : MonoBehaviour
 
     public void LoadQuestions(int triviaId)
     {
-        var model = data.GetModelQuestions(EventController.Instance.GetCurrentBirdType());
+        var model = data.GetModelQuestions(DataController.Instance.GetCurrentLevel());
 
         if (model == null || model.Count == 0)
         {
@@ -195,7 +198,7 @@ public class TriviaManager : MonoBehaviour
             return;
         }
 
-        BirdInfo currentBirdInfo = data.GetBirdInfo(EventController.Instance.GetCurrentBirdType(), currentTriviaId);
+        BirdInfo currentBirdInfo = data.GetBirdInfo(DataController.Instance.GetCurrentLevel(), currentTriviaId);
 
         if (currentBirdInfo != null)
         {
@@ -222,7 +225,7 @@ public class TriviaManager : MonoBehaviour
             triviaCanvas.SetActive(false);
 
             int cardIndex = currentTriviaId;
-            int currentLevel = EventController.Instance.GetCurrentLevel();
+            int currentLevel = DataController.Instance.GetCurrentLevel();
 
             if (!string.IsNullOrEmpty(currentBirdInfo.MainImage))
             {
@@ -235,7 +238,7 @@ public class TriviaManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError($"No se encontró información para el modelIndex: {currentTriviaId} en el birdTypeId {EventController.Instance.GetCurrentBirdType()}");
+            Debug.LogError($"No se encontró información para el modelIndex: {currentTriviaId} en el birdTypeId {DataController.Instance.GetCurrentLevel()}");
         }
     }
 

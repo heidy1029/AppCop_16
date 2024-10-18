@@ -7,7 +7,6 @@ public class CollectionBook : MonoBehaviour
     public Image[] collectionImages;
     public GameObject collectionBookPanel;
     private bool isCatalogVisible = false;
-    public GameProgress gameProgress;
 
     // Referencia al script de paginación
     public Rotacion paginacionScript;

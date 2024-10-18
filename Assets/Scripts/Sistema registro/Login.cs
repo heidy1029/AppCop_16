@@ -11,6 +11,14 @@ public class Login : MonoBehaviour
     public TMP_InputField emailInputField;
     public TMP_InputField passwordInputField;
 
+    private void Awake()
+    {
+#if UNITY_EDITOR
+        emailInputField.text = "test@gmail.com";
+        passwordInputField.text = "111111";
+#endif
+    }
+
     public async void onLoginButtonClick()
     {
         string email = emailInputField.text;
@@ -24,7 +32,7 @@ public class Login : MonoBehaviour
         SceneManager.LoadScene("MainScene");
         if (response != null)
         {
-            Debug.Log("Response: " + response);
+            //Debug.Log("Response: " + response);
             SaveAccessToken(response);
         }
     }
@@ -34,14 +42,19 @@ public class Login : MonoBehaviour
         try
         {
             LoginResponse loginResponse = JsonUtility.FromJson<LoginResponse>(response);
+
+            DataController.Instance.SaveAccessToken(loginResponse.access_token);
             Request.SaveAccessToken(loginResponse.access_token);
 
             // Save expiry time
             long expiryTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds() + loginResponse.expires_in;
+            DataController.Instance.SaveTokenExpiryTime(expiryTime);
             PlayerPrefs.SetString(TOKEN_EXPIRY_KEY, expiryTime.ToString());
 
             // Save user ID
+            DataController.Instance.SaveUserId(loginResponse.user.id);
             PlayerPrefs.SetString(USER_ID_KEY, loginResponse.user.id);
+
             PlayerPrefs.Save();
 
             Debug.Log($"Token will expire at: {DateTimeOffset.FromUnixTimeSeconds(expiryTime).LocalDateTime}");

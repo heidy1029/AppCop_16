@@ -65,7 +65,7 @@ public class BirdInfoCanvas : MonoBehaviour
         funFact2Text.text = funFact2;
         locationText.text = location;
         bibliographyText.text = bibliography;
-        autorsonidoText.text = autorsonido;
+        if (autorsonidoText != null) autorsonidoText.text = autorsonido;
 
         // Cargar y asignar los sprites desde la carpeta de recursos
         Sprite mainImageSprite = Resources.Load<Sprite>(mainImagePath);

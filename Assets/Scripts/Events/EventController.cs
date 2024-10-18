@@ -29,31 +29,6 @@ public class EventController : MonoBehaviour
     public delegate void TriviaCompleted(int triviaId, bool visibleCursor);
     public static event TriviaCompleted OnTriviaCompleted;
 
-    private int _currentBirdType = 1; // Default to 1
-    private int _currentLevel = 1;    // Default to 1
-
-    public int GetCurrentBirdType()
-    {
-        return _currentBirdType;
-    }
-
-    public void SetCurrentBirdType(int birdType)
-    {
-        _currentBirdType = birdType;
-    }
-
-    // Método para obtener el nivel actual
-    public int GetCurrentLevel()
-    {
-        return _currentLevel;
-    }
-
-    // Método para avanzar al siguiente nivel
-    public void AdvanceToNextLevel()
-    {
-        _currentLevel++;
-    }
-
     public void SetTriviaStarted(int triviaId)
     {
         OnTriviaStarted?.Invoke(triviaId);

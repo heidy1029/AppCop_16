@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameMenu : MonoBehaviour
 {
@@ -11,11 +12,30 @@ public class GameMenu : MonoBehaviour
     {
         for (int i = 0; i < _buttons.Length; i++)
         {
-            int birdType = _birdTypes[i];
-            _buttons[i].onClick.AddListener(() => OnButtonPressed(birdType));
+            int currentLevel = _birdTypes[i];
+            _buttons[i].onClick.AddListener(() => OnButtonPressed(currentLevel));
+        }
+
+        StartCoroutine(LoadCurrentLevel());
+    }
+
+    private IEnumerator LoadCurrentLevel()
+    {
+        DataController.Instance.GetCurrentLevelOnStart();
+
+        while (!DataController.Instance.IsInitialized)
+        {
+            yield return null;
+        }
+
+        int currentLevelFromData = DataController.Instance.GetCurrentLevel();
+        Debug.Log("Current level: " + currentLevelFromData);
+        for (int i = 0; i < _buttons.Length; i++)
+        {
+            int currentLevel = _birdTypes[i];
 
             // Si el botón está bloqueado, activarlo
-            if (birdType <= EventController.Instance.GetCurrentBirdType())
+            if (currentLevel <= currentLevelFromData)
             {
                 _buttons[i].interactable = true;
             }
@@ -24,6 +44,7 @@ public class GameMenu : MonoBehaviour
 
     private void OnButtonPressed(int birdType)
     {
+        DataController.Instance.SaveCurrentLevel(birdType, false);
         EventController.Instance.SetTriviaStarted(birdType);
 
         SceneManager.LoadScene("GameLevel");

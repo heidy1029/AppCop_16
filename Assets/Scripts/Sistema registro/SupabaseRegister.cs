@@ -40,17 +40,13 @@ public class SupabaseRegister : MonoBehaviour
     {
         string email = emailInput.text;
         string password = passwordInput.text;
-        // string name = nameInput.text;
 
-
-        // if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(name))
         if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
         {
             responseText.text = "Por favor, llena todos los campos.";
             yield break;
         }
         string jsonData = $"{{\"email\":\"{email}\",\"password\":\"{password}\"}}";
-        //string jsonData = $"{{\"email\":\"{email}\",\"password\":\"{password}\",\"name\":\"{name}\"}}";
 
         UnityWebRequest request = new UnityWebRequest(apiUrl, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
@@ -72,23 +68,6 @@ public class SupabaseRegister : MonoBehaviour
             string serverResponse = request.downloadHandler.text;
             Debug.Log("Respuesta del servidor: " + serverResponse);
             SceneManager.LoadScene("LoginScene");
-
-            // Convertir la respuesta JSON a un objeto dinámico para acceder a los campos
-            /* var json = SimpleJSON.JSON.Parse(serverResponse);
-
-             // Verificar si el email ha sido confirmado
-             bool emailVerified = json["user_metadata"]["email_verified"].AsBool;
-
-             if (emailVerified)
-             {
-                 responseText.text = "¡Inicio de sesión exitoso!";
-                 // Cambiar a la siguiente escena
-                 SceneManager.LoadScene("LoginScene");  // Reemplaza con el nombre de la escena a la que deseas ir
-             }
-             else
-             {
-                 responseText.text = "Por favor, verifica tu correo antes de iniciar sesión.";
-             }*/
         }
 
     }

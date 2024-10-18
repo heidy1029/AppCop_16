@@ -65,7 +65,7 @@ public static class Request
     {
         if (string.IsNullOrEmpty(jsonArray))
         {
-            return "[]";
+            return "{}";
         }
 
         jsonArray = jsonArray.Trim();
@@ -83,20 +83,20 @@ public static class Request
         }
 
         Debug.LogWarning("Response is not a JSON array or is empty");
-        return "[]";
+        return "{}";
     }
 
     public static void SaveAccessToken(string accessToken)
     {
         PlayerPrefs.SetString(ACCESS_TOKEN_KEY, accessToken);
         PlayerPrefs.Save();
-        Debug.Log("Access token saved successfully");
+        //Debug.Log("Access token saved successfully");
     }
 
     public static void ClearAccessToken()
     {
         PlayerPrefs.DeleteKey(ACCESS_TOKEN_KEY);
         PlayerPrefs.Save();
-        Debug.Log("Access token cleared");
+        //Debug.Log("Access token cleared");
     }
 }
