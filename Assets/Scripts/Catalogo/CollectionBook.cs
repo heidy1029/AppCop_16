@@ -14,25 +14,6 @@ public class CollectionBook : MonoBehaviour
 
     void Start()
     {
-        gameProgress = FindObjectOfType<GameProgress>();
-
-        if (gameProgress != null)
-        {
-            // Verifica si el UserId está disponible
-            if (!PlayerPrefs.HasKey("UserId"))
-            {
-                Debug.LogError("UserId no encontrado. Asegúrate de que el usuario esté registrado o autenticado.");
-            }
-            else
-            {
-                // Ejemplo de guardar progreso al iniciar
-                gameProgress.SaveLevelProgress(1, false);
-            }
-        }
-        else
-        {
-            Debug.LogError("GameProgress no encontrado en la escena.");
-        }
 
         InitializeCollectionBook();
     }
@@ -63,17 +44,6 @@ public class CollectionBook : MonoBehaviour
                 img.sprite = sprite;
                 img.gameObject.SetActive(true);
                 Debug.Log("Imagen agregada al catálogo de colección.");
-
-                // Verifica si el UserId está disponible antes de guardar
-                if (PlayerPrefs.HasKey("UserId"))
-                {
-                    gameProgress.SaveCollectedCard(cardIndex, currentLevel);
-                }
-                else
-                {
-                    Debug.LogError("UserId no encontrado al intentar guardar la carta.");
-                }
-
                 // Actualizar vista
                 paginacionScript.ActualizarCartas();
                 return;

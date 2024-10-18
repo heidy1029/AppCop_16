@@ -65,14 +65,17 @@ public class BirdInfo
     [JsonProperty("funFact2")]
     public string FunFact2 { get; set; }
 
-    [JsonProperty("secondaryImage")]
-    public string SecondaryImage { get; set; }
-
     [JsonProperty("location")]
     public string Location { get; set; }
 
     [JsonProperty("bibliography")]
     public string Bibliography { get; set; }
+
+    [JsonProperty("autorSonido")]
+    public string AutorSonido { get; set; }
+
+    [JsonProperty("birdSound")]
+    public string BirdSound { get; set; }
 }
 
 [Serializable]

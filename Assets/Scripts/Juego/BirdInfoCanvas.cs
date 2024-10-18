@@ -1,7 +1,6 @@
-// Assets/Scripts/Juego/BirdInfoCanvas.cs
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // Si usas TextMeshPro
+using TMPro;
 
 public class BirdInfoCanvas : MonoBehaviour
 {
@@ -19,16 +18,23 @@ public class BirdInfoCanvas : MonoBehaviour
     public TextMeshProUGUI funFact2Text;
     public TextMeshProUGUI locationText;
     public TextMeshProUGUI bibliographyText;
+    public TextMeshProUGUI autorsonidoText;
 
+    public AudioClip BirdSound; // Sonido del ave actual
+    //public AudioClip openSound; // Sonido para abrir el canvas
+    //public AudioClip closeSound; // Sonido para cerrar el canvas
+
+    private AudioSource audioSource;
     private int currentTriviaId;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         buttonClose.onClick.AddListener(OnBackButtonPressed);
     }
 
     /// <summary>
-    /// Actualiza la información del ave en el canvas.
+    /// Actualiza la información del ave en el canvas y carga el sonido del ave.
     /// </summary>
     public void UpdateBirdInfo(
         int modelIndex,
@@ -43,7 +49,9 @@ public class BirdInfoCanvas : MonoBehaviour
         string funFact1,
         string funFact2,
         string location,
-        string bibliography)
+        string bibliography,
+        string autorsonido,
+        string birdSoundPath) // Ruta del sonido del ave
     {
         currentTriviaId = modelIndex;
         birdNameText.text = birdName;
@@ -57,10 +65,10 @@ public class BirdInfoCanvas : MonoBehaviour
         funFact2Text.text = funFact2;
         locationText.text = location;
         bibliographyText.text = bibliography;
+        autorsonidoText.text = autorsonido;
 
         // Cargar y asignar los sprites desde la carpeta de recursos
         Sprite mainImageSprite = Resources.Load<Sprite>(mainImagePath);
-
         if (mainImageSprite != null)
         {
             mainImage.sprite = mainImageSprite;
@@ -70,12 +78,20 @@ public class BirdInfoCanvas : MonoBehaviour
             Debug.LogWarning($"No se pudo cargar la imagen principal desde la ruta: {mainImagePath}");
         }
 
+        // Cargar y asignar el sonido del ave desde la carpeta de recursos
+        BirdSound = Resources.Load<AudioClip>(birdSoundPath);
+        if (BirdSound == null)
+        {
+            Debug.LogWarning($"No se pudo cargar el sonido del ave desde la ruta: {birdSoundPath}");
+        }
+
         ShowCanvas(true);
     }
 
     public void ShowCanvas(bool isActive)
     {
         canvas.SetActive(isActive);
+
     }
 
     /// <summary>
@@ -84,6 +100,11 @@ public class BirdInfoCanvas : MonoBehaviour
     public void OnBackButtonPressed()
     {
         ShowCanvas(false);
+
+        // Reproducir el sonido de cerrar el canvas
+
+
         TriviaManager.Instance.SetTriviaAnswered(currentTriviaId);
     }
 }
+

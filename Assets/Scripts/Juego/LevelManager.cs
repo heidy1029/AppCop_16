@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Threading.Tasks;
 
 public class LevelManager : MonoBehaviour
 {
@@ -73,6 +75,7 @@ public class LevelManager : MonoBehaviour
                 _ambientDictionary.Add(ambient.Id, ambient);
             }
         }
+
 
         int currentBirdTypeId = EventController.Instance.GetCurrentBirdType();
 
@@ -170,38 +173,6 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    /*private void OnTriviaCompleted(int triviaId, bool visibleCursor)
-    {
-        if (visibleCursor)
-        {
-            if (!_isMobile)
-            {
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
-            }
-
-            int nextBirdType = EventController.Instance.GetCurrentBirdType() + 1;
-            EventController.Instance.SetCurrentBirdType(nextBirdType);
-
-            _canvasLevelCompleted.SetActive(true);
-            gameProgress.SaveLevelProgress(currentLevel, true);
-
-            if (_ambientDictionary.TryGetValue(nextBirdType, out var nextAmbient))
-            {
-                nextAmbient.gameObject.GetComponent<MeshRenderer>().material = _originalMaterial;
-                nextAmbient.UnlockedAmbient(nextBirdType);
-                currentLevel++;
-            }
-        }
-        else
-        {
-            if (!_isMobile)
-            {
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
-            }
-        }
-    }*/
     private void OnTriviaCompleted(int triviaId, bool visibleCursor)
     {
         Debug.Log("Trivia completada");
@@ -213,8 +184,13 @@ public class LevelManager : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
+            int currentBirdTypeId = EventController.Instance.GetCurrentBirdType();
+            int modelIndexId = triviaId;
+            //int nextBirdType = EventController.Instance.GetCurrentBirdType() + 1;
+            //EventController.Instance.SetCurrentBirdType(nextBirdType);
 
-            int nextBirdType = EventController.Instance.GetCurrentBirdType() + 1;
+          
+            int nextBirdType = currentBirdTypeId + 1;
             EventController.Instance.SetCurrentBirdType(nextBirdType);
 
             Debug.Log("Next Bird Type: " + nextBirdType);
@@ -271,3 +247,35 @@ public class LevelManager : MonoBehaviour
         EventController.OnTriviaCompleted -= OnTriviaCompleted;
     }
 }
+/*private void OnTriviaCompleted(int triviaId, bool visibleCursor)
+{
+    if (visibleCursor)
+    {
+        if (!_isMobile)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
+        int nextBirdType = EventController.Instance.GetCurrentBirdType() + 1;
+        EventController.Instance.SetCurrentBirdType(nextBirdType);
+
+        _canvasLevelCompleted.SetActive(true);
+        gameProgress.SaveLevelProgress(currentLevel, true);
+
+        if (_ambientDictionary.TryGetValue(nextBirdType, out var nextAmbient))
+        {
+            nextAmbient.gameObject.GetComponent<MeshRenderer>().material = _originalMaterial;
+            nextAmbient.UnlockedAmbient(nextBirdType);
+            currentLevel++;
+        }
+    }
+    else
+    {
+        if (!_isMobile)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+    }
+}*/

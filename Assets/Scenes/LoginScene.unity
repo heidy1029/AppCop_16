@@ -2351,8 +2351,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1284249563}
-        m_TargetAssemblyTypeName: LoginRequest, Assembly-CSharp
-        m_MethodName: OnLoginButtonPressed
+        m_TargetAssemblyTypeName: Login, Assembly-CSharp
+        m_MethodName: onLoginButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2525,13 +2525,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1284249556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd0b5f6686d93ec42aa6f16008108786, type: 3}
+  m_Script: {fileID: 11500000, guid: dc5156a63b1724f41b47842e3ed656e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emailInput: {fileID: 490675804}
-  passwordInput: {fileID: 1751421262}
-  responseText: {fileID: 87141335}
-  loginButton: {fileID: 1164912770}
+  emailInputField: {fileID: 490675804}
+  passwordInputField: {fileID: 1751421262}
 --- !u!1 &1299686674
 GameObject:
   m_ObjectHideFlags: 0
