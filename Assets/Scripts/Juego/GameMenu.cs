@@ -28,7 +28,7 @@ public class GameMenu : MonoBehaviour
             yield return null;
         }
 
-        int currentLevelFromData = DataController.Instance.GetCurrentLevel();
+        int currentLevelFromData = DataController.Instance.GetGlobalCurrentLevel();
         Debug.Log("Current level: " + currentLevelFromData);
         for (int i = 0; i < _buttons.Length; i++)
         {

@@ -174,16 +174,16 @@ public class LevelManager : MonoBehaviour
                 Cursor.visible = true;
             }
 
-            int currenLevel = DataController.Instance.GetCurrentLevel() + 1;
+            int currenLevel = DataController.Instance.GetGlobalCurrentLevel() + 1;
             DataController.Instance.SaveCurrentLevel(currenLevel, true);
 
             _canvasLevelCompleted.SetActive(true);
 
-            if (_ambientDictionary.TryGetValue(currenLevel, out var nextAmbient))
+            /*if (_ambientDictionary.TryGetValue(currenLevel, out var nextAmbient))
             {
                 nextAmbient.gameObject.GetComponent<MeshRenderer>().material = _originalMaterial;
                 nextAmbient.UnlockedAmbient(currenLevel);
-            }
+            }*/
         }
         else
         {
