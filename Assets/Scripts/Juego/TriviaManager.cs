@@ -59,7 +59,7 @@ public class TriviaManager : MonoBehaviour
     public bool CheckAllModels()
     {
         //Debug.LogWarning("CheckAllModels() Descomentar el return True para test rápido.");
-        return true;
+        //return true;
 
         foreach (var model in _triviaCompleted)
         {
