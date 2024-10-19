@@ -29,11 +29,18 @@ public class Login : MonoBehaviour
 
         // Note: We're passing false for requiresAuth since this is a login request
         string response = await Request.SendRequest(url, "POST", jsonBody, false, false);
-        SceneManager.LoadScene("MainScene");
+
+
+
         if (response != null)
         {
-            //Debug.Log("Response: " + response);
+            // Save the access token and other details
             SaveAccessToken(response);
+
+            // Retrieve or create user settings
+            await DataController.Instance.RetrieveOrCreateUserSettings(false);
+
+            SceneManager.LoadScene("MainScene");
         }
     }
 

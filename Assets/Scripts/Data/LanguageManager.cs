@@ -9,6 +9,9 @@ public class LanguageManager : MonoBehaviour
     public string currentLanguage = "es"; // Idioma actual
     public Dictionary<string, Dictionary<string, string>> languages;
 
+    private bool _isSpanish = true;
+    private const string LANGUAGE_ID_KEY = "LanguageID";
+
     private void Awake()
     {
         if (instance == null)
@@ -26,6 +29,17 @@ public class LanguageManager : MonoBehaviour
 
     void LoadLanguages()
     {
+        // leer el language local en playerprefs
+        if (PlayerPrefs.HasKey(LANGUAGE_ID_KEY))
+        {
+            currentLanguage = PlayerPrefs.GetString(LANGUAGE_ID_KEY);
+            _isSpanish = currentLanguage == "es";
+        }
+        else
+        {
+            currentLanguage = "es";
+        }
+
         TextAsset jsonTextAsset = Resources.Load<TextAsset>("languages");
 
         if (jsonTextAsset != null)
@@ -62,7 +76,9 @@ public class LanguageManager : MonoBehaviour
     public void ToggleLanguage()
     {
         // Si el idioma actual es español (es), cambia a inglés (en), de lo contrario cambia a español
-        string newLanguage = currentLanguage == "es" ? "en" : "es";
+        _isSpanish = !_isSpanish;
+
+        string newLanguage = _isSpanish ? "es" : "en";
 
         // Cambia el idioma usando el método ChangeLanguage
         ChangeLanguage(newLanguage);
@@ -75,6 +91,9 @@ public class LanguageManager : MonoBehaviour
         {
             // Actualiza el idioma actual a newLanguage
             currentLanguage = newLanguage;
+
+            // Guarda el idioma actual en PlayerPrefs
+            PlayerPrefs.SetString(LANGUAGE_ID_KEY, currentLanguage);
 
             // Actualiza todos los textos localizados en la interfaz
             UpdateAllLocalizedTexts();
