@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 public class CollectionBook : MonoBehaviour
 {
@@ -29,8 +30,14 @@ public class CollectionBook : MonoBehaviour
         }
     }
 
-    public void AddImageToCollection(string imagePath, int cardIndex, int currentLevel)
+    public async void AddImageToCollection(string imagePath, int cardIndex, int currentLevel)
     {
+        if (string.IsNullOrEmpty(imagePath) || cardIndex < 0 || currentLevel < 0)
+        {
+            Debug.LogError("Invalid card data. Cannot add to collection.");
+            return;
+        }
+
         Sprite sprite = Resources.Load<Sprite>(imagePath);
 
         if (sprite == null)
@@ -51,6 +58,9 @@ public class CollectionBook : MonoBehaviour
         Debug.Log("Imagen agregada al catálogo de colección.");
         // Actualizar vista
         paginacionScript.ActualizarCartas();
+
+        // Crear o actualizar cartas en la base de datos
+        await CreateOrUpdateCards();
     }
 
     public void ToggleCollectionBook()
@@ -59,14 +69,11 @@ public class CollectionBook : MonoBehaviour
         collectionBookPanel.SetActive(isCatalogVisible);
     }
 
-    public void InitializeCollectionBook()
+    public async void InitializeCollectionBook()
     {
-        // Deserializar la colección de tarjetas desde JSON
-        string json = PlayerPrefs.GetString("CollectionBook", "[]");
-        cards = JsonConvert.DeserializeObject<List<Card>>(json);
+        await GetCards();
 
         UpdateCollectionImages();
-        // Actualizar la vista
         paginacionScript.ActualizarCartas();
     }
 
@@ -93,11 +100,16 @@ public class CollectionBook : MonoBehaviour
 
     private void UpdateCollectionImages()
     {
+        int currentLevel = DataController.Instance.GetCurrentLevel();
+
         for (int i = 0; i < collectionImages.Length; i++)
         {
-            if (i < cards.Count)
+            // Filtrar las cartas por el nivel actual y el índice de la carta
+            Card card = cards.Find(c => c.currentLevel == currentLevel && c.cardIndex == i);
+
+            if (card != null)
             {
-                Sprite sprite = Resources.Load<Sprite>(cards[i].imagePath);
+                Sprite sprite = Resources.Load<Sprite>(card.imagePath);
                 collectionImages[i].sprite = sprite;
                 collectionImages[i].gameObject.SetActive(true);
             }
@@ -106,6 +118,25 @@ public class CollectionBook : MonoBehaviour
                 collectionImages[i].sprite = null;
                 collectionImages[i].gameObject.SetActive(false);
             }
+        }
+    }
+
+    private async Task CreateOrUpdateCards()
+    {
+        await DataController.Instance.CreateOrUpdateCards(cards);
+    }
+
+    public async Task GetCards()
+    {
+        List<Card> fetchedCards = await DataController.Instance.GetCards();
+        if (fetchedCards != null && fetchedCards.Count > 0)
+        {
+            Debug.Log("Cards loaded from database.");
+            cards = fetchedCards;
+        }
+        else
+        {
+            Debug.LogWarning("No se encontraron cartas en la base de datos.");
         }
     }
 }

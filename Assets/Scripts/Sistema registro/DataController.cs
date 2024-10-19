@@ -69,6 +69,11 @@ public class DataController : MonoBehaviour, UserData
         return _currentLevel;
     }
 
+    public int GetGlobalCurrentLevel()
+    {
+        return _currentProgressInDatabase;
+    }
+
     public void GetCurrentLevelOnStart()
     {
         if (_isInitialized)
@@ -113,6 +118,7 @@ public class DataController : MonoBehaviour, UserData
 
     private IEnumerator SaveProgressCoroutine(int currentLevel, bool completed)
     {
+        _currentProgressInDatabase = currentLevel;
         Task<string> task = SaveProgress(currentLevel, completed);
         yield return new WaitUntil(() => task.IsCompleted);
 
@@ -318,10 +324,51 @@ public class DataController : MonoBehaviour, UserData
         }
     }
 
-    public async Task CreateCard(string jsonCards)
+    public async Task CreateOrUpdateCards(List<Card> cards)
     {
         string userId = GetUserId();
-        string jsonBody = $"{{ \"cards\": {jsonCards}, \"user_id\": \"{userId}\" }}";
+        string checkUrl = $"{URL_COLLECTED_CARDS}?user_id=eq.{userId}&select=*";
+        string checkResponse = await Request.SendRequest(checkUrl, "GET");
+
+        if (string.IsNullOrEmpty(checkResponse) || checkResponse == "[]")
+        {
+            // No existen cartas, crearlas
+            await CreateCard(cards);
+        }
+        else
+        {
+            // Las cartas ya existen, actualizarlas
+            var existingCardsResponse = JsonConvert.DeserializeObject<List<CollectedCardsResponse>>(checkResponse);
+            if (existingCardsResponse != null && existingCardsResponse.Count > 0)
+            {
+                var existingCards = existingCardsResponse[0].cards;
+                var newCards = cards;
+
+                foreach (var newCard in newCards)
+                {
+                    var existingCard = existingCards.Find(card => card.cardIndex == newCard.cardIndex);
+                    if (existingCard != null)
+                    {
+                        existingCard.imagePath = newCard.imagePath;
+                        existingCard.currentLevel = newCard.currentLevel;
+                    }
+                    else
+                    {
+                        existingCards.Add(newCard);
+                    }
+                }
+
+                await UpdateCards(existingCards);
+            }
+        }
+    }
+
+    public async Task CreateCard(List<Card> cards)
+    {
+        string userId = GetUserId();
+        var jsonBodyObject = new { cards = cards, user_id = userId };
+
+        string jsonBody = JsonConvert.SerializeObject(jsonBodyObject);
 
         string response = await Request.SendRequest(URL_COLLECTED_CARDS, "POST", jsonBody, true, true);
 
@@ -331,35 +378,33 @@ public class DataController : MonoBehaviour, UserData
         }
         else
         {
-            Debug.LogError("Failed to create card");
+            Debug.LogError("Failed to create card: " + response);
         }
     }
 
     public async Task<List<Card>> GetCards()
     {
-        var userId = GetUserId();
-
+        string userId = GetUserId();
         string url = $"{URL_COLLECTED_CARDS}?user_id=eq.{userId}&select=*";
-        Debug.Log(url);
+        string response = await Request.SendRequest(url, "GET");
 
-        string response = await Request.SendRequest(url, "GET", null);
+        if (!string.IsNullOrEmpty(response))
+        {
+            var collectedCardsResponse = JsonConvert.DeserializeObject<List<CollectedCardsResponse>>(response);
+            if (collectedCardsResponse != null && collectedCardsResponse.Count > 0)
+            {
+                return collectedCardsResponse[0].cards;
+            }
+        }
 
-        if (response != null)
-        {
-            Debug.Log("Cards retrieved successfully. Response: " + response);
-            return JsonConvert.DeserializeObject<List<Card>>(response);
-        }
-        else
-        {
-            Debug.LogError("Failed to retrieve cards");
-            return null;
-        }
+        return new List<Card>();
     }
 
     public async Task UpdateCards(List<Card> updatedCards)
     {
-        string userId = DataController.Instance.GetUserId();
-        string jsonBody = JsonConvert.SerializeObject(updatedCards);
+        string userId = GetUserId();
+        var jsonBodyObject = new { cards = updatedCards };
+        string jsonBody = JsonConvert.SerializeObject(jsonBodyObject);
 
         string url = $"{URL_COLLECTED_CARDS}?user_id=eq.{userId}";
         string response = await Request.SendRequest(url, "PATCH", jsonBody, true, true);
@@ -389,5 +434,14 @@ public class DataController : MonoBehaviour, UserData
         public int id;
         public string currentLanguage;
         public string user_id;
+    }
+
+    [Serializable]
+    public class CollectedCardsResponse
+    {
+        public string id;
+        public string created_at;
+        public string user_id;
+        public List<Card> cards;
     }
 }
