@@ -1,6 +1,8 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 
 public class CollectionBook : MonoBehaviour
 {
@@ -11,12 +13,13 @@ public class CollectionBook : MonoBehaviour
     // Referencia al script de paginación
     public Rotacion paginacionScript;
 
+    // Lista de tarjetas en la colección
+    private List<Card> cards = new List<Card>();
+
     void Start()
     {
-
         InitializeCollectionBook();
     }
-
 
     void Update()
     {
@@ -36,20 +39,18 @@ public class CollectionBook : MonoBehaviour
             return;
         }
 
-        foreach (Image img in collectionImages)
+        Card newCard = new Card
         {
-            if (img.sprite == null)
-            {
-                img.sprite = sprite;
-                img.gameObject.SetActive(true);
-                Debug.Log("Imagen agregada al catálogo de colección.");
-                // Actualizar vista
-                paginacionScript.ActualizarCartas();
-                return;
-            }
-        }
+            imagePath = imagePath,
+            cardIndex = cardIndex,
+            currentLevel = currentLevel
+        };
 
-        Debug.LogWarning("La colección de imágenes está completa.");
+        cards.Add(newCard);
+        UpdateCollectionImages();
+        Debug.Log("Imagen agregada al catálogo de colección.");
+        // Actualizar vista
+        paginacionScript.ActualizarCartas();
     }
 
     public void ToggleCollectionBook()
@@ -60,90 +61,59 @@ public class CollectionBook : MonoBehaviour
 
     public void InitializeCollectionBook()
     {
-        foreach (Image img in collectionImages)
+        // Deserializar la colección de tarjetas desde JSON
+        string json = PlayerPrefs.GetString("CollectionBook", "[]");
+        cards = JsonConvert.DeserializeObject<List<Card>>(json);
+
+        UpdateCollectionImages();
+        // Actualizar la vista
+        paginacionScript.ActualizarCartas();
+    }
+
+    public void SaveCollectionBook()
+    {
+        // Serializar la colección de tarjetas a JSON
+        string json = JsonConvert.SerializeObject(cards);
+        PlayerPrefs.SetString("CollectionBook", json);
+        PlayerPrefs.Save();
+    }
+
+    public void UpdateCollectionBook(List<Card> updatedCards)
+    {
+        cards = updatedCards;
+        SaveCollectionBook();
+        UpdateCollectionImages();
+        paginacionScript.ActualizarCartas();
+    }
+
+    public List<Card> GetCollection()
+    {
+        return cards;
+    }
+
+    private void UpdateCollectionImages()
+    {
+        for (int i = 0; i < collectionImages.Length; i++)
         {
-            img.gameObject.SetActive(false);
+            if (i < cards.Count)
+            {
+                Sprite sprite = Resources.Load<Sprite>(cards[i].imagePath);
+                collectionImages[i].sprite = sprite;
+                collectionImages[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                collectionImages[i].sprite = null;
+                collectionImages[i].gameObject.SetActive(false);
+            }
         }
     }
 }
 
-
-/*public class CollectionBook : MonoBehaviour
+[Serializable]
+public class Card
 {
-    public Image[] collectionImages;
-    public GameObject collectionBookPanel;
-    private bool isCatalogVisible = false;
-    public GameProgress gameProgress;
-
-    // Referencia al script de paginación
-    public Rotacion paginacionScript;
-
-    void Start()
-    {
-        gameProgress = FindObjectOfType<GameProgress>();
-
-        // Verifica si se encontró el script
-        if (gameProgress != null)
-        {
-            // Ejemplo de guardar progreso al iniciar
-            gameProgress.SaveLevelProgress(1, false);
-        }
-        else
-        {
-            Debug.LogError("GameProgress no encontrado en la escena.");
-        }
-        InitializeCollectionBook();
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            ToggleCollectionBook();
-        }
-    }
-
-    public void AddImageToCollection(string imagePath)
-    {
-        Sprite sprite = Resources.Load<Sprite>(imagePath);
-
-        if (sprite == null)
-        {
-            Debug.LogError("No se pudo cargar la imagen desde la ruta: " + imagePath);
-            return;
-        }
-
-        foreach (Image img in collectionImages)
-        {
-            if (img.sprite == null)
-            {
-                img.sprite = sprite;
-                img.gameObject.SetActive(true);
-                Debug.Log("Imagen agregada al catálogo de colección.");
-
-                // Llamar al script de paginación para actualizar la vista
-                paginacionScript.ActualizarCartas();
-                gameProgress.SaveCollectedCard(cardId);
-                return;
-            }
-        }
-
-        Debug.LogWarning("La colección de imágenes está completa.");
-    }
-
-    public void ToggleCollectionBook()
-    {
-        isCatalogVisible = !isCatalogVisible;
-        collectionBookPanel.SetActive(isCatalogVisible);
-    }
-
-    public void InitializeCollectionBook()
-    {
-        foreach (Image img in collectionImages)
-        {
-            img.gameObject.SetActive(false);
-        }
-    }
+    public string imagePath;
+    public int cardIndex;
+    public int currentLevel;
 }
-*/
-
