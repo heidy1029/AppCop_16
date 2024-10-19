@@ -2,25 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 public class CardsProgress : MonoBehaviour
 {
-    private const string API_URL = "https://vwlkdjpcfcdiimmkqxrx.supabase.co/rest/v1/collected_cards";
+    private const string URL_COLLECTED_CARDS = "https://vwlkdjpcfcdiimmkqxrx.supabase.co/rest/v1/collected_cards";
     private const string PROGRESS_ID_KEY = "CurrentProgressID";
 
-    public async Task CreateCard(int birdTypeId, int modelIndexId)
+    public async Task CreateCard(string jsonCards)
     {
-        string progressId = PlayerPrefs.GetString(PROGRESS_ID_KEY, "");
-        if (string.IsNullOrEmpty(progressId))
-        {
-            Debug.LogError("No progress ID found. Create progress first.");
-            return;
-        }
+        string userId = DataController.Instance.GetUserId();
+        string jsonBody = $"{{ \"cards\": {jsonCards}, \"user_id\": \"{userId}\" }}";
 
-        string userId = "64d714c5-f962-43e5-89a7-89b5633226c1"; // Asegúrate de obtener el ID de usuario correcto
-        string jsonBody = $"{{ \"bird_type_id\": {birdTypeId}, \"model_index_id\": {modelIndexId}, \"level_progress_id\": {progressId}, \"user_id\": \"{userId}\" }}";
-
-        string response = await Request.SendRequest(API_URL, "POST", jsonBody, true, true);
+        string response = await Request.SendRequest(URL_COLLECTED_CARDS, "POST", jsonBody, true, true);
 
         if (response != null)
         {
@@ -32,16 +26,11 @@ public class CardsProgress : MonoBehaviour
         }
     }
 
-    public async Task<string> GetCardsByProgressId()
+    public async Task<List<Card>> GetCards()
     {
-        string progressId = PlayerPrefs.GetString(PROGRESS_ID_KEY, "");
-        if (string.IsNullOrEmpty(progressId))
-        {
-            Debug.LogError("No progress ID found in storage.");
-            return null;
-        }
+        var userId = DataController.Instance.GetUserId();
 
-        string url = $"{API_URL}?level_progress_id=eq.{progressId}&select=*";
+        string url = $"{URL_COLLECTED_CARDS}?user_id=eq.{userId}&select=*";
         Debug.Log(url);
 
         string response = await Request.SendRequest(url, "GET", null);
@@ -49,7 +38,7 @@ public class CardsProgress : MonoBehaviour
         if (response != null)
         {
             Debug.Log("Cards retrieved successfully. Response: " + response);
-            return response;
+            return JsonConvert.DeserializeObject<List<Card>>(response);
         }
         else
         {
@@ -58,32 +47,21 @@ public class CardsProgress : MonoBehaviour
         }
     }
 
-    // Método para ser asignado al botón
-    public void OnGetCardsButtonClick()
+    public async Task UpdateCards(List<Card> updatedCards)
     {
-        StartCoroutine(GetCardsCoroutine());
-    }
+        string userId = DataController.Instance.GetUserId();
+        string jsonBody = JsonConvert.SerializeObject(updatedCards);
 
-    private IEnumerator GetCardsCoroutine()
-    {
-        Task<string> task = GetCardsByProgressId();
-        yield return new WaitUntil(() => task.IsCompleted);
+        string url = $"{URL_COLLECTED_CARDS}?user_id=eq.{userId}";
+        string response = await Request.SendRequest(url, "PATCH", jsonBody, true, true);
 
-        if (task.Exception != null)
+        if (response != null)
         {
-            Debug.LogError($"Error getting cards: {task.Exception.Message}");
+            Debug.Log("Cards updated successfully. Response: " + response);
         }
         else
         {
-            string cards = task.Result;
-            Debug.Log($"Cards retrieved: {cards}");
-            // Aquí puedes procesar las cartas obtenidas si es necesario
+            Debug.LogError("Failed to update cards");
         }
-    }
-
-    // Ejemplo de uso
-    public async void CreateExampleCard()
-    {
-        await CreateCard(1, 1);
     }
 }
