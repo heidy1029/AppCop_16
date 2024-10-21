@@ -51,8 +51,8 @@
             "funFact2": "A pesar de ser una especie acuática, son excelentes voladores y a menudo se desplazan largas distancias en busca de nuevos cuerpos de agua.",
             "location": "Ecoparque Lago de Las Garzas",
             "bibliography": "La Dendrocygna viduata (pato de cara blanca) desempeña un rol clave en los ecosistemas acuáticos al contribuir a la dispersión de semillas, el control de la vegetación acuática y la regulación de invertebrados. Además, forma parte de la cadena trófica al ser presa de depredadores y actúa como indicador de la salud de los humedales, ya que su presencia estable sugiere un ambiente saludable, mientras que su declive puede indicar problemas ambientales.",
-            "autorsonido": "JAYRSON ARAUJO DE OLIVEIRA",
-            "audioSuarce":"audios/acuatica/siririPamba"
+            "autorsonido": "Grabador: Fernando Igor de Godoy",
+            "audioSuarce":"audios/acuatica/Suirirí cariblanco"
           }
         },
         {
@@ -101,7 +101,9 @@
             "funFact1": "El pato silbón es conocido por su llamado silbante, que emite incluso durante el vuelo.",
             "funFact2": "Anidan en cavidades de árboles, adaptándose a una gran variedad de hábitats.",
             "location": "Ecoparque Río Pance",
-            "bibliography": "Este pato es esencial para el mantenimiento de los humedales, ayudando en la dispersión de plantas acuáticas y la regulación de los ecosistemas acuáticos."
+            "bibliography": "Este pato es esencial para el mantenimiento de los humedales, ayudando en la dispersión de plantas acuáticas y la regulación de los ecosistemas acuáticos.",
+            "birdSound":"audios/acuatica/Suirirí piquirrojo",
+            "autorSonido": "Grabador: Jerome Fischer – Colombia"
           }
         },
         {
@@ -150,7 +152,9 @@
             "funFact1": "ive en ríos de montaña con fuertes corrientes, lo que lo hace altamente especializado.",
             "funFact2": "Su capacidad para bucear y nadar contra las aguas rápidas le permite sobrevivir en un hábitat que pocos otros animales pueden habitar.",
             "location": "PNN Farallones de Cali - Cañon del Pato",
-            "bibliography": "La Merganetta armata impacta el ecosistema al ser un bioindicador de la salud de los ríos de montaña, señalando aguas limpias y bien conservadas. Además, controla poblaciones de invertebrados acuáticos al alimentarse de insectos y larvas, ayudando a mantener el equilibrio en las cadenas alimentarias. Su presencia también promueve la protección de hábitats fluviales, contribuyendo a la conservación de la biodiversidad en los ecosistemas de alta montaña."
+            "bibliography": "La Merganetta armata impacta el ecosistema al ser un bioindicador de la salud de los ríos de montaña, señalando aguas limpias y bien conservadas. Además, controla poblaciones de invertebrados acuáticos al alimentarse de insectos y larvas, ayudando a mantener el equilibrio en las cadenas alimentarias. Su presencia también promueve la protección de hábitats fluviales, contribuyendo a la conservación de la biodiversidad en los ecosistemas de alta montaña.",
+            "birdSound":"audios/acuatica/Pato torrentero",
+            "autorSonido": "Grabador: Hans Matheve "
           }
         },
         {
@@ -199,7 +203,9 @@
             "funFact1": "El tero es conocido por simular estar herido para alejar a los depredadores de su nido, una estrategia muy efectiva de distracción.",
             "funFact2": "Sus comportamientos defensivos, el tero también utiliza su fuerte voz para marcar su territorio, alertando a otras aves y animales en un amplio rango.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "El Tero juega un rol importante en el ecosistema como controlador biológico. Debido a su comportamiento territorial actúa como un protector de su entorno, alertando con su llamado a otros animales ante la presencia de depredadores o intrusos."
+            "bibliography": "El Tero juega un rol importante en el ecosistema como controlador biológico. Debido a su comportamiento territorial actúa como un protector de su entorno, alertando con su llamado a otros animales ante la presencia de depredadores o intrusos.",
+            "birdSound":"audios/acuatica/Avefría tero",
+            "autorSonido": "Grabador: Jayrson Araujo de Oliveira (Brazil)"
           }
         },
         {
@@ -249,7 +255,9 @@
             "funFact1": "Variedad de plumajes: Esta especie presenta una considerable variación en el color de su plumaje, dependiendo de la región en la que se encuentren, desde tonos azulados a grises o incluso verdes, lo que les permite camuflarse mejor en su entorno.",
             "funFact2": "Uso de cebo para cazar: La Butorides striata es una de las pocas aves conocidas por utilizar señuelos para cazar. Puede arrojar pequeños objetos, como ramitas o insectos muertos, sobre la superficie del agua para atraer peces y capturarlos.",
             "location": "Ecoparque Río Pance",
-            "bibliography": "La Butorides striata desempeña un rol crucial en el control de poblaciones de pequeños peces e insectos acuáticos, ayudando a mantener el equilibrio ecológico y promoviendo la biodiversidad en su hábitat. Además, como eslabón en la cadena alimentaria, sirve de presa para depredadores mayores como reptiles y aves rapaces."
+            "bibliography": "La Butorides striata desempeña un rol crucial en el control de poblaciones de pequeños peces e insectos acuáticos, ayudando a mantener el equilibrio ecológico y promoviendo la biodiversidad en su hábitat. Además, como eslabón en la cadena alimentaria, sirve de presa para depredadores mayores como reptiles y aves rapaces.",
+                "birdSound":"audios/acuatica/Garcita verdosa",
+            "autorSonido": ". Grabador: Jayrson Araujo de Oliveira (Brazil) "
           }
         },
         {
@@ -299,7 +307,9 @@
             "funFact1": "Comportamiento social: Esta especie es conocida por ser muy sociable, formando grandes grupos, a menudo mezclándose con otras especies de aves acuáticas. Su comportamiento gregario le facilita encontrar alimento y protección frente a depredadores en su hábitat.",
             "funFact2": "Color del pico y la cara: El ibis de cara desnuda tiene una apariencia inusual con su rostro sin plumas de color rosado o rojo, contrastando con su plumaje oscuro. Este rasgo distintivo le ayuda a diferenciarse de otras especies de ibis..",
             "location": "Ecohotel El Castillo",
-            "bibliography": "La Phimosus infuscatus, o ibis de cara desnuda, es vital para los ecosistemas acuáticos y de humedales. Regula las poblaciones de invertebrados al alimentarse de ellos, manteniendo el equilibrio trófico, y contribuye al reciclaje de nutrientes al remover el suelo durante su búsqueda de alimento. Además, su presencia indica la salud de los humedales, ya que su declive puede señalar problemas ambientales."
+            "bibliography": "La Phimosus infuscatus, o ibis de cara desnuda, es vital para los ecosistemas acuáticos y de humedales. Regula las poblaciones de invertebrados al alimentarse de ellos, manteniendo el equilibrio trófico, y contribuye al reciclaje de nutrientes al remover el suelo durante su búsqueda de alimento. Además, su presencia indica la salud de los humedales, ya que su declive puede señalar problemas ambientales.",
+                "birdSound":"audios/acuatica/Ibis afeitado",
+            "autorSonido": "Grabador: Jayrson Araujo de Oliveira (Brazil)"
           }
       },
       {
@@ -349,7 +359,9 @@
           "funFact1": "Pasa mucho tiempo en áreas terrestres y es común verla posada sobre animales grandes, como vacas y búfalos, de los que obtiene alimento.",
           "funFact2": "Es una especie altamente adaptable y ha tenido una rápida expansión global, llegando a colonizar nuevos continentes en menos de 100 años, como América y Oceanía.",
           "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
-          "bibliography": "Al alimentarse de los insectos y parásitos que se encuentran sobre grandes mamíferos, ayuda a reducir las poblaciones de estos organismos en los ecosistemas agrícolas y ganaderos. Además, actúa como dispersor de semillas cuando se desplaza por diferentes áreas."
+          "bibliography": "Al alimentarse de los insectos y parásitos que se encuentran sobre grandes mamíferos, ayuda a reducir las poblaciones de estos organismos en los ecosistemas agrícolas y ganaderos. Además, actúa como dispersor de semillas cuando se desplaza por diferentes áreas.",
+              "birdSound":"audios/acuatica/Garcilla bueyera",
+            "autorSonido": ". Grabador: Stanislas Wroza - France"
         }
       },
       {
@@ -399,7 +411,9 @@
               "funFact1": "Aves buceadoras: Los cormoranes carecen de glándulas uropigiales eficientes, por lo que sus plumas no son impermeables, lo que les permite sumergirse más fácilmente. Sin embargo, después de nadar, deben secar sus alas al sol para evitar el enfriamiento",
               "funFact2": "Uso en pesca: Históricamente, en algunas culturas asiáticas, los cormoranes han sido entrenados para pescar, con un anillo en el cuello que impide que se traguen el pez, permitiendo a los pescadores recolectar las capturas.",
               "location": "Ecoparque Río Pance",
-              "bibliography": "El biguá desempeña un papel clave en el control de poblaciones de peces, lo que mantiene el equilibrio en los ecosistemas acuáticos. Además, su presencia indica la buena calidad del hábitat acuático, ya que necesita cuerpos de agua saludables para sobrevivir"
+              "bibliography": "El biguá desempeña un papel clave en el control de poblaciones de peces, lo que mantiene el equilibrio en los ecosistemas acuáticos. Además, su presencia indica la buena calidad del hábitat acuático, ya que necesita cuerpos de agua saludables para sobrevivir",
+                  "birdSound":"audios/acuatica/Cormoran bigua",
+            "autorSonido": "Grabador: Paul Marvin - United States"
             }
           },
           {
@@ -448,7 +462,9 @@
               "funFact1": "Emiten un sonido silbante característico, de donde proviene su nombre pato silbador.",
               "funFact2": "Realizan vuelos en grandes bandadas, lo que los hace muy visibles en áreas abiertas de humedales.",
               "location": "Ecoparque Lago de Las Garzas",
-              "bibliography": " controlar poblaciones de insectos, ya que se alimenta de ellos. Esto ayuda a mantener el equilibrio en los cultivos y reduce la necesidad de pesticidas. Además, como habita en humedales y zonas cercanas a cuerpos de agua, contribuye a la dispersión de semillas, favoreciendo la regeneración de plantas y la biodiversidad en estos hábitats cruciales para la salud ambiental del país"
+              "bibliography": " controlar poblaciones de insectos, ya que se alimenta de ellos. Esto ayuda a mantener el equilibrio en los cultivos y reduce la necesidad de pesticidas. Además, como habita en humedales y zonas cercanas a cuerpos de agua, contribuye a la dispersión de semillas, favoreciendo la regeneración de plantas y la biodiversidad en estos hábitats cruciales para la salud ambiental del país",
+                  "birdSound":"audios/acuatica/Suirirí bicolor",
+            "autorSonido": "Grabador: Nature sounds by Simply Birding – South África"
             }
           },
           {
@@ -497,7 +513,9 @@
               "funFact1": "Cuernos únicos: este cuerno es único en las aves y no está conectado al cráneo, lo que lo hace flexible. Le da un aspecto inconfundible.",
               "funFact2": "Alas con espinas: Estas espinas afiladas se encuentran en la articulación del ala y pueden usarlas como defensa contra depredadores o en peleas territoriales, les brinda una especie de arma natural",
               "location": "Humedal de El Pondaje y Charco Azul, ubicados dentro de la ciudad, donde hay zonas con vegetación acuática.Lago Calima o en áreas más rurales y naturales cerca de ríos como el río Cauca o hacienda El Paraíso.Laguna de Sonso, Buga.    Confirmado.",
-              "bibliography": "Este ave carroñera ayuda a mantener el equilibrio ambiental al limpiar el entorno de animales muertos, lo que reduce la propagación de enfermedades. Al alimentarse de desechos orgánicos, contribuye a la descomposición natural de la materia y promueve el reciclaje de nutrientes en el suelo, favoreciendo la salud de los ecosistemas de ciénagas y humedales."
+              "bibliography": "Este ave carroñera ayuda a mantener el equilibrio ambiental al limpiar el entorno de animales muertos, lo que reduce la propagación de enfermedades. Al alimentarse de desechos orgánicos, contribuye a la descomposición natural de la materia y promueve el reciclaje de nutrientes en el suelo, favoreciendo la salud de los ecosistemas de ciénagas y humedales.",
+              "birdSound":"audios/acuatica/Chajá añuma",
+            "autorSonido": "Grabador: Mauricio Cuéllar Ramírez - Colombia"
             }
           }
       ] 
@@ -556,7 +574,9 @@
             "funFact1": "Dimorfismo sexual notable: Los machos tienen un plumaje negro brillante, mientras que las hembras presentan colores más apagados, lo que facilita su camuflaje",
             "funFact2": "Vuelo acrobático: Son capaces de realizar vuelos rápidos y maniobras acrobáticas, lo que les permite defender su territorio y escapar de depredadores con facilidad",
             "location": "Buenaventura",
-            "bibliography": "El colibrí, es un importante polinizador de plantas tropicales. Al alimentarse de néctar, transporta polen entre flores, favoreciendo su reproducción y manteniendo la diversidad vegetal en su hábitat. Además, ayuda a controlar poblaciones de pequeños insectos, que también forman parte de su dieta."
+            "bibliography": "El colibrí, es un importante polinizador de plantas tropicales. Al alimentarse de néctar, transporta polen entre flores, favoreciendo su reproducción y manteniendo la diversidad vegetal en su hábitat. Además, ayuda a controlar poblaciones de pequeños insectos, que también forman parte de su dieta.",
+            "birdSound":"audios/vuelo/nuquiblanco",
+            "autorSonido": "Grabador: Peter Boesman - Colombia"
           }
         },   
         {
@@ -606,7 +626,9 @@
             "funFact1": "Los grupos pueden identificar dos sitios de anidación y pueden pasar tiempo en cada uno, lo que sugiere dificultad para elegir; pueden trabajar simultáneamente en dos nidos hasta que se deciden por uno",
             "funFact2": "Las hembras que ponen huevos más tarde entierran los huevos de las hembras que ponen huevos más temprano con ramitas y hojas, lo que puede crear varias capas de huevos; solo la capa superior finalmente eclosiona",
             "location": "Ecohotel El Castillo",
-            "bibliography": "Crotophaga ani, tiene importantes efectos ecológicos en su hábitat. Como ave insectívora y frugívora, ayuda a controlar poblaciones de insectos, incluidos parásitos de grandes mamíferos, y dispersa semillas, favoreciendo la regeneración de la vegetación. Al vivir en grupos y realizar vocalizaciones constantes, también afecta la dinámica social de las aves en su entorno. Sin embargo, su dependencia de áreas abiertas y semiabiertas hace que la alteración de su hábitat afecte su rol ecológico y la biodiversidad local"
+            "bibliography": "Crotophaga ani, tiene importantes efectos ecológicos en su hábitat. Como ave insectívora y frugívora, ayuda a controlar poblaciones de insectos, incluidos parásitos de grandes mamíferos, y dispersa semillas, favoreciendo la regeneración de la vegetación. Al vivir en grupos y realizar vocalizaciones constantes, también afecta la dinámica social de las aves en su entorno. Sin embargo, su dependencia de áreas abiertas y semiabiertas hace que la alteración de su hábitat afecte su rol ecológico y la biodiversidad local",
+            "birdSound":"audios/vuelo/Garrapatero aní",
+            "autorSonido": "Grabador: Fernando Igor de Godoy - Brazil"
           }
         },
         {
@@ -655,7 +677,9 @@
             "funFact1": "Tiene una estructura social única, ya que vive en grupos familiares y practica la crianza comunal, donde varios adultos cuidan a las crías de todo el grupo.",
             "funFact2": "Su nombre ani proviene del sonido característico de su llamada, un canto repetitivo y áspero que emite mientras se desplaza en su hábitat o se comunica con su grupo.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "Control de insectos: Al alimentarse de una amplia variedad de insectos, como saltamontes y grillos, ayuda a mantener bajo control las poblaciones de invertebrados, lo que es clave para el equilibrio del ecosistema.Dispersión de semillas: Aunque su dieta es principalmente insectívora, también consume frutos, contribuyendo a la dispersión de semillas y ayudando en la regeneración de plantas en su hábitat."
+            "bibliography": "Control de insectos: Al alimentarse de una amplia variedad de insectos, como saltamontes y grillos, ayuda a mantener bajo control las poblaciones de invertebrados, lo que es clave para el equilibrio del ecosistema.Dispersión de semillas: Aunque su dieta es principalmente insectívora, también consume frutos, contribuyendo a la dispersión de semillas y ayudando en la regeneración de plantas en su hábitat.",
+            "birdSound":"audios/vuelo/Garrapatero mayor",
+            "autorSonido": "Grabador: Ricardo José Mitidieri - Brazil"
           }
         },
         {
@@ -705,7 +729,9 @@
             "funFact1": "Agresividad territorial: Aunque es pequeño, el Amazilia tzacatl es altamente territorial y defiende vigorosamente su fuente de néctar frente a otros colibríes e incluso aves más grandes.",
             "funFact2": "Capacidad de volar en todas direcciones: Como otros colibríes, esta especie puede volar hacia adelante, atrás, arriba, abajo y hasta mantenerse suspendida en el aire, gracias a la rápida velocidad de sus alas.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "El colibrí Amazilia tzacatl, juega un papel clave en la polinización de numerosas plantas. Al alimentarse del néctar de flores, facilita la reproducción de estas, contribuyendo al equilibrio y diversidad vegetal en su entorno. Además, consume pequeños insectos, ayudando a controlar sus poblaciones. Su presencia beneficia tanto a la flora como a otras especies que dependen de plantas polinizadas"
+            "bibliography": "El colibrí Amazilia tzacatl, juega un papel clave en la polinización de numerosas plantas. Al alimentarse del néctar de flores, facilita la reproducción de estas, contribuyendo al equilibrio y diversidad vegetal en su entorno. Además, consume pequeños insectos, ayudando a controlar sus poblaciones. Su presencia beneficia tanto a la flora como a otras especies que dependen de plantas polinizadas",
+            "birdSound":"audios/vuelo/Amazilia tzacatl",
+            "autorSonido": "Grabador: Peter Boesman – Costa Rica"
           }
         },
     {
@@ -755,7 +781,9 @@
         "funFact1": "Plumas de la cola distintivas: Los machos tienen largas plumas en la cola con discos en las puntas, que usan durante exhibiciones de cortejo para atraer a las hembras.",
         "funFact2": "Vuelo ágil: Sus largas colas no afectan su vuelo, ya que son ágiles y maniobran hábilmente, lo que les permite alimentarse y esquivar depredadores.",
         "location": "Bosque de Niebla Km. 18",
-        "bibliography": "El colibrí, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema."
+        "bibliography": "El colibrí, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema.",
+        "birdSound":"audios/vuelo/raquetas",
+            "autorSonido": " Grabador: Mitch Lysinger - Ecuador"
       }
     },
     {
@@ -802,10 +830,12 @@
         "diet": "Este colibrí, que prefiere la sombra, se alimenta en el sotobosque flotando sobre flores. Aunque actúa como polinizador, a veces roba néctar perforando flores. En zonas altas, se alimenta en copas de árboles y arbustos pequeños. Consume néctar y artrópodos.",
         "reproduction": "En Colombia se ha documentado la reproducción de individuos entre febrero y octubre, pero se cree que la especie se reproduce durante todo el año. El macho participa en la construcción ritualizada del nido, la hembra duerme en el nido todas las noches, y ella misma es la única que incuba, el período de incubación es de 15 a 17 días y ponen 2 huevos",
         "size": "Mide entre 16 y 19 cm de longitud",
-        "funFact1": "Cola larga y llamativa: Los machos tienen una cola extremadamente larga, casi del doble de su tamaño corporal, que utilizan en exhibiciones de cortejo.",
+        "funFact1": "Cola larga y llamativa: Los machos tienen una cola extremadamente larga, casi del doble de su tamaño corporal, que utilizan en exhibiciones de cortejo.",
         "funFact2": "Alimentación en vuelo: Como otros colibríes, se alimenta principalmente en vuelo, lo que le permite acceder a flores inaccesibles para otras especies.",
         "location": "Bosque de Niebla Km. 18",
-        "bibliography": "El colibrí Aglaiocercus kingii, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema"
+        "bibliography": "El colibrí Aglaiocercus kingii, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema",
+        "birdSound":"audios/vuelo/Silfo",
+            "autorSonido": " Grabador: John V. Moore - Ecuador"
       }
     },
         {
@@ -855,7 +885,9 @@
             "funFact1": "El cuco joven mata a sus compañeros de nido poco después de la eclosión con su pico ganchudo y se cría solo en el nido del hospedador. El cuco joven abandona el nido cuando tiene entre 16 y 18 días de edad.",
             "funFact2": "El canto ventrílocuo de la Tapera naevia es muy característico y puede confundirse fácilmente, lo que dificulta localizar al ave, ya que suele cantar desde lugares ocultos en la vegetación.",
             "location": "Ecoparque rio pance, ",
-            "bibliography": "La Tapera naevia controla las poblaciones de insectos al alimentarse principalmente de ellos, lo que ayuda a mantener el equilibrio ecológico. Además, contribuye a la dispersión de semillas y a la regeneración de vegetación al consumir frutos."
+            "bibliography": "La Tapera naevia controla las poblaciones de insectos al alimentarse principalmente de ellos, lo que ayuda a mantener el equilibrio ecológico. Además, contribuye a la dispersión de semillas y a la regeneración de vegetación al consumir frutos.",
+            "birdSound":"audios/acuatica/Cuclillo",
+            "autorSonido": " Grabador: Victor Antonelli"
           }
         },
         {
@@ -905,7 +937,9 @@
             "funFact1": "Los padres mantienen un nido bastante limpio eliminando los excrementos y trayendo hojas frescas.",
             "funFact2": "Los cucos ardilla casi siempre son solitarios o en parejas. Pueden seguir bandadas de especies mixtas, pero a menudo buscan alimento lejos de ellas.",
             "location": "Jardín Botánico de Cali",
-            "bibliography": "La Piaya cayana, o cuco común, tiene efectos ecológicos importantes, como el control de poblaciones de insectos al alimentarse de artrópodos. Su presencia indica la salud del ecosistema, ya que es sensible a cambios en la disponibilidad de alimentos. Además, influye en las dinámicas de la cadena alimentaria y contribuye a la dispersión de semillas mediante el consumo ocasional de frutos, favoreciendo la regeneración de la vegetación."
+            "bibliography": "La Piaya cayana, o cuco común, tiene efectos ecológicos importantes, como el control de poblaciones de insectos al alimentarse de artrópodos. Su presencia indica la salud del ecosistema, ya que es sensible a cambios en la disponibilidad de alimentos. Además, influye en las dinámicas de la cadena alimentaria y contribuye a la dispersión de semillas mediante el consumo ocasional de frutos, favoreciendo la regeneración de la vegetación.",
+            "birdSound":"audios/vuelo/Cuco ardilla",
+            "autorSonido": " Grabador: Guillermo Treboux - Argentina"
           }
         },
         {
@@ -955,7 +989,9 @@
             "funFact1": "Dimorfismo sexual: Los machos tienen un plumaje oscuro e iridiscente, mientras que las hembras presentan colores más apagados y menos brillantes.",
             "funFact2": "Vuelos migratorios: Aunque no todas las poblaciones migran, algunos colibríes de esta especie realizan movimientos estacionales en busca de alimento.",
             "location": "Ecohotel El Castillo.",
-            "bibliography": "El colibrí Anthracothorax nigricollis, juega un papel importante en la polinización de plantas, ayudando a la reproducción de diversas especies vegetales. Además, al consumir pequeños insectos, contribuye al control de sus poblaciones."
+            "bibliography": "El colibrí Anthracothorax nigricollis, juega un papel importante en la polinización de plantas, ayudando a la reproducción de diversas especies vegetales. Además, al consumir pequeños insectos, contribuye al control de sus poblaciones.",
+            "birdSound":"audios/acuatica/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
           }
         },
         {
@@ -1005,7 +1041,9 @@
             "funFact1": "Migración larga: Estas aves realizan migraciones masivas, viajando desde América del Norte hasta Sudamérica, cubriendo grandes distancias durante el invierno.",
             "funFact2": "Vuelos al atardecer: El Chordeiles minor es más activo al amanecer y al atardecer, siendo uno de los pocos pájaros que cazan insectos en pleno vuelo durante esas horas.",
             "location": "Club Campestre Farallones.",
-            "bibliography": "Esta ave es crucial para el control de poblaciones de insectos voladores, ya que se alimenta principalmente de ellos durante sus vuelos crepusculares y nocturnos. Esto ayuda a mantener el equilibrio ecológico al reducir plagas de mosquitos y otros insectos, lo que beneficia a diversas especies dentro de su entorno."
+            "bibliography": "Esta ave es crucial para el control de poblaciones de insectos voladores, ya que se alimenta principalmente de ellos durante sus vuelos crepusculares y nocturnos. Esto ayuda a mantener el equilibrio ecológico al reducir plagas de mosquitos y otros insectos, lo que beneficia a diversas especies dentro de su entorno.",
+            "birdSound":"audios/acuatica/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
           }
         }
       ]
@@ -1065,7 +1103,9 @@
             "funFact1": "Aunque es un ave rapaz, la Pigua a menudo se la observa caminando por el suelo buscando alimento, algo inusual para aves de este tipo.",
             "funFact2": "Esta especie ha demostrado ser altamente adaptable a entornos urbanos, aprovechando recursos humanos, como desperdicios de comida, lo que le ha permitido prosperar en áreas pobladas.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "El Milvago chimachima desempeña un papel importante como carroñero, ayudando a limpiar el ambiente al alimentarse de animales muertos, y como controlador de plagas, ya que consume insectos y pequeños vertebrados. Esta ave contribuye a mantener el equilibrio ecológico al regular las poblaciones de presas y evitar la propagación de enfermedades a través de la eliminación de cadáveres."
+            "bibliography": "El Milvago chimachima desempeña un papel importante como carroñero, ayudando a limpiar el ambiente al alimentarse de animales muertos, y como controlador de plagas, ya que consume insectos y pequeños vertebrados. Esta ave contribuye a mantener el equilibrio ecológico al regular las poblaciones de presas y evitar la propagación de enfermedades a través de la eliminación de cadáveres.",
+            "birdSound":"audios/rapaces/chimachima",
+            "autorSonido": " Grabador: Jerome Fischer (Colombia"
           }
         },
         {
@@ -1115,7 +1155,9 @@
             "funFact1": "Es uno de los pocos halcones que caza tanto en solitario como en pareja, lo que aumenta su eficiencia para atrapar presas",
             "funFact2": "Las parejas de halcones aplomados se pasan la comida en el aire. A veces, el macho le pasa la comida a la hembra con facilidad; otras veces, se queda con la comida demasiado tiempo y la hembra lo arrastra en el aire hasta que lo suelta.",
             "location": "Universidad Javeriana de Cali",
-            "bibliography": "El halcón plomizo (Falco femoralis) tiene un impacto importante en su ecosistema como controlador de poblaciones de pequeños mamíferos, aves e insectos. Al ser un depredador tope, mantiene el equilibrio de las especies presa mas abundantes y ayuda a regular las cadenas alimenticias en los pastizales y áreas boscosas donde habita. Esto reduce la sobrepoblación de ciertas especies y contribuye a la salud del ecosistema."
+            "bibliography": "El halcón plomizo (Falco femoralis) tiene un impacto importante en su ecosistema como controlador de poblaciones de pequeños mamíferos, aves e insectos. Al ser un depredador tope, mantiene el equilibrio de las especies presa mas abundantes y ayuda a regular las cadenas alimenticias en los pastizales y áreas boscosas donde habita. Esto reduce la sobrepoblación de ciertas especies y contribuye a la salud del ecosistema.",
+              "birdSound":"audios/rapaces/Halcón aleto",
+            "autorSonido": " Grabador: Jayrson Araujo de Oliveira (Brazil)"
           }
         },
         {
@@ -1165,7 +1207,9 @@
             "funFact1": "El cernícalo americano es capaz de cernirse en el aire, quedándose inmóvil en vuelo mientras busca presas.",
             "funFact2": "Es la especie de halcón más pequeña y común en América, siendo altamente adaptable a diferentes entornos.",
             "location": "Ecoparque Río Pance",
-            "bibliography": "El Falco sparverius (cernícalo americano) contribuye positivamente al ecosistema actuando como controlador de plagas, al alimentarse de insectos, roedores y pequeños vertebrados, lo que protege cultivos y vegetación. Además, regula las poblaciones de especies pequeñas, manteniendo el equilibrio ecológico. Su sensibilidad a contaminantes, como pesticidas, lo convierte en un indicador de la salud del ecosistema, alertando sobre problemas ambientales como la degradación del hábitat."
+            "bibliography": "El Falco sparverius (cernícalo americano) contribuye positivamente al ecosistema actuando como controlador de plagas, al alimentarse de insectos, roedores y pequeños vertebrados, lo que protege cultivos y vegetación. Además, regula las poblaciones de especies pequeñas, manteniendo el equilibrio ecológico. Su sensibilidad a contaminantes, como pesticidas, lo convierte en un indicador de la salud del ecosistema, alertando sobre problemas ambientales como la degradación del hábitat.",
+              "birdSound":"audios/rapaces/Cernícalo",
+            "autorSonido": " Grabador: Phil Brown – United States"
           }
         },
         {
@@ -1215,7 +1259,9 @@
             "funFact1": "Es una especie muy adaptable, lo que le ha permitido prosperar en áreas urbanas y rurales, aprovechando tanto presas naturales como aquellas asociadas a la actividad humana.",
             "funFact2": "A diferencia de muchas aves rapaces que dependen de la caza aérea, el gavilán caminero caza frecuentemente en el suelo, persiguiendo a sus presas a pie.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "Este gavilán juega un papel crucial en el control de poblaciones de pequeños vertebrados e invertebrados. Al ser un depredador tope, ayuda a mantener el equilibrio ecológico al controlar roedores, lagartijas e insectos. Su presencia en áreas agrícolas también lo convierte en un aliado para los agricultores, ya que reduce las plagas de roedores."
+            "bibliography": "Este gavilán juega un papel crucial en el control de poblaciones de pequeños vertebrados e invertebrados. Al ser un depredador tope, ayuda a mantener el equilibrio ecológico al controlar roedores, lagartijas e insectos. Su presencia en áreas agrícolas también lo convierte en un aliado para los agricultores, ya que reduce las plagas de roedores.",
+              "birdSound":"audios/rapaces/Busardo caminero",
+            "autorSonido": "Grabador: Antonio Xeira - Panamá"
           }
         },
         {
@@ -1265,7 +1311,9 @@
             "funFact1": "El águila alilarga es conocida por sus impresionantes habilidades de vuelo, que le permiten planear a grandes alturas y cubrir extensas áreas en busca de presas.",
             "funFact2": "A menudo se la puede ver posada en puntos altos, como árboles o rocas, desde donde tiene una vista panorámica de su entorno, lo que le facilita localizar a sus presas.",
             "location": "Jardín Botánico de Cali",
-            "bibliography": "El Geranoaetus albicaudatus, conocido como el águila coliblanca, desempeña un papel crucial en su ecosistema al actuar como depredador tope. Su presencia ayuda a regular las poblaciones de pequeños mamíferos, aves y reptiles, manteniendo el equilibrio ecológico. Al cazar presas, también contribuye a la dispersión de nutrientes a través de sus excrementos, lo que favorece la fertilidad del suelo."
+            "bibliography": "El Geranoaetus albicaudatus, conocido como el águila coliblanca, desempeña un papel crucial en su ecosistema al actuar como depredador tope. Su presencia ayuda a regular las poblaciones de pequeños mamíferos, aves y reptiles, manteniendo el equilibrio ecológico. Al cazar presas, también contribuye a la dispersión de nutrientes a través de sus excrementos, lo que favorece la fertilidad del suelo.",
+              "birdSound":"audios/rapaces/Busardo coliblanco",
+            "autorSonido": " Grabador: Juan Mazar Barnett (Bolivia)"
           }
         },
         {
@@ -1315,7 +1363,9 @@
             "funFact1": "En lugar de construir un nido, la hembra pone sus huevos en el suelo desnudo de una cueva, un árbol hueco, un edificio abandonado u otro rincón oscuro.",
             "funFact2": "Se ha expresado preocupación por la amenaza que la especie representa para las aeronaves, así como por los impactos de la especie en la propiedad personal, la infraestructura pública y, especialmente, la agricultura, a través de la supuesta depredación del ganado.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas."
+            "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas.",
+              "birdSound":"audios/rapaces/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
           }
         },
         {
@@ -1364,7 +1414,9 @@
             "funFact1": "Los machos son responsables de la mayor parte de la construcción como parte del cortejo y seleccionan el sitio, que generalmente se ubica sobre el agua para disuadir a depredadores.",
             "funFact2": "Los caracoleros suelen defecar después de cada alimentación, para defecar, las aves bajan la cabeza y levantan el cuerpo y la cola hasta un plano horizontal o ligeramente más alto.",
             "location": "Ecoparque Río Pance",
-            "bibliography": "La Rostrhamus sociabilis, comúnmente conocida como el caracolero, tiene varios efectos ecológicos importantes en su ecosistema: Control de poblaciones de caracoles: Al alimentarse principalmente de caracoles de agua dulce, el caracolero ayuda a regular sus poblaciones, lo que contribuye al equilibrio ecológico de su hábitat acuático. Este control de invertebrados es esencial para mantener la salud de los ecosistemas de humedales.Interacción con otros organismos: Como depredador, el caracolero juega un papel crucial en la cadena alimentaria. Su presencia puede influir en las dinámicas de otras especies, tanto como presa para aves rapaces y otros depredadores, como también al controlar las poblaciones de sus presas.Indicador de salud del ecosistema: La abundancia y distribución del caracolero pueden ser indicadores de la salud de los humedales y cuerpos de agua dulce, ya que su bienestar depende de un ecosistema acuático saludable.Dispersión de semillas: Aunque su dieta es predominantemente carnívora, el caracolero también puede contribuir a la dispersión de semillas si consume frutos ocasionalmente, lo que favorece la regeneración y diversidad de la vegetación en su entorno."
+            "bibliography": "La Rostrhamus sociabilis, comúnmente conocida como el caracolero, tiene varios efectos ecológicos importantes en su ecosistema: Control de poblaciones de caracoles: Al alimentarse principalmente de caracoles de agua dulce, el caracolero ayuda a regular sus poblaciones, lo que contribuye al equilibrio ecológico de su hábitat acuático. Este control de invertebrados es esencial para mantener la salud de los ecosistemas de humedales.Interacción con otros organismos: Como depredador, el caracolero juega un papel crucial en la cadena alimentaria. Su presencia puede influir en las dinámicas de otras especies, tanto como presa para aves rapaces y otros depredadores, como también al controlar las poblaciones de sus presas.Indicador de salud del ecosistema: La abundancia y distribución del caracolero pueden ser indicadores de la salud de los humedales y cuerpos de agua dulce, ya que su bienestar depende de un ecosistema acuático saludable.Dispersión de semillas: Aunque su dieta es predominantemente carnívora, el caracolero también puede contribuir a la dispersión de semillas si consume frutos ocasionalmente, lo que favorece la regeneración y diversidad de la vegetación en su entorno.",
+              "birdSound":"audios/rapaces/Caracolero",
+            "autorSonido": "Grabador: Niels Krabbe (Ecuador)"
           }
         },
         {
@@ -1413,7 +1465,9 @@
             "funFact1": "Las parejas adultas son generalmente monógamas y muy territoriales y muestran una fuerte fidelidad al sitio.",
             "funFact2": "Los caranchos usan el pico para recolectar material del nido. Arrancan tallos y enredaderas mientras caminan por los pastos, a lo largo de las cercas y las zanjas.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "-Control de poblaciones: Al alimentarse de una amplia variedad de animales, como insectos, pequeños vertebrados y carroña, contribuye al control de estas poblaciones, manteniendo el equilibrio ecológico. Su rol como carroñero también ayuda a eliminar animales muertos, evitando la proliferación de enfermedades. -Reciclaje de nutrientes: Al consumir carroña, el Caracara Crestado contribuye al reciclaje de nutrientes, acelerando el proceso de descomposición y promoviendo la salud del ecosistema. -Interacción en la cadena alimentaria: Como depredador y carroñero, influye en la dinámica de otras especies, tanto al controlar las poblaciones de presas como al competir por carroña con otros carroñeros, como buitres."
+            "bibliography": "-Control de poblaciones: Al alimentarse de una amplia variedad de animales, como insectos, pequeños vertebrados y carroña, contribuye al control de estas poblaciones, manteniendo el equilibrio ecológico. Su rol como carroñero también ayuda a eliminar animales muertos, evitando la proliferación de enfermedades. -Reciclaje de nutrientes: Al consumir carroña, el Caracara Crestado contribuye al reciclaje de nutrientes, acelerando el proceso de descomposición y promoviendo la salud del ecosistema. -Interacción en la cadena alimentaria: Como depredador y carroñero, influye en la dinámica de otras especies, tanto al controlar las poblaciones de presas como al competir por carroña con otros carroñeros, como buitres.",
+              "birdSound":"audios/rapaces/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
           }
         },
         {
@@ -1463,7 +1517,9 @@
             "funFact1": "El macho puede ser capaz de completar la incubación si la hembra muere.",
             "funFact2": "El macho visita el nido sólo después de transferirle comida a la hembra fuera del nido.",
             "location": "Ecoparque Río Pance.",
-            "bibliography": "El Buteo platypterus desempeña un papel clave en el equilibrio ecológico. Controla las poblaciones de pequeños mamíferos, aves, reptiles e insectos, regulando la cadena alimentaria. Además, contribuye a la fertilidad del suelo mediante la dispersión de nutrientes a través de sus excrementos. Su función como depredador tope mantiene la estabilidad en los ecosistemas donde habita."
+            "bibliography": "El Buteo platypterus desempeña un papel clave en el equilibrio ecológico. Controla las poblaciones de pequeños mamíferos, aves, reptiles e insectos, regulando la cadena alimentaria. Además, contribuye a la fertilidad del suelo mediante la dispersión de nutrientes a través de sus excrementos. Su función como depredador tope mantiene la estabilidad en los ecosistemas donde habita.",
+              "birdSound":"audios/rapaces/Busardo",
+            "autorSonido": "Grabador: Ross Gallardy (Colombia)"
           }
         },
         {
@@ -1513,7 +1569,9 @@
             "funFact1": "En lugar de construir un nido, la hembra pone sus huevos en el suelo desnudo de una cueva, un árbol hueco, un edificio abandonado u otro rincón oscuro.",
             "funFact2": "Se ha expresado preocupación por la amenaza que la especie representa para las aeronaves, así como por los impactos de la especie en la propiedad personal, la infraestructura pública y, especialmente, la agricultura, a través de la supuesta depredación del ganado.",
             "location": "Ecohotel El Castillo.",
-            "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas."
+            "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas.",
+              "birdSound":"audios/rapaces/Zopilote",
+            "autorSonido": "Grabador: Brice de la Croix (French Guiana)"
           }
        }
   ]
@@ -1575,7 +1633,9 @@
             "funFact1": "Comportamiento Territorial: La Columbina talpacoti es conocida por ser bastante territorial, especialmente durante la temporada de reproducción. Los machos defienden su área activamente, incluso contra otras tórtolas, para asegurar su pareja y recursos.",
             "funFact2": "Adaptabilidad a Áreas Urbanas: Esta especie se adapta fácilmente a entornos urbanos y suburbanos, siendo común verla en jardines, parques y áreas verdes. Su capacidad para convivir cerca de los humanos ha hecho que sea una de las aves más vistas en ciudades de América Latina.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "La Columbina talpacoti, contribuye significativamente al ecosistema a través de la dispersión de semillas. Al alimentarse de semillas y frutos pequeños, favorece la regeneración de la vegetación en su hábitat, lo cual es crucial para mantener la biodiversidad. Además, forma parte de la red alimentaria, sirviendo de presa para varios depredadores como halcones y serpientes, ayudando a mantener el equilibrio en la cadena trófica."
+            "bibliography": "La Columbina talpacoti, contribuye significativamente al ecosistema a través de la dispersión de semillas. Al alimentarse de semillas y frutos pequeños, favorece la regeneración de la vegetación en su hábitat, lo cual es crucial para mantener la biodiversidad. Además, forma parte de la red alimentaria, sirviendo de presa para varios depredadores como halcones y serpientes, ayudando a mantener el equilibrio en la cadena trófica.",
+               "birdSound":"audios/gallineceas/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
           }
         },
         {
@@ -1625,7 +1685,9 @@
             "funFact1": "La chachalaca colombiana aunque es capaz de volar, prefiere moverse saltando y corriendo por las ramas y el suelo, lo que le permite desplazarse de manera eficiente en su entorno",
             "funFact2": "La chachalaca colombiana es social y se la ve en grupos de hasta 20 individuos. También es conocida por su vocalización fuerte y estridente, especialmente durante las horas de la mañana y el atardecer, lo que ayuda a la comunicación entre individuos y a la defensa del territorio.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "desempeña un papel importante en su ecosistema como dispersora de semillas. Al alimentarse de frutas y bayas, contribuye a la propagación de diversas plantas, lo que ayuda a la regeneración y mantenimiento de la vegetación en los bosques y áreas semiabiertas donde habita. También sirve como presa para varios depredadores, integrándose en la cadena alimentaria y contribuyendo al equilibrio ecológico."
+            "bibliography": "desempeña un papel importante en su ecosistema como dispersora de semillas. Al alimentarse de frutas y bayas, contribuye a la propagación de diversas plantas, lo que ayuda a la regeneración y mantenimiento de la vegetación en los bosques y áreas semiabiertas donde habita. También sirve como presa para varios depredadores, integrándose en la cadena alimentaria y contribuyendo al equilibrio ecológico.",
+             "birdSound":"audios/gallineceas/Carancho meridional",
+            "autorSonido": "Grabador: Gabriel Leite (Brazil)"
           }
         },
           {
@@ -1675,7 +1737,9 @@
           "funFact1": "La pava negra es muy esquiva y difícil de observar, ya que pasa la mayor parte del tiempo oculta entre la vegetación densa del dosel de los bosques.",
           "funFact2": "Esta ave realiza un curioso movimiento de cabeza y cuello en su nido, que se cree ayuda a rodar los huevos y fortalecer la estructura del nido.",
           "location": "Ecohotel El Castillo",
-          "bibliography": "-Dispersión de semillas: Al alimentarse principalmente de frutas, esta especie juega un papel clave en la dispersión de semillas, ayudando a regenerar bosques y mantener la biodiversidad vegetal. -Control de insectos: Aunque su dieta es mayormente frugívora, también consume invertebrados, lo que contribuye al control de las poblaciones de insectos dentro de su ecosistema."
+          "bibliography": "-Dispersión de semillas: Al alimentarse principalmente de frutas, esta especie juega un papel clave en la dispersión de semillas, ayudando a regenerar bosques y mantener la biodiversidad vegetal. -Control de insectos: Aunque su dieta es mayormente frugívora, también consume invertebrados, lo que contribuye al control de las poblaciones de insectos dentro de su ecosistema.",
+           "birdSound":"audios/gallineceas/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
         }
       },
       {
@@ -1725,7 +1789,9 @@
             "funFact1": "-La paloma de vientre claro se agrupa en grandes cantidades alrededor de recursos alimentarios abundantes, lo que facilita la observación de esta especie en su hábitat natural.",
             "funFact2": "-Su nido es sorprendentemente frágil y está hecho de ramitas delgadas, lo que contrasta con la altura a la que suele estar, hasta 15 metros sobre el suelo.",
             "location": "Ecohotel El Castillo",
-            "bibliography": "-Dispersión de semillas: Estas aves se alimentan de frutas y semillas, ayudando a la dispersión de plantas en los bosques donde habitan. Al consumir las frutas y excretar las semillas, facilitan la regeneración de la vegetación en áreas deforestadas o degradadas.-Control de la vegetación: Al consumir gran cantidad de semillas y frutos, contribuyen al control del crecimiento de algunas plantas, manteniendo el equilibrio en los ecosistemas donde viven."
+            "bibliography": "-Dispersión de semillas: Estas aves se alimentan de frutas y semillas, ayudando a la dispersión de plantas en los bosques donde habitan. Al consumir las frutas y excretar las semillas, facilitan la regeneración de la vegetación en áreas deforestadas o degradadas.-Control de la vegetación: Al consumir gran cantidad de semillas y frutos, contribuyen al control del crecimiento de algunas plantas, manteniendo el equilibrio en los ecosistemas donde viven.",
+             "birdSound":"audios/gallineceas/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
           }
       },
       {
@@ -1775,7 +1841,9 @@
           "funFact1": "Selección del sitio del Nido, el proceso suele iniciarlo el macho, que se sienta en el nido y emite llamadas para atraer a una pareja. Si el macho muere, es probable que la hembra busque una nueva pareja en otro lugar. El lugar puede ser el antiguo nido de una pareja que ya no está presente.",
           "funFact2": "Los huevos se ponen generalmente después de que el nido está terminado o renovado. El primer huevo se pone a última hora de la tarde, el segundo unas 40 horas después.",
           "location": "Ecoparque Río Pance.",
-          "bibliography": "La paloma bravía (Columba livia), común en áreas urbanas y rurales, tiene efectos ecológicos diversos. En la naturaleza, ayuda a dispersar semillas, contribuyendo a la regeneración vegetal. Sin embargo, en zonas urbanizadas, su gran número puede causar problemas, como la acumulación de excrementos, que deteriora infraestructuras y facilita la propagación de enfermedades. Además, al competir con especies nativas por recursos, puede afectar la biodiversidad local y alterar los ecosistemas urbanos."
+          "bibliography": "La paloma bravía (Columba livia), común en áreas urbanas y rurales, tiene efectos ecológicos diversos. En la naturaleza, ayuda a dispersar semillas, contribuyendo a la regeneración vegetal. Sin embargo, en zonas urbanizadas, su gran número puede causar problemas, como la acumulación de excrementos, que deteriora infraestructuras y facilita la propagación de enfermedades. Además, al competir con especies nativas por recursos, puede afectar la biodiversidad local y alterar los ecosistemas urbanos.",
+           "birdSound":"audios/gallineceas/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
         }
       },
       {
@@ -1825,7 +1893,9 @@
           "funFact1": "Tiene una alta capacidad reproductiva, reproduciéndose varias veces al año y anidando en colonias, lo cual facilita su supervivencia. Esta característica ha hecho que en algunas regiones sea considerada una plaga por los daños a cultivos.",
           "funFact2": "En Chile, esta especie se caza para el consumo.",
           "location": "Ecohotel El Castillo",
-          "bibliography": "Estas aves ayudan a la dispersión de semillas al consumirlas y expulsarlas a través de sus excrementos, lo cual contribuye a la regeneración de plantas y mantiene la biodiversidad del ecosistema. Además, como parte de la red trófica, sirven de alimento para depredadores como halcones y gavilanes, lo que ayuda a mantener el equilibrio ecológico. Su abundancia las convierte en una fuente de alimento confiable en entornos rurales y urbanos."
+          "bibliography": "Estas aves ayudan a la dispersión de semillas al consumirlas y expulsarlas a través de sus excrementos, lo cual contribuye a la regeneración de plantas y mantiene la biodiversidad del ecosistema. Además, como parte de la red trófica, sirven de alimento para depredadores como halcones y gavilanes, lo que ayuda a mantener el equilibrio ecológico. Su abundancia las convierte en una fuente de alimento confiable en entornos rurales y urbanos.",
+           "birdSound":"audios/gallineceas/Suirirí cariblanco",
+            "autorSonido": "Grabador: Alain Malengreau"
         }
       }
     ]
@@ -1885,8 +1955,10 @@
         "funFact1": "Cola en Forma de Raqueta: El momoto andino es famoso por su distintiva cola, que termina en una forma similar a una raqueta. Esta característica se debe a la pérdida intencional de plumas en ciertos segmentos, y se cree que es utilizada en exhibiciones para atraer pareja.",
         "funFact2": "Canto como Forma de Comunicación: Esta ave tiene un canto profundo y resonante que utiliza no solo para comunicarse con otras aves, sino también para marcar su territorio. Su característico sonido es común en los bosques nublados donde habita y ayuda a identificar la presencia de la especie en su entorno.",
         "location": "Ecohotel El Castillo",
-        "bibliography": "Desempeña un papel importante en el ecosistema a través de la dispersión de semillas y la regulación de poblaciones de insectos y pequeños vertebrados. Al alimentarse de frutos, ayuda a dispersar semillas que favorecen la regeneración de la vegetación. Además, contribuye al control de insectos y pequeños animales, lo cual ayuda a mantener el equilibrio en el ecosistema."
-      }
+        "bibliography": "Desempeña un papel importante en el ecosistema a través de la dispersión de semillas y la regulación de poblaciones de insectos y pequeños vertebrados. Al alimentarse de frutos, ayuda a dispersar semillas que favorecen la regeneración de la vegetación. Además, contribuye al control de insectos y pequeños animales, lo cual ayuda a mantener el equilibrio en el ecosistema.",
+        "birdSound":"audios/pico/Momoto",
+            "autorSonido": "Grabador: David Riaño Cortés (Colombia)"
+      } 
     },
     {
       "modelIndex": 1,

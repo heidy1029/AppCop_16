@@ -26,12 +26,18 @@ public class BirdInfoCanvas : MonoBehaviour
 
     private AudioSource audioSource;
     private int currentTriviaId;
-
     private void Start()
+{
+    audioSource = GetComponent<AudioSource>();
+
+    if (audioSource == null)
     {
-        audioSource = GetComponent<AudioSource>();
-        buttonClose.onClick.AddListener(OnBackButtonPressed);
+        Debug.LogWarning("No hay un AudioSource en el GameObject. Agregando un AudioSource automáticamente.");
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
+
+    buttonClose.onClick.AddListener(OnBackButtonPressed);
+}
 
     /// <summary>
     /// Actualiza la información del ave en el canvas y carga el sonido del ave.
@@ -78,11 +84,16 @@ public class BirdInfoCanvas : MonoBehaviour
             Debug.LogWarning($"No se pudo cargar la imagen principal desde la ruta: {mainImagePath}");
         }
 
-        // Cargar y asignar el sonido del ave desde la carpeta de recursos
-        BirdSound = Resources.Load<AudioClip>(birdSoundPath);
+      BirdSound = Resources.Load<AudioClip>(birdSoundPath);
         if (BirdSound == null)
         {
             Debug.LogWarning($"No se pudo cargar el sonido del ave desde la ruta: {birdSoundPath}");
+        }
+        else
+        {
+            // Asignar el AudioClip al AudioSource y reproducir el sonido
+            audioSource.clip = BirdSound;
+            audioSource.Play();  // Reproducir el sonido del ave
         }
 
         ShowCanvas(true);
