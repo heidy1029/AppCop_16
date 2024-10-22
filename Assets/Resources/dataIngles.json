@@ -567,7 +567,7 @@
                 "species": "Eutoxeres aquila",
                 "conservacion": "LC least concern",
                 "description": "It is a medium-sized hummingbird with a unique pattern, many concentrate in flowering trees where they are aggressive and even territorial with each other. Both sexes fly for long periods, hovering and soaring far above streams and clearings, or launching from perches in the treetops; it collects foliage less frequently.",
-                "mainImage": "Images/Interfaz/Cards/flay/white",
+                "mainImage": "Images/Interfaz/Cards/Flay/white",
                 "habitat": "It inhabits humid and tropical mountain forests from Costa Rica to northern Peru, at altitudes ranging from 400 to 1,500 meters above sea level. It prefers shaded and densely vegetated areas, such as the understory of cloud forests and montane forests, where it finds tubular flowers for nectar.",
                 "diet": "It feeds on nectar and small arthropods, visiting flowers from a variety of trees, bromeliads, shrubs, and heliconia.",
                 "reproduction": "The nest is a soft and shallow cup made of light-colored plant fluff and spider webs. The female incubates and lays 2 eggs.",
@@ -619,7 +619,7 @@
                 "species": "Crotophaga ani",
                 "conservacion": "LC least concern",
                 "description": "Distinguished by its all-black plumage, long tail, large beak, and distinctive call. During the breeding season, this ani lives in pairs or, more commonly, in larger groups of up to 17 individuals. It is best known for its communal breeding system, where several females often lay eggs and incubate them in the same nest.",
-                "mainImage": "Images/Interfaz/Cards/flay/ani",
+                "mainImage": "Images/Interfaz/Cards/Flay/ani",
                 "habitat": "Throughout its range, it occupies savannas, rural and suburban areas disturbed by humans, and secondary growth shrubs year-round. It is present near cow pastures, sugar cane fields, secondary moist forests, vegetation-rich fields, and roadsides.",
                 "diet": "They are mainly insectivorous, feeding on grasshoppers, caterpillars, and moths, but also on small frogs and lizards. Fruit is an important part of their diet during the dry season.",
                 "size": "It measures between 30 and 36 cm in length",
@@ -670,7 +670,7 @@
               "birdName": "Greater Ani",
               "species": "Crotophaga major",
               "description": "It stands out for its bluish-black plumage, long tail, and curved beak. It lives in family groups, displaying cooperative social behavior and helping to control insect populations.",
-              "mainImage": "Images/Interfaz/Cards/flay/aniGrande",
+              "mainImage": "Images/Interfaz/Cards/Flay/aniGrande",
               "habitat": "It inhabits swampy areas and open spaces with low vegetation, such as rivers, wetlands, and grasslands, preferring high humidity regions near bodies of water.",
               "diet": "It feeds on insects, small vertebrates like frogs and lizards, and some fruits, searching for its food on the ground or low vegetation.",
               "reproduction": "It practices cooperative breeding, where several adults build communal nests and jointly care for the eggs and young. The nests are large and made of branches in low trees.",
@@ -722,7 +722,7 @@
                 "species": "Amazilia tzacatl",
                 "conservacion":"LC least concern",
                 "description": "It has a generally green body; the male’s throat and chest are a brighter green. It also has a bright pinkish-red bill (with a black tip) and a bright reddish tail.",
-                "mainImage": "Images/Interfaz/Cards/flay/tailed",
+                "mainImage": "Images/Interfaz/Cards/Flay/tailed",
                 "habitat": "This species is common and widespread in non-forest areas, including clearings, gardens, forest edges, and some secondary forests. It prefers low habitats, with shrubs, and often visits feeders located in open areas with some coverage.",
                 "diet": "Rufous-tailed hummingbirds feed on nectar and visit Heliconia, banana, and coffee flowers. Since nectar is low in protein, they also feed on small insects. This species is also a regular visitor to artificial feeders filled with a mixture of water and sugar.",
                 "reproduction": "Nests have been reported in Colombia in February and August. Females usually choose small trees or shrubs as nesting sites, and they usually lay two eggs. The incubation period is 15 to 16 days. The chicks fledge around 18 to 22 days of age, though they do not become independent from their mothers until around day 58. The female takes on all parental care.",
@@ -774,7 +774,7 @@
                 "species": "Ocreatus underwoodii",
                 "conservacion":"LC least concern",
                 "description": "Small hummingbird, generally bright green in males and with white underparts in females. Both sexes have white tufts on their legs (smaller in females) and a forked tail; males have elongated outer tail feathers, ending in bare shafts and racket-like tips.",
-                "mainImage": "Images/Interfaz/Cards/flay/sylph",
+                "mainImage": "Images/Interfaz/Cards/Flay/sylph",
                 "habitat": "Humid forest zone of the subtropical and temperate regions of the Andes. Found both inside forests and in open secondary forests. In Colombia, it is known to be found in both primary and secondary sub-Andean forests (below 2400 m).",
                 "diet": "This species feeds on nectar from flowers visited by insects, mainly large bees, and bee-pollinated flowers, each flower containing a small volume of nectar with relatively high concentration.",
                 "reproduction": "The nest is placed on horizontal tree branches at a height of 6 to 8 meters above the ground. Only the female incubates, and the incubation lasts between 16 and 17 days. The clutch size is 2 eggs.",
@@ -826,7 +826,7 @@
                 "species": "Aglaiocercus kingii",
                 "conservation": "LC least concern",
                 "description": "They are a captivating group of short-billed and long-tailed hummingbirds found in the humid montane forests of the Andes. This species is sexually dimorphic; males have a bright green crown and throat with exceptionally long and dazzling greenish-blue tail feathers. Females have a much shorter tail, a white throat with green spots, and a reddish-beige belly.",
-                "mainImage": "Images/Interface/Cards/FierceFlight/tail",
+                "mainImage": "Images/Interface/Cards/Flay/tail",
                 "habitat": "It is found in a variety of habitats, depending on the location and time of year. It is associated with subtropical and temperate forests, but can also be found at forest edges, semi-open areas of moist forest or regrowth, premontane areas, shrubs, clearings, pastures, gardens, and agricultural areas like coffee plantations, although it is rarely seen inside forests.",
                 "diet": "This shade-loving hummingbird feeds in the understory, hovering over flowers. While acting as a pollinator, it sometimes steals nectar by piercing flowers. At higher altitudes, it feeds in the canopies of small trees and shrubs. It consumes nectar and arthropods.",
                 "reproduction": "In Colombia, reproduction has been documented from February to October, but it is believed the species breeds year-round. The male participates in ritualized nest construction, the female sleeps in the nest every night, and she is the only one who incubates. The incubation period is 15 to 17 days, and they lay 2 eggs.",
@@ -878,7 +878,7 @@
                 "species": "Tapera naevia",
                 "conservation": "LC least concern",
                 "description": "It is a medium-sized brown bird with a long tail and a short, bushy crest. Its ventriloquial call is often heard in grasslands, though it is hard to locate. Both sexes look alike.",
-                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Urutau",
+                "mainImage": "Images/Interfaz/Cartas/Flay/cuckoo",
                 "habitat": "It inhabits open fields with scattered trees, shrubs, wet grasslands, and clearings in wooded areas.",
                 "diet": "It mainly feeds on insects like grasshoppers and beetles, foraging on the ground or low vegetation. It is a solitary, elusive bird, easier to hear than to see.",
                 "size": "It measures between 26.0 - 29.0 cm in length.",
@@ -930,7 +930,7 @@
                 "species": "Piaya cayana",
                 "conservation": "LC least concern",
                 "description": "This bird is seen gliding from tree to tree or hopping from branch to branch in search of arthropods. Its movements resemble those of squirrels before it glides down. Its plumage is reddish-brown above, with a beige throat and chest, and light gray belly. Its long tail is reddish on top and blackish with white tips underneath.",
-                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Cuco",
+                "mainImage": "Images/Interfaz/Cartas/Flay/squirrel",
                 "habitat": "It inhabits humid to semi-humid forests, dry forests, forest edges, secondary forests, scattered trees in open fields, mangroves, flooded forests, advanced secondary growth forests, grasslands with scattered trees, coffee plantations, and near watercourses in dry areas.",
                 "diet": "It primarily feeds on insects like caterpillars, moths, grasshoppers, beetles, wasps, bees, large ants, cicadas, hemipterans, spiders, small lizards, some fruits, and small frogs.",
                 "size": "It measures between 40.0 and 46.0 cm in length.",
@@ -982,7 +982,7 @@
                 "species": "Anthracothorax nigricollis",
                 "conservation": "LC Least Concern",
                 "description": "The Black-throated Mango is a notable hummingbird for its mostly green plumage and characteristic black throat and underparts. Both sexes have slightly curved bills. It is the most common and widely distributed member of its genus.",
-                "mainImage": "Images/Interfaz/Cartas/AvesdeVueloIntenso/Anthracothorax nigricollis",
+                "mainImage": "Images/Interfaz/Cartas/Flay/mango",
                 "habitat": "This species inhabits open vegetation with scattered shrubs and trees, in various humid and dry habitats, including gardens, parks, agricultural plantations, riverbanks, roadsides, and fragmented and degraded landscapes.",
                 "diet": "This hummingbird feeds on nectar from tall trees like eucalyptus and hunts insects in the treetops, including ants, bark lice, and small beetles. It occasionally captures insects lower or on prey-rich surfaces.",
                 "reproduction": "The female builds the nest with seed fluff and spider webs in 4 to 11 days. She lays two eggs 48 hours apart, usually in the morning. Incubation lasts 13 to 18 days.",
@@ -1029,21 +1029,21 @@
                   "correctAnswerIndex": 0
                 }
               ],
-              "birdInfo": {
-                "birdName": "Common nighthawk ",
-                "species": "Chordeiles minor",
-                "conservation": "LC Least Concern",
-                "description": "This species often sleeps on tree branches or on the ground and has experienced a 50% decline in Canada over the last three generations, being classified as threatened. This could be due to predation, pesticide use, and habitat loss.",
-                "mainImage": "Images/Interfaz/Cartas/AvesdeVueloIntenso/Chordeiles minor",
-                "habitat": "It actively pursues flying insects in flight, often catching those attracted to streetlights and other bright lights.",
-                "diet": "This bird feeds on large insects during the night and is seen flying near bright lights in places like supermarkets and ball games. Its flight is distinctive, with V-shaped wings, and it hunts insects at dawn and dusk in urban and rural areas.",
-                "reproduction": "Incubation is generally performed by the female, although sometimes the male participates. She leaves the eggs or chicks unsupervised at night and usually lays two eggs on bare ground, sometimes nesting on gravel roofs.",
-                "size": "It measures between 22 and 24 centimeters in length.",
-                "funFact1": "Long migration: These birds make massive migrations, traveling from North America to South America, covering great distances during the winter.",
-                "funFact2": "Twilight flights: The Chordeiles minor is most active at dawn and dusk, being one of the few birds that hunt insects in flight during those hours.",
-                "location": "Club Campestre Farallones.",
-                "bibliography": "This bird is crucial for controlling populations of flying insects, as it primarily feeds on them during its twilight and nocturnal flights. This helps maintain ecological balance by reducing mosquito and other insect pests, benefiting various species within its environment.",
-                  "birdSound":"audios/vuelo/Chordeiles minor",
+                "birdInfo": {
+                    "birdName": "Mitchell's Hummingbird",
+                    "species": "Calliphlox mitchellii",
+                    "conservation": "LC least concern",
+                    "description": "This species often sleeps on tree branches or on the ground and has experienced a 50% decline in Canada over the last three generations, being classified as threatened. This could be due to predation, pesticide use, and habitat loss.",
+                    "mainImage": "Images/Interfaz/Cartas/Flay/Mitchell",
+                    "habitat": "This species actively pursues flying insects in mid-air, often catching those attracted to streetlights and other bright lights.",
+                    "diet": "This bird feeds on large insects at night and is often seen flying near bright lights in places like supermarkets and ballgames. Its flight is distinctive, with V-shaped wings, and it hunts insects at dawn and dusk in both urban and rural areas.",
+                    "reproduction": "Incubation is generally done by the female, although the male sometimes participates. She leaves the eggs or chicks unsupervised at night and usually lays two eggs on bare ground, sometimes nesting on gravel roofs.",
+                    "size": "It measures between 22 and 24 centimeters in length.",
+                    "funFact1": "Mitchell's hummingbirds are extremely agile, capable of hovering and performing acrobatic flights that allow them to feed on flowers with precision.",
+                    "funFact2": "They have a high metabolic rate, which forces them to consume large amounts of nectar to maintain their energy during their fast flights.",
+                    "location": "Club Campestre Farallones.",
+                    "bibliography": "This hummingbird plays an important role in the pollination of many plant species, contributing to the biodiversity of tropical forest ecosystems. By moving quickly between flowers, it promotes cross-pollination and maintains the balance of its habitat.",
+                  "birdSound":"audios/vuelo/Mitchell",
             "autorSonido": "Grabador: Manuel Oudard"
               }
             } 
@@ -1318,59 +1318,7 @@
                   }
                 },
                 {
-                  "modelIndex": 8,
-                  "questions": [
-                    {
-                      "questionText": "What is the main food source of the Black Vulture?",
-                      "answers": [
-                        "A) Insects and small rodents",
-                        "B) Fruits and seeds",
-                        "C) Carrion, mostly large mammals",
-                        "D) Fish and seafood"
-                      ],
-                      "correctAnswerIndex": 2
-                    },
-                    {
-                      "questionText": "Where do Black Vultures usually nest?",
-                      "answers": [
-                        "A) High up in trees",
-                        "B) In crevices between rocks or hollow trunks",
-                        "C) In floating nests on lakes",
-                        "D) Underground in burrows"
-                      ],
-                      "correctAnswerIndex": 1
-                    },
-                    {
-                      "questionText": "What ecological role does the Black Vulture fulfill?",
-                      "answers": [
-                        "A) Disperses seeds to help regenerate forests",
-                        "B) Controls populations of rodents and snakes",
-                        "C) Helps clean the ecosystem by consuming dead animals",
-                        "D) Contributes to pest control in urban areas"
-                      ],
-                      "correctAnswerIndex": 2
-                    }
-                  ],
-                  "birdInfo": {
-                    "birdName": "Cinereous Vulture",
-                    "species": "Aegypius monachus",
-                    "conservation": "LC least concern",
-                    "description": "The pair is monogamous and maintains a long-term pair bond. They closely associate throughout the year and can feed their young up to eight months after fledging.",
-                    "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
-                    "habitat": "It is mainly found in open or semi-open habitats with abundant carrion to feed on, such as farms, savannas, grasslands, clearings, mangroves, and villages. It is associated with human settlements and feeds on streets, landfills, and around slaughterhouses.",
-                    "diet": "Primarily relies on carrion, mostly large mammals, but is opportunistic and easily scavenges trash, scraps, and other discarded edible waste. Occasionally consumes live prey. Food sources can be found in markets, slaughterhouses, fish-dumping areas, and garbage dumps.",
-                    "reproduction": "Typically nests in dark cavities or under some form of cover. Caves, hollow trunks, stumps, tree trunks, crevices between rocks, brush piles, shrubs, abandoned buildings, and sites next to or under trees and logs are all used. Almost always 2 eggs.",
-                    "size": "Measures between 60 and 68 cm in length.",
-                    "funFact1": "Instead of building a nest, the female lays her eggs on the bare ground of a cave, hollow tree, abandoned building, or other dark corner.",
-                    "funFact2": "There has been concern about the species' threat to aircraft, as well as its impact on personal property, public infrastructure, and especially agriculture, through the alleged predation of livestock.",
-                    "location": "Ecohotel El Castillo",
-                    "bibliography": "It has an important ecological impact as a scavenger, helping to clean the ecosystem by consuming dead animals. This prevents the spread of diseases and maintains balance in decomposition cycles. However, in some urbanized areas, its presence can increase due to the availability of garbage, which may create imbalances by competing with other scavengers and altering the natural dynamics of ecosystems.",
-                    "birdSound":"audios/rapaces/Buitre negro",
-                    "autorSonido": "Grabador: Brice de la Croix (French Guiana)"
-                  }
-                },
-                {
-                  "modelIndex": 6,
+                  "modelIndex": 5,
                   "questions": [
                     {
                       "questionText": "How does the adaptation of Cathartiformes to their habitat affect their social behavior?",
@@ -1408,7 +1356,7 @@
                     "species": "Rostrhamus sociabilis",
                     "conservation": "LC least concern",
                     "description": "Both sexes show notable plumage dimorphism, though females are slightly larger than males. They have a narrow and sharply curved downward beak, with a concave culmen and sharp tip. It is a medium-sized bird of prey.",
-                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/Vulture",
+                    "mainImage": "Images/Interface/Cards/rapaz/snail",
                     "habitat": "They are found in open freshwater wetlands, such as lake edges and marshes. They are often seen along roads and irrigation channels of rice paddies, where fences offer perches.",
                     "diet": "It is a carnivorous bird that mainly feeds on aquatic snails, turtles, and small mammals. It searches for food in water patches and dives to catch snails with its feet, without getting its belly wet, at a depth of up to 16 cm.",
                     "reproduction": "Nest building takes 4 to 18 days, though it can be prolonged if interrupted. Egg-laying is infrequent and usually consists of 2-3 whitish eggs with brown spots.",
@@ -1422,7 +1370,7 @@
                   }
                 },        
                 {
-                  "modelIndex": 7,
+                  "modelIndex": 6,
                   "questions": [
                     {
                       "questionText": "How is the vision of Falconiformes compared to humans?",
@@ -1460,7 +1408,7 @@
                     "species": "caraca cheriway",
                     "conservation": "LC least concern",
                     "description": "This medium-sized bird of prey, with black and white plumage and yellow legs and face, is easily identifiable when perched in high places. It is distinguished by its low flight and powerful wingbeats. Females are slightly larger, with a long tail and extended neck. Although it rarely soars, thermal currents can quickly lift it.",
-                    "mainImage": "Images/Interface/Cards/Birds_of_Prey/crested",
+                    "mainImage": "Images/Interface/Cards/rapaz/crested",
                     "habitat": "It inhabits a variety of open and semi-open areas below 3,000 meters in altitude, such as grasslands, savannas, pampas, and riverbanks. It prefers areas with scattered trees, posts, and fences for perching, especially near nesting sites. It avoids places with tall or dense vegetation that hinders takeoff from the ground.",
                     "diet": "It feeds on insects, small vertebrates, eggs, and carrion, especially in winter. It hunts in open habitats such as grasslands, deserts, and human areas like agricultural fields and landfills. It searches for prey by walking, from perches, in low flight, or wading in shallow water.",
                     "reproduction": "The Crested Caracara is the only member of Falconidae that builds its own nest, reusing or renovating previous structures. It nests in tall vegetation or similar structures offering a wide view. Both sexes participate in the construction, which lasts 2 to 4 weeks. They lay between 1 and 4 eggs, and both incubate for 32 to 33 days.",
@@ -1474,7 +1422,7 @@
                   }
                 },
                 {
-                  "modelIndex": 8,
+                  "modelIndex": 7,
                   "questions": [
                     {
                       "questionText": "What type of vision do raptors of the Accipitriformes order have?",
@@ -1512,7 +1460,7 @@
                     "species": "Buteo platypterus",
                     "conservation": "LC Least Concern",
                     "description": "It is characterized by its broad and short wings, adapted for flying in forests, and its massive migration in large groups.",
-                    "mainImage": "Images/Interfaz/Cartas/Rapaces/Buteo platypterus",
+                    "mainImage": "Images/Interfaz/Cards/rapaz/broad",
                     "habitat": "Found in urban and suburban parks and gardens. It winters in older secondary forests and Amazonian forests.",
                     "diet": "It mainly feeds on small mammals, birds, insects, and reptiles. Two essential characteristics are its ability to migrate long distances and its sharp vision for hunting.",
                     "reproduction": "Pairs build the nest, with the female doing most of the work. Nests are often located on old nests from other species. The female performs most of the incubation, while the male provides food. Clutches usually consist of 3 or 4 eggs.",
@@ -1526,7 +1474,7 @@
                   }
                 },
                 {
-                  "modelIndex": 9,
+                  "modelIndex": 8,
                   "questions": [
                     {
                       "questionText": "Aside from hunting, what other food source do many Accipitriformes species rely on?",
@@ -1626,7 +1574,7 @@
                         "species": "Columbina talpacoti",
                         "conservation": "LC least concern",
                         "description": "The Common Ground Dove is a small dove, slightly larger than a sparrow. Males are distinguished by their bright reddish plumage. Females are paler, tending more towards brownish than reddish tones, with black spots on their wings. All Columbidae pigeons temporarily store food in their crop. The grit in their gizzard is then used to grind the food later.",
-                        "mainImage": "Images/Interface/Cards/Galliformes/torcacita",
+                        "mainImage": "Images/Interface/Cards/Galliformes/Torcacita",
                         "habitat": "They are found in open, bare, and wet habitats such as wetlands, cleared areas, cultivated fields, gardens, riparian zones, and even suburban backyards, avoiding dense wooded areas.",
                         "diet": "They primarily feed on seeds between 2 and 15 mm in length. Although it is a seed-eating species, it occasionally consumes snails and insects. They gather food by pecking seeds from the ground and swallowing them. They feed in small groups of up to 20 individuals.",
                         "reproduction": "They build a nest of twigs in the treetops, where they lay two white eggs and can produce up to four broods a year.",
@@ -1678,7 +1626,7 @@
                         "species": "Ortalis columbiana",
                         "conservation": "LC least concern",
                         "description": "The Colombian Chachalaca, endemic to Colombia as its name suggests, can be easily identified. All species have long tails.",
-                        "mainImage": "Images/Interface/Cards/Galliformes/colobian",
+                        "mainImage": "Images/Interface/Cards/Galliformes/colombian",
                         "habitat": "It is found in humid forests, forest edges, and shrubland. The species is frequently observed at forest edges, gallery forests near crops, and pastures.",
                         "diet": "The Colombian Chachalaca's diet is primarily frugivorous and folivorous. In a suburban forest in Valle del Cauca, its diet consists of 26 plant species, including fruits (77.2%), leaves (16.2%), and flowers (3.6%). Additionally, it occasionally consumes other elements like soil, dead leaves, and stones (3%).",
                         "reproduction": "It is presumed to nest in a burrow in a ravine, often located in mature forests, sometimes near streams, or in landslide areas or road cuts. They lay 2 white eggs.",
@@ -1730,7 +1678,7 @@
                         "species": "Chamaepetes goudoti",
                         "conservation": "LC least concern",
                         "description": "This small-sized guan has distinctive plumage. Its body combines a bright chestnut belly, dark upper parts, brown neck and head, along with pale blue facial skin and red eyes. It is a stealthy and discreet species, tending to hide quickly when disturbed, and is generally silent, which helps it go unnoticed.",
-                        "mainImage": "Images/Interface/Cards/Gallineceas/SingingGuan",
+                        "mainImage": "Images/Interface/Cards/Gallineceas/guan",
                         "habitat": "It mainly inhabits subtropical humid forests but is also found in low temperate areas, secondary forests, and coffee plantations, sometimes near roads.",
                         "diet": "Its diet is primarily based on fruits, supplemented with seeds, flowers, leaves, and invertebrates. It feeds at dawn or dusk, lives in pairs or small groups, and is shy, spending most of its time in trees. It is rarely found on the ground.",
                         "reproduction": "The female lays 2 to 3 eggs and incubates them without the help of the male. They build long, shallow nests in trees or epiphytic plants, using leaves and vines. They make neck movements to adjust the nest, possibly to roll the eggs and clean the nest.",
@@ -1782,7 +1730,7 @@
                         "species": "Patagioenas cayennensis",
                         "conservation": "LC least concern",
                         "description": "This is a medium-sized bird, with violet-brown plumage with pale gray areas, a green shine on the neck, a black beak, and red legs. It gathers in large numbers when food is abundant.",
-                        "mainImage": "Images/Interface/Cards/Gallineceas/PurplePigeon",
+                        "mainImage": "Images/Interface/Cards/Gallineceas/pale",
                         "habitat": "It inhabits forest edges, deforested areas, lake margins, rivers, and mangrove swamps. It prefers areas with abundant vegetation and is usually found high in trees, descending to the ground only to drink.",
                         "diet": "The white-bellied pigeon is frugivorous, feeding on small black berries, but also consumes sand, grass seeds, and other seeds. It is often found perched on fruit-bearing trees.",
                         "reproduction": "Their nests are small and fragile, made of twigs and located in trees or vines at several meters high, up to 15 meters. They lay a single white egg per clutch.",
@@ -1795,58 +1743,9 @@
             "autorSonido": " Grabador: Jayrson Araujo de Oliveira (Brazil)"
                       }
                     },
+            
                     {
                       "modelIndex": 4,
-                      "questions": [
-                        {
-                          "questionText": "What type of body do Galliform birds have?",
-                          "answers": [
-                            "A) Slim body and long wings",
-                            "B) Small and lightweight body",
-                            "C) Sturdy body and strong legs",
-                            "D) Graceful and light, perfect for gliding long distances"
-                          ],
-                          "correctAnswerIndex": 2
-                        },
-                        {
-                          "questionText": "What type of areas do Galliform species adapted to agricultural life prefer?",
-                          "answers": [
-                            "A) Agricultural areas with abundant food",
-                            "B) Urban areas",
-                            "C) Desert regions",
-                            "D) Mountain areas with steep slopes"
-                          ],
-                          "correctAnswerIndex": 0
-                        },
-                        {
-                          "questionText": "What ecological function do Galliform birds serve in their natural habitat?",
-                          "answers": [
-                            "A) Help to eliminate weeds only",
-                            "B) Only serve as prey for other predators",
-                            "C) Contribute to pollination and seed dispersal",
-                            "D) Contribute to the formation of aquatic habitats"
-                          ],
-                          "correctAnswerIndex": 2
-                        }
-                      ],
-                      "birdInfo": {
-                        "birdName": "Scaled curassow",
-                        "species": "Chamaepetes goudotii",
-                        "conservation": "LC Least Concern",
-                        "description": "It is a stealthy and discreet species, quickly hiding when disturbed, and generally silent, making it easy to go unnoticed.",
-                        "mainImage": "Images/Interface/Cards/Galliformes/Chamaepetes goudotii",
-                        "habitat": "It mainly inhabits subtropical humid forests but can also be found in low temperate areas, secondary forests, and coffee plantations, sometimes near roads.",
-                        "diet": "Its diet is primarily based on fruits, complemented with seeds, flowers, leaves, and invertebrates.",
-                        "reproduction": "The female lays 2 to 3 eggs and incubates them without help from the male. They build elongated and shallow nests in trees or epiphytic plants using leaves and vines.",
-                        "size": "It measures between 50 and 65 centimeters in length.",
-                        "funFact1": "This bird is very elusive and difficult to observe, as it spends most of its time hidden among the dense canopy vegetation of the forests.",
-                        "funFact2": "This bird performs a curious head and neck movement in its nest, believed to help roll the eggs and strengthen the nest structure.",
-                        "location": "Cali Botanical Garden.",
-                        "bibliography": "This species disperses seeds by feeding on fruits, helping to regenerate forests and maintain biodiversity. By consuming invertebrates, it also contributes to insect population control in its ecosystem."
-                      }
-                    },
-                    {
-                      "modelIndex": 5,
                       "questions": [
                         {
                           "questionText": "What unique characteristic of Columbiform birds allows them to feed their young?",
@@ -1884,7 +1783,7 @@
                         "species": "Columba livia",
                         "conservation": "LC Least Concern",
                         "description": "Rock pigeons are common in urban, suburban, and agricultural areas. Medium-sized, with a dark gray beak, they feed on corn or barley and drink by suction, using their beak like a straw, retracting their tongue to allow water into their mouth.",
-                        "mainImage": "Images/Interface/Cards/Galliformes/Columba livia",
+                        "mainImage": "Images/Interface/Cards/Galliformes/Rock",
                         "habitat": "These birds nest in cracks and caves on rocky cliffs, whether by the sea or in inland highlands. Some populations have invaded abandoned buildings, especially near shrubland or agricultural areas.",
                         "diet": "These birds feed primarily in the morning or late afternoon in open fields, pecking at seeds and fruits, and rarely invertebrates. In the presence of humans, they consume bread, popcorn, peanuts, and vegetable scraps, in addition to capturing larvae and slugs.",
                         "reproduction": "Both sexes incubate, the male from mid-morning to late afternoon, the female from late afternoon to mid-morning, with both spending roughly the same amount of daylight hours on the nest.",
@@ -1892,12 +1791,13 @@
                         "funFact1": "Nest site selection is usually initiated by the male, who sits on the nest and calls to attract a mate. If the male dies, the female is likely to seek a new mate elsewhere. The site may be the former nest of a no longer present pair.",
                         "funFact2": "Eggs are usually laid after the nest is finished or renovated. The first egg is laid in the late afternoon, and the second about 40 hours later.",
                         "location": "Pance River Ecopark.",
-                        "bibliography": "The rock pigeon (Columba livia), common in urban and rural areas, has diverse ecological effects. In the wild, it helps disperse seeds, contributing to plant regeneration. However, in urbanized areas, their large numbers can cause problems such as the accumulation of droppings, which deteriorates infrastructure and facilitates the spread of diseases. Additionally, by competing with native species for resources, it can affect local biodiversity and alter urban ecosystems.","birdSound":"audios/gallineceas/Paloma bravía",
-            "autorSonido": "Grabador: Uku Paal (Estonia)"
+                        "bibliography": "The rock pigeon (Columba livia), common in urban and rural areas, has diverse ecological effects. In the wild, it helps disperse seeds, contributing to plant regeneration. However, in urbanized areas, their large numbers can cause problems such as the accumulation of droppings, which deteriorates infrastructure and facilitates the spread of diseases. Additionally, by competing with native species for resources, it can affect local biodiversity and alter urban ecosystems.",
+                        "birdSound":"audios/gallineceas/Paloma bravía",
+                         "autorSonido": "Grabador: Uku Paal (Estonia)"
                       }
                     },
                     {
-                      "modelIndex": 6,
+                      "modelIndex": 5,
                       "questions": [
                         {
                           "questionText": "What is the primary food source for Columbiform birds?",
@@ -1935,7 +1835,7 @@
                         "species": "Zenaida auriculata",
                         "conservation": "LC Least Concern",
                         "description": "It has been observed that these birds return to traditional roosting sites even after the trees have been cut down, where they may rest on the ground or in low bushes.",
-                        "mainImage": "Images/Interface/Cards/Galliformes/Zenaida auriculata",
+                        "mainImage": "Images/Interface/Cards/Galliformes/dove",
                         "habitat": "It inhabits arid to semi-arid shrublands, sometimes with scattered trees or irregular forests; it generally avoids tropical forests and is commonly seen in some large cities.",
                         "diet": "It feeds on corn, wheat, rice, and soybeans, with only a small proportion of its diet consisting of wild plant seeds.",
                         "reproduction": "It builds a small stick nest in a mangrove or small tree, or on the ground; it has even been found nesting on the roof beam of an abandoned farmhouse. The clutch size is usually two eggs.",
@@ -2308,7 +2208,7 @@
               "species": "Amazona ochrocephala",
               "conservation": "LC Least Concern",
               "description": "Its name comes from the yellow on its forehead, characteristic of the superspecies group. It is a year-round resident in its range, although some birds may move due to food shortages, forming occasional flocks.",
-              "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Amazona ochrocephala",
+              "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/loro",
               "habitat": "It inhabits deciduous tropical forests, thorny scrublands, humid gallery forests, flooded areas, mangroves, pine savannas, and cultivated lands with groves, mainly in the lowlands of Venezuela and Colombia.",
               "diet": "It feeds on fruits, seeds, and flowers of trees such as Pithecellobium, Acacia, and Ficus, as well as crops like corn, bananas, and guavas. It is usually seen in pairs or small flocks of up to 30 birds, though they can form flocks of up to 300 individuals.",
               "reproduction": "2-4 eggs laid at 1-5 day intervals (usually two days); incubation 22-28 (average 25) days by the female alone, starting with the first egg.",
@@ -2360,7 +2260,7 @@
               "species": "Melanerpes rubricapillus",
               "conservation": "LC Least Concern",
               "description": "It may benefit from forest clearing; its population tends to increase in areas where clearing and logging create more open forests. It is considered a local nuisance in plantations and gardens due to its fruit-eating habits.",
-              "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Melanerpes rubricapillus",
+              "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/RED",
               "habitat": "These birds reside in both arid and humid habitats, such as coastal scrublands, dry forests, and urban areas. They prefer higher levels in wooded areas and lower levels in open spaces.",
               "diet": "Its diet consists of ants, beetles, larvae, orthopterans, spiders, and fruits such as papayas and bananas. They forage individually or in pairs at all levels of the forest.",
               "reproduction": "Nests in cacti, fence posts, and trees, being a solitary and territorial breeder. The clutch consists of 3-4 eggs, incubated by both sexes. Usually, 2 chicks are raised, which are fed and cared for by both parents for about 1 month.",
@@ -3064,7 +2964,7 @@
                         "species": "Nyctibius griseus",
                         "conservation": "LC least concern",
                         "description": "It is a large nocturnal bird with big yellow eyes. It often perches on branches, fence posts, or exposed limbs where its cryptic coloration helps it avoid detection. It is more frequently identified by its eerie, descending call and is typically solitary.",
-                        "mainImage": "Images/Interface/Cards/FierceFlight/POTOO",
+                        "mainImage": "Images/Interface/Cards/Flay/POTOO",
                         "habitat": "They inhabit the rainforests of the Neotropics, living in forest edges, humid and very humid areas, and also open areas near water bodies, plantations with scattered trees, forest edges, gallery forests, and mangroves.",
                         "diet": "They feed at night by perching on exposed branches and catching flying insects. They remain upright, watching attentively with frequent head movements until they spot a large insect. The insects are caught mid-air and then the bird often returns to the same perch.",
                         "size": "It measures between 33 and 38 cm in length.",

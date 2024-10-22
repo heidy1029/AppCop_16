@@ -835,7 +835,7 @@
         "location": "Bosque de Niebla Km. 18",
         "bibliography": "El colibrí Aglaiocercus kingii, es vital para la polinización de diversas plantas en los bosques andinos. Al alimentarse de néctar, facilita la transferencia de polen entre flores, promoviendo la reproducción vegetal y contribuyendo a la biodiversidad del ecosistema",
         "birdSound":"audios/vuelo/Silfo",
-            "autorSonido": " Grabador: John V. Moore - Ecuador"
+        "autorSonido": " Grabador: John V. Moore - Ecuador"
       }
     },
         {
@@ -981,7 +981,7 @@
             "species": "Anthracothorax nigricollis",
             "conservacion":"LC preocupación menor",
             "description": "El mango de garganta negra es un colibrí notable por su plumaje mayormente verde y su característica garganta y partes inferiores negras. Ambos sexos tienen picos ligeramente curvados. Es el miembro más común y uno de los colibríes con mayor distribución en su género.",
-            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Anthracothorax nigricollis",
+            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/",
             "habitat": "Esta especie habita en vegetación abierta con arbustos y árboles dispersos, en diversos hábitats húmedos y secos, incluyendo jardines, parques, plantaciones agrícolas, bordes de ríos y caminos, así como paisajes fragmentados y degradados.",
             "diet": "Este colibrí se alimenta de néctar de árboles altos como el eucalipto y caza insectos en lo alto de las copas, incluyendo hormigas, piojos de corteza y pequeños escarabajos. Ocasionalmente captura insectos más abajo o en superficies ricas en presas.",
             "reproduction": "La hembra construye el nido con pelusa de semillas y telarañas en 4 a 11 días. Pone dos huevos con 48 horas de diferencia, generalmente por la mañana. La incubación dura de 13 a 18 días.",
@@ -990,7 +990,7 @@
             "funFact2": "Vuelos migratorios: Aunque no todas las poblaciones migran, algunos colibríes de esta especie realizan movimientos estacionales en busca de alimento.",
             "location": "Ecohotel El Castillo.",
             "bibliography": "El colibrí Anthracothorax nigricollis, juega un papel importante en la polinización de plantas, ayudando a la reproducción de diversas especies vegetales. Además, al consumir pequeños insectos, contribuye al control de sus poblaciones.",
-            "birdSound":"audios/vuelo/Mango",
+            "birdSound":"audios/vuelo/mango",
             "autorSonido": " Grabador: Luiz C. Silva (Brazil)"
           }
         },
@@ -1028,22 +1028,22 @@
               "correctAnswerIndex": 0
             }
           ],
-          "birdInfo": {
-            "birdName": "Chotacabras zumbón",
-            "species": "Chordeiles minor",
-            "conservacion":"LC preocupación menor",
-            "description": "Esta especie a menudo duerme en ramas de árboles o en el suelo y ha experimentado una disminución del 50% en Canadá en las últimas tres generaciones, catalogándose como amenazada. Esto podría deberse a la depredación, uso de pesticidas y pérdida de hábitat.",
-            "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Chordeiles minor",
-            "habitat": "Se trata de una especie que persigue activamente a los insectos voladores en pleno vuelo, a menudo atrapando a aquellos que se sienten atraídos por las farolas y otras luces brillantes.",
-            "diet": "Esta ave se alimenta de grandes insectos durante la noche y se observa volando cerca de luces brillantes en lugares como supermercados y juegos de pelota. Su vuelo es distintivo, con alas en forma de V, y caza insectos al amanecer y al anochecer en áreas urbanas y rurales.",
-            "reproduction": "La incubación es generalmente realizada por la hembra, aunque a veces el macho participa. Ella deja los huevos o crías sin supervisión por la noche y suele poner dos huevos en el suelo desnudo, a veces anidando en tejados de grava.",
-            "size": "mide entre 22 y 24 centímetros de longitud.",
-            "funFact1": "Migración larga: Estas aves realizan migraciones masivas, viajando desde América del Norte hasta Sudamérica, cubriendo grandes distancias durante el invierno.",
-            "funFact2": "Vuelos al atardecer: El Chordeiles minor es más activo al amanecer y al atardecer, siendo uno de los pocos pájaros que cazan insectos en pleno vuelo durante esas horas.",
-            "location": "Club Campestre Farallones.",
-            "bibliography": "Esta ave es crucial para el control de poblaciones de insectos voladores, ya que se alimenta principalmente de ellos durante sus vuelos crepusculares y nocturnos. Esto ayuda a mantener el equilibrio ecológico al reducir plagas de mosquitos y otros insectos, lo que beneficia a diversas especies dentro de su entorno.",
-            "birdSound":"audios/vuelo/Chordeiles minor",
-            "autorSonido": "Grabador: Manuel Oudard"
+            "birdInfo": {
+                "birdName": "Colibrí de Mitchell",
+                "species": "Calliphlox mitchellii",
+                "conservacion": "LC preocupación menor",
+                "description": "Esta especie a menudo duerme en ramas de árboles o en el suelo y ha experimentado una disminución del 50% en Canadá en las últimas tres generaciones, catalogándose como amenazada. Esto podría deberse a la depredación, uso de pesticidas y pérdida de hábitat.",
+                "mainImage": "Images/Interfaz/Cartas/VueloIntenso/Mitchell",
+                "habitat": "Se trata de una especie que persigue activamente a los insectos voladores en pleno vuelo, a menudo atrapando a aquellos que se sienten atraídos por las farolas y otras luces brillantes.",
+                "diet": "Esta ave se alimenta de grandes insectos durante la noche y se observa volando cerca de luces brillantes en lugares como supermercados y juegos de pelota. Su vuelo es distintivo, con alas en forma de V, y caza insectos al amanecer y al anochecer en áreas urbanas y rurales.",
+                "reproduction": "La incubación es generalmente realizada por la hembra, aunque a veces el macho participa. Ella deja los huevos o crías sin supervisión por la noche y suele poner dos huevos en el suelo desnudo, a veces anidando en tejados de grava.",
+                "size": "Mide entre 22 y 24 centímetros de longitud.",
+                "funFact1": "Los colibríes de Mitchell son extremadamente ágiles, capaces de realizar vuelos estacionarios y acrobáticos que les permiten alimentarse de flores con precisión.",
+                "funFact2": "Tienen una alta tasa metabólica, lo que les obliga a consumir grandes cantidades de néctar para mantener su energía durante sus vuelos rápidos.",
+                "location": "Club Campestre Farallones.",
+                "bibliography": "Este colibrí desempeña un papel importante en la polinización de muchas especies de plantas, contribuyendo a la biodiversidad de los ecosistemas de bosques tropicales. Al moverse rápidamente entre flores, promueve la reproducción cruzada y mantiene el equilibrio de su hábitat.",
+            "birdSound":"audios/vuelo/Mitchell",
+            "autorSonido": "Grabador: Nick Athanas - Ecuador"
           }
         }
       ]
@@ -1319,58 +1319,6 @@
         {
           "modelIndex": 5,
           "questions": [
-            {
-              "questionText": "¿Cuál es el principal alimento del Buitre Negro?",
-              "answers": [
-                "A) Insectos y pequeños roedores",
-                "B) Frutas y semillas",
-                "C) Carroña, en su mayoría de mamíferos grandes",
-                "D) Pescados y mariscos"
-              ],
-              "correctAnswerIndex": 2
-            },
-            {
-              "questionText": "¿Dónde suelen anidar los Buitres Negros?",
-              "answers": [
-                "A) En lo alto de los árboles",
-                "B) En grietas entre rocas o troncos huecos",
-                "C) En nidos flotantes en lagos",
-                "D) Bajo tierra en madrigueras"
-              ],
-              "correctAnswerIndex": 1
-            },
-            {
-              "questionText": "¿Qué función ecológica cumple el Buitre Negro?",
-              "answers": [
-                "A) Dispersa semillas para la regeneración de bosques",
-                "B) Controla poblaciones de roedores y serpientes",
-                "C) Ayuda a limpiar el ecosistema al consumir animales muertos",
-                "D) Contribuye al control de plagas en áreas urbanas"
-              ],
-              "correctAnswerIndex": 2
-            }
-          ],
-          "birdInfo": {
-            "birdName": "Buitre negro",
-            "species": "Aegypius monachus",
-            "conservacion": "LC preocupación menor",
-            "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
-            "mainImage": "Images/Interfaz/Cartas/Rapaces/Buitre",
-            "habitat": "Se presenta principalmente en hábitats abiertos o semiabiertos con abundante carroña para alimentarse como granjas, sabanas, pastizales, claros, manglares y pueblos. Asociada con las viviendas humanas y se alimenta en las calles, en los basureros y alrededor de los mataderos.",
-            "diet": "Depende principalmente de carroña, en su mayoría mamíferos grandes, pero es oportunista y busca con facilidad basura, despojos y otros desechos comestibles desechados. Ocasionalmente consume presas vivas, los alimentos se pueden conseguir en mercados, mataderos y zonas de descarga de pescado, vertederos de basura.",
-            "reproduction": "Anida típicamente en huecos oscuros o bajo algún tipo de cubierta. Cuevas, troncos huecos, tocones y troncos de árboles, grietas entre rocas, montones de maleza, matorrales, edificios abandonados y sitios al lado o debajo de árboles y troncos son todos utilizados. Casi siempre 2 huevos.",
-            "size": "Mide entre 60 y 68 cm de longitud.",
-            "funFact1": "En lugar de construir un nido, la hembra pone sus huevos en el suelo desnudo de una cueva, un árbol hueco, un edificio abandonado u otro rincón oscuro.",
-            "funFact2": "Se ha expresado preocupación por la amenaza que la especie representa para las aeronaves, así como por los impactos de la especie en la propiedad personal, la infraestructura pública y, especialmente, la agricultura, a través de la supuesta depredación del ganado.",
-            "location": "Ecohotel El Castillo",
-            "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas.",
-            "birdSound":"audios/rapaces/Buitre negro",
-            "autorSonido": "Grabador: Brice de la Croix (French Guiana)"
-          }
-        },
-        {
-          "modelIndex": 6,
-          "questions": [
             {"questionText": "¿Cómo afecta la adaptación de los Cathartiformes a su hábitat a su comportamiento social?",
               "answers": [
                 "A) Les impide formar grupos.",
@@ -1420,7 +1368,7 @@
           }
         },
         {
-          "modelIndex": 7,
+          "modelIndex": 6,
           "questions": [
             {"questionText": "¿Cómo es la visión de los Falconiformes en comparación con los humanos? ",
               "answers": [
@@ -1471,7 +1419,7 @@
           }
         },
         {
-          "modelIndex": 8,
+          "modelIndex": 7,
           "questions": [
             {
               "questionText": "¿Qué tipo de visión tienen las aves rapaces de la orden Accipitriformes?",
@@ -1523,7 +1471,7 @@
           }
         },
         {
-          "modelIndex": 9,
+          "modelIndex": 8,
           "questions": [
             {
               "questionText": "¿Además de cazar, de qué otra fuente se alimentan muchas especies de Accipitriformes?",
@@ -1833,7 +1781,7 @@
           "species": "Columba livia",
           "conservacion":"LC preocupación menor",
           "description": "Las palomas bravías son comunes en áreas urbanas, suburbanas y agrícolas, de tamaño mediano, pico gris oscuro; se alimentan de maíz o cebada y beben por succión usando su pico como una pajita, retrayendo la lengua para permitir que el agua ingrese a su boca.",
-          "mainImage": "Images/Interfaz/Cartas/Gallinaceas/Columba livia",
+          "mainImage": "Images/Interfaz/Cartas/Gallinaceas/comun",
           "habitat": "Estas aves anidan en grietas y cuevas de acantilados rocosos, ya sea junto al mar o en tierras altas interiores. Algunas poblaciones han invadido edificios en ruinas, especialmente cerca de vegetación de matorral o áreas agrícolas.",
           "diet": "Estas aves se alimentan principalmente por la mañana o a media tarde en terrenos abiertos, picoteando semillas y frutos, y raramente invertebrados. En presencia de humanos, consumen pan, palomitas de maíz, cacahuetes y restos vegetales, además de capturar larvas y babosas.",
           "reproduction": "Ambos sexos incuban, el macho desde media mañana hasta la tarde, la hembra desde la tarde hasta media mañana, y ambos pasan aproximadamente la misma cantidad de tiempo de luz diurna en el nido.",
@@ -1885,7 +1833,7 @@
           "species": "Zenaida auriculata",
           "conservacion":"LC preocupación menor",
           "description": "Se ha visto que las aves regresan a los sitios de descanso tradicionales incluso después de que se hayan talado los árboles, cuando pueden descansar en el suelo o en arbustos bajos.",
-          "mainImage": "Images/Interfaz/Cartas/Gallinaceas/Zenaida Auriculata",
+          "mainImage": "Images/Interfaz/Cartas/Gallinaceas/Zenaida",
          "habitat": "Habita en matorrales áridos a semiáridos, a veces con árboles dispersos o bosques irregulares; generalmente evita el bosque tropical, común verlas en algunas ciudades grandes.",
           "diet": "Se alimenta de maíz, trigo, arroz y soja, sólo una pequeña proporción de la dieta comprende semillas de plantas silvestres.",
           "reproduction": "Construye un pequeño nido de palos en un manglar o en un árbol pequeño, o en el suelo; incluso se ha encontrado anidando en la viga del techo de una casa de campo abandonada. El tamaño de la nidada es generalmente de dos huevos.",
@@ -2256,11 +2204,11 @@
         }
       ],
       "birdInfo": {
-        "birdName": "Amazona real",
+        "birdName": "loro cabeciamarilla",
         "species": "Amazona ochrocephala",
         "conservacion":"LC preocupación menor",
         "description": "Su nombre proviene del amarillo en la frente, característico del grupo de superespecies. Es residente todo el año en su área de distribución, aunque algunas aves pueden desplazarse por escasez de alimentos, formando bandadas ocasionales.",
-        "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/Amazona ochrocephala",
+        "mainImage": "Images/Interfaz/Cartas/AvesdePicoFuerte/loro",
         "habitat": "Habita en bosques tropicales caducifolios, matorrales espinosos, bosques de galería húmedos, áreas inundadas, manglares, sabanas de pino y tierras cultivadas con arboledas, principalmente en tierras bajas de Venezuela y Colombia.",
         "diet": "Se alimenta de frutos, semillas y flores de árboles como Pithecellobium, Acacia y Ficus, así como de cultivos como maíz, plátanos y guayabas. Generalmente se observa en parejas o pequeñas bandadas de hasta 30 aves, aunque pueden formar bandadas de hasta 300 individuos.",
         "reproduction": "Huevos 2-4, puestos en intervalos de 1-5 días (generalmente dos días); incubación 22-28 (media 25) días, por la hembra sola y comenzando con el primer huevo;",
