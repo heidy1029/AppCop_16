@@ -50,7 +50,9 @@
             "funFact1": "The white-faced whistling duck forms noisy flocks, known for their repetitive and loud calls.",
             "funFact2": "Despite being an aquatic species, they are excellent flyers and often travel long distances in search of new bodies of water.",
             "location": "Lago de Las Garzas Ecopark, Universidad del Valle, Farallones Country Club",
-            "bibliography": "Dendrocygna viduata (white-faced whistling duck) plays a key role in aquatic ecosystems by contributing to seed dispersal, controlling aquatic vegetation, and regulating invertebrates. It is also part of the food chain, acting as prey for predators and serving as an indicator of wetland health; its stable presence suggests a healthy environment, while its decline may indicate environmental issues."
+            "bibliography": "Dendrocygna viduata (white-faced whistling duck) plays a key role in aquatic ecosystems by contributing to seed dispersal, controlling aquatic vegetation, and regulating invertebrates. It is also part of the food chain, acting as prey for predators and serving as an indicator of wetland health; its stable presence suggests a healthy environment, while its decline may indicate environmental issues.",
+                 "autorsonido": "Grabador: Fernando Igor de Godoy",
+            "audioSuarce":"audios/acuatica/Suirirí cariblanco"
           }
         },
           {
@@ -99,7 +101,9 @@
               "funFact1": "The whistling duck is known for its whistling call, which it emits even during flight.",
               "funFact2": "They nest in tree cavities, adapting to a wide range of habitats.",
               "location": "Ecoparque Río Pance, Country Club, Farallones Country Club, Lago de Las Garzas Ecopark, Parque de La Babilla, Río Lilí-Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Multicentro Park – Sirirí Route, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
-              "bibliography": "This duck is essential for maintaining wetlands, aiding in the dispersal of aquatic plants and regulating aquatic ecosystems."
+              "bibliography": "This duck is essential for maintaining wetlands, aiding in the dispersal of aquatic plants and regulating aquatic ecosystems.",
+              "birdSound":"audios/acuatica/Suirirí piquirrojo",
+            "autorSonido": "Grabador: Jerome Fischer – Colombia"
             }
           },
           {
@@ -148,7 +152,9 @@
               "funFact1": "It lives in mountain rivers with strong currents, making it highly specialized.",
               "funFact2": "Its ability to dive and swim against fast waters allows it to survive in a habitat that few other animals can inhabit.",
               "location": "Laguna de Sonso, Buga",
-              "bibliography": "Merganetta armata impacts the ecosystem as a bioindicator of mountain river health, signaling clean and well-preserved waters. It also controls aquatic invertebrate populations by feeding on insects and larvae, helping to maintain balance in food chains. Its presence promotes the protection of riverine habitats, contributing to biodiversity conservation in high mountain ecosystems."
+              "bibliography": "Merganetta armata impacts the ecosystem as a bioindicator of mountain river health, signaling clean and well-preserved waters. It also controls aquatic invertebrate populations by feeding on insects and larvae, helping to maintain balance in food chains. Its presence promotes the protection of riverine habitats, contributing to biodiversity conservation in high mountain ecosystems.",
+              "birdSound":"audios/acuatica/Pato torrentero",
+            "autorSonido": "Grabador: Hans Matheve "
             }
           },
           {
@@ -197,7 +203,9 @@
               "funFact1": "The Southern Lapwing is known for pretending to be injured to lure predators away from its nest, a very effective distraction strategy.",
               "funFact2": "In addition to its defensive behaviors, the Southern Lapwing uses its loud voice to mark its territory, alerting other birds and animals over a wide range.",
               "location": "El Pondaje and Charco Azul Wetland, located within the city, in areas with aquatic vegetation. Lago Calima or in more rural and natural areas near rivers like the Cauca River or Hacienda El Paraíso. Laguna de Sonso, Buga.",
-              "bibliography": "The Southern Lapwing plays an important role in the ecosystem as a biological controller. Due to its territorial behavior, it acts as a protector of its environment, alerting other animals with its call to the presence of predators or intruders."
+              "bibliography": "The Southern Lapwing plays an important role in the ecosystem as a biological controller. Due to its territorial behavior, it acts as a protector of its environment, alerting other animals with its call to the presence of predators or intruders.",
+              "birdSound":"audios/acuatica/Avefría tero",
+            "autorSonido": "Grabador: Jayrson Araujo de Oliveira (Brazil)"
             }
           },
           {
@@ -247,7 +255,9 @@
               "funFact1": "Plumage variety: This species shows considerable variation in its plumage color, depending on the region they are in, from bluish to gray or even green tones, allowing them to blend better into their surroundings.",
               "funFact2": "Bait fishing: The Striated Heron is one of the few birds known to use lures to catch prey. It can drop small objects, like twigs or dead insects, onto the water's surface to attract fish and catch them.",
               "location": "Ecoparque Río Pance",
-              "bibliography": "Butorides striata plays a crucial role in controlling populations of small fish and aquatic insects, helping maintain ecological balance and promoting biodiversity in its habitat. Additionally, as part of the food chain, it serves as prey for larger predators such as reptiles and raptors."
+              "bibliography": "Butorides striata plays a crucial role in controlling populations of small fish and aquatic insects, helping maintain ecological balance and promoting biodiversity in its habitat. Additionally, as part of the food chain, it serves as prey for larger predators such as reptiles and raptors.",
+              "birdSound":"audios/acuatica/Garcita verdosa",
+            "autorSonido": ". Grabador: Jayrson Araujo de Oliveira (Brazil) "
             }
           },
           {
@@ -297,7 +307,9 @@
               "funFact1": "Its beak allows it to search for food in mud and wet areas, where other birds cannot feed. The shape of the beak helps it find food hidden beneath the surface.",
               "funFact2": "The presence of Bare-faced Ibis in an ecosystem indicates good health, as it requires clean water and vegetation to thrive.",
               "location": "Wetlands like Charco Azul and Pance",
-              "bibliography": "Its role as a scavenger helps clean the environment by consuming animals or invertebrates in the final stages of decomposition. This behavior is essential for maintaining balance in ecosystems."
+              "bibliography": "Its role as a scavenger helps clean the environment by consuming animals or invertebrates in the final stages of decomposition. This behavior is essential for maintaining balance in ecosystems.",
+              "birdSound":"audios/acuatica/Ibis afeitado",
+            "autorSonido": "Grabador: Jayrson Araujo de Oliveira (Brazil)"
             }
           },
           {
@@ -347,7 +359,9 @@
                 "funFact1": "It spends a lot of time in terrestrial areas and is commonly seen perched on large animals, such as cows and buffaloes, from which it obtains food.",
                 "funFact2": "It is a highly adaptable species and has experienced rapid global expansion, colonizing new continents in less than 100 years, such as the Americas and Oceania.",
                 "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
-                "bibliography": "By feeding on insects and parasites found on large mammals, it helps reduce populations of these organisms in agricultural and livestock ecosystems. Additionally, it acts as a seed disperser as it moves through different areas."
+                "bibliography": "By feeding on insects and parasites found on large mammals, it helps reduce populations of these organisms in agricultural and livestock ecosystems. Additionally, it acts as a seed disperser as it moves through different areas.",
+                      "birdSound":"audios/acuatica/Garcilla bueyera",
+            "autorSonido": ". Grabador: Stanislas Wroza - France"
             }
         },
         {
@@ -397,7 +411,9 @@
                 "funFact1": "Diving birds: Cormorants lack efficient uropygial glands, so their feathers are not waterproof, allowing them to dive more easily. However, after swimming, they must dry their wings in the sun to prevent cooling.",
                 "funFact2": "Used in fishing: Historically, in some Asian cultures, cormorants were trained to fish with a ring around their neck that prevented them from swallowing the fish, allowing fishermen to collect the catch.",
                 "location": "Ecoparque Río Pance",
-                "bibliography": "The biguá plays a key role in controlling fish populations, helping to maintain balance in aquatic ecosystems. Additionally, its presence indicates good habitat quality, as it requires healthy bodies of water to survive."
+                "bibliography": "The biguá plays a key role in controlling fish populations, helping to maintain balance in aquatic ecosystems. Additionally, its presence indicates good habitat quality, as it requires healthy bodies of water to survive.",
+               "birdSound":"audios/acuatica/Cormoran bigua",
+            "autorSonido": "Grabador: Paul Marvin - United States"
             }
         },
         {
@@ -446,7 +462,9 @@
                 "funFact1": "They emit a characteristic whistling sound, from which their name 'whistling duck' derives.",
                 "funFact2": "They are highly gregarious birds and form large flocks during migration.",
                 "location": "Humedal del Lago de las Garzas",
-                "bibliography": "The presence of the Fulvous Whistling Duck in wetlands is an indicator of good water quality and ecosystem health. Their role in seed dispersion and control of aquatic vegetation is essential for maintaining the balance of these ecosystems."
+                "bibliography": "The presence of the Fulvous Whistling Duck in wetlands is an indicator of good water quality and ecosystem health. Their role in seed dispersion and control of aquatic vegetation is essential for maintaining the balance of these ecosystems.",
+                "birdSound":"audios/acuatica/Suirirí bicolor",
+            "autorSonido": "Grabador: Nature sounds by Simply Birding – South África"
             }
         },
         {
@@ -495,7 +513,9 @@
             "funFact1": "Unique horns: This horn is unique to birds and is not connected to the skull, making it flexible. It gives the bird an unmistakable appearance.",
             "funFact2": "Spiny wings: These sharp spines are located on the wing joint and can be used for defense against predators or in territorial fights, providing them with a natural weapon.",
             "location": "El Pondaje and Charco Azul wetlands, located within the city, where there are areas with aquatic vegetation. Calima Lake or more rural and natural areas near rivers such as the Cauca River or Hacienda El Paraíso. Sonso Lagoon, Buga. Confirmed.",
-            "bibliography": "This scavenger bird helps maintain environmental balance by cleaning the surroundings of dead animals, reducing the spread of diseases. By feeding on organic waste, it contributes to the natural decomposition of matter and promotes nutrient recycling in the soil, favoring the health of swamp and wetland ecosystems."
+            "bibliography": "This scavenger bird helps maintain environmental balance by cleaning the surroundings of dead animals, reducing the spread of diseases. By feeding on organic waste, it contributes to the natural decomposition of matter and promotes nutrient recycling in the soil, favoring the health of swamp and wetland ecosystems.",
+             "birdSound":"audios/acuatica/Chajá añuma",
+            "autorSonido": "Grabador: Mauricio Cuéllar Ramírez - Colombia"
           }
         }
       ]
@@ -555,7 +575,9 @@
                 "funFact1": "Notable sexual dimorphism: Males have bright black plumage, while females have duller colors, which helps with camouflage.",
                 "funFact2": "Acrobatic flight: They are capable of performing fast flights and acrobatic maneuvers, allowing them to defend their territory and easily escape predators.",
                 "location": "Buenaventura",
-                "bibliography": "The hummingbird Florisuga mellivora is an important pollinator of tropical plants. By feeding on nectar, it transports pollen between flowers, promoting their reproduction and maintaining plant diversity in its habitat. It also helps control populations of small insects, which are part of its diet."
+                "bibliography": "The hummingbird Florisuga mellivora is an important pollinator of tropical plants. By feeding on nectar, it transports pollen between flowers, promoting their reproduction and maintaining plant diversity in its habitat. It also helps control populations of small insects, which are part of its diet.",
+                "birdSound":"audios/vuelo/nuquiblanco",
+            "autorSonido": "Grabador: Peter Boesman - Colombia"
               }
             },
             {
@@ -605,7 +627,9 @@
                 "funFact1": "Groups can identify two nesting sites and spend time at each, suggesting difficulty choosing; they may work on two nests simultaneously before deciding on the final one.",
                 "funFact2": "Individuals in a group demonstrate a strong degree of collaboration and mutual assistance during nesting and hunting.",
                 "location": "Rural areas near the city.",
-                "bibliography": "The communal breeding behavior of the ani bird (Crotophaga ani) is unique among birds, as it shows social cooperation in raising chicks. This species often forms large groups of up to 17 individuals who share the responsibility of incubating eggs and feeding the chicks. This behavior enhances the chicks' survival by providing additional protection and food during critical development periods."
+                "bibliography": "The communal breeding behavior of the ani bird (Crotophaga ani) is unique among birds, as it shows social cooperation in raising chicks. This species often forms large groups of up to 17 individuals who share the responsibility of incubating eggs and feeding the chicks. This behavior enhances the chicks' survival by providing additional protection and food during critical development periods.",
+                 "birdSound":"audios/vuelo/Garrapatero aní",
+            "autorSonido": "Grabador: Fernando Igor de Godoy - Brazil"
               }
             },
             {
@@ -654,7 +678,9 @@
               "funFact1": "It has a unique social structure, living in family groups and practicing communal breeding, where several adults care for the young of the entire group.",
               "funFact2": "Its name 'ani' comes from the characteristic sound of its call, a repetitive and rough song it emits while moving through its habitat or communicating with its group.",
               "location": "Ecoparque Río Pance, Club Campestre, Club Campestre Farallones, Ecoparque Lago de Las Garzas, Parque de La Babilla, Río Lilí – Ciudad Jardín, Universidad Javeriana Cali, Club Cañasgordas, Parque Multicentro-Ruta del Sirirí, Universidad del Valle, Vegas de Comfandi, Ecoparque Los Pizamos",
-              "bibliography": "Insect control: By feeding on a wide variety of insects, such as grasshoppers and crickets, it helps keep invertebrate populations in check, which is key for ecosystem balance. Seed dispersal: Although its diet is mainly insectivorous, it also consumes fruits, contributing to seed dispersal and aiding in plant regeneration in its habitat."
+              "bibliography": "Insect control: By feeding on a wide variety of insects, such as grasshoppers and crickets, it helps keep invertebrate populations in check, which is key for ecosystem balance. Seed dispersal: Although its diet is mainly insectivorous, it also consumes fruits, contributing to seed dispersal and aiding in plant regeneration in its habitat.",
+              "birdSound":"audios/vuelo/Garrapatero mayor",
+            "autorSonido": "Grabador: Ricardo José Mitidieri - Brazil"
             }
             },
             {
@@ -704,7 +730,9 @@
                 "funFact1": "Territorial aggression: Although small, the Amazilia tzacatl is highly territorial and vigorously defends its nectar source from other hummingbirds and even larger birds.",
                 "funFact2": "Ability to fly in all directions: Like other hummingbirds, this species can fly forward, backward, up, down, and even hover in place, thanks to the rapid speed of its wings.",
                 "location": "Ecohotel El Castillo",
-                "bibliography": "The Amazilia tzacatl hummingbird plays a key role in pollinating numerous plants. By feeding on flower nectar, it facilitates plant reproduction, contributing to the balance and plant diversity in its environment. It also consumes small insects, helping to control their populations. Its presence benefits both flora and other species that depend on pollinated plants."
+                "bibliography": "The Amazilia tzacatl hummingbird plays a key role in pollinating numerous plants. By feeding on flower nectar, it facilitates plant reproduction, contributing to the balance and plant diversity in its environment. It also consumes small insects, helping to control their populations. Its presence benefits both flora and other species that depend on pollinated plants.",
+                "birdSound":"audios/vuelo/Amazilia tzacatl",
+            "autorSonido": "Grabador: Peter Boesman – Costa Rica"
               }
             },
             {
@@ -754,7 +782,9 @@
                 "funFact1": "Elaborate tail feathers: The male Booted Racket-tail is easily recognizable by its long outer tail feathers, with unique racket-shaped tips.",
                 "funFact2": "Aggressive toward other hummingbirds: Despite its size, this species is known for being highly aggressive when defending its feeding areas.",
                 "location": "Farallones de Cali, Rio Pance Eco-Park",
-                "bibliography": "This hummingbird is an important pollinator of numerous plant species, facilitating the reproduction of plants that rely on animal pollination. By feeding on nectar and visiting a wide variety of flowers, it ensures the continuity of these plants, which are crucial to the biodiversity of the Andean ecosystem."
+                "bibliography": "This hummingbird is an important pollinator of numerous plant species, facilitating the reproduction of plants that rely on animal pollination. By feeding on nectar and visiting a wide variety of flowers, it ensures the continuity of these plants, which are crucial to the biodiversity of the Andean ecosystem.",
+                "birdSound":"audios/vuelo/raquetas",
+            "autorSonido": " Grabador: Mitch Lysinger - Ecuador"
               }
             },
             {
@@ -804,7 +834,9 @@
                 "funFact1": "Long and striking tail: Males have an extremely long tail, nearly twice their body size, used in courtship displays.",
                 "funFact2": "Feeds in flight: Like other hummingbirds, it mainly feeds while flying, allowing access to flowers inaccessible to other species.",
                 "location": "Ecohotel El Castillo",
-                "bibliography": "The hummingbird Aglaiocercus kingii is vital for the pollination of various plants in the Andean forests. By feeding on nectar, it facilitates pollen transfer between flowers, promoting plant reproduction and contributing to the ecosystem's biodiversity."
+                "bibliography": "The hummingbird Aglaiocercus kingii is vital for the pollination of various plants in the Andean forests. By feeding on nectar, it facilitates pollen transfer between flowers, promoting plant reproduction and contributing to the ecosystem's biodiversity.",
+                "birdSound":"audios/vuelo/Silfo",
+            "autorSonido": " Grabador: John V. Moore - Ecuador"
               }
             },
             {
@@ -854,7 +886,9 @@
                 "funFact1": "The young cuckoo kills its nestmates shortly after hatching with its hooked beak and is raised alone in the host's nest. It leaves the nest when it is 16 to 18 days old.",
                 "funFact2": "The ventriloquial call of Tapera naevia is very distinctive and can easily confuse people, making it hard to locate the bird as it usually sings from hidden spots in the vegetation.",
                 "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
-                "bibliography": "Tapera naevia helps control insect populations by feeding primarily on them, contributing to ecological balance. It also aids in seed dispersal and vegetation regeneration by consuming fruits."
+                "bibliography": "Tapera naevia helps control insect populations by feeding primarily on them, contributing to ecological balance. It also aids in seed dispersal and vegetation regeneration by consuming fruits.",
+                "birdSound":"audios/acuatica/Cuclillo",
+            "autorSonido": " Grabador: Victor Antonelli"
               }
             },
             {
@@ -904,7 +938,9 @@
                 "funFact1": "Parents maintain a fairly clean nest by removing feces and bringing fresh leaves.",
                 "funFact2": "Squirrel Cuckoos are almost always solitary or in pairs. They may follow mixed-species flocks but often forage away from them.",
                 "location": "Ecoparque Lago de Las Garzas, Universidad del Valle, Club Campestre Farallones",
-                "bibliography": "Piaya cayana, or the common cuckoo, has important ecological effects, such as controlling insect populations by feeding on arthropods. Its presence indicates the health of the ecosystem, as it is sensitive to changes in food availability. It also influences food chain dynamics and contributes to seed dispersal by occasionally consuming fruits, aiding in vegetation regeneration."
+                "bibliography": "Piaya cayana, or the common cuckoo, has important ecological effects, such as controlling insect populations by feeding on arthropods. Its presence indicates the health of the ecosystem, as it is sensitive to changes in food availability. It also influences food chain dynamics and contributes to seed dispersal by occasionally consuming fruits, aiding in vegetation regeneration.",
+                "birdSound":"audios/vuelo/Cuco ardilla",
+            "autorSonido": " Grabador: Guillermo Treboux - Argentina"
               }
             },            
             {
@@ -954,7 +990,9 @@
                 "funFact1": "Sexual dimorphism: Males have dark, iridescent plumage, while females are duller and less brightly colored.",
                 "funFact2": "Migratory flights: Although not all populations migrate, some individuals of this species make seasonal movements in search of food.",
                 "location": "Ecohotel El Castillo.",
-                "bibliography": "The hummingbird Anthracothorax nigricollis plays an important role in plant pollination, helping with the reproduction of various plant species. Additionally, by consuming small insects, it contributes to controlling their populations."
+                "bibliography": "The hummingbird Anthracothorax nigricollis plays an important role in plant pollination, helping with the reproduction of various plant species. Additionally, by consuming small insects, it contributes to controlling their populations.",
+                "birdSound":"audios/vuelo/Mango",
+            "autorSonido": " Grabador: Luiz C. Silva (Brazil)"
               }
             },
             {
@@ -1004,7 +1042,9 @@
                 "funFact1": "Long migration: These birds make massive migrations, traveling from North America to South America, covering great distances during the winter.",
                 "funFact2": "Twilight flights: The Chordeiles minor is most active at dawn and dusk, being one of the few birds that hunt insects in flight during those hours.",
                 "location": "Club Campestre Farallones.",
-                "bibliography": "This bird is crucial for controlling populations of flying insects, as it primarily feeds on them during its twilight and nocturnal flights. This helps maintain ecological balance by reducing mosquito and other insect pests, benefiting various species within its environment."
+                "bibliography": "This bird is crucial for controlling populations of flying insects, as it primarily feeds on them during its twilight and nocturnal flights. This helps maintain ecological balance by reducing mosquito and other insect pests, benefiting various species within its environment.",
+                  "birdSound":"audios/vuelo/Chordeiles minor",
+            "autorSonido": "Grabador: Manuel Oudard"
               }
             } 
           ]
@@ -1064,7 +1104,9 @@
                     "funFact1": "Although it is a bird of prey, the Yellow-headed Caracara is often seen walking on the ground searching for food, which is unusual for birds of this type.",
                     "funFact2": "This species has proven to be highly adaptable to urban environments, taking advantage of human resources, such as food waste, allowing it to thrive in populated areas.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "The Daptrius chimachima plays an important role as a scavenger, helping to clean the environment by feeding on dead animals and as a pest controller, as it consumes insects and small vertebrates. This bird helps maintain ecological balance by regulating prey populations and preventing the spread of disease through the elimination of carcasses."
+                    "bibliography": "The Daptrius chimachima plays an important role as a scavenger, helping to clean the environment by feeding on dead animals and as a pest controller, as it consumes insects and small vertebrates. This bird helps maintain ecological balance by regulating prey populations and preventing the spread of disease through the elimination of carcasses.",
+                    "birdSound":"audios/rapaces/chimachima",
+            "autorSonido": " Grabador: Jerome Fischer (Colombia)"
                   }
                 },
                 {
@@ -1114,7 +1156,9 @@
                     "funFact1": "It is one of the few falcons that hunts both solo and in pairs, increasing its efficiency in catching prey.",
                     "funFact2": "Aplomado falcon pairs pass food to each other in mid-air. Sometimes the male passes food to the female easily; other times, he holds onto the food too long, and the female drags him in the air until he lets go.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "The Aplomado Falcon (Falco femoralis) plays an important role in its ecosystem as a population controller of small mammals, birds, and insects. As a top predator, it maintains the balance of the most abundant prey species and helps regulate food chains in grasslands and wooded areas where it lives. This reduces the overpopulation of certain species and contributes to the health of the ecosystem."
+                    "bibliography": "The Aplomado Falcon (Falco femoralis) plays an important role in its ecosystem as a population controller of small mammals, birds, and insects. As a top predator, it maintains the balance of the most abundant prey species and helps regulate food chains in grasslands and wooded areas where it lives. This reduces the overpopulation of certain species and contributes to the health of the ecosystem.",
+                    "birdSound":"audios/rapaces/Halcón aleto",
+            "autorSonido": " Grabador: Jayrson Araujo de Oliveira (Brazil)"
                   }
                 },
                 {
@@ -1164,7 +1208,9 @@
                     "funFact1": "Although it is small, the American Kestrel can carry prey weighing up to its own body weight.",
                     "funFact2": "It is one of the few birds of prey that can hover in place while searching for prey, a behavior known as 'hover-hunting.'",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "The American Kestrel (Falco sparverius) is an important predator that helps control insect and small mammal populations. In particular, they help control agricultural pests, benefiting farmers by reducing the need for pesticides."
+                    "bibliography": "The American Kestrel (Falco sparverius) is an important predator that helps control insect and small mammal populations. In particular, they help control agricultural pests, benefiting farmers by reducing the need for pesticides.",
+                    "birdSound":"audios/rapaces/Cernícalo",
+            "autorSonido": " Grabador: Phil Brown – United States"
                   }
                 },
                 {
@@ -1214,7 +1260,9 @@
                     "funFact1": "It is a very adaptable species, which has allowed it to thrive in urban and rural areas, taking advantage of both natural prey and those associated with human activity.",
                     "funFact2": "Unlike many raptors that rely on aerial hunting, the Roadside Hawk frequently hunts on the ground, chasing its prey on foot.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "This hawk plays a crucial role in controlling populations of small vertebrates and invertebrates. As a top predator, it helps maintain ecological balance by controlling rodents, lizards, and insects. Its presence in agricultural areas also makes it an ally for farmers, as it reduces rodent pests."
+                    "bibliography": "This hawk plays a crucial role in controlling populations of small vertebrates and invertebrates. As a top predator, it helps maintain ecological balance by controlling rodents, lizards, and insects. Its presence in agricultural areas also makes it an ally for farmers, as it reduces rodent pests.",
+                    "birdSound":"audios/rapaces/Busardo caminero",
+            "autorSonido": "Grabador: Antonio Xeira - Panamá"
                   }
                 },
                 {
@@ -1264,7 +1312,9 @@
                     "funFact1": "The long-winged eagle is known for its impressive flying abilities, which allow it to soar at great heights and cover extensive areas in search of prey.",
                     "funFact2": "It is often seen perched on high points, such as trees or rocks, from where it has a panoramic view of its surroundings, making it easier to locate its prey.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "Geranoaetus albicaudatus, known as the white-tailed hawk, plays a crucial role in its ecosystem as a top predator. Its presence helps regulate populations of small mammals, birds, and reptiles, maintaining ecological balance. By hunting prey, it also contributes to nutrient dispersal through its droppings, promoting soil fertility."
+                    "bibliography": "Geranoaetus albicaudatus, known as the white-tailed hawk, plays a crucial role in its ecosystem as a top predator. Its presence helps regulate populations of small mammals, birds, and reptiles, maintaining ecological balance. By hunting prey, it also contributes to nutrient dispersal through its droppings, promoting soil fertility.",
+                     "birdSound":"audios/rapaces/Busardo coliblanco",
+            "autorSonido": " Grabador: Juan Mazar Barnett (Bolivia)"
                   }
                 },
                 {
@@ -1314,7 +1364,9 @@
                     "funFact1": "Instead of building a nest, the female lays her eggs on the bare ground of a cave, hollow tree, abandoned building, or other dark corner.",
                     "funFact2": "There has been concern about the species' threat to aircraft, as well as its impact on personal property, public infrastructure, and especially agriculture, through the alleged predation of livestock.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "It has an important ecological impact as a scavenger, helping to clean the ecosystem by consuming dead animals. This prevents the spread of diseases and maintains balance in decomposition cycles. However, in some urbanized areas, its presence can increase due to the availability of garbage, which may create imbalances by competing with other scavengers and altering the natural dynamics of ecosystems."
+                    "bibliography": "It has an important ecological impact as a scavenger, helping to clean the ecosystem by consuming dead animals. This prevents the spread of diseases and maintains balance in decomposition cycles. However, in some urbanized areas, its presence can increase due to the availability of garbage, which may create imbalances by competing with other scavengers and altering the natural dynamics of ecosystems.",
+                    "birdSound":"audios/rapaces/Buitre negro",
+                    "autorSonido": "Grabador: Brice de la Croix (French Guiana)"
                   }
                 },
                 {
@@ -1364,7 +1416,9 @@
                     "funFact1": "Males are responsible for most of the nest building as part of courtship, selecting the site, which is usually located over water to deter predators.",
                     "funFact2": "Snail Kites often defecate after each meal, lowering their head and lifting their body and tail to a horizontal or slightly higher plane to do so.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "Rostrhamus sociabilis, commonly known as the Snail Kite, has several important ecological effects on its ecosystem: Control of snail populations: By primarily feeding on freshwater snails, the Snail Kite helps regulate their populations, contributing to the ecological balance of its aquatic habitat. This control of invertebrates is essential for maintaining the health of wetland ecosystems. Interaction with other organisms: As a predator, the Snail Kite plays a crucial role in the food chain. Its presence can influence the dynamics of other species, both as prey for birds of prey and other predators, and by controlling the populations of its prey. Ecosystem health indicator: The abundance and distribution of the Snail Kite can be indicators of the health of wetlands and freshwater bodies, as their well-being depends on a healthy aquatic ecosystem. Seed dispersal: Although its diet is predominantly carnivorous, the Snail Kite can also contribute to seed dispersal if it occasionally consumes fruits, promoting vegetation regeneration and diversity in its environment."
+                    "bibliography": "Rostrhamus sociabilis, commonly known as the Snail Kite, has several important ecological effects on its ecosystem: Control of snail populations: By primarily feeding on freshwater snails, the Snail Kite helps regulate their populations, contributing to the ecological balance of its aquatic habitat. This control of invertebrates is essential for maintaining the health of wetland ecosystems. Interaction with other organisms: As a predator, the Snail Kite plays a crucial role in the food chain. Its presence can influence the dynamics of other species, both as prey for birds of prey and other predators, and by controlling the populations of its prey. Ecosystem health indicator: The abundance and distribution of the Snail Kite can be indicators of the health of wetlands and freshwater bodies, as their well-being depends on a healthy aquatic ecosystem. Seed dispersal: Although its diet is predominantly carnivorous, the Snail Kite can also contribute to seed dispersal if it occasionally consumes fruits, promoting vegetation regeneration and diversity in its environment.",
+                    "birdSound":"audios/rapaces/Caracolero",
+            "autorSonido": "Grabador: Niels Krabbe (Ecuador)"
                   }
                 },        
                 {
@@ -1414,7 +1468,9 @@
                     "funFact1": "Adult pairs are generally monogamous and highly territorial, showing strong site fidelity.",
                     "funFact2": "Caracaras use their beak to collect nesting material. They pull stems and vines while walking through grasslands, along fences, and ditches.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "-Population control: By feeding on a wide variety of animals, such as insects, small vertebrates, and carrion, it contributes to the control of these populations, maintaining ecological balance. Its role as a scavenger also helps remove dead animals, preventing the spread of diseases. -Nutrient recycling: By consuming carrion, the Crested Caracara contributes to nutrient recycling, speeding up the decomposition process and promoting ecosystem health. -Food chain interaction: As both a predator and scavenger, it influences the dynamics of other species by controlling prey populations and competing for carrion with other scavengers, like vultures."
+                    "bibliography": "-Population control: By feeding on a wide variety of animals, such as insects, small vertebrates, and carrion, it contributes to the control of these populations, maintaining ecological balance. Its role as a scavenger also helps remove dead animals, preventing the spread of diseases. -Nutrient recycling: By consuming carrion, the Crested Caracara contributes to nutrient recycling, speeding up the decomposition process and promoting ecosystem health. -Food chain interaction: As both a predator and scavenger, it influences the dynamics of other species by controlling prey populations and competing for carrion with other scavengers, like vultures.",
+                    "birdSound":"audios/gallineceas/Carancho meridional",
+            "autorSonido": "Grabador: Peter Boesman (Colombia)"
                   }
                 },
                 {
@@ -1464,7 +1520,9 @@
                     "funFact1": "The male may be able to complete incubation if the female dies.",
                     "funFact2": "The male only visits the nest after transferring food to the female outside of the nest.",
                     "location": "Ecoparque Río Pance.",
-                    "bibliography": "The Buteo platypterus plays a key role in ecological balance. It controls populations of small mammals, birds, reptiles, and insects, regulating the food chain. Additionally, it contributes to soil fertility through nutrient dispersal via its droppings. Its role as a top predator maintains stability in the ecosystems it inhabits."
+                    "bibliography": "The Buteo platypterus plays a key role in ecological balance. It controls populations of small mammals, birds, reptiles, and insects, regulating the food chain. Additionally, it contributes to soil fertility through nutrient dispersal via its droppings. Its role as a top predator maintains stability in the ecosystems it inhabits.",
+                    "birdSound":"audios/rapaces/Busardo",
+            "autorSonido": "Grabador: Ross Gallardy (Colombia)"
                   }
                 },
                 {
@@ -1514,7 +1572,9 @@
                     "funFact1": "Instead of building a nest, the female lays her eggs on the bare ground in a cave, a hollow tree, an abandoned building, or another dark corner.",
                     "funFact2": "There are concerns about the species' threat to aircraft, as well as its impact on personal property, public infrastructure, and particularly agriculture through alleged predation on livestock.",
                     "location": "Ecohotel El Castillo",
-                    "bibliography": "It has a significant ecological impact as a scavenger, helping to clean the ecosystem by consuming dead animals. This prevents the spread of diseases and maintains balance in decomposition cycles. However, in some urbanized areas, its presence may increase due to the availability of garbage, which could cause imbalances by competing with other scavengers and disrupting the natural dynamics of ecosystems."
+                    "bibliography": "It has a significant ecological impact as a scavenger, helping to clean the ecosystem by consuming dead animals. This prevents the spread of diseases and maintains balance in decomposition cycles. However, in some urbanized areas, its presence may increase due to the availability of garbage, which could cause imbalances by competing with other scavengers and disrupting the natural dynamics of ecosystems.",
+                     "birdSound":"audios/rapaces/Zopilote",
+            "autorSonido": "Grabador: Brice de la Croix (French Guiana)"
                   }
                 } 
               ]
@@ -1574,7 +1634,9 @@
                         "funFact1": "Territorial Behavior: Columbina talpacoti is known to be quite territorial, especially during the breeding season. Males actively defend their area, even against other doves, to secure their mate and resources.",
                         "funFact2": "Urban Adaptability: This species easily adapts to urban and suburban environments, being commonly seen in gardens, parks, and green areas. Its ability to live near humans has made it one of the most frequently seen birds in Latin American cities.",
                         "location": "Ecohotel El Castillo",
-                        "bibliography": "Columbina talpacoti significantly contributes to the ecosystem through seed dispersal. By feeding on small seeds and fruits, it helps regenerate vegetation in its habitat, which is crucial for maintaining biodiversity. It is also part of the food chain, serving as prey for predators like hawks and snakes, helping to maintain balance in the food web."
+                        "bibliography": "Columbina talpacoti significantly contributes to the ecosystem through seed dispersal. By feeding on small seeds and fruits, it helps regenerate vegetation in its habitat, which is crucial for maintaining biodiversity. It is also part of the food chain, serving as prey for predators like hawks and snakes, helping to maintain balance in the food web.",
+                        "birdSound":"audios/gallineceas/Columbina",
+            "autorSonido": " Grabador: Paula Caycedo"
                       }
                     },
                     {
@@ -1624,7 +1686,9 @@
                         "funFact1": "Although capable of flying, the Colombian Chachalaca prefers to move by hopping and running along branches and the ground, allowing it to navigate efficiently in its environment.",
                         "funFact2": "The Colombian Chachalaca is social and is often seen in groups of up to 20 individuals. It is also known for its loud and raucous vocalization, especially during the morning and evening, helping with communication and territory defense.",
                         "location": "Ecohotel El Castillo",
-                        "bibliography": "The Colombian Chachalaca plays an important role in its ecosystem as a seed disperser. By feeding on fruits and berries, it helps spread seeds, aiding the regeneration and maintenance of vegetation in the forests and semi-open areas it inhabits. It also serves as prey for various predators, integrating into the food chain and contributing to ecological balance."
+                        "bibliography": "The Colombian Chachalaca plays an important role in its ecosystem as a seed disperser. By feeding on fruits and berries, it helps spread seeds, aiding the regeneration and maintenance of vegetation in the forests and semi-open areas it inhabits. It also serves as prey for various predators, integrating into the food chain and contributing to ecological balance.",
+                        "birdSound":"audios/gallineceas/Chachalaca",
+            "autorSonido": " Grabador: Peter Boesman (Colombia)"
                       }
                     },
                     {
@@ -1674,7 +1738,9 @@
                         "funFact1": "The black guan is very elusive and difficult to observe, spending most of its time hidden among the dense canopy vegetation of the forests.",
                         "funFact2": "This bird performs a curious head and neck movement in its nest, which is believed to help roll the eggs and strengthen the nest's structure.",
                         "location": "Ecohotel El Castillo",
-                        "bibliography": "-Seed dispersal: By feeding primarily on fruits, this species plays a key role in seed dispersal, helping to regenerate forests and maintain plant biodiversity. -Insect control: Although its diet is mostly frugivorous, it also consumes invertebrates, contributing to the control of insect populations in its ecosystem."
+                        "bibliography": "-Seed dispersal: By feeding primarily on fruits, this species plays a key role in seed dispersal, helping to regenerate forests and maintain plant biodiversity. -Insect control: Although its diet is mostly frugivorous, it also consumes invertebrates, contributing to the control of insect populations in its ecosystem.",
+                        "birdSound":"audios/gallineceas/Pava falcialar",
+            "autorSonido": " Grabador: Jonas Nilsson (Ecuador)"
                       }
                     },
                     {
@@ -1724,7 +1790,9 @@
                         "funFact1": "-The white-bellied pigeon gathers in large numbers around abundant food resources, making it easier to observe in its natural habitat.",
                         "funFact2": "-Its nest is surprisingly fragile, made of thin twigs, contrasting with the height it is often built, up to 15 meters above the ground.",
                         "location": "Ecohotel El Castillo",
-                        "bibliography": "-Seed dispersal: These birds feed on fruits and seeds, helping the dispersal of plants in the forests where they live. By consuming the fruits and excreting the seeds, they facilitate the regeneration of vegetation in deforested or degraded areas. -Vegetation control: By consuming large quantities of seeds and fruits, they help control the growth of some plants, maintaining the balance in the ecosystems they inhabit."
+                        "bibliography": "-Seed dispersal: These birds feed on fruits and seeds, helping the dispersal of plants in the forests where they live. By consuming the fruits and excreting the seeds, they facilitate the regeneration of vegetation in deforested or degraded areas. -Vegetation control: By consuming large quantities of seeds and fruits, they help control the growth of some plants, maintaining the balance in the ecosystems they inhabit.",
+                        "birdSound":"audios/gallineceas/colorada",
+            "autorSonido": " Grabador: Jayrson Araujo de Oliveira (Brazil)"
                       }
                     },
                     {
@@ -1824,7 +1892,8 @@
                         "funFact1": "Nest site selection is usually initiated by the male, who sits on the nest and calls to attract a mate. If the male dies, the female is likely to seek a new mate elsewhere. The site may be the former nest of a no longer present pair.",
                         "funFact2": "Eggs are usually laid after the nest is finished or renovated. The first egg is laid in the late afternoon, and the second about 40 hours later.",
                         "location": "Pance River Ecopark.",
-                        "bibliography": "The rock pigeon (Columba livia), common in urban and rural areas, has diverse ecological effects. In the wild, it helps disperse seeds, contributing to plant regeneration. However, in urbanized areas, their large numbers can cause problems such as the accumulation of droppings, which deteriorates infrastructure and facilitates the spread of diseases. Additionally, by competing with native species for resources, it can affect local biodiversity and alter urban ecosystems."
+                        "bibliography": "The rock pigeon (Columba livia), common in urban and rural areas, has diverse ecological effects. In the wild, it helps disperse seeds, contributing to plant regeneration. However, in urbanized areas, their large numbers can cause problems such as the accumulation of droppings, which deteriorates infrastructure and facilitates the spread of diseases. Additionally, by competing with native species for resources, it can affect local biodiversity and alter urban ecosystems.","birdSound":"audios/gallineceas/Paloma bravía",
+            "autorSonido": "Grabador: Uku Paal (Estonia)"
                       }
                     },
                     {
@@ -1874,7 +1943,9 @@
                         "funFact1": "It has a high reproductive capacity, breeding several times a year and nesting in colonies, which facilitates its survival. This characteristic has made it a pest in some regions due to damage to crops.",
                         "funFact2": "In Chile, this species is hunted for consumption.",
                         "location": "El Castillo Ecohotel",
-                        "bibliography": "These birds help with seed dispersal by consuming them and excreting them, contributing to plant regeneration and maintaining ecosystem biodiversity. Additionally, as part of the food chain, they serve as prey for predators like hawks and sparrowhawks, helping maintain ecological balance. Their abundance makes them a reliable food source in rural and urban environments."
+                        "bibliography": "These birds help with seed dispersal by consuming them and excreting them, contributing to plant regeneration and maintaining ecosystem biodiversity. Additionally, as part of the food chain, they serve as prey for predators like hawks and sparrowhawks, helping maintain ecological balance. Their abundance makes them a reliable food source in rural and urban environments.",
+                          "birdSound":"audios/gallineceas/Zenaida torcaza",
+            "autorSonido": " Grabador: Jerome Fischer (Colombia)"
                       }
                     }
                   ]
@@ -1933,7 +2004,9 @@
                         "funFact1": "Andean Motmots have an unusual way of moving through the air. They make short flights and use their large wings to glide, allowing them to conserve energy and move efficiently through their forest environment.",
                         "funFact2": "Their nesting habits are fascinating. They dig a horizontal tunnel in earthen embankments or banks, sometimes over 2 meters long, where they lay their eggs, making them one of the few bird species to nest in this manner.",
                         "location": "Ecohotel El Castillo",
-                        "bibliography": "The Andean Motmot is an important species for its environment due to its diet, which helps control insect populations. Its role in dispersing seeds from the fruits it eats also contributes to forest regeneration and maintaining biodiversity in the Andes."
+                        "bibliography": "The Andean Motmot is an important species for its environment due to its diet, which helps control insect populations. Its role in dispersing seeds from the fruits it eats also contributes to forest regeneration and maintaining biodiversity in the Andes.",
+                         "birdSound":"audios/pico/Momoto",
+            "autorSonido": "Grabador: David Riaño Cortés (Colombia)"
                       }
                     },
                     {
@@ -1983,7 +2056,9 @@
                         "funFact1": "Endemic to Colombia: The Picumnus granadensis is endemic to Colombia, meaning it is only found in that country. It prefers to inhabit dry forest areas and mountainous regions, making it a very unique species in Colombian birdlife.",
                         "funFact2": "Small Size and Adaptation: It is one of the smallest woodpeckers, measuring just about 10 cm in length. Despite its size, it displays typical woodpecker behavior, vigorously pecking at wood to find food, which is surprising given its diminutive build.",
                         "location": "Ecohotel El Castillo",
-                        "bibliography": "The Picumnus granadensis, known as the Colombian Piculet, plays an important role in the ecosystem by helping control insect populations in trees, as it feeds primarily on larvae and insects found under the bark. By pecking at wood, it also creates cavities that can eventually be used by other species, such as small birds or insects, contributing to the biodiversity of its habitat."
+                        "bibliography": "The Picumnus granadensis, known as the Colombian Piculet, plays an important role in the ecosystem by helping control insect populations in trees, as it feeds primarily on larvae and insects found under the bark. By pecking at wood, it also creates cavities that can eventually be used by other species, such as small birds or insects, contributing to the biodiversity of its habitat.",
+                        "birdSound":"audios/pico/Carpinterito",
+        "autorSonido": " Grabador: David Monroy Rengifo (Colombia)"
                       }
                     },
                     {
@@ -2033,7 +2108,9 @@
                         "funFact1": "They communicate through vocalizations, drumming, and pecking, especially during territorial defense.",
                         "funFact2": "Both sexes excavate the nests, which are about 45 cm deep, 13 x 18 cm wide, and have an entrance about 9 cm in diameter.",
                         "location": "Universidad Javeriana de Cali",
-                        "bibliography": "It plays an essential role in its ecosystem by controlling insect populations that live under tree bark, especially beetle larvae and other wood-boring insects, helping maintain forest health. Additionally, by drilling into trees to feed or nest, it creates cavities that other birds, small mammals, and reptiles can later use, increasing habitat availability and fostering biodiversity."
+                        "bibliography": "It plays an essential role in its ecosystem by controlling insect populations that live under tree bark, especially beetle larvae and other wood-boring insects, helping maintain forest health. Additionally, by drilling into trees to feed or nest, it creates cavities that other birds, small mammals, and reptiles can later use, increasing habitat availability and fostering biodiversity.",
+                        "birdSound":"audios/pico/Picamaderos",
+            "autorSonido": "Grabador:Bernabe Lopez-Lanus (Argentina)"
                       }
                     },
                     {
@@ -2083,7 +2160,9 @@
               "funFact1": "Juvenile individuals usually have a less intense color, which becomes more vibrant as they mature.",
               "funFact2": "Unlike many other parrot species, the Pionus menstruus is known to be relatively quiet, especially when in flocks. Although it can occasionally make loud sounds, its discreet behavior helps it blend into its environment, avoiding predators.",
               "location": "Javeriana University of Cali",
-              "bibliography": "The Pionus menstruus, known as the blue-headed parrot, plays an important role in its ecosystem, mainly through seed dispersal when feeding on fruits, which helps regenerate vegetation and maintain the area's biodiversity. Additionally, it helps control pests by consuming insects and young shoots, helping to maintain the balance of the ecosystem."
+              "bibliography": "The Pionus menstruus, known as the blue-headed parrot, plays an important role in its ecosystem, mainly through seed dispersal when feeding on fruits, which helps regenerate vegetation and maintain the area's biodiversity. Additionally, it helps control pests by consuming insects and young shoots, helping to maintain the balance of the ecosystem.",
+               "birdSound":"audios/pico/cabeciazul",
+            "autorSonido": " Grabador: Fernando Igor de Godoy (Brazil)"
             }
           },
           {
@@ -2133,7 +2212,9 @@
               "funFact1": "Small Size and Sociable Nature: The Spectacled Parrotlet is one of the smallest parrots in the Americas, measuring only 12-13 cm. Despite its size, it is very sociable and is found in large groups, which helps it stay safe from predators and facilitates food searching.",
               "funFact2": "Marked Sexual Dimorphism: There is a clear sexual dimorphism in this species: males have a striking blue color on the wings and behind the eyes, while females lack these markings, allowing them to be easily distinguished at a glance.",
               "location": "Universidad Javeriana de Cali",
-              "bibliography": "The Forpus conspicillatus, known as the Spectacled Parrotlet, plays an important ecological role in seed dispersal. Its diet includes fruits and seeds, contributing to the regeneration of vegetation and maintaining biodiversity in its environment. It also helps control insect populations by consuming shoots and small invertebrates, which benefits the health of plants."
+              "bibliography": "The Forpus conspicillatus, known as the Spectacled Parrotlet, plays an important ecological role in seed dispersal. Its diet includes fruits and seeds, contributing to the regeneration of vegetation and maintaining biodiversity in its environment. It also helps control insect populations by consuming shoots and small invertebrates, which benefits the health of plants.",
+                   "birdSound":"audios/pico/anteojos",
+            "autorSonido": "Grabador: Jerome Fischer (Colombia)"
             }
           },
           {
@@ -2183,7 +2264,9 @@
               "funFact1": "Great Adaptability to Different Habitats: The Severe Macaw is capable of adapting to a variety of habitats, from tropical forests to open areas and secondary forests. This adaptability allows it to find resources and survive in environments where other species might struggle.",
               "funFact2": "Playful and Noisy Personality: This species is known for its curious and playful personality. They are intelligent and very active birds, often seen exploring and manipulating objects in their environment. Additionally, they are quite noisy, emitting loud vocalizations that they use to communicate with each other and mark their territory.",
               "location": "Universidad Javeriana de Cali",
-              "bibliography": "The Ara severus plays an important role in its ecosystem as a seed disperser. By feeding on fruits and seeds, it disperses a wide variety of plant species, helping forest regeneration and promoting plant diversity. It also contributes to the natural pruning of trees and branches, promoting healthy plant growth."
+              "bibliography": "The Ara severus plays an important role in its ecosystem as a seed disperser. By feeding on fruits and seeds, it disperses a wide variety of plant species, helping forest regeneration and promoting plant diversity. It also contributes to the natural pruning of trees and branches, promoting healthy plant growth.",
+               "birdSound":"audios/pico/Guacamayo",
+        "autorSonido": "Grabador: Thiago Bicudo"
             }
           },
           {
@@ -2233,7 +2316,9 @@
               "funFact1": "Excellent mimic of human sounds in captivity, like other members of the same complex, and like them, there is evidence of regional dialects in this species.",
               "funFact2": "The main cause of reproductive failure in these birds is poaching by humans (77.8% of nests; 49 out of 63).",
               "location": "Ecoparque Río Pance.",
-              "bibliography": "Amazona ochrocephala, known as the yellow-crowned parrot, plays a vital role in its ecosystem by dispersing seeds. By feeding on a variety of fruits, it helps disperse seeds and facilitates the regeneration and diversity of vegetation in forests. Additionally, by consuming flowers and nectar, it also acts as an occasional pollinator, supporting plant reproduction."
+              "bibliography": "Amazona ochrocephala, known as the yellow-crowned parrot, plays a vital role in its ecosystem by dispersing seeds. By feeding on a variety of fruits, it helps disperse seeds and facilitates the regeneration and diversity of vegetation in forests. Additionally, by consuming flowers and nectar, it also acts as an occasional pollinator, supporting plant reproduction.",
+                      "birdSound":"audios/pico/Amazona",
+            "autorSonido": "Grabador: Jerome Fischer (Colombia)"
             }
           },
           {
@@ -2283,7 +2368,9 @@
               "funFact1": "Monogamous, they stay together all year but sleep individually in holes.",
               "funFact2": "Foraging techniques include hammering bark, probing, collecting from trunks, branches, and foliage, and reaching for fruits; it pierces the skin of larger fruits to obtain content.",
               "location": "Ecohotel El Castillo.",
-              "bibliography": "Melanerpes rubricapillus, known as the red-crowned woodpecker, has significant ecological impacts by contributing to pest control as it feeds on insects, including larvae that live under tree bark. Additionally, by excavating holes in trunks to nest, it creates cavities that can later be used by other species, such as smaller birds and mammals, enhancing nest site availability and promoting biodiversity."
+              "bibliography": "Melanerpes rubricapillus, known as the red-crowned woodpecker, has significant ecological impacts by contributing to pest control as it feeds on insects, including larvae that live under tree bark. Additionally, by excavating holes in trunks to nest, it creates cavities that can later be used by other species, such as smaller birds and mammals, enhancing nest site availability and promoting biodiversity.",
+              "birdSound":"audios/pico/Carpintero coronirrojo",
+        "autorSonido": " Grabador: Frank Lambert (Colombia)"
             }
           },
           {
@@ -2333,7 +2420,9 @@
               "funFact1": "Incubating birds regurgitate (relaxed flow of stomach contents out through the mouth, often via belching) undigested fish scales and bones, attracting flies to the nest chamber.",
               "funFact2": "If prey is still alive, it will strike it against a hard surface to kill or stun it before consumption.",
               "location": "Pance River.",
-              "bibliography": "Megaceryle torquata, the ringed kingfisher, has a vital role in freshwater ecosystems by controlling fish populations. By preying on small fish, the kingfisher helps maintain balance within aquatic food chains, preventing overpopulation of certain fish species, which could otherwise harm vegetation and invertebrates in their habitats."
+              "bibliography": "Megaceryle torquata, the ringed kingfisher, has a vital role in freshwater ecosystems by controlling fish populations. By preying on small fish, the kingfisher helps maintain balance within aquatic food chains, preventing overpopulation of certain fish species, which could otherwise harm vegetation and invertebrates in their habitats.",
+              "birdSound":"audios/pico/Martín",
+        "autorSonido": " Grabador: Jerome Fischer (Colombia)"
             }
           },
           {
@@ -2383,7 +2472,9 @@
               "funFact1": "Ground Foraging Behavior: Unlike many other woodpeckers, the spotted-breasted woodpecker often forages on the ground, digging for insects and ants, which is an unusual behavior for most woodpecker species.",
               "funFact2": "Drumming Communication: This species uses a behavior called drumming, which consists of repeatedly tapping on tree trunks with its beak. This sound is used to mark territory and attract a mate, serving as an important form of communication within the species.",
               "location": "Cali Botanical Garden.",
-              "bibliography": "Colaptes punctigula contributes to pest control by feeding on insects and larvae found in tree trunks and soil, benefiting the health of trees and reducing pest proliferation. Additionally, by drilling tree trunks to create nests, it generates cavities that can later be used by other species, such as birds and small mammals, promoting fauna diversity in the area."
+              "bibliography": "Colaptes punctigula contributes to pest control by feeding on insects and larvae found in tree trunks and soil, benefiting the health of trees and reducing pest proliferation. Additionally, by drilling tree trunks to create nests, it generates cavities that can later be used by other species, such as birds and small mammals, promoting fauna diversity in the area.",
+              "birdSound":"audios/pico/Carpintero moteado",
+        "autorSonido": " Grabador: Luis Eduardo Vidal Salgado (Colombia)"
             }
           }  
         ]
@@ -2446,7 +2537,9 @@
                   "funFact1": "It is known for its characteristic crest that it can raise, showing a yellowish tone, visible when excited or alert.",
                   "funFact2": "Its song is very distinctive and repetitive, making it easily identifiable in its habitat, especially during the breeding season.",
                   "location": "Ecohotel El Castillo",
-                  "bibliography": "Elaenia flavogaster plays an important role as a seed disperser, consuming a variety of fruits and helping plant propagation by excreting seeds in different areas. It also contributes to insect control, as its diet includes insects that it catches in flight, helping maintain balance in the ecosystem's food chain."
+                  "bibliography": "Elaenia flavogaster plays an important role as a seed disperser, consuming a variety of fruits and helping plant propagation by excreting seeds in different areas. It also contributes to insect control, as its diet includes insects that it catches in flight, helping maintain balance in the ecosystem's food chain.",
+                  "birdSound":"audios/cantoras/Elaenia",
+        "autorSonido": "Grabador: Jerome Fischer (Colombia)"
                 }
               },
               {
@@ -2496,7 +2589,9 @@
                   "funFact1": "Forages in pairs or small family groups in dense vegetation near the ground or mid-level tree canopies.",
                   "funFact2": "Partially dependent on parents for up to 43 days, benefits from deforestation, spreading into clearings and plantations, where it is often common.",
                   "location": "Universidad Javeriana de Cali",
-                  "bibliography": "Todirostrum cinereum plays an important role as an insect population controller, feeding primarily on them, including mosquitoes, ants, and other small insects. This helps maintain balance in the ecosystem and reduce the proliferation of pests. Additionally, by consuming small fruits and dispersing seeds through its droppings, it helps regenerate and diversify vegetation in its habitat, contributing to the health of the ecosystem where it lives."
+                  "bibliography": "Todirostrum cinereum plays an important role as an insect population controller, feeding primarily on them, including mosquitoes, ants, and other small insects. This helps maintain balance in the ecosystem and reduce the proliferation of pests. Additionally, by consuming small fruits and dispersing seeds through its droppings, it helps regenerate and diversify vegetation in its habitat, contributing to the health of the ecosystem where it lives.",
+                         "birdSound":"audios/cantoras/Titirijí común - Todirostrum cinereum",
+        "autorSonido": "Grabador: Fernando Igor de Godoy (Brazil)"
                 }
               },
               {
@@ -2546,7 +2641,9 @@
                   "funFact1": "They are known for their striking coloration, especially in males, which stand out against arid and desert backgrounds.",
                   "funFact2": "They have a characteristic hunting method called 'flycatching,' where they remain on a perch and then dart out to capture insects in mid-flight.",
                   "location": "Jardín Botánico de Bogotá",
-                  "bibliography": "The Vermilion Flycatcher plays a vital role in controlling insect populations in its habitat, contributing to the natural balance of ecosystems. This insectivorous species reduces populations of insects, especially flying insects, which can otherwise become pests. Its striking coloration makes it a popular species for birdwatching, contributing to ecotourism and increasing awareness of the importance of conserving natural spaces."
+                  "bibliography": "The Vermilion Flycatcher plays a vital role in controlling insect populations in its habitat, contributing to the natural balance of ecosystems. This insectivorous species reduces populations of insects, especially flying insects, which can otherwise become pests. Its striking coloration makes it a popular species for birdwatching, contributing to ecotourism and increasing awareness of the importance of conserving natural spaces.",
+                    "birdSound":"audios/cantoras/Mosquero",
+        "autorSonido": " Grabador: Fernando Jacobs (Brazil)"
                 }
               },
               {
@@ -2596,7 +2693,9 @@
                   "funFact1": "Often steals nesting material from abandoned or unwatched nests of other birds. Nests are mainly built from grass, but may also incorporate thin twigs, woody vine tendrils, paper, cotton, rags, and even plastic trash.",
                   "funFact2": "About 1 day before fledging, chicks stand at the nest entrance and flap their wings, causing the nest's roof to collapse.",
                   "location": "Universidad Javeriana de Cali",
-                  "bibliography": "This bird inhabits a wide variety of ecosystems, from urban areas to forests and rural zones. Ecologically, it plays a key role in insect control, feeding on a wide range of insects and helping maintain their population balance. Additionally, it disperses seeds by consuming fruits, contributing to vegetation regeneration and biodiversity in its habitat. As an adaptable bird, it significantly contributes to the balance and health of the ecosystems it inhabits."
+                  "bibliography": "This bird inhabits a wide variety of ecosystems, from urban areas to forests and rural zones. Ecologically, it plays a key role in insect control, feeding on a wide range of insects and helping maintain their population balance. Additionally, it disperses seeds by consuming fruits, contributing to vegetation regeneration and biodiversity in its habitat. As an adaptable bird, it significantly contributes to the balance and health of the ecosystems it inhabits.",
+                    "birdSound":"audios/cantoras/Bienteveo",
+        "autorSonido": "Grabador: Jayrson Araujo de Oliveira (Brazil)"
                 }
               },
               {
@@ -2646,7 +2745,9 @@
                   "funFact1": "Tyrannus savana is famous for its acrobatic flight. It performs aerial maneuvers to catch insects and also during the mating season, making it highly attractive and spectacular.",
                   "funFact2": "These birds are migratory and can travel long distances. They breed in North America and then migrate to South America for the winter, covering thousands of kilometers.",
                   "location": "Universidad Javeriana de Cali",
-                  "bibliography": "Tyrannus savana plays an important role in its ecosystem as an insect controller. These birds feed primarily on flying insects, helping regulate their populations and maintaining the ecological balance. Additionally, by moving through various areas during migration, they participate in seed dispersal, contributing to vegetation regeneration in different habitats."
+                  "bibliography": "Tyrannus savana plays an important role in its ecosystem as an insect controller. These birds feed primarily on flying insects, helping regulate their populations and maintaining the ecological balance. Additionally, by moving through various areas during migration, they participate in seed dispersal, contributing to vegetation regeneration in different habitats.",
+                      "birdSound":"audios/cantoras/Tijereta",
+        "autorSonido": "Grabador: David Monroy Rengifo (Colombia)"
                 }
               },
               {
@@ -2696,7 +2797,9 @@
                   "funFact1": "It is one of the most familiar birds in gardens, parks, and rural areas. Its song is complex and melodious, consisting of varied and high-pitched whistles.",
                   "funFact2": "This species has adapted remarkably well to human presence, often nesting in buildings, walls, and urban gardens.",
                   "location": "Universidad Javeriana de Cali",
-                  "bibliography": "The house wren plays a crucial role in its ecosystem as a pest controller. By feeding on a variety of arthropods, it helps regulate populations of insects, spiders, and other small invertebrates. Additionally, its song is often an indicator of a healthy and biodiverse environment, as it thrives in a variety of habitats, including forests, gardens, and urban areas."
+                  "bibliography": "The house wren plays a crucial role in its ecosystem as a pest controller. By feeding on a variety of arthropods, it helps regulate populations of insects, spiders, and other small invertebrates. Additionally, its song is often an indicator of a healthy and biodiverse environment, as it thrives in a variety of habitats, including forests, gardens, and urban areas.",
+                       "birdSound":"audios/cantoras/Chochín",
+        "autorSonido": " Grabador: Brendan Sloan (Costa Rica)"
                 }
               },
 
@@ -2747,7 +2850,9 @@
                   "funFact1": "Turdus ignobilis is known for its melodious and varied song, used both for communication and territory marking, being one of the most vocal birds in its environment.",
                   "funFact2": "Although primarily found in forested areas, this bird has adapted well to urban and rural environments, where it can be seen foraging in gardens, parks, and green areas near human settlements.",
                   "location": "Universidad Javeriana de Cali",
-                  "bibliography": "Turdus ignobilis plays an important role in its ecosystem by dispersing seeds from the fruits it consumes. This contributes to the regeneration and propagation of plants and trees in its habitat, promoting biodiversity. Additionally, it feeds on insects and small invertebrates, helping to control their populations and maintain ecological balance."
+                  "bibliography": "Turdus ignobilis plays an important role in its ecosystem by dispersing seeds from the fruits it consumes. This contributes to the regeneration and propagation of plants and trees in its habitat, promoting biodiversity. Additionally, it feeds on insects and small invertebrates, helping to control their populations and maintain ecological balance.",
+                   "birdSound":"audios/cantoras/Icterus nigrogularis",
+        "autorSonido": "Grabador: Jerome Fischer"
                 }
               },
               {
@@ -2797,7 +2902,9 @@
                   "funFact1": "It is the national bird of Venezuela and is appreciated for its striking yellow and black plumage, as well as its melodious and varied song.",
                   "funFact2": "This species is known for its opportunistic behavior, as it can use abandoned nests of other birds or even steal materials from other nests to build its own.",
                   "location": "Universidad Javeriana de Cali",
-                  "bibliography": "It plays an important ecological role as a seed disperser, as it feeds on fruits and helps plant propagation in its environment. Additionally, it consumes insects, contributing to the control of their populations and maintaining the ecosystem's balance."
+                  "bibliography": "It plays an important ecological role as a seed disperser, as it feeds on fruits and helps plant propagation in its environment. Additionally, it consumes insects, contributing to the control of their populations and maintaining the ecosystem's balance.",
+                  "birdSound":"audios/cantoras/Turpial",
+        "autorSonido": " Grabador: Arne Thelin (Suriname – Noreste de América del Sur)"
                 }
               },
               {
@@ -2847,7 +2954,9 @@
                   "funFact1": "The Green Honeycreeper is part of the tanager family and is known for its vibrant plumage and active foraging behavior in the treetops.",
                   "funFact2": "This bird can often be seen with other species of tanagers in mixed flocks, sharing feeding areas and moving together through the forest canopy.",
                   "location": "Universidad Javeriana de Cali",
-                  "bibliography": "The Green Honeycreeper contributes to its ecosystem by dispersing the seeds of the fruits it eats. It also plays a role in controlling insect populations, maintaining a healthy balance in its habitat. Its preference for nectar also makes it an occasional pollinator."
+                  "bibliography": "The Green Honeycreeper contributes to its ecosystem by dispersing the seeds of the fruits it eats. It also plays a role in controlling insect populations, maintaining a healthy balance in its habitat. Its preference for nectar also makes it an occasional pollinator.",
+                   "birdSound":"audios/cantoras/Mielerito",
+        "autorSonido": "Grabador: Jerome Fischer (Brazil)"
                 }
               },
               {
@@ -2897,7 +3006,9 @@
                   "funFact1": "Male Sicalis flaveola have striking bright yellow plumage, especially during breeding season, while females have duller colors for better camouflage.",
                   "funFact2": "This species adapts very well to urban and rural environments and is often seen in human-inhabited areas, building nests in roofs, artificial structures, or even nest boxes.",
                   "location": "Universidad Javeriana de Cali",
-                  "bibliography": "Sicalis flaveola plays an important role in its ecosystem by consuming seeds, contributing to the dispersal and control of plants and weeds. It also feeds on insects, helping regulate populations of these invertebrates and maintaining ecological balance in its habitat."
+                  "bibliography": "Sicalis flaveola plays an important role in its ecosystem by consuming seeds, contributing to the dispersal and control of plants and weeds. It also feeds on insects, helping regulate populations of these invertebrates and maintaining ecological balance in its habitat.",
+                   "birdSound":"audios/cantoras/azafranado",
+        "autorSonido": "Grabador:Joao Gava (Brazil)"
                 }
               }
             ]
@@ -2961,7 +3072,9 @@
                         "funFact1": "It remains still during the day. It perches on high branches, usually in an upright posture. When not alarmed, it perches more vertically with its bill pointed forward instead of upwards.",
                         "funFact2": "When it suspects it’s being watched, it stretches its body, compresses its plumage, and raises its head, all so gradually that no movement is detected. It may use the same roosting spot for months.",
                         "location": "Eco-park Lago de Las Garzas, University of Valle, Club Campestre Farallones",
-                        "bibliography": "Nyctibius griseus plays a crucial ecological role in its ecosystem. As a nocturnal insect predator, it helps control pest populations, contributing to the balance of the food chain. Additionally, by consuming insects that could harm vegetation, it indirectly protects local flora. As part of the trophic web, it also serves as prey for larger predators, making it an important component of the ecosystem's biodiversity."
+                        "bibliography": "Nyctibius griseus plays a crucial ecological role in its ecosystem. As a nocturnal insect predator, it helps control pest populations, contributing to the balance of the food chain. Additionally, by consuming insects that could harm vegetation, it indirectly protects local flora. As part of the trophic web, it also serves as prey for larger predators, making it an important component of the ecosystem's biodiversity.",
+                           "birdSound":"audios/extrañas/Urutau",
+        "autorSonido": "Recorder: Jayrson Araujo de Oliveira (Brazil)"
                       }
                     }
                   ]
