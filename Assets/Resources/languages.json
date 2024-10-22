@@ -12,13 +12,13 @@
     "datoC": "Sabias que..." ,  
     "encuentrame": "Buscame en...",
     "catalog_title": "Catálogo",
-    "ecosistema": "ecosistema",
+    "ecosistema": "Ecosistema",
     "nivel" : "Nivel Completado",
     "continuar":"continuar",
     "registrar":"Registrate",
     "ingresar":"ingresar",
     "contraseña":"contraseña",
-    "secion":"Inicio de sesión",
+    "secion":"Ingresa",
     "cuenta":"¿No tienes cuenta?",
     "olvide":"Olvidé mi contraseña",
     "bienvenido":"Hola, Bienvenid@",
@@ -35,12 +35,14 @@
     "gallineceas":"Aves gallináceas",
     "pico":"Aves de pico fuerte",
     "cantoras":"Aves cantoras",
-    "textrañas":"Aves extrañas"
+    "textrañas":"Aves extrañas",
+    "salir":"Salir",
+    "aves":"Preservacion aves"
   },
   "en": {
     "info_title": "Pause",
     "settings_title": "Settings",
-    "Idioma": "Español",
+    "Idioma": "ingles",
     "Idioma2": "Spanish",
     "lenguaje":"Language",
     "habitat": " Where you live?",
@@ -71,6 +73,9 @@
     "gallineceas":"Galliform birds",
     "pico":"Birds with strong beaks",
     "cantoras":"Songbirds",
-    "textrañas":"Strange birds"
+    "textrañas":"Strange birds",
+      "salir":"Quit",
+      "aves":"Bird preservation"
+      
   }
 }

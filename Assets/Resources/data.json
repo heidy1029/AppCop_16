@@ -990,7 +990,7 @@
             "funFact2": "Vuelos migratorios: Aunque no todas las poblaciones migran, algunos colibríes de esta especie realizan movimientos estacionales en busca de alimento.",
             "location": "Ecohotel El Castillo.",
             "bibliography": "El colibrí Anthracothorax nigricollis, juega un papel importante en la polinización de plantas, ayudando a la reproducción de diversas especies vegetales. Además, al consumir pequeños insectos, contribuye al control de sus poblaciones.",
-            "birdSound":"audios/acuatica/Suirirí cariblanco",
+            "birdSound":"audios/vuelo/",
             "autorSonido": "Grabador: Alain Malengreau"
           }
         },
@@ -1042,7 +1042,7 @@
             "funFact2": "Vuelos al atardecer: El Chordeiles minor es más activo al amanecer y al atardecer, siendo uno de los pocos pájaros que cazan insectos en pleno vuelo durante esas horas.",
             "location": "Club Campestre Farallones.",
             "bibliography": "Esta ave es crucial para el control de poblaciones de insectos voladores, ya que se alimenta principalmente de ellos durante sus vuelos crepusculares y nocturnos. Esto ayuda a mantener el equilibrio ecológico al reducir plagas de mosquitos y otros insectos, lo que beneficia a diversas especies dentro de su entorno.",
-            "birdSound":"audios/acuatica/Suirirí cariblanco",
+            "birdSound":"audios/vuelo/",
             "autorSonido": "Grabador: Alain Malengreau"
           }
         }
@@ -1351,7 +1351,7 @@
             }
           ],
           "birdInfo": {
-            "birdName": "Zopilote Común",
+            "birdName": "Buitre negro",
             "species": "Aegypius monachus",
             "conservacion": "LC preocupación menor",
             "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
@@ -1364,8 +1364,8 @@
             "funFact2": "Se ha expresado preocupación por la amenaza que la especie representa para las aeronaves, así como por los impactos de la especie en la propiedad personal, la infraestructura pública y, especialmente, la agricultura, a través de la supuesta depredación del ganado.",
             "location": "Ecohotel El Castillo",
             "bibliography": "Tiene un impacto ecológico importante como carroñero, ayudando a la limpieza del ecosistema al consumir animales muertos. Esto previene la propagación de enfermedades y mantiene el equilibrio en los ciclos de descomposición. Sin embargo, en algunas áreas urbanizadas, su presencia puede aumentar debido a la disponibilidad de basura, lo que podría generar desequilibrios al competir con otros carroñeros y alterar la dinámica natural de los ecosistemas.",
-              "birdSound":"audios/rapaces/Suirirí cariblanco",
-            "autorSonido": "Grabador: Alain Malengreau"
+                    "birdSound":"audios/rapaces/Zopilote",
+            "autorSonido": "Grabador: Brice de la Croix (French Guiana)"
           }
         },
         {
@@ -1466,8 +1466,8 @@
             "funFact2": "Los caranchos usan el pico para recolectar material del nido. Arrancan tallos y enredaderas mientras caminan por los pastos, a lo largo de las cercas y las zanjas.",
             "location": "Ecohotel El Castillo",
             "bibliography": "-Control de poblaciones: Al alimentarse de una amplia variedad de animales, como insectos, pequeños vertebrados y carroña, contribuye al control de estas poblaciones, manteniendo el equilibrio ecológico. Su rol como carroñero también ayuda a eliminar animales muertos, evitando la proliferación de enfermedades. -Reciclaje de nutrientes: Al consumir carroña, el Caracara Crestado contribuye al reciclaje de nutrientes, acelerando el proceso de descomposición y promoviendo la salud del ecosistema. -Interacción en la cadena alimentaria: Como depredador y carroñero, influye en la dinámica de otras especies, tanto al controlar las poblaciones de presas como al competir por carroña con otros carroñeros, como buitres.",
-              "birdSound":"audios/rapaces/Suirirí cariblanco",
-            "autorSonido": "Grabador: Alain Malengreau"
+            "birdSound":"audios/gallineceas/Carancho meridional",
+            "autorSonido": "Grabador: Peter Boesman (Colombia)"
           }
         },
         {
@@ -1557,7 +1557,7 @@
             }
           ],
           "birdInfo": {
-            "birdName":"Zopilote común",
+            "birdName":"Zopilote comun",
             "species":"Coragyps atratus",
             "conservacion":"LC preocupación menor",
             "description": "La pareja es monógama y mantiene un vínculo de pareja a largo plazo. Se asocian estrechamente durante todo el año y pueden alimentar a sus crías hasta ocho meses después de que emplumen.",
@@ -1634,8 +1634,8 @@
             "funFact2": "Adaptabilidad a Áreas Urbanas: Esta especie se adapta fácilmente a entornos urbanos y suburbanos, siendo común verla en jardines, parques y áreas verdes. Su capacidad para convivir cerca de los humanos ha hecho que sea una de las aves más vistas en ciudades de América Latina.",
             "location": "Ecohotel El Castillo",
             "bibliography": "La Columbina talpacoti, contribuye significativamente al ecosistema a través de la dispersión de semillas. Al alimentarse de semillas y frutos pequeños, favorece la regeneración de la vegetación en su hábitat, lo cual es crucial para mantener la biodiversidad. Además, forma parte de la red alimentaria, sirviendo de presa para varios depredadores como halcones y serpientes, ayudando a mantener el equilibrio en la cadena trófica.",
-               "birdSound":"audios/gallineceas/Suirirí cariblanco",
-            "autorSonido": "Grabador: Alain Malengreau"
+               "birdSound":"audios/gallineceas/Columbina",
+            "autorSonido": " Grabador: Paula Caycedo"
           }
         },
         {
@@ -1679,15 +1679,15 @@
             "description": "La chachalaca colombiana, endémica de Colombia, como su nombre lo sugiere, se puede identificar fácilmente. Todas las especies tienen colas largas.",
             "mainImage": "Images/Interfaz/Cartas/Gallineceas/Caracara",
             "habitat": "Se encuentra en bosque húmedo, bordes de bosque y matorrales arbustivos. La especie se observa con frecuencia en bordes, bosques de galería cerca de cultivos y pastizales",
-            "diet": "La dieta de la chachalaca colombiana es frugívora y folívora. En un bosque suburbano del Valle del Cauca, su dieta está compuesta por 26 especies de plantas, entre las que se encuentran frutas (77,2%), hojas (16,2%) y flores (3,6%). Además, en ese sitio, la chachalaca colombiana come ocasionalmente otros elementos como tierra, hojas muertas y piedras (3%)",
+            "diet": "La dieta de la  colombiana es frugívora y folívora. En un bosque suburbano del Valle del Cauca, su dieta está compuesta por 26 especies de plantas, entre las que se encuentran frutas (77,2%), hojas (16,2%) y flores (3,6%). Además, en ese sitio, la chachalaca colombiana come ocasionalmente otros elementos como tierra, hojas muertas y piedras (3%)",
             "reproduction": "La dieta de la chachalaca colombiana es frugívora y folívora. En un bosque suburbano del Valle del Cauca, su dieta está compuesta por 26 especies de plantas, entre las que se encuentran frutas (77,2%), hojas (16,2%) y flores (3,6%). Además, en ese sitio, la chachalaca colombiana come ocasionalmente otros elementos como tierra, hojas muertas y piedras (3%)",
             "size": "Mide entre 45 y 60 cm de longitud",
             "funFact1": "La chachalaca colombiana aunque es capaz de volar, prefiere moverse saltando y corriendo por las ramas y el suelo, lo que le permite desplazarse de manera eficiente en su entorno",
             "funFact2": "La chachalaca colombiana es social y se la ve en grupos de hasta 20 individuos. También es conocida por su vocalización fuerte y estridente, especialmente durante las horas de la mañana y el atardecer, lo que ayuda a la comunicación entre individuos y a la defensa del territorio.",
             "location": "Ecohotel El Castillo",
             "bibliography": "desempeña un papel importante en su ecosistema como dispersora de semillas. Al alimentarse de frutas y bayas, contribuye a la propagación de diversas plantas, lo que ayuda a la regeneración y mantenimiento de la vegetación en los bosques y áreas semiabiertas donde habita. También sirve como presa para varios depredadores, integrándose en la cadena alimentaria y contribuyendo al equilibrio ecológico.",
-             "birdSound":"audios/gallineceas/Carancho meridional",
-            "autorSonido": "Grabador: Gabriel Leite (Brazil)"
+             "birdSound":"audios/gallineceas/Chachalaca",
+            "autorSonido": " Grabador: Peter Boesman (Colombia"
           }
         },
           {
@@ -1738,8 +1738,8 @@
           "funFact2": "Esta ave realiza un curioso movimiento de cabeza y cuello en su nido, que se cree ayuda a rodar los huevos y fortalecer la estructura del nido.",
           "location": "Ecohotel El Castillo",
           "bibliography": "-Dispersión de semillas: Al alimentarse principalmente de frutas, esta especie juega un papel clave en la dispersión de semillas, ayudando a regenerar bosques y mantener la biodiversidad vegetal. -Control de insectos: Aunque su dieta es mayormente frugívora, también consume invertebrados, lo que contribuye al control de las poblaciones de insectos dentro de su ecosistema.",
-           "birdSound":"audios/gallineceas/Suirirí cariblanco",
-            "autorSonido": "Grabador: Alain Malengreau"
+           "birdSound":"audios/gallineceas/Pava falcialar",
+            "autorSonido": " Grabador: Jonas Nilsson (Ecuador)"
         }
       },
       {
@@ -1790,8 +1790,8 @@
             "funFact2": "-Su nido es sorprendentemente frágil y está hecho de ramitas delgadas, lo que contrasta con la altura a la que suele estar, hasta 15 metros sobre el suelo.",
             "location": "Ecohotel El Castillo",
             "bibliography": "-Dispersión de semillas: Estas aves se alimentan de frutas y semillas, ayudando a la dispersión de plantas en los bosques donde habitan. Al consumir las frutas y excretar las semillas, facilitan la regeneración de la vegetación en áreas deforestadas o degradadas.-Control de la vegetación: Al consumir gran cantidad de semillas y frutos, contribuyen al control del crecimiento de algunas plantas, manteniendo el equilibrio en los ecosistemas donde viven.",
-             "birdSound":"audios/gallineceas/Suirirí cariblanco",
-            "autorSonido": "Grabador: Alain Malengreau"
+             "birdSound":"audios/gallineceas/colorada",
+            "autorSonido": " Grabador: Jayrson Araujo de Oliveira (Brazil)"
           }
       },
       {
@@ -1842,7 +1842,7 @@
           "funFact2": "Los huevos se ponen generalmente después de que el nido está terminado o renovado. El primer huevo se pone a última hora de la tarde, el segundo unas 40 horas después.",
           "location": "Ecoparque Río Pance.",
           "bibliography": "La paloma bravía (Columba livia), común en áreas urbanas y rurales, tiene efectos ecológicos diversos. En la naturaleza, ayuda a dispersar semillas, contribuyendo a la regeneración vegetal. Sin embargo, en zonas urbanizadas, su gran número puede causar problemas, como la acumulación de excrementos, que deteriora infraestructuras y facilita la propagación de enfermedades. Además, al competir con especies nativas por recursos, puede afectar la biodiversidad local y alterar los ecosistemas urbanos.",
-           "birdSound":"audios/gallineceas/Suirirí cariblanco",
+           "birdSound":"audios/gallineceas/",
             "autorSonido": "Grabador: Alain Malengreau"
         }
       },
@@ -1894,7 +1894,7 @@
           "funFact2": "En Chile, esta especie se caza para el consumo.",
           "location": "Ecohotel El Castillo",
           "bibliography": "Estas aves ayudan a la dispersión de semillas al consumirlas y expulsarlas a través de sus excrementos, lo cual contribuye a la regeneración de plantas y mantiene la biodiversidad del ecosistema. Además, como parte de la red trófica, sirven de alimento para depredadores como halcones y gavilanes, lo que ayuda a mantener el equilibrio ecológico. Su abundancia las convierte en una fuente de alimento confiable en entornos rurales y urbanos.",
-           "birdSound":"audios/gallineceas/Suirirí cariblanco",
+           "birdSound":"audios/gallineceas/",
             "autorSonido": "Grabador: Alain Malengreau"
         }
       }
@@ -2007,7 +2007,9 @@
         "funFact1": "Endémica de Colombia: La Picumnus granadensis es endémica de Colombia, lo que significa que solo se encuentra en ese país. Prefiere habitar áreas de bosque seco y zonas montañosas, lo cual la convierte en una especie muy particular de la avifauna colombiana",
         "funFact2": "Tamaño Pequeño y Adaptación: Es uno de los pájaros carpinteros más pequeños, midiendo apenas unos 10 cm de longitud. A pesar de su tamaño, presenta el comportamiento típico de los carpinteros, excavando la madera con fuerza para buscar alimento, lo cual es sorprendente dada su diminuta constitución",
         "location": "Ecohotel El Castillo",
-        "bibliography": "La Picumnus granadensis, conocida como carpinterito colombiano, desempeña un papel importante en el ecosistema al contribuir al control de insectos en árboles, ya que se alimenta principalmente de larvas e insectos que encuentra bajo la corteza. Al excavar en la madera, también crea cavidades que eventualmente pueden ser usadas por otras especies, como pequeños pájaros o insectos, contribuyendo así a la biodiversidad de su hábitat"
+        "bibliography": "La Picumnus granadensis, conocida como carpinterito colombiano, desempeña un papel importante en el ecosistema al contribuir al control de insectos en árboles, ya que se alimenta principalmente de larvas e insectos que encuentra bajo la corteza. Al excavar en la madera, también crea cavidades que eventualmente pueden ser usadas por otras especies, como pequeños pájaros o insectos, contribuyendo así a la biodiversidad de su hábitat",
+        "birdSound":"audios/pico/Carpinterito",
+        "autorSonido": " Grabador: David Monroy Rengifo (Colombia)"
       }
     },
     {
@@ -2057,7 +2059,9 @@
         "funFact1": "Se comunican a través de vocalizaciones, tambores y golpes, especialmente durante la defensa del territorio",
         "funFact2": "Ambos sexos excavan los nidos, que tienen unos 45 cm de profundidad, 13 x 18 cm de ancho y una entrada de unos 9 cm de diámetro",
         "location": "Ecoparque Río Pance",
-        "bibliography": "Juega un papel esencial en su ecosistema al controlar poblaciones de insectos que se encuentran bajo la corteza de los árboles, especialmente larvas de escarabajos y otros xilófagos, lo cual ayuda a mantener la salud de los bosques. Además, al perforar troncos para alimentarse o anidar, crea cavidades que luego pueden ser usadas por otras aves, mamíferos pequeños y reptiles, aumentando así la disponibilidad de refugios y favoreciendo la biodiversidad en su hábitat"
+        "bibliography": "Juega un papel esencial en su ecosistema al controlar poblaciones de insectos que se encuentran bajo la corteza de los árboles, especialmente larvas de escarabajos y otros xilófagos, lo cual ayuda a mantener la salud de los bosques. Además, al perforar troncos para alimentarse o anidar, crea cavidades que luego pueden ser usadas por otras aves, mamíferos pequeños y reptiles, aumentando así la disponibilidad de refugios y favoreciendo la biodiversidad en su hábitat",
+        "birdSound":"audios/pico/Picamaderos",
+            "autorSonido": "Grabador:Bernabe Lopez-Lanus (Argentina)"
       }
     },
     {
@@ -2107,7 +2111,9 @@
         "funFact1": " Los ejemplares jóvenes suelen tener un color menos intenso, que se vuelve más vibrante a medida que maduran",
         "funFact2": "A diferencia de muchas otras especies de loros, el Pionus menstruus es conocido por ser relativamente silencioso, especialmente cuando se encuentra en bandadas. Aunque puede emitir sonidos fuertes ocasionalmente, su comportamiento discreto facilita que se mezcle en el entorno, evitando así a los depredadores",
         "location": "Ecohotel El Castillo",
-        "bibliography": "El Pionus menstruus, conocido como loro cabeciazul, tiene un papel importante en su ecosistema, principalmente a través de la dispersión de semillas al alimentarse de frutas, lo cual ayuda en la regeneración de la vegetación y mantiene la biodiversidad del área. Además, también contribuye al control de plagas al consumir insectos y brotes jóvenes, ayudando a mantener el equilibrio en el ecosistema."
+        "bibliography": "El Pionus menstruus, conocido como loro cabeciazul, tiene un papel importante en su ecosistema, principalmente a través de la dispersión de semillas al alimentarse de frutas, lo cual ayuda en la regeneración de la vegetación y mantiene la biodiversidad del área. Además, también contribuye al control de plagas al consumir insectos y brotes jóvenes, ayudando a mantener el equilibrio en el ecosistema.",
+        "birdSound":"audios/pico/cabeciazul",
+            "autorSonido": " Grabador: Fernando Igor de Godoy (Brazil)"
       }
     },
    
@@ -2158,7 +2164,9 @@
         "funFact1": "Tamaño Pequeño y Carácter Sociable: El periquito de anteojos es uno de los loros más pequeños de América, midiendo apenas 12-13 cm. A pesar de su tamaño, es muy sociable y se lo encuentra en grupos grandes, lo que le ayuda a mantenerse seguro frente a depredadores y facilita la búsqueda de alimentos.",
         "funFact2": "Marcado Dimorfismo Sexual: Existe un dimorfismo sexual evidente en esta especie: los machos presentan un llamativo color azul en las alas y detrás de los ojos, mientras que las hembras carecen de estas marcas, lo que permite diferenciarlos fácilmente a simple vista.",
         "location": "Ecohotel El Castillo",
-        "bibliography": "El Forpus conspicillatus, conocido como periquito de anteojos, tiene un impacto ecológico importante al participar en la dispersión de semillas. Su dieta incluye frutas y semillas, contribuyendo a la regeneración de la vegetación y al mantenimiento de la biodiversidad de su entorno. También ayuda a controlar poblaciones de insectos al consumir brotes y pequeños invertebrados, lo cual beneficia la salud de las plantas"
+        "bibliography": "El Forpus conspicillatus, conocido como periquito de anteojos, tiene un impacto ecológico importante al participar en la dispersión de semillas. Su dieta incluye frutas y semillas, contribuyendo a la regeneración de la vegetación y al mantenimiento de la biodiversidad de su entorno. También ayuda a controlar poblaciones de insectos al consumir brotes y pequeños invertebrados, lo cual beneficia la salud de las plantas",
+        "birdSound":"audios/pico/anteojos",
+            "autorSonido": "Grabador: Jerome Fischer (Colombia)"
       }
     },
     {
@@ -2208,7 +2216,9 @@
         "funFact1": " Gran Adaptabilidad a Diferentes Hábitats: El guacamayo severo es capaz de adaptarse a una variedad de hábitats, desde selvas tropicales hasta áreas abiertas y bosques secundarios. Esta adaptabilidad le permite encontrar recursos y sobrevivir en entornos donde otras especies podrían tener dificultades",
         "funFact2": "Personalidad Juguetona y Ruidosa: Esta especie es conocida por su personalidad curiosa y juguetona. Son aves inteligentes y muy activas, a menudo vistas explorando y manipulando objetos en su entorno. Además, son bastante ruidosas, emitiendo vocalizaciones fuertes que usan para comunicarse entre ellas y para marcar su territorio",
         "location": "Ecohotel El Castillo",
-        "bibliography": "El Ara severus, tiene un papel importante en su ecosistema como dispersor de semillas. Al alimentarse de frutos y semillas, dispersa una gran variedad de especies vegetales, ayudando a la regeneración del bosque y fomentando la diversidad vegetal. También contribuye a la poda natural de árboles y ramas, lo cual promueve el crecimiento saludable de las plantas"
+        "bibliography": "El Ara severus, tiene un papel importante en su ecosistema como dispersor de semillas. Al alimentarse de frutos y semillas, dispersa una gran variedad de especies vegetales, ayudando a la regeneración del bosque y fomentando la diversidad vegetal. También contribuye a la poda natural de árboles y ramas, lo cual promueve el crecimiento saludable de las plantas",
+        "birdSound":"audios/pico/Guacamayo",
+        "autorSonido": "Grabador: Thiago Bicudo"
       }
     },
     {
@@ -2258,7 +2268,9 @@
         "funFact1": "Excelente imitación de sonidos humanos en cautiverio, como otros miembros del mismo complejo, y como esos, hay evidencia de dialectos regionales en esta especie.",
         "funFact2": "La principal causa del fracaso reproductivo de estas aves es la caza furtiva por parte de los humanos (77,8% de los nidos; 49 de 63).",
         "location": "Ecoparque Río Pance.",
-        "bibliography": "La Amazona ochrocephala, conocida como lora de cabeza amarilla, desempeña un papel fundamental en su ecosistema mediante la dispersión de semillas. Al alimentarse de una variedad de frutos, dispersa las semillas y facilita la regeneración y diversidad de la vegetación en los bosques. Además, al consumir flores y néctar, también actúa como un polinizador ocasional, apoyando la reproducción de algunas plantas."
+        "bibliography": "La Amazona ochrocephala, conocida como lora de cabeza amarilla, desempeña un papel fundamental en su ecosistema mediante la dispersión de semillas. Al alimentarse de una variedad de frutos, dispersa las semillas y facilita la regeneración y diversidad de la vegetación en los bosques. Además, al consumir flores y néctar, también actúa como un polinizador ocasional, apoyando la reproducción de algunas plantas.",
+        "birdSound":"audios/pico/",
+            "autorSonido": "Grabador: David Riaño Cortés (Colombia)"
       }
     },
     {
@@ -2308,7 +2320,9 @@
         "funFact1": "Monógama permanecen juntas todo el año, pero duermen individualmente en agujeros.",
         "funFact2": "Las técnicas de alimentación incluyen martillar en la corteza, sondear, recolectar de troncos, ramas y follaje, y alcanzar frutas; perfora la piel de frutas más grandes para obtener contenido.",
         "location": "Ecohotel El Castillo.",
-        "bibliography": "El Melanerpes rubricapillus, conocido como carpintero habado, tiene efectos importantes en su ecosistema al contribuir al control de plagas, ya que se alimenta de insectos, incluyendo larvas que habitan bajo la corteza de los árboles. Además, excava agujeros en los troncos para anidar, lo cual crea cavidades que luego pueden ser utilizadas por otras especies, como aves más pequeñas y mamíferos, contribuyendo a la disponibilidad de sitios de anidación y favoreciendo la biodiversidad."
+        "bibliography": "El Melanerpes rubricapillus, conocido como carpintero habado, tiene efectos importantes en su ecosistema al contribuir al control de plagas, ya que se alimenta de insectos, incluyendo larvas que habitan bajo la corteza de los árboles. Además, excava agujeros en los troncos para anidar, lo cual crea cavidades que luego pueden ser utilizadas por otras especies, como aves más pequeñas y mamíferos, contribuyendo a la disponibilidad de sitios de anidación y favoreciendo la biodiversidad.",
+        "birdSound":"audios/pico/",
+        "autorSonido": "Grabador: David Riaño Cortés (Colombia)"
       }
     },
     {
@@ -2358,7 +2372,9 @@
         "funFact1": "Las aves que incuban regurgitan (flujo relajado del contenido del estómago hacia afuera de la boca, con frecuencia, mediante un eructo) escamas y huesos de pescado no digeridos, lo que atrae a las moscas a la cámara del nido.",
         "funFact2": "Los polluelos se ponen de pie 15 horas después de la eclosión. Los ojos se abren y las plumas del cuerpo comienzan a emerger de la piel a los 10 días después de la eclosión.",
         "location": "Ecoparque Río Pance.",
-        "bibliography": "La Megaceryle torquata, conocida como martín pescador grande, tiene un papel clave en los ecosistemas acuáticos. Al ser un predador de peces, anfibios e invertebrados acuáticos, contribuye al control de las poblaciones de estas especies, ayudando a mantener el equilibrio en los cuerpos de agua donde habita. Además, su actividad de pesca favorece el movimiento de nutrientes entre el agua y la tierra, lo que beneficia la productividad del entorno acuático y ribereño."
+        "bibliography": "La Megaceryle torquata, conocida como martín pescador grande, tiene un papel clave en los ecosistemas acuáticos. Al ser un predador de peces, anfibios e invertebrados acuáticos, contribuye al control de las poblaciones de estas especies, ayudando a mantener el equilibrio en los cuerpos de agua donde habita. Además, su actividad de pesca favorece el movimiento de nutrientes entre el agua y la tierra, lo que beneficia la productividad del entorno acuático y ribereño.",
+        "birdSound":"audios/pico/Martín",
+        "autorSonido": " Grabador: Jerome Fischer (Colombia)"
       }
     },
     {
@@ -2408,7 +2424,9 @@
       "funFact1": "Comportamiento Terrestre: A diferencia de muchos otros carpinteros, el carpintero punteado suele buscar alimento en el suelo, donde excava en busca de insectos y hormigas, lo cual es un comportamiento inusual para la mayoría de las especies de carpinteros.",
       "funFact2": "Comunicación a Través de Golpeteo: Esta especie utiliza un comportamiento llamado tamborileo, que consiste en golpetear repetidamente los troncos con su pico. Este sonido sirve para marcar territorio y atraer pareja, siendo una forma importante de comunicación dentro de la especie.",
       "location": "Jardín Botánico de Cali.",
-      "bibliography": "El Colaptes punctigula, contribuye al control de plagas al alimentarse de insectos y larvas que encuentra en troncos y suelos, beneficiando la salud de los árboles y reduciendo la proliferación de plagas. Además, al perforar troncos para crear nidos, genera cavidades que posteriormente pueden ser utilizadas por otras especies, como aves y mamíferos pequeños, promoviendo la diversidad de fauna en el área."
+      "bibliography": "El Colaptes punctigula, contribuye al control de plagas al alimentarse de insectos y larvas que encuentra en troncos y suelos, beneficiando la salud de los árboles y reduciendo la proliferación de plagas. Además, al perforar troncos para crear nidos, genera cavidades que posteriormente pueden ser utilizadas por otras especies, como aves y mamíferos pequeños, promoviendo la diversidad de fauna en el área.",
+      "birdSound":"audios/pico/Carpintero moteado",
+        "autorSonido": " Grabador: Luis Eduardo Vidal Salgado (Colombia)"
     }
   }
 ]
@@ -2469,7 +2487,9 @@
         "funFact1": "Es conocida por su característica cresta que puede erguir y que tiene un tono amarillento, visible cuando está emocionada o alerta",
         "funFact2": "Su canto es muy distintivo y repetitivo, lo que la hace fácilmente identificable en su hábitat, especialmente durante la época de reproducción",
         "location": "Ecohotel El Castillo",
-        "bibliography": " desempeña un papel importante como dispersora de semillas, ya que consume una variedad de frutos y ayuda a la propagación de plantas al excretar las semillas en diferentes áreas. También contribuye al control de insectos, ya que su dieta incluye insectos que captura en vuelo, lo que ayuda a mantener el equilibrio en la cadena alimentaria del ecosistema."
+        "bibliography": " desempeña un papel importante como dispersora de semillas, ya que consume una variedad de frutos y ayuda a la propagación de plantas al excretar las semillas en diferentes áreas. También contribuye al control de insectos, ya que su dieta incluye insectos que captura en vuelo, lo que ayuda a mantener el equilibrio en la cadena alimentaria del ecosistema.",
+        "birdSound":"audios/cantoras/Elaenia",
+        "autorSonido": "Grabador: Jerome Fischer (Colombia)"
       }
     },
     {
@@ -2519,7 +2539,9 @@
         "funFact1": "Buscan alimento en parejas o pequeños grupos familiares en la vegetación densa cerca del suelo o en el dosel abierto de nivel medio de los árboles",
         "funFact2": "Polluelos parcialmente dependientes de los padres hasta 43 días, se benefician de la deforestación, extendiéndose hacia claros y plantaciones, donde suele ser común",
         "location": "Ecoparque Río Pance",
-        "bibliography": "Todirostrum cinereum, ecológicamente, desempeña un papel importante como controlador de poblaciones de insectos, ya que se alimenta principalmente de ellos, incluyendo mosquitos, hormigas y otros insectos pequeños. Esto contribuye al equilibrio del ecosistema y ayuda a reducir la proliferación de plagas. Además, al consumir frutos pequeños y dispersar las semillas a través de sus excrementos, favorece la regeneración y diversidad de la vegetación en su hábitat, contribuyendo a la salud del ecosistema donde vive"
+        "bibliography": "Todirostrum cinereum, ecológicamente, desempeña un papel importante como controlador de poblaciones de insectos, ya que se alimenta principalmente de ellos, incluyendo mosquitos, hormigas y otros insectos pequeños. Esto contribuye al equilibrio del ecosistema y ayuda a reducir la proliferación de plagas. Además, al consumir frutos pequeños y dispersar las semillas a través de sus excrementos, favorece la regeneración y diversidad de la vegetación en su hábitat, contribuyendo a la salud del ecosistema donde vive",
+                "birdSound":"audios/cantoras/Titirijí común - Todirostrum cinereum",
+        "autorSonido": "Grabador: Fernando Igor de Godoy (Brazil)"
       }
     },
     {
@@ -2569,7 +2591,9 @@
         "funFact1": "Durante la temporada de cría, los machos de los papamoscas bermellones realizan un espectacular canto de vuelo a 20-30 m sobre el dosel, y parecen rebotar en el cielo con sus alas revoloteando mientras cantan",
         "funFact2": "En la caza aérea, persigue a la presa y la atrapa en el aire en un vuelo directo y rápido. Las presas que escapan al ataque inicial pueden ser perseguidas en una persecución acrobática errática hasta la captura",
         "location": "Ecoparque Río Pance",
-        "bibliography": "Pyrocephalus rubinus, ecológicamente, desempeña un papel importante en el control de poblaciones de insectos, ya que se alimenta de una variedad de insectos voladores, como mosquitos, polillas y escarabajos, contribuyendo a mantener el equilibrio y reducir las plagas en su entorno. Además, al consumir frutos ocasionalmente, también ayuda en la dispersión de semillas, promoviendo la regeneración y diversidad de la vegetación en su hábitat, lo que beneficia la salud y el equilibrio del ecosistema donde vive"
+        "bibliography": "Pyrocephalus rubinus, ecológicamente, desempeña un papel importante en el control de poblaciones de insectos, ya que se alimenta de una variedad de insectos voladores, como mosquitos, polillas y escarabajos, contribuyendo a mantener el equilibrio y reducir las plagas en su entorno. Además, al consumir frutos ocasionalmente, también ayuda en la dispersión de semillas, promoviendo la regeneración y diversidad de la vegetación en su hábitat, lo que beneficia la salud y el equilibrio del ecosistema donde vive",
+                "birdSound":"audios/cantoras/Mosquero",
+        "autorSonido": " Grabador: Fernando Jacobs (Brazil)"
       }
     },
     {
@@ -2619,7 +2643,9 @@
         "funFact1": "A menudo roba material de nidificación de nidos abandonados o no vigilados de otras aves. Los nidos están construidos principalmente de pasto, pero también pueden incorporar ramitas delgadas, zarcillos de enredaderas leñosas, papel, algodón, trapos e incluso basura plástica",
         "funFact2": "Aproximadamente 1 día antes de emplumar, los polluelos se paran en la entrada del nido y baten las alas, lo que hace que el techo del nido se derrumbe.",
         "location": "Ecohotel El Castillo",
-        "bibliography": "Esta ave habita en una amplia variedad de ecosistemas, desde áreas urbanas hasta bosques y zonas rurales, ecológicamente, desempeña un papel fundamental en el control de insectos, ya que se alimenta de una amplia variedad de ellos, ayudando a mantener el equilibrio de sus poblaciones. Además, es un dispersor de semillas, ya que también consume frutas, contribuyendo a la regeneración de la vegetación y la biodiversidad de su hábitat. Al ser un ave adaptable, contribuye significativamente al equilibrio y la salud de los ecosistemas donde vive."
+        "bibliography": "Esta ave habita en una amplia variedad de ecosistemas, desde áreas urbanas hasta bosques y zonas rurales, ecológicamente, desempeña un papel fundamental en el control de insectos, ya que se alimenta de una amplia variedad de ellos, ayudando a mantener el equilibrio de sus poblaciones. Además, es un dispersor de semillas, ya que también consume frutas, contribuyendo a la regeneración de la vegetación y la biodiversidad de su hábitat. Al ser un ave adaptable, contribuye significativamente al equilibrio y la salud de los ecosistemas donde vive.",
+                "birdSound":"audios/cantoras/Bienteveo",
+        "autorSonido": "Grabador: Jayrson Araujo de Oliveira (Brazil)"
       }
     }
 ]
@@ -2671,7 +2697,9 @@
     "funFact1": "El Tyrannus savana es famoso por su vuelo acrobático. Realiza maniobras en el aire para atrapar insectos y también durante la temporada de apareamiento, lo que lo hace muy llamativo y espectacular.",
     "funFact2": "Estas aves son migratorias y pueden viajar largas distancias. Pasan la temporada de cría en América del Norte y luego migran a América del Sur para el invierno, cubriendo miles de kilómetros en el proceso.",
     "location": "Bosque Escondido",
-    "bibliography": "El Tyrannus savana, juega un papel importante en su ecosistema como controlador de insectos. Estas aves se alimentan principalmente de insectos voladores, contribuyendo a regular sus poblaciones y ayudando a mantener el equilibrio ecológico. Además, al moverse por diversas áreas durante su migración, participan en la dispersión de semillas, lo que favorece la regeneración de la vegetación en distintos hábitats"
+    "bibliography": "El Tyrannus savana, juega un papel importante en su ecosistema como controlador de insectos. Estas aves se alimentan principalmente de insectos voladores, contribuyendo a regular sus poblaciones y ayudando a mantener el equilibrio ecológico. Además, al moverse por diversas áreas durante su migración, participan en la dispersión de semillas, lo que favorece la regeneración de la vegetación en distintos hábitats",
+           "birdSound":"audios/cantoras/Tijereta",
+        "autorSonido": "Grabador: David Monroy Rengifo (Colombia)"
   }
 },
 {
@@ -2721,7 +2749,9 @@
     "funFact1": "Estas aves son conocidas por ser extremadamente territoriales y defender sus nidos de otras aves, llegando incluso a destruir huevos o crías de competidores que anidan cerca.",
     "funFact2": "Troglodytes aedon tiene una amplia capacidad de adaptación y puede anidar en casi cualquier lugar, incluyendo cavidades naturales, cajas nido, construcciones humanas y objetos abandonados, lo que les permite habitar en entornos urbanos y rurales.",
     "location": "Ecohotel El Castillo",
-    "bibliography":"Desempeña un papel importante en su ecosistema al ser un controlador natural de insectos. Como insectívora, se alimenta de una variedad de insectos y arácnidos, ayudando a regular sus poblaciones y contribuyendo al equilibrio ecológico. Además, al construir sus nidos en cavidades y a menudo ocupar nidos abandonados de otras aves, promueve la reutilización de recursos y ayuda a mantener la biodiversidad en su hábitat"
+    "bibliography":"Desempeña un papel importante en su ecosistema al ser un controlador natural de insectos. Como insectívora, se alimenta de una variedad de insectos y arácnidos, ayudando a regular sus poblaciones y contribuyendo al equilibrio ecológico. Además, al construir sus nidos en cavidades y a menudo ocupar nidos abandonados de otras aves, promueve la reutilización de recursos y ayuda a mantener la biodiversidad en su hábitat",
+           "birdSound":"audios/cantoras/Chochín",
+        "autorSonido": " Grabador: Brendan Sloan (Costa Rica)"
 
   }
 },
@@ -2772,7 +2802,9 @@
     "funFact1": "Turdus ignobilis es conocido por su canto melodioso y variado, que utiliza tanto para comunicarse como para marcar su territorio, siendo una de las aves más vocales en su entorno",
     "funFact2": "Aunque se encuentra principalmente en áreas boscosas, esta ave se ha adaptado bien a entornos urbanos y rurales, donde puede ser vista buscando alimento en jardines, parques y áreas verdes cercanas a las zonas habitadas por humanos",
     "location": "Universidad Javeriana de Cali",
-    "bibliography":"Turdus ignobilis, juega un papel importante en su ecosistema al dispersar semillas de los frutos que consume. Esto contribuye a la regeneración y propagación de plantas y árboles en su hábitat, promoviendo la biodiversidad. Además, se alimenta de insectos y pequeños invertebrados, ayudando a controlar sus poblaciones y manteniendo el equilibrio ecológico."
+    "bibliography":"Turdus ignobilis, juega un papel importante en su ecosistema al dispersar semillas de los frutos que consume. Esto contribuye a la regeneración y propagación de plantas y árboles en su hábitat, promoviendo la biodiversidad. Además, se alimenta de insectos y pequeños invertebrados, ayudando a controlar sus poblaciones y manteniendo el equilibrio ecológico.",
+           "birdSound":"audios/cantoras/Icterus nigrogularis",
+        "autorSonido": "Grabador: Jerome Fischer"
   }
 },
 {
@@ -2822,7 +2854,9 @@
     "funFact1": "es el ave nacional de Venezuela y es apreciado por su llamativo plumaje amarillo y negro, así como por su canto melodioso y variado",
     "funFact2": "Esta especie es conocida por su comportamiento oportunista, ya que puede utilizar nidos abandonados de otras aves o incluso robar materiales de otros nidos para construir el suyo.",
     "location": "Universidad Javeriana de Cali",
-    "bibliography":"tiene un papel ecológico importante como dispersor de semillas, ya que se alimenta de frutas y ayuda a la propagación de plantas en su entorno. Además, consume insectos, contribuyendo al control de sus poblaciones y manteniendo el equilibrio del ecosistema donde habita."
+    "bibliography":"tiene un papel ecológico importante como dispersor de semillas, ya que se alimenta de frutas y ayuda a la propagación de plantas en su entorno. Además, consume insectos, contribuyendo al control de sus poblaciones y manteniendo el equilibrio del ecosistema donde habita.",
+           "birdSound":"audios/cantoras/Turpial",
+        "autorSonido": " Grabador: Arne Thelin (Suriname – Noreste de América del Sur)"
   }
 },
 {
@@ -2872,7 +2906,9 @@
     "funFact1": "El mielero verde tiene una lengua larga y tubular que le permite extraer néctar de las flores de manera eficiente, similar a los colibríes, lo que lo convierte en un polinizador efectivo.",
     "funFact2": "Los machos y las hembras de esta especie tienen un dimorfismo sexual notable: los machos son de un brillante color verde esmeralda, mientras que las hembras presentan un plumaje verde oliva más apagado",
     "location": "Ecoparque Río Pance",
-    "bibliography":"Chlorophanes spiza, conocida como mielero verde, juega un papel importante en su ecosistema como polinizador y dispersor de semillas. Al alimentarse de néctar y frutos, contribuye a la polinización de diversas plantas y a la propagación de semillas, lo que favorece la regeneración y diversidad de la vegetación en su hábitat. También consume insectos, ayudando a controlar sus poblaciones"
+    "bibliography":"Chlorophanes spiza, conocida como mielero verde, juega un papel importante en su ecosistema como polinizador y dispersor de semillas. Al alimentarse de néctar y frutos, contribuye a la polinización de diversas plantas y a la propagación de semillas, lo que favorece la regeneración y diversidad de la vegetación en su hábitat. También consume insectos, ayudando a controlar sus poblaciones",
+           "birdSound":"audios/cantoras/Mielerito",
+        "autorSonido": "Grabador: Jerome Fischer (Brazil)"
   }
 },
 {
@@ -2924,9 +2960,11 @@
     "funFact1": "Los machos de Sicalis flaveola tienen un llamativo plumaje amarillo brillante, especialmente durante la época de reproducción, mientras que las hembras presentan colores más apagados para camuflarse mejor",
     "funFact2": "Esta especie se adapta muy bien a entornos urbanos y rurales, y a menudo se les puede ver en áreas habitadas por humanos, construyendo sus nidos en techos, estructuras artificiales o incluso cajas de nido.",
     "location": "Ecohotel El Castillo",
-    "bibliography":"Sicalis flaveola, desempeña un papel importante en su ecosistema al consumir semillas, contribuyendo a la dispersión y control de plantas y malezas. También se alimenta de insectos, lo que ayuda a regular las poblaciones de estos invertebrados y a mantener el equilibrio ecológico en su hábitat."
+    "bibliography":"Sicalis flaveola, desempeña un papel importante en su ecosistema al consumir semillas, contribuyendo a la dispersión y control de plantas y malezas. También se alimenta de insectos, lo que ayuda a regular las poblaciones de estos invertebrados y a mantener el equilibrio ecológico en su hábitat.",
+           "birdSound":"audios/cantoras/azafranado",
+        "autorSonido": "Grabador:Joao Gava (Brazil)"
   }
-},
+}, 
 
 
 
@@ -2984,7 +3022,9 @@
             "funFact1": "Permanece inmóvil durante el día. Se posa en ramas altas, aunque generalmente se lo ve en una postura erguida, cuando no está alarmado se posa verticalmente pero más corto y más grueso, con el pico dirigido hacia adelante en lugar de hacia arriba",
             "funFact2": "Cuando sospecha que lo están observando, alarga su cuerpo, comprime su plumaje y levanta la cabeza, todo tan gradualmente que no se percibe ningún movimiento. Pueden usar el mismo dormidero diurno durante meses seguidos",
             "location": "Ecoparque Río Pance",
-            "bibliography": "Nyctibius griseus, juega un papel ecológico crucial en su ecosistema. Como depredador nocturno de insectos, contribuye al control de poblaciones de plagas, ayudando a mantener el equilibrio en la cadena alimentaria. Además, al consumir insectos que podrían dañar la vegetación, ayuda indirectamente a proteger la flora local. Al ser parte de la red trófica, también sirve como presa para depredadores más grandes, lo que lo convierte en un componente importante para la biodiversidad del ecosistema en el que vive."
+            "bibliography": "Nyctibius griseus, juega un papel ecológico crucial en su ecosistema. Como depredador nocturno de insectos, contribuye al control de poblaciones de plagas, ayudando a mantener el equilibrio en la cadena alimentaria. Además, al consumir insectos que podrían dañar la vegetación, ayuda indirectamente a proteger la flora local. Al ser parte de la red trófica, también sirve como presa para depredadores más grandes, lo que lo convierte en un componente importante para la biodiversidad del ecosistema en el que vive.",
+                   "birdSound":"audios/cantoras/Bienteveo",
+        "autorSonido": "Grabador: Jayrson Araujo de Oliveira (Brazil)"
       }
     }
    

@@ -11,13 +11,7 @@ public class Login : MonoBehaviour
     public TMP_InputField emailInputField;
     public TMP_InputField passwordInputField;
 
-    private void Awake()
-    {
-#if UNITY_EDITOR
-        emailInputField.text = "test@gmail.com";
-        passwordInputField.text = "111111";
-#endif
-    }
+
 
     public async void onLoginButtonClick()
     {
