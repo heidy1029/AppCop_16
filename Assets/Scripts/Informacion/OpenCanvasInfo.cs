@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class OpenCanvasInfo : MonoBehaviour
 {
-    public GameObject InfoCanvas;
-    public GameObject InfoAves;  // El canvas de la trivia que estará inicialmente desactivado
-    public void ActivarCanvas()
+    public GameObject FaunaDagma;
+    public GameObject InfoAves; 
+    public GameObject SabiasQue;
+    public GameObject Trafico1; 
+    public GameObject Trafico2; 
+    public void ActivarCanvasFauna()
     {
-        InfoCanvas.SetActive(true);  // Activar el Canvas
+        FaunaDagma.SetActive(true);  // Activar el Canvas
 
     }
-    public void CerrarCanvas()
+    public void CerrarCanvasFauna()
     {
-        InfoCanvas.SetActive(false);  // Desactivar el Canvas
+        FaunaDagma.SetActive(false);  // Desactivar el Canvas
     }
     public void ActivarCanvasAves()
     {
@@ -23,5 +26,32 @@ public class OpenCanvasInfo : MonoBehaviour
     public void CerrarCanvasAves()
     {
         InfoAves.SetActive(false);  // Desactivar el Canvas
+    }
+     public void ActivarCanvasSabiasQue()
+    {
+        SabiasQue.SetActive(true);  // Activar el Canvas
+
+    }
+    public void CerrarCanvasSabiasQue()
+    {
+        SabiasQue.SetActive(false);  // Desactivar el Canvas
+    }
+    public void ActivarCanvasTrafico1()
+    {
+        Trafico1.SetActive(true);  // Activar el Canvas
+
+    }
+    public void CerrarCanvasTrafico1()
+    {
+        Trafico1.SetActive(false);  // Desactivar el Canvas
+    }
+    public void ActivarCanvasTrafico2()
+    {
+        Trafico2.SetActive(true);  // Activar el Canvas
+
+    }
+    public void CerrarCanvasTrafico2()
+    {
+        Trafico2.SetActive(false);  // Desactivar el Canvas
     }
 }
