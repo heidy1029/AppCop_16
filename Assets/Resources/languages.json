@@ -16,7 +16,8 @@
     "nivel" : "Nivel Completado",
     "continuar":"continuar",
     "registrar":"Registrate",
-    "ingresar":"ingresar",
+    "ingresar":"inicio seción",
+    "ingresar2":"ingresar",
     "contraseña":"contraseña",
     "secion":"Ingresa",
     "cuenta":"¿No tienes cuenta?",
@@ -37,7 +38,11 @@
     "cantoras":"Aves cantoras",
     "textrañas":"Aves extrañas",
     "salir":"Salir",
-    "aves":"Preservacion aves"
+    "aves":"Preservacion aves",
+    "sabes":"¿Sabias que?",
+    "trafico1":"Tráfico aves y Gestión Ambiental",
+    "trafico2":"Amenazas y Soluciones para las Aves?"
+
   },
   "en": {
     "info_title": "Pause",
@@ -56,6 +61,7 @@
     "continuar":"Continue",
     "registrar":"Sign up",
     "ingresar":"Log in",
+    "ingresar2":"Sign up",
     "contraseña":"Password",
     "secion":"Login",
     "cuenta":"Don't have an account?",
@@ -75,7 +81,10 @@
     "cantoras":"Songbirds",
     "textrañas":"Strange birds",
       "salir":"Quit",
-      "aves":"Bird preservation"
+      "aves":"Bird preservation",
+      "sabes": "Did you know?",
+  "trafico1": "Bird trafficking and Environmental Management",
+  "trafico2": "Threats and Solutions for Birds?"
       
   }
 }
