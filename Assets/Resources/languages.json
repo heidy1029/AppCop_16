@@ -25,9 +25,9 @@
     "bienvenido":"Hola, Bienvenid@",
     "realizar":"¿Que quieres hacer hoy?",
     "jugar":"Jugar",
-    "aliados":"aliados estrategicos",
-    "biodiversidad":"Biodiversidad de valle",
-    "info":"a la sesion informativa",
+    "aliados":"Aliados estrategicos",
+    "biodiversidad":"Biodiversidad del valle del cauca",
+    "info":"Zona informativa",
     "fauna":"Fauna silvestre 2021-2024",
     "trivias":"Trivias",
     "acuatica":"Aves acuáticas",
@@ -38,10 +38,20 @@
     "cantoras":"Aves cantoras",
     "textrañas":"Aves extrañas",
     "salir":"Salir",
-    "aves":"Preservacion aves",
-    "sabes":"¿Sabias que?",
-    "trafico1":"Tráfico aves y Gestión Ambiental",
-    "trafico2":"Amenazas y Soluciones para las Aves?"
+    "aves":"Preservación de aves",
+    "sabes":"¿Sabías qué?",
+    "trafico1":"Tráfico de  aves y Gestión Ambiental",
+    "trafico2":"Amenazas y Soluciones para las Aves",
+    "titulo":"En Nuestra ciudad Santiago de Cali",
+    "titulo2":"Principales Espacios de Conservación en Cali",
+    "titulo3":"Lugares de Avistamiento de Aves",
+    "titulo4":"Tráfico de Aves",
+    "titulo5":"Principales familias de aves decomisadas",
+    "titulo6":"Número de individuos decomisados",
+    "titulo7":"Principales especies de Aves decomisadas",
+    "titulo8":"Número de individuos decomisados",
+    "titulo9":"Principales ordenes de fauna y número de individuos según ingreso",
+    "titulo10":"Especies de fauna mas traficadas en el Departamento del Valle del Cauca según la Corporación Autónoma Regional del Valle del Cauca - CVC (2020)"
 
   },
   "en": {
@@ -84,7 +94,17 @@
       "aves":"Bird preservation",
       "sabes": "Did you know?",
   "trafico1": "Bird trafficking and Environmental Management",
-  "trafico2": "Threats and Solutions for Birds?"
-      
+  "trafico2": "Threats and Solutions for Birds?",
+  "titulo":"In our city, Santiago de Cali,",
+  "titulo2":"Main Conservation Areas in Cali",
+  "titulo3":"Lugares de Avistamiento de Aves",
+  "titulo4":"Illegal Bird Trafficking",
+  "titulo5":"Main Families of Confiscated Birds",
+  "titulo6":"Main Species of Confiscated Birds",
+  "titulo7":"Bird Watching Places",
+  "titulo8":"Main Species of Confiscated Birds",
+  "titulo9":"Main Orders of Wildlife and Number of Individuals by Type of Admision",
+  "titulo10":"Most Trafficked Wildlife Species in the Department of Valle del Cauca according to the Regional Autonomous Corporation of Valle del Cauca - CVC (2020)"
+ 
   }
 }
